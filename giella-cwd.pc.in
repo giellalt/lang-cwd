@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=cwd
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-cwd
+Description: Finite-state language processing tools for Woods Cree
+URL: https://giellalt.uit.no/index.html
+Version: @VERSION@
