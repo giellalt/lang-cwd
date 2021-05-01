@@ -1,3 +1,54 @@
+Noun inflection
+The Woods Cree language nouns inflect in cases.
+
+
+
+Proper noun inflection
+The Woods Cree language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Adjective inflection
+The Woods Cree language adjectives compare.
+
+
+
+Verb inflection
+The Woods Cree language verbs inflect in persons.
+
+
+
+=================================== !
+The Woods Cree morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+
+
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Woods Cree LANGUAGE.
 
@@ -76,6 +127,85 @@ given the proper use of these flags.
 
 The word forms in Woods Cree language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
+Nouns
+Nouns in the Woods Cree language are things.
+
+
+Prefixes
+Prefixes in the Woods Cree language are bound to beginning of other words.
+
+
+
+Pronouns
+Pronouns in the Woods Cree language are references to things.
+
+
+Adjectives
+Adjectives in the Woods Cree language describe things.
+
+
+Verbs
+Verbs in the Woods Cree language are actions.
+
+
+Numerals
+Numerals in the Woods Cree language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 
