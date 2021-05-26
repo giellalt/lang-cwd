@@ -1,79 +1,280 @@
 
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Woods Cree LANGUAGE.
+# Woods Cree morphological analyser
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Plains Cree LANGUAGE.
 
 
  # Definitions for Multichar_Symbols
 
 ## Analysis symbols
-The morphological analyses of wordforms for the Woods Cree
-language are presented in this system in terms of the following symbols.
+
+The morphological analyses of wordforms of Plains Cree are presented
+in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
-The parts-of-speech are:
+POS
 
-The parts of speech are further split up into:
-
-The Usage extents are marked using following tags:
-
-The nominals are inflected in the following Case and Number
-
-The possession is marked as such:
-The comparative forms are:
-Numerals are classified under:
-Verb moods are:
-Verb personal forms are:
-Other verb forms are
-
+ * +N	         = Noun
+ * +V	         = Verb
+ * +Ipc		 = Indeclinable Particle
+ * +Prop       
+ * +Adv        
+ * +CC         
+ * +CS         
+ * +Interj     
+ * +Phr        
+ * +Pron       
+ * +Num        
+ * +Arab       
+ * +Rom        
+ * +PUNCT       = punctuation symbols
+ * +LEFT        = the left part of a paired punctuation symbol
+ * +RIGHT       = the right part of a paired punctuation symbol
+ * +CLB         = clause boundary symbols
  * +Symbol = independent symbols in the text stream, like £, €, ©
-Special symbols are classified with:
-The verbs are syntactically split according to transitivity:
-Special multiword units are analysed with:
-Non-dictionary words can be recognised with:
+ * +ABBR 
 
-Question and Focus particles:
+Nominal morphology
 
+ * +Loc         Locative
+ * +Obv         Obviative
+ * +Voc         Vocative
 
-Semantics are classified with
+ * +Dim         Diminutive
 
-
-Derivations are classified under the morphophonetic form of the suffix, the
-source and target part-of-speech.
+Particles
 
 
-Morphophonology
-To represent phonologic variations in word forms we use the following
-symbols in the lexicon files:
+ * +Def	     This is the intransitive demonstrative, i.e. the definite.
+ * +Indef       Indefinite
 
-And following triggers to control variation
+ * +Dem         Demonstrative
+ * +Prox	     Demonstrative Proximate
+ * +Med	     Demonstrative Medial
+ * +Dist	     Demonstrative Distal
+ * +Pers = personal pronouns? At least it seems so based on the code
+ * +Interr      Interrogative (who/whose/what/what kind)
+ * +Foc	     Focus particle
 
-## Flag diacritics
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
++Ord +Ord   ordinals
 
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+Verbal MSP
+ * +Prs  
+ * +Fut  
+ * +Prt  
+ * +Cnj  
+ * +Int   Future Intentional
+ * +Def   Future Definite (TODO: okay to overlap with particle tag of the same name?)
 
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+ * +Ind   Indicative, aka Independent
+ * +Imp   Imperative, consider deleting +Imp tag
+ * +Del   Delayed imperative
+ * +Imm   Immediate imperative, consider deleting +Imp tag
+ * +Cond  TODO: Should Future Conditional be tagget Fut only? Conor: we will split the Future tags
 
-The word forms in Woods Cree language start from the lexeme roots of basic
-word classes, or optionally from prefixes:
+ * +1Sg     first singular
+ * +2Sg     etc
+ * +3Sg    
+
+ * +1Pl     1Pl is exclusive plural (I, them, not you)
+ * +2Pl    
+ * +3Pl    
+ * +12Pl    12Pl is inclusive plural (I, you, ...)
+ * +4Sg     Fourth Person inanimate singlar (used only in the VII paradigms)
+ * +4Pl     Fourth Person inanimate plural (used only in the VII paradigms)
+ * +4Sg/Pl    
+ * +5Sg/Pl    
+
+ * +1SgO    objective conjugation
+ * +2SgO   
+ * +2Sg/PlO    Used in the syncretic 2sg/pl -> 1pl in the VTA paradigms
+ * +3SgO   
+ * +SgO    
+ * +1PlO   
+ * +2PlO   
+ * +12PlO	
+ * +3PlO   
+ * +PlO    
+ * +4Sg/PlO  ambiguous 4th person (both Singular and Plural)
+ * +5Sg/PlO  ambiguous 5th person (both Singular and Plural)
+ * +X  Unspecified actor forms Okimāsis p. 118
+
+Person prefix fragment features
+
+
+Nominal morphosyntactic features
+ * +Sg		  singular
+ * +Pl		  plural
+
+ * +Px1Sg	  person prefixes for nouns
+ * +Px2Sg	 
+ * +Px3Sg	 
+ * +Px4Sg	 
+ * +Px1Pl	  obviative
+ * +Px12Pl	  inclusive
+ * +Px2Pl	 
+ * +Px3Pl	 
+ * +Px4Pl	 
+ * +Der/Dim  diminutive derivation
+
+ * RdplW+  Reduplication Type 1 (Weak)
+ * RdplS+  Reduplication Type 2 (Strong)
+
+ * +Der/Com  Comitative circumfix (wîci-...-m)
+ * +Der/X  VTI x-actor to VII-1
+
+Verb conjugation (transitivity + animacy classes)
+ * +AI       intransitive with animate subject,
+ * +II       intransitive with inanimate subject,
+ * +TA       transitive with animate object, and
+ * +TI       transitive with inanimate object.
+
+Noun animacy and dependency classes
+ * +A		  animate noun
+ * +I		  inanimate noun
+ * +D		  dependent noun
+
+ * +Qst      yes-no question particle; cî
+ * +Neg      negation; [na]môy[a].
+
+Preverbs
+
+
+
+
+
+
+
+
+
+
+## Auxiliary symbols
+
+These symbols either shape or govern the
+morphophonological structure
+
+ * %> 		  suffix border
+ * %< 		  prefix border
+
+
+## Symbols that need to be escaped on the lower side (towards twolc):
+ * **»7**:  Literal »
+ * **«7**:  Literal «
+```
+  %[%>%]  - Literal >
+  %[%<%]  - Literal <
+```
+
+Special characters for morphophonology
+ * w2       mowêw:mow2
+ * t2 		 Epenthetic -t- between person prefixes and vowel-initial stems
+ * t3       t to s in VTA-4
+ * t4       t:c in VTI-1 with unspecified actor
+ * y2       epenthetic joiner in reduplication of vowel-initial stems
+ * y3       epenthetic joiner in reduplication of vowel-initial stems
+ * i2       vta-5i epenthesis.
+
+ * h2 		  Prefix in possessives
+
+
+Triggers for various morphophonological phenomena
+Mostly, these are not realized themselves as any grapheme/phoneme
+
+ * %^EGLOT    glottal stop after e, for eh- in conjunctive order
+
+
+## Usage tags
+
+These tags distinguish different special-purpose analysers
+and generators from each other. Thus, for examples, we have
+normative and descriptive analysers, and generators for different purposes.
+
+ * +Err/Orth  tag for substandard forms
+ * +Err/Frag  tag for word-form fragments
+ * +Dial  tag for dialectical forms that can't be called errors
+ * +Use/NG   not-generate, for ped generation isme-ped.fst
+ * +Eng indicates that this is an English form
+
+Flagdiacritics
+
+These are documented in Chapter 8 of Beesley/Karttunen, p. 456 zB.
+
+For indicative, there are prefixes, so here we need one
+flag for each person-number combination. Note that
+for the inverse objective conjugation, the flag refers to
+the **prefix**, not to the subject. So *indsg1* refers to either
+subject = 1Sg or object = 1Sg. The 3-3 forms are prefixless.
+
+
+
+
+
+
+
+
+
+
+The conjunct form always has
+the ê- prefix, and future conditional never has a prefix.
+
+ * @U.verb.FutCon@  Future Conditional
+
+Prefixes with a certain phonological content:
+
+ * @U.person.NULL@ 
+ * @U.person.NI@ 
+ * @U.person.KI@ 
+
+Order
+
+ * @U.order.indep@  Independent
+ * @U.order.cnj@    Conjunct
+ * @U.order.imp@    Imperative
+
+
+
+
+
+
+Tense
+
+
+
+
+
+
+New multichar symbols for nouns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+End of new and all Multichar_Symbols
+
+
+  LEXICON Root          is where it all starts
+ * NOUN_PREFIXES   ;    
+ * NOUN_IRREGULARS ;    
+ * NOUN_VOCATIVES  ;    
+ * VerbPrefixes    ;    
+ * Pronoun         ;    
+ * Propernouns     ;    
+ * Particles       ;    
+ * Numerals        ;    
+ * Abbreviation    ;    
+ * Punctuation     ;    
+ * Symbols         ;    
+ * NON_STANDARD     ;    
 
