@@ -1,76 +1,109 @@
-á (->) á,
-Á (->) Á,
-đ (->) ð,
-ŋ (->) ń, # precomposed
-ŋ (->) ń, # n + combining acure
-ŋ (->) ñ, # ditto
-ŋ (->) ñ,
-æ (->) ä, # ditto, etc.
-æ (->) ä,
-Æ (->) Ä,
-Æ (->) Ä,
-ø (->) ö,
-ø (->) ö,
-Ø (->) Ö,
-Ø (->) Ö,
-ö (->) ø,
-ö (->) ø,
-Ö (->) Ø,
-Ö (->) Ø,
-ü (->) u, # Somali
-Ü (->) Ü, # Somali
-ï (->) i, # sma norm
-І (->) I, # Komi cyrillic (->) latin
-і (->) i, # Komi etc
-Ӧ (->) Ö, # Komi
-Ӧ (->) Ö, # Komi
-ӧ (->) ö, # Komi
-ӧ (->) ö, # Komi
-ӯ (->) ӯ, # Cyrillic у + U+0304 (->) precomposed
-ӣ (->) ӣ, # Cyrillic и + U+0304 (->) precomposed
-ӯ (->) у, # Cyrillic у + U+0304 (->) basic
-ӣ (->) и, # Cyrillic и + U+0304 (->) basic
-          # We use composing letters, may get precomposed input
-          # (No other long Cyrillic vowels precomposed)
-а̄ (->) а, # Cyrillic for sjd
-е̄ (->) е, # Cyrillic for sjd
-о̄ (->) о, # Cyrillic for sjd
-ӯ (->) у, # Cyrillic for sjd
-ы̄ (->) ы, # Cyrillic for sjd
-ю̄ (->) ю, # Cyrillic for sjd
-я̄ (->) я, # Cyrillic for sjd
-ӣ (->) и, # Cyrillic for sjd
-ˊ (->) ´, # 00B4 ACUTE ACCENT for Skolt 02CA MIDIFIER LETTER ACUTE ACCENT
-#' (->) 0, # Inari optional ' mark
-Ï (->) I ,
-а́ (->) а, # Russian long vowel, accept short
-е́ (->) е, # Russian long vowel, accept short
-и́ (->) и, # Russian long vowel, accept short
-о́ (->) о, # Russian long vowel, accept short
-у́ (->) у, # Russian long vowel, accept short
-я́ (->) я, # Russian long vowel, accept short
-ё (->) е, # Russian long vowel, accept je pro jo
-ы́ (->) ы, # Russian long vowel, accept short
-ю́ (->) ю # Russian long vowel, accept short
+# Copyright © 2015–2019 Alberta Language Technology Lab (ALTLab)
+# http://altlab.artsrn.ualberta.ca/
+#
+# This program is free software; you can redistribute and/or modify
+# this file under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Plains Cree long vowel variation.
+
+# short-i elision
+i (->) [ %' | ‘ | ’ ],
+
+â (->) {ā}, # a + combining macron U+0304
+î (->) {ī}, # i + combining macron U+0304
+ô (->) {ō}, # o + combining macron U+0304
+
+â (->) ā, # a macron
+î (->) ī, # i macron
+ô (->) ō, # o macron
+
+â (->) {â}, # a + combining circumflex accent U+0302
+î (->) {î}, # i + combining circumflex accent U+0302
+ô (->) {ô}, # o + combining circumflex accent U+0302
+
+# Long vowel markings are frequently dropped:
+
+â (->) a,
+î (->) i,
+ô (->) o,
+
+# NS 152 materials consistantly write some vowels as long where Arok's write
+# them as short.
+# E.G. NS 152 give 'askîy' and Arok gives 'askiy.'
+a (->) â,
+i (->) î,
+o (->) ô,,
+
+# Prefix-final vowel (preceded by consonant) dropped before initial vowel for following morpheme
+[ a | â | i | î | o | ô ]  (->) 0 || [ c | k | m | n | p | s | t | w | y ] _ %- [ a | â | i | î | o | ô ] ,,
+
+# Dealing with spaces instead of hyphens as separators in multipart words
+
+[ %- ] (->) [ %- ]+,  # Multiple hyphens into a single hyphen
+! [ "@U.joiner.NULL@" %- ] (->) 0, # Missing hyphens between prefixes/preverbs
+%- (->) [ %  | %  | %  ]+, # Multiple non-breaking or standard spaces SPACE + NBSP + NNBSP (in syllabics) to single hyphen
+
+# Dealing with English-influenced divergences from SRO, and misspellings based on modern pronunciation
+
+# Vowels
+[ i | î ] (->) {ee},
+[ a | â ] (->) u,
+
+# Consonants
+k (->) g,   # intervocalic voiced pronunciation to stops, maybe context should be added (including <c> overgenerates)
+p (->) b,   # intervocalic voiced pronunciation to stops, maybe context should be added
+t (->) d,   # intervocalic voiced pronunciation to stops, maybe context should be added
+c (->) j,   # English influence on spelling <c>
+
+# Glides
+# e.g., "tanisi ê-isiyihkâsoyan -> "tan'si ê-sikâsowan"
+# TODO: figure out what conditions this (probably /o/ or /i/)
+# These rules without context are EXCESSIVELY productive!
+# y (->) w,
+# w (->) y,
+
+# Proto-Algonquian dialectal /y/
+{th} (->) ý,
+
+{iw} (->) {ow},     # Misspelling based on assimilated pronunciation of underlying /i/ as /o/ before /w/
+{ow} (->) {iw},
+{iyi} (->) [ î | i ],       # Mishearing of vowel-glide-vowel cluster
+{nwa} (->) {no},    # <nwa> is likely to be heard as <no>
+
+c (->) {ch},        # English influence on spelling <c>
+c (->) {tch},       # English influence on spelling <c>
+c (->) {ts} ,,      # Another English influence on spelling <c>
+
+[..] (->) h || _ .#. ,, # Excessive word-final pre-aspiration
+   h (->) 0 || [ a | i | o | â | î | ô ] _ [ c | k | p | t ],,    # Missing preaspiration before stops
+[..] (->) h || [ a | i | o | â | î | ô ] _ [ c | k | p | t ],,  # Excessive preaspiration before stops
+
+# Standardizing double-vowel notation for long vowels
+â (->) {aa},
+î (->) {ii},
+ô (->) {oo},
+
+# Woods Cree to Plains Cree
+{th} (->) [ ý | y ] ,,
+[ î | i ] (->) [ ê | e ] ,,
+
+# Adding missing or reduced short i's in interconsonantal contexts
+i (->) [..] || [ c | h | k | m | n | p | s | t | w ] _ [ c | h | k | m | n | p | s | t | w ]
+
 ;
 
+
 # Explanation:
-# lexical side (->) input 
-
-# Future thought:
-# A posible change is to split this file into lg-specific files.
-# As the number of language grow, this might be more relevant.
-# Especially conflicting rules a -> b, b -> a in different lgs
-# might force a split of this file.
-
-# Note:
-# Some of the lines above seem to contain identical letters, 
-# and in some cases the same right-hand letter seems to occure twice.
-# In each case, the __second__ of these is a non-precomposed letter.
-# In order to check which one is which one, open this file in emacs
-# and read through the line with the arrow key. The letters who span over
-# two characters (press arrow twice) are the precomposed ones.
-
-# Note that the ï/Ï letters are there for sma.
-# They are probably substandard, and should be relegated to sma.fst
-# but removed from a sma.norm.fst.
+# lexical side (->) input
+# Or, in other words:
+# correct (->) in use out there
