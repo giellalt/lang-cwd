@@ -45,7 +45,7 @@ i (->) e,
 o (->) {oo} ,,
 
 # Prefix-final vowel (preceded by consonant) dropped before initial vowel for following morpheme
-[ a | â | e | i | î | o | ô | u ]  (->) 0 || [ c h | k | m | n | p | s | t | w | y ] _ %- [ a | â | e | i | î | o | ô | u ] ,,
+[ a | e | i | o | u ]  (->) 0 || [ c h | k | m | n | p | s | t | w | y ] _ %- [ a | e | i | o | u ] ,,
 
 # Dealing with spaces instead of hyphens as separators in multipart words
 
@@ -54,11 +54,6 @@ o (->) {oo} ,,
 %- (->) [ %  | %  | %  ]+, # Multiple non-breaking or standard spaces SPACE + NBSP + NNBSP (in syllabics) to single hyphen
 
 # Dealing with English-influenced divergences from SRO, and misspellings based on modern pronunciation
-
-# Vowels
-[ i | î ] (->) {ee},
-[ a | â ] (->) u,
-
 # Consonants
 k (->) g,   # intervocalic voiced pronunciation to stops, maybe context should be added (including <c> overgenerates)
 p (->) b,   # intervocalic voiced pronunciation to stops, maybe context should be added
@@ -77,28 +72,28 @@ c (->) j,   # English influence on spelling <c>
 {iyi} (->) [ î | i | e ],       # Mishearing of vowel-glide-vowel cluster
 {nwa} (->) {no},    # <nwa> is likely to be heard as <no>
 
-{ch} (->) {c},        # English influence on spelling <c>
-{ch} (->) {tch},       # English influence on spelling <c>
-{ch} (->) {ts} ,,      # Another English influence on spelling <c>
-
 [..] (->) h || _ .#. ,, # Excessive word-final pre-aspiration
-   h (->) 0 || [ a | e | i | o | u | â | î | ô ] _ [ c h | k | p | t ],,    # Missing preaspiration before stops
-[..] (->) h || [ a | e | i | o | u | â | î | ô ] _ [ c h | k | p | t ],,  # Excessive preaspiration before stops
-
-# Standardizing double-vowel notation for long vowels
-â (->) {aa},
-î (->) {ii},
-ô (->) {oo},
-
-# Woods Cree to Plains Cree
-{th} (->) [ ý | y ] ,,
-[ î | i ] (->) [ ê | e ] ,,
+   h (->) 0 || [ a | e | i | o | u ] _ [ c h | k | p | t ],,    # Missing preaspiration before stops
+[..] (->) h || [ a | e | i | o | u ] _ [ c h | k | p | t ],,  # Excessive preaspiration before stops
 
 # Adding missing or reduced short i's in interconsonantal contexts
-i (->) [..] || [ c h | h | k | m | n | p | s | t | w ] _ [ c h | h | k | m | n | p | s | t | w ]
+i (->) [..] || [ c h | h | k | m | n | p | s | t | w | y ] _ [ c h | h | k | m | n | p | s | t | w | y ]
+
+{ch} (->) {tch},          # English influence on spelling <c>
+{ch} (->) {ts},           # Another English influence on spelling <c>
+{ch} (->) {c} || _ \h ,,  # English influence on spelling <c>
+
+# Standardizing SRO to CMRO and double-vowel notation for long vowels
+a (->) [ â | {aa} ],
+u (->) a,
+e (->) {ii},
+{oo} (->) ô,
+
+# Plains/Proto-Cree to Woods Cree
+{th} (->) ý ,,
+e (->) [ ê | î | {ee} ] ,,
 
 ;
-
 
 # Explanation:
 # lexical side (->) input

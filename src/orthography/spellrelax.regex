@@ -53,11 +53,7 @@ o (->) ô,,
 ! [ "@U.joiner.NULL@" %- ] (->) 0, # Missing hyphens between prefixes/preverbs
 %- (->) [ %  | %  | %  ]+, # Multiple non-breaking or standard spaces SPACE + NBSP + NNBSP (in syllabics) to single hyphen
 
-# Dealing with English-influenced divergences from SRO, and misspellings based on modern pronunciation
-
-# Vowels
-[ i | î ] (->) {ee},
-[ a | â ] (->) u,
+# Dealing with misspellings based on modern pronunciation
 
 # Consonants
 k (->) g,   # intervocalic voiced pronunciation to stops, maybe context should be added (including <c> overgenerates)
@@ -72,33 +68,41 @@ c (->) j,   # English influence on spelling <c>
 # y (->) w,
 # w (->) y,
 
-# Proto-Algonquian dialectal /y/
-{th} (->) ý,
-
 {iw} (->) {ow},     # Misspelling based on assimilated pronunciation of underlying /i/ as /o/ before /w/
 {ow} (->) {iw},
 {iyi} (->) [ î | i ],       # Mishearing of vowel-glide-vowel cluster
 {nwa} (->) {no},    # <nwa> is likely to be heard as <no>
 
-c (->) {ch},        # English influence on spelling <c>
-c (->) {tch},       # English influence on spelling <c>
-c (->) {ts} ,,      # Another English influence on spelling <c>
-
 [..] (->) h || _ .#. ,, # Excessive word-final pre-aspiration
    h (->) 0 || [ a | i | o | â | î | ô ] _ [ c | k | p | t ],,    # Missing preaspiration before stops
 [..] (->) h || [ a | i | o | â | î | ô ] _ [ c | k | p | t ],,  # Excessive preaspiration before stops
 
+# Adding missing or reduced short i's in interconsonantal contexts
+i (->) [..] || [ c | h | k | m | n | p | s | t | w | y ] _ [ c | h | k | m | n | p | s | t | w | y ]
+
+# Converting CMRO spelling to SRO
+a (->) u,
+â (->) a,
+î (->) e,
+
+# Dealing with English-influenced divergences from SRO
+[ i | î ] (->) {ee},
+
 # Standardizing double-vowel notation for long vowels
 â (->) {aa},
 î (->) {ii},
-ô (->) {oo},
+ô (->) {oo}, # Also undoes CMRO
 
-# Woods Cree to Plains Cree
-{th} (->) [ ý | y ] ,,
+# English influence on <c>
+c (->) {ch},        # English influence on spelling <c>
+c (->) {tch},       # English influence on spelling <c>
+c (->) {ts} ,,      # Another English influence on spelling <c>
+
+# Plains/Proto-Cree to Woods Cree
+{th} (->) ý ,,
 [ î | i ] (->) [ ê | e ] ,,
 
-# Adding missing or reduced short i's in interconsonantal contexts
-i (->) [..] || [ c | h | k | m | n | p | s | t | w ] _ [ c | h | k | m | n | p | s | t | w ]
+
 
 ;
 
