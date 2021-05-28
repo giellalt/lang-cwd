@@ -1391,15 +1391,20 @@ There are more pronoums to be added here.
 
 
  LEXICON Personal  \\
- niya+Pron+Pers+1Sg:niya # ; 
- niya+Pron+Pers+1Sg:nîya # ;  
- kiya+Pron+Pers+2Sg:kiya # ; 
+ niýa+Pron+Pers+1Sg:niýa # ; 
+ kiýa+Pron+Pers+2Sg:kiýa # ; 
 
 
 
  LEXICON Interrogative   \\
- awîna+Pron+Interr+Sg:awîna # "who,whose" ;
- awîna+Pron+Interr+Pl:awîniki # "who" ;
+ awîna+Pron+Interr+A+Sg:awîna # "who,whose" ; 
+ awîniki+Pron+Interr+A+Pl:awîniki # "who" ; 
+ awînihi+Pron+Interr+A+Obv:awînihi # "who" ; 
+ awîniwâ+Pron+Interr+A+Obv:awîniwâ # "who" ; 
+
+
+
+
 
  LEXICON Indefinite  \\
  awiyak+Pron+Indef+A+Sg:awiyak # "someone" ; 
@@ -1408,19 +1413,20 @@ There are more pronoums to be added here.
  LEXICON Demonstrative    \\
 ANIMATE \\
  awa+Pron+Dem+Prox+A+Sg:awa # "this" ; 
- awa+Pron+Dem+Prox+A+Pl:ôki # "these" ; 
+ ôki+Pron+Dem+Prox+A+Pl:ôki # "these" ; 
+ ôhi+Pron+Dem+Prox+A+Obv:ôhi # "this/these" ; 
 
 
 
 INANIMATE \\
 
  ôma+Pron+Dem+Prox+I+Sg:ôma # "this" ; 
- ôma+Pron+Dem+Prox+I+Pl:ôhi # "these" ; 
+ ôhi+Pron+Dem+Prox+I+Pl:ôhi # "these" ; 
 
 
 
  ôma+Pron+Def+Prox+I+Sg:ôma # "this one" ; 
- ôma+Pron+Def+Prox+I+Pl:ôhi # "these one" ; 
+ ôhi+Pron+Def+Prox+I+Pl:ôhi # "these one" ; 
 
 
 
