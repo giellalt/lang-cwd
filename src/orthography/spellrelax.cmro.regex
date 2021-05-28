@@ -70,28 +70,28 @@ c (->) j,   # English influence on spelling <c>
 {iw} (->) {ow},     # Misspelling based on assimilated pronunciation of underlying /i/ as /o/ before /w/
 {ow} (->) {iw},
 {iyi} (->) [ î | i | e ],       # Mishearing of vowel-glide-vowel cluster
-{nwa} (->) {no},    # <nwa> is likely to be heard as <no>
+{nwa} (->) {no},,    # <nwa> is likely to be heard as <no>
 
 [..] (->) h || _ .#. ,, # Excessive word-final pre-aspiration
-   h (->) 0 || [ a | e | i | o | u ] _ [ c h | k | p | t ],,    # Missing preaspiration before stops
-[..] (->) h || [ a | e | i | o | u ] _ [ c h | k | p | t ],,  # Excessive preaspiration before stops
+   h (->) 0 || [ a | e | i | o | u ] _ [ c h | k | p | t ] ,, # Missing preaspiration before stops
+[..] (->) h || [ a | e | i | o | u ] _ [ c h | k | p | t ] ,, # Excessive preaspiration before stops
 
 # Adding missing or reduced short i's in interconsonantal contexts
-i (->) [..] || [ c h | h | k | m | n | p | s | t | w | y ] _ [ c h | h | k | m | n | p | s | t | w | y ]
+i (->) [..] || [ c h | h | k | m | n | p | s | t | w | y ] _ [ c h | h | k | m | n | p | s | t | w | y ] ,,
 
 {ch} (->) {tch},          # English influence on spelling <c>
-{ch} (->) {ts},           # Another English influence on spelling <c>
+{ch} (->) {ts} ,,         # Another English influence on spelling <c>
 {ch} (->) {c} || _ \h ,,  # English influence on spelling <c>
 
 # Standardizing SRO to CMRO and double-vowel notation for long vowels
 a (->) [ â | {aa} ],
 u (->) a,
 e (->) {ii},
-{oo} (->) ô,
+{oo} (->) ô ,,
 
 # Plains/Proto-Cree to Woods Cree
-{th} (->) ý ,,
-e (->) [ ê | î | {ee} ] ,,
+{th} (->) [ ý | y ] ,,
+e (->) [ ê | î | {ee} ]
 
 ;
 

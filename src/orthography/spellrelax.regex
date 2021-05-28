@@ -49,9 +49,9 @@ o (->) ô,,
 
 # Dealing with spaces instead of hyphens as separators in multipart words
 
-[ %- ] (->) [ %- ]+,  # Multiple hyphens into a single hyphen
+[ %- ] (->) [ %- ]+,               # Multiple hyphens into a single hyphen
 ! [ "@U.joiner.NULL@" %- ] (->) 0, # Missing hyphens between prefixes/preverbs
-%- (->) [ %  | %  | %  ]+, # Multiple non-breaking or standard spaces SPACE + NBSP + NNBSP (in syllabics) to single hyphen
+%- (->) [ %  | %  | %  ]+,         # Multiple non-breaking or standard spaces SPACE + NBSP + NNBSP (in syllabics) to single hyphen
 
 # Dealing with misspellings based on modern pronunciation
 
@@ -68,17 +68,17 @@ c (->) j,   # English influence on spelling <c>
 # y (->) w,
 # w (->) y,
 
-{iw} (->) {ow},     # Misspelling based on assimilated pronunciation of underlying /i/ as /o/ before /w/
+{iw} (->) {ow},        # Misspelling based on assimilated pronunciation of underlying /i/ as /o/ before /w/
 {ow} (->) {iw},
-{iyi} (->) [ î | i ],       # Mishearing of vowel-glide-vowel cluster
-{nwa} (->) {no},    # <nwa> is likely to be heard as <no>
+{iyi} (->) [ î | i ],  # Mishearing of vowel-glide-vowel cluster
+{nwa} (->) {no} ,,     # <nwa> is likely to be heard as <no>
 
 [..] (->) h || _ .#. ,, # Excessive word-final pre-aspiration
-   h (->) 0 || [ a | i | o | â | î | ô ] _ [ c | k | p | t ],,    # Missing preaspiration before stops
-[..] (->) h || [ a | i | o | â | î | ô ] _ [ c | k | p | t ],,  # Excessive preaspiration before stops
+   h (->) 0 || [ a | i | o | â | î | ô ] _ [ c | k | p | t ] ,,  # Missing preaspiration before stops
+[..] (->) h || [ a | i | o | â | î | ô ] _ [ c | k | p | t ] ,,  # Excessive preaspiration before stops
 
 # Adding missing or reduced short i's in interconsonantal contexts
-i (->) [..] || [ c | h | k | m | n | p | s | t | w | y ] _ [ c | h | k | m | n | p | s | t | w | y ]
+i (->) [..] || [ c | h | k | m | n | p | s | t | w | y ] _ [ c | h | k | m | n | p | s | t | w | y ] ,,
 
 # Converting CMRO spelling to SRO
 a (->) u,
@@ -91,18 +91,16 @@ a (->) u,
 # Standardizing double-vowel notation for long vowels
 â (->) {aa},
 î (->) {ii},
-ô (->) {oo}, # Also undoes CMRO
+ô (->) {oo},  # Also undoes CMRO
 
 # English influence on <c>
-c (->) {ch},        # English influence on spelling <c>
-c (->) {tch},       # English influence on spelling <c>
-c (->) {ts} ,,      # Another English influence on spelling <c>
+c (->) {ch},  # English influence on spelling <c>
+c (->) {tch}, # English influence on spelling <c>
+c (->) {ts},, # Another English influence on spelling <c>
 
 # Plains/Proto-Cree to Woods Cree
-{th} (->) ý ,,
-[ î | i ] (->) [ ê | e ] ,,
-
-
+{th} (->) [ ý | y ] ,,
+[ î | i ] (->) [ ê | e ]
 
 ;
 
