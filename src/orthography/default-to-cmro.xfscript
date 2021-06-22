@@ -41,7 +41,8 @@ define LengthSymbol [ ā -> â ,
 
 define a2uRule   [ a -> u ] ;
 define aa2aRule  [ â -> a ] ;
-define c2chRule  [ c -> ch ] ;
+define c2chRule  [ c -> {ch} ] ;
+define ee2iiRule [ ê -> î ] ;
 define ii2eRule  [ î -> e ] ;
 define oo2ooRule [ ô -> o o ] ;
 
@@ -53,6 +54,7 @@ read regex [ Decapitalisation
 .o. a2uRule
 .o. aa2aRule
 .o. c2chRule
+.o. ee2iiRule
 .o. ii2eRule
 .o. oo2ooRule
 ] ; 
