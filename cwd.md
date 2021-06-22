@@ -1430,17 +1430,13 @@ INANIMATE \\
 
 
 
+# Plains Cree particles                           
+
+The file contains the following lexicons, with content as described:
 
 
 
 
-
-
-Test lemma/stem set for nouns according the new crk FST
-
-
-Complete extraction of lemma:stem info from AEW 2020, according to
-LEXC structure in the new crk FST.
 
 
 
@@ -1461,13 +1457,17 @@ Full incorporation of AEW 2020 verbs into new crk FST
 
 
 
-# Plains Cree particles                           
-
-The file contains the following lexicons, with content as described:
 
 
 
 
+
+
+Test lemma/stem set for nouns according the new crk FST
+
+
+Complete extraction of lemma:stem info from AEW 2020, according to
+LEXC structure in the new crk FST.
 
 
 
@@ -1758,6 +1758,22 @@ End of new and all Multichar_Symbols
 
 
 
+We describe here how abbreviations are in Woods Cree are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
+
+
+
+
 
 
 
@@ -1808,22 +1824,6 @@ End of new and all Multichar_Symbols
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Woods Cree are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
