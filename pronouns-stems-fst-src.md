@@ -45,3 +45,5 @@ INANIMATE \\
  ôhi+Pron+Def+Prox+I+Pl:ôhi # "these one" ; 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/pronouns.lexc)</small>

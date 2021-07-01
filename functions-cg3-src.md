@@ -1,7 +1,7 @@
 
- S Y N T A C T I C   F U N C T I O N S   F O R  (LANGUAGE NAME HERE)
+S Y N T A C T I C   F U N C T I O N S   F O R  (LANGUAGE NAME HERE)
 
- Sámi language technology project 2003-2014, University of Tromsø # 
+Sámi language technology project 2003-2014, University of Tromsø # 
 
 This file adds syntactic functions. It was copied from sme.
 
@@ -241,3 +241,5 @@ The leftovers are tagged @X
 ###  **therestX** adds @X to all what is left, often errouneus disambiguated forms
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-cwd/blob/main/../src/cg3/functions.cg3)</small>
