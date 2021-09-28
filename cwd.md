@@ -243,6 +243,174 @@ The leftovers are tagged @X
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-cwd/blob/main/../src/cg3/functions.cg3)</small>
+
+
+
+
+
+
+Test lemma/stem set for nouns according the new crk FST
+
+
+Complete extraction of lemma:stem info from AEW 2020, according to
+LEXC structure in the new crk FST.
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/noun_stems.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/noun_stems.lexc)</small>
+
+
+
+
+Model verb lemmas and stems for new crk FST
+
+
+Full incorporation of AEW 2020 verbs into new crk FST
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verb_stems.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/verb_stems.lexc)</small>
+## Plains Cree pronouns
+
+There are more pronoums to be added here.
+
+ LEXICON Pronoun 
+
+
+ LEXICON Personal  \\
+ niýa+Pron+Pers+1Sg:niýa # ; 
+ kiýa+Pron+Pers+2Sg:kiýa # ; 
+
+
+
+ LEXICON Interrogative   \\
+ awîna+Pron+Interr+A+Sg:awîna # "who,whose" ; 
+ awîniki+Pron+Interr+A+Pl:awîniki # "who" ; 
+ awînihi+Pron+Interr+A+Obv:awînihi # "who" ; 
+ awîniwâ+Pron+Interr+A+Obv:awîniwâ # "who" ; 
+
+
+
+
+
+ LEXICON Indefinite  \\
+ awiyak+Pron+Indef+A+Sg:awiyak # "someone" ; 
+ awiyak+Pron+Indef+A+Pl:awiyakak # "some people" ;
+
+ LEXICON Demonstrative    \\
+ANIMATE \\
+ awa+Pron+Dem+Prox+A+Sg:awa # "this" ; 
+ ôki+Pron+Dem+Prox+A+Pl:ôki # "these" ; 
+ ôhi+Pron+Dem+Prox+A+Obv:ôhi # "this/these" ; 
+
+
+
+INANIMATE \\
+
+ ôma+Pron+Dem+Prox+I+Sg:ôma # "this" ; 
+ ôhi+Pron+Dem+Prox+I+Pl:ôhi # "these" ; 
+
+
+
+ ôma+Pron+Def+Prox+I+Sg:ôma # "this one" ; 
+ ôhi+Pron+Def+Prox+I+Pl:ôhi # "these one" ; 
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/pronouns.lexc)</small>
+# Plains Cree particles                           
+
+The file contains the following lexicons, with content as described:
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/particles.lexc)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NOUN_ENDLEX for wrapping up various things
+
+
+End of noun affixes code
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/noun_affixes.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/affixes/noun_affixes.lexc)</small>
 Plains Cree verb morphology                  
 
 
@@ -1315,77 +1483,6 @@ Derives to VIIn
 End of verb affixes LEXC code
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/verb_affixes.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/affixes/verb_affixes.lexc)</small>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-NOUN_ENDLEX for wrapping up various things
-
-
-End of noun affixes code
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/noun_affixes.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/affixes/noun_affixes.lexc)</small>
 # Woods Cree morphological analyser
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Plains Cree LANGUAGE.
 
@@ -1669,101 +1766,21 @@ End of new and all Multichar_Symbols
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/root.lexc)</small>
 
 
+We describe here how abbreviations are in Woods Cree are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-Model verb lemmas and stems for new crk FST
-
-
-Full incorporation of AEW 2020 verbs into new crk FST
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verb_stems.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/verb_stems.lexc)</small>
-
-
-
-
-
-
-Test lemma/stem set for nouns according the new crk FST
-
-
-Complete extraction of lemma:stem info from AEW 2020, according to
-LEXC structure in the new crk FST.
-
-
-
-
-
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/noun_stems.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/noun_stems.lexc)</small>
-# Plains Cree particles                           
-
-The file contains the following lexicons, with content as described:
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/particles.lexc)</small>
-## Plains Cree pronouns
-
-There are more pronoums to be added here.
-
- LEXICON Pronoun 
-
-
- LEXICON Personal  \\
- niýa+Pron+Pers+1Sg:niýa # ; 
- kiýa+Pron+Pers+2Sg:kiýa # ; 
-
-
-
- LEXICON Interrogative   \\
- awîna+Pron+Interr+A+Sg:awîna # "who,whose" ; 
- awîniki+Pron+Interr+A+Pl:awîniki # "who" ; 
- awînihi+Pron+Interr+A+Obv:awînihi # "who" ; 
- awîniwâ+Pron+Interr+A+Obv:awîniwâ # "who" ; 
-
-
-
-
-
- LEXICON Indefinite  \\
- awiyak+Pron+Indef+A+Sg:awiyak # "someone" ; 
- awiyak+Pron+Indef+A+Pl:awiyakak # "some people" ;
-
- LEXICON Demonstrative    \\
-ANIMATE \\
- awa+Pron+Dem+Prox+A+Sg:awa # "this" ; 
- ôki+Pron+Dem+Prox+A+Pl:ôki # "these" ; 
- ôhi+Pron+Dem+Prox+A+Obv:ôhi # "this/these" ; 
-
-
-
-INANIMATE \\
-
- ôma+Pron+Dem+Prox+I+Sg:ôma # "this" ; 
- ôhi+Pron+Dem+Prox+I+Pl:ôhi # "these" ; 
-
-
-
- ôma+Pron+Def+Prox+I+Sg:ôma # "this one" ; 
- ôhi+Pron+Def+Prox+I+Pl:ôhi # "these one" ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 
 
@@ -1819,23 +1836,6 @@ INANIMATE \\
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
-
-We describe here how abbreviations are in Woods Cree are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
