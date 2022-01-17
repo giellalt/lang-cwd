@@ -3,7 +3,7 @@
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Plains Cree LANGUAGE.
 
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols@CODE@
 
 ## Analysis symbols
 
@@ -30,8 +30,8 @@ POS
  * +LEFT        = the left part of a paired punctuation symbol
  * +RIGHT       = the right part of a paired punctuation symbol
  * +CLB         = clause boundary symbols
- * +Symbol = independent symbols in the text stream, like £, €, ©
- * +ABBR 
+* +Symbol© = independent symbols in the text stream, like £, €, ©
+* +ABBR 
 
 Nominal morphology
 
@@ -51,11 +51,11 @@ Particles
  * +Prox	     Demonstrative Proximate
  * +Med	     Demonstrative Medial
  * +Dist	     Demonstrative Distal
- * +Pers = personal pronouns? At least it seems so based on the code
+* +Perscode = personal pronouns? At least it seems so based on the code
  * +Interr      Interrogative (who/whose/what/what kind)
  * +Foc	     Focus particle
 
-+Ord +Ord   ordinals
++Ordordinals +Ord  ordinals
 
 Verbal MSP
  * +Prs  
@@ -157,8 +157,8 @@ morphophonological structure
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
+* **»7»**:  Literal »
+* **«7«**:  Literal «
 ```
   %[%>%]  - Literal >
   %[%<%]  - Literal <
@@ -192,7 +192,7 @@ normative and descriptive analysers, and generators for different purposes.
  * +Err/Frag  tag for word-form fragments
  * +Dial  tag for dialectical forms that can't be called errors
  * +Use/NG   not-generate, for ped generation isme-ped.fst
- * +Eng indicates that this is an English form
+* +Engform indicates that this is an English form
 
 Flagdiacritics
 
