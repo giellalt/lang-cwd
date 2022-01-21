@@ -247,7 +247,7 @@ The leftovers are tagged @X
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Plains Cree LANGUAGE.
 
 
-# Definitions for Multichar_Symbols@CODE@
+# Definitions for Multichar_Symbols
 
 ## Analysis symbols
 
@@ -257,128 +257,128 @@ in this system in terms of the following symbols.
 
 POS
 
- * +N	         = Noun
- * +V	         = Verb
- * +Ipc		 = Indeclinable Particle
- * +Prop       
- * +Adv        
- * +CC         
- * +CS         
- * +Interj     
- * +Phr        
- * +Pron       
- * +Num        
- * +Arab       
- * +Rom        
- * +PUNCT       = punctuation symbols
- * +LEFT        = the left part of a paired punctuation symbol
- * +RIGHT       = the right part of a paired punctuation symbol
- * +CLB         = clause boundary symbols
-* +Symbol© = independent symbols in the text stream, like £, €, ©
+* +N	         = Noun
+* +V	         = Verb
+* +Ipc		 = Indeclinable Particle
+* +Prop       
+* +Adv        
+* +CC         
+* +CS         
+* +Interj     
+* +Phr        
+* +Pron       
+* +Num        
+* +Arab       
+* +Rom        
+* +PUNCT       = punctuation symbols
+* +LEFT        = the left part of a paired punctuation symbol
+* +RIGHT       = the right part of a paired punctuation symbol
+* +CLB         = clause boundary symbols
+* +Symbol = independent symbols in the text stream, like £, €, ©
 * +ABBR 
 
 Nominal morphology
 
- * +Loc         Locative
- * +Obv         Obviative
- * +Voc         Vocative
+* +Loc         Locative
+* +Obv         Obviative
+* +Voc         Vocative
 
- * +Dim         Diminutive
+* +Dim         Diminutive
 
 Particles
 
 
- * +Def	     This is the intransitive demonstrative, i.e. the definite.
- * +Indef       Indefinite
+* +Def	     This is the intransitive demonstrative, i.e. the definite.
+* +Indef       Indefinite
 
- * +Dem         Demonstrative
- * +Prox	     Demonstrative Proximate
- * +Med	     Demonstrative Medial
- * +Dist	     Demonstrative Distal
-* +Perscode = personal pronouns? At least it seems so based on the code
- * +Interr      Interrogative (who/whose/what/what kind)
- * +Foc	     Focus particle
+* +Dem         Demonstrative
+* +Prox	     Demonstrative Proximate
+* +Med	     Demonstrative Medial
+* +Dist	     Demonstrative Distal
+* +Pers = personal pronouns? At least it seems so based on the code
+* +Interr      Interrogative (who/whose/what/what kind)
+* +Foc	     Focus particle
 
-+Ordordinals +Ord  ordinals
++Ord +Ord  ordinals
 
 Verbal MSP
- * +Prs  
- * +Fut  
- * +Prt  
- * +Cnj  
- * +Int   Future Intentional
- * +Def   Future Definite (TODO: okay to overlap with particle tag of the same name?)
+* +Prs  
+* +Fut  
+* +Prt  
+* +Cnj  
+* +Int   Future Intentional
+* +Def   Future Definite (TODO: okay to overlap with particle tag of the same name?)
 
- * +Ind   Indicative, aka Independent
- * +Imp   Imperative, consider deleting +Imp tag
- * +Del   Delayed imperative
- * +Imm   Immediate imperative, consider deleting +Imp tag
- * +Cond  TODO: Should Future Conditional be tagget Fut only? Conor: we will split the Future tags
+* +Ind   Indicative, aka Independent
+* +Imp   Imperative, consider deleting +Imp tag
+* +Del   Delayed imperative
+* +Imm   Immediate imperative, consider deleting +Imp tag
+* +Cond  TODO: Should Future Conditional be tagget Fut only? Conor: we will split the Future tags
 
- * +1Sg     first singular
- * +2Sg     etc
- * +3Sg    
+* +1Sg     first singular
+* +2Sg     etc
+* +3Sg    
 
- * +1Pl     1Pl is exclusive plural (I, them, not you)
- * +2Pl    
- * +3Pl    
- * +12Pl    12Pl is inclusive plural (I, you, ...)
- * +4Sg     Fourth Person inanimate singlar (used only in the VII paradigms)
- * +4Pl     Fourth Person inanimate plural (used only in the VII paradigms)
- * +4Sg/Pl    
- * +5Sg/Pl    
+* +1Pl     1Pl is exclusive plural (I, them, not you)
+* +2Pl    
+* +3Pl    
+* +12Pl    12Pl is inclusive plural (I, you, ...)
+* +4Sg     Fourth Person inanimate singlar (used only in the VII paradigms)
+* +4Pl     Fourth Person inanimate plural (used only in the VII paradigms)
+* +4Sg/Pl    
+* +5Sg/Pl    
 
- * +1SgO    objective conjugation
- * +2SgO   
- * +2Sg/PlO    Used in the syncretic 2sg/pl -> 1pl in the VTA paradigms
- * +3SgO   
- * +SgO    
- * +1PlO   
- * +2PlO   
- * +12PlO	
- * +3PlO   
- * +PlO    
- * +4Sg/PlO  ambiguous 4th person (both Singular and Plural)
- * +5Sg/PlO  ambiguous 5th person (both Singular and Plural)
- * +X  Unspecified actor forms Okimāsis p. 118
+* +1SgO    objective conjugation
+* +2SgO   
+* +2Sg/PlO    Used in the syncretic 2sg/pl -> 1pl in the VTA paradigms
+* +3SgO   
+* +SgO    
+* +1PlO   
+* +2PlO   
+* +12PlO	
+* +3PlO   
+* +PlO    
+* +4Sg/PlO  ambiguous 4th person (both Singular and Plural)
+* +5Sg/PlO  ambiguous 5th person (both Singular and Plural)
+* +X  Unspecified actor forms Okimāsis p. 118
 
 Person prefix fragment features
 
 
 Nominal morphosyntactic features
- * +Sg		  singular
- * +Pl		  plural
+* +Sg		  singular
+* +Pl		  plural
 
- * +Px1Sg	  person prefixes for nouns
- * +Px2Sg	 
- * +Px3Sg	 
- * +Px4Sg	 
- * +Px1Pl	  obviative
- * +Px12Pl	  inclusive
- * +Px2Pl	 
- * +Px3Pl	 
- * +Px4Pl	 
- * +Der/Dim  diminutive derivation
+* +Px1Sg	  person prefixes for nouns
+* +Px2Sg	 
+* +Px3Sg	 
+* +Px4Sg	 
+* +Px1Pl	  obviative
+* +Px12Pl	  inclusive
+* +Px2Pl	 
+* +Px3Pl	 
+* +Px4Pl	 
+* +Der/Dim  diminutive derivation
 
- * RdplW+  Reduplication Type 1 (Weak)
- * RdplS+  Reduplication Type 2 (Strong)
+* RdplW+  Reduplication Type 1 (Weak)
+* RdplS+  Reduplication Type 2 (Strong)
 
- * +Der/Com  Comitative circumfix (wîci-...-m)
- * +Der/X  VTI x-actor to VII-1
+* +Der/Com  Comitative circumfix (wîci-...-m)
+* +Der/X  VTI x-actor to VII-1
 
 Verb conjugation (transitivity + animacy classes)
- * +AI       intransitive with animate subject,
- * +II       intransitive with inanimate subject,
- * +TA       transitive with animate object, and
- * +TI       transitive with inanimate object.
+* +AI       intransitive with animate subject,
+* +II       intransitive with inanimate subject,
+* +TA       transitive with animate object, and
+* +TI       transitive with inanimate object.
 
 Noun animacy and dependency classes
- * +A		  animate noun
- * +I		  inanimate noun
- * +D		  dependent noun
+* +A		  animate noun
+* +I		  inanimate noun
+* +D		  dependent noun
 
- * +Qst      yes-no question particle; cî
- * +Neg      negation; [na]môy[a].
+* +Qst      yes-no question particle; cî
+* +Neg      negation; [na]môy[a].
 
 Preverbs
 
@@ -396,34 +396,34 @@ Preverbs
 These symbols either shape or govern the
 morphophonological structure
 
- * %> 		  suffix border
- * %< 		  prefix border
+* %> 		  suffix border
+* %< 		  prefix border
 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
-* **»7»**:  Literal »
-* **«7«**:  Literal «
+* **»7**:  Literal »
+* **«7**:  Literal «
 ```
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
+ %[%>%]  - Literal >
+ %[%<%]  - Literal <
 ```
 
 Special characters for morphophonology
- * w2       mowêw:mow2
- * t2 		 Epenthetic -t- between person prefixes and vowel-initial stems
- * t3       t to s in VTA-4
- * t4       t:c in VTI-1 with unspecified actor
- * y2       epenthetic joiner in reduplication of vowel-initial stems
- * y3       epenthetic joiner in reduplication of vowel-initial stems
- * i2       vta-5i epenthesis.
+* w2       mowêw:mow2
+* t2 		 Epenthetic -t- between person prefixes and vowel-initial stems
+* t3       t to s in VTA-4
+* t4       t:c in VTI-1 with unspecified actor
+* y2       epenthetic joiner in reduplication of vowel-initial stems
+* y3       epenthetic joiner in reduplication of vowel-initial stems
+* i2       vta-5i epenthesis.
 
- * h2 		  Prefix in possessives
+* h2 		  Prefix in possessives
 
 
 Triggers for various morphophonological phenomena
 Mostly, these are not realized themselves as any grapheme/phoneme
 
- * %^EGLOT    glottal stop after e, for eh- in conjunctive order
+* %^EGLOT    glottal stop after e, for eh- in conjunctive order
 
 
 ## Usage tags
@@ -432,11 +432,11 @@ These tags distinguish different special-purpose analysers
 and generators from each other. Thus, for examples, we have
 normative and descriptive analysers, and generators for different purposes.
 
- * +Err/Orth  tag for substandard forms
- * +Err/Frag  tag for word-form fragments
- * +Dial  tag for dialectical forms that can't be called errors
- * +Use/NG   not-generate, for ped generation isme-ped.fst
-* +Engform indicates that this is an English form
+* +Err/Orth  tag for substandard forms
+* +Err/Frag  tag for word-form fragments
+* +Dial  tag for dialectical forms that can't be called errors
+* +Use/NG   not-generate, for ped generation isme-ped.fst
+* +Eng indicates that this is an English form
 
 Flagdiacritics
 
@@ -460,19 +460,19 @@ subject = 1Sg or object = 1Sg. The 3-3 forms are prefixless.
 The conjunct form always has
 the ê- prefix, and future conditional never has a prefix.
 
- * @U.verb.FutCon@  Future Conditional
+* @U.verb.FutCon@  Future Conditional
 
 Prefixes with a certain phonological content:
 
- * @U.person.NULL@ 
- * @U.person.NI@ 
- * @U.person.KI@ 
+* @U.person.NULL@ 
+* @U.person.NI@ 
+* @U.person.KI@ 
 
 Order
 
- * @U.order.indep@  Independent
- * @U.order.cnj@    Conjunct
- * @U.order.imp@    Imperative
+* @U.order.indep@  Independent
+* @U.order.cnj@    Conjunct
+* @U.order.imp@    Imperative
 
 
 
@@ -508,19 +508,19 @@ New multichar symbols for nouns
 End of new and all Multichar_Symbols
 
 
-  LEXICON Root          is where it all starts
- * NOUN_PREFIXES   ;    
- * NOUN_IRREGULARS ;    
- * NOUN_VOCATIVES  ;    
- * VerbPrefixes    ;    
- * Pronoun         ;    
- * Propernouns     ;    
- * Particles       ;    
- * Numerals        ;    
- * Abbreviation    ;    
- * Punctuation     ;    
- * Symbols         ;    
- * NON_STANDARD     ;    
+ LEXICON Root          is where it all starts
+* NOUN_PREFIXES   ;    
+* NOUN_IRREGULARS ;    
+* NOUN_VOCATIVES  ;    
+* VerbPrefixes    ;    
+* Pronoun         ;    
+* Propernouns     ;    
+* Particles       ;    
+* Numerals        ;    
+* Abbreviation    ;    
+* Punctuation     ;    
+* Symbols         ;    
+* NON_STANDARD     ;    
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/root.lexc)</small>
@@ -537,42 +537,42 @@ The Plains Cree verbs are divided in four groups:
 
 # Prefixes
 
- LEXICON VerbPrefixes   divides the lexicon into four modes: independent, conjunctive, imperative and future conditional
+LEXICON VerbPrefixes   divides the lexicon into four modes: independent, conjunctive, imperative and future conditional
 
- * @U.order.indep@ INDEPENDENT ;         
- * @U.order.cnj@   CONJUNCT ;             
- *                 IMPERATIVE ;          
- *                 FUTURE_CONDITIONAL ;  
+* @U.order.indep@ INDEPENDENT ;         
+* @U.order.cnj@   CONJUNCT ;             
+*                 IMPERATIVE ;          
+*                 FUTURE_CONDITIONAL ;  
 
- LEXICON INDEPENDENT  gives flags and prefixes for personprefix
+LEXICON INDEPENDENT  gives flags and prefixes for personprefix
 Hypotheticals
 
 
- LEXICON IND_TENSE  gives flags and prefixes for tense 
+LEXICON IND_TENSE  gives flags and prefixes for tense 
 
 
 
 
- LEXICON FUTURE_CONDITIONAL  gives flags for future conditional (no prefix)
+LEXICON FUTURE_CONDITIONAL  gives flags for future conditional (no prefix)
 
 
- LEXICON CONJUNCT  gives flag for conjunct and combined tense preverbs
-
-
-
+LEXICON CONJUNCT  gives flag for conjunct and combined tense preverbs
 
 
 
- LEXICON CNJ_TENSE    gives prefixes and flags for tense in conjunct
 
 
 
- LEXICON IMPERATIVE    gives flag for imperative (no prefixes)
+LEXICON CNJ_TENSE    gives prefixes and flags for tense in conjunct
+
+
+
+LEXICON IMPERATIVE    gives flag for imperative (no prefixes)
 
 
 Preverbs
 
- LEXICON VERBPREFIXES   just adds the prefix boundary
+LEXICON VERBPREFIXES   just adds the prefix boundary
 
 
 
@@ -599,20 +599,20 @@ Intransitive inanimate (II)
 
 
 
- LEXICON VIIn   
+LEXICON VIIn   
 
- LEXICON VIIn_SG   
+LEXICON VIIn_SG   
 
- LEXICON VIIw_PL   
+LEXICON VIIw_PL   
 
 = LEXICON VIIw_PL   NO LONGER NEEDED FROM AROK
 +V+II: VIIw_PL_WICI ;	   NO LONGER NEEDED FROM AROK
 
- LEXICON VIIw   
+LEXICON VIIw   
 
- LEXICON VIIw_SG   
+LEXICON VIIw_SG   
 
- LEXICON VIIn_PL   NO LONGER NEEDED FROM AROK
+LEXICON VIIn_PL   NO LONGER NEEDED FROM AROK
 NO LONGER NEEDED FROM AROK
 
 
@@ -632,12 +632,12 @@ NO LONGER NEEDED FROM AROK
 
 
 
- LEXICON VIIw_SGPL_ORDER  
+LEXICON VIIw_SGPL_ORDER  
 
 
- LEXICON VIIw_SG_ORDER  singular only
+LEXICON VIIw_SG_ORDER  singular only
 
- LEXICON VIIw_PL_ORDER  singular only
+LEXICON VIIw_PL_ORDER  singular only
 
 = LEXICON VIIw_PL_ORDER  plural only 
 @U.order.indep@+Ind:@U.order.indep@ VIIw_PL_IND_PERSON ; !
@@ -645,23 +645,23 @@ NO LONGER NEEDED FROM AROK
 @U.order.FutCon@+Fut+Cond:@U.order.FutCon@ VIIw_PL_FUT_CON_PERSON ;!
 
 
- LEXICON VIIn_SGPL_ORDER  
+LEXICON VIIn_SGPL_ORDER  
 
- LEXICON VIIn_SG_ORDER  singular only
+LEXICON VIIn_SG_ORDER  singular only
 
- LEXICON VIIn_PL_ORDER  plural only
-
-
+LEXICON VIIn_PL_ORDER  plural only
 
 
 
- LEXICON VIIw_SG_IND_TENSE  plural only
 
- LEXICON VIIw_SG_CNJ_TENSE  plural only
 
- LEXICON VIIw_PL_IND_TENSE  plural only
+LEXICON VIIw_SG_IND_TENSE  plural only
 
- LEXICON VIIw_PL_CNJ_TENSE  plural only
+LEXICON VIIw_SG_CNJ_TENSE  plural only
+
+LEXICON VIIw_PL_IND_TENSE  plural only
+
+LEXICON VIIw_PL_CNJ_TENSE  plural only
 
 = LEXICON VIIw_PL_CNJ_TENSE  plural only
 @U.tense.Prs@+Prs:@U.tense.Prs@ VIIw_PL_IND_PERSON ; !
@@ -677,33 +677,33 @@ NO LONGER NEEDED FROM AROK
 
 
 
- LEXICON VIIn_SG_IND_TENSE  plural only
+LEXICON VIIn_SG_IND_TENSE  plural only
 
- LEXICON VIIn_SG_CNJ_TENSE  plural only
+LEXICON VIIn_SG_CNJ_TENSE  plural only
 
- LEXICON VIIn_PL_IND_TENSE  plural only
+LEXICON VIIn_PL_IND_TENSE  plural only
 
- LEXICON VIIn_PL_CNJ_TENSE  plural only
+LEXICON VIIn_PL_CNJ_TENSE  plural only
 
 
 
- LEXICON VIIw_SGPL_IND_PERSON  
+LEXICON VIIw_SGPL_IND_PERSON  
 
- LEXICON VIIw_SGPL_CNJ_PERSON  
+LEXICON VIIw_SGPL_CNJ_PERSON  
 
- LEXICON VIIw_SGPL_FUT_CON_PERSON  
+LEXICON VIIw_SGPL_FUT_CON_PERSON  
 
- LEXICON VIIw_SG_IND_PERSON  
+LEXICON VIIw_SG_IND_PERSON  
 
- LEXICON VIIw_SG_CNJ_PERSON  
+LEXICON VIIw_SG_CNJ_PERSON  
 
- LEXICON VIIw_SG_FUT_CON_PERSON  
+LEXICON VIIw_SG_FUT_CON_PERSON  
 
- LEXICON VIIw_PL_IND_PERSON  
+LEXICON VIIw_PL_IND_PERSON  
 
- LEXICON VIIw_PL_CNJ_PERSON  
+LEXICON VIIw_PL_CNJ_PERSON  
 
- LEXICON VIIw_PL_FUT_CON_PERSON  
+LEXICON VIIw_PL_FUT_CON_PERSON  
 
 = LEXICON VIIw_PL_FUT_CON_PERSON  plural only
 @U.person.NULL@ VIIw_IND_PL_SUFFIX ;
@@ -715,91 +715,91 @@ NO LONGER NEEDED FROM AROK
 @U.person.NULL@ VIIw_FUT_CON_PL_SUFFIX ;
 
 
- LEXICON VIIn_SGPL_IND_PERSON  
+LEXICON VIIn_SGPL_IND_PERSON  
 
- LEXICON VIIn_SGPL_CNJ_PERSON  
+LEXICON VIIn_SGPL_CNJ_PERSON  
 
- LEXICON VIIn_SGPL_FUT_CON_PERSON  
+LEXICON VIIn_SGPL_FUT_CON_PERSON  
 
- LEXICON VIIn_SG_IND_PERSON  
+LEXICON VIIn_SG_IND_PERSON  
 
- LEXICON VIIn_SG_CNJ_PERSON  
+LEXICON VIIn_SG_CNJ_PERSON  
 
- LEXICON VIIn_SG_FUT_CON_PERSON  
+LEXICON VIIn_SG_FUT_CON_PERSON  
 
- LEXICON VIIn_PL_IND_PERSON  plural only
+LEXICON VIIn_PL_IND_PERSON  plural only
 
- LEXICON VIIn_PL_CNJ_PERSON  plural only
+LEXICON VIIn_PL_CNJ_PERSON  plural only
 
- LEXICON VIIn_PL_FUT_CON_PERSON  plural only
-
-
-
-
-
- LEXICON VIIn_SGPL_IND_NULL 
-
- LEXICON VIIn_SG_IND_SUFFIX    singular
-
- LEXICON VIIn_PL_IND_SUFFIX   plural
-
-
-
- LEXICON VIIw_SGPL_IND_NULL 
-
- LEXICON VIIw_SG_IND_SUFFIX    w final singular
-
- LEXICON VIIw_PL_IND_SUFFIX   w final plural
+LEXICON VIIn_PL_FUT_CON_PERSON  plural only
 
 
 
 
 
- LEXICON VIIn_SGPL_CNJ_NULL 
+LEXICON VIIn_SGPL_IND_NULL 
 
- LEXICON VIIn_SG_CNJ_SUFFIX    singular
+LEXICON VIIn_SG_IND_SUFFIX    singular
 
- LEXICON VIIn_PL_CNJ_SUFFIX   plural
-
-
- LEXICON VIIw_SGPL_CNJ_NULL 
-
- LEXICON VIIw_SG_CNJ_SUFFIX    w final singular
-
- LEXICON VIIw_PL_CNJ_SUFFIX    w final plural
+LEXICON VIIn_PL_IND_SUFFIX   plural
 
 
 
+LEXICON VIIw_SGPL_IND_NULL 
 
- LEXICON VIIn_SGPL_FUT_CON_NULL 
+LEXICON VIIw_SG_IND_SUFFIX    w final singular
 
- LEXICON VIIn_SG_FUT_CON_SUFFIX    singular
-
- LEXICON VIIn_PL_FUT_CON_SUFFIX   plural
+LEXICON VIIw_PL_IND_SUFFIX   w final plural
 
 
- LEXICON VIIw_SGPL_FUT_CON_NULL 
 
- LEXICON VIIw_SG_FUT_CON_SUFFIX    w final singular
 
- LEXICON VIIw_PL_FUT_CON_SUFFIX    w final plural
+
+LEXICON VIIn_SGPL_CNJ_NULL 
+
+LEXICON VIIn_SG_CNJ_SUFFIX    singular
+
+LEXICON VIIn_PL_CNJ_SUFFIX   plural
+
+
+LEXICON VIIw_SGPL_CNJ_NULL 
+
+LEXICON VIIw_SG_CNJ_SUFFIX    w final singular
+
+LEXICON VIIw_PL_CNJ_SUFFIX    w final plural
+
+
+
+
+LEXICON VIIn_SGPL_FUT_CON_NULL 
+
+LEXICON VIIn_SG_FUT_CON_SUFFIX    singular
+
+LEXICON VIIn_PL_FUT_CON_SUFFIX   plural
+
+
+LEXICON VIIw_SGPL_FUT_CON_NULL 
+
+LEXICON VIIw_SG_FUT_CON_SUFFIX    w final singular
+
+LEXICON VIIw_PL_FUT_CON_SUFFIX    w final plural
 
 
 Intransitive animate (AI)
 
 
 
- LEXICON VAIw_PL  stems that end in â or ê
+LEXICON VAIw_PL  stems that end in â or ê
 
- LEXICON VAIae  stems that end in â or ê
+LEXICON VAIae  stems that end in â or ê
 
- LEXICON VAIio  stems that end in i, î, o, ô
+LEXICON VAIio  stems that end in i, î, o, ô
 
- LEXICON VAIn  
+LEXICON VAIn  
 
- LEXICON VAIn_PL  
+LEXICON VAIn_PL  
 
- LEXICON VAIm  These are VTI3 in Arok's database
+LEXICON VAIm  These are VTI3 in Arok's database
 
 
 
@@ -815,20 +815,20 @@ Intransitive animate (AI)
 
 
 
- LEXICON VAIn_ORDER 
+LEXICON VAIn_ORDER 
 
- LEXICON VAIn_PL_ORDER  plural only  
+LEXICON VAIn_PL_ORDER  plural only  
 
 
 
 
 
- LEXICON VAIae_ORDER 
+LEXICON VAIae_ORDER 
 
- LEXICON VAIw_PL_ORDER  plural only 
+LEXICON VAIw_PL_ORDER  plural only 
 
 
- LEXICON VAIio_ORDER 
+LEXICON VAIio_ORDER 
 
 
 
@@ -837,16 +837,16 @@ Intransitive animate (AI)
 
 
 
- LEXICON VAIn_PL_IND_TENSE  plural only
+LEXICON VAIn_PL_IND_TENSE  plural only
 
 
- LEXICON VAIn_PL_CNJ_TENSE  plural only
+LEXICON VAIn_PL_CNJ_TENSE  plural only
 
 
- LEXICON VAIw_PL_IND_TENSE  plural only
+LEXICON VAIw_PL_IND_TENSE  plural only
 
 
- LEXICON VAIw_PL_CNJ_TENSE  plural only
+LEXICON VAIw_PL_CNJ_TENSE  plural only
 
 
 
@@ -863,66 +863,66 @@ Intransitive animate (AI)
 
 
 
- LEXICON VAIn_IND_PERSON  
+LEXICON VAIn_IND_PERSON  
 
- LEXICON VAIn_CNJ_PERSON  
+LEXICON VAIn_CNJ_PERSON  
 
- LEXICON VAIn_FUT_CON_PERSON  
+LEXICON VAIn_FUT_CON_PERSON  
 
- LEXICON VAIn_IMP_PERSON  
+LEXICON VAIn_IMP_PERSON  
 
- LEXICON VAIn_PL_IND_PERSON  plural only
+LEXICON VAIn_PL_IND_PERSON  plural only
 
- LEXICON VAIn_PL_CNJ_PERSON  plural only
+LEXICON VAIn_PL_CNJ_PERSON  plural only
 
- LEXICON VAIn_PL_FUT_CON_PERSON  plural only
+LEXICON VAIn_PL_FUT_CON_PERSON  plural only
 
- LEXICON VAIn_PL_IMP_PERSON  plural only
+LEXICON VAIn_PL_IMP_PERSON  plural only
 
 
- LEXICON VAIw_PL_IND_PERSON  plural only
+LEXICON VAIw_PL_IND_PERSON  plural only
 
- LEXICON VAIw_PL_CNJ_PERSON  plural only
+LEXICON VAIw_PL_CNJ_PERSON  plural only
 
- LEXICON VAIw_PL_FUT_CON_PERSON  plural only
+LEXICON VAIw_PL_FUT_CON_PERSON  plural only
 
- LEXICON VAIw_PL_IMP_PERSON  plural only
+LEXICON VAIw_PL_IMP_PERSON  plural only
 
 
- LEXICON VAIae_IND_PERSON  
+LEXICON VAIae_IND_PERSON  
 
- LEXICON VAIae_CNJ_PERSON  
+LEXICON VAIae_CNJ_PERSON  
 
- LEXICON VAIw_FUT_CON_PERSON  
+LEXICON VAIw_FUT_CON_PERSON  
 
 
- LEXICON VAIw_IMP_PERSON  
+LEXICON VAIw_IMP_PERSON  
 
 
- LEXICON VAIio_IND_PERSON  
+LEXICON VAIio_IND_PERSON  
 
- LEXICON VAIio_CNJ_PERSON  
+LEXICON VAIio_CNJ_PERSON  
 
 
 
 
 
 
- LEXICON VAIw_IND_NI     
+LEXICON VAIw_IND_NI     
 
- LEXICON VAIw_IND_NI_SG_SUFFIX    
+LEXICON VAIw_IND_NI_SG_SUFFIX    
 
- LEXICON VAIw_IND_NI_PL_SUFFIX   
+LEXICON VAIw_IND_NI_PL_SUFFIX   
 
- LEXICON VAIw_IND_KI     
+LEXICON VAIw_IND_KI     
 
- LEXICON VAIw_IND_KI_SG_SUFFIX    
+LEXICON VAIw_IND_KI_SG_SUFFIX    
 
- LEXICON VAIw_IND_KI_PL_SUFFIX    
+LEXICON VAIw_IND_KI_PL_SUFFIX    
 
- LEXICON VAIae_IND_NULL     
+LEXICON VAIae_IND_NULL     
 
- LEXICON VAIio_IND_NULL     
+LEXICON VAIio_IND_NULL     
 
 
 
@@ -931,25 +931,25 @@ Intransitive animate (AI)
 
 
 
- LEXICON VAIw_IND_NULL_PL_SUFFIX   
+LEXICON VAIw_IND_NULL_PL_SUFFIX   
 
 
 
- LEXICON VAIn_IND_NI    
+LEXICON VAIn_IND_NI    
 
- LEXICON VAIn_IND_NI_SG_SUFFIX    
+LEXICON VAIn_IND_NI_SG_SUFFIX    
 
- LEXICON VAIn_IND_NI_PL_SUFFIX    
+LEXICON VAIn_IND_NI_PL_SUFFIX    
 
- LEXICON VAIn_IND_KI     
+LEXICON VAIn_IND_KI     
 
- LEXICON VAIn_IND_KI_SG_SUFFIX    
+LEXICON VAIn_IND_KI_SG_SUFFIX    
 
- LEXICON VAIn_IND_KI_PL_SUFFIX    
+LEXICON VAIn_IND_KI_PL_SUFFIX    
 
- LEXICON VAIn_IND_NULL     
+LEXICON VAIn_IND_NULL     
 
- LEXICON VAIn_IND_NULL_SG_SUFFIX    
+LEXICON VAIn_IND_NULL_SG_SUFFIX    
 
 
 
@@ -957,7 +957,7 @@ Intransitive animate (AI)
 
 
 
- LEXICON VAIn_IND_NULL_PL_SUFFIX    
+LEXICON VAIn_IND_NULL_PL_SUFFIX    
 
 
 
@@ -965,35 +965,35 @@ Intransitive animate (AI)
 
 
 
- LEXICON VAIae_CNJ_NULL    
+LEXICON VAIae_CNJ_NULL    
 
 
- LEXICON VAIio_CNJ_NULL    
+LEXICON VAIio_CNJ_NULL    
 
 
- LEXICON VAIae_CNJ_NULL_SG_SUFFIX    
+LEXICON VAIae_CNJ_NULL_SG_SUFFIX    
 
 
 
 
- LEXICON VAIio_CNJ_NULL_SG_SUFFIX    
+LEXICON VAIio_CNJ_NULL_SG_SUFFIX    
 
 
 
 
- LEXICON VAIw_CNJ_NULL_PL_SUFFIX    
+LEXICON VAIw_CNJ_NULL_PL_SUFFIX    
 
 
 
 
- LEXICON VAIn_CNJ_NULL    
+LEXICON VAIn_CNJ_NULL    
 
 
- LEXICON VAIn_CNJ_NULL_SG_SUFFIX    
+LEXICON VAIn_CNJ_NULL_SG_SUFFIX    
 
 
 
- LEXICON VAIn_CNJ_NULL_PL_SUFFIX    
+LEXICON VAIn_CNJ_NULL_PL_SUFFIX    
 
 
 
@@ -1017,32 +1017,32 @@ Intransitive animate (AI)
 
 
 
- LEXICON VAIae_FUT_CON_NULL    
+LEXICON VAIae_FUT_CON_NULL    
 
 
- LEXICON VAIw_FUT_CON_NULL_SG_SUFFIX    
+LEXICON VAIw_FUT_CON_NULL_SG_SUFFIX    
 
 
 
 +X+4Sg:%>yiki # ;
 
- LEXICON VAIw_FUT_CON_NULL_PL_SUFFIX    
+LEXICON VAIw_FUT_CON_NULL_PL_SUFFIX    
 
 
 
 +X+4Pl:%>yikwâwi # ;
 
 
- LEXICON VAIn_FUT_CON_NULL    
+LEXICON VAIn_FUT_CON_NULL    
 
 
- LEXICON VAIn_FUT_CON_NULL_SG_SUFFIX    
+LEXICON VAIn_FUT_CON_NULL_SG_SUFFIX    
 
 
 
 +X+4Sg:%>iyiki # ;
 
- LEXICON VAIn_FUT_CON_NULL_PL_SUFFIX    
+LEXICON VAIn_FUT_CON_NULL_PL_SUFFIX    
 
 
 
@@ -1054,101 +1054,101 @@ Transitive inanimate (TI)
 
 
 
- * LEXICON VTIm   
+* LEXICON VTIm   
 
 
- * LEXICON VTIm_PL    Plural
+* LEXICON VTIm_PL    Plural
 
- * LEXICON VTIae   NOTE: These inflect just as VAI -w final stems, so they are redirected to those paradigms
+* LEXICON VTIae   NOTE: These inflect just as VAI -w final stems, so they are redirected to those paradigms
 
- * LEXICON VTIio   NOTE: These inflect just as VAI -w final stems, so they are redirected to those paradigms
-
-
-
+* LEXICON VTIio   NOTE: These inflect just as VAI -w final stems, so they are redirected to those paradigms
 
 
 
 
 
 
- LEXICON VTIm_ORDER  . 
-
- LEXICON VTIm_PL_ORDER  plural only NOTE: imperative and fut con go straight to person lexica
 
 
 
+LEXICON VTIm_ORDER  . 
 
-
-
- LEXICON VTIm_PL_IND_TENSE  plural only
-
- LEXICON VTIm_PL_CNJ_TENSE  plural only
-
-
-
-
-
- LEXICON VTIm_IND_PERSON  
-
- LEXICON VTIm_CNJ_PERSON  
-
- LEXICON VTIm_FUT_CON_PERSON  
-
- LEXICON VTIm_IMP_PERSON  
-
- LEXICON VTIm_PL_IND_PERSON  plural only
-
- LEXICON VTIm_PL_CNJ_PERSON  plural only
-
- LEXICON VTIm_PL_FUT_CON_PERSON  plural only
-
- LEXICON VTIm_PL_IMP_PERSON  plural only
+LEXICON VTIm_PL_ORDER  plural only NOTE: imperative and fut con go straight to person lexica
 
 
 
 
 
 
- LEXICON VTIm_IND_NI     
+LEXICON VTIm_PL_IND_TENSE  plural only
 
- LEXICON VTIm_IND_NI_SG_SUFFIX    
-
- LEXICON VTIm_IND_NI_PL_SUFFIX    
-
- LEXICON VTIm_IND_KI     
-
- LEXICON VTIm_IND_KI_SG_SUFFIX    
-
- LEXICON VTIm_IND_KI_PL_SUFFIX    
-
- LEXICON VTIm_IND_NULL     
-
- LEXICON VTIm_IND_NULL_SG_SUFFIX    NOTE: X actor will eventually derive to VII, so it is not yet included as per Arok's paradigm
-
-
-Derives to VIIn
+LEXICON VTIm_PL_CNJ_TENSE  plural only
 
 
 
- LEXICON VTIm_IND_NULL_PL_SUFFIX    
+
+
+LEXICON VTIm_IND_PERSON  
+
+LEXICON VTIm_CNJ_PERSON  
+
+LEXICON VTIm_FUT_CON_PERSON  
+
+LEXICON VTIm_IMP_PERSON  
+
+LEXICON VTIm_PL_IND_PERSON  plural only
+
+LEXICON VTIm_PL_CNJ_PERSON  plural only
+
+LEXICON VTIm_PL_FUT_CON_PERSON  plural only
+
+LEXICON VTIm_PL_IMP_PERSON  plural only
+
+
+
+
+
+
+LEXICON VTIm_IND_NI     
+
+LEXICON VTIm_IND_NI_SG_SUFFIX    
+
+LEXICON VTIm_IND_NI_PL_SUFFIX    
+
+LEXICON VTIm_IND_KI     
+
+LEXICON VTIm_IND_KI_SG_SUFFIX    
+
+LEXICON VTIm_IND_KI_PL_SUFFIX    
+
+LEXICON VTIm_IND_NULL     
+
+LEXICON VTIm_IND_NULL_SG_SUFFIX    NOTE: X actor will eventually derive to VII, so it is not yet included as per Arok's paradigm
 
 
 Derives to VIIn
 
 
 
+LEXICON VTIm_IND_NULL_PL_SUFFIX    
 
 
- LEXICON VTIm_CNJ_NULL    
+Derives to VIIn
 
 
- LEXICON VTIm_CNJ_NULL_SG_SUFFIX    
+
+
+
+LEXICON VTIm_CNJ_NULL    
+
+
+LEXICON VTIm_CNJ_NULL_SG_SUFFIX    
 
 
 
 +X+4Sg:%>mihiyik # ;
 
- LEXICON VTIm_CNJ_NULL_PL_SUFFIX    
+LEXICON VTIm_CNJ_NULL_PL_SUFFIX    
 
 
 
@@ -1169,16 +1169,16 @@ Derives to VIIn
 
 
 
- LEXICON VTIm_FUT_CON_NULL    
+LEXICON VTIm_FUT_CON_NULL    
 
 
- LEXICON VTIm_FUT_CON_NULL_SG_SUFFIX    
+LEXICON VTIm_FUT_CON_NULL_SG_SUFFIX    
 
 
 
 +X+4Sg:%>mihiyiki # ;
 
- LEXICON VTIm_FUT_CON_NULL_PL_SUFFIX    
+LEXICON VTIm_FUT_CON_NULL_PL_SUFFIX    
 
 
 
@@ -1188,70 +1188,70 @@ Derives to VIIn
 
 
 
- * LEXICON VTA   Multi-Syllabic stems 
+* LEXICON VTA   Multi-Syllabic stems 
 
- * LEXICON VTA_PL   Multi-Syllabic stems plural only forms
+* LEXICON VTA_PL   Multi-Syllabic stems plural only forms
 
- * LEXICON VTAt   Multi-Syllabic t/s-final alternating stems
+* LEXICON VTAt   Multi-Syllabic t/s-final alternating stems
 
- * LEXICON VTAi   Mono-Syllabic stems
+* LEXICON VTAi   Mono-Syllabic stems
 
 
 
 
- * LEXICON VTA_WICI   -Vw stem-ending verbs; where + i suf deletes w and i
+* LEXICON VTA_WICI   -Vw stem-ending verbs; where + i suf deletes w and i
 
- * LEXICON VTA_PL_WICI   -Vw stem-ending verbs; when deletes w and i plural only forms 
+* LEXICON VTA_PL_WICI   -Vw stem-ending verbs; when deletes w and i plural only forms 
 
- * LEXICON VTAt_WICI   -t ending stems
+* LEXICON VTAt_WICI   -t ending stems
 
- * LEXICON VTAi_WICI   single mora stems
+* LEXICON VTAi_WICI   single mora stems
 
 
 
- LEXICON VTA_ORDER  Note: Imp and Fut Con don't take tense
+LEXICON VTA_ORDER  Note: Imp and Fut Con don't take tense
 
- LEXICON VTA_PL_ORDER  Note: Imp and Fut Con don't take tense 
+LEXICON VTA_PL_ORDER  Note: Imp and Fut Con don't take tense 
 
- LEXICON VTAi_ORDER  Note: Imp and Fut Con don't take tense ; Conjugates as TA regular except in 2sg IMM IMP
+LEXICON VTAi_ORDER  Note: Imp and Fut Con don't take tense ; Conjugates as TA regular except in 2sg IMM IMP
 
- LEXICON VTAt_ORDER  Note: Imp and Fut Con don't take tense ; Conjugates as TA regular except in 2sg IMM IMP
+LEXICON VTAt_ORDER  Note: Imp and Fut Con don't take tense ; Conjugates as TA regular except in 2sg IMM IMP
 
 
- LEXICON VTA_IND_TENSE  plural only
+LEXICON VTA_IND_TENSE  plural only
 
- LEXICON VTA_CNJ_TENSE  plural only
+LEXICON VTA_CNJ_TENSE  plural only
 
- LEXICON VTA_PL_IND_TENSE  plural only
+LEXICON VTA_PL_IND_TENSE  plural only
 
- LEXICON VTA_PL_CNJ_TENSE  plural only
+LEXICON VTA_PL_CNJ_TENSE  plural only
 
 
 
 
 
- LEXICON VTA_IND_PERSON  
+LEXICON VTA_IND_PERSON  
 
- LEXICON VTA_CNJ_PERSON  
+LEXICON VTA_CNJ_PERSON  
 
- LEXICON VTA_FUT_CON_PERSON  
+LEXICON VTA_FUT_CON_PERSON  
 
- LEXICON VTA_IMP_PERSON  
+LEXICON VTA_IMP_PERSON  
 
- LEXICON VTA_PL_IND_PERSON  
+LEXICON VTA_PL_IND_PERSON  
 
- LEXICON VTA_PL_CNJ_PERSON  
+LEXICON VTA_PL_CNJ_PERSON  
 
- LEXICON VTA_PL_FUT_CON_PERSON  
+LEXICON VTA_PL_FUT_CON_PERSON  
 
- LEXICON VTA_PL_IMP_PERSON  
+LEXICON VTA_PL_IMP_PERSON  
 
 
 
- LEXICON VTAt_IMP_PERSON  no -i in 2sg+3SgO
+LEXICON VTAt_IMP_PERSON  no -i in 2sg+3SgO
 
 
- LEXICON VTAi_IMP_PERSON  
+LEXICON VTAi_IMP_PERSON  
 
 
 
@@ -1259,10 +1259,10 @@ Derives to VIIn
 
 
 
- LEXICON VTA_IND_NI     NOTE: No local, as local forms are always with ki-
+LEXICON VTA_IND_NI     NOTE: No local, as local forms are always with ki-
 
 
- LEXICON VTA_IND_NI_SG_SUFFIX   
+LEXICON VTA_IND_NI_SG_SUFFIX   
 
 
 
@@ -1274,7 +1274,7 @@ Derives to VIIn
 
 
 
- LEXICON VTA_IND_NI_PL_SUFFIX    
+LEXICON VTA_IND_NI_PL_SUFFIX    
 
 
 
@@ -1288,10 +1288,10 @@ Derives to VIIn
 
 
 
- LEXICON VTA_IND_KI     
+LEXICON VTA_IND_KI     
 
 
- LEXICON VTA_IND_KI_SG_SUFFIX    
+LEXICON VTA_IND_KI_SG_SUFFIX    
 
 
 
@@ -1308,7 +1308,7 @@ Derives to VIIn
 
 
 
- LEXICON VTA_IND_KI_PL_SUFFIX    
+LEXICON VTA_IND_KI_PL_SUFFIX    
 
 
 
@@ -1332,11 +1332,11 @@ Derives to VIIn
 
 
 
- LEXICON VTA_IND_NULL     NOTE: never local
+LEXICON VTA_IND_NULL     NOTE: never local
 
 
 
- LEXICON VTA_IND_NULL_SG_SUFFIX    
+LEXICON VTA_IND_NULL_SG_SUFFIX    
 
 
 
@@ -1349,7 +1349,7 @@ Derives to VIIn
 
 
 
- LEXICON VTA_IND_NULL_PL_SUFFIX    
+LEXICON VTA_IND_NULL_PL_SUFFIX    
 
 
 
@@ -1700,46 +1700,46 @@ Full incorporation of AEW 2020 verbs into new crk FST
 
 There are more pronoums to be added here.
 
- LEXICON Pronoun 
+LEXICON Pronoun 
 
 
- LEXICON Personal  \\
- niýa+Pron+Pers+1Sg:niýa # ; 
- kiýa+Pron+Pers+2Sg:kiýa # ; 
-
-
-
- LEXICON Interrogative   \\
- awîna+Pron+Interr+A+Sg:awîna # "who,whose" ; 
- awîniki+Pron+Interr+A+Pl:awîniki # "who" ; 
- awînihi+Pron+Interr+A+Obv:awînihi # "who" ; 
- awîniwâ+Pron+Interr+A+Obv:awîniwâ # "who" ; 
+LEXICON Personal  \\
+niýa+Pron+Pers+1Sg:niýa # ; 
+kiýa+Pron+Pers+2Sg:kiýa # ; 
 
 
 
+LEXICON Interrogative   \\
+awîna+Pron+Interr+A+Sg:awîna # "who,whose" ; 
+awîniki+Pron+Interr+A+Pl:awîniki # "who" ; 
+awînihi+Pron+Interr+A+Obv:awînihi # "who" ; 
+awîniwâ+Pron+Interr+A+Obv:awîniwâ # "who" ; 
 
 
- LEXICON Indefinite  \\
- awiyak+Pron+Indef+A+Sg:awiyak # "someone" ; 
- awiyak+Pron+Indef+A+Pl:awiyakak # "some people" ;
 
- LEXICON Demonstrative    \\
+
+
+LEXICON Indefinite  \\
+awiyak+Pron+Indef+A+Sg:awiyak # "someone" ; 
+awiyak+Pron+Indef+A+Pl:awiyakak # "some people" ;
+
+LEXICON Demonstrative    \\
 ANIMATE \\
- awa+Pron+Dem+Prox+A+Sg:awa # "this" ; 
- ôki+Pron+Dem+Prox+A+Pl:ôki # "these" ; 
- ôhi+Pron+Dem+Prox+A+Obv:ôhi # "this/these" ; 
+awa+Pron+Dem+Prox+A+Sg:awa # "this" ; 
+ôki+Pron+Dem+Prox+A+Pl:ôki # "these" ; 
+ôhi+Pron+Dem+Prox+A+Obv:ôhi # "this/these" ; 
 
 
 
 INANIMATE \\
 
- ôma+Pron+Dem+Prox+I+Sg:ôma # "this" ; 
- ôhi+Pron+Dem+Prox+I+Pl:ôhi # "these" ; 
+ôma+Pron+Dem+Prox+I+Sg:ôma # "this" ; 
+ôhi+Pron+Dem+Prox+I+Pl:ôhi # "these" ; 
 
 
 
- ôma+Pron+Def+Prox+I+Sg:ôma # "this one" ; 
- ôhi+Pron+Def+Prox+I+Pl:ôhi # "these one" ; 
+ôma+Pron+Def+Prox+I+Sg:ôma # "this one" ; 
+ôhi+Pron+Def+Prox+I+Pl:ôhi # "these one" ; 
 
 
 * * *
@@ -1771,12 +1771,12 @@ for text-to-speech systems.
 
 For example:
 
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
+* s.:syntynyt # ;  
+* os.:omaa% sukua # ;  
+* v.:vuosi # ;  
+* v.:vuonna # ;  
+* esim.:esimerkki # ; 
+* esim.:esimerkiksi # ; 
 
 
 * * *
