@@ -1,3 +1,7 @@
+# Woods Cree description 
+
+All documents in one file
+
 
 S Y N T A C T I C   F U N C T I O N S   F O R  (LANGUAGE NAME HERE)
 
@@ -5,94 +9,7 @@ Sámi language technology project 2003-2014, University of Tromsø #
 
 This file adds syntactic functions. It was copied from sme.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Syntactic sets
-
 
 * <cs> : 
 * @+FAUXV : finite auxiliary verb 
@@ -147,14 +64,7 @@ Syntactic sets
 * @VOC : Vocative
 * @X : The function is unknown, e.g. because of that the word is unknown
 
-
-
-
-
-
-
 * NP sets defined according to their morphosyntactic features
-
 
 * The PRE-NP-HEAD family of sets
 
@@ -162,103 +72,31 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
 The set **NOT-NPMOD** is used to find barriers between NPs.
 Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
 meaning: Scan to the first noun, ignoring anything that can be
 part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## HNOUN MAPPING
-
-
-
-
-
-
-
-
-
-
-
-
 
 The leftovers are tagged @X
 
 ###  **missingX** adds @X to all missings
 
-
-
-
 ###  **therestX** adds @X to all what is left, often errouneus disambiguated forms
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-cwd/blob/main/../src/cg3/functions.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-cwd/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+
 Definitions
-
-
-
-
-
 
 Rules
 
 VG>i2 -> VV
-
-
-
-
-
-
 
 * *mêskanaw>i2^DIMs*
 * *mêskanâ000s*
@@ -293,15 +131,11 @@ VG>i2 -> VV
 * *tohtôsâpoy>i2hk*
 * *tohtôsâpô000hk*
 
-
-
 * *wâwi>i2^DIMs*
 * *wâwi000s*
 
 * *ôsi>i2hk*
 * *ôsi00hk*
-
-
 
 * *atimw>i2^DIMs*
 * *acimo000s*
@@ -314,7 +148,6 @@ VG>i2 -> VV
 * *maskisin>i2hk*
 * *maskisin0ihk*
 
-
 * *atimw*
 * *atim0*
 
@@ -324,20 +157,11 @@ VG>i2 -> VV
 * *nit2<nînihikw*
 * *ni00nînihik*
 
-
 * *a>tân*
 * *ê0tân*
 
-
-
 * *nit2<astotin>i2^DIMs*
 * *nic0ascocin0i0s*
-
-
-
-
-
-
 
 * *ê^EGLOT<acimo>t*
 * *êh0acimo0t*
@@ -348,33 +172,24 @@ VG>i2 -> VV
 * *ê^EGLOT<d2ay3d1âh<acimo>t*
 * *êh00ay0âh0acimo0t*
 
-
 * *nit2<nêhiyawê>n2*
 * *ni00nêhiyawâ0n*
 * *kit2<kâsîhkwê>n2*
 * *ki00kâsîhkwâ0n*
-
 
 * *nit2<tipiska>n2*
 * *ni00tipiskê0n*
 * *kit2<kiskêyihta>n2*
 * *ki00kiskêyihtê0n*
 
-
 * *ê-<nîpin3>k*
 * *ê-0nîpih0k*
-
 
 * *ê-<mispon>k*
 * *ê-0mispo00k*
 
-
-
 * *wapâht4>ikâtê>w*
 * *wapâhc0ikâtê0w*
-
-
-
 
 * *ê-<mow2>i2ht*
 * *ê-0mow0iht*
@@ -418,7 +233,6 @@ VG>i2 -> VV
 * *nitonaw>îhkan*
 * *nitonaw0îhkan*
 
-
 * *it3>i*
 * *is0i*
 * *kit2<nakat3>in*
@@ -440,8 +254,6 @@ VG>i2 -> VV
 * *nakat3>ii2hkan*
 * *nakas0îhkan*
 
-
-
 * *kit2<kost3>in*
 * *ki00ko0s0in*
 * *nit2<kost3>i2mâwa*
@@ -461,15 +273,10 @@ VG>i2 -> VV
 * *kost3>ii2hkan*
 * *ko0s0îhkan*
 
-
-
-
-
 * *mi4<îwat3>i2^DIMs*
 * *m00îwac0i0s*
 
 __@OUTSIDE RULES@__
-
 
 * *d1ay2-<nipâw*
 * *na0-0nipâw*
@@ -490,8 +297,6 @@ __@OUTSIDE RULES@__
 * *0ay-0ayâw*
 
 INITIAL CHANGE
-
-
 
 * *nipât^IC*
 * *nêpât0*
@@ -520,13 +325,11 @@ INITIAL CHANGE
 * *m0ostohtêt^IC*
 * *mwêstohtêt0*
 
-
 * *0oyôyot^IC*
 * *wêyôyot0*
 
 * *k0ocît^IC*
 * *kwêcît0*
-
 
 * *îkatêhât^IC*
 * *âkatêhât0*
@@ -543,8 +346,6 @@ INITIAL CHANGE
 * *00ôhkomit^IC*
 * *iyôhkomit0*
 
-
-
 * *w3<spiton*
 * *o0spiton*
 
@@ -560,10 +361,6 @@ INITIAL CHANGE
 * *w3<ahkwan*
 * *w0ahkwan*
 
-
-
-
-
 * *ni4<ohkom*
 * *n00ôhkom*
 
@@ -576,7 +373,6 @@ INITIAL CHANGE
 * *w3<ohkom>a*
 * *00ohkom0a*
 
-
 * *nit2<ospwâkan*
 * *nit0ôspwâkan*
 
@@ -588,84 +384,64 @@ INITIAL CHANGE
 
 Composing the rules together
 
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.xfscript](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/phonology.xfscript)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.xfscript](https://github.com/giellalt/lang-cwd/blob/main/src/fst/phonology.xfscript)</small>
+
+---
+
+
 # Plains Cree particles                           
 
 The file contains the following lexicons, with content as described:
 
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/particles.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/stems/particles.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/stems/particles.lexc)</small>
 
-
+---
 
 
 
 Test lemma/stem set for nouns according the new crk FST
 
-
 Complete extraction of lemma:stem info from AEW 2020, according to
 LEXC structure in the new crk FST.
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/noun_stems.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/noun_stems.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/stems/noun_stems.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/stems/noun_stems.lexc)</small>
+
+---
 
 
 
 Model verb lemmas and stems for new crk FST
 
-
 Full incorporation of AEW 2020 verbs into new crk FST
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verb_stems.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/verb_stems.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/verb_stems.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/stems/verb_stems.lexc)</small>
+
+---
+
+
 ## Plains Cree pronouns
 
 There are more pronoums to be added here.
 
 LEXICON Pronoun 
 
-
 LEXICON Personal  \\
 niýa+Pron+Pers+1Sg:niýa # ; 
 kiýa+Pron+Pers+2Sg:kiýa # ; 
-
-
 
 LEXICON Interrogative   \\
 awîna+Pron+Interr+A+Sg:awîna # "who,whose" ; 
 awîniki+Pron+Interr+A+Pl:awîniki # "who" ; 
 awînihi+Pron+Interr+A+Obv:awînihi # "who" ; 
 awîniwâ+Pron+Interr+A+Obv:awîniwâ # "who" ; 
-
-
-
-
 
 LEXICON Indefinite  \\
 awiyak+Pron+Indef+A+Sg:awiyak # "someone" ; 
@@ -677,23 +453,22 @@ awa+Pron+Dem+Prox+A+Sg:awa # "this" ;
 ôki+Pron+Dem+Prox+A+Pl:ôki # "these" ; 
 ôhi+Pron+Dem+Prox+A+Obv:ôhi # "this/these" ; 
 
-
-
 INANIMATE \\
 
 ôma+Pron+Dem+Prox+I+Sg:ôma # "this" ; 
 ôhi+Pron+Dem+Prox+I+Pl:ôhi # "these" ; 
 
-
-
 ôma+Pron+Def+Prox+I+Sg:ôma # "this one" ; 
 ôhi+Pron+Def+Prox+I+Pl:ôhi # "these one" ; 
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/stems/pronouns.lexc)</small>
-Plains Cree verb morphology                  
 
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+
+
+Plains Cree verb morphology                  
 
 The Plains Cree verbs are divided in four groups:
 
@@ -701,7 +476,6 @@ The Plains Cree verbs are divided in four groups:
 1. II: Inanimate intransitive
 1. TA: Transitive animate
 1. TI: Transitive inanimate
-
 
 # Prefixes
 
@@ -715,57 +489,27 @@ LEXICON VerbPrefixes   divides the lexicon into four modes: independent, conjunc
 LEXICON INDEPENDENT  gives flags and prefixes for personprefix
 Hypotheticals
 
-
 LEXICON IND_TENSE  gives flags and prefixes for tense 
-
-
-
 
 LEXICON FUTURE_CONDITIONAL  gives flags for future conditional (no prefix)
 
-
 LEXICON CONJUNCT  gives flag for conjunct and combined tense preverbs
-
-
-
-
-
 
 LEXICON CNJ_TENSE    gives prefixes and flags for tense in conjunct
 
-
-
 LEXICON IMPERATIVE    gives flag for imperative (no prefixes)
-
 
 Preverbs
 
 LEXICON VERBPREFIXES   just adds the prefix boundary
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Now, LEXC directs us to the ../stems/verbs_stems.lexc file,
 where we find all the verbal stems. The suffixes are then
 found in the section "Suffixes" right underneath.
 
-
 # Suffixes
 
 Intransitive inanimate (II)
-
-
 
 LEXICON VIIn   
 
@@ -783,25 +527,12 @@ LEXICON VIIw_SG
 LEXICON VIIn_PL   NO LONGER NEEDED FROM AROK
 NO LONGER NEEDED FROM AROK
 
-
-
-
-
-
 	 NO LONGER NEEDED FROM AROK
 @U.wici.NULL@ VIIw_PL_ORDER ; NO LONGER NEEDED FROM AROK
 
-
-
-
-
 @U.wici.NULL@ VIIw_PL_ORDER ;
 
-
-
-
 LEXICON VIIw_SGPL_ORDER  
-
 
 LEXICON VIIw_SG_ORDER  singular only
 
@@ -812,16 +543,11 @@ LEXICON VIIw_PL_ORDER  singular only
 @U.order.cnj@+Cnj:@U.order.cnj@ VIIw_PL_CNJ_PERSON ; !
 @U.order.FutCon@+Fut+Cond:@U.order.FutCon@ VIIw_PL_FUT_CON_PERSON ;!
 
-
 LEXICON VIIn_SGPL_ORDER  
 
 LEXICON VIIn_SG_ORDER  singular only
 
 LEXICON VIIn_PL_ORDER  plural only
-
-
-
-
 
 LEXICON VIIw_SG_IND_TENSE  plural only
 
@@ -842,9 +568,6 @@ LEXICON VIIw_PL_CNJ_TENSE  plural only
 @U.tense.Prt@+Prt:@U.tense.Prt@ VIIw_PL_CNJ_PERSON ; !
 @U.tense.FutInt@+Fut+Int:@U.tense.FutInt@ VIIw_PL_CNJ_PERSON ; !
 
-
-
-
 LEXICON VIIn_SG_IND_TENSE  plural only
 
 LEXICON VIIn_SG_CNJ_TENSE  plural only
@@ -852,8 +575,6 @@ LEXICON VIIn_SG_CNJ_TENSE  plural only
 LEXICON VIIn_PL_IND_TENSE  plural only
 
 LEXICON VIIn_PL_CNJ_TENSE  plural only
-
-
 
 LEXICON VIIw_SGPL_IND_PERSON  
 
@@ -882,7 +603,6 @@ LEXICON VIIw_PL_FUT_CON_PERSON
 = LEXICON VIIw_PL_FUT_CON_PERSON  plural only
 @U.person.NULL@ VIIw_FUT_CON_PL_SUFFIX ;
 
-
 LEXICON VIIn_SGPL_IND_PERSON  
 
 LEXICON VIIn_SGPL_CNJ_PERSON  
@@ -901,17 +621,11 @@ LEXICON VIIn_PL_CNJ_PERSON  plural only
 
 LEXICON VIIn_PL_FUT_CON_PERSON  plural only
 
-
-
-
-
 LEXICON VIIn_SGPL_IND_NULL 
 
 LEXICON VIIn_SG_IND_SUFFIX    singular
 
 LEXICON VIIn_PL_IND_SUFFIX   plural
-
-
 
 LEXICON VIIw_SGPL_IND_NULL 
 
@@ -919,16 +633,11 @@ LEXICON VIIw_SG_IND_SUFFIX    w final singular
 
 LEXICON VIIw_PL_IND_SUFFIX   w final plural
 
-
-
-
-
 LEXICON VIIn_SGPL_CNJ_NULL 
 
 LEXICON VIIn_SG_CNJ_SUFFIX    singular
 
 LEXICON VIIn_PL_CNJ_SUFFIX   plural
-
 
 LEXICON VIIw_SGPL_CNJ_NULL 
 
@@ -936,15 +645,11 @@ LEXICON VIIw_SG_CNJ_SUFFIX    w final singular
 
 LEXICON VIIw_PL_CNJ_SUFFIX    w final plural
 
-
-
-
 LEXICON VIIn_SGPL_FUT_CON_NULL 
 
 LEXICON VIIn_SG_FUT_CON_SUFFIX    singular
 
 LEXICON VIIn_PL_FUT_CON_SUFFIX   plural
-
 
 LEXICON VIIw_SGPL_FUT_CON_NULL 
 
@@ -952,10 +657,7 @@ LEXICON VIIw_SG_FUT_CON_SUFFIX    w final singular
 
 LEXICON VIIw_PL_FUT_CON_SUFFIX    w final plural
 
-
 Intransitive animate (AI)
-
-
 
 LEXICON VAIw_PL  stems that end in â or ê
 
@@ -969,67 +671,23 @@ LEXICON VAIn_PL
 
 LEXICON VAIm  These are VTI3 in Arok's database
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 LEXICON VAIn_ORDER 
 
 LEXICON VAIn_PL_ORDER  plural only  
-
-
-
-
 
 LEXICON VAIae_ORDER 
 
 LEXICON VAIw_PL_ORDER  plural only 
 
-
 LEXICON VAIio_ORDER 
-
-
-
-
-
-
-
 
 LEXICON VAIn_PL_IND_TENSE  plural only
 
-
 LEXICON VAIn_PL_CNJ_TENSE  plural only
-
 
 LEXICON VAIw_PL_IND_TENSE  plural only
 
-
 LEXICON VAIw_PL_CNJ_TENSE  plural only
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 LEXICON VAIn_IND_PERSON  
 
@@ -1047,7 +705,6 @@ LEXICON VAIn_PL_FUT_CON_PERSON  plural only
 
 LEXICON VAIn_PL_IMP_PERSON  plural only
 
-
 LEXICON VAIw_PL_IND_PERSON  plural only
 
 LEXICON VAIw_PL_CNJ_PERSON  plural only
@@ -1056,25 +713,17 @@ LEXICON VAIw_PL_FUT_CON_PERSON  plural only
 
 LEXICON VAIw_PL_IMP_PERSON  plural only
 
-
 LEXICON VAIae_IND_PERSON  
 
 LEXICON VAIae_CNJ_PERSON  
 
 LEXICON VAIw_FUT_CON_PERSON  
 
-
 LEXICON VAIw_IMP_PERSON  
-
 
 LEXICON VAIio_IND_PERSON  
 
 LEXICON VAIio_CNJ_PERSON  
-
-
-
-
-
 
 LEXICON VAIw_IND_NI     
 
@@ -1092,16 +741,7 @@ LEXICON VAIae_IND_NULL
 
 LEXICON VAIio_IND_NULL     
 
-
-
-
-
-
-
-
 LEXICON VAIw_IND_NULL_PL_SUFFIX   
-
-
 
 LEXICON VAIn_IND_NI    
 
@@ -1119,111 +759,47 @@ LEXICON VAIn_IND_NULL
 
 LEXICON VAIn_IND_NULL_SG_SUFFIX    
 
-
-
-
-
-
-
 LEXICON VAIn_IND_NULL_PL_SUFFIX    
-
-
-
-
-
-
 
 LEXICON VAIae_CNJ_NULL    
 
-
 LEXICON VAIio_CNJ_NULL    
-
 
 LEXICON VAIae_CNJ_NULL_SG_SUFFIX    
 
-
-
-
 LEXICON VAIio_CNJ_NULL_SG_SUFFIX    
-
-
-
 
 LEXICON VAIw_CNJ_NULL_PL_SUFFIX    
 
-
-
-
 LEXICON VAIn_CNJ_NULL    
-
 
 LEXICON VAIn_CNJ_NULL_SG_SUFFIX    
 
-
-
 LEXICON VAIn_CNJ_NULL_PL_SUFFIX    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 LEXICON VAIae_FUT_CON_NULL    
 
-
 LEXICON VAIw_FUT_CON_NULL_SG_SUFFIX    
-
-
 
 +X+4Sg:%>yiki # ;
 
 LEXICON VAIw_FUT_CON_NULL_PL_SUFFIX    
 
-
-
 +X+4Pl:%>yikwâwi # ;
-
 
 LEXICON VAIn_FUT_CON_NULL    
 
-
 LEXICON VAIn_FUT_CON_NULL_SG_SUFFIX    
-
-
 
 +X+4Sg:%>iyiki # ;
 
 LEXICON VAIn_FUT_CON_NULL_PL_SUFFIX    
 
-
-
 +X+4Pl:%>iyikwâwi # ;
-
-
 
 Transitive inanimate (TI)
 
-
-
 * LEXICON VTIm   
-
 
 * LEXICON VTIm_PL    Plural
 
@@ -1231,30 +807,13 @@ Transitive inanimate (TI)
 
 * LEXICON VTIio   NOTE: These inflect just as VAI -w final stems, so they are redirected to those paradigms
 
-
-
-
-
-
-
-
-
 LEXICON VTIm_ORDER  . 
 
 LEXICON VTIm_PL_ORDER  plural only NOTE: imperative and fut con go straight to person lexica
 
-
-
-
-
-
 LEXICON VTIm_PL_IND_TENSE  plural only
 
 LEXICON VTIm_PL_CNJ_TENSE  plural only
-
-
-
-
 
 LEXICON VTIm_IND_PERSON  
 
@@ -1272,11 +831,6 @@ LEXICON VTIm_PL_FUT_CON_PERSON  plural only
 
 LEXICON VTIm_PL_IMP_PERSON  plural only
 
-
-
-
-
-
 LEXICON VTIm_IND_NI     
 
 LEXICON VTIm_IND_NI_SG_SUFFIX    
@@ -1293,68 +847,32 @@ LEXICON VTIm_IND_NULL
 
 LEXICON VTIm_IND_NULL_SG_SUFFIX    NOTE: X actor will eventually derive to VII, so it is not yet included as per Arok's paradigm
 
-
 Derives to VIIn
-
-
 
 LEXICON VTIm_IND_NULL_PL_SUFFIX    
 
-
 Derives to VIIn
-
-
-
-
 
 LEXICON VTIm_CNJ_NULL    
 
-
 LEXICON VTIm_CNJ_NULL_SG_SUFFIX    
-
-
 
 +X+4Sg:%>mihiyik # ;
 
 LEXICON VTIm_CNJ_NULL_PL_SUFFIX    
 
-
-
 +X+4Pl:%>mihiyiki # ;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 LEXICON VTIm_FUT_CON_NULL    
 
-
 LEXICON VTIm_FUT_CON_NULL_SG_SUFFIX    
-
-
 
 +X+4Sg:%>mihiyiki # ;
 
 LEXICON VTIm_FUT_CON_NULL_PL_SUFFIX    
 
-
-
 +X+3Sg:%>mihkwâwi # ;
 +X+4Sg:%>mihiyikwâwi # ;
-
-
-
 
 * LEXICON VTA   Multi-Syllabic stems 
 
@@ -1364,9 +882,6 @@ LEXICON VTIm_FUT_CON_NULL_PL_SUFFIX
 
 * LEXICON VTAi   Mono-Syllabic stems
 
-
-
-
 * LEXICON VTA_WICI   -Vw stem-ending verbs; where + i suf deletes w and i
 
 * LEXICON VTA_PL_WICI   -Vw stem-ending verbs; when deletes w and i plural only forms 
@@ -1374,8 +889,6 @@ LEXICON VTIm_FUT_CON_NULL_PL_SUFFIX
 * LEXICON VTAt_WICI   -t ending stems
 
 * LEXICON VTAi_WICI   single mora stems
-
-
 
 LEXICON VTA_ORDER  Note: Imp and Fut Con don't take tense
 
@@ -1385,7 +898,6 @@ LEXICON VTAi_ORDER  Note: Imp and Fut Con don't take tense ; Conjugates as TA re
 
 LEXICON VTAt_ORDER  Note: Imp and Fut Con don't take tense ; Conjugates as TA regular except in 2sg IMM IMP
 
-
 LEXICON VTA_IND_TENSE  plural only
 
 LEXICON VTA_CNJ_TENSE  plural only
@@ -1393,10 +905,6 @@ LEXICON VTA_CNJ_TENSE  plural only
 LEXICON VTA_PL_IND_TENSE  plural only
 
 LEXICON VTA_PL_CNJ_TENSE  plural only
-
-
-
-
 
 LEXICON VTA_IND_PERSON  
 
@@ -1414,430 +922,53 @@ LEXICON VTA_PL_FUT_CON_PERSON
 
 LEXICON VTA_PL_IMP_PERSON  
 
-
-
 LEXICON VTAt_IMP_PERSON  no -i in 2sg+3SgO
-
 
 LEXICON VTAi_IMP_PERSON  
 
-
-
-
-
-
-
 LEXICON VTA_IND_NI     NOTE: No local, as local forms are always with ki-
-
 
 LEXICON VTA_IND_NI_SG_SUFFIX   
 
-
-
-
-
-
-
-
-
-
-
 LEXICON VTA_IND_NI_PL_SUFFIX    
-
-
-
-
-
-
-
-
-
-
-
-
 
 LEXICON VTA_IND_KI     
 
-
 LEXICON VTA_IND_KI_SG_SUFFIX    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 LEXICON VTA_IND_KI_PL_SUFFIX    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 LEXICON VTA_IND_NULL     NOTE: never local
-
-
 
 LEXICON VTA_IND_NULL_SG_SUFFIX    
 
-
-
-
-
-
-
-
-
-
-
-
 LEXICON VTA_IND_NULL_PL_SUFFIX    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 End of verb affixes LEXC code
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verb_affixes.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/affixes/verb_affixes.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/affixes/verb_affixes.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/affixes/verb_affixes.lexc)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
 NOUN_ENDLEX for wrapping up various things
 
-
 End of noun affixes code
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/noun_affixes.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/affixes/noun_affixes.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/noun_affixes.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/affixes/noun_affixes.lexc)</small>
+
+---
+
+
 # Woods Cree morphological analyser
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Plains Cree LANGUAGE.
-
 
 # Definitions for Multichar_Symbols
 
@@ -1878,7 +1009,6 @@ Nominal morphology
 * +Dim         Diminutive
 
 Particles
-
 
 * +Def	     This is the intransitive demonstrative, i.e. the definite.
 * +Indef       Indefinite
@@ -1936,7 +1066,6 @@ Verbal MSP
 
 Person prefix fragment features
 
-
 Nominal morphosyntactic features
 * +Sg		  singular
 * +Pl		  plural
@@ -1974,15 +1103,6 @@ Noun animacy and dependency classes
 
 Preverbs
 
-
-
-
-
-
-
-
-
-
 ## Auxiliary symbols
 
 These symbols either shape or govern the
@@ -1990,7 +1110,6 @@ morphophonological structure
 
 * %> 		  suffix border
 * %< 		  prefix border
-
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
@@ -2011,12 +1130,10 @@ Special characters for morphophonology
 
 * h2 		  Prefix in possessives
 
-
 Triggers for various morphophonological phenomena
 Mostly, these are not realized themselves as any grapheme/phoneme
 
 * %^EGLOT    glottal stop after e, for eh- in conjunctive order
-
 
 ## Usage tags
 
@@ -2040,15 +1157,6 @@ for the inverse objective conjugation, the flag refers to
 the **prefix**, not to the subject. So *indsg1* refers to either
 subject = 1Sg or object = 1Sg. The 3-3 forms are prefixless.
 
-
-
-
-
-
-
-
-
-
 The conjunct form always has
 the ê- prefix, and future conditional never has a prefix.
 
@@ -2066,39 +1174,11 @@ Order
 * @U.order.cnj@    Conjunct
 * @U.order.imp@    Imperative
 
-
-
-
-
-
 Tense
-
-
-
-
-
 
 New multichar symbols for nouns
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 End of new and all Multichar_Symbols
-
 
  LEXICON Root          is where it all starts
 * NOUN_PREFIXES   ;    
@@ -2115,69 +1195,10 @@ End of new and all Multichar_Symbols
 * NON_STANDARD     ;    
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/fst/root.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/root.lexc)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -2339,52 +1360,12 @@ raised							_r
 lowered							_o 
 advanced tongue root				_A 
 retracted tongue root			_q
+
 * * *
-<small>This (part of) documentation was generated from [../src/phonetics/txt2ipa.xfscript](http://github.com/giellalt/lang-cwd/blob/main/../src/phonetics/txt2ipa.xfscript)</small>
 
+<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-cwd/blob/main/src/phonetics/txt2ipa.xfscript)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -2395,7 +1376,11 @@ retracted tongue root			_q
 % násti% :%*     Root ; 
 
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+---
+
 
 
 We describe here how abbreviations are in Woods Cree are read out, e.g.
@@ -2410,41 +1395,28 @@ For example:
 * esim.:esimerkki # ; 
 * esim.:esimerkiksi # ; 
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-cwd/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
-
-
-
-
-
-
-
-
 
 # DELIMITERS
 
-
 # TAGS AND SETS
 
-
-
 ## Tags
-
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-
-
-
 ### Beginning and end of sentence
 BOS
 EOS
-
-
 
 ### Parts of speech tags
 
@@ -2474,8 +1446,6 @@ PUNCT
 COMMA
 ¶
 
-
-
 ### Tags for POS sub-categories
 
 Pers
@@ -2491,7 +1461,6 @@ Prop
 Allegro
 Arab
 Romertall
-
 
 ### Tags for morphosyntactic properties
 
@@ -2554,11 +1523,7 @@ Sup
 Actio
 VAbess
 
-
-
 Err/Orth
-
-
 
 ### Semantic tags
 
@@ -2591,14 +1556,10 @@ HUMAN
 HAB-ACTOR
 HAB-ACTOR-NOT-HUMAN
 
-
 PROP-ATTR
 PROP-SUR
 
-
-
 TIME-N-SET
-
 
 ###  Syntactic tags
 
@@ -2670,22 +1631,15 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-
-
-
-
 ## Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-
-
 ### Sets for Single-word sets
 
 INITIAL
-
 
 ### Sets for word or not
 
@@ -2693,7 +1647,6 @@ WORD
 REAL-WORD
 REAL-WORD-NOT-ABBR
 NOT-COMMA
-
 
 ### Case sets
 
@@ -2708,7 +1661,6 @@ NOT-ACC
 
 ### Verb sets
 
-
 NOT-V
 
 ### Sets for finiteness and mood
@@ -2718,7 +1670,6 @@ REAL-NEG
 MOOD-V
 
 NOT-PRFPRC
-
 
 ### Sets for person
 
@@ -2732,49 +1683,15 @@ PL1-V
 PL2-V
 PL3-V
 
-
-
-
-
 ### Pronoun sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Adjectival sets and their complements
 
-
-
-
 ### Adverbial sets and their complements
-
-
-
 
 ### Sets of elements with common syntactic behaviour
 
-
 ### NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
-
 
 ### The PRE-NP-HEAD family of sets
 
@@ -2782,86 +1699,34 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Border sets and their complements
-
-
-
-
-
-
-
-
-
-
 
 ### Grammarchecker sets
 
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-cwd/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-cwd/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# Grammar checker tokenisation for cwd
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
+```
 $ make
 $ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-
-Issues:
-- [X] Ambiguous input
-- Seems to work fine
-- [X] Ambiguous multiword expessions with ambiguous tokenisation
-- Seems to work – represented within lexc now; hfst-tokenise also
-supports forms on the analyses now
-- [X] Ambiguous multiword expessions need reorganising after CG
-- The module cg-mwesplit takes wordforms from readings and turns them into
-new cohorts
-- [X] Unknown words
-- The set-difference method only works for words without
-flag diacritics (even though we should be working only on the form-side?)
-and leads to binary blow-up: With only lower unknowns, we get 45M;
-lower+upper gives 67M, while no unknowns gives 27M
-- Fixed instead by treating empty analyses as unknown-tokens in
-hfst-tokenise, and outputting unmatched strings with a prefix
-- [ ] Treat input that's within superblanks as unmatched
-- probably requires a change in hfst-tokenise itself
-- [X] Try >1 space for ambiguous MWE's? – represented within lexc now
-- [ ] Try set-difference-unknowns method with regular hfst commands?
+```
 
 More usage examples:
+```
 $ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -2876,9 +1741,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1) unknown word-like forms, and
@@ -2892,14 +1754,11 @@ so far:
 
 TODO: Could use something like this, but built-in's don't include šžđčŋ:
 
-
 Simply give an empty reading when something is unknown:
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -2908,7 +1767,12 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](http://github.com/giellalt/lang-cwd/blob/main/../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small># Tokeniser for cwd
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-cwd/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+
+---
+
+# Tokeniser for cwd
 
 Usage:
 ```
@@ -2920,12 +1784,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -2940,9 +1799,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1. unknown word-like forms, and
@@ -2960,16 +1816,12 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-
-
 ## Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -2978,4 +1830,8 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](http://github.com/giellalt/lang-cwd/blob/main/../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-cwd/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+
