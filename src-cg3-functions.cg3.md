@@ -82,8 +82,4 @@ The leftovers are tagged @X
 ###  **therestX** adds @X to all what is left, often errouneus disambiguated forms
 
 * * *
-
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-cwd/blob/main/src/cg3/functions.cg3)</small>
-
----
-
