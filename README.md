@@ -2,7 +2,7 @@ The Woods Cree morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-cwd)](https://github.com/giellalt/lang-cwd/issues)
-[![Build Status](https://github.com/giellalt/lang-cwd/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-cwd/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-cwd/main/badge.svg)](https://github.com/giellalt/lang-cwd/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-cwd)](https://github.com/giellalt/lang-cwd/blob/main/LICENSE)
 
 This repository contains finite state source files for the Woods Cree language,
