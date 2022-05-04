@@ -770,7 +770,7 @@ VG>i2 -> VV
 * *mi4<îwat3>i2^DIMs*
 * *m00îwac0i0s*
 
-__@OUTSIDE RULES@__
+__`OUTSIDE RULES`__
 
 * *d1ay2-<nipâw*
 * *na0-0nipâw*
@@ -939,7 +939,7 @@ Particles
 * +Interr      Interrogative (who/whose/what/what kind)
 * +Foc	     Focus particle
 
-+Ord +Ord  ordinals
+ordinals
 
 Verbal MSP
 * +Prs  
