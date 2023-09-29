@@ -1,9 +1,10 @@
 # Woods Cree documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
+![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-cwd%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-cwd)](https://github.com/giellalt/lang-cwd/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-cwd)](https://github.com/giellalt/lang-cwd/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-cwd/main/badge.svg)](https://github.com/giellalt/lang-cwd/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-cwd/main/badge.svg)](https://github.com/giellalt/lang-cwd/actions)
 
 This page documents the work on the **Woods Cree language model**. 
 
