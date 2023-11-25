@@ -1,0 +1,88 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - mithwasin
+
+      # Core 
+
+      # Prs+Ind
+      mithwasin+V+II+Ind+3Sg: mithwasin+V+II+Ind+3Sg
+
+      # Prs+Cnj
+      PV/e+mithwasin+V+II+Cnj+3Sg: PV/e+mithwasin+V+II+Cnj+3Sg
+      
+
+      # Prs # Ind
+      mithwasin+V+II+Ind+3Sg: mithwasin+V+II+Ind+3Sg
+      mithwasin+V+II+Ind+4Sg: mithwasin+V+II+Ind+4Sg
+      mithwasin+V+II+Ind+3Pl: mithwasin+V+II+Ind+3Pl
+      mithwasin+V+II+Ind+4Pl: mithwasin+V+II+Ind+4Pl
+      
+
+      # Prs # Cnj
+      PV/e+mithwasin+V+II+Cnj+3Sg: PV/e+mithwasin+V+II+Cnj+3Sg
+      PV/e+mithwasin+V+II+Cnj+4Sg: PV/e+mithwasin+V+II+Cnj+4Sg
+      PV/e+mithwasin+V+II+Cnj+3Pl: PV/e+mithwasin+V+II+Cnj+3Pl
+      PV/e+mithwasin+V+II+Cnj+4Pl: PV/e+mithwasin+V+II+Cnj+4Pl
+      
+
+      # Prt # Ind
+      PV/ki+mithwasin+V+II+Ind+3Sg: PV/ki+mithwasin+V+II+Ind+3Sg
+      PV/ki+mithwasin+V+II+Ind+4Sg: PV/ki+mithwasin+V+II+Ind+4Sg
+      PV/ki+mithwasin+V+II+Ind+3Pl: PV/ki+mithwasin+V+II+Ind+3Pl
+      PV/ki+mithwasin+V+II+Ind+4Pl: PV/ki+mithwasin+V+II+Ind+4Pl
+      
+
+      # Prt # Cnj
+      PV/e+PV/ki+mithwasin+V+II+Cnj+3Sg: PV/e+PV/ki+mithwasin+V+II+Cnj+3Sg
+      PV/e+PV/ki+mithwasin+V+II+Cnj+4Sg: PV/e+PV/ki+mithwasin+V+II+Cnj+4Sg
+      PV/e+PV/ki+mithwasin+V+II+Cnj+3Pl: PV/e+PV/ki+mithwasin+V+II+Cnj+3Pl
+      PV/e+PV/ki+mithwasin+V+II+Cnj+4Pl: PV/e+PV/ki+mithwasin+V+II+Cnj+4Pl
+      
+
+      # Fut+Int # Ind
+      PV/wi+mithwasin+V+II+Ind+3Sg: PV/wi+mithwasin+V+II+Ind+3Sg
+      PV/wi+mithwasin+V+II+Ind+4Sg: PV/wi+mithwasin+V+II+Ind+4Sg
+      PV/wi+mithwasin+V+II+Ind+3Pl: PV/wi+mithwasin+V+II+Ind+3Pl
+      PV/wi+mithwasin+V+II+Ind+4Pl: PV/wi+mithwasin+V+II+Ind+4Pl
+      
+
+      # Fut+Int # Cnj
+      PV/e+PV/wi+mithwasin+V+II+Cnj+3Sg: PV/e+PV/wi+mithwasin+V+II+Cnj+3Sg
+      PV/e+PV/wi+mithwasin+V+II+Cnj+4Sg: PV/e+PV/wi+mithwasin+V+II+Cnj+4Sg
+      PV/e+PV/wi+mithwasin+V+II+Cnj+3Pl: PV/e+PV/wi+mithwasin+V+II+Cnj+3Pl
+      PV/e+PV/wi+mithwasin+V+II+Cnj+4Pl: PV/e+PV/wi+mithwasin+V+II+Cnj+4Pl
+      
+
+      # Fut+Def # Ind
+      PV/ka+mithwasin+V+II+Ind+3Sg: PV/ka+mithwasin+V+II+Ind+3Sg
+      PV/ka+mithwasin+V+II+Ind+4Sg: PV/ka+mithwasin+V+II+Ind+4Sg
+      PV/ka+mithwasin+V+II+Ind+3Pl: PV/ka+mithwasin+V+II+Ind+3Pl
+      PV/ka+mithwasin+V+II+Ind+4Pl: PV/ka+mithwasin+V+II+Ind+4Pl
+      
+
+      # Inf # PV/ka
+      PV/ka+mithwasin+V+II+Cnj+3Sg: PV/ka+mithwasin+V+II+Cnj+3Sg
+      PV/ka+mithwasin+V+II+Cnj+4Sg: PV/ka+mithwasin+V+II+Cnj+4Sg
+      PV/ka+mithwasin+V+II+Cnj+3Pl: PV/ka+mithwasin+V+II+Cnj+3Pl
+      PV/ka+mithwasin+V+II+Cnj+4Pl: PV/ka+mithwasin+V+II+Cnj+4Pl
+      
+
+      # Inf # PV/ta
+      PV/ta+mithwasin+V+II+Cnj+3Sg: PV/ta+mithwasin+V+II+Cnj+3Sg
+      PV/ta+mithwasin+V+II+Cnj+4Sg: PV/ta+mithwasin+V+II+Cnj+4Sg
+      PV/ta+mithwasin+V+II+Cnj+3Pl: PV/ta+mithwasin+V+II+Cnj+3Pl
+      PV/ta+mithwasin+V+II+Cnj+4Pl: PV/ta+mithwasin+V+II+Cnj+4Pl
+      
+
+      # Fut # Cond
+      mithwasin+V+II+Fut+Cond+3Sg: mithwasin+V+II+Fut+Cond+3Sg
+      mithwasin+V+II+Fut+Cond+4Sg: mithwasin+V+II+Fut+Cond+4Sg
+      mithwasin+V+II+Fut+Cond+3Pl: mithwasin+V+II+Fut+Cond+3Pl
+      mithwasin+V+II+Fut+Cond+4Pl: mithwasin+V+II+Fut+Cond+4Pl
+      
+

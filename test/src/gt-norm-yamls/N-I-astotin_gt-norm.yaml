@@ -1,0 +1,64 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - astotin
+
+      # Core
+
+      # Nonposs
+      astotin+N+I+Sg: astotin
+      astotin+N+I+Pl: astotina
+      astotin+N+I+Loc: astotinihk
+
+      # Poss
+      astotin+N+I+Px1Sg+Sg: nitastotin
+      astotin+N+I+Px3Sg+Sg: otastotin
+      
+
+      # Nonposs
+      astotin+N+I+Sg: astotin
+      astotin+N+I+Pl: astotina
+      astotin+N+I+Loc: astotinihk
+      
+
+      # Der/Dim
+      astotin+N+I+Der/Dim+N+I+Sg: ascocinis
+      
+
+      # Poss # Sg
+      astotin+N+I+Px1Sg+Sg: nitastotin
+      astotin+N+I+Px2Sg+Sg: kitastotin
+      
+      astotin+N+I+Px1Pl+Sg: nitastotininân
+      astotin+N+I+Px12Pl+Sg: kitastotininaw
+      astotin+N+I+Px2Pl+Sg: kitastotiniwâw
+      
+      
+      
+
+      # Poss # Pl
+      astotin+N+I+Px1Sg+Pl: nitastotina
+      astotin+N+I+Px2Sg+Pl: kitastotina
+      
+      astotin+N+I+Px1Pl+Pl: nitastotininâna
+      astotin+N+I+Px12Pl+Pl: kitastotininawa
+      astotin+N+I+Px2Pl+Pl: kitastotiniwâwa
+      
+      
+      
+
+      # Poss # Loc
+      astotin+N+I+Px1Sg+Loc: nitastotinihk
+      astotin+N+I+Px2Sg+Loc: kitastotinihk
+      astotin+N+I+Px3Sg+Loc: otastotinihk
+      astotin+N+I+Px1Pl+Loc: nitastotininâhk
+      astotin+N+I+Px12Pl+Loc: kitastotininâhk
+      astotin+N+I+Px2Pl+Loc: kitastotiniwâhk
+      astotin+N+I+Px3Pl+Loc: otastotiniwâhk
+      astotin+N+I+Px4Sg/Pl+Loc: otastotinithihk
+      
+

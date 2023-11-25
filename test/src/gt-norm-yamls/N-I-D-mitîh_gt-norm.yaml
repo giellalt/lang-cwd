@@ -1,0 +1,57 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - mitîh
+
+      # Core
+
+      # Poss
+      mitîh+N+I+D+Px1Sg+Sg: nitîh
+      mitîh+N+I+D+Px2Sg+Sg: kitîh
+      mitîh+N+I+D+Px3Sg+Sg: otîh
+      
+
+      # Der/Dim
+      mitîh+N+I+D+Der/Dim+N+I+D+Sg: mitîh+N+I+D+Der/Dim+N+I+D+Sg
+      
+
+      # Poss # Sg
+      mitîh+N+I+D+Px1Sg+Sg: nitîh
+      mitîh+N+I+D+Px2Sg+Sg: kitîh
+      
+      mitîh+N+I+D+Px1Pl+Sg: nitîhinân
+      mitîh+N+I+D+Px12Pl+Sg: kitîhinaw
+      mitîh+N+I+D+Px2Pl+Sg: kitîhiwâw
+      
+      
+      mitîh+N+I+D+PxX+Sg: mitîh
+      
+
+      # Poss # Pl
+      mitîh+N+I+D+Px1Sg+Pl: nitîha
+      mitîh+N+I+D+Px2Sg+Pl: kitîha
+      
+      mitîh+N+I+D+Px1Pl+Pl: nitîhinâna
+      mitîh+N+I+D+Px12Pl+Pl: kitîhinawa
+      mitîh+N+I+D+Px2Pl+Pl: kitîhiwâwa
+      
+      
+      mitîh+N+I+D+PxX+Pl: mitîha
+      
+
+      # Poss # Loc
+      mitîh+N+I+D+Px1Sg+Loc: nitîhihk
+      mitîh+N+I+D+Px2Sg+Loc: kitîhihk
+      mitîh+N+I+D+Px3Sg+Loc: otîhihk
+      mitîh+N+I+D+Px1Pl+Loc: nitîhinâhk
+      mitîh+N+I+D+Px12Pl+Loc: kitîhinâhk
+      mitîh+N+I+D+Px2Pl+Loc: kitîhiwâhk
+      mitîh+N+I+D+Px3Pl+Loc: otîhiwâhk
+      mitîh+N+I+D+Px4Sg/Pl+Loc: otîhithihk
+      mitîh+N+I+D+PxX+Loc: mitîhihk
+      
+
