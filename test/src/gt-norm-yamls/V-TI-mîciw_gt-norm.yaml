@@ -1,0 +1,157 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - mîciw
+
+      # Core 
+
+      # Prs+Ind
+      mîciw+V+TI+Ind+1Sg: nimîcin	# I eat something
+      mîciw+V+TI+Ind+2Sg: kimîcin	# you eat something
+      mîciw+V+TI+Ind+3Sg: mîciw	# he/she eats something
+
+      # Prs+Cnj
+      PV/e+mîciw+V+TI+Cnj+1Sg: î-mîciyân	# as I eat something
+      PV/e+mîciw+V+TI+Cnj+2Sg: î-mîciyan	# as you eat something
+      PV/e+mîciw+V+TI+Cnj+3Sg: î-mîcit	# as he/she eats something
+
+      # Imp
+      mîciw+V+TI+Imp+Imm+2Sg: mîci	# (you) eat something now
+      
+
+      # Prs # Ind
+      mîciw+V+TI+Ind+1Sg: nimîcin	# I eat something
+      mîciw+V+TI+Ind+2Sg: kimîcin	# you eat something
+      mîciw+V+TI+Ind+3Sg: mîciw	# he/she eats something
+      mîciw+V+TI+Ind+1Pl: nimîcinân	# we eat something
+      mîciw+V+TI+Ind+12Pl: [kimîcinânaw, kimîcinaw]	# we and you eat something
+      mîciw+V+TI+Ind+2Pl: kimîcinâwâw	# you all eat something
+      mîciw+V+TI+Ind+3Pl: mîciwak	# they eat something
+      mîciw+V+TI+Ind+4Sg/Pl: mîciyiwa	# another/others eat something
+      mîciw+V+TI+Ind+X: [mîciniwiw, mîciniwan]	# someone eats something
+      
+
+      # Prs # Cnj
+      PV/e+mîciw+V+TI+Cnj+1Sg: î-mîciyân	# as I eat something
+      PV/e+mîciw+V+TI+Cnj+2Sg: î-mîciyan	# as you eat something
+      PV/e+mîciw+V+TI+Cnj+3Sg: î-mîcit	# as he/she eats something
+      PV/e+mîciw+V+TI+Cnj+1Pl: î-mîciyâhk	# as we eat something
+      PV/e+mîciw+V+TI+Cnj+12Pl: î-mîciyahk	# as we and you eat something
+      PV/e+mîciw+V+TI+Cnj+2Pl: î-mîciyîk	# as you all eat something
+      PV/e+mîciw+V+TI+Cnj+3Pl: î-mîcicik	# as they eat something
+      PV/e+mîciw+V+TI+Cnj+4Sg/Pl: î-mîciyit	# as another/others eat something
+      PV/e+mîciw+V+TI+Cnj+X: [î-mîciniwik, î-mîciniwahk, î-mîcihk]	# as someone eats something
+      
+
+      # Prt # Ind
+      PV/ki+mîciw+V+TI+Ind+1Sg: nikî-mîcin	# I ate something
+      PV/ki+mîciw+V+TI+Ind+2Sg: kikî-mîcin	# you ate something
+      PV/ki+mîciw+V+TI+Ind+3Sg: kî-mîciw	# he/she ate something
+      PV/ki+mîciw+V+TI+Ind+1Pl: nikî-mîcinân	# we ate something
+      PV/ki+mîciw+V+TI+Ind+12Pl: [kikî-mîcinânaw, kikî-mîcinaw]	# we and you ate something
+      PV/ki+mîciw+V+TI+Ind+2Pl: kikî-mîcinâwâw	# you all ate something
+      PV/ki+mîciw+V+TI+Ind+3Pl: kî-mîciwak	# they ate something
+      PV/ki+mîciw+V+TI+Ind+4Sg/Pl: kî-mîciyiwa	# another/others ate something
+      PV/ki+mîciw+V+TI+Ind+X: [kî-mîciniwiw, kî-mîciniwan]	# someone ate something
+      
+
+      # Prt # Cnj
+      PV/e+PV/ki+mîciw+V+TI+Cnj+1Sg: î-kî-mîciyân	# as I ate something
+      PV/e+PV/ki+mîciw+V+TI+Cnj+2Sg: î-kî-mîciyan	# as you ate something
+      PV/e+PV/ki+mîciw+V+TI+Cnj+3Sg: î-kî-mîcit	# as he/she ate something
+      PV/e+PV/ki+mîciw+V+TI+Cnj+1Pl: î-kî-mîciyâhk	# as we ate something
+      PV/e+PV/ki+mîciw+V+TI+Cnj+12Pl: î-kî-mîciyahk	# as we and you ate something
+      PV/e+PV/ki+mîciw+V+TI+Cnj+2Pl: î-kî-mîciyîk	# as you all ate something
+      PV/e+PV/ki+mîciw+V+TI+Cnj+3Pl: î-kî-mîcicik	# as they ate something
+      PV/e+PV/ki+mîciw+V+TI+Cnj+4Sg/Pl: î-kî-mîciyit	# as another/others ate something
+      PV/e+PV/ki+mîciw+V+TI+Cnj+X: [î-kî-mîciniwik, î-kî-mîciniwahk, î-kî-mîcihk]	# as someone ate something
+      
+
+      # Fut+Int # Ind
+      PV/wi+mîciw+V+TI+Ind+1Sg: niwî-mîcin	# I am going to eat something
+      PV/wi+mîciw+V+TI+Ind+2Sg: kiwî-mîcin	# you are going to eat something
+      PV/wi+mîciw+V+TI+Ind+3Sg: wî-mîciw	# he/she is going to eat something
+      PV/wi+mîciw+V+TI+Ind+1Pl: niwî-mîcinân	# we are going to eat something
+      PV/wi+mîciw+V+TI+Ind+12Pl: [kiwî-mîcinânaw, kiwî-mîcinaw]	# we and you are going to eat something
+      PV/wi+mîciw+V+TI+Ind+2Pl: kiwî-mîcinâwâw	# you all are going to eat something
+      PV/wi+mîciw+V+TI+Ind+3Pl: wî-mîciwak	# they are going to eat something
+      PV/wi+mîciw+V+TI+Ind+4Sg/Pl: wî-mîciyiwa	# another/others are going to eat something
+      PV/wi+mîciw+V+TI+Ind+X: [wî-mîciniwiw, wî-mîciniwan]	# someone is going to eat something
+      
+
+      # Fut+Int # Cnj
+      PV/e+PV/wi+mîciw+V+TI+Cnj+1Sg: î-wî-mîciyân	# as I am going to eat something
+      PV/e+PV/wi+mîciw+V+TI+Cnj+2Sg: î-wî-mîciyan	# as you are going to eat something
+      PV/e+PV/wi+mîciw+V+TI+Cnj+3Sg: î-wî-mîcit	# as he/she is going to eat something
+      PV/e+PV/wi+mîciw+V+TI+Cnj+1Pl: î-wî-mîciyâhk	# as we are going to eat something
+      PV/e+PV/wi+mîciw+V+TI+Cnj+12Pl: î-wî-mîciyahk	# as we and you are going to eat something
+      PV/e+PV/wi+mîciw+V+TI+Cnj+2Pl: î-wî-mîciyîk	# as you all are going to eat something
+      PV/e+PV/wi+mîciw+V+TI+Cnj+3Pl: î-wî-mîcicik	# as they are going to eat something
+      PV/e+PV/wi+mîciw+V+TI+Cnj+4Sg/Pl: î-wî-mîciyit	# as another/others are going to eat something
+      PV/e+PV/wi+mîciw+V+TI+Cnj+X: [î-wî-mîciniwik, î-wî-mîciniwahk, î-wî-mîcihk]	# as someone is going to eat something
+      
+
+      # Fut+Def # Ind
+      PV/ka+mîciw+V+TI+Ind+1Sg: nika-mîcin	# I will eat something
+      PV/ka+mîciw+V+TI+Ind+2Sg: kika-mîcin	# you will eat something
+      PV/ka+mîciw+V+TI+Ind+3Sg: ka-mîciw	# he/she will eat something
+      PV/ka+mîciw+V+TI+Ind+1Pl: nika-mîcinân	# we will eat something
+      PV/ka+mîciw+V+TI+Ind+12Pl: [kika-mîcinânaw, kika-mîcinaw]	# we and you will eat something
+      PV/ka+mîciw+V+TI+Ind+2Pl: kika-mîcinâwâw	# you all will eat something
+      PV/ka+mîciw+V+TI+Ind+3Pl: ka-mîciwak	# they will eat something
+      PV/ka+mîciw+V+TI+Ind+4Sg/Pl: ka-mîciyiwa	# another/others will eat something
+      PV/ka+mîciw+V+TI+Ind+X: [ka-mîciniwiw, ka-mîciniwan]	# someone will eat something
+      
+
+      # Inf # PV/ka
+      PV/ka+mîciw+V+TI+Cnj+1Sg: ka-mîciyân	# I will eat something
+      PV/ka+mîciw+V+TI+Cnj+2Sg: ka-mîciyan	# you will eat something
+      PV/ka+mîciw+V+TI+Cnj+3Sg: ka-mîcit	# he/she will eat something
+      PV/ka+mîciw+V+TI+Cnj+1Pl: ka-mîciyâhk	# we will eat something
+      PV/ka+mîciw+V+TI+Cnj+12Pl: ka-mîciyahk	# we and you will eat something
+      PV/ka+mîciw+V+TI+Cnj+2Pl: ka-mîciyîk	# you all will eat something
+      PV/ka+mîciw+V+TI+Cnj+3Pl: ka-mîcicik	# they will eat something
+      PV/ka+mîciw+V+TI+Cnj+4Sg/Pl: ka-mîciyit	# another/others will eat something
+      PV/ka+mîciw+V+TI+Cnj+X: [ka-mîciniwik, ka-mîciniwahk, ka-mîcihk]	# someone will eat something
+      
+
+      # Inf # PV/ta
+      PV/ta+mîciw+V+TI+Cnj+1Sg: ta-mîciyân	# I eat something
+      PV/ta+mîciw+V+TI+Cnj+2Sg: ta-mîciyan	# you eat something
+      PV/ta+mîciw+V+TI+Cnj+3Sg: ta-mîcit	# he/she eats something
+      PV/ta+mîciw+V+TI+Cnj+1Pl: ta-mîciyâhk	# we eat something
+      PV/ta+mîciw+V+TI+Cnj+12Pl: ta-mîciyahk	# we and you eat something
+      PV/ta+mîciw+V+TI+Cnj+2Pl: ta-mîciyîk	# you all eat something
+      PV/ta+mîciw+V+TI+Cnj+3Pl: ta-mîcicik	# they eat something
+      PV/ta+mîciw+V+TI+Cnj+4Sg/Pl: ta-mîciyit	# another/others eat something
+      PV/ta+mîciw+V+TI+Cnj+X: [ta-mîciniwik, ta-mîciniwahk, ta-mîcihk]	# someone eats something
+      
+
+      # Fut # Cond
+      mîciw+V+TI+Fut+Cond+1Sg: mîciyâni	# when I eat something
+      mîciw+V+TI+Fut+Cond+2Sg: mîciyani	# when you eat something
+      mîciw+V+TI+Fut+Cond+3Sg: mîcici	# when he/she eats something
+      mîciw+V+TI+Fut+Cond+1Pl: mîciyâhki	# when we eat something
+      mîciw+V+TI+Fut+Cond+12Pl: [mîciyahki, mîciyahko]	# when we and you eat something
+      mîciw+V+TI+Fut+Cond+2Pl: mîciyîko	# when you all eat something
+      mîciw+V+TI+Fut+Cond+3Pl: mîcitwâwi	# when they eat something
+      mîciw+V+TI+Fut+Cond+4Sg/Pl: mîciyici	# when another/others eat something
+      mîciw+V+TI+Fut+Cond+X: [mîcihki, mîcihkwâwi]	# when someone eats something
+      
+
+      # Imp # Imm
+      mîciw+V+TI+Imp+Imm+2Sg: mîci	# (you) eat something now
+      mîciw+V+TI+Imp+Imm+12Pl: mîcitân	# let you and us eat something now
+      mîciw+V+TI+Imp+Imm+2Pl: mîcik	# (you all) eat something now
+      
+
+      # Imp # Del
+      mîciw+V+TI+Imp+Del+2Sg: mîcihkan	# (you) eat something later
+      mîciw+V+TI+Imp+Del+12Pl: mîcihkahk	# let you and us eat something later
+      mîciw+V+TI+Imp+Del+2Pl: mîcihkîk	# (you all) eat something later
+      
+

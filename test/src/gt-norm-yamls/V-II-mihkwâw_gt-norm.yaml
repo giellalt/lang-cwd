@@ -1,0 +1,88 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - mihkwâw
+
+      # Core 
+
+      # Prs+Ind
+      mihkwâw+V+II+Ind+3Sg: mihkwâw	# it is red
+
+      # Prs+Cnj
+      PV/e+mihkwâw+V+II+Cnj+3Sg: î-mihkwâk	# as it is red
+      
+
+      # Prs # Ind
+      mihkwâw+V+II+Ind+3Sg: mihkwâw	# it is red
+      mihkwâw+V+II+Ind+4Sg: mihkwâyiw	# it over there is red
+      mihkwâw+V+II+Ind+3Pl: mihkwâwa	# they are red
+      mihkwâw+V+II+Ind+4Pl: mihkwâyiwa	# they over there are red
+      
+
+      # Prs # Cnj
+      PV/e+mihkwâw+V+II+Cnj+3Sg: î-mihkwâk	# as it is red
+      PV/e+mihkwâw+V+II+Cnj+4Sg: î-mihkwâyik	# as it over there is red
+      PV/e+mihkwâw+V+II+Cnj+3Pl: î-mihkwâki	# as they are red
+      PV/e+mihkwâw+V+II+Cnj+4Pl: î-mihkwâyiki	# as they over there are red
+      
+
+      # Prt # Ind
+      PV/ki+mihkwâw+V+II+Ind+3Sg: kî-mihkwâw	# it was red
+      PV/ki+mihkwâw+V+II+Ind+4Sg: kî-mihkwâyiw	# it over there was red
+      PV/ki+mihkwâw+V+II+Ind+3Pl: kî-mihkwâwa	# they were red
+      PV/ki+mihkwâw+V+II+Ind+4Pl: kî-mihkwâyiwa	# they over there were red
+      
+
+      # Prt # Cnj
+      PV/e+PV/ki+mihkwâw+V+II+Cnj+3Sg: î-kî-mihkwâk	# as it was red
+      PV/e+PV/ki+mihkwâw+V+II+Cnj+4Sg: î-kî-mihkwâyik	# as it over there was red
+      PV/e+PV/ki+mihkwâw+V+II+Cnj+3Pl: î-kî-mihkwâki	# as they were red
+      PV/e+PV/ki+mihkwâw+V+II+Cnj+4Pl: î-kî-mihkwâyiki	# as they over there were red
+      
+
+      # Fut+Int # Ind
+      PV/wi+mihkwâw+V+II+Ind+3Sg: wî-mihkwâw	# it is going to be red
+      PV/wi+mihkwâw+V+II+Ind+4Sg: wî-mihkwâyiw	# it over there is going to be red
+      PV/wi+mihkwâw+V+II+Ind+3Pl: wî-mihkwâwa	# they are going to be red
+      PV/wi+mihkwâw+V+II+Ind+4Pl: wî-mihkwâyiwa	# they over there are going to be red
+      
+
+      # Fut+Int # Cnj
+      PV/e+PV/wi+mihkwâw+V+II+Cnj+3Sg: î-wî-mihkwâk	# as it is going to be red
+      PV/e+PV/wi+mihkwâw+V+II+Cnj+4Sg: î-wî-mihkwâyik	# as it over there is going to be red
+      PV/e+PV/wi+mihkwâw+V+II+Cnj+3Pl: î-wî-mihkwâki	# as they are going to be red
+      PV/e+PV/wi+mihkwâw+V+II+Cnj+4Pl: î-wî-mihkwâyiki	# as they over there are going to be red
+      
+
+      # Fut+Def # Ind
+      PV/ka+mihkwâw+V+II+Ind+3Sg: ka-mihkwâw	# it will be red
+      PV/ka+mihkwâw+V+II+Ind+4Sg: ka-mihkwâyiw	# it over there will be red
+      PV/ka+mihkwâw+V+II+Ind+3Pl: ka-mihkwâwa	# they will be red
+      PV/ka+mihkwâw+V+II+Ind+4Pl: ka-mihkwâyiwa	# they over there will be red
+      
+
+      # Inf # PV/ka
+      PV/ka+mihkwâw+V+II+Cnj+3Sg: ka-mihkwâk	# it will be red
+      PV/ka+mihkwâw+V+II+Cnj+4Sg: ka-mihkwâyik	# it over there will be red
+      PV/ka+mihkwâw+V+II+Cnj+3Pl: ka-mihkwâki	# they will be red
+      PV/ka+mihkwâw+V+II+Cnj+4Pl: ka-mihkwâyiki	# they over there will be red
+      
+
+      # Inf # PV/ta
+      PV/ta+mihkwâw+V+II+Cnj+3Sg: ta-mihkwâk	# it is red
+      PV/ta+mihkwâw+V+II+Cnj+4Sg: ta-mihkwâyik	# it over there is red
+      PV/ta+mihkwâw+V+II+Cnj+3Pl: ta-mihkwâki	# they are red
+      PV/ta+mihkwâw+V+II+Cnj+4Pl: ta-mihkwâyiki	# they over there are red
+      
+
+      # Fut # Cond
+      mihkwâw+V+II+Fut+Cond+3Sg: mihkwâki	# when it is red
+      mihkwâw+V+II+Fut+Cond+4Sg: mihkwâyiki	# when it over there is red
+      mihkwâw+V+II+Fut+Cond+3Pl: mihkwâkwâwi	# when they are red
+      mihkwâw+V+II+Fut+Cond+4Pl: mihkwâyikwâwi	# when they over there are red
+      
+

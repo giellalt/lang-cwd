@@ -1,0 +1,88 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - pimamon
+
+      # Core 
+
+      # Prs+Ind
+      pimamon+V+II+Ind+3Sg: pimamon	# it runs along, it passes along a road or rail
+
+      # Prs+Cnj
+      PV/e+pimamon+V+II+Cnj+3Sg: î-pimamok	# as it runs along, as it passes along a road or rail
+      
+
+      # Prs # Ind
+      pimamon+V+II+Ind+3Sg: pimamon	# it runs along, it passes along a road or rail
+      pimamon+V+II+Ind+4Sg: pimamoniyiw	# it over there runs along, it over there passes along a road or rail
+      pimamon+V+II+Ind+3Pl: pimamonwa	# they run along, they pass along a road or rail
+      pimamon+V+II+Ind+4Pl: pimamoniyiwa	# they over there run along, they over there pass along a road or rail
+      
+
+      # Prs # Cnj
+      PV/e+pimamon+V+II+Cnj+3Sg: î-pimamok	# as it runs along, as it passes along a road or rail
+      PV/e+pimamon+V+II+Cnj+4Sg: î-pimamoniyik	# as it over there runs along, as it over there passes along a road or rail
+      PV/e+pimamon+V+II+Cnj+3Pl: î-pimamoki	# as they run along, as they pass along a road or rail
+      PV/e+pimamon+V+II+Cnj+4Pl: î-pimamoniyiki	# as they over there run along, as they over there pass along a road or rail
+      
+
+      # Prt # Ind
+      PV/ki+pimamon+V+II+Ind+3Sg: kî-pimamon	# it ran along, it passed along a road or rail
+      PV/ki+pimamon+V+II+Ind+4Sg: kî-pimamoniyiw	# it over there ran along, it over there passed along a road or rail
+      PV/ki+pimamon+V+II+Ind+3Pl: kî-pimamonwa	# they ran along, they passed along a road or rail
+      PV/ki+pimamon+V+II+Ind+4Pl: kî-pimamoniyiwa	# they over there ran along, they over there passed along a road or rail
+      
+
+      # Prt # Cnj
+      PV/e+PV/ki+pimamon+V+II+Cnj+3Sg: î-kî-pimamok	# as it ran along, as it passed along a road or rail
+      PV/e+PV/ki+pimamon+V+II+Cnj+4Sg: î-kî-pimamoniyik	# as it over there ran along, as it over there passed along a road or rail
+      PV/e+PV/ki+pimamon+V+II+Cnj+3Pl: î-kî-pimamoki	# as they ran along, as they passed along a road or rail
+      PV/e+PV/ki+pimamon+V+II+Cnj+4Pl: î-kî-pimamoniyiki	# as they over there ran along, as they over there passed along a road or rail
+      
+
+      # Fut+Int # Ind
+      PV/wi+pimamon+V+II+Ind+3Sg: wî-pimamon	# it is going to run along, it is going to pass along a road or rail
+      PV/wi+pimamon+V+II+Ind+4Sg: wî-pimamoniyiw	# it over there is going to run along, it over there is going to pass along a road or rail
+      PV/wi+pimamon+V+II+Ind+3Pl: wî-pimamonwa	# they are going to run along, they are going to pass along a road or rail
+      PV/wi+pimamon+V+II+Ind+4Pl: wî-pimamoniyiwa	# they over there are going to run along, they over there are going to pass along a road or rail
+      
+
+      # Fut+Int # Cnj
+      PV/e+PV/wi+pimamon+V+II+Cnj+3Sg: î-wî-pimamok	# as it is going to run along, as it is going to pass along a road or rail
+      PV/e+PV/wi+pimamon+V+II+Cnj+4Sg: î-wî-pimamoniyik	# as it over there is going to run along, as it over there is going to pass along a road or rail
+      PV/e+PV/wi+pimamon+V+II+Cnj+3Pl: î-wî-pimamoki	# as they are going to run along, as they are going to pass along a road or rail
+      PV/e+PV/wi+pimamon+V+II+Cnj+4Pl: î-wî-pimamoniyiki	# as they over there are going to run along, as they over there are going to pass along a road or rail
+      
+
+      # Fut+Def # Ind
+      PV/ka+pimamon+V+II+Ind+3Sg: ka-pimamon	# it will run along, it will pass along a road or rail
+      PV/ka+pimamon+V+II+Ind+4Sg: ka-pimamoniyiw	# it over there will run along, it over there will pass along a road or rail
+      PV/ka+pimamon+V+II+Ind+3Pl: ka-pimamonwa	# they will run along, they will pass along a road or rail
+      PV/ka+pimamon+V+II+Ind+4Pl: ka-pimamoniyiwa	# they over there will run along, they over there will pass along a road or rail
+      
+
+      # Inf # PV/ka
+      PV/ka+pimamon+V+II+Cnj+3Sg: ka-pimamok	# it will run along, it will pass along a road or rail
+      PV/ka+pimamon+V+II+Cnj+4Sg: ka-pimamoniyik	# it over there will run along, it over there will pass along a road or rail
+      PV/ka+pimamon+V+II+Cnj+3Pl: ka-pimamoki	# they will run along, they will pass along a road or rail
+      PV/ka+pimamon+V+II+Cnj+4Pl: ka-pimamoniyiki	# they over there will run along, they over there will pass along a road or rail
+      
+
+      # Inf # PV/ta
+      PV/ta+pimamon+V+II+Cnj+3Sg: ta-pimamok	# it runs along, it passes along a road or rail
+      PV/ta+pimamon+V+II+Cnj+4Sg: ta-pimamoniyik	# it over there runs along, it over there passes along a road or rail
+      PV/ta+pimamon+V+II+Cnj+3Pl: ta-pimamoki	# they run along, they pass along a road or rail
+      PV/ta+pimamon+V+II+Cnj+4Pl: ta-pimamoniyiki	# they over there run along, they over there pass along a road or rail
+      
+
+      # Fut # Cond
+      pimamon+V+II+Fut+Cond+3Sg: pimamoki	# when it runs along, when it passes along a road or rail
+      pimamon+V+II+Fut+Cond+4Sg: pimamoniyiki	# when it over there runs along, when it over there passes along a road or rail
+      pimamon+V+II+Fut+Cond+3Pl: pimamokwâwi	# when they run along, when they pass along a road or rail
+      pimamon+V+II+Fut+Cond+4Pl: pimamoniyikwâwi	# when they over there run along, when they over there pass along a road or rail
+      
+

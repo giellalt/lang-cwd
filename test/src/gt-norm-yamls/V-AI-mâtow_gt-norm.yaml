@@ -1,0 +1,157 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - mâtow
+
+      # Core 
+
+      # Prs+Ind
+      mâtow+V+AI+Ind+1Sg: nimâton	# I cry, I wail, I weep
+      mâtow+V+AI+Ind+2Sg: kimâton	# you cry, you wail, you weep
+      mâtow+V+AI+Ind+3Sg: mâtow	# he/she cries, he/she wails, he/she weeps
+
+      # Prs+Cnj
+      PV/e+mâtow+V+AI+Cnj+1Sg: î-mâtoyân	# as I cry, as I wail, as I weep
+      PV/e+mâtow+V+AI+Cnj+2Sg: î-mâtoyan	# as you cry, as you wail, as you weep
+      PV/e+mâtow+V+AI+Cnj+3Sg: î-mâtot	# as he/she cries, as he/she wails, as he/she weeps
+
+      # Imp
+      mâtow+V+AI+Imp+Imm+2Sg: mâto	# (you) cry now, (you) wail now, (you) weep now
+      
+
+      # Prs # Ind
+      mâtow+V+AI+Ind+1Sg: nimâton	# I cry, I wail, I weep
+      mâtow+V+AI+Ind+2Sg: kimâton	# you cry, you wail, you weep
+      mâtow+V+AI+Ind+3Sg: mâtow	# he/she cries, he/she wails, he/she weeps
+      mâtow+V+AI+Ind+1Pl: nimâtonân	# we cry, we wail, we weep
+      mâtow+V+AI+Ind+12Pl: [kimâtonânaw, kimâtonaw]	# we and you cry, we and you wail, we and you weep
+      mâtow+V+AI+Ind+2Pl: kimâtonâwâw	# you all cry, you all wail, you all weep
+      mâtow+V+AI+Ind+3Pl: mâtowak	# they cry, they wail, they weep
+      mâtow+V+AI+Ind+4Sg/Pl: mâtoyiwa	# another/others cry, another/others wail, another/others weep
+      mâtow+V+AI+Ind+X: [mâtonâniwiw, mâtonâniwan]	# someone cries, someone wails, someone weeps
+      
+
+      # Prs # Cnj
+      PV/e+mâtow+V+AI+Cnj+1Sg: î-mâtoyân	# as I cry, as I wail, as I weep
+      PV/e+mâtow+V+AI+Cnj+2Sg: î-mâtoyan	# as you cry, as you wail, as you weep
+      PV/e+mâtow+V+AI+Cnj+3Sg: î-mâtot	# as he/she cries, as he/she wails, as he/she weeps
+      PV/e+mâtow+V+AI+Cnj+1Pl: î-mâtoyâhk	# as we cry, as we wail, as we weep
+      PV/e+mâtow+V+AI+Cnj+12Pl: î-mâtoyahk	# as we and you cry, as we and you wail, as we and you weep
+      PV/e+mâtow+V+AI+Cnj+2Pl: î-mâtoyîk	# as you all cry, as you all wail, as you all weep
+      PV/e+mâtow+V+AI+Cnj+3Pl: î-mâtocik	# as they cry, as they wail, as they weep
+      PV/e+mâtow+V+AI+Cnj+4Sg/Pl: î-mâtoyit	# as another/others cry, as another/others wail, as another/others weep
+      PV/e+mâtow+V+AI+Cnj+X: [î-mâtonâniwik, î-mâtonâniwahk, î-mâtohk]	# as someone cries, as someone wails, as someone weeps
+      
+
+      # Prt # Ind
+      PV/ki+mâtow+V+AI+Ind+1Sg: nikî-mâton	# I cried, I wailed, I wept
+      PV/ki+mâtow+V+AI+Ind+2Sg: kikî-mâton	# you cried, you wailed, you wept
+      PV/ki+mâtow+V+AI+Ind+3Sg: kî-mâtow	# he/she cried, he/she wailed, he/she wept
+      PV/ki+mâtow+V+AI+Ind+1Pl: nikî-mâtonân	# we cried, we wailed, we wept
+      PV/ki+mâtow+V+AI+Ind+12Pl: [kikî-mâtonânaw, kikî-mâtonaw]	# we and you cried, we and you wailed, we and you wept
+      PV/ki+mâtow+V+AI+Ind+2Pl: kikî-mâtonâwâw	# you all cried, you all wailed, you all wept
+      PV/ki+mâtow+V+AI+Ind+3Pl: kî-mâtowak	# they cried, they wailed, they wept
+      PV/ki+mâtow+V+AI+Ind+4Sg/Pl: kî-mâtoyiwa	# another/others cried, another/others wailed, another/others wept
+      PV/ki+mâtow+V+AI+Ind+X: [kî-mâtonâniwiw, kî-mâtonâniwan]	# someone cried, someone wailed, someone wept
+      
+
+      # Prt # Cnj
+      PV/e+PV/ki+mâtow+V+AI+Cnj+1Sg: î-kî-mâtoyân	# as I cried, as I wailed, as I wept
+      PV/e+PV/ki+mâtow+V+AI+Cnj+2Sg: î-kî-mâtoyan	# as you cried, as you wailed, as you wept
+      PV/e+PV/ki+mâtow+V+AI+Cnj+3Sg: î-kî-mâtot	# as he/she cried, as he/she wailed, as he/she wept
+      PV/e+PV/ki+mâtow+V+AI+Cnj+1Pl: î-kî-mâtoyâhk	# as we cried, as we wailed, as we wept
+      PV/e+PV/ki+mâtow+V+AI+Cnj+12Pl: î-kî-mâtoyahk	# as we and you cried, as we and you wailed, as we and you wept
+      PV/e+PV/ki+mâtow+V+AI+Cnj+2Pl: î-kî-mâtoyîk	# as you all cried, as you all wailed, as you all wept
+      PV/e+PV/ki+mâtow+V+AI+Cnj+3Pl: î-kî-mâtocik	# as they cried, as they wailed, as they wept
+      PV/e+PV/ki+mâtow+V+AI+Cnj+4Sg/Pl: î-kî-mâtoyit	# as another/others cried, as another/others wailed, as another/others wept
+      PV/e+PV/ki+mâtow+V+AI+Cnj+X: [î-kî-mâtonâniwik, î-kî-mâtonâniwahk, î-kî-mâtohk]	# as someone cried, as someone wailed, as someone wept
+      
+
+      # Fut+Int # Ind
+      PV/wi+mâtow+V+AI+Ind+1Sg: niwî-mâton	# I am going to cry, I am going to wail, I am going to weep
+      PV/wi+mâtow+V+AI+Ind+2Sg: kiwî-mâton	# you are going to cry, you are going to wail, you are going to weep
+      PV/wi+mâtow+V+AI+Ind+3Sg: wî-mâtow	# he/she is going to cry, he/she is going to wail, he/she is going to weep
+      PV/wi+mâtow+V+AI+Ind+1Pl: niwî-mâtonân	# we are going to cry, we are going to wail, we are going to weep
+      PV/wi+mâtow+V+AI+Ind+12Pl: [kiwî-mâtonânaw, kiwî-mâtonaw]	# we and you are going to cry, we and you are going to wail, we and you are going to weep
+      PV/wi+mâtow+V+AI+Ind+2Pl: kiwî-mâtonâwâw	# you all are going to cry, you all are going to wail, you all are going to weep
+      PV/wi+mâtow+V+AI+Ind+3Pl: wî-mâtowak	# they are going to cry, they are going to wail, they are going to weep
+      PV/wi+mâtow+V+AI+Ind+4Sg/Pl: wî-mâtoyiwa	# another/others are going to cry, another/others are going to wail, another/others are going to weep
+      PV/wi+mâtow+V+AI+Ind+X: [wî-mâtonâniwiw, wî-mâtonâniwan]	# someone is going to cry, someone is going to wail, someone is going to weep
+      
+
+      # Fut+Int # Cnj
+      PV/e+PV/wi+mâtow+V+AI+Cnj+1Sg: î-wî-mâtoyân	# as I am going to cry, as I am going to wail, as I am going to weep
+      PV/e+PV/wi+mâtow+V+AI+Cnj+2Sg: î-wî-mâtoyan	# as you are going to cry, as you are going to wail, as you are going to weep
+      PV/e+PV/wi+mâtow+V+AI+Cnj+3Sg: î-wî-mâtot	# as he/she is going to cry, as he/she is going to wail, as he/she is going to weep
+      PV/e+PV/wi+mâtow+V+AI+Cnj+1Pl: î-wî-mâtoyâhk	# as we are going to cry, as we are going to wail, as we are going to weep
+      PV/e+PV/wi+mâtow+V+AI+Cnj+12Pl: î-wî-mâtoyahk	# as we and you are going to cry, as we and you are going to wail, as we and you are going to weep
+      PV/e+PV/wi+mâtow+V+AI+Cnj+2Pl: î-wî-mâtoyîk	# as you all are going to cry, as you all are going to wail, as you all are going to weep
+      PV/e+PV/wi+mâtow+V+AI+Cnj+3Pl: î-wî-mâtocik	# as they are going to cry, as they are going to wail, as they are going to weep
+      PV/e+PV/wi+mâtow+V+AI+Cnj+4Sg/Pl: î-wî-mâtoyit	# as another/others are going to cry, as another/others are going to wail, as another/others are going to weep
+      PV/e+PV/wi+mâtow+V+AI+Cnj+X: [î-wî-mâtonâniwik, î-wî-mâtonâniwahk, î-wî-mâtohk]	# as someone is going to cry, as someone is going to wail, as someone is going to weep
+      
+
+      # Fut+Def # Ind
+      PV/ka+mâtow+V+AI+Ind+1Sg: nika-mâton	# I will cry, I will wail, I will weep
+      PV/ka+mâtow+V+AI+Ind+2Sg: kika-mâton	# you will cry, you will wail, you will weep
+      PV/ka+mâtow+V+AI+Ind+3Sg: ka-mâtow	# he/she will cry, he/she will wail, he/she will weep
+      PV/ka+mâtow+V+AI+Ind+1Pl: nika-mâtonân	# we will cry, we will wail, we will weep
+      PV/ka+mâtow+V+AI+Ind+12Pl: [kika-mâtonânaw, kika-mâtonaw]	# we and you will cry, we and you will wail, we and you will weep
+      PV/ka+mâtow+V+AI+Ind+2Pl: kika-mâtonâwâw	# you all will cry, you all will wail, you all will weep
+      PV/ka+mâtow+V+AI+Ind+3Pl: ka-mâtowak	# they will cry, they will wail, they will weep
+      PV/ka+mâtow+V+AI+Ind+4Sg/Pl: ka-mâtoyiwa	# another/others will cry, another/others will wail, another/others will weep
+      PV/ka+mâtow+V+AI+Ind+X: [ka-mâtonâniwiw, ka-mâtonâniwan]	# someone will cry, someone will wail, someone will weep
+      
+
+      # Inf # PV/ka
+      PV/ka+mâtow+V+AI+Cnj+1Sg: ka-mâtoyân	# I will cry, I will wail, I will weep
+      PV/ka+mâtow+V+AI+Cnj+2Sg: ka-mâtoyan	# you will cry, you will wail, you will weep
+      PV/ka+mâtow+V+AI+Cnj+3Sg: ka-mâtot	# he/she will cry, he/she will wail, he/she will weep
+      PV/ka+mâtow+V+AI+Cnj+1Pl: ka-mâtoyâhk	# we will cry, we will wail, we will weep
+      PV/ka+mâtow+V+AI+Cnj+12Pl: ka-mâtoyahk	# we and you will cry, we and you will wail, we and you will weep
+      PV/ka+mâtow+V+AI+Cnj+2Pl: ka-mâtoyîk	# you all will cry, you all will wail, you all will weep
+      PV/ka+mâtow+V+AI+Cnj+3Pl: ka-mâtocik	# they will cry, they will wail, they will weep
+      PV/ka+mâtow+V+AI+Cnj+4Sg/Pl: ka-mâtoyit	# another/others will cry, another/others will wail, another/others will weep
+      PV/ka+mâtow+V+AI+Cnj+X: [ka-mâtonâniwik, ka-mâtonâniwahk, ka-mâtohk]	# someone will cry, someone will wail, someone will weep
+      
+
+      # Inf # PV/ta
+      PV/ta+mâtow+V+AI+Cnj+1Sg: ta-mâtoyân	# I cry, I wail, I weep
+      PV/ta+mâtow+V+AI+Cnj+2Sg: ta-mâtoyan	# you cry, you wail, you weep
+      PV/ta+mâtow+V+AI+Cnj+3Sg: ta-mâtot	# he/she cries, he/she wails, he/she weeps
+      PV/ta+mâtow+V+AI+Cnj+1Pl: ta-mâtoyâhk	# we cry, we wail, we weep
+      PV/ta+mâtow+V+AI+Cnj+12Pl: ta-mâtoyahk	# we and you cry, we and you wail, we and you weep
+      PV/ta+mâtow+V+AI+Cnj+2Pl: ta-mâtoyîk	# you all cry, you all wail, you all weep
+      PV/ta+mâtow+V+AI+Cnj+3Pl: ta-mâtocik	# they cry, they wail, they weep
+      PV/ta+mâtow+V+AI+Cnj+4Sg/Pl: ta-mâtoyit	# another/others cry, another/others wail, another/others weep
+      PV/ta+mâtow+V+AI+Cnj+X: [ta-mâtonâniwik, ta-mâtonâniwahk, ta-mâtohk]	# someone cries, someone wails, someone weeps
+      
+
+      # Fut # Cond
+      mâtow+V+AI+Fut+Cond+1Sg: mâtoyâni	# when I cry, when I wail, when I weep
+      mâtow+V+AI+Fut+Cond+2Sg: mâtoyani	# when you cry, when you wail, when you weep
+      mâtow+V+AI+Fut+Cond+3Sg: mâtoci	# when he/she cries, when he/she wails, when he/she weeps
+      mâtow+V+AI+Fut+Cond+1Pl: mâtoyâhki	# when we cry, when we wail, when we weep
+      mâtow+V+AI+Fut+Cond+12Pl: [mâtoyahki, mâtoyahko]	# when we and you cry, when we and you wail, when we and you weep
+      mâtow+V+AI+Fut+Cond+2Pl: mâtoyîko	# when you all cry, when you all wail, when you all weep
+      mâtow+V+AI+Fut+Cond+3Pl: mâtotwâwi	# when they cry, when they wail, when they weep
+      mâtow+V+AI+Fut+Cond+4Sg/Pl: mâtoyici	# when another/others cry, when another/others wail, when another/others weep
+      mâtow+V+AI+Fut+Cond+X: [mâtohki, mâtohkwâwi]	# when someone cries, when someone wails, when someone weeps
+      
+
+      # Imp # Imm
+      mâtow+V+AI+Imp+Imm+2Sg: mâto	# (you) cry now, (you) wail now, (you) weep now
+      mâtow+V+AI+Imp+Imm+12Pl: mâtotân	# let you and us cry now, let you and us wail now, let you and us weep now
+      mâtow+V+AI+Imp+Imm+2Pl: mâtok	# (you all) cry now, (you all) wail now, (you all) weep now
+      
+
+      # Imp # Del
+      mâtow+V+AI+Imp+Del+2Sg: mâtohkan	# (you) cry later, (you) wail later, (you) weep later
+      mâtow+V+AI+Imp+Del+12Pl: mâtohkahk	# let you and us cry later, let you and us wail later, let you and us weep later
+      mâtow+V+AI+Imp+Del+2Pl: mâtohkîk	# (you all) cry later, (you all) wail later, (you all) weep later
+      
+

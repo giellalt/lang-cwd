@@ -1,0 +1,157 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - mîcisow
+
+      # Core 
+
+      # Prs+Ind
+      mîcisow+V+AI+Ind+1Sg: nimîcison	# I eat, I have a meal
+      mîcisow+V+AI+Ind+2Sg: kimîcison	# you eat, you have a meal
+      mîcisow+V+AI+Ind+3Sg: mîcisow	# he/she eats, he/she has a meal
+
+      # Prs+Cnj
+      PV/e+mîcisow+V+AI+Cnj+1Sg: î-mîcisoyân	# as I eat, as I have a meal
+      PV/e+mîcisow+V+AI+Cnj+2Sg: î-mîcisoyan	# as you eat, as you have a meal
+      PV/e+mîcisow+V+AI+Cnj+3Sg: î-mîcisot	# as he/she eats, as he/she has a meal
+
+      # Imp
+      mîcisow+V+AI+Imp+Imm+2Sg: mîciso	# (you) eat now, (you) have a meal now
+      
+
+      # Prs # Ind
+      mîcisow+V+AI+Ind+1Sg: nimîcison	# I eat, I have a meal
+      mîcisow+V+AI+Ind+2Sg: kimîcison	# you eat, you have a meal
+      mîcisow+V+AI+Ind+3Sg: mîcisow	# he/she eats, he/she has a meal
+      mîcisow+V+AI+Ind+1Pl: nimîcisonân	# we eat, we have a meal
+      mîcisow+V+AI+Ind+12Pl: [kimîcisonânaw, kimîcisonaw]	# we and you eat, we and you have a meal
+      mîcisow+V+AI+Ind+2Pl: kimîcisonâwâw	# you all eat, you all have a meal
+      mîcisow+V+AI+Ind+3Pl: mîcisowak	# they eat, they have a meal
+      mîcisow+V+AI+Ind+4Sg/Pl: mîcisoyiwa	# another/others eat, another/others have a meal
+      mîcisow+V+AI+Ind+X: [mîcisonâniwiw, mîcisonâniwan]	# someone eats, someone has a meal
+      
+
+      # Prs # Cnj
+      PV/e+mîcisow+V+AI+Cnj+1Sg: î-mîcisoyân	# as I eat, as I have a meal
+      PV/e+mîcisow+V+AI+Cnj+2Sg: î-mîcisoyan	# as you eat, as you have a meal
+      PV/e+mîcisow+V+AI+Cnj+3Sg: î-mîcisot	# as he/she eats, as he/she has a meal
+      PV/e+mîcisow+V+AI+Cnj+1Pl: î-mîcisoyâhk	# as we eat, as we have a meal
+      PV/e+mîcisow+V+AI+Cnj+12Pl: î-mîcisoyahk	# as we and you eat, as we and you have a meal
+      PV/e+mîcisow+V+AI+Cnj+2Pl: î-mîcisoyîk	# as you all eat, as you all have a meal
+      PV/e+mîcisow+V+AI+Cnj+3Pl: î-mîcisocik	# as they eat, as they have a meal
+      PV/e+mîcisow+V+AI+Cnj+4Sg/Pl: î-mîcisoyit	# as another/others eat, as another/others have a meal
+      PV/e+mîcisow+V+AI+Cnj+X: [î-mîcisonâniwik, î-mîcisonâniwahk, î-mîcisohk]	# as someone eats, as someone has a meal
+      
+
+      # Prt # Ind
+      PV/ki+mîcisow+V+AI+Ind+1Sg: nikî-mîcison	# I ate, I had a meal
+      PV/ki+mîcisow+V+AI+Ind+2Sg: kikî-mîcison	# you ate, you had a meal
+      PV/ki+mîcisow+V+AI+Ind+3Sg: kî-mîcisow	# he/she ate, he/she had a meal
+      PV/ki+mîcisow+V+AI+Ind+1Pl: nikî-mîcisonân	# we ate, we had a meal
+      PV/ki+mîcisow+V+AI+Ind+12Pl: [kikî-mîcisonânaw, kikî-mîcisonaw]	# we and you ate, we and you had a meal
+      PV/ki+mîcisow+V+AI+Ind+2Pl: kikî-mîcisonâwâw	# you all ate, you all had a meal
+      PV/ki+mîcisow+V+AI+Ind+3Pl: kî-mîcisowak	# they ate, they had a meal
+      PV/ki+mîcisow+V+AI+Ind+4Sg/Pl: kî-mîcisoyiwa	# another/others ate, another/others had a meal
+      PV/ki+mîcisow+V+AI+Ind+X: [kî-mîcisonâniwiw, kî-mîcisonâniwan]	# someone ate, someone had a meal
+      
+
+      # Prt # Cnj
+      PV/e+PV/ki+mîcisow+V+AI+Cnj+1Sg: î-kî-mîcisoyân	# as I ate, as I had a meal
+      PV/e+PV/ki+mîcisow+V+AI+Cnj+2Sg: î-kî-mîcisoyan	# as you ate, as you had a meal
+      PV/e+PV/ki+mîcisow+V+AI+Cnj+3Sg: î-kî-mîcisot	# as he/she ate, as he/she had a meal
+      PV/e+PV/ki+mîcisow+V+AI+Cnj+1Pl: î-kî-mîcisoyâhk	# as we ate, as we had a meal
+      PV/e+PV/ki+mîcisow+V+AI+Cnj+12Pl: î-kî-mîcisoyahk	# as we and you ate, as we and you had a meal
+      PV/e+PV/ki+mîcisow+V+AI+Cnj+2Pl: î-kî-mîcisoyîk	# as you all ate, as you all had a meal
+      PV/e+PV/ki+mîcisow+V+AI+Cnj+3Pl: î-kî-mîcisocik	# as they ate, as they had a meal
+      PV/e+PV/ki+mîcisow+V+AI+Cnj+4Sg/Pl: î-kî-mîcisoyit	# as another/others ate, as another/others had a meal
+      PV/e+PV/ki+mîcisow+V+AI+Cnj+X: [î-kî-mîcisonâniwik, î-kî-mîcisonâniwahk, î-kî-mîcisohk]	# as someone ate, as someone had a meal
+      
+
+      # Fut+Int # Ind
+      PV/wi+mîcisow+V+AI+Ind+1Sg: niwî-mîcison	# I am going to eat, I am going to have a meal
+      PV/wi+mîcisow+V+AI+Ind+2Sg: kiwî-mîcison	# you are going to eat, you are going to have a meal
+      PV/wi+mîcisow+V+AI+Ind+3Sg: wî-mîcisow	# he/she is going to eat, he/she is going to have a meal
+      PV/wi+mîcisow+V+AI+Ind+1Pl: niwî-mîcisonân	# we are going to eat, we are going to have a meal
+      PV/wi+mîcisow+V+AI+Ind+12Pl: [kiwî-mîcisonânaw, kiwî-mîcisonaw]	# we and you are going to eat, we and you are going to have a meal
+      PV/wi+mîcisow+V+AI+Ind+2Pl: kiwî-mîcisonâwâw	# you all are going to eat, you all are going to have a meal
+      PV/wi+mîcisow+V+AI+Ind+3Pl: wî-mîcisowak	# they are going to eat, they are going to have a meal
+      PV/wi+mîcisow+V+AI+Ind+4Sg/Pl: wî-mîcisoyiwa	# another/others are going to eat, another/others are going to have a meal
+      PV/wi+mîcisow+V+AI+Ind+X: [wî-mîcisonâniwiw, wî-mîcisonâniwan]	# someone is going to eat, someone is going to have a meal
+      
+
+      # Fut+Int # Cnj
+      PV/e+PV/wi+mîcisow+V+AI+Cnj+1Sg: î-wî-mîcisoyân	# as I am going to eat, as I am going to have a meal
+      PV/e+PV/wi+mîcisow+V+AI+Cnj+2Sg: î-wî-mîcisoyan	# as you are going to eat, as you are going to have a meal
+      PV/e+PV/wi+mîcisow+V+AI+Cnj+3Sg: î-wî-mîcisot	# as he/she is going to eat, as he/she is going to have a meal
+      PV/e+PV/wi+mîcisow+V+AI+Cnj+1Pl: î-wî-mîcisoyâhk	# as we are going to eat, as we are going to have a meal
+      PV/e+PV/wi+mîcisow+V+AI+Cnj+12Pl: î-wî-mîcisoyahk	# as we and you are going to eat, as we and you are going to have a meal
+      PV/e+PV/wi+mîcisow+V+AI+Cnj+2Pl: î-wî-mîcisoyîk	# as you all are going to eat, as you all are going to have a meal
+      PV/e+PV/wi+mîcisow+V+AI+Cnj+3Pl: î-wî-mîcisocik	# as they are going to eat, as they are going to have a meal
+      PV/e+PV/wi+mîcisow+V+AI+Cnj+4Sg/Pl: î-wî-mîcisoyit	# as another/others are going to eat, as another/others are going to have a meal
+      PV/e+PV/wi+mîcisow+V+AI+Cnj+X: [î-wî-mîcisonâniwik, î-wî-mîcisonâniwahk, î-wî-mîcisohk]	# as someone is going to eat, as someone is going to have a meal
+      
+
+      # Fut+Def # Ind
+      PV/ka+mîcisow+V+AI+Ind+1Sg: nika-mîcison	# I will eat, I will have a meal
+      PV/ka+mîcisow+V+AI+Ind+2Sg: kika-mîcison	# you will eat, you will have a meal
+      PV/ka+mîcisow+V+AI+Ind+3Sg: ka-mîcisow	# he/she will eat, he/she will have a meal
+      PV/ka+mîcisow+V+AI+Ind+1Pl: nika-mîcisonân	# we will eat, we will have a meal
+      PV/ka+mîcisow+V+AI+Ind+12Pl: [kika-mîcisonânaw, kika-mîcisonaw]	# we and you will eat, we and you will have a meal
+      PV/ka+mîcisow+V+AI+Ind+2Pl: kika-mîcisonâwâw	# you all will eat, you all will have a meal
+      PV/ka+mîcisow+V+AI+Ind+3Pl: ka-mîcisowak	# they will eat, they will have a meal
+      PV/ka+mîcisow+V+AI+Ind+4Sg/Pl: ka-mîcisoyiwa	# another/others will eat, another/others will have a meal
+      PV/ka+mîcisow+V+AI+Ind+X: [ka-mîcisonâniwiw, ka-mîcisonâniwan]	# someone will eat, someone will have a meal
+      
+
+      # Inf # PV/ka
+      PV/ka+mîcisow+V+AI+Cnj+1Sg: ka-mîcisoyân	# I will eat, I will have a meal
+      PV/ka+mîcisow+V+AI+Cnj+2Sg: ka-mîcisoyan	# you will eat, you will have a meal
+      PV/ka+mîcisow+V+AI+Cnj+3Sg: ka-mîcisot	# he/she will eat, he/she will have a meal
+      PV/ka+mîcisow+V+AI+Cnj+1Pl: ka-mîcisoyâhk	# we will eat, we will have a meal
+      PV/ka+mîcisow+V+AI+Cnj+12Pl: ka-mîcisoyahk	# we and you will eat, we and you will have a meal
+      PV/ka+mîcisow+V+AI+Cnj+2Pl: ka-mîcisoyîk	# you all will eat, you all will have a meal
+      PV/ka+mîcisow+V+AI+Cnj+3Pl: ka-mîcisocik	# they will eat, they will have a meal
+      PV/ka+mîcisow+V+AI+Cnj+4Sg/Pl: ka-mîcisoyit	# another/others will eat, another/others will have a meal
+      PV/ka+mîcisow+V+AI+Cnj+X: [ka-mîcisonâniwik, ka-mîcisonâniwahk, ka-mîcisohk]	# someone will eat, someone will have a meal
+      
+
+      # Inf # PV/ta
+      PV/ta+mîcisow+V+AI+Cnj+1Sg: ta-mîcisoyân	# I eat, I have a meal
+      PV/ta+mîcisow+V+AI+Cnj+2Sg: ta-mîcisoyan	# you eat, you have a meal
+      PV/ta+mîcisow+V+AI+Cnj+3Sg: ta-mîcisot	# he/she eats, he/she has a meal
+      PV/ta+mîcisow+V+AI+Cnj+1Pl: ta-mîcisoyâhk	# we eat, we have a meal
+      PV/ta+mîcisow+V+AI+Cnj+12Pl: ta-mîcisoyahk	# we and you eat, we and you have a meal
+      PV/ta+mîcisow+V+AI+Cnj+2Pl: ta-mîcisoyîk	# you all eat, you all have a meal
+      PV/ta+mîcisow+V+AI+Cnj+3Pl: ta-mîcisocik	# they eat, they have a meal
+      PV/ta+mîcisow+V+AI+Cnj+4Sg/Pl: ta-mîcisoyit	# another/others eat, another/others have a meal
+      PV/ta+mîcisow+V+AI+Cnj+X: [ta-mîcisonâniwik, ta-mîcisonâniwahk, ta-mîcisohk]	# someone eats, someone has a meal
+      
+
+      # Fut # Cond
+      mîcisow+V+AI+Fut+Cond+1Sg: mîcisoyâni	# when I eat, when I have a meal
+      mîcisow+V+AI+Fut+Cond+2Sg: mîcisoyani	# when you eat, when you have a meal
+      mîcisow+V+AI+Fut+Cond+3Sg: mîcisoci	# when he/she eats, when he/she has a meal
+      mîcisow+V+AI+Fut+Cond+1Pl: mîcisoyâhki	# when we eat, when we have a meal
+      mîcisow+V+AI+Fut+Cond+12Pl: [mîcisoyahki, mîcisoyahko]	# when we and you eat, when we and you have a meal
+      mîcisow+V+AI+Fut+Cond+2Pl: mîcisoyîko	# when you all eat, when you all have a meal
+      mîcisow+V+AI+Fut+Cond+3Pl: mîcisotwâwi	# when they eat, when they have a meal
+      mîcisow+V+AI+Fut+Cond+4Sg/Pl: mîcisoyici	# when another/others eat, when another/others have a meal
+      mîcisow+V+AI+Fut+Cond+X: [mîcisohki, mîcisohkwâwi]	# when someone eats, when someone has a meal
+      
+
+      # Imp # Imm
+      mîcisow+V+AI+Imp+Imm+2Sg: mîciso	# (you) eat now, (you) have a meal now
+      mîcisow+V+AI+Imp+Imm+12Pl: mîcisotân	# let you and us eat now, let you and us have a meal now
+      mîcisow+V+AI+Imp+Imm+2Pl: mîcisok	# (you all) eat now, (you all) have a meal now
+      
+
+      # Imp # Del
+      mîcisow+V+AI+Imp+Del+2Sg: mîcisohkan	# (you) eat later, (you) have a meal later
+      mîcisow+V+AI+Imp+Del+12Pl: mîcisohkahk	# let you and us eat later, let you and us have a meal later
+      mîcisow+V+AI+Imp+Del+2Pl: mîcisohkîk	# (you all) eat later, (you all) have a meal later
+      
+

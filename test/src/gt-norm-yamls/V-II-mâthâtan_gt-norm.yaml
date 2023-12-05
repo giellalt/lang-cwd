@@ -1,0 +1,88 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - mâthâtan
+
+      # Core 
+
+      # Prs+Ind
+      mâthâtan+V+II+Ind+3Sg: mâthâtan	# it is bad, it is evil
+
+      # Prs+Cnj
+      PV/e+mâthâtan+V+II+Cnj+3Sg: î-mâthâtahk	# as it is bad, as it is evil
+      
+
+      # Prs # Ind
+      mâthâtan+V+II+Ind+3Sg: mâthâtan	# it is bad, it is evil
+      mâthâtan+V+II+Ind+4Sg: mâthâtaniyiw	# it over there is bad, it over there is evil
+      mâthâtan+V+II+Ind+3Pl: mâthâtanwa	# they are bad, they are evil
+      mâthâtan+V+II+Ind+4Pl: mâthâtaniyiwa	# they over there are bad, they over there are evil
+      
+
+      # Prs # Cnj
+      PV/e+mâthâtan+V+II+Cnj+3Sg: î-mâthâtahk	# as it is bad, as it is evil
+      PV/e+mâthâtan+V+II+Cnj+4Sg: î-mâthâtaniyik	# as it over there is bad, as it over there is evil
+      PV/e+mâthâtan+V+II+Cnj+3Pl: î-mâthâtahki	# as they are bad, as they are evil
+      PV/e+mâthâtan+V+II+Cnj+4Pl: î-mâthâtaniyiki	# as they over there are bad, as they over there are evil
+      
+
+      # Prt # Ind
+      PV/ki+mâthâtan+V+II+Ind+3Sg: kî-mâthâtan	# it was bad, it was evil
+      PV/ki+mâthâtan+V+II+Ind+4Sg: kî-mâthâtaniyiw	# it over there was bad, it over there was evil
+      PV/ki+mâthâtan+V+II+Ind+3Pl: kî-mâthâtanwa	# they were bad, they were evil
+      PV/ki+mâthâtan+V+II+Ind+4Pl: kî-mâthâtaniyiwa	# they over there were bad, they over there were evil
+      
+
+      # Prt # Cnj
+      PV/e+PV/ki+mâthâtan+V+II+Cnj+3Sg: î-kî-mâthâtahk	# as it was bad, as it was evil
+      PV/e+PV/ki+mâthâtan+V+II+Cnj+4Sg: î-kî-mâthâtaniyik	# as it over there was bad, as it over there was evil
+      PV/e+PV/ki+mâthâtan+V+II+Cnj+3Pl: î-kî-mâthâtahki	# as they were bad, as they were evil
+      PV/e+PV/ki+mâthâtan+V+II+Cnj+4Pl: î-kî-mâthâtaniyiki	# as they over there were bad, as they over there were evil
+      
+
+      # Fut+Int # Ind
+      PV/wi+mâthâtan+V+II+Ind+3Sg: wî-mâthâtan	# it is going to be bad, it is going to be evil
+      PV/wi+mâthâtan+V+II+Ind+4Sg: wî-mâthâtaniyiw	# it over there is going to be bad, it over there is going to be evil
+      PV/wi+mâthâtan+V+II+Ind+3Pl: wî-mâthâtanwa	# they are going to be bad, they are going to be evil
+      PV/wi+mâthâtan+V+II+Ind+4Pl: wî-mâthâtaniyiwa	# they over there are going to be bad, they over there are going to be evil
+      
+
+      # Fut+Int # Cnj
+      PV/e+PV/wi+mâthâtan+V+II+Cnj+3Sg: î-wî-mâthâtahk	# as it is going to be bad, as it is going to be evil
+      PV/e+PV/wi+mâthâtan+V+II+Cnj+4Sg: î-wî-mâthâtaniyik	# as it over there is going to be bad, as it over there is going to be evil
+      PV/e+PV/wi+mâthâtan+V+II+Cnj+3Pl: î-wî-mâthâtahki	# as they are going to be bad, as they are going to be evil
+      PV/e+PV/wi+mâthâtan+V+II+Cnj+4Pl: î-wî-mâthâtaniyiki	# as they over there are going to be bad, as they over there are going to be evil
+      
+
+      # Fut+Def # Ind
+      PV/ka+mâthâtan+V+II+Ind+3Sg: ka-mâthâtan	# it will be bad, it will be evil
+      PV/ka+mâthâtan+V+II+Ind+4Sg: ka-mâthâtaniyiw	# it over there will be bad, it over there will be evil
+      PV/ka+mâthâtan+V+II+Ind+3Pl: ka-mâthâtanwa	# they will be bad, they will be evil
+      PV/ka+mâthâtan+V+II+Ind+4Pl: ka-mâthâtaniyiwa	# they over there will be bad, they over there will be evil
+      
+
+      # Inf # PV/ka
+      PV/ka+mâthâtan+V+II+Cnj+3Sg: ka-mâthâtahk	# it will be bad, it will be evil
+      PV/ka+mâthâtan+V+II+Cnj+4Sg: ka-mâthâtaniyik	# it over there will be bad, it over there will be evil
+      PV/ka+mâthâtan+V+II+Cnj+3Pl: ka-mâthâtahki	# they will be bad, they will be evil
+      PV/ka+mâthâtan+V+II+Cnj+4Pl: ka-mâthâtaniyiki	# they over there will be bad, they over there will be evil
+      
+
+      # Inf # PV/ta
+      PV/ta+mâthâtan+V+II+Cnj+3Sg: ta-mâthâtahk	# it is bad, it is evil
+      PV/ta+mâthâtan+V+II+Cnj+4Sg: ta-mâthâtaniyik	# it over there is bad, it over there is evil
+      PV/ta+mâthâtan+V+II+Cnj+3Pl: ta-mâthâtahki	# they are bad, they are evil
+      PV/ta+mâthâtan+V+II+Cnj+4Pl: ta-mâthâtaniyiki	# they over there are bad, they over there are evil
+      
+
+      # Fut # Cond
+      mâthâtan+V+II+Fut+Cond+3Sg: mâthâtahki	# when it is bad, when it is evil
+      mâthâtan+V+II+Fut+Cond+4Sg: mâthâtaniyiki	# when it over there is bad, when it over there is evil
+      mâthâtan+V+II+Fut+Cond+3Pl: mâthâtahkwâwi	# when they are bad, when they are evil
+      mâthâtan+V+II+Fut+Cond+4Pl: mâthâtaniyikwâwi	# when they over there are bad, when they over there are evil
+      
+
