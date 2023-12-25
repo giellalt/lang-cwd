@@ -1,0 +1,57 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - nîki
+
+      # Core
+
+      # Poss
+      nîki+N+I+D+Px1Sg+Sg: nîki	#  my home, my dwelling, my house
+      nîki+N+I+D+Px2Sg+Sg: kîki	#  your home, your dwelling, your house
+      nîki+N+I+D+Px3Sg+Sg: wîki	#  his/her home, his/her dwelling, his/her house
+      
+
+      # Der/Dim
+      nîki+N+I+D+Der/Dim+N+I+D+Sg: nîki+N+I+D+Der/Dim+N+I+D+Sg	#  a little home, a little dwelling, a little house
+      
+
+      # Poss # Sg
+      nîki+N+I+D+Px1Sg+Sg: nîki	#  my home, my dwelling, my house
+      nîki+N+I+D+Px2Sg+Sg: kîki	#  your home, your dwelling, your house
+      nîki+N+I+D+Px3Sg+Sg: wîki	#  his/her home, his/her dwelling, his/her house
+      nîki+N+I+D+Px1Pl+Sg: nîkinân	#  our home, our dwelling, our house
+      nîki+N+I+D+Px12Pl+Sg: kîkinaw	#  your and our home, your and our dwelling, your and our house
+      nîki+N+I+D+Px2Pl+Sg: kîkiwâw	#  your home, your dwelling, your house
+      nîki+N+I+D+Px3Pl+Sg: wîkiwâw	#  their home, their dwelling, their house
+      nîki+N+I+D+4Sg/Pl+Sg: nîki+N+I+D+4Sg/Pl+Sg	#  a home, a dwelling, a house
+      nîki+N+I+D+PxX+Sg: nîki+N+I+D+PxX+Sg	#  someone's home, someone's dwelling, someone's house
+      
+
+      # Poss # Pl
+      nîki+N+I+D+Px1Sg+Pl: nîka	#  my homes, my dwellings, my houses
+      nîki+N+I+D+Px2Sg+Pl: kîka	#  your homes, your dwellings, your houses
+      nîki+N+I+D+Px3Sg+Pl: wîka	#  his/her homes, his/her dwellings, his/her houses
+      nîki+N+I+D+Px1Pl+Pl: nîkinâna	#  our homes, our dwellings, our houses
+      nîki+N+I+D+Px12Pl+Pl: kîkinawa	#  your and our homes, your and our dwellings, your and our houses
+      nîki+N+I+D+Px2Pl+Pl: kîkiwâwa	#  your homes, your dwellings, your houses
+      nîki+N+I+D+Px3Pl+Pl: wîkiwâwa	#  their homes, their dwellings, their houses
+      nîki+N+I+D+4Sg/Pl+Pl: nîki+N+I+D+4Sg/Pl+Pl	#  homes, dwellings, houses
+      nîki+N+I+D+PxX+Pl: nîki+N+I+D+PxX+Pl	#  someone's homes, someone's dwellings, someone's houses
+      
+
+      # Poss # Loc
+      nîki+N+I+D+Px1Sg+Loc: nîkihk	#  in my home, in my dwelling, in my house
+      nîki+N+I+D+Px2Sg+Loc: kîkihk	#  in your home, in your dwelling, in your house
+      nîki+N+I+D+Px3Sg+Loc: wîkihk	#  in his/her home, in his/her dwelling, in his/her house
+      nîki+N+I+D+Px1Pl+Loc: nîkinâhk	#  in our home, in our dwelling, in our house
+      nîki+N+I+D+Px12Pl+Loc: kîkinâhk	#  in your and our home, in your and our dwelling, in your and our house
+      nîki+N+I+D+Px2Pl+Loc: kîkiwâhk	#  in your home, in your dwelling, in your house
+      nîki+N+I+D+Px3Pl+Loc: wîkiwâhk	#  in their home, in their dwelling, in their house
+      nîki+N+I+D+Px4Sg/Pl+Loc: wîkiyihk	#  in another's/others' home, in another's/others' dwelling, in another's/others' house
+      nîki+N+I+D+PxX+Loc: nîki+N+I+D+PxX+Loc	#  in someone's home, in someone's dwelling, in someone's house
+      
+

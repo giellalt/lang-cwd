@@ -1,0 +1,57 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - nîtim
+
+      # Core
+
+      # Poss
+      nîtim+N+A+D+Px1Sg+Sg: nîtimom	#  my cross-cousin
+      nîtim+N+A+D+Px2Sg+Sg: kîtimom	#  your cross-cousin
+      nîtim+N+A+D+Px3Sg+Obv: wîtimoma	#  his/her other cross-cousin(s)
+      
+
+      # Der/Dim
+      nîtim+N+A+D+Der/Dim+N+A+D+Sg: nîtim+N+A+D+Der/Dim+N+A+D+Sg	#  a little cross-cousin
+      
+
+      # Poss # Sg
+      nîtim+N+A+D+Px1Sg+Sg: nîtimom	#  my cross-cousin
+      nîtim+N+A+D+Px2Sg+Sg: kîtimom	#  your cross-cousin
+      
+      nîtim+N+A+D+Px1Pl+Sg: nîtimominân	#  our cross-cousin
+      nîtim+N+A+D+Px12Pl+Sg: kîtimominaw	#  your and our cross-cousin
+      nîtim+N+A+D+Px2Pl+Sg: kîtimomiwâw	#  your cross-cousin
+      
+      
+      nîtim+N+A+D+PxX+Sg: nîtim+N+A+D+PxX+Sg	#  someone's cross-cousin
+      
+
+      # Poss # Pl
+      nîtim+N+A+D+Px1Sg+Pl: nîtimomak	#  my cross-cousins
+      nîtim+N+A+D+Px2Sg+Pl: kîtimomak	#  your cross-cousins
+      
+      nîtim+N+A+D+Px1Pl+Pl: nîtimominânak	#  our cross-cousins
+      nîtim+N+A+D+Px12Pl+Pl: kîtimominawak	#  your and our cross-cousins
+      nîtim+N+A+D+Px2Pl+Pl: kîtimomiwâwak	#  your cross-cousins
+      
+      
+      nîtim+N+A+D+PxX+Pl: nîtim+N+A+D+PxX+Pl	#  someone's cross-cousins
+      
+
+      # Poss # Obv
+      nîtim+N+A+D+Px1Sg+Obv: nîtimoma	#  my other cross-cousin(s)
+      nîtim+N+A+D+Px2Sg+Obv: kîtimoma	#  your other cross-cousin(s)
+      nîtim+N+A+D+Px3Sg+Obv: wîtimoma	#  his/her other cross-cousin(s)
+      nîtim+N+A+D+Px1Pl+Obv: nîtimominâna	#  our other cross-cousin(s)
+      nîtim+N+A+D+Px12Pl+Obv: kîtimominawa	#  your and our other cross-cousin(s)
+      nîtim+N+A+D+Px2Pl+Obv: kîtimomiwâwa	#  your other cross-cousin(s)
+      nîtim+N+A+D+Px3Pl+Obv: wîtimomiwâwa	#  their other cross-cousin(s)
+      nîtim+N+A+D+Px4Sg/Pl+Obv: wîtimomiyiwa	#  another's/others' other cross-cousin(s)
+      nîtim+N+A+D+PxX+Obv: nîtim+N+A+D+PxX+Obv	#  someone's other cross-cousin(s)
+      
+
