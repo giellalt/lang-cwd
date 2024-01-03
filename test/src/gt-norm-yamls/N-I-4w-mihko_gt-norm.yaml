@@ -37,7 +37,7 @@ Tests:
       mihko+N+I+Px12Pl+Sg: kimihkominaw	#  your and our blood
       mihko+N+I+Px2Pl+Sg: kimihkomiwâw	#  your blood
       mihko+N+I+Px3Pl+Sg: omihkomiwâw	#  their blood
-      mihko+N+I+Px4Sg/Pl+Sg: omihkomiyiw	#  another's/others' blood
+      mihko+N+I+Px4Sg/Pl+Sg: omihkomithiw	#  another's/others' blood
       
 
       # Poss # Pl
@@ -48,7 +48,7 @@ Tests:
       mihko+N+I+Px12Pl+Pl: kimihkominawa	#  your and our bloods
       mihko+N+I+Px2Pl+Pl: kimihkomiwâwa	#  your bloods
       mihko+N+I+Px3Pl+Pl: omihkomiwâwa	#  their bloods
-      mihko+N+I+Px4Sg/Pl+Pl: omihkomiyiwa	#  another's/others' bloods
+      mihko+N+I+Px4Sg/Pl+Pl: omihkomithiwa	#  another's/others' bloods
       
 
       # Poss # Loc
@@ -59,6 +59,6 @@ Tests:
       mihko+N+I+Px12Pl+Loc: kimihkominâhk	#  in your and our blood
       mihko+N+I+Px2Pl+Loc: kimihkomiwâhk	#  in your blood
       mihko+N+I+Px3Pl+Loc: omihkomiwâhk	#  in their blood
-      mihko+N+I+Px4Sg/Pl+Loc: omihkomiyihk	#  in another's/others' blood
+      mihko+N+I+Px4Sg/Pl+Loc: omihkomithihk	#  in another's/others' blood
       
 

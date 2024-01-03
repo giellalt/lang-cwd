@@ -32,10 +32,13 @@ Tests:
       # Poss # Sg
       astotin+N+I+Px1Sg+Sg: nitastotin
       astotin+N+I+Px2Sg+Sg: kitastotin
-      
+      astotin+N+I+Px3Sg+Sg: otastotin
       astotin+N+I+Px1Pl+Sg: nitastotininân
       astotin+N+I+Px12Pl+Sg: kitastotininaw
       astotin+N+I+Px2Pl+Sg: kitastotiniwâw
+      astotin+N+I+Px3Sg+Sg: otastotiniwâw
+      astotin+N+I+Px4Sg/Pl+Sg: otastotinithiw
+
       
       
       
@@ -43,12 +46,12 @@ Tests:
       # Poss # Pl
       astotin+N+I+Px1Sg+Pl: nitastotina
       astotin+N+I+Px2Sg+Pl: kitastotina
-      
+      astotin+N+I+Px3Sg+Pl: otastotina
       astotin+N+I+Px1Pl+Pl: nitastotininâna
       astotin+N+I+Px12Pl+Pl: kitastotininawa
       astotin+N+I+Px2Pl+Pl: kitastotiniwâwa
-      
-      
+      astotin+N+I+Px3Sg+Pl: otastotiniwâwa
+      astotin+N+I+Px4Sg/Pl+Pl: otastotinithiwa
       
 
       # Poss # Loc

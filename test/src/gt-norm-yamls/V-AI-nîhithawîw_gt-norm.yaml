@@ -10,148 +10,148 @@ Tests:
       # Core 
 
       # Prs+Ind
-      nêhiýawêw+V+AI+Ind+1Sg: ninîhithawân	# I speak Cree
-      nêhiýawêw+V+AI+Ind+2Sg: kinîhithawân	# you speak Cree
-      nêhiýawêw+V+AI+Ind+3Sg: nîhithawîw	# he/she speaks Cree
+      nîhithawîw+V+AI+Ind+1Sg: ninîhithawân	# I speak Cree
+      nîhithawîw+V+AI+Ind+2Sg: kinîhithawân	# you speak Cree
+      nîhithawîw+V+AI+Ind+3Sg: nîhithawîw	# he/she speaks Cree
 
       # Prs+Cnj
-      PV/e+nêhiýawêw+V+AI+Cnj+1Sg: î-nîhithawîyân	# as I speak Cree
-      PV/e+nêhiýawêw+V+AI+Cnj+2Sg: î-nîhithawîyan	# as you speak Cree
-      PV/e+nêhiýawêw+V+AI+Cnj+3Sg: î-nîhithawît	# as he/she speaks Cree
+      PV/î+nîhithawîw+V+AI+Cnj+1Sg: î-nîhithawîyân	# as I speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+2Sg: î-nîhithawîyan	# as you speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+3Sg: î-nîhithawît	# as he/she speaks Cree
 
       # Imp
-      nêhiýawêw+V+AI+Imp+Imm+2Sg: nîhithawî	# (you) speak Cree now
+      nîhithawîw+V+AI+Imp+Imm+2Sg: nîhithawî	# (you) speak Cree now
       
 
       # Prs # Ind
-      nêhiýawêw+V+AI+Ind+1Sg: ninîhithawân	# I speak Cree
-      nêhiýawêw+V+AI+Ind+2Sg: kinîhithawân	# you speak Cree
-      nêhiýawêw+V+AI+Ind+3Sg: nîhithawîw	# he/she speaks Cree
-      nêhiýawêw+V+AI+Ind+1Pl: ninîhithawânân	# we speak Cree
-      nêhiýawêw+V+AI+Ind+12Pl: [kinîhithawânânaw, kinîhithawânaw]	# we and you speak Cree
-      nêhiýawêw+V+AI+Ind+2Pl: kinîhithawânâwâw	# you all speak Cree
-      nêhiýawêw+V+AI+Ind+3Pl: nîhithawîwak	# they speak Cree
-      nêhiýawêw+V+AI+Ind+4Sg/Pl: nîhithawîyiwa	# another/others speak Cree
-      nêhiýawêw+V+AI+Ind+X: [nîhithawâniwiw, nîhithawâniwan]	# someone speaks Cree
+      nîhithawîw+V+AI+Ind+1Sg: ninîhithawân	# I speak Cree
+      nîhithawîw+V+AI+Ind+2Sg: kinîhithawân	# you speak Cree
+      nîhithawîw+V+AI+Ind+3Sg: nîhithawîw	# he/she speaks Cree
+      nîhithawîw+V+AI+Ind+1Pl: ninîhithawânân	# we speak Cree
+      nîhithawîw+V+AI+Ind+12Pl: kinîhithawânaw	# we and you speak Cree
+      nîhithawîw+V+AI+Ind+2Pl: kinîhithawânâwâw	# you all speak Cree
+      nîhithawîw+V+AI+Ind+3Pl: nîhithawîwak	# they speak Cree
+      nîhithawîw+V+AI+Ind+4Sg/Pl: nîhithawîthiwa	# another/others speak Cree
+      nîhithawîw+V+AI+Ind+X: [nîhithawâniwiw, nîhithawâniwan]	# someone speaks Cree
       
 
       # Prs # Cnj
-      PV/e+nêhiýawêw+V+AI+Cnj+1Sg: î-nîhithawîyân	# as I speak Cree
-      PV/e+nêhiýawêw+V+AI+Cnj+2Sg: î-nîhithawîyan	# as you speak Cree
-      PV/e+nêhiýawêw+V+AI+Cnj+3Sg: î-nîhithawît	# as he/she speaks Cree
-      PV/e+nêhiýawêw+V+AI+Cnj+1Pl: î-nîhithawîyâhk	# as we speak Cree
-      PV/e+nêhiýawêw+V+AI+Cnj+12Pl: î-nîhithawîyahk	# as we and you speak Cree
-      PV/e+nêhiýawêw+V+AI+Cnj+2Pl: î-nîhithawîyîk	# as you all speak Cree
-      PV/e+nêhiýawêw+V+AI+Cnj+3Pl: î-nîhithawîcik	# as they speak Cree
-      PV/e+nêhiýawêw+V+AI+Cnj+4Sg/Pl: î-nîhithawîyit	# as another/others speak Cree
-      PV/e+nêhiýawêw+V+AI+Cnj+X: [î-nîhithawîhk, î-nîhithawâniwik, î-nîhithawâniwahk]	# as someone speaks Cree
+      PV/î+nîhithawîw+V+AI+Cnj+1Sg: î-nîhithawîyân	# as I speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+2Sg: î-nîhithawîyan	# as you speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+3Sg: î-nîhithawît	# as he/she speaks Cree
+      PV/î+nîhithawîw+V+AI+Cnj+1Pl: î-nîhithawîyâhk	# as we speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+12Pl: î-nîhithawîyahk	# as we and you speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+2Pl: î-nîhithawîyîk	# as you all speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+3Pl: [î-nîhithawîcik, î-nîhithawîtwâw]	# as they speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+4Sg/Pl: î-nîhithawîthit	# as another/others speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+X: [î-nîhithawîhk, î-nîhithawâniwik, î-nîhithawâniwahk]	# as someone speaks Cree
       
 
       # Prt # Ind
-      PV/ki+nêhiýawêw+V+AI+Ind+1Sg: nikî-nîhithawân	# I spoke Cree
-      PV/ki+nêhiýawêw+V+AI+Ind+2Sg: kikî-nîhithawân	# you spoke Cree
-      PV/ki+nêhiýawêw+V+AI+Ind+3Sg: kî-nîhithawîw	# he/she spoke Cree
-      PV/ki+nêhiýawêw+V+AI+Ind+1Pl: nikî-nîhithawânân	# we spoke Cree
-      PV/ki+nêhiýawêw+V+AI+Ind+12Pl: [kikî-nîhithawânânaw, kikî-nîhithawânaw]	# we and you spoke Cree
-      PV/ki+nêhiýawêw+V+AI+Ind+2Pl: kikî-nîhithawânâwâw	# you all spoke Cree
-      PV/ki+nêhiýawêw+V+AI+Ind+3Pl: kî-nîhithawîwak	# they spoke Cree
-      PV/ki+nêhiýawêw+V+AI+Ind+4Sg/Pl: kî-nîhithawîyiwa	# another/others spoke Cree
-      PV/ki+nêhiýawêw+V+AI+Ind+X: [kî-nîhithawâniwiw, kî-nîhithawâniwan]	# someone spoke Cree
+      PV/ki+nîhithawîw+V+AI+Ind+1Sg: nikî-nîhithawân	# I spoke Cree
+      PV/ki+nîhithawîw+V+AI+Ind+2Sg: kikî-nîhithawân	# you spoke Cree
+      PV/ki+nîhithawîw+V+AI+Ind+3Sg: kî-nîhithawîw	# he/she spoke Cree
+      PV/ki+nîhithawîw+V+AI+Ind+1Pl: nikî-nîhithawânân	# we spoke Cree
+      PV/ki+nîhithawîw+V+AI+Ind+12Pl: kikî-nîhithawânaw	# we and you spoke Cree
+      PV/ki+nîhithawîw+V+AI+Ind+2Pl: kikî-nîhithawânâwâw	# you all spoke Cree
+      PV/ki+nîhithawîw+V+AI+Ind+3Pl: kî-nîhithawîwak	# they spoke Cree
+      PV/ki+nîhithawîw+V+AI+Ind+4Sg/Pl: kî-nîhithawîthiwa	# another/others spoke Cree
+      PV/ki+nîhithawîw+V+AI+Ind+X: [kî-nîhithawâniwiw, kî-nîhithawâniwan]	# someone spoke Cree
       
 
       # Prt # Cnj
-      PV/e+PV/ki+nêhiýawêw+V+AI+Cnj+1Sg: î-kî-nîhithawîyân	# as I spoke Cree
-      PV/e+PV/ki+nêhiýawêw+V+AI+Cnj+2Sg: î-kî-nîhithawîyan	# as you spoke Cree
-      PV/e+PV/ki+nêhiýawêw+V+AI+Cnj+3Sg: î-kî-nîhithawît	# as he/she spoke Cree
-      PV/e+PV/ki+nêhiýawêw+V+AI+Cnj+1Pl: î-kî-nîhithawîyâhk	# as we spoke Cree
-      PV/e+PV/ki+nêhiýawêw+V+AI+Cnj+12Pl: î-kî-nîhithawîyahk	# as we and you spoke Cree
-      PV/e+PV/ki+nêhiýawêw+V+AI+Cnj+2Pl: î-kî-nîhithawîyîk	# as you all spoke Cree
-      PV/e+PV/ki+nêhiýawêw+V+AI+Cnj+3Pl: î-kî-nîhithawîcik	# as they spoke Cree
-      PV/e+PV/ki+nêhiýawêw+V+AI+Cnj+4Sg/Pl: î-kî-nîhithawîyit	# as another/others spoke Cree
-      PV/e+PV/ki+nêhiýawêw+V+AI+Cnj+X: [î-kî-nîhithawîhk, î-kî-nîhithawâniwik, î-kî-nîhithawâniwahk]	# as someone spoke Cree
+      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+1Sg: î-kî-nîhithawîyân	# as I spoke Cree
+      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+2Sg: î-kî-nîhithawîyan	# as you spoke Cree
+      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+3Sg: î-kî-nîhithawît	# as he/she spoke Cree
+      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+1Pl: î-kî-nîhithawîyâhk	# as we spoke Cree
+      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+12Pl: î-kî-nîhithawîyahk	# as we and you spoke Cree
+      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+2Pl: î-kî-nîhithawîyîk	# as you all spoke Cree
+      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+3Pl: [î-kî-nîhithawîcik, î-kî-nîhithawîtwâw]	# as they spoke Cree
+      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+4Sg/Pl: î-kî-nîhithawîthit	# as another/others spoke Cree
+      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+X: [î-kî-nîhithawîhk, î-kî-nîhithawâniwik, î-kî-nîhithawâniwahk]	# as someone spoke Cree
       
 
       # Fut+Int # Ind
-      PV/wi+nêhiýawêw+V+AI+Ind+1Sg: niwî-nîhithawân	# I am going to speak Cree
-      PV/wi+nêhiýawêw+V+AI+Ind+2Sg: kiwî-nîhithawân	# you are going to speak Cree
-      PV/wi+nêhiýawêw+V+AI+Ind+3Sg: wî-nîhithawîw	# he/she is going to speak Cree
-      PV/wi+nêhiýawêw+V+AI+Ind+1Pl: niwî-nîhithawânân	# we are going to speak Cree
-      PV/wi+nêhiýawêw+V+AI+Ind+12Pl: [kiwî-nîhithawânânaw, kiwî-nîhithawânaw]	# we and you are going to speak Cree
-      PV/wi+nêhiýawêw+V+AI+Ind+2Pl: kiwî-nîhithawânâwâw	# you all are going to speak Cree
-      PV/wi+nêhiýawêw+V+AI+Ind+3Pl: wî-nîhithawîwak	# they are going to speak Cree
-      PV/wi+nêhiýawêw+V+AI+Ind+4Sg/Pl: wî-nîhithawîyiwa	# another/others are going to speak Cree
-      PV/wi+nêhiýawêw+V+AI+Ind+X: [wî-nîhithawâniwiw, wî-nîhithawâniwan]	# someone is going to speak Cree
+      PV/wi+nîhithawîw+V+AI+Ind+1Sg: niwî-nîhithawân	# I am going to speak Cree
+      PV/wi+nîhithawîw+V+AI+Ind+2Sg: kiwî-nîhithawân	# you are going to speak Cree
+      PV/wi+nîhithawîw+V+AI+Ind+3Sg: wî-nîhithawîw	# he/she is going to speak Cree
+      PV/wi+nîhithawîw+V+AI+Ind+1Pl: niwî-nîhithawânân	# we are going to speak Cree
+      PV/wi+nîhithawîw+V+AI+Ind+12Pl: kiwî-nîhithawânaw	# we and you are going to speak Cree
+      PV/wi+nîhithawîw+V+AI+Ind+2Pl: kiwî-nîhithawânâwâw	# you all are going to speak Cree
+      PV/wi+nîhithawîw+V+AI+Ind+3Pl: wî-nîhithawîwak	# they are going to speak Cree
+      PV/wi+nîhithawîw+V+AI+Ind+4Sg/Pl: wî-nîhithawîthiwa	# another/others are going to speak Cree
+      PV/wi+nîhithawîw+V+AI+Ind+X: [wî-nîhithawâniwiw, wî-nîhithawâniwan]	# someone is going to speak Cree
       
 
       # Fut+Int # Cnj
-      PV/e+PV/wi+nêhiýawêw+V+AI+Cnj+1Sg: î-wî-nîhithawîyân	# as I am going to speak Cree
-      PV/e+PV/wi+nêhiýawêw+V+AI+Cnj+2Sg: î-wî-nîhithawîyan	# as you are going to speak Cree
-      PV/e+PV/wi+nêhiýawêw+V+AI+Cnj+3Sg: î-wî-nîhithawît	# as he/she is going to speak Cree
-      PV/e+PV/wi+nêhiýawêw+V+AI+Cnj+1Pl: î-wî-nîhithawîyâhk	# as we are going to speak Cree
-      PV/e+PV/wi+nêhiýawêw+V+AI+Cnj+12Pl: î-wî-nîhithawîyahk	# as we and you are going to speak Cree
-      PV/e+PV/wi+nêhiýawêw+V+AI+Cnj+2Pl: î-wî-nîhithawîyîk	# as you all are going to speak Cree
-      PV/e+PV/wi+nêhiýawêw+V+AI+Cnj+3Pl: î-wî-nîhithawîcik	# as they are going to speak Cree
-      PV/e+PV/wi+nêhiýawêw+V+AI+Cnj+4Sg/Pl: î-wî-nîhithawîyit	# as another/others are going to speak Cree
-      PV/e+PV/wi+nêhiýawêw+V+AI+Cnj+X: [î-wî-nîhithawîhk, î-wî-nîhithawâniwik, î-wî-nîhithawâniwahk]	# as someone is going to speak Cree
+      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+1Sg: î-wî-nîhithawîyân	# as I am going to speak Cree
+      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+2Sg: î-wî-nîhithawîyan	# as you are going to speak Cree
+      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+3Sg: î-wî-nîhithawît	# as he/she is going to speak Cree
+      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+1Pl: î-wî-nîhithawîyâhk	# as we are going to speak Cree
+      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+12Pl: î-wî-nîhithawîyahk	# as we and you are going to speak Cree
+      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+2Pl: î-wî-nîhithawîyîk	# as you all are going to speak Cree
+      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+3Pl: [î-wî-nîhithawîcik, î-wî-nîhithawîtwâw]	# as they are going to speak Cree
+      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+4Sg/Pl: î-wî-nîhithawîthit	# as another/others are going to speak Cree
+      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+X: [î-wî-nîhithawîhk, î-wî-nîhithawâniwik, î-wî-nîhithawâniwahk]	# as someone is going to speak Cree
       
 
       # Fut+Def # Ind
-      PV/ka+nêhiýawêw+V+AI+Ind+1Sg: nika-nîhithawân	# I will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Ind+2Sg: kika-nîhithawân	# you will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Ind+3Sg: ka-nîhithawîw	# he/she will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Ind+1Pl: nika-nîhithawânân	# we will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Ind+12Pl: [kika-nîhithawânânaw, kika-nîhithawânaw]	# we and you will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Ind+2Pl: kika-nîhithawânâwâw	# you all will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Ind+3Pl: ka-nîhithawîwak	# they will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Ind+4Sg/Pl: ka-nîhithawîyiwa	# another/others will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Ind+X: [ka-nîhithawâniwiw, ka-nîhithawâniwan]	# someone will speak Cree
+      PV/ka+nîhithawîw+V+AI+Ind+1Sg: nika-nîhithawân	# I will speak Cree
+      PV/ka+nîhithawîw+V+AI+Ind+2Sg: kika-nîhithawân	# you will speak Cree
+      PV/ka+nîhithawîw+V+AI+Ind+3Sg: ka-nîhithawîw	# he/she will speak Cree
+      PV/ka+nîhithawîw+V+AI+Ind+1Pl: nika-nîhithawânân	# we will speak Cree
+      PV/ka+nîhithawîw+V+AI+Ind+12Pl: kika-nîhithawânaw	# we and you will speak Cree
+      PV/ka+nîhithawîw+V+AI+Ind+2Pl: kika-nîhithawânâwâw	# you all will speak Cree
+      PV/ka+nîhithawîw+V+AI+Ind+3Pl: ka-nîhithawîwak	# they will speak Cree
+      PV/ka+nîhithawîw+V+AI+Ind+4Sg/Pl: ka-nîhithawîthiwa	# another/others will speak Cree
+      PV/ka+nîhithawîw+V+AI+Ind+X: [ka-nîhithawâniwiw, ka-nîhithawâniwan]	# someone will speak Cree
       
 
       # Inf # PV/ka
-      PV/ka+nêhiýawêw+V+AI+Cnj+1Sg: ka-nîhithawîyân	# I will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Cnj+2Sg: ka-nîhithawîyan	# you will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Cnj+3Sg: ka-nîhithawît	# he/she will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Cnj+1Pl: ka-nîhithawîyâhk	# we will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Cnj+12Pl: ka-nîhithawîyahk	# we and you will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Cnj+2Pl: ka-nîhithawîyîk	# you all will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Cnj+3Pl: ka-nîhithawîcik	# they will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Cnj+4Sg/Pl: ka-nîhithawîyit	# another/others will speak Cree
-      PV/ka+nêhiýawêw+V+AI+Cnj+X: [ka-nîhithawîhk, ka-nîhithawâniwik, ka-nîhithawâniwahk]	# someone will speak Cree
+      PV/ka+nîhithawîw+V+AI+Cnj+1Sg: ka-nîhithawîyân	# I will speak Cree
+      PV/ka+nîhithawîw+V+AI+Cnj+2Sg: ka-nîhithawîyan	# you will speak Cree
+      PV/ka+nîhithawîw+V+AI+Cnj+3Sg: ka-nîhithawît	# he/she will speak Cree
+      PV/ka+nîhithawîw+V+AI+Cnj+1Pl: ka-nîhithawîyâhk	# we will speak Cree
+      PV/ka+nîhithawîw+V+AI+Cnj+12Pl: ka-nîhithawîyahk	# we and you will speak Cree
+      PV/ka+nîhithawîw+V+AI+Cnj+2Pl: ka-nîhithawîyîk	# you all will speak Cree
+      PV/ka+nîhithawîw+V+AI+Cnj+3Pl: [ka-nîhithawîcik, ka-nîhithawîtwâw]	# they will speak Cree
+      PV/ka+nîhithawîw+V+AI+Cnj+4Sg/Pl: ka-nîhithawîthit	# another/others will speak Cree
+      PV/ka+nîhithawîw+V+AI+Cnj+X: [ka-nîhithawîhk, ka-nîhithawâniwik, ka-nîhithawâniwahk]	# someone will speak Cree
       
 
       # Inf # PV/ta
-      PV/ta+nêhiýawêw+V+AI+Cnj+1Sg: ta-nîhithawîyân	# I speak Cree
-      PV/ta+nêhiýawêw+V+AI+Cnj+2Sg: ta-nîhithawîyan	# you speak Cree
-      PV/ta+nêhiýawêw+V+AI+Cnj+3Sg: ta-nîhithawît	# he/she speaks Cree
-      PV/ta+nêhiýawêw+V+AI+Cnj+1Pl: ta-nîhithawîyâhk	# we speak Cree
-      PV/ta+nêhiýawêw+V+AI+Cnj+12Pl: ta-nîhithawîyahk	# we and you speak Cree
-      PV/ta+nêhiýawêw+V+AI+Cnj+2Pl: ta-nîhithawîyîk	# you all speak Cree
-      PV/ta+nêhiýawêw+V+AI+Cnj+3Pl: ta-nîhithawîcik	# they speak Cree
-      PV/ta+nêhiýawêw+V+AI+Cnj+4Sg/Pl: ta-nîhithawîyit	# another/others speak Cree
-      PV/ta+nêhiýawêw+V+AI+Cnj+X: [ta-nîhithawîhk, ta-nîhithawâniwik, ta-nîhithawâniwahk]	# someone speaks Cree
+      PV/ta+nîhithawîw+V+AI+Cnj+1Sg: ta-nîhithawîyân	# I speak Cree
+      PV/ta+nîhithawîw+V+AI+Cnj+2Sg: ta-nîhithawîyan	# you speak Cree
+      PV/ta+nîhithawîw+V+AI+Cnj+3Sg: ta-nîhithawît	# he/she speaks Cree
+      PV/ta+nîhithawîw+V+AI+Cnj+1Pl: ta-nîhithawîyâhk	# we speak Cree
+      PV/ta+nîhithawîw+V+AI+Cnj+12Pl: ta-nîhithawîyahk	# we and you speak Cree
+      PV/ta+nîhithawîw+V+AI+Cnj+2Pl: ta-nîhithawîyîk	# you all speak Cree
+      PV/ta+nîhithawîw+V+AI+Cnj+3Pl: [ta-nîhithawîcik, ta-nîhithawîtwâw]	# they speak Cree
+      PV/ta+nîhithawîw+V+AI+Cnj+4Sg/Pl: ta-nîhithawîthit	# another/others speak Cree
+      PV/ta+nîhithawîw+V+AI+Cnj+X: [ta-nîhithawîhk, ta-nîhithawâniwik, ta-nîhithawâniwahk]	# someone speaks Cree
       
 
       # Fut # Cond
-      nêhiýawêw+V+AI+Fut+Cond+1Sg: nîhithawîyâni	# when I speak Cree
-      nêhiýawêw+V+AI+Fut+Cond+2Sg: nîhithawîyani	# when you speak Cree
-      nêhiýawêw+V+AI+Fut+Cond+3Sg: nîhithawîci	# when he/she speaks Cree
-      nêhiýawêw+V+AI+Fut+Cond+1Pl: nîhithawîyâhki	# when we speak Cree
-      nêhiýawêw+V+AI+Fut+Cond+12Pl: [nîhithawîyahki, nîhithawîyahko]	# when we and you speak Cree
-      nêhiýawêw+V+AI+Fut+Cond+2Pl: nîhithawîyîko	# when you all speak Cree
-      nêhiýawêw+V+AI+Fut+Cond+3Pl: nîhithawîtwâwi	# when they speak Cree
-      nêhiýawêw+V+AI+Fut+Cond+4Sg/Pl: nîhithawîyici	# when another/others speak Cree
-      nêhiýawêw+V+AI+Fut+Cond+X: [nîhithawîhki, nîhithawîhkwâwi]	# when someone speaks Cree
+      nîhithawîw+V+AI+Fut+Cond+1Sg: nîhithawîyâni	# when I speak Cree
+      nîhithawîw+V+AI+Fut+Cond+2Sg: nîhithawîyani	# when you speak Cree
+      nîhithawîw+V+AI+Fut+Cond+3Sg: nîhithawîci	# when he/she speaks Cree
+      nîhithawîw+V+AI+Fut+Cond+1Pl: nîhithawîyâhki	# when we speak Cree
+      nîhithawîw+V+AI+Fut+Cond+12Pl: nîhithawîyahki	# when we and you speak Cree
+      nîhithawîw+V+AI+Fut+Cond+2Pl: nîhithawîyîko	# when you all speak Cree
+      nîhithawîw+V+AI+Fut+Cond+3Pl: nîhithawîtwâwi	# when they speak Cree
+      nîhithawîw+V+AI+Fut+Cond+4Sg/Pl: nîhithawîthici	# when another/others speak Cree
+      nîhithawîw+V+AI+Fut+Cond+X: [nîhithawîhki, nîhithawîhkwâwi]	# when someone speaks Cree
       
 
       # Imp # Imm
-      nêhiýawêw+V+AI+Imp+Imm+2Sg: nîhithawî	# (you) speak Cree now
-      nêhiýawêw+V+AI+Imp+Imm+12Pl: nîhithawîtân	# let you and us speak Cree now
-      nêhiýawêw+V+AI+Imp+Imm+2Pl: nîhithawîk	# (you all) speak Cree now
+      nîhithawîw+V+AI+Imp+Imm+2Sg: nîhithawî	# (you) speak Cree now
+      nîhithawîw+V+AI+Imp+Imm+12Pl: nîhithawîtân	# let you and us speak Cree now
+      nîhithawîw+V+AI+Imp+Imm+2Pl: nîhithawîk	# (you all) speak Cree now
       
 
       # Imp # Del
-      nêhiýawêw+V+AI+Imp+Del+2Sg: nîhithawîhkan	# (you) speak Cree later
-      nêhiýawêw+V+AI+Imp+Del+12Pl: nîhithawîhkahk	# let you and us speak Cree later
-      nêhiýawêw+V+AI+Imp+Del+2Pl: nîhithawîhkîk	# (you all) speak Cree later
+      nîhithawîw+V+AI+Imp+Del+2Sg: nîhithawîhkan	# (you) speak Cree later
+      nîhithawîw+V+AI+Imp+Del+12Pl: nîhithawîhkahk	# let you and us speak Cree later
+      nîhithawîw+V+AI+Imp+Del+2Pl: nîhithawîhkîk	# (you all) speak Cree later
       
 

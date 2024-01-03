@@ -1,0 +1,88 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - miskwâw
+
+      # Core 
+
+      # Prs+Ind
+      miskwâw+V+II+Ind+3Sg: miskwâw	# it is red
+
+      # Prs+Cnj
+      PV/î+miskwâw+V+II+Cnj+3Sg: î-miskwâk	# as it is red
+      
+
+      # Prs # Ind
+      miskwâw+V+II+Ind+3Sg: miskwâw	# it is red
+      miskwâw+V+II+Ind+4Sg: miskwâthiw	# it over there is red
+      miskwâw+V+II+Ind+3Pl: miskwâwa	# they are red
+      miskwâw+V+II+Ind+4Pl: miskwâthiwa	# they over there are red
+      
+
+      # Prs # Cnj
+      PV/î+miskwâw+V+II+Cnj+3Sg: î-miskwâk	# as it is red
+      PV/î+miskwâw+V+II+Cnj+4Sg: î-miskwâthik	# as it over there is red
+      PV/î+miskwâw+V+II+Cnj+3Pl: î-miskwâki	# as they are red
+      PV/î+miskwâw+V+II+Cnj+4Pl: î-miskwâthiki	# as they over there are red
+      
+
+      # Prt # Ind
+      PV/ki+miskwâw+V+II+Ind+3Sg: kî-miskwâw	# it was red
+      PV/ki+miskwâw+V+II+Ind+4Sg: kî-miskwâthiw	# it over there was red
+      PV/ki+miskwâw+V+II+Ind+3Pl: kî-miskwâwa	# they were red
+      PV/ki+miskwâw+V+II+Ind+4Pl: kî-miskwâthiwa	# they over there were red
+      
+
+      # Prt # Cnj
+      PV/î+PV/ki+miskwâw+V+II+Cnj+3Sg: î-kî-miskwâk	# as it was red
+      PV/î+PV/ki+miskwâw+V+II+Cnj+4Sg: î-kî-miskwâthik	# as it over there was red
+      PV/î+PV/ki+miskwâw+V+II+Cnj+3Pl: î-kî-miskwâki	# as they were red
+      PV/î+PV/ki+miskwâw+V+II+Cnj+4Pl: î-kî-miskwâthiki	# as they over there were red
+      
+
+      # Fut+Int # Ind
+      PV/wi+miskwâw+V+II+Ind+3Sg: wî-miskwâw	# it is going to be red
+      PV/wi+miskwâw+V+II+Ind+4Sg: wî-miskwâthiw	# it over there is going to be red
+      PV/wi+miskwâw+V+II+Ind+3Pl: wî-miskwâwa	# they are going to be red
+      PV/wi+miskwâw+V+II+Ind+4Pl: wî-miskwâthiwa	# they over there are going to be red
+      
+
+      # Fut+Int # Cnj
+      PV/î+PV/wi+miskwâw+V+II+Cnj+3Sg: î-wî-miskwâk	# as it is going to be red
+      PV/î+PV/wi+miskwâw+V+II+Cnj+4Sg: î-wî-miskwâthik	# as it over there is going to be red
+      PV/î+PV/wi+miskwâw+V+II+Cnj+3Pl: î-wî-miskwâki	# as they are going to be red
+      PV/î+PV/wi+miskwâw+V+II+Cnj+4Pl: î-wî-miskwâthiki	# as they over there are going to be red
+      
+
+      # Fut+Def # Ind
+      PV/ka+miskwâw+V+II+Ind+3Sg: ka-miskwâw	# it will be red
+      PV/ka+miskwâw+V+II+Ind+4Sg: ka-miskwâthiw	# it over there will be red
+      PV/ka+miskwâw+V+II+Ind+3Pl: ka-miskwâwa	# they will be red
+      PV/ka+miskwâw+V+II+Ind+4Pl: ka-miskwâthiwa	# they over there will be red
+      
+
+      # Inf # PV/ka
+      PV/ka+miskwâw+V+II+Cnj+3Sg: ka-miskwâk	# it will be red
+      PV/ka+miskwâw+V+II+Cnj+4Sg: ka-miskwâthik	# it over there will be red
+      PV/ka+miskwâw+V+II+Cnj+3Pl: ka-miskwâki	# they will be red
+      PV/ka+miskwâw+V+II+Cnj+4Pl: ka-miskwâthiki	# they over there will be red
+      
+
+      # Inf # PV/ta
+      PV/ta+miskwâw+V+II+Cnj+3Sg: ta-miskwâk	# it is red
+      PV/ta+miskwâw+V+II+Cnj+4Sg: ta-miskwâthik	# it over there is red
+      PV/ta+miskwâw+V+II+Cnj+3Pl: ta-miskwâki	# they are red
+      PV/ta+miskwâw+V+II+Cnj+4Pl: ta-miskwâthiki	# they over there are red
+      
+
+      # Fut # Cond
+      miskwâw+V+II+Fut+Cond+3Sg: miskwâki	# when it is red
+      miskwâw+V+II+Fut+Cond+4Sg: miskwâthiki	# when it over there is red
+      miskwâw+V+II+Fut+Cond+3Pl: miskwâkwâwi	# when they are red
+      miskwâw+V+II+Fut+Cond+4Pl: miskwâthikwâwi	# when they over there are red
+      
+
