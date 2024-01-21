@@ -94,7 +94,7 @@ End of noun affixes code
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/noun_affixes.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/affixes/noun_affixes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/noun_affixes.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/affixes/noun_affixes.lexc)</small>
 
 ---
 
@@ -581,7 +581,7 @@ End of verb affixes LEXC code
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verb_affixes.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/affixes/verb_affixes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verb_affixes.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/affixes/verb_affixes.lexc)</small>
 
 ---
 
@@ -880,7 +880,7 @@ Composing the rules together
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.xfscript](https://github.com/giellalt/lang-cwd/blob/main/src/fst/phonology.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.xfscript](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/phonology.xfscript)</small>
 
 ---
 
@@ -1114,7 +1114,7 @@ End of new and all Multichar_Symbols
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -1127,7 +1127,7 @@ LEXC structure in the new crk FST.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/noun_stems.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/stems/noun_stems.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/noun_stems.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/stems/noun_stems.lexc)</small>
 
 ---
 
@@ -1138,7 +1138,7 @@ The file contains the following lexicons, with content as described:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/particles.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/stems/particles.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/particles.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/stems/particles.lexc)</small>
 
 ---
 
@@ -1179,7 +1179,7 @@ INANIMATE \\
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
 
 ---
 
@@ -1191,7 +1191,7 @@ Full incorporation of AEW 2020 verbs into new crk FST
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verb_stems.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/stems/verb_stems.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verb_stems.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/stems/verb_stems.lexc)</small>
 
 ---
 
@@ -1358,7 +1358,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-cwd/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-cwd/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -1378,7 +1378,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -1392,7 +1392,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
