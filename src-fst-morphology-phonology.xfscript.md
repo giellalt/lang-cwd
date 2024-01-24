@@ -5,11 +5,11 @@ Rules
 
 VG>i2 -> VV
 
-* *mêskanaw>i2^DIMs*
-* *mêskanâ000s*
+* *mîskanaw>i2^DIMs*
+* *mîskanâ000s*
 
-* *mêskanaw>i2hk*
-* *mêskanâ000hk*
+* *mîskanaw>i2hk*
+* *mîskanâ000hk*
 
 * *sôniyâw>i2^DIMs*
 * *sôniyâ000s0*
@@ -17,11 +17,11 @@ VG>i2 -> VV
 * *miskotâkay>i2^DIMs*
 * *miskocâkâ000s0*
 
-* *nâpêw>i2^DIMsis*
-* *nâpê0000sis*
+* *nâpîw>i2^DIMsis*
+* *nâpî0000sis*
 
-* *iskwêw>i2^DIMsis*
-* *iskwê0000sis*
+* *iskwîw>i2^DIMsis*
+* *iskwî0000sis*
 
 * *maskosiy>i2^DIMs*
 * *maskosî0000s*
@@ -65,55 +65,55 @@ VG>i2 -> VV
 * *ni00nînihik*
 
 * *a>tân*
-* *ê0tân*
+* *î0tân*
 
 * *nit2<astotin>i2^DIMs*
 * *nic0ascocin0i0s*
 
-* *ê^EGLOT<acimo>t*
-* *êh0acimo0t*
+* *î^EGLOT<acimo>t*
+* *îh0acimo0t*
 
-* *ê^EGLOT<d1ay2<acimo>t*
-* *êh00ay0acimo0t*
+* *î^EGLOT<d1ay2<acimo>t*
+* *îh00ay0acimo0t*
 
-* *ê^EGLOT<d2ay3d1âh<acimo>t*
-* *êh00ay0âh0acimo0t*
+* *î^EGLOT<d2ay3d1âh<acimo>t*
+* *îh00ay0âh0acimo0t*
 
-* *nit2<nêhiyawê>n2*
-* *ni00nêhiyawâ0n*
-* *kit2<kâsîhkwê>n2*
+* *nit2<nîhithawî>n2*
+* *ni00nîhithawâ0n*
+* *kit2<kâsîhkwî>n2*
 * *ki00kâsîhkwâ0n*
 
 * *nit2<tipiska>n2*
-* *ni00tipiskê0n*
-* *kit2<kiskêyihta>n2*
-* *ki00kiskêyihtê0n*
+* *ni00tipiskî0n*
+* *kit2<kiskîthihta>n2*
+* *ki00kiskîthihtî0n*
 
-* *ê-<nîpin3>k*
-* *ê-0nîpih0k*
+* *î-<nîpin3>k*
+* *î-0nîpih0k*
 
-* *ê-<mispon>k*
-* *ê-0mispo00k*
+* *î-<mispon>k*
+* *î-0mispo00k*
 
-* *wapâht4>ikâtê>w*
-* *wapâhc0ikâtê0w*
+* *wapâht4>ikâtî>w*
+* *wapâhc0ikâtî0w*
 
-* *ê-<mow2>i2ht*
-* *ê-0mow0iht*
-* *ê-<ayaw2>i2koyâhk*
-* *ê-0ayaw0ikoyâhk*
+* *î-<mow2>i2ht*
+* *î-0mow0iht*
+* *î-<ayaw2>i2koyâhk*
+* *î-0ayaw0ikoyâhk*
 * *kit2<kîskisw>in*
 * *ki00kîskiso00n*
 * *nit2<kîskisw>i2mâwa*
 * *ni00kîskiso00mâwa*
-* *ê-<kîskisw>i2tân*
-* *ê-0kîskiso00tân*
-* *ê-<kîskisw>it*
-* *ê-0kîskiso00t*
-* *ê-<kîskisw>i2sk*
-* *ê-0kîskiso00sk*
-* *ê-<kîskisw>i2koyâhk*
-* *ê-0kîskiso00koyâhk*
+* *î-<kîskisw>i2tân*
+* *î-0kîskiso00tân*
+* *î-<kîskisw>it*
+* *î-0kîskiso00t*
+* *î-<kîskisw>i2sk*
+* *î-0kîskiso00sk*
+* *î-<kîskisw>i2koyâhk*
+* *î-0kîskiso00koyâhk*
 * *nit2<kîskisw>i2kawin*
 * *ni00kîskiso00kawin*
 * *kîskisw>in*
@@ -125,14 +125,14 @@ VG>i2 -> VV
 * *ki00nitonaw0in*
 * *nit2<nitonaw>i2mâwa*
 * *ni00nitonâ000mâwa*
-* *ê-<nitonaw>i2tân*
-* *ê-0nitonâ000tân*
-* *ê-<nitonaw>it*
-* *ê-0nitonaw0it*
-* *ê-<nitonaw>i2sk*
-* *ê-0nitonâ000sk*
-* *ê-<nitonaw>i2koyâhk*
-* *ê-0nitonâ000koyâhk*
+* *î-<nitonaw>i2tân*
+* *î-0nitonâ000tân*
+* *î-<nitonaw>it*
+* *î-0nitonaw0it*
+* *î-<nitonaw>i2sk*
+* *î-0nitonâ000sk*
+* *î-<nitonaw>i2koyâhk*
+* *î-0nitonâ000koyâhk*
 * *nit2<nitonaw>i2kawin*
 * *ni00nitonâ000kawin*
 * *nitonaw>in*
@@ -146,14 +146,14 @@ VG>i2 -> VV
 * *ki00nakas0in*
 * *nit2<nakat3>i2mâwa*
 * *ni00nakat0imâwa*
-* *ê-<nakat3>i2tân*
-* *ê-0nakat0itân*
-* *ê-<nakat3>it*
-* *ê-0nakas0it*
-* *ê-<nakat3>i2sk*
-* *ê-0nakat0isk*
-* *ê-<nakat3>i2koyâhk*
-* *ê-0nakat0ikoyâhk*
+* *î-<nakat3>i2tân*
+* *î-0nakat0itân*
+* *î-<nakat3>it*
+* *î-0nakas0it*
+* *î-<nakat3>i2sk*
+* *î-0nakat0isk*
+* *î-<nakat3>i2koyâhk*
+* *î-0nakat0ikoyâhk*
 * *nit2<nakat3>i2kawin*
 * *ni00nakat0ikawin*
 * *nakat3>in*
@@ -165,14 +165,14 @@ VG>i2 -> VV
 * *ki00ko0s0in*
 * *nit2<kost3>i2mâwa*
 * *ni00kost0imâwa*
-* *ê-<kost3>i2tân*
-* *ê-0kost0itân*
-* *ê-<kost3>it*
-* *ê-0ko0s0it*
-* *ê-<kost3>i2sk*
-* *ê-0kost0isk*
-* *ê-<kost3>i2koyâhk*
-* *ê-0kost0ikoyâhk*
+* *î-<kost3>i2tân*
+* *î-0kost0itân*
+* *î-<kost3>it*
+* *î-0ko0s0it*
+* *î-<kost3>i2sk*
+* *î-0kost0isk*
+* *î-<kost3>i2koyâhk*
+* *î-0kost0ikoyâhk*
 * *nit2<kost3>i2kawin*
 * *ni00kost0ikawin*
 * *kost3>in*

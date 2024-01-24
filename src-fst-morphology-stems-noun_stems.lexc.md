@@ -2,7 +2,9 @@
 
 Test lemma/stem set for nouns according the new crk FST
 
-Complete extraction of lemma:stem info from AEW 2020, according to
+Regular/Irregular ôsi- both a regularly inflecting stem, and a number of irregular forms enumerated separately
+
+Complete extraction of lemma:stem info from LLR dictionary 2022, according to
 LEXC structure in the new crk FST.
 
 * * *
