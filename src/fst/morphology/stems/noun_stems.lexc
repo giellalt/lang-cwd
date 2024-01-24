@@ -60,19 +60,19 @@ LEXICON NOUN_DEP_NONKINSHIP_STEMS
 ! Animate Dependent Noun stems
 masakay:asakay NAD "skin" ;
 mitâs:tâs NAD "pair of pants" ; ! AEW NDA-1 (Consonant initial regular stem)
-môhpan:ohpan NAD "lung" ; ! AEW NDA-1 (Vowel initial regular stem) note that in 3rd person the w- does not surface
+mispan:span NAD "lung" ; ! AEW NDA-1 (Vowel initial regular stem) note that in 3rd person the w- does not surface
 mitihtikosiy:tihtikosiy NAD "kidney" ; ! AEW NDA-2 (Consonant initial regular VG stem) N.B. also occurs as the stems tihtikosiw and tihtikos (the latter is an NDI-1 declension)
 maskasiy:askasiy NAD "finger nail/claw" ; ! AEW NDA-2 (Vowel Initial VG stem) 
 ! Inanimate Dependent Noun stems
 mihtawakay:htawakay NID "ear" ;
 mispiton:spiton NID "arm" ;
 miyaw:iyaw2 NID ;
-mitêh:têh NID "heart" ; ! AEW NDI-1 (Consonant Initial Regular stem)
+mitîh:tîh NID "heart" ; ! AEW NDI-1 (Consonant Initial Regular stem)
 mîpit:îpit NID "tooth" ; ! AEW NDI-1 (Vowel Initial Regular stem)
 miskotâkay:skotâkay NID "coat/dress" ; ! AEW NDI-2 (Consonant Initial VW stem)
-mêstakay:êstakay NID "hair" ; ! AEW NDI-1 (Vowel Initial VW stem)
+mîstakay:îstakay NID "hair" ; ! AEW NDI-1 (Vowel Initial VW stem)
 miskîsik:skîsikw NID "eye" ; ! AEW NDI-3 (Consonant Initial Cw stem)
-mayakask:ayakaskw NID "palate" ; ! AEW NDI-3 (Vowel Initial Cw stem)
+mathakask:athakaskw NID "palate" ; ! AEW NDI-3 (Vowel Initial Cw stem)
 mîki:îk NID_SG/I "home" ; ! AEW NDI-4 (Vowel Initial Single Syllable NDI-4 stem) N.B. Doesn't usually work unpossessed or plural unless distributive.
 @P.number.SG@mîni:@P.number.SG@în NID_SG/I "bone-marrow" ; ! AEW NDI-4 (Vowel Initial Single Syllable NDI-4 stem) N.B. might cause issue with <î>, also is a mass noun that is never plural.
 
@@ -99,16 +99,16 @@ LEXICON NOUN_INDEP_STEMS
 ! NI-4, NI-4w -> NI_SG/I_POSS/IM, with w2, y4 for the immutable final glides
 !
 ! Animate Noun stems
-pahkwêsikan NA_POSS/IM "bannock" ; ! AEW NA-1 (Consonant-Initial Regular NA Stem)
+pahkwîsikan NA_POSS/IM "bannock" ; ! AEW NA-1 (Consonant-Initial Regular NA Stem)
 asikan NA "sock" ; ! AEW NA-1 (Vowel-Initial Regular NA Stem)
 kihc-ôkiniy NA "tomato" ; ! AEW NA-2 (Consonant-Initial Vowel-Glide NA Stem)
-ayapiy NA "net" ; ! AEW NA-2 (Vowel-Initial Vowel-Glide NA Stem)
+athapiy NA "net" ; ! AEW NA-2 (Vowel-Initial Vowel-Glide NA Stem)
 kwâpahikan NA "ladle" ; ! AEW NA-1 (Consonant-Initial Regular NA Stem)
 masinahikanâhtik:masinahikanâhtikw NA "pencil" ; ! AEW NA-3 (Consonant-Initial Consonant-/w/ NA Stem)
 askihk:askihkw NA_POSS/IM "kettle, pail" ; ! AEW NA-3 (Vowel-Initial Consonant-/w/ NA Stem)
 niska:nisk NA_SG/A_POSS/IM "goose" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
-sihta:siht NA_SG/A_POSS/IM "spruce" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
-êsa:ês NA_SG/A_POSS/IM "clam; shell" ; ! AEW NA-4 (Vowel-Initial Single-Syllable NA Stem)
+sihti:siht NA_SG/I_POSS/IM "spruce" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
+îsa:îs NA_SG/A_POSS/IM "clam; shell" ; ! AEW NA-4 (Vowel-Initial Single-Syllable NA Stem)
 wâhkwa:wâhkw NA_SG/A_POSS/IM "roe, fish eggs; lump of roe" ; ! AEW NA-4w (Consonant-Initial Single-Syllable-/w/ NA Stem)
 ihkwa:ihkw NA_SG/A_POSS/IM "louse" ; ! AEW NA-4w (Vowel-Initial Single-Syllable-/w/ NA Stem)
 ! ! Non-AEW NA test cases
@@ -122,15 +122,15 @@ astotin NI "hat" ; ! AEW NI-1 (Vowel-Initial Regular NI Stem)
 maskihkiy NI "medicine" ; ! AEW NI-2 (Consonant-Initial VW NI Stem)
 mîkisasâkay NI "beaded coat, beaded dress" ; ! AEW NI-2 (Consonant-Initial VW NI Stem)
 oskasâkay NI "new coat, new dress" ; ! AEW NI-2 (Vowel-Initial VW NI Stem)
-pahkêkin:pahkêkinw NI "leather, rawhide" ; ! AEW NI-3 (Consonant-Initial Cw NI Stem)
-askêkin:askêkinw NI "fresh rawhide" ; ! AEW NI-3 (Vowel-Initial Cw NI Stem)
+pahkîkin:pahkîkinw NI "leather, rawhide" ; ! AEW NI-3 (Consonant-Initial Cw NI Stem)
+askîkin:askîkinw NI "fresh rawhide" ; ! AEW NI-3 (Vowel-Initial Cw NI Stem)
 wâwi:wâw2 NI_SG/I_POSS/IM "egg" ; ! AEW NI-4 (Consonant-Initial Single-Syllable NI Stem)
 osk-âyi:osk-ây4 NI_SG/I_POSS/IM "new item, new thing" ; ! AEW NI-4 (Vowel-Initial Single-Syllable NI Stem)
-mihko:mihkw NI_SG/I_POSS/IM "blood" ; ! AEW NI-4w (Consonant-Initial Single-Syllable-/w/ NI Stem)
+misko:miskw NI_SG/I_POSS/IM "blood" ; ! AEW NI-4w (Consonant-Initial Single-Syllable-/w/ NI Stem)
 ! Irregular stem cases
 ! Suppletive atimw-/-têm-
 @R.person.NULL@atim:@R.person.NULL@atimw NA "dog, beast of burden" ; ! Regular stem of 'atim': 'atimw' (cannot be possessed)
-@D.person.NULL@atim:@D.person.NULL@têm NA "dog, beast of burden" ;   ! Irregular suppletive stem of 'atim': '-têm' (must be possessed)
+@D.person.NULL@atim:@D.person.NULL@tîm NA "dog, beast of burden" ;   ! Irregular suppletive stem of 'atim': '-tîm' (must be possessed)
 ! !! Semi-suppletive kêhte-aya/kêhce-aya ! This is not part of the latest AEW noun paradigm sets, so probably should be excluded
 ! !! @R.person.NULL@kêhtê-aya:@R.person.NULL@kêhtê-ay4 NA_SG/A_POSS/IM "elder" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
 ! !! @D.person.NULL@kêhtê-aya:@D.person.NULL@kêhcê-ayim NA "elder" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)

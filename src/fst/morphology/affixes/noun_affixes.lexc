@@ -47,17 +47,13 @@ LEXICON NOUN_DEP_NONKINSHIP_PREFIXES
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Looping through the NOUN stems in the following LEXICONs
-LEXICON NOUN_INDEP_STEMS
-papa NA ;
-titi NI ;
 
-LEXICON NOUN_DEP_KINSHIP_STEMS
-kaka NAD ;
-kiki NID ;
+! LEXICON NOUN_INDEP_STEMS
+
+! LEXICON NOUN_DEP_KINSHIP_STEMS
                                                          
-LEXICON NOUN_DEP_NONKINSHIP_STEMS
-mama NAD ;
-mimi NID ;
+! LEXICON NOUN_DEP_NONKINSHIP_STEMS
+
 ! End of place-holder noun stems
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -82,6 +78,9 @@ LEXICON NA_POSS/IM_DIM/ISIS
 
 LEXICON NA_SG/A_POSS/IM
 @U.sg.A@ NA_POSS/IM ;
+
+LEXICON NA_SG/I_POSS/IM
+@U.sg.I@ NA_POSS/IM ;
 
 LEXICON NA_SG/A_POSS/IM_DIM/IS
 @U.sg.A@ NA_POSS/IM_DIM/IS ;
@@ -209,7 +208,7 @@ LEXICON NA_POSS_SUFFIXES
 @U.person.KI@+Px2Pl:@U.person.KI@%>i2wâw  NA_NUMBER_OBV_LOC_SUFFIXES ;
 @U.person.O@+Px3Pl:@U.person.O@0%>i2wâw   NA_NUMBER_OBV_LOC_SUFFIXES ;
 ! Obviative possessor
-@U.person.O@+Px4Sg/Pl:@U.person.O@%>i2yiw NA_NUMBER_OBV_LOC_SUFFIXES ;
+@U.person.O@+Px4Sg/Pl:@U.person.O@%>i2thiw NA_NUMBER_OBV_LOC_SUFFIXES ;
 ! Unspeficied possessor
 @U.person.MI@+PxX:@U.person.MI@0        NA_NUMBER_OBV_LOC_SUFFIXES ;
 @D.loc.NULL@ NA_POSS_LOC_COMBO_SUFFIXES ;
@@ -224,8 +223,8 @@ LEXICON NA_POSS_LOC_COMBO_SUFFIXES
 @U.person.KI@+Px2Pl+Loc:@U.person.KI@%>i2wâhk  NOUN_ENDLEX ;
 @U.person.O@+Px3Pl+Loc:@U.person.O@0%>i2wâhk   NOUN_ENDLEX ;
 ! Obviative possessor
-@U.person.O@+Px4Sg/Pl+Loc:@U.person.O@%>i2yihk NOUN_ENDLEX ;
-! Unspeficied possessor
+@U.person.O@+Px4Sg/Pl+Loc:@U.person.O@%>i2thihk NOUN_ENDLEX ;
+! Unspecified possessor
 @U.person.MI@+PxX+Loc:@U.person.MI@%>i2hk          NOUN_ENDLEX ;
 @U.person.MI@+PxX+Distr:@U.person.MI@%>i2nâhk      NOUN_ENDLEX ;
 
@@ -254,6 +253,7 @@ LEXICON NA_NUMBER_OBV_LOC_SUFFIXES
 LEXICON NA_NUMBER_SUFFIXES_SG
 @R.person.NULL@@D.sg@+Sg:@R.person.NULL@@D.sg@0 NOUN_ENDLEX ; ! No possession, no singular suffix
 @R.person.NULL@@R.sg.A@+Sg:@R.person.NULL@@R.sg.A@%>a NOUN_ENDLEX ; ! No possession, a-singular (possessive suffix -im ruled out earlier)
+@R.person.NULL@@R.sg.I@+Sg:@R.person.NULL@@R.sg.I@%>i NOUN_ENDLEX ; ! No possession, a-singular (possessive suffix -im ruled out earlier)
 @D.person.NULL@@D.person.O@@R.im.IM@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@0 NOUN_ENDLEX ; ! Non-3rd possession, im-poss, 0-singular
 @D.person.NULL@@D.person.O@@D.im.IM@@D.sg@+Sg:@D.person.NULL@@D.person.O@@D.im.IM@@D.sg@0 NOUN_ENDLEX ; ! Non-3rd possession, 0-poss, 0-singular
 @D.person.NULL@@D.person.O@@D.im.IM@@R.sg.A@+Sg:@D.person.NULL@@D.person.O@@D.im.IM@@R.sg.A@%>a NOUN_ENDLEX ; ! Non-3rd possession, 0-poss, a-singular
@@ -270,7 +270,7 @@ LEXICON NI_POSS_SUFFIXES
 @U.person.KI@@U.poss.PL@+Px2Pl:@U.person.KI@@U.poss.PL@%>i2wâw  NI_NUMBER_LOC_SUFFIXES ;
 @U.person.O@@U.poss.PL@+Px3Pl:@U.person.O@@U.poss.PL@0%>i2wâw   NI_NUMBER_LOC_SUFFIXES ;
 ! Obviative possessor
-@U.person.O@@U.poss.PL@+Px4Sg/Pl:@U.person.O@@U.poss.PL@%>i2yiw NI_NUMBER_LOC_SUFFIXES ;
+@U.person.O@@U.poss.PL@+Px4Sg/Pl:@U.person.O@@U.poss.PL@%>i2thiw NI_NUMBER_LOC_SUFFIXES ;
 ! Unspecified possessor
 @U.person.MI@+PxX:@U.person.MI@0        NI_NUMBER_LOC_SUFFIXES ;
 NI_POSS_LOC_COMBO_SUFFIXES ;
@@ -287,7 +287,7 @@ LEXICON NI_POSS_LOC_COMBO_SUFFIXES
 @U.person.KI@+Px2Pl+Loc:@U.person.KI@%>i2wâhk  NOUN_ENDLEX ;
 @U.person.O@+Px3Pl+Loc:@U.person.O@0%>i2wâhk   NOUN_ENDLEX ;
 ! Obviative possessor
-@U.person.O@+Px4Sg/Pl+Loc:@U.person.O@%>i2yihk NOUN_ENDLEX ;
+@U.person.O@+Px4Sg/Pl+Loc:@U.person.O@%>i2thihk NOUN_ENDLEX ;
 ! Unspecified possessor
 @U.person.MI@+PxX+Loc:@U.person.MI@%>i2hk NOUN_ENDLEX ;
 
@@ -314,7 +314,7 @@ LEXICON NOUN_IRREGULARS
 ôsi+N+I+Px12Pl:kitôtinaw OSI_SUFFIXES ;
 ôsi+N+I+Px2Pl:kitôtiwâw OSI_SUFFIXES ;
 ôsi+N+I+Px3Pl:otôtiwâw OSI_SUFFIXES ;
-ôsi+N+I+Px4Sg/Pl:otôtiyiw OSI_SUFFIXES ;
+ôsi+N+I+Px4Sg/Pl:otôtithiw OSI_SUFFIXES ;
 ! Locative combos
 ôsi+N+I+Px1Sg+Loc:nitôtihk # ;
 ôsi+N+I+Px2Sg+Loc:kitôtihk # ;
@@ -323,7 +323,7 @@ LEXICON NOUN_IRREGULARS
 ôsi+N+I+Px12Pl+Loc:kitôtinâhk # ;
 ôsi+N+I+Px2Pl+Loc:kitôtiwâhk # ;
 ôsi+N+I+Px3Pl+Loc:otôtiwâhk # ;
-ôsi+N+I+Px4Sg/Pl+Loc:otôtiyihk # ;
+ôsi+N+I+Px4Sg/Pl+Loc:otôtithihk # ;
 
 LEXICON OSI_SUFFIXES
 +Sg:0 # ;
