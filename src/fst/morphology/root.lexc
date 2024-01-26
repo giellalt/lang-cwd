@@ -492,6 +492,8 @@ d2  !!=* @CODE@  Reduplication consonant marker
 +Err/Orth !!= * @CODE@ tag for substandard forms
 +Err/Frag !!= * @CODE@ tag for word-form fragments
 +Dial !!= * @CODE@ tag for dialectical forms that can't be called errors
++Dial/East !!= * @CODE@ tag for dialectical forms that can't be called errors
++Dial/West !!= * @CODE@ tag for dialectical forms that can't be called errors
 +Use/NG  !!= * @CODE@ not-generate, for ped generation isme-ped.fst
 +Eng !!≈ * @CODE@ indicates that this is an English form
 
