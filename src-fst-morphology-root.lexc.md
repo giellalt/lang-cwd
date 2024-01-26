@@ -176,6 +176,8 @@ normative and descriptive analysers, and generators for different purposes.
 * +Err/Orth  tag for substandard forms
 * +Err/Frag  tag for word-form fragments
 * +Dial  tag for dialectical forms that can't be called errors
+* +Dial/East  tag for dialectical forms that can't be called errors
+* +Dial/West  tag for dialectical forms that can't be called errors
 * +Use/NG   not-generate, for ped generation isme-ped.fst
 * +Eng indicates that this is an English form
 
