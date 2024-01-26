@@ -11,7 +11,7 @@ Tests:
 
       # Nonposs
       misko+N+I+Sg: misko   #  a blood
-      misko+N+I+Pl: mihkwa   #  bloods
+      # misko+N+I+Pl: miskwa   #  bloods
       misko+N+I+Loc: miskohk   #  in a blood
 
       # Poss
@@ -21,12 +21,12 @@ Tests:
 
       # Nonposs
       misko+N+I+Sg: misko   #  a blood
-      misko+N+I+Pl: mihkwa   #  bloods
+      # misko+N+I+Pl: miskwa   #  bloods
       misko+N+I+Loc: miskohk   #  in a blood
       
 
       # Der/Dim
-      misko+N+I+Der/Dim+N+I+Sg: miskos   #  a little blood
+      misko+N+I+Der/Dim+N+I+Sg: [miskos, miskosis]   #  a little blood
       
 
       # Poss # Sg
@@ -41,14 +41,14 @@ Tests:
       
 
       # Poss # Pl
-      misko+N+I+Px1Sg+Pl: nimiskoma   #  my bloods
-      misko+N+I+Px2Sg+Pl: kimiskoma   #  your bloods
-      misko+N+I+Px3Sg+Pl: omiskoma   #  his/her bloods
-      misko+N+I+Px1Pl+Pl: nimiskominâna   #  our bloods
-      misko+N+I+Px12Pl+Pl: kimiskominawa   #  your and our bloods
-      misko+N+I+Px2Pl+Pl: kimiskomiwâwa   #  your bloods
-      misko+N+I+Px3Pl+Pl: omiskomiwâwa   #  their bloods
-      misko+N+I+Px4Sg/Pl+Pl: omiskomithiwa   #  another's/others' bloods
+      # misko+N+I+Px1Sg+Pl: nimiskoma   #  my bloods
+      # misko+N+I+Px2Sg+Pl: kimiskoma   #  your bloods
+      # misko+N+I+Px3Sg+Pl: omiskoma   #  his/her bloods
+      # misko+N+I+Px1Pl+Pl: nimiskominâna   #  our bloods
+      # misko+N+I+Px12Pl+Pl: kimiskominawa   #  your and our bloods
+      # misko+N+I+Px2Pl+Pl: kimiskomiwâwa   #  your bloods
+      # misko+N+I+Px3Pl+Pl: omiskomiwâwa   #  their bloods
+      # misko+N+I+Px4Sg/Pl+Pl: omiskomithiwa   #  another's/others' bloods
       
 
       # Poss # Loc
