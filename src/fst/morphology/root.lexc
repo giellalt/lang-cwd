@@ -491,6 +491,9 @@ d2  !!=* @CODE@  Reduplication consonant marker
 
 +Err/Orth !!= * @CODE@ tag for substandard forms
 +Err/Frag !!= * @CODE@ tag for word-form fragments
++Err/Morph !!= * @CODE@ tag for nonstandard morphology
++Err/Thm !!= * @CODE@ tag for nonstandard possessive theme (0 vs. -im) morphology
++Err/Dim !!= * @CODE@ tag for nonstandard diminutive morphology (-is vs. -isis)
 +Dial !!= * @CODE@ tag for dialectical forms that can't be called errors
 +Use/NG  !!= * @CODE@ not-generate, for ped generation isme-ped.fst
 +Eng !!≈ * @CODE@ indicates that this is an English form
@@ -532,6 +535,20 @@ d2  !!=* @CODE@  Reduplication consonant marker
 @P.frag.FRAG@
 @R.frag.FRAG@
 @D.frag.FRAG@
+
+! Incorrect/non-standard morphology
+
+@P.err.Morph@
+@R.err.Morph@
+@D.err.Morph@
+
+@P.err.Thm@
+@R.err.Thm@
+@D.err.Thm@
+
+@P.err2.Dim@
+@R.err2.Dim@
+@D.err2.Dim@
 
 !! The conjunct form always has
 !! the ê- prefix, and future conditional never has a prefix.
