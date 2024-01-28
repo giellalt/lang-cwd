@@ -178,11 +178,11 @@ LEXICON NID
 @P.dep.DEP@+N+I+D:@P.dep.DEP@0 NI_POSS_IM_0_SUFFIX ;
 
 LEXICON NA_POSS_IM_0_SUFFIX
-@D.person.NULL@@R.im.IM@:@D.person.NULL@@R.im.IM@%>i2m                       NA_DIM_SUFFIXES ;
-@D.person.NULL@@R.im.IM@@P.err.Thm@:@D.person.NULL@@R.im.IM@@P.err.Thm@0     NA_DIM_SUFFIXES ; ! Incorrectly using 0-poss rather than im-poss
-@D.person.NULL@@D.im.IM@                                                     NA_DIM_SUFFIXES ;
-@D.person.NULL@@D.im.IM@@P.err.Thm@:@D.person.NULL@@D.im.IM@@P.err.Thm@%>i2m NA_DIM_SUFFIXES ; ! Incorrectly using im-poss rather than 0-poss
-@R.person.NULL@                                                              NA_DIM_SUFFIXES ;
+@D.person.NULL@@R.im.IM@@C.sg@:@D.person.NULL@@R.im.IM@@C.sg@%>i2m                       NA_DIM_SUFFIXES ;
+@D.person.NULL@@R.im.IM@@P.err.Thm@:@D.person.NULL@@R.im.IM@@P.err.Thm@0                 NA_DIM_SUFFIXES ; ! Incorrectly using 0-poss rather than im-poss
+@D.person.NULL@@D.im.IM@                                                                 NA_DIM_SUFFIXES ;
+@D.person.NULL@@D.im.IM@@P.err.Thm@@C.sg@:@D.person.NULL@@D.im.IM@@P.err.Thm@@C.sg@%>i2m NA_DIM_SUFFIXES ; ! Incorrectly using im-poss rather than 0-poss
+@R.person.NULL@                                                                          NA_DIM_SUFFIXES ;
 
 LEXICON NA_DIM_SUFFIXES
 NA_POSS_SUFFIXES ;
