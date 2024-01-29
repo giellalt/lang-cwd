@@ -196,10 +196,10 @@ NA_POSS_SUFFIXES ;
 @R.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsis       NA_POSS_SUFFIXES ;
 
 LEXICON NI_POSS_IM_0_SUFFIX
-@D.person.NULL@@R.im.IM@:@D.person.NULL@@R.im.IM@%>i2m                       NI_DIM_SUFFIXES ;
-@D.person.NULL@@R.im.IM@@P.err.Thm@:@D.person.NULL@@R.im.IM@@P.err.Thm@0     NI_DIM_SUFFIXES ; ! Incorrectly using 0-poss rather than im-poss
-@D.person.NULL@@D.im.IM@                                                     NI_DIM_SUFFIXES ;
-@D.person.NULL@@D.im.IM@@P.err.Thm@:@D.person.NULL@@D.im.IM@@P.err.Thm@%>i2m NI_DIM_SUFFIXES ; ! Incorrectly using im-poss rather than 0-poss
+@D.person.NULL@@R.im.IM@@C.sg@:@D.person.NULL@@R.im.IM@@C.sg@%>i2m                       NI_DIM_SUFFIXES ;
+@D.person.NULL@@R.im.IM@@P.err.Thm@:@D.person.NULL@@R.im.IM@@P.err.Thm@0                 NI_DIM_SUFFIXES ; ! Incorrectly using 0-poss rather than im-poss
+@D.person.NULL@@D.im.IM@                                                                 NI_DIM_SUFFIXES ;
+@D.person.NULL@@D.im.IM@@C.sg@@P.err.Thm@:@D.person.NULL@@D.im.IM@@C.sg@@P.err.Thm@%>i2m NI_DIM_SUFFIXES ; ! Incorrectly using im-poss rather than 0-poss
 @R.person.NULL@                                                              NI_DIM_SUFFIXES ;
 
 LEXICON NI_DIM_SUFFIXES
@@ -289,12 +289,12 @@ LEXICON NI_POSS_SUFFIXES
 @U.person.O@+Px3Sg:@U.person.O@0   NI_NUMBER_LOC_SUFFIXES ;
 @U.person.NULL@                    NI_NUMBER_LOC_SUFFIXES ;
 ! Plural possessors
-@U.person.NI@@U.poss.PL@@C.sg@+Px1Pl:@U.person.NI@@U.poss.PL@@C.sg@%>i2nân  NI_NUMBER_LOC_SUFFIXES ;
-@U.person.KI@@U.poss.PL@@C.sg@+Px12Pl:@U.person.KI@@U.poss.PL@@C.sg@%>i2naw NI_NUMBER_LOC_SUFFIXES ;
-@U.person.KI@@U.poss.PL@@C.sg@+Px2Pl:@U.person.KI@@U.poss.PL@@C.sg@%>i2wâw  NI_NUMBER_LOC_SUFFIXES ;
-@U.person.O@@U.poss.PL@@C.sg@+Px3Pl:@U.person.O@@U.poss.PL@@C.sg@0%>i2wâw   NI_NUMBER_LOC_SUFFIXES ;
+@U.person.NI@@C.sg@+Px1Pl:@U.person.NI@@C.sg@%>i2nân  NI_NUMBER_LOC_SUFFIXES ;
+@U.person.KI@@C.sg@+Px12Pl:@U.person.KI@@C.sg@%>i2naw NI_NUMBER_LOC_SUFFIXES ;
+@U.person.KI@@C.sg@+Px2Pl:@U.person.KI@@C.sg@%>i2wâw  NI_NUMBER_LOC_SUFFIXES ;
+@U.person.O@@C.sg@+Px3Pl:@U.person.O@@C.sg@0%>i2wâw   NI_NUMBER_LOC_SUFFIXES ;
 ! Obviative possessor
-@U.person.O@@U.poss.PL@@C.sg@+Px4Sg/Pl:@U.person.O@@U.poss.PL@@C.sg@%>i2thiw NI_NUMBER_LOC_SUFFIXES ;
+@U.person.O@@C.sg@@C.sg@+Px4Sg/Pl:@U.person.O@@C.sg@@C.sg@%>i2thiw NI_NUMBER_LOC_SUFFIXES ;
 ! Unspecified possessor
 @U.person.MI@+PxX:@U.person.MI@0        NI_NUMBER_LOC_SUFFIXES ;
 NI_POSS_LOC_COMBO_SUFFIXES ;
@@ -333,13 +333,16 @@ LEXICON NI_NUMBER_LOC_SUFFIXES
 
 LEXICON NI_NUMBER_SUFFIXES_SG
 @D.sg@+Sg:@D.sg@0 NOUN_ENDLEX ; ! Zero Sg morpheme for non NI-4w cases
-@R.person.NULL@@R.sg.I@+Sg:@R.person.NULL@@R.sg.I@%>i NOUN_ENDLEX ; ! -i-singular (NI-4w), when no other morphology
-@D.person.NULL@@R.im.IM@@R.err.Thm@@R.sg.I@+Sg:@D.person.NULL@@R.im.IM@@R.err.Thm@@R.sg.I@%>i    NOUN_ENDLEX ; ! i-singular (NI-4w), when -im possessive theme required but missing
-@D.person.NULL@@R.im.IM@@D.err.Thm@@R.sg.I@+Sg:@D.person.NULL@@R.im.IM@@D.err.Thm@@R.sg.I@0    NOUN_ENDLEX ; ! 0-singular (NI-4w), when -im possessive theme required and found 
-@D.person.NULL@@D.im.IM@@R.err.Thm@@R.poss.PL@@R.sg.I@+Sg:@D.person.NULL@@D.im.IM@@R.err.Thm@@R.poss.PL@@R.sg.I@%>i NOUN_ENDLEX ; ! i-singular (NI-4w), when plural possession and incorrect 0 possessive theme
-@D.person.NULL@@D.im.IM@@D.err.Thm@@R.poss.PL@@R.sg.I@+Sg:@D.person.NULL@@D.im.IM@@D.err.Thm@@R.poss.PL@@R.sg.I@0 NOUN_ENDLEX ; ! 0-singular (NI-4w), when plural possession and incorrect -im possessive theme
-@D.person.NULL@@D.im.IM@@R.err.Thm@@D.poss.PL@@R.sg.I@+Sg:@D.person.NULL@@D.im.IM@@R.err.Thm@@D.poss.PL@@R.sg.I@0 NOUN_ENDLEX ; ! 0-singular (NI-4w), when singular possession and incorrect -im possessive theme
-@D.person.NULL@@D.im.IM@@D.err.Thm@@D.poss.PL@@R.sg.I@+Sg:@D.person.NULL@@D.im.IM@@D.err.Thm@@D.poss.PL@@R.sg.I@%>i NOUN_ENDLEX ; ! -i-singular (NI-4w), when singular possession and correct 0 possessive theme
+@R.sg.I@+Sg:@R.sg.I@%>i NOUN_ENDLEX ; ! -i singular (NI-4w), when no other preceding morphology (-im, -is(is))
+!! Likely obsolete code
+! @D.sg@+Sg:@D.sg@0 NOUN_ENDLEX ; ! Zero Sg morpheme for non NI-4w cases
+! @R.person.NULL@@R.sg.I@+Sg:@R.person.NULL@@R.sg.I@%>i NOUN_ENDLEX ; ! -i-singular (NI-4w), when no other morphology
+! @D.person.NULL@@R.im.IM@@R.err.Thm@@R.sg.I@+Sg:@D.person.NULL@@R.im.IM@@R.err.Thm@@R.sg.I@%>i    NOUN_ENDLEX ; ! i-singular (NI-4w), when -im possessive theme required but missing
+! @D.person.NULL@@R.im.IM@@D.err.Thm@@R.sg.I@+Sg:@D.person.NULL@@R.im.IM@@D.err.Thm@@R.sg.I@0    NOUN_ENDLEX ; ! 0-singular (NI-4w), when -im possessive theme required and found 
+! @D.person.NULL@@D.im.IM@@R.err.Thm@@R.poss.PL@@R.sg.I@+Sg:@D.person.NULL@@D.im.IM@@R.err.Thm@@R.poss.PL@@R.sg.I@%>i NOUN_ENDLEX ; ! i-singular (NI-4w), when plural possession and incorrect 0 possessive theme
+! @D.person.NULL@@D.im.IM@@D.err.Thm@@R.poss.PL@@R.sg.I@+Sg:@D.person.NULL@@D.im.IM@@D.err.Thm@@R.poss.PL@@R.sg.I@0 NOUN_ENDLEX ; ! 0-singular (NI-4w), when plural possession and incorrect -im possessive theme
+! @D.person.NULL@@D.im.IM@@R.err.Thm@@D.poss.PL@@R.sg.I@+Sg:@D.person.NULL@@D.im.IM@@R.err.Thm@@D.poss.PL@@R.sg.I@0 NOUN_ENDLEX ; ! 0-singular (NI-4w), when singular possession and incorrect -im possessive theme
+! @D.person.NULL@@D.im.IM@@D.err.Thm@@D.poss.PL@@R.sg.I@+Sg:@D.person.NULL@@D.im.IM@@D.err.Thm@@D.poss.PL@@R.sg.I@%>i NOUN_ENDLEX ; ! -i-singular (NI-4w), when singular possession and correct 0 possessive theme
 
 !! Irregular nouns
 
