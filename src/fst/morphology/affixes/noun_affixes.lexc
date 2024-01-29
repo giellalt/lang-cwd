@@ -253,7 +253,7 @@ LEXICON NA_POSS_LOC_COMBO_SUFFIXES
 
 LEXICON NA_NUMBER_OBV_LOC_SUFFIXES
 ! Singular
-@D.number.PL@ NA_NUMBER_SUFFIXES_SG ;
+@D.number.PL@@D.person.O@ NA_NUMBER_SUFFIXES_SG ; ! Singular suffix: non-3rd-person possession; non-plural-only lexemes
 ! Obviative
 @R.person.NULL@+Obv:@R.person.NULL@%>a NOUN_ENDLEX ; ! non-possessed, obviative -a
 @D.person.NULL@@D.person.O@@R.im.IM@+Obv:@D.person.NULL@@D.person.O@@R.im.IM@%>a NOUN_ENDLEX ; ! Non-3rd possession, im-poss, obviative -a
@@ -266,17 +266,21 @@ LEXICON NA_NUMBER_OBV_LOC_SUFFIXES
 @R.person.NULL@+Distr:@R.person.NULL@%>i2nâhk NOUN_ENDLEX ;
 
 LEXICON NA_NUMBER_SUFFIXES_SG
-@R.person.NULL@@D.sg@+Sg:@R.person.NULL@@D.sg@0 NOUN_ENDLEX ; ! No possession, no singular suffix
-@R.person.NULL@@R.sg.A@+Sg:@R.person.NULL@@R.sg.A@%>a NOUN_ENDLEX ; ! No possession, single-syllable a-singular (possessive suffix -im ruled out earlier)
-@R.person.NULL@@R.sg.I@+Sg:@R.person.NULL@@R.sg.I@%>i NOUN_ENDLEX ; ! No possession, single-syllable i-singular (possessive suffix -im ruled out earlier)
-@D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@R.sg.A@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@R.sg.A@0 NOUN_ENDLEX ; ! Non-3rd possession, correct im-poss changing single-syllable a-singular to 0-singular
-@D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@R.sg.I@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@R.sg.I@0 NOUN_ENDLEX ; ! Non-3rd possession, correct im-poss changing single-syllable i-singular to 0-singular
-@D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@D.sg@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@D.sg@0 NOUN_ENDLEX ; ! Non-3rd possession, correct im-poss, multisyllabic 0-singular
-@D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@D.sg@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@D.sg@0 NOUN_ENDLEX ; ! Non-3rd possession, correct im-poss, multisyllabic 0-singular
-@D.person.NULL@@D.person.O@@D.im.IM@@D.sg@+Sg:@D.person.NULL@@D.person.O@@D.im.IM@@D.sg@0 NOUN_ENDLEX ; ! Non-3rd possession, correct 0-poss, multisyllabic 0-singular
-@D.person.NULL@@D.person.O@@D.im.IM@@R.sg.A@+Sg:@D.person.NULL@@D.person.O@@D.im.IM@@R.sg.A@%>a NOUN_ENDLEX ; ! Non-3rd possession, correct 0-poss, single-syllabic a-singular
-@D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@R.sg.A@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@R.sg.A@%>a NOUN_ENDLEX ; ! Non-3rd possession, incorrect 0-poss, single-syllabic a-singular
-@D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@R.sg.I@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@R.sg.I@%>i NOUN_ENDLEX ; ! Non-3rd possession, incorrect 0-poss, single-syllabic i-singular
+@D.sg@+Sg:@D.sg@0 NOUN_ENDLEX ; ! No singular suffix required (may have been cancelled due possessive theme or diminutive morpheme)
+@R.sg.A@+Sg:@R.sg.A@%>a NOUN_ENDLEX ; ! Singular suffix -a required
+@R.sg.I@+Sg:@R.sg.I@%>i NOUN_ENDLEX ; ! Singular suffix -i required
+!! Potentially obsolete code
+! @R.person.NULL@@D.sg@+Sg:@R.person.NULL@@D.sg@0 NOUN_ENDLEX ; ! No possession, no singular suffix
+! @R.person.NULL@@R.sg.A@+Sg:@R.person.NULL@@R.sg.A@%>a NOUN_ENDLEX ; ! No possession, single-syllable a-singular (possessive suffix -im ruled out earlier)
+! @R.person.NULL@@R.sg.I@+Sg:@R.person.NULL@@R.sg.I@%>i NOUN_ENDLEX ; ! No possession, single-syllable i-singular (possessive suffix -im ruled out earlier)
+! @D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@R.sg.A@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@R.sg.A@0 NOUN_ENDLEX ; ! Non-3rd possession, correct im-poss changing single-syllable a-singular to 0-singular
+! @D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@R.sg.I@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@R.sg.I@0 NOUN_ENDLEX ; ! Non-3rd possession, correct im-poss changing single-syllable i-singular to 0-singular
+! @D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@D.sg@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@D.err.Thm@@D.sg@0 NOUN_ENDLEX ; ! Non-3rd possession, correct im-poss, multisyllabic 0-singular
+! @D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@D.sg@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@D.sg@0 NOUN_ENDLEX ; ! Non-3rd possession, correct im-poss, multisyllabic 0-singular
+! @D.person.NULL@@D.person.O@@D.im.IM@@D.sg@+Sg:@D.person.NULL@@D.person.O@@D.im.IM@@D.sg@0 NOUN_ENDLEX ; ! Non-3rd possession, correct 0-poss, multisyllabic 0-singular
+! @D.person.NULL@@D.person.O@@D.im.IM@@R.sg.A@+Sg:@D.person.NULL@@D.person.O@@D.im.IM@@R.sg.A@%>a NOUN_ENDLEX ; ! Non-3rd possession, correct 0-poss, single-syllabic a-singular
+! @D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@R.sg.A@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@R.sg.A@%>a NOUN_ENDLEX ; ! Non-3rd possession, incorrect 0-poss, single-syllabic a-singular
+! @D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@R.sg.I@+Sg:@D.person.NULL@@D.person.O@@R.im.IM@@R.err.Thm@@R.sg.I@%>i NOUN_ENDLEX ; ! Non-3rd possession, incorrect 0-poss, single-syllabic i-singular
 
 LEXICON NI_POSS_SUFFIXES
 ! Singular possessors
