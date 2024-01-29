@@ -99,6 +99,8 @@ LEXICON NOUN_INDEP_STEMS
 ! NI-4, NI-4w -> NI_SG/I_POSS/IM, with w2, y4 for the immutable final glides
 !
 ! Animate Noun stems
+tapan NA_DIM/IS ; ! Test case for -is only diminutive
+tapin NA_DIM/ISIS ; ! Test case for -isis only dimunitive
 pahkwîsikan NA_POSS/IM "bannock" ; ! AEW NA-1 (Consonant-Initial Regular NA Stem)
 asikan NA "sock" ; ! AEW NA-1 (Vowel-Initial Regular NA Stem)
 kihc-ôkiniy NA "tomato" ; ! AEW NA-2 (Consonant-Initial Vowel-Glide NA Stem)
@@ -131,9 +133,10 @@ osk-âyi:osk-ây4 NI_SG/I_POSS/IM "new item, new thing" ; ! AEW NI-4 (Vowel-Init
 ! Suppletive atimw-/-têm-
 @R.person.NULL@atim:@R.person.NULL@atimw NA "dog, beast of burden" ; ! Regular stem of 'atim': 'atimw' (cannot be possessed)
 @D.person.NULL@atim:@D.person.NULL@tîm NA "dog, beast of burden" ;   ! Irregular suppletive stem of 'atim': '-tîm' (must be possessed)
-! !! Semi-suppletive kêhte-aya/kêhce-aya ! This is not part of the latest AEW noun paradigm sets, so probably should be excluded
-! !! @R.person.NULL@kêhtê-aya:@R.person.NULL@kêhtê-ay4 NA_SG/A_POSS/IM "elder" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
-! !! @D.person.NULL@kêhtê-aya:@D.person.NULL@kêhcê-ayim NA "elder" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
+! !! Semi-suppletive kîhtî-aya/kîhcî-aya ! This is not part of the latest AEW noun paradigm sets, so probably should be excluded
+! @R.person.NULL@kîhtî-aya:@R.person.NULL@kîhtî-ay4 NA_SG/A_POSS/IM "elder" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
+! @D.person.NULL@kîhtî-aya:@D.person.NULL@kîhcî-ayim NA "elder" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
+kîhtî-aya:kîhtî-ay4 NA_SG/A_POSS/IM ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
 !! Regular/Irregular ôsi- both a regularly inflecting stem, and a number of irregular forms enumerated separately
 ôsi:ôs NI_SG/I_POSS/IM "canoe, boat" ; ! AEW NI-4 (Vowel-Initial Single-Syllable irregular NI Stem)
 ! Subset of lexicalized Diminutive Animate Independent stems

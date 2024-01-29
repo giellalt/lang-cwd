@@ -189,6 +189,8 @@ NA_POSS_SUFFIXES ;
 ! Independent NAs
 @D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs   NA_POSS_SUFFIXES ;
 @D.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsis         NA_POSS_SUFFIXES ;
+@D.dep.DEP@@D.dim@@R.isis.ISIS@@C.sg@@P.err2.Dim@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@R.isis.ISIS@@C.sg@@P.err2.Dim@%>i2%^DIMs   NA_POSS_SUFFIXES ;
+@D.dep.DEP@@D.dim@@R.is.IS@@C.sg@@P.err2.Dim@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@R.is.IS@@C.sg@@P.err2.Dim@%>i2%^DIMsis         NA_POSS_SUFFIXES ;
 ! Dependent NAs
 @R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs NA_POSS_SUFFIXES ;
 @R.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsis       NA_POSS_SUFFIXES ;
@@ -379,7 +381,11 @@ LEXICON NOUN_ENDLEX
 @D.dim@ NOUN_ENDLEX2 ;
 
 LEXICON NOUN_ENDLEX2
-@R.err.Thm@+Err/Thm:@R.err.Thm@0 # ;
-@D.err.Thm@ # ;
+@R.err.Thm@+Err/Thm:@R.err.Thm@0 NOUN_ENDLEX3 ;
+@D.err.Thm@ NOUN_ENDLEX3 ;
+
+LEXICON NOUN_ENDLEX3
+@R.err2.Dim@+Err/Dim:@R.err2.Dim@0 # ;
+@D.err2.Dim@ # ;
 
 !! End of noun affixes code
