@@ -16,7 +16,7 @@ Tests:
       
 
       # Der/Dim
-      nîki+N+I+D+Der/Dim+N+I+D+Sg: nîki+N+I+D+Der/Dim+N+I+D+Sg   #  a little home, a little dwelling, a little house
+      nîki+N+I+D+Der/Dim+N+I+D+Px1Sg+Sg: [nîkis, nîkisis]   #  a little home, a little dwelling, a little house
       
 
       # Poss # Sg
@@ -28,7 +28,6 @@ Tests:
       nîki+N+I+D+Px2Pl+Sg: kîkiwâw   #  your home, your dwelling, your house
       nîki+N+I+D+Px3Pl+Sg: wîkiwâw   #  their home, their dwelling, their house
       nîki+N+I+D+Px4Sg/Pl+Sg: wîkithiw   #  a home, a dwelling, a house
-      nîki+N+I+D+PxX+Sg: nîki+N+I+D+PxX+Sg   #  someone's home, someone's dwelling, someone's house
       
 
       # Poss # Pl
@@ -40,7 +39,6 @@ Tests:
       nîki+N+I+D+Px2Pl+Pl: kîkiwâwa   #  your homes, your dwellings, your houses
       nîki+N+I+D+Px3Pl+Pl: wîkiwâwa   #  their homes, their dwellings, their houses
       nîki+N+I+D+Px4Sg/Pl+Pl: wîkithiwa   #  homes, dwellings, houses
-      nîki+N+I+D+PxX+Pl: nîki+N+I+D+PxX+Pl   #  someone's homes, someone's dwellings, someone's houses
       
 
       # Poss # Loc
@@ -52,6 +50,5 @@ Tests:
       nîki+N+I+D+Px2Pl+Loc: [kîkiwâhk, kîkiwâh]   #  in your home, in your dwelling, in your house
       nîki+N+I+D+Px3Pl+Loc: [wîkiwâhk, wîkiwâh]   #  in their home, in their dwelling, in their house
       nîki+N+I+D+Px4Sg/Pl+Loc: [wîkithihk, wîkithih]   #  in another's/others' home, in another's/others' dwelling, in another's/others' house
-      nîki+N+I+D+PxX+Loc: nîki+N+I+D+PxX+Loc   #  in someone's home, in someone's dwelling, in someone's house
       
 

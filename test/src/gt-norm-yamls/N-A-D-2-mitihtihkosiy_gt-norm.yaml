@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - mitihtihkosiy : :
+   Lemma - mitihtihkosiy :
 
       # Core
 
@@ -16,7 +16,7 @@ Tests:
       
 
       # Der/Dim
-      mitihtihkosiy+N+A+D+Der/Dim+N+A+D+Sg: micihcihkosîs   #  a little kidney
+      mitihtihkosiy+N+A+D+Der/Dim+N+A+D+PxX+Sg: [micihcihkosîs, micihcihkosîsis]   #  a little kidney
       
 
       # Poss # Sg

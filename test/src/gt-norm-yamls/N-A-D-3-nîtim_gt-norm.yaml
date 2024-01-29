@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - nîtim : :
+   Lemma - nîtim :
 
       # Core
 
@@ -26,10 +26,7 @@ Tests:
       nîtim+N+A+D+Px1Pl+Sg: nîtimominân   #  our cross-cousin
       nîtim+N+A+D+Px12Pl+Sg: kîtimominaw   #  your and our cross-cousin
       nîtim+N+A+D+Px2Pl+Sg: kîtimomiwâw   #  your cross-cousin
-      
-      
-      nîtim+N+A+D+PxX+Sg: nîtim+N+A+D+PxX+Sg   #  someone's cross-cousin
-      
+            
 
       # Poss # Pl
       nîtim+N+A+D+Px1Sg+Pl: nîtimomak   #  my cross-cousins
@@ -39,10 +36,7 @@ Tests:
       nîtim+N+A+D+Px12Pl+Pl: kîtimominawak   #  your and our cross-cousins
       nîtim+N+A+D+Px2Pl+Pl: kîtimomiwâwak   #  your cross-cousins
       
-      
-      nîtim+N+A+D+PxX+Pl: nîtim+N+A+D+PxX+Pl   #  someone's cross-cousins
-      
-
+            
       # Poss # Obv
       nîtim+N+A+D+Px1Sg+Obv: nîtimoma   #  my other cross-cousin(s)
       nîtim+N+A+D+Px2Sg+Obv: kîtimoma   #  your other cross-cousin(s)
@@ -52,6 +46,5 @@ Tests:
       nîtim+N+A+D+Px2Pl+Obv: kîtimomiwâwa   #  your other cross-cousin(s)
       nîtim+N+A+D+Px3Pl+Obv: wîtimomiwâwa   #  their other cross-cousin(s)
       nîtim+N+A+D+Px4Sg/Pl+Obv: wîtimomithiwa   #  another's/others' other cross-cousin(s)
-      nîtim+N+A+D+PxX+Obv: nîtim+N+A+D+PxX+Obv   #  someone's other cross-cousin(s)
       
 

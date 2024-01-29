@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - mitâs : :
+   Lemma - mitâs :
 
       # Core
 
@@ -16,7 +16,7 @@ Tests:
       
 
       # Der/Dim
-      mitâs+N+A+D+Der/Dim+N+A+D+Sg: mitâs+N+A+D+Der/Dim+N+A+D+Sg   #  a little pair of pants
+      mitâs+N+A+D+Der/Dim+N+A+D+PxX+Sg: [micâsis, micâsisis]   #  a little pair of pants
       
 
       # Poss # Sg
@@ -51,7 +51,7 @@ Tests:
       mitâs+N+A+D+Px12Pl+Obv: kitâsinawa   #  your and our other pair(s) of pants
       mitâs+N+A+D+Px2Pl+Obv: kitâsiwâwa   #  your other pair(s) of pants
       mitâs+N+A+D+Px3Pl+Obv: otâsiwâwa   #  their other pair(s) of pants
-      mitâs+N+A+D+Px4Sg/Pl+Obv: otâsiyiwa   #  another's/others' other pair(s) of pants
+      mitâs+N+A+D+Px4Sg/Pl+Obv: otâsithiwa   #  another's/others' other pair(s) of pants
       mitâs+N+A+D+PxX+Obv: mitâsa   #  someone's other pair(s) of pants
       
 
