@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - mitîh : :
+   Lemma - mitîh :
 
       # Core
 
@@ -27,7 +27,7 @@ Tests:
       mitîh+N+I+D+Px12Pl+Sg: kitîhinaw   #  your and our heart
       mitîh+N+I+D+Px2Pl+Sg: kitîhiwâw   #  your heart
       mitîh+N+I+D+Px3Pl+Sg: otîhiwâw   #  their heart
-      mitîh+N+I+D+4Sg/Pl+Sg: mitîh+N+I+D+4Sg/Pl+Sg   #  a heart
+      mitîh+N+I+D+4Sg/Pl+Sg: otîhithiw  #  a heart
       mitîh+N+I+D+PxX+Sg: mitîh   #  someone's heart
       
 
@@ -44,14 +44,16 @@ Tests:
       
 
       # Poss # Loc
-      mitîh+N+I+D+Px1Sg+Loc: nitîhihk   #  in my heart
-      mitîh+N+I+D+Px2Sg+Loc: kitîhihk   #  in your heart
-      mitîh+N+I+D+Px3Sg+Loc: otîhihk   #  in his/her heart
-      mitîh+N+I+D+Px1Pl+Loc: nitîhinâhk   #  in our heart
-      mitîh+N+I+D+Px12Pl+Loc: kitîhinâhk   #  in your and our heart
-      mitîh+N+I+D+Px2Pl+Loc: kitîhiwâhk   #  in your heart
-      mitîh+N+I+D+Px3Pl+Loc: otîhiwâhk   #  in their heart
-      mitîh+N+I+D+Px4Sg/Pl+Loc: otîhiyihk   #  in another's/others' heart
-      mitîh+N+I+D+PxX+Loc: mitîhihk   #  in someone's heart
+      mitîh+N+I+D+Px1Sg+Loc: [nitîhihk, nitîhih]   #  in my heart
+      mitîh+N+I+D+Px2Sg+Loc: [kitîhihk, kitîhih]   #  in your heart
+      mitîh+N+I+D+Px3Sg+Loc: [otîhihk, otîhih]   #  in his/her heart
+      mitîh+N+I+D+Px1Pl+Loc: [nitîhinâhk, nitîhinâh]   #  in our heart
+      mitîh+N+I+D+Px12Pl+Loc: [kitîhinâhk, kitîhinâh]   #  in your and our heart
+      mitîh+N+I+D+Px2Pl+Loc: [kitîhiwâhk, kitîhiwâh]   #  in your heart
+      mitîh+N+I+D+Px3Pl+Loc: [otîhiwâhk, otîhiwâh]   #  in their heart
+      mitîh+N+I+D+Px4Sg/Pl+Loc: [otîhithihk, otîhithih]   #  in another's/others' heart
+      mitîh+N+I+D+PxX+Loc: [mitîhihk, mitîhih]   #  in someone's heart
+
+
       
 

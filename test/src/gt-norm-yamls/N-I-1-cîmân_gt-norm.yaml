@@ -5,14 +5,14 @@ Config:
 
 Tests:
 
-   Lemma - cîmân : :
+   Lemma - cîmân :
 
       # Core
 
       # Nonposs
       cîmân+N+I+Sg: cîmân   #  a canoe
       cîmân+N+I+Pl: cîmâna   #  canoes
-      cîmân+N+I+Loc: cîmânihk   #  in a canoe
+      cîmân+N+I+Loc: [cîmânihk, cîmânih]   #  in a canoe
 
       # Poss
       cîmân+N+I+Px1Sg+Sg: nicîmân   #  my canoe
@@ -22,8 +22,8 @@ Tests:
       # Nonposs
       cîmân+N+I+Sg: cîmân   #  a canoe
       cîmân+N+I+Pl: cîmâna   #  canoes
-      cîmân+N+I+Loc: cîmânihk   #  in a canoe
-      
+      cîmân+N+I+Loc: [cîmânihk, cîmânih]   #  in a canoe
+
 
       # Der/Dim
       cîmân+N+I+Der/Dim+N+I+Sg: cîmânis   #  a little canoe
@@ -52,13 +52,13 @@ Tests:
       
 
       # Poss # Loc
-      cîmân+N+I+Px1Sg+Loc: nicîmânihk   #  in my canoe
-      cîmân+N+I+Px2Sg+Loc: kicîmânihk   #  in your canoe
-      cîmân+N+I+Px3Sg+Loc: ocîmânihk   #  in his/her canoe
-      cîmân+N+I+Px1Pl+Loc: nicîmâninâhk   #  in our canoe
-      cîmân+N+I+Px12Pl+Loc: kicîmâninâhk   #  in your and our canoe
-      cîmân+N+I+Px2Pl+Loc: kicîmâniwâhk   #  in your canoe
-      cîmân+N+I+Px3Pl+Loc: ocîmâniwâhk   #  in their canoe
-      cîmân+N+I+Px4Sg/Pl+Loc: ocîmânithihk   #  in another's/others' canoe
+      cîmân+N+I+Px1Sg+Loc: [nicîmânihk, nicîmânih]   #  in my canoe
+      cîmân+N+I+Px2Sg+Loc: [kicîmânihk, kicîmânih]   #  in your canoe
+      cîmân+N+I+Px3Sg+Loc: [ocîmânihk, ocîmânih]   #  in his/her canoe
+      cîmân+N+I+Px1Pl+Loc: [nicîmâninâhk, nicîmâninâh]   #  in our canoe
+      cîmân+N+I+Px12Pl+Loc: [kicîmâninâhk, kicîmâninâh]   #  in your and our canoe
+      cîmân+N+I+Px2Pl+Loc: [kicîmâniwâhk, kicîmâniwâh]   #  in your canoe
+      cîmân+N+I+Px3Pl+Loc: [ocîmâniwâhk, ocîmâniwâh]   #  in their canoe
+      cîmân+N+I+Px4Sg/Pl+Loc: [ocîmânithihk, ocîmânithih]   #  in another's/others' canoe
       
 
