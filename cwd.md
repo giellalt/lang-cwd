@@ -88,15 +88,19 @@ The leftovers are tagged @X
 * * *
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-cwd/blob/main/src/cg3/functions.cg3)</small>
 
+Suffixation for animate nouns
+
 Potentially obsolete code
+
+Suffixation for inanimate nouns
 
 Likely obsolete code
 
 Irregular nouns
 
-NOUN_ENDLEX for wrapping up various things
+NOUN_ENDLEXs for wrapping up various things
 
-End of noun affixes code
+End of noun affixes LEXC code
 
 * * *
 
