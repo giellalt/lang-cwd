@@ -207,11 +207,15 @@ LEXICON NI_POSS_IM_0_SUFFIX
 LEXICON NI_DIM_SUFFIXES
 NI_POSS_SUFFIXES ;
 ! Independent NIs
-@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs NI_POSS_SUFFIXES ;
-@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsis       NI_POSS_SUFFIXES ;
+@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs                         NI_POSS_SUFFIXES ;
+@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsis                               NI_POSS_SUFFIXES ;
+@D.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@%>i2%^DIMs NI_POSS_SUFFIXES ;
+@D.dep.DEP@@D.dim@@R.is.IS@@P.err2.Dim@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@R.is.IS@@P.err2.Dim@@C.sg@%>i2%^DIMsis       NI_POSS_SUFFIXES ;
 ! Dependent NIs
-@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs NI_POSS_SUFFIXES ;
-@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsis       NI_POSS_SUFFIXES ;
+@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs                         NI_POSS_SUFFIXES ;
+@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsis                               NI_POSS_SUFFIXES ;
+@R.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@%>i2%^DIMs NI_POSS_SUFFIXES ;
+@R.dep.DEP@@D.dim@@R.is.IS@@@P.err2.Dim@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@R.is.IS@@P.err2.Dim@@C.sg@%>i2%^DIMsis       NI_POSS_SUFFIXES ;
 
 LEXICON NA_POSS_SUFFIXES
 ! Singular possessors

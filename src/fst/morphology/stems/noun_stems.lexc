@@ -118,6 +118,8 @@ ihkwa:ihkw NA_SG/A_POSS/IM "louse" ; ! AEW NA-4w (Vowel-Initial Single-Syllable-
 ! maskwa:maskw NA_SG/A_POSS/IM "bear" ;
 ! sîsîp NA_POSS/IM "duck" ;
 ! Inanimate Noun stems
+patan NI_DIM/IS ; ! Test case for -is only diminutive
+patin NI_DIM/ISIS ; ! Test case for -isis only dimunitive
 askiy NI "land" ;
 cîmân NI "canoe" ; ! AEW NI-1 (Consonant-Initial Regular NI Stem)
 astotin NI "hat" ; ! AEW NI-1 (Vowel-Initial Regular NI Stem)
