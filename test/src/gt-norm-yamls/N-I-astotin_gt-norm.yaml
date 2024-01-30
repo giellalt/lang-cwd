@@ -27,7 +27,7 @@ Tests:
       
 
       # Der/Dim
-      astotin+N+I+Der/Dim+N+I+Sg: ascocinis
+      astotin+N+I+Der/Dim+N+I+Sg: [ascocinis, ascocinîs]
       
 
       # Poss # Sg

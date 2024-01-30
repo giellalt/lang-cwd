@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - pahkwîsikan : :
+   Lemma - pahkwîsikan :
 
       # Core
 
@@ -27,7 +27,7 @@ Tests:
       
 
       # Der/Dim
-      pahkwîsikan+N+A+Der/Dim+N+A+Sg: pahkwîsikanis
+      pahkwîsikan+N+A+Der/Dim+N+A+Sg: [pahkwîsikanis, pahkwîsikanisîs]
       
 
       # Poss # Sg
