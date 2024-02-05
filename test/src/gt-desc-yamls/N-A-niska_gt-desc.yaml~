@@ -1,0 +1,40 @@
+Config:
+  xerox:
+    Gen: ../../../src/fst/generator-gt-desc.xfst
+    Morph:  ../../../src/fst/analyser-gt-desc.xfst
+  App: lookup
+
+Tests:
+
+  Lemma - niska :
+
+      niska+N+A+Der/Dim+N+A+Obv: [niskisa, niskisisa]
+      niska+N+A+Der/Dim+N+A+Pl: [niskisak, niskisisak]
+      niska+N+A+Der/Dim+N+A+Px1Pl+Obv: niniskimisinâna
+      niska+N+A+Der/Dim+N+A+Px1Pl+Obv+Err/Thm: [niniskisinâna, niniskisiminâna]
+      niska+N+A+Der/Dim+N+A+Px1Pl+Pl: niniskimisinânak
+      niska+N+A+Der/Dim+N+A+Px1Pl+Pl+Err/Thm: [niniskisinânak, niniskisiminânak]
+      niska+N+A+Der/Dim+N+A+Px1Pl+Sg: niniskimisinân
+      niska+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [niniskisinân, niniskisiminân]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Obv: [niniskimisa, niniskimisisa]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Obv+Err/Thm: [niniskisa, niniskisisa, niniskisima, niniskisisima]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Pl: [niniskimisak, niniskimisisak]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Pl+Err/Thm: [niniskisak, niniskisisak, niniskisimak, niniskisisimak]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Sg: [niniskimis, niniskimisis]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [niniskis, niniskisis, niniskisim, niniskisisim]
+      niska+N+A+Der/Dim+N+A+Sg: [niskis, niskisis]
+      niska+N+A+Obv: niska
+      niska+N+A+Pl: niskak
+      niska+N+A+Px1Pl+Obv: niniskiminâna
+      niska+N+A+Px1Pl+Obv+Err/Thm: niniskinâna
+      niska+N+A+Px1Pl+Pl: niniskiminânak
+      niska+N+A+Px1Pl+Pl+Err/Thm: niniskinânak
+      niska+N+A+Px1Pl+Sg: niniskiminân
+      niska+N+A+Px1Pl+Sg+Err/Thm: niniskinân
+      niska+N+A+Px1Sg+Obv: niniskima
+      niska+N+A+Px1Sg+Obv+Err/Thm: niniska
+      niska+N+A+Px1Sg+Sg: niniskim
+      niska+N+A+Px1Sg+Sg+Err/Thm: niniska
+      niska+N+A+Px3Sg+Obv: oniskima
+      niska+N+A+Px3Sg+Obv+Err/Thm: oniska
+      niska+N+A+Sg: niska

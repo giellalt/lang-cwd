@@ -1,0 +1,27 @@
+Config:
+  xerox:
+    Gen: ../../../src/fst/generator-gt-norm.xfst
+    Morph:  ../../../src/fst/analyser-gt-norm.xfst
+  App: lookup
+
+Tests:
+
+  Lemma - asikan :
+
+     asikan+N+A+Der/Dim+N+A+Px1Sg+Sg: [nicasikanis, nicasikanisis]
+     asikan+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nicasikanimis, nicasikanimisis, nicasikanisim, nicasikanisisim, nicasikanisim, nicasikanisisim, nicasikanimisim, nicasikanimisisim]
+     asikan+N+A+Der/Dim+N+A+Px3Sg+Obv: [ocasikanisa, ocasikanisisa]
+     asikan+N+A+Der/Dim+N+A+Px3Sg+Obv+Err/Thm: [ocasikanimisa, ocasikanimisisa, ocasikanisima, ocasikanisisima, ocasikanisima, ocasikanisisima, ocasikanimisima, ocasikanimisisima]
+     asikan+N+A+Der/Dim+N+A+Sg: [asikanis, asikanisis]
+     asikan+N+A+Obv: asikana
+     asikan+N+A+Px1Sg+Obv: nitasikana
+     asikan+N+A+Px1Sg+Obv+Err/Thm: nitasikanima
+     asikan+N+A+Px1Sg+Pl: nitasikanak
+     asikan+N+A+Px1Sg+Pl+Err/Thm: nitasikanimak
+     asikan+N+A+Px1Sg+Sg: nitasikan
+     asikan+N+A+Px1Sg+Sg+Err/Thm: nitasikanim
+     asikan+N+A+Px3Sg+Obv: otasikana
+     asikan+N+A+Px3Sg+Obv+Err/Thm: otasikanima
+     asikan+N+A+Sg: asikan
+     otasikan+?: otasikan
+     otasikanim+?: otasikanim

@@ -1,0 +1,44 @@
+Config:
+  xerox:
+    Gen: ../../../src/fst/generator-gt-norm.xfst
+    Morph:  ../../../src/fst/analyser-gt-desc.xfst
+  App: lookup
+
+Tests:
+
+  Lemma - niska :
+
+      # Standard forms
+      niska+N+A+Sg: niska
+      niska+N+A+Obv: niska
+      niska+N+A+Pl: niskak
+      niska+N+A+Px1Sg+Sg: niniskim
+      niska+N+A+Px1Sg+Pl: niniskimak
+      niska+N+A+Px1Sg+Obv: niniskima
+      niska+N+A+Px1Pl+Sg: niniskiminân
+      niska+N+A+Px1Pl+Pl: niniskiminânak
+      niska+N+A+Px1Pl+Obv: niniskiminâna
+      niska+N+A+Px3Sg+Obv: oniskima
+      niska+N+A+Der/Dim+N+A+Sg: [niskis, niskisîs]
+      niska+N+A+Der/Dim+N+A+Pl: [niskisak, niskisîsak]
+      niska+N+A+Der/Dim+N+A+Obv: [niskisa, niskisîsa]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Sg: [niniskimis, niniskimisîs]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Pl: [niniskimisak, niniskimisîsak]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Obv: [niniskimisa, niniskimisîsa]
+      niska+N+A+Der/Dim+N+A+Px1Pl+Sg: [niniskimisinân, niniskimisîsinân]
+      niska+N+A+Der/Dim+N+A+Px1Pl+Pl: [niniskimisinânak, niniskimisîsinânak]
+      niska+N+A+Der/Dim+N+A+Px1Pl+Obv: [niniskimisinâna, niniskimisîsinâna]
+      # Non-standard forms
+      niska+N+A+Px1Sg+Sg+Err/Thm: niniska
+      niska+N+A+Px1Sg+Pl+Err/Thm: niniskak
+      niska+N+A+Px1Sg+Obv+Err/Thm: niniska
+      niska+N+A+Px1Pl+Sg+Err/Thm: niniskinân
+      niska+N+A+Px1Pl+Pl+Err/Thm: niniskinânak
+      niska+N+A+Px1Pl+Obv+Err/Thm: niniskinâna
+      niska+N+A+Px3Sg+Obv+Err/Thm: oniska
+      niska+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [niniskis, niniskisîs, niniskisim, niniskisîsim, niniskimisim, niniskimisîsim]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Pl+Err/Thm: [niniskisak, niniskisîsak, niniskisimak, niniskisîsimak, niniskimisimak, niniskimisîsimak]
+      niska+N+A+Der/Dim+N+A+Px1Sg+Obv+Err/Thm: [niniskisa, niniskisîsa, niniskisima, niniskisîsima, niniskimisima, niniskimisîsima]
+      niska+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [niniskisinân, niniskisiminân, niniskimisiminân]
+      niska+N+A+Der/Dim+N+A+Px1Pl+Pl+Err/Thm: [niniskisinânak, niniskisiminânak, niniskimisiminânak]
+      niska+N+A+Der/Dim+N+A+Px1Pl+Obv+Err/Thm: [niniskisinâna, niniskisiminâna, niniskimisiminâna]
