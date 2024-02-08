@@ -1,5 +1,5 @@
-name = "Woods Cree"
-version = "0.1.0"
+spellername = "Woods Cree"
+spellerversion = "0.1.0"
 
 # Name of the speller package in various languages.
 # The default is English + autonym:
