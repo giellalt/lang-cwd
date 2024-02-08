@@ -673,17 +673,19 @@ d2  !!=* @CODE@  Reduplication consonant marker
 @D.number.PL@
 
 ! Marking whether the -im suffix is required in possessed forms, or a plural possessor
+@U.im.NULL@
+@P.im.NULL@
+@R.im.NULL@
+@D.im.NULL@
 @U.im.IM@
 @P.im.IM@
 @R.im.IM@
 @D.im.IM@
-@U.im.NULL@
-@P.im.NULL@
-@R.im.NULL@
 @U.im.IM2@
 @P.im.IM2@
 @R.im.IM2@
 @D.im.IM2@
+@R.im@
 @D.im@
 @D.poss.NULL@
 @U.poss.PL@
