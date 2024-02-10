@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - nipâw : :
+   Lemma - nipâw : 
 
       # Core 
 
@@ -15,9 +15,9 @@ Tests:
       nipâw+V+AI+Ind+3Sg: nipâw
 
       # Prs+Cnj
-      PV/e+nipâw+V+AI+Cnj+1Sg: î-nipâyân
-      PV/e+nipâw+V+AI+Cnj+2Sg: î-nipâyan
-      PV/e+nipâw+V+AI+Cnj+3Sg: î-nipât
+      PV/î+nipâw+V+AI+Cnj+1Sg: î-nipâyân
+      PV/î+nipâw+V+AI+Cnj+2Sg: [î-nipâyan, î-nipâyin]
+      PV/î+nipâw+V+AI+Cnj+3Sg: î-nipât
 
       # Imp
       nipâw+V+AI+Imp+Imm+2Sg: nipâ
@@ -36,15 +36,15 @@ Tests:
       
 
       # Prs # Cnj
-      PV/e+nipâw+V+AI+Cnj+1Sg: î-nipâyân
-      PV/e+nipâw+V+AI+Cnj+2Sg: î-nipâyan
-      PV/e+nipâw+V+AI+Cnj+3Sg: î-nipât
-      PV/e+nipâw+V+AI+Cnj+1Pl: î-nipâyâhk
-      PV/e+nipâw+V+AI+Cnj+12Pl: î-nipâyahk
-      PV/e+nipâw+V+AI+Cnj+2Pl: î-nipâyîk
-      PV/e+nipâw+V+AI+Cnj+3Pl: [î-nipâcik, î-nipâtwâw]
-      PV/e+nipâw+V+AI+Cnj+4Sg/Pl: î-nipâthit
-      PV/e+nipâw+V+AI+Cnj+X: [î-nipâniwik, î-nipâniwahk, î-nipâhk]
+      PV/î+nipâw+V+AI+Cnj+1Sg: î-nipâyân
+      PV/î+nipâw+V+AI+Cnj+2Sg: [î-nipâyan, î-nipâyin]
+      PV/î+nipâw+V+AI+Cnj+3Sg: î-nipât
+      PV/î+nipâw+V+AI+Cnj+1Pl: î-nipâyâhk
+      PV/î+nipâw+V+AI+Cnj+12Pl: î-nipâyahk
+      PV/î+nipâw+V+AI+Cnj+2Pl: î-nipâyîk
+      PV/î+nipâw+V+AI+Cnj+3Pl: [î-nipâcik, î-nipâtwâw]
+      PV/î+nipâw+V+AI+Cnj+4Sg/Pl: î-nipâthit
+      PV/î+nipâw+V+AI+Cnj+X: [î-nipâniwik, î-nipâniwahk, î-nipâhk]
       
 
       # Prt # Ind
@@ -60,15 +60,15 @@ Tests:
       
 
       # Prt # Cnj
-      PV/e+PV/ki+nipâw+V+AI+Cnj+1Sg: î-kî-nipâyân
-      PV/e+PV/ki+nipâw+V+AI+Cnj+2Sg: î-kî-nipâyan
-      PV/e+PV/ki+nipâw+V+AI+Cnj+3Sg: î-kî-nipât
-      PV/e+PV/ki+nipâw+V+AI+Cnj+1Pl: î-kî-nipâyâhk
-      PV/e+PV/ki+nipâw+V+AI+Cnj+12Pl: î-kî-nipâyahk
-      PV/e+PV/ki+nipâw+V+AI+Cnj+2Pl: î-kî-nipâyîk
-      PV/e+PV/ki+nipâw+V+AI+Cnj+3Pl: [î-kî-nipâcik, î-kî-nipâtwâw]
-      PV/e+PV/ki+nipâw+V+AI+Cnj+4Sg/Pl: î-kî-nipâthit
-      PV/e+PV/ki+nipâw+V+AI+Cnj+X: [î-kî-nipâniwik, î-kî-nipâniwahk, î-kî-nipâhk]
+      PV/î+PV/ki+nipâw+V+AI+Cnj+1Sg: î-kî-nipâyân
+      PV/î+PV/ki+nipâw+V+AI+Cnj+2Sg: [î-kî-nipâyan, î-kî-nipâyin]
+      PV/î+PV/ki+nipâw+V+AI+Cnj+3Sg: î-kî-nipât
+      PV/î+PV/ki+nipâw+V+AI+Cnj+1Pl: î-kî-nipâyâhk
+      PV/î+PV/ki+nipâw+V+AI+Cnj+12Pl: î-kî-nipâyahk
+      PV/î+PV/ki+nipâw+V+AI+Cnj+2Pl: î-kî-nipâyîk
+      PV/î+PV/ki+nipâw+V+AI+Cnj+3Pl: [î-kî-nipâcik, î-kî-nipâtwâw]
+      PV/î+PV/ki+nipâw+V+AI+Cnj+4Sg/Pl: î-kî-nipâthit
+      PV/î+PV/ki+nipâw+V+AI+Cnj+X: [î-kî-nipâniwik, î-kî-nipâniwahk, î-kî-nipâhk]
       
 
       # Fut+Int # Ind
@@ -84,15 +84,15 @@ Tests:
       
 
       # Fut+Int # Cnj
-      PV/e+PV/wi+nipâw+V+AI+Cnj+1Sg: î-wî-nipâyân
-      PV/e+PV/wi+nipâw+V+AI+Cnj+2Sg: î-wî-nipâyan
-      PV/e+PV/wi+nipâw+V+AI+Cnj+3Sg: î-wî-nipât
-      PV/e+PV/wi+nipâw+V+AI+Cnj+1Pl: î-wî-nipâyâhk
-      PV/e+PV/wi+nipâw+V+AI+Cnj+12Pl: î-wî-nipâyahk
-      PV/e+PV/wi+nipâw+V+AI+Cnj+2Pl: î-wî-nipâyîk
-      PV/e+PV/wi+nipâw+V+AI+Cnj+3Pl: [î-wî-nipâcik, î-wî-nipâtwâw]
-      PV/e+PV/wi+nipâw+V+AI+Cnj+4Sg/Pl: î-wî-nipâthit
-      PV/e+PV/wi+nipâw+V+AI+Cnj+X: [î-wî-nipâniwik, î-wî-nipâniwahk, î-wî-nipâhk]
+      PV/î+PV/wi+nipâw+V+AI+Cnj+1Sg: î-wî-nipâyân
+      PV/î+PV/wi+nipâw+V+AI+Cnj+2Sg: [î-wî-nipâyan, î-wî-nipâyin]
+      PV/î+PV/wi+nipâw+V+AI+Cnj+3Sg: î-wî-nipât
+      PV/î+PV/wi+nipâw+V+AI+Cnj+1Pl: î-wî-nipâyâhk
+      PV/î+PV/wi+nipâw+V+AI+Cnj+12Pl: î-wî-nipâyahk
+      PV/î+PV/wi+nipâw+V+AI+Cnj+2Pl: î-wî-nipâyîk
+      PV/î+PV/wi+nipâw+V+AI+Cnj+3Pl: [î-wî-nipâcik, î-wî-nipâtwâw]
+      PV/î+PV/wi+nipâw+V+AI+Cnj+4Sg/Pl: î-wî-nipâthit
+      PV/î+PV/wi+nipâw+V+AI+Cnj+X: [î-wî-nipâniwik, î-wî-nipâniwahk, î-wî-nipâhk]
       
 
       # Fut+Def # Ind
@@ -109,7 +109,7 @@ Tests:
 
       # Inf # PV/ka
       PV/ka+nipâw+V+AI+Cnj+1Sg: ka-nipâyân
-      PV/ka+nipâw+V+AI+Cnj+2Sg: ka-nipâyan
+      PV/ka+nipâw+V+AI+Cnj+2Sg: [ka-nipâyan, ka-nipâyin]
       PV/ka+nipâw+V+AI+Cnj+3Sg: ka-nipât
       PV/ka+nipâw+V+AI+Cnj+1Pl: ka-nipâyâhk
       PV/ka+nipâw+V+AI+Cnj+12Pl: ka-nipâyahk
@@ -121,7 +121,7 @@ Tests:
 
       # Inf # PV/ta
       PV/ta+nipâw+V+AI+Cnj+1Sg: ta-nipâyân
-      PV/ta+nipâw+V+AI+Cnj+2Sg: ta-nipâyan
+      PV/ta+nipâw+V+AI+Cnj+2Sg: [ta-nipâyan, ta-nipâyin]
       PV/ta+nipâw+V+AI+Cnj+3Sg: ta-nipât
       PV/ta+nipâw+V+AI+Cnj+1Pl: ta-nipâyâhk
       PV/ta+nipâw+V+AI+Cnj+12Pl: ta-nipâyahk
@@ -133,7 +133,7 @@ Tests:
 
       # Fut # Cond
       nipâw+V+AI+Fut+Cond+1Sg: nipâyâni
-      nipâw+V+AI+Fut+Cond+2Sg: nipâyani
+      nipâw+V+AI+Fut+Cond+2Sg: [nipâyani, nipâyini]
       nipâw+V+AI+Fut+Cond+3Sg: nipâci
       nipâw+V+AI+Fut+Cond+1Pl: nipâyâhki
       nipâw+V+AI+Fut+Cond+12Pl: nipâyahki

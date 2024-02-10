@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - nîhithawîw : :
+   Lemma - nîhithawîw : 
 
       # Core 
 
@@ -16,7 +16,7 @@ Tests:
 
       # Prs+Cnj
       PV/î+nîhithawîw+V+AI+Cnj+1Sg: î-nîhithawîyân   # as I speak Cree
-      PV/î+nîhithawîw+V+AI+Cnj+2Sg: î-nîhithawîyan   # as you speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+2Sg: [î-nîhithawîyan, î-nîhithawîyin]   # as you speak Cree
       PV/î+nîhithawîw+V+AI+Cnj+3Sg: î-nîhithawît   # as he/she speaks Cree
 
       # Imp
@@ -37,7 +37,7 @@ Tests:
 
       # Prs # Cnj
       PV/î+nîhithawîw+V+AI+Cnj+1Sg: î-nîhithawîyân   # as I speak Cree
-      PV/î+nîhithawîw+V+AI+Cnj+2Sg: î-nîhithawîyan   # as you speak Cree
+      PV/î+nîhithawîw+V+AI+Cnj+2Sg: [î-nîhithawîyan, î-nîhithawîyin]   # as you speak Cree
       PV/î+nîhithawîw+V+AI+Cnj+3Sg: î-nîhithawît   # as he/she speaks Cree
       PV/î+nîhithawîw+V+AI+Cnj+1Pl: î-nîhithawîyâhk   # as we speak Cree
       PV/î+nîhithawîw+V+AI+Cnj+12Pl: î-nîhithawîyahk   # as we and you speak Cree
@@ -61,7 +61,7 @@ Tests:
 
       # Prt # Cnj
       PV/î+PV/ki+nîhithawîw+V+AI+Cnj+1Sg: î-kî-nîhithawîyân   # as I spoke Cree
-      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+2Sg: î-kî-nîhithawîyan   # as you spoke Cree
+      PV/î+PV/ki+nîhithawîw+V+AI+Cnj+2Sg: [î-kî-nîhithawîyan, î-kî-nîhithawîyin]   # as you spoke Cree
       PV/î+PV/ki+nîhithawîw+V+AI+Cnj+3Sg: î-kî-nîhithawît   # as he/she spoke Cree
       PV/î+PV/ki+nîhithawîw+V+AI+Cnj+1Pl: î-kî-nîhithawîyâhk   # as we spoke Cree
       PV/î+PV/ki+nîhithawîw+V+AI+Cnj+12Pl: î-kî-nîhithawîyahk   # as we and you spoke Cree
@@ -85,7 +85,7 @@ Tests:
 
       # Fut+Int # Cnj
       PV/î+PV/wi+nîhithawîw+V+AI+Cnj+1Sg: î-wî-nîhithawîyân   # as I am going to speak Cree
-      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+2Sg: î-wî-nîhithawîyan   # as you are going to speak Cree
+      PV/î+PV/wi+nîhithawîw+V+AI+Cnj+2Sg: [î-wî-nîhithawîyan, î-wî-nîhithawîyin]   # as you are going to speak Cree
       PV/î+PV/wi+nîhithawîw+V+AI+Cnj+3Sg: î-wî-nîhithawît   # as he/she is going to speak Cree
       PV/î+PV/wi+nîhithawîw+V+AI+Cnj+1Pl: î-wî-nîhithawîyâhk   # as we are going to speak Cree
       PV/î+PV/wi+nîhithawîw+V+AI+Cnj+12Pl: î-wî-nîhithawîyahk   # as we and you are going to speak Cree
@@ -109,7 +109,7 @@ Tests:
 
       # Inf # PV/ka
       PV/ka+nîhithawîw+V+AI+Cnj+1Sg: ka-nîhithawîyân   # I will speak Cree
-      PV/ka+nîhithawîw+V+AI+Cnj+2Sg: ka-nîhithawîyan   # you will speak Cree
+      PV/ka+nîhithawîw+V+AI+Cnj+2Sg: [ka-nîhithawîyan, ka-nîhithawîyin]   # you will speak Cree
       PV/ka+nîhithawîw+V+AI+Cnj+3Sg: ka-nîhithawît   # he/she will speak Cree
       PV/ka+nîhithawîw+V+AI+Cnj+1Pl: ka-nîhithawîyâhk   # we will speak Cree
       PV/ka+nîhithawîw+V+AI+Cnj+12Pl: ka-nîhithawîyahk   # we and you will speak Cree
@@ -121,7 +121,7 @@ Tests:
 
       # Inf # PV/ta
       PV/ta+nîhithawîw+V+AI+Cnj+1Sg: ta-nîhithawîyân   # I speak Cree
-      PV/ta+nîhithawîw+V+AI+Cnj+2Sg: ta-nîhithawîyan   # you speak Cree
+      PV/ta+nîhithawîw+V+AI+Cnj+2Sg: [ta-nîhithawîyan, ta-nîhithawîyin]   # you speak Cree
       PV/ta+nîhithawîw+V+AI+Cnj+3Sg: ta-nîhithawît   # he/she speaks Cree
       PV/ta+nîhithawîw+V+AI+Cnj+1Pl: ta-nîhithawîyâhk   # we speak Cree
       PV/ta+nîhithawîw+V+AI+Cnj+12Pl: ta-nîhithawîyahk   # we and you speak Cree
@@ -133,7 +133,7 @@ Tests:
 
       # Fut # Cond
       nîhithawîw+V+AI+Fut+Cond+1Sg: nîhithawîyâni   # when I speak Cree
-      nîhithawîw+V+AI+Fut+Cond+2Sg: nîhithawîyani   # when you speak Cree
+      nîhithawîw+V+AI+Fut+Cond+2Sg: [nîhithawîyani, nîhithawîyini]   # when you speak Cree
       nîhithawîw+V+AI+Fut+Cond+3Sg: nîhithawîci   # when he/she speaks Cree
       nîhithawîw+V+AI+Fut+Cond+1Pl: nîhithawîyâhki   # when we speak Cree
       nîhithawîw+V+AI+Fut+Cond+12Pl: nîhithawîyahki   # when we and you speak Cree

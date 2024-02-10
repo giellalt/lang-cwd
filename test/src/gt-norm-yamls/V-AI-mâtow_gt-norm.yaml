@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - mâtow : :
+   Lemma - mâtow : 
 
       # Core 
 
@@ -16,7 +16,7 @@ Tests:
 
       # Prs+Cnj
       PV/î+mâtow+V+AI+Cnj+1Sg: î-mâtoyân   # as I cry, as I wail, as I weep
-      PV/î+mâtow+V+AI+Cnj+2Sg: î-mâtoyan   # as you cry, as you wail, as you weep
+      PV/î+mâtow+V+AI+Cnj+2Sg: [î-mâtoyan, î-mâtoyan]   # as you cry, as you wail, as you weep
       PV/î+mâtow+V+AI+Cnj+3Sg: î-mâtot   # as he/she cries, as he/she wails, as he/she weeps
 
       # Imp
@@ -37,7 +37,7 @@ Tests:
 
       # Prs # Cnj
       PV/î+mâtow+V+AI+Cnj+1Sg: î-mâtoyân   # as I cry, as I wail, as I weep
-      PV/î+mâtow+V+AI+Cnj+2Sg: î-mâtoyan   # as you cry, as you wail, as you weep
+      PV/î+mâtow+V+AI+Cnj+2Sg: [î-mâtoyan, î-mâtoyin]   # as you cry, as you wail, as you weep
       PV/î+mâtow+V+AI+Cnj+3Sg: î-mâtot   # as he/she cries, as he/she wails, as he/she weeps
       PV/î+mâtow+V+AI+Cnj+1Pl: î-mâtoyâhk   # as we cry, as we wail, as we weep
       PV/î+mâtow+V+AI+Cnj+12Pl: î-mâtoyahk   # as we and you cry, as we and you wail, as we and you weep
@@ -61,7 +61,7 @@ Tests:
 
       # Prt # Cnj
       PV/î+PV/ki+mâtow+V+AI+Cnj+1Sg: î-kî-mâtoyân   # as I cried, as I wailed, as I wept
-      PV/î+PV/ki+mâtow+V+AI+Cnj+2Sg: î-kî-mâtoyan   # as you cried, as you wailed, as you wept
+      PV/î+PV/ki+mâtow+V+AI+Cnj+2Sg: [î-kî-mâtoyan, î-kî-mâtoyin]   # as you cried, as you wailed, as you wept
       PV/î+PV/ki+mâtow+V+AI+Cnj+3Sg: î-kî-mâtot   # as he/she cried, as he/she wailed, as he/she wept
       PV/î+PV/ki+mâtow+V+AI+Cnj+1Pl: î-kî-mâtoyâhk   # as we cried, as we wailed, as we wept
       PV/î+PV/ki+mâtow+V+AI+Cnj+12Pl: î-kî-mâtoyahk   # as we and you cried, as we and you wailed, as we and you wept
@@ -85,7 +85,7 @@ Tests:
 
       # Fut+Int # Cnj
       PV/î+PV/wi+mâtow+V+AI+Cnj+1Sg: î-wî-mâtoyân   # as I am going to cry, as I am going to wail, as I am going to weep
-      PV/î+PV/wi+mâtow+V+AI+Cnj+2Sg: î-wî-mâtoyan   # as you are going to cry, as you are going to wail, as you are going to weep
+      PV/î+PV/wi+mâtow+V+AI+Cnj+2Sg: [î-wî-mâtoyan, î-wî-mâtoyin]   # as you are going to cry, as you are going to wail, as you are going to weep
       PV/î+PV/wi+mâtow+V+AI+Cnj+3Sg: î-wî-mâtot   # as he/she is going to cry, as he/she is going to wail, as he/she is going to weep
       PV/î+PV/wi+mâtow+V+AI+Cnj+1Pl: î-wî-mâtoyâhk   # as we are going to cry, as we are going to wail, as we are going to weep
       PV/î+PV/wi+mâtow+V+AI+Cnj+12Pl: î-wî-mâtoyahk   # as we and you are going to cry, as we and you are going to wail, as we and you are going to weep
@@ -109,7 +109,7 @@ Tests:
 
       # Inf # PV/ka
       PV/ka+mâtow+V+AI+Cnj+1Sg: ka-mâtoyân   # I will cry, I will wail, I will weep
-      PV/ka+mâtow+V+AI+Cnj+2Sg: ka-mâtoyan   # you will cry, you will wail, you will weep
+      PV/ka+mâtow+V+AI+Cnj+2Sg: [ka-mâtoyan, ka-mâtoyin]   # you will cry, you will wail, you will weep
       PV/ka+mâtow+V+AI+Cnj+3Sg: ka-mâtot   # he/she will cry, he/she will wail, he/she will weep
       PV/ka+mâtow+V+AI+Cnj+1Pl: ka-mâtoyâhk   # we will cry, we will wail, we will weep
       PV/ka+mâtow+V+AI+Cnj+12Pl: ka-mâtoyahk   # we and you will cry, we and you will wail, we and you will weep
@@ -121,7 +121,7 @@ Tests:
 
       # Inf # PV/ta
       PV/ta+mâtow+V+AI+Cnj+1Sg: ta-mâtoyân   # I cry, I wail, I weep
-      PV/ta+mâtow+V+AI+Cnj+2Sg: ta-mâtoyan   # you cry, you wail, you weep
+      PV/ta+mâtow+V+AI+Cnj+2Sg: [ta-mâtoyan, ta-mâtoyin]   # you cry, you wail, you weep
       PV/ta+mâtow+V+AI+Cnj+3Sg: ta-mâtot   # he/she cries, he/she wails, he/she weeps
       PV/ta+mâtow+V+AI+Cnj+1Pl: ta-mâtoyâhk   # we cry, we wail, we weep
       PV/ta+mâtow+V+AI+Cnj+12Pl: ta-mâtoyahk   # we and you cry, we and you wail, we and you weep
@@ -133,7 +133,7 @@ Tests:
 
       # Fut # Cond
       mâtow+V+AI+Fut+Cond+1Sg: mâtoyâni   # when I cry, when I wail, when I weep
-      mâtow+V+AI+Fut+Cond+2Sg: mâtoyani   # when you cry, when you wail, when you weep
+      mâtow+V+AI+Fut+Cond+2Sg: [mâtoyani, mâtoyini]   # when you cry, when you wail, when you weep
       mâtow+V+AI+Fut+Cond+3Sg: mâtoci   # when he/she cries, when he/she wails, when he/she weeps
       mâtow+V+AI+Fut+Cond+1Pl: mâtoyâhki   # when we cry, when we wail, when we weep
       mâtow+V+AI+Fut+Cond+12Pl: mâtoyahki   # when we and you cry, when we and you wail, when we and you weep
