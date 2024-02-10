@@ -57,19 +57,19 @@
 LEXICON VERBSTEMS
 ! !!!HAVE YAMLS FOR THESE !!!
 osâwâw:osâwâ VIIw ;
-mihkwâw:mihkwâ VIIw ;
+miskwâw:miskwâ VIIw ;
 nîpin:nîpin3 VIIn ;
 mispon VIIn_PL ; ! only occurs in plural
 pimamon VIIn ;
 mâyâtan:mâyâtan3 VIIn ;
-miywâsin VIIn ;
+mîthwâsin VIIn ;
 
 apiw:api VAIw ;
 atoskîw:atoskî VAIw ;
-matow:mato VAIw ;
-mîcisow:mîciso VAIw ;
-nêhiyawêw:nêhiyawê VAIw ;
-nipâw:nipâ VAIw ;
+mâtow:mâto VAIio ;
+mîcisow:mîciso VAIio ;
+nîhithawîw:nîhithawî VAIw ;
+nipâw:nipâ VAIae ;
 pimisin:pimisin3 VAIn ;
 
 kâtâw:kâtâ VTIw ;
@@ -78,15 +78,15 @@ mîciw:mîci VTIw ;
 wâpahtam:wâpaht4a VTIm ; ! Check status of -a
 nâtam:nâta VTIm ;
 
-kîskiswêw:kîskisw VTA;  ! w:0 for collapsing cases
-atoskahêw:atoskah VTA ;
+kîskiswîw:kîskisw VTA;  ! w:0 for collapsing cases
+atoskahîw:atoskah VTA ;
 miskawêw:miskaw VTA ;
-mowêw:mow2 VTA ;        ! w2:w for non-collapsing cases
-nakatêw:nakat3 VTA ;        ! t3:s in some cases
-nâtêw:nât3 VTAt ;
-wâpamêw:wâpam VTA ;
-wîcihêw:wîcih VTA ;
-mêstasîhkawêwak:mêstasîhkaw VTA_PL ; !'generally' plural according to AEW
+mowîw:mow2 VTA ;        ! w2:w for non-collapsing cases
+nakatîw:nakat3 VTA ;        ! t3:s in some cases
+nâtîw:nât3 VTAt ;
+wâpamîw:wâpam VTA ;
+wîcihîw:wîcih VTA ;
+mîstasîhkawîwak:mîstasîhkaw VTA_PL ; !'generally' plural according to AEW
 
 ! !!! NO YAML !!!
 ! 
