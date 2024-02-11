@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - nâtam : :
+   Lemma - nâtam : 
 
       # Core 
 
@@ -15,9 +15,9 @@ Tests:
       nâtam+V+TI+Ind+3Sg: nâtam
 
       # Prs+Cnj
-      PV/e+nâtam+V+TI+Cnj+1Sg: î-nâtamân
-      PV/e+nâtam+V+TI+Cnj+2Sg: î-nâtaman
-      PV/e+nâtam+V+TI+Cnj+3Sg: î-nâtahk
+      PV/î+nâtam+V+TI+Cnj+1Sg: î-nâtamân
+      PV/î+nâtam+V+TI+Cnj+2Sg: î-nâtaman
+      PV/î+nâtam+V+TI+Cnj+3Sg: î-nâtahk
 
       # Imp
       nâtam+V+TI+Imp+Imm+2Sg: nâta
@@ -28,23 +28,21 @@ Tests:
       nâtam+V+TI+Ind+2Sg: kinâtîn
       nâtam+V+TI+Ind+3Sg: nâtam
       nâtam+V+TI+Ind+1Pl: ninâtînân
-      nâtam+V+TI+Ind+12Pl: kinâtînaw
+      nâtam+V+TI+Ind+12Pl: [kinâtînaw, kinâtînânaw]
       nâtam+V+TI+Ind+2Pl: kinâtînâwâw
       nâtam+V+TI+Ind+3Pl: nâtamwak
       nâtam+V+TI+Ind+4Sg/Pl: nâtamithiwa
-      nâtam+V+TI+Ind+X: nâtam+V+TI+Ind+X
       
 
       # Prs # Cnj
-      PV/e+nâtam+V+TI+Cnj+1Sg: î-nâtamân
-      PV/e+nâtam+V+TI+Cnj+2Sg: î-nâtaman
-      PV/e+nâtam+V+TI+Cnj+3Sg: î-nâtahk
-      PV/e+nâtam+V+TI+Cnj+1Pl: î-nâtamâhk
-      PV/e+nâtam+V+TI+Cnj+12Pl: î-nâtamahk
-      PV/e+nâtam+V+TI+Cnj+2Pl: î-nâtamîk
-      PV/e+nâtam+V+TI+Cnj+3Pl: î-nâtahkwâw
-      PV/e+nâtam+V+TI+Cnj+4Sg/Pl: î-nâtamithit
-      PV/e+nâtam+V+TI+Cnj+X: î-nâtamihk
+      PV/î+nâtam+V+TI+Cnj+1Sg: î-nâtamân
+      PV/î+nâtam+V+TI+Cnj+2Sg: î-nâtaman
+      PV/î+nâtam+V+TI+Cnj+3Sg: î-nâtahk
+      PV/î+nâtam+V+TI+Cnj+1Pl: î-nâtamâhk
+      PV/î+nâtam+V+TI+Cnj+12Pl: î-nâtamahk
+      PV/î+nâtam+V+TI+Cnj+2Pl: î-nâtamîk
+      PV/î+nâtam+V+TI+Cnj+3Pl: î-nâtahkwâw
+      PV/î+nâtam+V+TI+Cnj+4Sg/Pl: î-nâtamithit
       
 
       # Prt # Ind
@@ -52,23 +50,21 @@ Tests:
       PV/ki+nâtam+V+TI+Ind+2Sg: kikî-nâtîn
       PV/ki+nâtam+V+TI+Ind+3Sg: kî-nâtam
       PV/ki+nâtam+V+TI+Ind+1Pl: nikî-nâtînân
-      PV/ki+nâtam+V+TI+Ind+12Pl: kikî-nâtînaw
+      PV/ki+nâtam+V+TI+Ind+12Pl: [kikî-nâtînaw, kikî-nâtînânaw]
       PV/ki+nâtam+V+TI+Ind+2Pl: kikî-nâtînâwâw
       PV/ki+nâtam+V+TI+Ind+3Pl: kî-nâtamwak
       PV/ki+nâtam+V+TI+Ind+4Sg/Pl: kî-nâtamithiwa
-      PV/ki+nâtam+V+TI+Ind+X: PV/ki+nâtam+V+TI+Ind+X
       
 
       # Prt # Cnj
-      PV/e+PV/ki+nâtam+V+TI+Cnj+1Sg: î-kî-nâtamân
-      PV/e+PV/ki+nâtam+V+TI+Cnj+2Sg: î-kî-nâtaman
-      PV/e+PV/ki+nâtam+V+TI+Cnj+3Sg: î-kî-nâtahk
-      PV/e+PV/ki+nâtam+V+TI+Cnj+1Pl: î-kî-nâtamâhk
-      PV/e+PV/ki+nâtam+V+TI+Cnj+12Pl: î-kî-nâtamahk
-      PV/e+PV/ki+nâtam+V+TI+Cnj+2Pl: î-kî-nâtamîk
-      PV/e+PV/ki+nâtam+V+TI+Cnj+3Pl: î-kî-nâtahkwâw
-      PV/e+PV/ki+nâtam+V+TI+Cnj+4Sg/Pl: î-kî-nâtamithit
-      PV/e+PV/ki+nâtam+V+TI+Cnj+X: î-kî-nâtamihk
+      PV/î+PV/ki+nâtam+V+TI+Cnj+1Sg: î-kî-nâtamân
+      PV/î+PV/ki+nâtam+V+TI+Cnj+2Sg: î-kî-nâtaman
+      PV/î+PV/ki+nâtam+V+TI+Cnj+3Sg: î-kî-nâtahk
+      PV/î+PV/ki+nâtam+V+TI+Cnj+1Pl: î-kî-nâtamâhk
+      PV/î+PV/ki+nâtam+V+TI+Cnj+12Pl: î-kî-nâtamahk
+      PV/î+PV/ki+nâtam+V+TI+Cnj+2Pl: î-kî-nâtamîk
+      PV/î+PV/ki+nâtam+V+TI+Cnj+3Pl: î-kî-nâtahkwâw
+      PV/î+PV/ki+nâtam+V+TI+Cnj+4Sg/Pl: î-kî-nâtamithit
       
 
       # Fut+Int # Ind
@@ -76,23 +72,21 @@ Tests:
       PV/wi+nâtam+V+TI+Ind+2Sg: kiwî-nâtîn
       PV/wi+nâtam+V+TI+Ind+3Sg: wî-nâtam
       PV/wi+nâtam+V+TI+Ind+1Pl: niwî-nâtînân
-      PV/wi+nâtam+V+TI+Ind+12Pl: kiwî-nâtînaw
+      PV/wi+nâtam+V+TI+Ind+12Pl: [kiwî-nâtînaw, kiwî-nâtînânaw]
       PV/wi+nâtam+V+TI+Ind+2Pl: kiwî-nâtînâwâw
       PV/wi+nâtam+V+TI+Ind+3Pl: wî-nâtamwak
       PV/wi+nâtam+V+TI+Ind+4Sg/Pl: wî-nâtamithiwa
-      PV/wi+nâtam+V+TI+Ind+X: PV/wi+nâtam+V+TI+Ind+X
       
 
       # Fut+Int # Cnj
-      PV/e+PV/wi+nâtam+V+TI+Cnj+1Sg: î-wî-nâtamân
-      PV/e+PV/wi+nâtam+V+TI+Cnj+2Sg: î-wî-nâtaman
-      PV/e+PV/wi+nâtam+V+TI+Cnj+3Sg: î-wî-nâtahk
-      PV/e+PV/wi+nâtam+V+TI+Cnj+1Pl: î-wî-nâtamâhk
-      PV/e+PV/wi+nâtam+V+TI+Cnj+12Pl: î-wî-nâtamahk
-      PV/e+PV/wi+nâtam+V+TI+Cnj+2Pl: î-wî-nâtamîk
-      PV/e+PV/wi+nâtam+V+TI+Cnj+3Pl: î-wî-nâtahkwâw
-      PV/e+PV/wi+nâtam+V+TI+Cnj+4Sg/Pl: î-wî-nâtamithit
-      PV/e+PV/wi+nâtam+V+TI+Cnj+X: î-wî-nâtamihk
+      PV/î+PV/wi+nâtam+V+TI+Cnj+1Sg: î-wî-nâtamân
+      PV/î+PV/wi+nâtam+V+TI+Cnj+2Sg: î-wî-nâtaman
+      PV/î+PV/wi+nâtam+V+TI+Cnj+3Sg: î-wî-nâtahk
+      PV/î+PV/wi+nâtam+V+TI+Cnj+1Pl: î-wî-nâtamâhk
+      PV/î+PV/wi+nâtam+V+TI+Cnj+12Pl: î-wî-nâtamahk
+      PV/î+PV/wi+nâtam+V+TI+Cnj+2Pl: î-wî-nâtamîk
+      PV/î+PV/wi+nâtam+V+TI+Cnj+3Pl: î-wî-nâtahkwâw
+      PV/î+PV/wi+nâtam+V+TI+Cnj+4Sg/Pl: î-wî-nâtamithit
       
 
       # Fut+Def # Ind
@@ -100,11 +94,10 @@ Tests:
       PV/ka+nâtam+V+TI+Ind+2Sg: kika-nâtîn
       PV/ka+nâtam+V+TI+Ind+3Sg: ka-nâtam
       PV/ka+nâtam+V+TI+Ind+1Pl: nika-nâtînân
-      PV/ka+nâtam+V+TI+Ind+12Pl: kika-nâtînaw
+      PV/ka+nâtam+V+TI+Ind+12Pl: [kika-nâtînaw, kika-nâtînânaw]
       PV/ka+nâtam+V+TI+Ind+2Pl: kika-nâtînâwâw
       PV/ka+nâtam+V+TI+Ind+3Pl: ka-nâtamwak
       PV/ka+nâtam+V+TI+Ind+4Sg/Pl: ka-nâtamithiwa
-      PV/ka+nâtam+V+TI+Ind+X: PV/ka+nâtam+V+TI+Ind+X
       
 
       # Inf # PV/ka
@@ -116,7 +109,6 @@ Tests:
       PV/ka+nâtam+V+TI+Cnj+2Pl: ka-nâtamîk
       PV/ka+nâtam+V+TI+Cnj+3Pl: ka-nâtahkwâw
       PV/ka+nâtam+V+TI+Cnj+4Sg/Pl: ka-nâtamithit
-      PV/ka+nâtam+V+TI+Cnj+X: ka-nâtamihk
       
 
       # Inf # PV/ta
@@ -128,7 +120,6 @@ Tests:
       PV/ta+nâtam+V+TI+Cnj+2Pl: ta-nâtamîk
       PV/ta+nâtam+V+TI+Cnj+3Pl: ta-nâtahkwâw
       PV/ta+nâtam+V+TI+Cnj+4Sg/Pl: ta-nâtamithit
-      PV/ta+nâtam+V+TI+Cnj+X: ta-nâtamihk
       
 
       # Fut # Cond
@@ -140,7 +131,6 @@ Tests:
       nâtam+V+TI+Fut+Cond+2Pl: nâtamîko
       nâtam+V+TI+Fut+Cond+3Pl: nâtahkwâwi
       nâtam+V+TI+Fut+Cond+4Sg/Pl: nâtamithici
-      nâtam+V+TI+Fut+Cond+X: nâtamihki
       
 
       # Imp # Imm

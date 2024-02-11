@@ -28,7 +28,7 @@ Tests:
       nîhithawîw+V+AI+Ind+2Sg: kinîhithawân   # you speak Cree
       nîhithawîw+V+AI+Ind+3Sg: nîhithawîw   # he/she speaks Cree
       nîhithawîw+V+AI+Ind+1Pl: ninîhithawânân   # we speak Cree
-      nîhithawîw+V+AI+Ind+12Pl: kinîhithawânaw   # we and you speak Cree
+      nîhithawîw+V+AI+Ind+12Pl: [kinîhithawânaw, kinîhithawânânaw]   # we and you speak Cree
       nîhithawîw+V+AI+Ind+2Pl: kinîhithawânâwâw   # you all speak Cree
       nîhithawîw+V+AI+Ind+3Pl: nîhithawîwak   # they speak Cree
       nîhithawîw+V+AI+Ind+4Sg/Pl: nîhithawîthiwa   # another/others speak Cree
@@ -52,7 +52,7 @@ Tests:
       PV/ki+nîhithawîw+V+AI+Ind+2Sg: kikî-nîhithawân   # you spoke Cree
       PV/ki+nîhithawîw+V+AI+Ind+3Sg: kî-nîhithawîw   # he/she spoke Cree
       PV/ki+nîhithawîw+V+AI+Ind+1Pl: nikî-nîhithawânân   # we spoke Cree
-      PV/ki+nîhithawîw+V+AI+Ind+12Pl: kikî-nîhithawânaw   # we and you spoke Cree
+      PV/ki+nîhithawîw+V+AI+Ind+12Pl: [kikî-nîhithawânaw, kikî-nîhithawânânaw]   # we and you spoke Cree
       PV/ki+nîhithawîw+V+AI+Ind+2Pl: kikî-nîhithawânâwâw   # you all spoke Cree
       PV/ki+nîhithawîw+V+AI+Ind+3Pl: kî-nîhithawîwak   # they spoke Cree
       PV/ki+nîhithawîw+V+AI+Ind+4Sg/Pl: kî-nîhithawîthiwa   # another/others spoke Cree
@@ -76,7 +76,7 @@ Tests:
       PV/wi+nîhithawîw+V+AI+Ind+2Sg: kiwî-nîhithawân   # you are going to speak Cree
       PV/wi+nîhithawîw+V+AI+Ind+3Sg: wî-nîhithawîw   # he/she is going to speak Cree
       PV/wi+nîhithawîw+V+AI+Ind+1Pl: niwî-nîhithawânân   # we are going to speak Cree
-      PV/wi+nîhithawîw+V+AI+Ind+12Pl: kiwî-nîhithawânaw   # we and you are going to speak Cree
+      PV/wi+nîhithawîw+V+AI+Ind+12Pl: [kiwî-nîhithawânaw, kiwî-nîhithawânânaw]   # we and you are going to speak Cree
       PV/wi+nîhithawîw+V+AI+Ind+2Pl: kiwî-nîhithawânâwâw   # you all are going to speak Cree
       PV/wi+nîhithawîw+V+AI+Ind+3Pl: wî-nîhithawîwak   # they are going to speak Cree
       PV/wi+nîhithawîw+V+AI+Ind+4Sg/Pl: wî-nîhithawîthiwa   # another/others are going to speak Cree
@@ -100,7 +100,7 @@ Tests:
       PV/ka+nîhithawîw+V+AI+Ind+2Sg: kika-nîhithawân   # you will speak Cree
       PV/ka+nîhithawîw+V+AI+Ind+3Sg: ka-nîhithawîw   # he/she will speak Cree
       PV/ka+nîhithawîw+V+AI+Ind+1Pl: nika-nîhithawânân   # we will speak Cree
-      PV/ka+nîhithawîw+V+AI+Ind+12Pl: kika-nîhithawânaw   # we and you will speak Cree
+      PV/ka+nîhithawîw+V+AI+Ind+12Pl: [kika-nîhithawânaw, kika-nîhithawânânaw]   # we and you will speak Cree
       PV/ka+nîhithawîw+V+AI+Ind+2Pl: kika-nîhithawânâwâw   # you all will speak Cree
       PV/ka+nîhithawîw+V+AI+Ind+3Pl: ka-nîhithawîwak   # they will speak Cree
       PV/ka+nîhithawîw+V+AI+Ind+4Sg/Pl: ka-nîhithawîthiwa   # another/others will speak Cree

@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - kîsihtâw : :
+   Lemma - kîsihtâw : 
 
       # Core 
 
@@ -16,7 +16,7 @@ Tests:
 
       # Prs+Cnj
       PV/î+kîsihtâw+V+TI+Cnj+1Sg: î-kîsihtâyân   # as I complete something, as I finish something, as I finish work on something
-      PV/î+kîsihtâw+V+TI+Cnj+2Sg: î-kîsihtâyan   # as you complete something, as you finish something, as you finish work on something
+      PV/î+kîsihtâw+V+TI+Cnj+2Sg: [î-kîsihtâyan, î-kîsihtâyin]   # as you complete something, as you finish something, as you finish work on something
       PV/î+kîsihtâw+V+TI+Cnj+3Sg: î-kîsihtât   # as he/she completes something, as he/she finishes something, as he/she finishes work on something
 
       # Imp
@@ -28,7 +28,7 @@ Tests:
       kîsihtâw+V+TI+Ind+2Sg: kikîsihtân   # you complete something, you finish something, you finish work on something
       kîsihtâw+V+TI+Ind+3Sg: kîsihtâw   # he/she completes something, he/she finishes something, he/she finishes work on something
       kîsihtâw+V+TI+Ind+1Pl: nikîsihtânân   # we complete something, we finish something, we finish work on something
-      kîsihtâw+V+TI+Ind+12Pl: kikîsihtânaw   # we and you complete something, we and you finish something, we and you finish work on something
+      kîsihtâw+V+TI+Ind+12Pl: [kikîsihtânaw, kikîsihtânânaw]   # we and you complete something, we and you finish something, we and you finish work on something
       kîsihtâw+V+TI+Ind+2Pl: kikîsihtânâwâw   # you all complete something, you all finish something, you all finish work on something
       kîsihtâw+V+TI+Ind+3Pl: kîsihtâwak   # they complete something, they finish something, they finish work on something
       kîsihtâw+V+TI+Ind+4Sg/Pl: kîsihtâthiwa   # another/others complete something, another/others finish something, another/others finish work on something
@@ -37,7 +37,7 @@ Tests:
 
       # Prs # Cnj
       PV/î+kîsihtâw+V+TI+Cnj+1Sg: î-kîsihtâyân   # as I complete something, as I finish something, as I finish work on something
-      PV/î+kîsihtâw+V+TI+Cnj+2Sg: î-kîsihtâyan   # as you complete something, as you finish something, as you finish work on something
+      PV/î+kîsihtâw+V+TI+Cnj+2Sg: [î-kîsihtâyan, î-kîsihtâyin]   # as you complete something, as you finish something, as you finish work on something
       PV/î+kîsihtâw+V+TI+Cnj+3Sg: î-kîsihtât   # as he/she completes something, as he/she finishes something, as he/she finishes work on something
       PV/î+kîsihtâw+V+TI+Cnj+1Pl: î-kîsihtâyâhk   # as we complete something, as we finish something, as we finish work on something
       PV/î+kîsihtâw+V+TI+Cnj+12Pl: î-kîsihtâyahk   # as we and you complete something, as we and you finish something, as we and you finish work on something
@@ -52,7 +52,7 @@ Tests:
       PV/ki+kîsihtâw+V+TI+Ind+2Sg: kikî-kîsihtân   # you completed something, you finished something, you finished work on something
       PV/ki+kîsihtâw+V+TI+Ind+3Sg: kî-kîsihtâw   # he/she completed something, he/she finished something, he/she finished work on something
       PV/ki+kîsihtâw+V+TI+Ind+1Pl: nikî-kîsihtânân   # we completed something, we finished something, we finished work on something
-      PV/ki+kîsihtâw+V+TI+Ind+12Pl: kikî-kîsihtânaw   # we and you completed something, we and you finished something, we and you finished work on something
+      PV/ki+kîsihtâw+V+TI+Ind+12Pl: [kikî-kîsihtânaw, kikî-kîsihtânânaw]   # we and you completed something, we and you finished something, we and you finished work on something
       PV/ki+kîsihtâw+V+TI+Ind+2Pl: kikî-kîsihtânâwâw   # you all completed something, you all finished something, you all finished work on something
       PV/ki+kîsihtâw+V+TI+Ind+3Pl: kî-kîsihtâwak   # they completed something, they finished something, they finished work on something
       PV/ki+kîsihtâw+V+TI+Ind+4Sg/Pl: kî-kîsihtâthiwa   # another/others completed something, another/others finished something, another/others finished work on something
@@ -61,7 +61,7 @@ Tests:
 
       # Prt # Cnj
       PV/î+PV/ki+kîsihtâw+V+TI+Cnj+1Sg: î-kî-kîsihtâyân   # as I completed something, as I finished something, as I finished work on something
-      PV/î+PV/ki+kîsihtâw+V+TI+Cnj+2Sg: î-kî-kîsihtâyan   # as you completed something, as you finished something, as you finished work on something
+      PV/î+PV/ki+kîsihtâw+V+TI+Cnj+2Sg: [î-kî-kîsihtâyan, î-kî-kîsihtâyin]   # as you completed something, as you finished something, as you finished work on something
       PV/î+PV/ki+kîsihtâw+V+TI+Cnj+3Sg: î-kî-kîsihtât   # as he/she completed something, as he/she finished something, as he/she finished work on something
       PV/î+PV/ki+kîsihtâw+V+TI+Cnj+1Pl: î-kî-kîsihtâyâhk   # as we completed something, as we finished something, as we finished work on something
       PV/î+PV/ki+kîsihtâw+V+TI+Cnj+12Pl: î-kî-kîsihtâyahk   # as we and you completed something, as we and you finished something, as we and you finished work on something
@@ -76,7 +76,7 @@ Tests:
       PV/wi+kîsihtâw+V+TI+Ind+2Sg: kiwî-kîsihtân   # you are going to complete something, you are going to finish something, you are going to finish work on something
       PV/wi+kîsihtâw+V+TI+Ind+3Sg: wî-kîsihtâw   # he/she is going to complete something, he/she is going to finish something, he/she is going to finish work on something
       PV/wi+kîsihtâw+V+TI+Ind+1Pl: niwî-kîsihtânân   # we are going to complete something, we are going to finish something, we are going to finish work on something
-      PV/wi+kîsihtâw+V+TI+Ind+12Pl: kiwî-kîsihtânaw   # we and you are going to complete something, we and you are going to finish something, we and you are going to finish work on something
+      PV/wi+kîsihtâw+V+TI+Ind+12Pl: [kiwî-kîsihtânaw, kiwî-kîsihtânânaw]   # we and you are going to complete something, we and you are going to finish something, we and you are going to finish work on something
       PV/wi+kîsihtâw+V+TI+Ind+2Pl: kiwî-kîsihtânâwâw   # you all are going to complete something, you all are going to finish something, you all are going to finish work on something
       PV/wi+kîsihtâw+V+TI+Ind+3Pl: wî-kîsihtâwak   # they are going to complete something, they are going to finish something, they are going to finish work on something
       PV/wi+kîsihtâw+V+TI+Ind+4Sg/Pl: wî-kîsihtâthiwa   # another/others are going to complete something, another/others are going to finish something, another/others are going to finish work on something
@@ -85,7 +85,7 @@ Tests:
 
       # Fut+Int # Cnj
       PV/î+PV/wi+kîsihtâw+V+TI+Cnj+1Sg: î-wî-kîsihtâyân   # as I am going to complete something, as I am going to finish something, as I am going to finish work on something
-      PV/î+PV/wi+kîsihtâw+V+TI+Cnj+2Sg: î-wî-kîsihtâyan   # as you are going to complete something, as you are going to finish something, as you are going to finish work on something
+      PV/î+PV/wi+kîsihtâw+V+TI+Cnj+2Sg: [î-wî-kîsihtâyan, î-wî-kîsihtâyin]   # as you are going to complete something, as you are going to finish something, as you are going to finish work on something
       PV/î+PV/wi+kîsihtâw+V+TI+Cnj+3Sg: î-wî-kîsihtât   # as he/she is going to complete something, as he/she is going to finish something, as he/she is going to finish work on something
       PV/î+PV/wi+kîsihtâw+V+TI+Cnj+1Pl: î-wî-kîsihtâyâhk   # as we are going to complete something, as we are going to finish something, as we are going to finish work on something
       PV/î+PV/wi+kîsihtâw+V+TI+Cnj+12Pl: î-wî-kîsihtâyahk   # as we and you are going to complete something, as we and you are going to finish something, as we and you are going to finish work on something
@@ -100,7 +100,7 @@ Tests:
       PV/ka+kîsihtâw+V+TI+Ind+2Sg: kika-kîsihtân   # you will complete something, you will finish something, you will finish work on something
       PV/ka+kîsihtâw+V+TI+Ind+3Sg: ka-kîsihtâw   # he/she will complete something, he/she will finish something, he/she will finish work on something
       PV/ka+kîsihtâw+V+TI+Ind+1Pl: nika-kîsihtânân   # we will complete something, we will finish something, we will finish work on something
-      PV/ka+kîsihtâw+V+TI+Ind+12Pl: kika-kîsihtânaw   # we and you will complete something, we and you will finish something, we and you will finish work on something
+      PV/ka+kîsihtâw+V+TI+Ind+12Pl: [kika-kîsihtânaw, kika-kîsihtânânaw]   # we and you will complete something, we and you will finish something, we and you will finish work on something
       PV/ka+kîsihtâw+V+TI+Ind+2Pl: kika-kîsihtânâwâw   # you all will complete something, you all will finish something, you all will finish work on something
       PV/ka+kîsihtâw+V+TI+Ind+3Pl: ka-kîsihtâwak   # they will complete something, they will finish something, they will finish work on something
       PV/ka+kîsihtâw+V+TI+Ind+4Sg/Pl: ka-kîsihtâthiwa   # another/others will complete something, another/others will finish something, another/others will finish work on something
@@ -109,7 +109,7 @@ Tests:
 
       # Inf # PV/ka
       PV/ka+kîsihtâw+V+TI+Cnj+1Sg: ka-kîsihtâyân   # I will complete something, I will finish something, I will finish work on something
-      PV/ka+kîsihtâw+V+TI+Cnj+2Sg: ka-kîsihtâyan   # you will complete something, you will finish something, you will finish work on something
+      PV/ka+kîsihtâw+V+TI+Cnj+2Sg: [ka-kîsihtâyan, ka-kîsihtâyin]   # you will complete something, you will finish something, you will finish work on something
       PV/ka+kîsihtâw+V+TI+Cnj+3Sg: ka-kîsihtât   # he/she will complete something, he/she will finish something, he/she will finish work on something
       PV/ka+kîsihtâw+V+TI+Cnj+1Pl: ka-kîsihtâyâhk   # we will complete something, we will finish something, we will finish work on something
       PV/ka+kîsihtâw+V+TI+Cnj+12Pl: ka-kîsihtâyahk   # we and you will complete something, we and you will finish something, we and you will finish work on something
@@ -121,7 +121,7 @@ Tests:
 
       # Inf # PV/ta
       PV/ta+kîsihtâw+V+TI+Cnj+1Sg: ta-kîsihtâyân   # I complete something, I finish something, I finish work on something
-      PV/ta+kîsihtâw+V+TI+Cnj+2Sg: ta-kîsihtâyan   # you complete something, you finish something, you finish work on something
+      PV/ta+kîsihtâw+V+TI+Cnj+2Sg: [ta-kîsihtâyan, ta-kîsihtâyin]   # you complete something, you finish something, you finish work on something
       PV/ta+kîsihtâw+V+TI+Cnj+3Sg: ta-kîsihtât   # he/she completes something, he/she finishes something, he/she finishes work on something
       PV/ta+kîsihtâw+V+TI+Cnj+1Pl: ta-kîsihtâyâhk   # we complete something, we finish something, we finish work on something
       PV/ta+kîsihtâw+V+TI+Cnj+12Pl: ta-kîsihtâyahk   # we and you complete something, we and you finish something, we and you finish work on something
@@ -133,7 +133,7 @@ Tests:
 
       # Fut # Cond
       kîsihtâw+V+TI+Fut+Cond+1Sg: kîsihtâyâni   # when I complete something, when I finish something, when I finish work on something
-      kîsihtâw+V+TI+Fut+Cond+2Sg: kîsihtâyani   # when you complete something, when you finish something, when you finish work on something
+      kîsihtâw+V+TI+Fut+Cond+2Sg: [kîsihtâyani, kîsihtâyini]   # when you complete something, when you finish something, when you finish work on something
       kîsihtâw+V+TI+Fut+Cond+3Sg: kîsihtâci   # when he/she completes something, when he/she finishes something, when he/she finishes work on something
       kîsihtâw+V+TI+Fut+Cond+1Pl: kîsihtâyâhki   # when we complete something, when we finish something, when we finish work on something
       kîsihtâw+V+TI+Fut+Cond+12Pl: kîsihtâyahki   # when we and you complete something, when we and you finish something, when we and you finish work on something

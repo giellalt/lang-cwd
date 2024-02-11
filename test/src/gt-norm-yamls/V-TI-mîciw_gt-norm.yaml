@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - mîciw : :
+   Lemma - mîciw : 
 
       # Core 
 
@@ -16,7 +16,7 @@ Tests:
 
       # Prs+Cnj
       PV/î+mîciw+V+TI+Cnj+1Sg: î-mîciyân   # as I eat something
-      PV/î+mîciw+V+TI+Cnj+2Sg: î-mîciyan   # as you eat something
+      PV/î+mîciw+V+TI+Cnj+2Sg: [î-mîciyan, î-mîciyin]   # as you eat something
       PV/î+mîciw+V+TI+Cnj+3Sg: î-mîcit   # as he/she eats something
 
       # Imp
@@ -28,7 +28,7 @@ Tests:
       mîciw+V+TI+Ind+2Sg: kimîcin   # you eat something
       mîciw+V+TI+Ind+3Sg: mîciw   # he/she eats something
       mîciw+V+TI+Ind+1Pl: nimîcinân   # we eat something
-      mîciw+V+TI+Ind+12Pl: kimîcinaw   # we and you eat something
+      mîciw+V+TI+Ind+12Pl: [kimîcinaw, kimîcinânaw]   # we and you eat something
       mîciw+V+TI+Ind+2Pl: kimîcinâwâw   # you all eat something
       mîciw+V+TI+Ind+3Pl: mîciwak   # they eat something
       mîciw+V+TI+Ind+4Sg/Pl: mîcithiwa   # another/others eat something
@@ -37,7 +37,7 @@ Tests:
 
       # Prs # Cnj
       PV/î+mîciw+V+TI+Cnj+1Sg: î-mîciyân   # as I eat something
-      PV/î+mîciw+V+TI+Cnj+2Sg: î-mîciyan   # as you eat something
+      PV/î+mîciw+V+TI+Cnj+2Sg: [î-mîciyan, î-mîciyin]   # as you eat something
       PV/î+mîciw+V+TI+Cnj+3Sg: î-mîcit   # as he/she eats something
       PV/î+mîciw+V+TI+Cnj+1Pl: î-mîciyâhk   # as we eat something
       PV/î+mîciw+V+TI+Cnj+12Pl: î-mîciyahk   # as we and you eat something
@@ -52,7 +52,7 @@ Tests:
       PV/ki+mîciw+V+TI+Ind+2Sg: kikî-mîcin   # you ate something
       PV/ki+mîciw+V+TI+Ind+3Sg: kî-mîciw   # he/she ate something
       PV/ki+mîciw+V+TI+Ind+1Pl: nikî-mîcinân   # we ate something
-      PV/ki+mîciw+V+TI+Ind+12Pl: kikî-mîcinaw   # we and you ate something
+      PV/ki+mîciw+V+TI+Ind+12Pl: [kikî-mîcinaw, kikî-mîcinânaw]   # we and you ate something
       PV/ki+mîciw+V+TI+Ind+2Pl: kikî-mîcinâwâw   # you all ate something
       PV/ki+mîciw+V+TI+Ind+3Pl: kî-mîciwak   # they ate something
       PV/ki+mîciw+V+TI+Ind+4Sg/Pl: kî-mîcithiwa   # another/others ate something
@@ -61,7 +61,7 @@ Tests:
 
       # Prt # Cnj
       PV/î+PV/ki+mîciw+V+TI+Cnj+1Sg: î-kî-mîciyân   # as I ate something
-      PV/î+PV/ki+mîciw+V+TI+Cnj+2Sg: î-kî-mîciyan   # as you ate something
+      PV/î+PV/ki+mîciw+V+TI+Cnj+2Sg: [î-kî-mîciyan, î-kî-mîciyin]   # as you ate something
       PV/î+PV/ki+mîciw+V+TI+Cnj+3Sg: î-kî-mîcit   # as he/she ate something
       PV/î+PV/ki+mîciw+V+TI+Cnj+1Pl: î-kî-mîciyâhk   # as we ate something
       PV/î+PV/ki+mîciw+V+TI+Cnj+12Pl: î-kî-mîciyahk   # as we and you ate something
@@ -76,7 +76,7 @@ Tests:
       PV/wi+mîciw+V+TI+Ind+2Sg: kiwî-mîcin   # you are going to eat something
       PV/wi+mîciw+V+TI+Ind+3Sg: wî-mîciw   # he/she is going to eat something
       PV/wi+mîciw+V+TI+Ind+1Pl: niwî-mîcinân   # we are going to eat something
-      PV/wi+mîciw+V+TI+Ind+12Pl: kiwî-mîcinaw   # we and you are going to eat something
+      PV/wi+mîciw+V+TI+Ind+12Pl: [kiwî-mîcinaw, kiwî-mîcinânaw]   # we and you are going to eat something
       PV/wi+mîciw+V+TI+Ind+2Pl: kiwî-mîcinâwâw   # you all are going to eat something
       PV/wi+mîciw+V+TI+Ind+3Pl: wî-mîciwak   # they are going to eat something
       PV/wi+mîciw+V+TI+Ind+4Sg/Pl: wî-mîcithiwa   # another/others are going to eat something
@@ -85,7 +85,7 @@ Tests:
 
       # Fut+Int # Cnj
       PV/î+PV/wi+mîciw+V+TI+Cnj+1Sg: î-wî-mîciyân   # as I am going to eat something
-      PV/î+PV/wi+mîciw+V+TI+Cnj+2Sg: î-wî-mîciyan   # as you are going to eat something
+      PV/î+PV/wi+mîciw+V+TI+Cnj+2Sg: [î-wî-mîciyan, î-wî-mîciyin]   # as you are going to eat something
       PV/î+PV/wi+mîciw+V+TI+Cnj+3Sg: î-wî-mîcit   # as he/she is going to eat something
       PV/î+PV/wi+mîciw+V+TI+Cnj+1Pl: î-wî-mîciyâhk   # as we are going to eat something
       PV/î+PV/wi+mîciw+V+TI+Cnj+12Pl: î-wî-mîciyahk   # as we and you are going to eat something
@@ -100,7 +100,7 @@ Tests:
       PV/ka+mîciw+V+TI+Ind+2Sg: kika-mîcin   # you will eat something
       PV/ka+mîciw+V+TI+Ind+3Sg: ka-mîciw   # he/she will eat something
       PV/ka+mîciw+V+TI+Ind+1Pl: nika-mîcinân   # we will eat something
-      PV/ka+mîciw+V+TI+Ind+12Pl: kika-mîcinaw   # we and you will eat something
+      PV/ka+mîciw+V+TI+Ind+12Pl: [kika-mîcinaw, kika-mîcinânaw]   # we and you will eat something
       PV/ka+mîciw+V+TI+Ind+2Pl: kika-mîcinâwâw   # you all will eat something
       PV/ka+mîciw+V+TI+Ind+3Pl: ka-mîciwak   # they will eat something
       PV/ka+mîciw+V+TI+Ind+4Sg/Pl: ka-mîcithiwa   # another/others will eat something
@@ -109,7 +109,7 @@ Tests:
 
       # Inf # PV/ka
       PV/ka+mîciw+V+TI+Cnj+1Sg: ka-mîciyân   # I will eat something
-      PV/ka+mîciw+V+TI+Cnj+2Sg: ka-mîciyan   # you will eat something
+      PV/ka+mîciw+V+TI+Cnj+2Sg: [ka-mîciyan, ka-mîciyin]   # you will eat something
       PV/ka+mîciw+V+TI+Cnj+3Sg: ka-mîcit   # he/she will eat something
       PV/ka+mîciw+V+TI+Cnj+1Pl: ka-mîciyâhk   # we will eat something
       PV/ka+mîciw+V+TI+Cnj+12Pl: ka-mîciyahk   # we and you will eat something
@@ -121,7 +121,7 @@ Tests:
 
       # Inf # PV/ta
       PV/ta+mîciw+V+TI+Cnj+1Sg: ta-mîciyân   # I eat something
-      PV/ta+mîciw+V+TI+Cnj+2Sg: ta-mîciyan   # you eat something
+      PV/ta+mîciw+V+TI+Cnj+2Sg: [ta-mîciyan, ta-mîciyin]   # you eat something
       PV/ta+mîciw+V+TI+Cnj+3Sg: ta-mîcit   # he/she eats something
       PV/ta+mîciw+V+TI+Cnj+1Pl: ta-mîciyâhk   # we eat something
       PV/ta+mîciw+V+TI+Cnj+12Pl: ta-mîciyahk   # we and you eat something
@@ -133,7 +133,7 @@ Tests:
 
       # Fut # Cond
       mîciw+V+TI+Fut+Cond+1Sg: mîciyâni   # when I eat something
-      mîciw+V+TI+Fut+Cond+2Sg: mîciyani   # when you eat something
+      mîciw+V+TI+Fut+Cond+2Sg: [mîciyani, mîciyini]   # when you eat something
       mîciw+V+TI+Fut+Cond+3Sg: mîcici   # when he/she eats something
       mîciw+V+TI+Fut+Cond+1Pl: mîciyâhki   # when we eat something
       mîciw+V+TI+Fut+Cond+12Pl: mîciyahki   # when we and you eat something

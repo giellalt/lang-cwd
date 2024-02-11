@@ -28,7 +28,7 @@ Tests:
       mâtow+V+AI+Ind+2Sg: kimâton   # you cry, you wail, you weep
       mâtow+V+AI+Ind+3Sg: mâtow   # he/she cries, he/she wails, he/she weeps
       mâtow+V+AI+Ind+1Pl: nimâtonân   # we cry, we wail, we weep
-      mâtow+V+AI+Ind+12Pl: kimâtonaw   # we and you cry, we and you wail, we and you weep
+      mâtow+V+AI+Ind+12Pl: [kimâtonaw, kimâtonânaw]   # we and you cry, we and you wail, we and you weep
       mâtow+V+AI+Ind+2Pl: kimâtonâwâw   # you all cry, you all wail, you all weep
       mâtow+V+AI+Ind+3Pl: mâtowak   # they cry, they wail, they weep
       mâtow+V+AI+Ind+4Sg/Pl: mâtothiwa   # another/others cry, another/others wail, another/others weep
@@ -52,7 +52,7 @@ Tests:
       PV/ki+mâtow+V+AI+Ind+2Sg: kikî-mâton   # you cried, you wailed, you wept
       PV/ki+mâtow+V+AI+Ind+3Sg: kî-mâtow   # he/she cried, he/she wailed, he/she wept
       PV/ki+mâtow+V+AI+Ind+1Pl: nikî-mâtonân   # we cried, we wailed, we wept
-      PV/ki+mâtow+V+AI+Ind+12Pl: kikî-mâtonaw   # we and you cried, we and you wailed, we and you wept
+      PV/ki+mâtow+V+AI+Ind+12Pl: [kikî-mâtonaw, kikî-mâtonânaw]   # we and you cried, we and you wailed, we and you wept
       PV/ki+mâtow+V+AI+Ind+2Pl: kikî-mâtonâwâw   # you all cried, you all wailed, you all wept
       PV/ki+mâtow+V+AI+Ind+3Pl: kî-mâtowak   # they cried, they wailed, they wept
       PV/ki+mâtow+V+AI+Ind+4Sg/Pl: kî-mâtothiwa   # another/others cried, another/others wailed, another/others wept
@@ -76,7 +76,7 @@ Tests:
       PV/wi+mâtow+V+AI+Ind+2Sg: kiwî-mâton   # you are going to cry, you are going to wail, you are going to weep
       PV/wi+mâtow+V+AI+Ind+3Sg: wî-mâtow   # he/she is going to cry, he/she is going to wail, he/she is going to weep
       PV/wi+mâtow+V+AI+Ind+1Pl: niwî-mâtonân   # we are going to cry, we are going to wail, we are going to weep
-      PV/wi+mâtow+V+AI+Ind+12Pl: kiwî-mâtonaw   # we and you are going to cry, we and you are going to wail, we and you are going to weep
+      PV/wi+mâtow+V+AI+Ind+12Pl: [kiwî-mâtonaw, kiwî-mâtonânaw]   # we and you are going to cry, we and you are going to wail, we and you are going to weep
       PV/wi+mâtow+V+AI+Ind+2Pl: kiwî-mâtonâwâw   # you all are going to cry, you all are going to wail, you all are going to weep
       PV/wi+mâtow+V+AI+Ind+3Pl: wî-mâtowak   # they are going to cry, they are going to wail, they are going to weep
       PV/wi+mâtow+V+AI+Ind+4Sg/Pl: wî-mâtothiwa   # another/others are going to cry, another/others are going to wail, another/others are going to weep
@@ -100,7 +100,7 @@ Tests:
       PV/ka+mâtow+V+AI+Ind+2Sg: kika-mâton   # you will cry, you will wail, you will weep
       PV/ka+mâtow+V+AI+Ind+3Sg: ka-mâtow   # he/she will cry, he/she will wail, he/she will weep
       PV/ka+mâtow+V+AI+Ind+1Pl: nika-mâtonân   # we will cry, we will wail, we will weep
-      PV/ka+mâtow+V+AI+Ind+12Pl: kika-mâtonaw   # we and you will cry, we and you will wail, we and you will weep
+      PV/ka+mâtow+V+AI+Ind+12Pl: [kika-mâtonaw, kika-mâtonânaw]   # we and you will cry, we and you will wail, we and you will weep
       PV/ka+mâtow+V+AI+Ind+2Pl: kika-mâtonâwâw   # you all will cry, you all will wail, you all will weep
       PV/ka+mâtow+V+AI+Ind+3Pl: ka-mâtowak   # they will cry, they will wail, they will weep
       PV/ka+mâtow+V+AI+Ind+4Sg/Pl: ka-mâtothiwa   # another/others will cry, another/others will wail, another/others will weep

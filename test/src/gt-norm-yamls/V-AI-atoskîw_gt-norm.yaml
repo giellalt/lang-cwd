@@ -28,7 +28,7 @@ Tests:
       atoskîw+V+AI+Ind+2Sg: kitatoskân   # you work, you do work
       atoskîw+V+AI+Ind+3Sg: atoskîw   # he/she works, he/she does work
       atoskîw+V+AI+Ind+1Pl: nitatoskânân   # we work, we do work
-      atoskîw+V+AI+Ind+12Pl: kitatoskânaw   # we and you work, we and you do work
+      atoskîw+V+AI+Ind+12Pl: [kitatoskânaw, kitatoskânânaw]   # we and you work, we and you do work
       atoskîw+V+AI+Ind+2Pl: kitatoskânâwâw   # you all work, you all do work
       atoskîw+V+AI+Ind+3Pl: atoskîwak   # they work, they do work
       atoskîw+V+AI+Ind+4Sg/Pl: atoskîthiwa   # another/others work, another/others do work
@@ -52,7 +52,7 @@ Tests:
       PV/ki+atoskîw+V+AI+Ind+2Sg: kikî-atoskân   # you worked, you did work
       PV/ki+atoskîw+V+AI+Ind+3Sg: kî-atoskîw   # he/she worked, he/she did work
       PV/ki+atoskîw+V+AI+Ind+1Pl: nikî-atoskânân   # we worked, we did work
-      PV/ki+atoskîw+V+AI+Ind+12Pl: kikî-atoskânaw   # we and you worked, we and you did work
+      PV/ki+atoskîw+V+AI+Ind+12Pl: [kikî-atoskânaw, kikî-atoskânânaw]   # we and you worked, we and you did work
       PV/ki+atoskîw+V+AI+Ind+2Pl: kikî-atoskânâwâw   # you all worked, you all did work
       PV/ki+atoskîw+V+AI+Ind+3Pl: kî-atoskîwak   # they worked, they did work
       PV/ki+atoskîw+V+AI+Ind+4Sg/Pl: kî-atoskîthiwa   # another/others worked, another/others did work
@@ -76,7 +76,7 @@ Tests:
       PV/wi+atoskîw+V+AI+Ind+2Sg: kiwî-atoskân   # you are going to work, you are going to do work
       PV/wi+atoskîw+V+AI+Ind+3Sg: wî-atoskîw   # he/she is going to work, he/she is going to do work
       PV/wi+atoskîw+V+AI+Ind+1Pl: niwî-atoskânân   # we are going to work, we are going to do work
-      PV/wi+atoskîw+V+AI+Ind+12Pl: kiwî-atoskânaw   # we and you are going to work, we and you are going to do work
+      PV/wi+atoskîw+V+AI+Ind+12Pl: [kiwî-atoskânaw, kiwî-atoskânânaw]   # we and you are going to work, we and you are going to do work
       PV/wi+atoskîw+V+AI+Ind+2Pl: kiwî-atoskânâwâw   # you all are going to work, you all are going to do work
       PV/wi+atoskîw+V+AI+Ind+3Pl: wî-atoskîwak   # they are going to work, they are going to do work
       PV/wi+atoskîw+V+AI+Ind+4Sg/Pl: wî-atoskîthiwa   # another/others are going to work, another/others are going to do work
@@ -100,7 +100,7 @@ Tests:
       PV/ka+atoskîw+V+AI+Ind+2Sg: kika-atoskân   # you will work, you will do work
       PV/ka+atoskîw+V+AI+Ind+3Sg: ka-atoskîw   # he/she will work, he/she will do work
       PV/ka+atoskîw+V+AI+Ind+1Pl: nika-atoskânân   # we will work, we will do work
-      PV/ka+atoskîw+V+AI+Ind+12Pl: kika-atoskânaw   # we and you will work, we and you will do work
+      PV/ka+atoskîw+V+AI+Ind+12Pl: [kika-atoskânaw, kika-atoskânânaw]   # we and you will work, we and you will do work
       PV/ka+atoskîw+V+AI+Ind+2Pl: kika-atoskânâwâw   # you all will work, you all will do work
       PV/ka+atoskîw+V+AI+Ind+3Pl: ka-atoskîwak   # they will work, they will do work
       PV/ka+atoskîw+V+AI+Ind+4Sg/Pl: ka-atoskîthiwa   # another/others will work, another/others will do work

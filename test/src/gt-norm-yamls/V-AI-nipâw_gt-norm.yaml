@@ -28,7 +28,7 @@ Tests:
       nipâw+V+AI+Ind+2Sg: kinipân
       nipâw+V+AI+Ind+3Sg: nipâw
       nipâw+V+AI+Ind+1Pl: ninipânân
-      nipâw+V+AI+Ind+12Pl: kinipânaw
+      nipâw+V+AI+Ind+12Pl: [kinipânaw, kinipânânaw]
       nipâw+V+AI+Ind+2Pl: kinipânâwâw
       nipâw+V+AI+Ind+3Pl: nipâwak
       nipâw+V+AI+Ind+4Sg/Pl: nipâthiwa
@@ -52,7 +52,7 @@ Tests:
       PV/ki+nipâw+V+AI+Ind+2Sg: kikî-nipân
       PV/ki+nipâw+V+AI+Ind+3Sg: kî-nipâw
       PV/ki+nipâw+V+AI+Ind+1Pl: nikî-nipânân
-      PV/ki+nipâw+V+AI+Ind+12Pl: kikî-nipânaw
+      PV/ki+nipâw+V+AI+Ind+12Pl: [kikî-nipânaw, kikî-nipânânaw]
       PV/ki+nipâw+V+AI+Ind+2Pl: kikî-nipânâwâw
       PV/ki+nipâw+V+AI+Ind+3Pl: kî-nipâwak
       PV/ki+nipâw+V+AI+Ind+4Sg/Pl: kî-nipâthiwa
@@ -76,7 +76,7 @@ Tests:
       PV/wi+nipâw+V+AI+Ind+2Sg: kiwî-nipân
       PV/wi+nipâw+V+AI+Ind+3Sg: wî-nipâw
       PV/wi+nipâw+V+AI+Ind+1Pl: niwî-nipânân
-      PV/wi+nipâw+V+AI+Ind+12Pl: kiwî-nipânaw
+      PV/wi+nipâw+V+AI+Ind+12Pl: [kiwî-nipânaw, kiwî-nipânânaw]
       PV/wi+nipâw+V+AI+Ind+2Pl: kiwî-nipânâwâw
       PV/wi+nipâw+V+AI+Ind+3Pl: wî-nipâwak
       PV/wi+nipâw+V+AI+Ind+4Sg/Pl: wî-nipâthiwa
@@ -100,7 +100,7 @@ Tests:
       PV/ka+nipâw+V+AI+Ind+2Sg: kika-nipân
       PV/ka+nipâw+V+AI+Ind+3Sg: ka-nipâw
       PV/ka+nipâw+V+AI+Ind+1Pl: nika-nipânân
-      PV/ka+nipâw+V+AI+Ind+12Pl: kika-nipânaw
+      PV/ka+nipâw+V+AI+Ind+12Pl: [kika-nipânaw, kika-nipânânaw]
       PV/ka+nipâw+V+AI+Ind+2Pl: kika-nipânâwâw
       PV/ka+nipâw+V+AI+Ind+3Pl: ka-nipâwak
       PV/ka+nipâw+V+AI+Ind+4Sg/Pl: ka-nipâthiwa
