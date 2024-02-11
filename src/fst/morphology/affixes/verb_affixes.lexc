@@ -1391,7 +1391,7 @@ LEXICON VAIw_IND_KI_SG_SUFFIX   !!= @CODE@
 
 LEXICON VAIw_IND_KI_PL_SUFFIX   !!= @CODE@ 
 +12Pl:%>n2aw VERB_ENDLEX ;
-! +12Pl:%>n2ânaw VERB_ENDLEX ; !Observed Plains Cree form, but not attested in Woods Cree
++12Pl:%>n2ânaw VERB_ENDLEX ;
 +2Pl:%>n2âwâw VERB_ENDLEX ;
 
 LEXICON VAIae_IND_NULL   !!= @CODE@  
@@ -1917,7 +1917,7 @@ LEXICON VTIm_IND_NULL_SG_SUFFIX   !!= @CODE@ NOTE: X actor will eventually deriv
 
 LEXICON VTIm_IND_NULL_PL_SUFFIX   !!= @CODE@ 
 +3Pl:%>mwak VERB_ENDLEX ;
-+4Sg/Pl:%>miyiwa VERB_ENDLEX ;
++4Sg/Pl:%>mithiwa VERB_ENDLEX ;
 
 !           ********
 ! **** Unspecified Actor ****
@@ -1963,15 +1963,15 @@ LEXICON VTIm_CNJ_NULL_PL_SUFFIX   !!= @CODE@
 
 +1Pl:%>mâhk VERB_ENDLEX ;
 +12Pl:%>mahk VERB_ENDLEX ;
-+2Pl:%>mêk VERB_ENDLEX ;
-+3Pl:%>hkik VERB_ENDLEX ;
-+4Sg/Pl:%>miyit VERB_ENDLEX ;
++2Pl:%>mîk VERB_ENDLEX ;
++3Pl:%>hkwâw VERB_ENDLEX ;
++4Sg/Pl:%>mithit VERB_ENDLEX ;
 
 !           ********
 ! **** Unspecified Actor ****
 !           ********
 
-+X+3Sg:%>mihki VERB_ENDLEX ;
+! +X+3Sg:%>mihki VERB_ENDLEX ;
 !! +X+4Pl:%>mihiyiki # ;
 
 ! ===================================================================================================================
@@ -1997,14 +1997,14 @@ VTIm_IMP_NULL_PL_SUFFIX ;
 
 LEXICON VTIm_IMP_SG_SUFFIX
 +Imm+2Sg:%>0   VERB_ENDLEX ; ! 
-+Del+2Sg:%>môhkan   VERB_ENDLEX ; !
++Del+2Sg:%>mohkan   VERB_ENDLEX ; !
 
 
 LEXICON VTIm_IMP_NULL_PL_SUFFIX
 +Imm+12Pl:%>tân	  VERB_ENDLEX ; ! ! <a> to <ê> / _ %>tân
 +Imm+2Pl:%>mok	 VERB_ENDLEX ; !
-+Del+12Pl:%>môhkahk   VERB_ENDLEX ; !
-+Del+2Pl:%>môhkêk   VERB_ENDLEX ; !
++Del+12Pl:%>mohkahk   VERB_ENDLEX ; !
++Del+2Pl:%>mohkîk   VERB_ENDLEX ; !
 
 
 ! ===================================================================================================================
@@ -2045,11 +2045,11 @@ LEXICON VTIm_FUT_CON_NULL_SG_SUFFIX   !!= @CODE@
 LEXICON VTIm_FUT_CON_NULL_PL_SUFFIX   !!= @CODE@ 
 
 +1Pl:%>mâhki VERB_ENDLEX ;
-+12Pl:%>mahko VERB_ENDLEX ;
 +12Pl:%>mahki VERB_ENDLEX ;
-+2Pl:%>mêko VERB_ENDLEX ;
++12Pl:%>mahki VERB_ENDLEX ;
++2Pl:%>mîko VERB_ENDLEX ;
 +3Pl:%>hkwâwi VERB_ENDLEX ;
-+4Sg/Pl:%>miyici VERB_ENDLEX ;
++4Sg/Pl:%>mithici VERB_ENDLEX ;
 
 !           ********
 ! **** Unspecified Actor ****
