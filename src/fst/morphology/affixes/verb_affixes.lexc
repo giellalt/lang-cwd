@@ -934,11 +934,11 @@ VIIn_PL_IND_SUFFIX ;
 
 LEXICON VIIn_SG_IND_SUFFIX   !!= @CODE@ singular
 +3Sg:%>0 VERB_ENDLEX ;
-+4Sg:%>iyiw VERB_ENDLEX ;
++4Sg:%>ithiw VERB_ENDLEX ;
 
 LEXICON VIIn_PL_IND_SUFFIX  !!= @CODE@ plural
 +3Pl:%>wa VERB_ENDLEX ;
-+4Pl:%>iyiwa VERB_ENDLEX ;
++4Pl:%>ithiwa VERB_ENDLEX ;
 
 ! ===========================================================
 ! ===========================================================
@@ -953,11 +953,11 @@ VIIw_PL_IND_SUFFIX ;
 
 LEXICON VIIw_SG_IND_SUFFIX   !!= @CODE@ w final singular
 +3Sg:%>w VERB_ENDLEX ;
-+4Sg:%>yiw VERB_ENDLEX ;
++4Sg:%>thiw VERB_ENDLEX ;
 
 LEXICON VIIw_PL_IND_SUFFIX  !!= @CODE@ w final plural
 +3Pl:%>wa VERB_ENDLEX ;
-+4Pl:%>yiwa VERB_ENDLEX ;
++4Pl:%>thiwa VERB_ENDLEX ;
 
 
 ! ******************
@@ -977,11 +977,11 @@ VIIn_PL_CNJ_SUFFIX ;
 
 LEXICON VIIn_SG_CNJ_SUFFIX   !!= @CODE@ singular
 +3Sg:%>k VERB_ENDLEX ;
-+4Sg:%>iyik VERB_ENDLEX ;
++4Sg:%>ithik VERB_ENDLEX ;
 
 LEXICON VIIn_PL_CNJ_SUFFIX  !!= @CODE@ plural
 +3Pl:%>ki VERB_ENDLEX ;
-+4Pl:%>iyiki VERB_ENDLEX ;
++4Pl:%>ithiki VERB_ENDLEX ;
 
 ! ===========================================================
 ! ===========================================================
@@ -995,11 +995,11 @@ VIIw_PL_CNJ_SUFFIX ;
 
 LEXICON VIIw_SG_CNJ_SUFFIX   !!= @CODE@ w final singular
 +3Sg:%>k VERB_ENDLEX ;
-+4Sg:%>yik VERB_ENDLEX ;
++4Sg:%>thik VERB_ENDLEX ;
 
 LEXICON VIIw_PL_CNJ_SUFFIX   !!= @CODE@ w final plural
 +3Pl:%>ki VERB_ENDLEX ;
-+4Pl:%>yiki VERB_ENDLEX ;
++4Pl:%>thiki VERB_ENDLEX ;
 
 ! ****************************
 !!!! FUTURE CONDITIONAL !!!!
@@ -1018,11 +1018,11 @@ VIIn_PL_FUT_CON_SUFFIX ;
 
 LEXICON VIIn_SG_FUT_CON_SUFFIX   !!= @CODE@ singular
 +3Sg:%>ki VERB_ENDLEX ;
-+4Sg:%>iyiki VERB_ENDLEX ;
++4Sg:%>ithiki VERB_ENDLEX ;
 
 LEXICON VIIn_PL_FUT_CON_SUFFIX  !!= @CODE@ plural
 +3Pl:%>kwâwi VERB_ENDLEX ;
-+4Pl:%>iyikwâwi VERB_ENDLEX ;
++4Pl:%>ithikwâwi VERB_ENDLEX ;
 
 ! ===========================================================
 ! ===========================================================
@@ -1036,11 +1036,11 @@ VIIw_PL_FUT_CON_SUFFIX ;
 
 LEXICON VIIw_SG_FUT_CON_SUFFIX   !!= @CODE@ w final singular
 +3Sg:%>ki VERB_ENDLEX ;
-+4Sg:%>yiki VERB_ENDLEX ;
++4Sg:%>thiki VERB_ENDLEX ;
 
 LEXICON VIIw_PL_FUT_CON_SUFFIX   !!= @CODE@ w final plural
 +3Pl:%>kwâwi VERB_ENDLEX ;
-+4Pl:%>yikwâwi VERB_ENDLEX ;
++4Pl:%>thikwâwi VERB_ENDLEX ;
 
 
 !! Intransitive animate (AI)
