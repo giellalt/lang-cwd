@@ -5,7 +5,7 @@ Config:
 
 Tests:
 
-   Lemma - mîcisow : :
+   Lemma - mîcisow : 
 
       # Core 
 
@@ -16,7 +16,7 @@ Tests:
 
       # Prs+Cnj
       PV/î+mîcisow+V+AI+Cnj+1Sg: î-mîcisoyân   # as I eat, as I have a meal
-      PV/î+mîcisow+V+AI+Cnj+2Sg: î-mîcisoyan   # as you eat, as you have a meal
+      PV/î+mîcisow+V+AI+Cnj+2Sg: [î-mîcisoyan, î-mîcisoyin]   # as you eat, as you have a meal
       PV/î+mîcisow+V+AI+Cnj+3Sg: î-mîcisot   # as he/she eats, as he/she has a meal
 
       # Imp
@@ -28,7 +28,7 @@ Tests:
       mîcisow+V+AI+Ind+2Sg: kimîcison   # you eat, you have a meal
       mîcisow+V+AI+Ind+3Sg: mîcisow   # he/she eats, he/she has a meal
       mîcisow+V+AI+Ind+1Pl: nimîcisonân   # we eat, we have a meal
-      mîcisow+V+AI+Ind+12Pl: kimîcisonaw   # we and you eat, we and you have a meal
+      mîcisow+V+AI+Ind+12Pl: [kimîcisonaw, kimîcisonânaw]   # we and you eat, we and you have a meal
       mîcisow+V+AI+Ind+2Pl: kimîcisonâwâw   # you all eat, you all have a meal
       mîcisow+V+AI+Ind+3Pl: mîcisowak   # they eat, they have a meal
       mîcisow+V+AI+Ind+4Sg/Pl: mîcisothiwa   # another/others eat, another/others have a meal
@@ -37,7 +37,7 @@ Tests:
 
       # Prs # Cnj
       PV/î+mîcisow+V+AI+Cnj+1Sg: î-mîcisoyân   # as I eat, as I have a meal
-      PV/î+mîcisow+V+AI+Cnj+2Sg: î-mîcisoyan   # as you eat, as you have a meal
+      PV/î+mîcisow+V+AI+Cnj+2Sg: [î-mîcisoyan, î-mîcisoyin]   # as you eat, as you have a meal
       PV/î+mîcisow+V+AI+Cnj+3Sg: î-mîcisot   # as he/she eats, as he/she has a meal
       PV/î+mîcisow+V+AI+Cnj+1Pl: î-mîcisoyâhk   # as we eat, as we have a meal
       PV/î+mîcisow+V+AI+Cnj+12Pl: î-mîcisoyahk   # as we and you eat, as we and you have a meal
@@ -52,7 +52,7 @@ Tests:
       PV/ki+mîcisow+V+AI+Ind+2Sg: kikî-mîcison   # you ate, you had a meal
       PV/ki+mîcisow+V+AI+Ind+3Sg: kî-mîcisow   # he/she ate, he/she had a meal
       PV/ki+mîcisow+V+AI+Ind+1Pl: nikî-mîcisonân   # we ate, we had a meal
-      PV/ki+mîcisow+V+AI+Ind+12Pl: kikî-mîcisonaw   # we and you ate, we and you had a meal
+      PV/ki+mîcisow+V+AI+Ind+12Pl: [kikî-mîcisonaw, kikî-mîcisonânaw]   # we and you ate, we and you had a meal
       PV/ki+mîcisow+V+AI+Ind+2Pl: kikî-mîcisonâwâw   # you all ate, you all had a meal
       PV/ki+mîcisow+V+AI+Ind+3Pl: kî-mîcisowak   # they ate, they had a meal
       PV/ki+mîcisow+V+AI+Ind+4Sg/Pl: kî-mîcisothiwa   # another/others ate, another/others had a meal
@@ -61,7 +61,7 @@ Tests:
 
       # Prt # Cnj
       PV/î+PV/ki+mîcisow+V+AI+Cnj+1Sg: î-kî-mîcisoyân   # as I ate, as I had a meal
-      PV/î+PV/ki+mîcisow+V+AI+Cnj+2Sg: î-kî-mîcisoyan   # as you ate, as you had a meal
+      PV/î+PV/ki+mîcisow+V+AI+Cnj+2Sg: [î-kî-mîcisoyan, î-kî-mîcisoyin]   # as you ate, as you had a meal
       PV/î+PV/ki+mîcisow+V+AI+Cnj+3Sg: î-kî-mîcisot   # as he/she ate, as he/she had a meal
       PV/î+PV/ki+mîcisow+V+AI+Cnj+1Pl: î-kî-mîcisoyâhk   # as we ate, as we had a meal
       PV/î+PV/ki+mîcisow+V+AI+Cnj+12Pl: î-kî-mîcisoyahk   # as we and you ate, as we and you had a meal
@@ -76,7 +76,7 @@ Tests:
       PV/wi+mîcisow+V+AI+Ind+2Sg: kiwî-mîcison   # you are going to eat, you are going to have a meal
       PV/wi+mîcisow+V+AI+Ind+3Sg: wî-mîcisow   # he/she is going to eat, he/she is going to have a meal
       PV/wi+mîcisow+V+AI+Ind+1Pl: niwî-mîcisonân   # we are going to eat, we are going to have a meal
-      PV/wi+mîcisow+V+AI+Ind+12Pl: kiwî-mîcisonaw   # we and you are going to eat, we and you are going to have a meal
+      PV/wi+mîcisow+V+AI+Ind+12Pl: [kiwî-mîcisonaw, kiwî-mîcisonânaw]   # we and you are going to eat, we and you are going to have a meal
       PV/wi+mîcisow+V+AI+Ind+2Pl: kiwî-mîcisonâwâw   # you all are going to eat, you all are going to have a meal
       PV/wi+mîcisow+V+AI+Ind+3Pl: wî-mîcisowak   # they are going to eat, they are going to have a meal
       PV/wi+mîcisow+V+AI+Ind+4Sg/Pl: wî-mîcisothiwa   # another/others are going to eat, another/others are going to have a meal
@@ -85,7 +85,7 @@ Tests:
 
       # Fut+Int # Cnj
       PV/î+PV/wi+mîcisow+V+AI+Cnj+1Sg: î-wî-mîcisoyân   # as I am going to eat, as I am going to have a meal
-      PV/î+PV/wi+mîcisow+V+AI+Cnj+2Sg: î-wî-mîcisoyan   # as you are going to eat, as you are going to have a meal
+      PV/î+PV/wi+mîcisow+V+AI+Cnj+2Sg: [î-wî-mîcisoyan, î-wî-mîcisoyin]   # as you are going to eat, as you are going to have a meal
       PV/î+PV/wi+mîcisow+V+AI+Cnj+3Sg: î-wî-mîcisot   # as he/she is going to eat, as he/she is going to have a meal
       PV/î+PV/wi+mîcisow+V+AI+Cnj+1Pl: î-wî-mîcisoyâhk   # as we are going to eat, as we are going to have a meal
       PV/î+PV/wi+mîcisow+V+AI+Cnj+12Pl: î-wî-mîcisoyahk   # as we and you are going to eat, as we and you are going to have a meal
@@ -100,7 +100,7 @@ Tests:
       PV/ka+mîcisow+V+AI+Ind+2Sg: kika-mîcison   # you will eat, you will have a meal
       PV/ka+mîcisow+V+AI+Ind+3Sg: ka-mîcisow   # he/she will eat, he/she will have a meal
       PV/ka+mîcisow+V+AI+Ind+1Pl: nika-mîcisonân   # we will eat, we will have a meal
-      PV/ka+mîcisow+V+AI+Ind+12Pl: kika-mîcisonaw   # we and you will eat, we and you will have a meal
+      PV/ka+mîcisow+V+AI+Ind+12Pl: [kika-mîcisonaw, kika-mîcisonânaw]   # we and you will eat, we and you will have a meal
       PV/ka+mîcisow+V+AI+Ind+2Pl: kika-mîcisonâwâw   # you all will eat, you all will have a meal
       PV/ka+mîcisow+V+AI+Ind+3Pl: ka-mîcisowak   # they will eat, they will have a meal
       PV/ka+mîcisow+V+AI+Ind+4Sg/Pl: ka-mîcisothiwa   # another/others will eat, another/others will have a meal
@@ -109,7 +109,7 @@ Tests:
 
       # Inf # PV/ka
       PV/ka+mîcisow+V+AI+Cnj+1Sg: ka-mîcisoyân   # I will eat, I will have a meal
-      PV/ka+mîcisow+V+AI+Cnj+2Sg: ka-mîcisoyan   # you will eat, you will have a meal
+      PV/ka+mîcisow+V+AI+Cnj+2Sg: [ka-mîcisoyan, ka-mîcisoyin]   # you will eat, you will have a meal
       PV/ka+mîcisow+V+AI+Cnj+3Sg: ka-mîcisot   # he/she will eat, he/she will have a meal
       PV/ka+mîcisow+V+AI+Cnj+1Pl: ka-mîcisoyâhk   # we will eat, we will have a meal
       PV/ka+mîcisow+V+AI+Cnj+12Pl: ka-mîcisoyahk   # we and you will eat, we and you will have a meal
@@ -121,7 +121,7 @@ Tests:
 
       # Inf # PV/ta
       PV/ta+mîcisow+V+AI+Cnj+1Sg: ta-mîcisoyân   # I eat, I have a meal
-      PV/ta+mîcisow+V+AI+Cnj+2Sg: ta-mîcisoyan   # you eat, you have a meal
+      PV/ta+mîcisow+V+AI+Cnj+2Sg: [ta-mîcisoyan, ta-mîcisoyin]   # you eat, you have a meal
       PV/ta+mîcisow+V+AI+Cnj+3Sg: ta-mîcisot   # he/she eats, he/she has a meal
       PV/ta+mîcisow+V+AI+Cnj+1Pl: ta-mîcisoyâhk   # we eat, we have a meal
       PV/ta+mîcisow+V+AI+Cnj+12Pl: ta-mîcisoyahk   # we and you eat, we and you have a meal
@@ -133,7 +133,7 @@ Tests:
 
       # Fut # Cond
       mîcisow+V+AI+Fut+Cond+1Sg: mîcisoyâni   # when I eat, when I have a meal
-      mîcisow+V+AI+Fut+Cond+2Sg: mîcisoyani   # when you eat, when you have a meal
+      mîcisow+V+AI+Fut+Cond+2Sg: [mîcisoyani, mîcisoyini]   # when you eat, when you have a meal
       mîcisow+V+AI+Fut+Cond+3Sg: mîcisoci   # when he/she eats, when he/she has a meal
       mîcisow+V+AI+Fut+Cond+1Pl: mîcisoyâhki   # when we eat, when we have a meal
       mîcisow+V+AI+Fut+Cond+12Pl: mîcisoyahki   # when we and you eat, when we and you have a meal
