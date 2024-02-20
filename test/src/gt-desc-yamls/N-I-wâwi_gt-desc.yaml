@@ -1,0 +1,36 @@
+Config:
+  xerox:
+    Gen: ../../../src/fst/generator-gt-desc.xfst
+    Morph:  ../../../src/fst/analyser-gt-desc.xfst
+  App: lookup
+
+Tests:
+
+  Lemma - wâwi :
+
+      # Standard forms
+      wâwi+N+I+Sg: wâwi
+      wâwi+N+I+Pl: wâwa
+      wâwi+N+I+Px1Sg+Sg: niwâwim
+      wâwi+N+I+Px1Sg+Pl: niwâwima
+      wâwi+N+I+Px1Pl+Sg: niwâwiminân
+      wâwi+N+I+Px1Pl+Pl: niwâwiminâna
+      wâwi+N+I+Px3Sg+Sg: owâwim
+      wâwi+N+I+Px3Sg+Pl: owâwima
+      wâwi+N+I+Der/Dim+N+I+Sg: [wâwis, wâwisîs]
+      wâwi+N+I+Der/Dim+N+I+Pl: [wâwisa, wâwisîsa]
+      wâwi+N+I+Der/Dim+N+I+Px1Sg+Sg: [niwâwimis, niwâwimisîs]
+      wâwi+N+I+Der/Dim+N+I+Px1Sg+Pl: [niwâwimisa, niwâwimisîsa]
+      wâwi+N+I+Der/Dim+N+I+Px1Pl+Sg: [niwâwimisinân, niwâwimisîsinân]
+      wâwi+N+I+Der/Dim+N+I+Px1Pl+Pl: [niwâwimisinâna, niwâwimisîsinâna]
+      # Non-standard forms
+      wâwi+N+I+Px1Sg+Sg+Err/Thm: niwâwi
+      wâwi+N+I+Px1Sg+Pl+Err/Thm: niwâwa
+      wâwi+N+I+Px1Pl+Sg+Err/Thm: niwâwinân
+      wâwi+N+I+Px1Pl+Pl+Err/Thm: niwâwinâna
+      wâwi+N+I+Px3Sg+Sg+Err/Thm: owâwi
+      wâwi+N+I+Px3Sg+Pl+Err/Thm: owâwa
+      wâwi+N+I+Der/Dim+N+I+Px1Sg+Sg+Err/Thm: [niwâwis, niwâwisîs, niwâwisim, niwâwisîsim, niwâwimisim, niwâwimisîsim]
+      wâwi+N+I+Der/Dim+N+I+Px1Sg+Pl+Err/Thm: [niwâwisa, niwâwisîsa, niwâwisima, niwâwisîsima, niwâwimisima, niwâwimisîsima]
+      wâwi+N+I+Der/Dim+N+I+Px1Pl+Sg+Err/Thm: [niwâwisinân, niwâwisiminân, niwâwimisiminân]
+      wâwi+N+I+Der/Dim+N+I+Px1Pl+Pl+Err/Thm: [niwâwisinâna, niwâwisiminâna, niwâwimisiminâna]

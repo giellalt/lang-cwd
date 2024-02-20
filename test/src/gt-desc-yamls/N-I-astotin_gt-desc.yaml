@@ -1,0 +1,26 @@
+Config:
+  xerox:
+    Gen: ../../../src/fst/generator-gt-desc.xfst
+    Morph:  ../../../src/fst/analyser-gt-desc.xfst
+  App: lookup
+
+Tests:
+
+  Lemma - astotin :
+
+     astotin+N+I+Sg: astotin
+     astotin+N+I+Pl: astotina
+     astotin+N+I+Px1Sg+Sg: nitastotin
+     astotin+N+I+Px1Sg+Pl: nitastotina
+     astotin+N+I+Px3Sg+Sg: otastotin
+     astotin+N+I+Px3Sg+Pl: otastotina
+     astotin+N+I+Der/Dim+N+I+Sg: [ascocinis, ascocinisîs]
+     astotin+N+I+Der/Dim+N+I+Px1Sg+Sg: [nicascocinis, nicascocinisîs]
+     astotin+N+I+Der/Dim+N+I+Px3Sg+Pl: [ocascocinisa, ocascocinisîsa]
+     # Non-standard forms
+     astotin+N+I+Px1Sg+Sg+Err/Thm: nitastotinim
+     astotin+N+I+Px1Sg+Pl+Err/Thm: nitastotinima
+     astotin+N+I+Px3Sg+Pl+Err/Thm: otastotinima
+     astotin+N+I+Der/Dim+N+I+Px1Sg+Sg+Err/Thm: [nicascocinimis, nicascocinimisîs, nicascocinisim, nicascocinisîsim, nicascocinisim, nicascocinisîsim, nicascocinimisim, nicascocinimisîsim]
+     astotin+N+I+Der/Dim+N+I+Px1Sg+Pl+Err/Thm: [nicascocinimisa, nicascocinimisîsa, nicascocinisima, nicascocinisîsima, nicascocinisima, nicascocinisîsima, nicascocinimisima, nicascocinimisîsima]
+     astotin+N+I+Der/Dim+N+I+Px3Sg+Pl+Err/Thm: [ocascocinimisa, ocascocinimisîsa, ocascocinisima, ocascocinisîsima, ocascocinisima, ocascocinisîsima, ocascocinimisima, ocascocinimisîsima]
