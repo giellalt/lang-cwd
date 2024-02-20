@@ -62,37 +62,102 @@ LEXICON NOUN_DEP_NONKINSHIP_PREFIXES
 ! NA
 
 LEXICON NA_POSS/IM
-@P.im.IM@ NA ;
+@P.theme.IM@ NA ;
+
+LEXICON NA_POSS/IM2
+@P.theme.IM2@ NA ;
 
 LEXICON NA_DIM/IS
-@P.is.IS@ NA ;
+@P.dim.IS@ NA ;
 
 LEXICON NA_DIM/ISIS
-@P.isis.ISIS@ NA ;
+@P.dim.ISIS@ NA ;
+
+LEXICON NA_DIM/DIM
+@P.dim.DIM@ NA ;
 
 LEXICON NA_POSS/IM_DIM/IS
-@P.im.IM@@P.is.IS@ NA ;
+@P.theme.IM@ NA_DIM/IS ;
 
 LEXICON NA_POSS/IM_DIM/ISIS
-@P.im.IM@@P.isis.ISIS@ NA ;
+@P.theme.IM@ NA_DIM/ISIS ;
+
+LEXICON NA_POSS/IM2_DIM/IS
+@P.theme.IM2@ NA_DIM/IS ;
+
+LEXICON NA_POSS/IM2_DIM/ISIS
+@P.theme.IM2@ NA_DIM/ISIS ;
 
 LEXICON NA_SG/A_POSS/IM
-@U.sg.A@ NA_POSS/IM ;
+@P.sg.A@ NA_POSS/IM ;
 
 LEXICON NA_SG/I_POSS/IM
-@U.sg.I@ NA_POSS/IM ;
+@P.sg.I@ NA_POSS/IM ;
 
 LEXICON NA_SG/A_POSS/IM_DIM/IS
-@U.sg.A@ NA_POSS/IM_DIM/IS ;
+@P.sg.A@ NA_POSS/IM_DIM/IS ;
 
 LEXICON NA_SG/A_POSS/IM_DIM/ISIS
-@U.sg.A@ NA_POSS/IM_DIM/ISIS ;
+@P.sg.A@ NA_POSS/IM_DIM/ISIS ;
 
 LEXICON NA_SG/I_POSS/IM_DIM/IS
-@U.sg.I@ NA_POSS/IM_DIM/IS ;
+@P.sg.I@ NA_POSS/IM_DIM/IS ;
 
 LEXICON NA_SG/I_POSS/IM_DIM/ISIS
-@U.sg.I@ NA_POSS/IM_DIM/ISIS ;
+@P.sg.I@ NA_POSS/IM_DIM/ISIS ;
+
+! NAD
+
+LEXICON NAD_POSS/IM
+@P.theme.IM@ NAD ;
+
+LEXICON NAD_POSS/IM2
+@P.theme.IM2@ NAD ;
+
+LEXICON NAD_DIM/IS
+@P.dim.IS@ NAD ;
+
+LEXICON NAD_DIM/ISIS
+@P.dim.ISIS@ NAD ;
+
+LEXICON NAD_DIM/DIM
+@P.dim.DIM@ NAD ;
+
+LEXICON NAD_POSS/IM_DIM/IS
+@P.theme.IM@ NAD_DIM/IS ;
+
+LEXICON NAD_POSS/IM_DIM/ISIS
+@P.theme.IM@ NAD_DIM/ISIS ;
+
+LEXICON NAD_POSS/IM2_DIM/IS
+@P.theme.IM2@ NAD_DIM/IS ;
+
+LEXICON NAD_POSS/IM2_DIM/ISIS
+@P.theme.IM2@ NAD_DIM/ISIS ;
+
+LEXICON NAD_SG/A
+@P.sg.A@ NAD ;
+
+LEXICON NAD_SG/I
+@P.sg.I@ NAD ;
+
+LEXICON NAD_SG/A_POSS/IM
+@P.sg.A@ NAD_POSS/IM ;
+
+LEXICON NAD_SG/I_POSS/IM
+@P.sg.I@ NAD_POSS/IM ;
+
+LEXICON NAD_SG/A_POSS/IM_DIM/IS
+@P.sg.A@ NAD_POSS/IM_DIM/IS ;
+
+LEXICON NAD_SG/A_POSS/IM_DIM/ISIS
+@P.sg.A@ NAD_POSS/IM_DIM/ISIS ;
+
+LEXICON NAD_SG/I_POSS/IM_DIM/IS
+@P.sg.I@ NAD_POSS/IM_DIM/IS ;
+
+LEXICON NAD_SG/I_POSS/IM_DIM/ISIS
+@P.sg.I@ NAD_POSS/IM_DIM/ISIS ;
 
 ! NI
 
@@ -116,29 +181,6 @@ LEXICON NI_SG/I_POSS/IM
 
 LEXICON NI_SG/I_POSS/IM_DIM/IS
 @U.sg.I@ NI_POSS/IM_DIM/IS ;
-
-! NAD 
-
-LEXICON NAD_POSS/IM
-@P.im.IM@ NAD ;
-
-LEXICON NAD_DIM/IS
-@P.is.IS@ NAD ;
-
-LEXICON NAD_DIM/ISIS
-@P.isis.ISIS@ NAD ;
-
-LEXICON NAD_POSS/IM_DIM/IS
-@P.im.IM@@P.is.IS@ NAD ;
-
-LEXICON NAD_POSS/IM_DIM/ISIS
-@P.im.IM@@P.isis.ISIS@ NAD ;
-
-LEXICON NAD_SG/A
-@U.sg.A@ NAD ;
-
-LEXICON NAD_SG/A_DIM/IS
-@U.sg.A@ NAD_DIM/IS ;
 
 ! NID
 
@@ -166,10 +208,10 @@ LEXICON NID_SG/I_DIM/IS
 ! Starting with the general morphosyntactic features in a standardized order
 
 LEXICON NA
-+N+A:0 NA_POSS_IM_0_SUFFIX ;
++N+A:0 NA_POSS_GATE1 ;
 
 LEXICON NAD
-@P.dep.DEP@+N+A+D:@P.dep.DEP@0 NA_POSS_IM_0_SUFFIX ;
+@P.dep.DEP@+N+A+D:@P.dep.DEP@0 NA_POSS_GATE1 ;
 
 LEXICON NI
 +N+I:0 NI_POSS_IM_0_SUFFIX ;
@@ -179,25 +221,78 @@ LEXICON NID
 
 !! Suffixation for animate nouns
 
-LEXICON NA_POSS_IM_0_SUFFIX
-@D.person.NULL@@R.im.IM@@C.sg@:@D.person.NULL@@R.im.IM@@C.sg@%>i2m                       NA_DIM_SUFFIXES ;
-@D.person.NULL@@R.im.IM@@P.err.Thm@:@D.person.NULL@@R.im.IM@@P.err.Thm@0                 NA_DIM_SUFFIXES ; ! Incorrectly using 0-poss rather than im-poss
-@D.person.NULL@@D.im.IM@                                                                 NA_DIM_SUFFIXES ;
-@D.person.NULL@@D.im.IM@@P.err.Thm@@C.sg@:@D.person.NULL@@D.im.IM@@P.err.Thm@@C.sg@%>i2m NA_DIM_SUFFIXES ; ! Incorrectly using im-poss rather than 0-poss
-@R.person.NULL@                                                                          NA_DIM_SUFFIXES ;
+LEXICON NA_POSS_GATE1
+@D.person.NULL@ NA_THEME_SUFFIX1 ;
+@R.person.NULL@ NA_DIM_GATE ;
 
-LEXICON NA_DIM_SUFFIXES
-NA_POSS_SUFFIXES ;
+LEXICON NA_THEME_SUFFIX1
+! Standard forms
+@D.theme.IM@0                                                    NA_DIM_GATE ;
+@R.theme.IM@@C.sg@:@R.theme.IM@@C.sg@%>i2m                       NA_DIM_GATE ;
+! Non-standard forms
+@D.theme.IM@@P.err.Thm@@C.sg@:@D.theme.IM@@P.err.Thm@@C.sg@%>i2m NA_DIM_GATE ;
+@R.theme.IM@@P.err.Thm@0                                         NA_DIM_GATE ;
+
+LEXICON NA_DIM_GATE
+@P.dim.NULL@                          NA_POSS_GATE2 ;
+@D.dep@+Der/Dim+N+A:@D.dep@           NA_DIM_SUFFIX ;
+@R.dep.DEP@+Der/Dim+N+A+D:@R.dep.DEP@ NA_DIM_SUFFIX ;
+
+LEXICON NA_DIM_SUFFIX
+! Standard forms
+@R.dim.IS@@C.sg@:@R.dim.IS@@C.sg@%>i2^DIMs                               NA_POSS_GATE2 ;
+@R.dim.ISIS@@C.sg@:@R.dim.ISIS@@C.sg@%>i2^DIMsîs                         NA_POSS_GATE2 ;
+@D.dim@@C.sg@:@D.dim@@C.sg@%>i2^DIMs                                     NA_POSS_GATE2 ;
+@D.dim@@C.sg@:@D.dim@@C.sg@%>i2^DIMsîs                                   NA_POSS_GATE2 ;
+! Non-standard forms
+@R.dim.DIM@@P.err2.Dim@@C.sg@:@R.dim.DIM@@P.err2.Dim@@C.sg@%>i2^DIMs     NA_POSS_GATE2 ;
+@R.dim.DIM@@P.err2.Dim@@C.sg@:@R.dim.DIM@@P.err2.Dim@@C.sg@%>i2^DIMsîs   NA_POSS_GATE2 ;
+@R.dim.ISIS@@P.err2.Dim@@C.sg@:@R.dim.ISIS@@P.err2.Dim@@C.sg@%>i2^DIMs   NA_POSS_GATE2 ;
+@R.dim.IS@@P.err2.Dim@@C.sg@:@R.dim.IS@@P.err2.Dim@@C.sg@%>i2^DIMsîs     NA_POSS_GATE2 ;
+
+LEXICON NA_POSS_GATE2
+@D.person.NULL@ NA_THEME_SUFFIX2 ;
+@R.person.NULL@ NA_NUMBER_OBV_LOC_SUFFIXES ;
+
+LEXICON NA_THEME_SUFFIX2
+! Standard forms
+@D.theme.IM2@0                                                                             NA_POSS_SUFFIXES ;
+@D.dim.NULL@@R.theme.IM2@@C.sg@:@D.dim.NULL@@R.theme.IM2@@C.sg@%>i2m                       NA_POSS_SUFFIXES ;
+! Non-standard forms
+@D.dim.NULL@@R.theme.IM2@@P.err.Thm@0                                                      NA_POSS_SUFFIXES ;
+@D.dim.NULL@@D.theme.IM2@@P.err.Thm@@C.sg@:@D.dim.NULL@@D.theme.IM2@@P.err.Thm@@C.sg@%>i2m NA_POSS_SUFFIXES ;
+
+! LEXICON NA_POSS_THEME_SUFFIX
+! @R.person.NULL@                                                                            NA_DIM_SUFFIXES ;
+! @D.person.NULL@@R.im.IM@@C.sg@:@D.person.NULL@@R.im.IM@@C.sg@%>i2m                         NA_DIM_SUFFIXES ;
+! @D.person.NULL@@R.im.IM2@@C.sg@:@D.person.NULL@@R.im.IM2@@C.sg@%>i2m                       NA_POSS_SUFFIXES ;
+! @D.person.NULL@@R.im.IM2@@P.err.Thm@@C.sg@:@D.person.NULL@@R.im.IM2@@P.err.Thm@@C.sg@%>i2m NA_DIM_SUFFIXES ;
+! @D.person.NULL@@R.im.IM@@P.err.Thm@:@D.person.NULL@@R.im.IM@@P.err.Thm@0                   NA_DIM_SUFFIXES ; ! Incorrectly using 0-poss rather than im-poss
+! @D.person.NULL@@D.im.IM@                                                                   NA_DIM_SUFFIXES ;
+! @D.person.NULL@@D.im.IM@@P.err.Thm@@C.sg@:@D.person.NULL@@D.im.IM@@P.err.Thm@@C.sg@%>i2m   NA_DIM_SUFFIXES ; ! Incorrectly using im-poss rather than 0-poss
+!
+! LEXICON NA_DIM_SUFFIXES
+! @D.person.NULL@          NA_POSS_SUFFIXES ;
+! @R.person.NULL@ NA_NUMBER_OBV_LOC_SUFFIXES ;
 ! Independent NAs
-@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs   NA_POSS_SUFFIXES ;
-@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsîs         NA_POSS_SUFFIXES ;
-@D.dep.DEP@@D.dim@@R.isis.ISIS@@C.sg@@P.err2.Dim@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@R.isis.ISIS@@C.sg@@P.err2.Dim@%>i2%^DIMs   NA_POSS_SUFFIXES ;
-@D.dep.DEP@@D.dim@@R.is.IS@@C.sg@@P.err2.Dim@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@R.is.IS@@C.sg@@P.err2.Dim@%>i2%^DIMsîs         NA_POSS_SUFFIXES ;
+! @D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs   NA_POSS_THEME2_SUFFIX ;
+! @D.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsîs         NA_POSS_THEME2_SUFFIX ;
+! @D.dep.DEP@@D.dim@@R.isis.ISIS@@C.sg@@P.err2.Dim@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@R.isis.ISIS@@C.sg@@P.err2.Dim@%>i2%^DIMs   NA_POSS_THEME2_SUFFIX ;
+! @D.dep.DEP@@D.dim@@R.is.IS@@C.sg@@P.err2.Dim@+Der/Dim+N+A:@D.dep.DEP@@D.dim@@R.is.IS@@C.sg@@P.err2.Dim@%>i2%^DIMsîs         NA_POSS_THEME2_SUFFIX ;
 ! Dependent NAs
-@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs NA_POSS_SUFFIXES ;
-@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsîs       NA_POSS_SUFFIXES ;
-@R.dep.DEP@@D.dim@@R.isis.ISIS@@C.sg@@P.err2.Dim@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@@P.err2.Dim@%>i2%^DIMs NA_POSS_SUFFIXES ;
-@R.dep.DEP@@D.dim@@R.is.IS@@C.sg@@P.err2.Dim@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@@P.err2.Dim@%>i2%^DIMsîs       NA_POSS_SUFFIXES ;
+! @R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs NA_POSS_THEME2_SUFFIX ;
+! @R.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsîs       NA_POSS_THEME2_SUFFIX ;
+! @R.dep.DEP@@D.dim@@R.isis.ISIS@@C.sg@@P.err2.Dim@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@@P.err2.Dim@%>i2%^DIMs NA_POSS_THEME2_SUFFIX ;
+! @R.dep.DEP@@D.dim@@R.is.IS@@C.sg@@P.err2.Dim@+Der/Dim+N+A+D:@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@@P.err2.Dim@%>i2%^DIMsîs       NA_POSS_THEME2_SUFFIX ;
+!
+! LEXICON NA_POSS_THEME2_SUFFIX
+! @R.person.NULL@                                                                            NA_NUMBER_OBV_LOC_SUFFIXES ;
+! @D.person.NULL@@D.im@                                                                      NA_POSS_SUFFIXES ;
+! @D.person.NULL@@D.im@@P.err.Thm@:@D.person.NULL@@D.im@@P.err.Thm@%>i2m                     NA_POSS_SUFFIXES ;
+! @D.person.NULL@@R.im.IM2@@C.sg@:@D.person.NULL@@R.im.IM2@@C.sg@%>i2m                       NA_POSS_SUFFIXES ;
+! @D.person.NULL@@R.im.IM2@@P.err.Thm@:@D.person.NULL@@R.im.IM2@@P.err.Thm@0                 NA_POSS_SUFFIXES ;
+! @D.person.NULL@@R.im.IM@@P.err.Thm@@C.sg@:@D.person.NULL@@R.im.IM@@P.err.Thm@@C.sg@%>i2m   NA_POSS_SUFFIXES ;
+! @D.person.NULL@@R.im.IM@:@D.person.NULL@@R.im.IM@0                                         NA_POSS_SUFFIXES ;
 
 LEXICON NA_POSS_SUFFIXES
 ! Singular possessors
@@ -395,7 +490,7 @@ LEXICON OSI_SUFFIXES
 LEXICON NOUN_ENDLEX
 ! Adding diminutive trigger to lexicalized diminutives to palatalize potential poss. person prefixes
 @R.dim.DIM@:@R.dim.DIM@%^DIM NOUN_ENDLEX2 ;
-@D.dim@ NOUN_ENDLEX2 ;
+@D.dim.DIM@ NOUN_ENDLEX2 ;
 
 LEXICON NOUN_ENDLEX2
 @R.err.Thm@+Err/Thm:@R.err.Thm@0 NOUN_ENDLEX3 ;

@@ -104,6 +104,8 @@ LEXICON NOUN_INDEP_STEMS
 ! Animate Noun stems
 tapan NA_DIM/IS ; ! Test case for -is only diminutive
 tapin NA_DIM/ISIS ; ! Test case for -isis only dimunitive
+pitan NA_POSS/IM2 ; ! Test case for -im after diminutive 
+nacinis NA_DIM/DIM ; ! Test case for -im after diminutive 
 pahkwîsikan NA_POSS/IM "bannock" ; ! AEW NA-1 (Consonant-Initial Regular NA Stem)
 asikan NA "sock" ; ! AEW NA-1 (Vowel-Initial Regular NA Stem)
 kihc-ôkiniy NA "tomato" ; ! AEW NA-2 (Consonant-Initial Vowel-Glide NA Stem)
