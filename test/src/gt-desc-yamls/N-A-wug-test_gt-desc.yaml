@@ -1,0 +1,339 @@
+Config:
+  xerox:
+    Gen: ../../../src/fst/generator-gt-norm.xfst
+    Morph:  ../../../src/fst/analyser-gt-desc.xfst
+  App: lookup
+
+Tests:
+
+  Lemma - wug test forms :
+
+      # ANIMATE nouns - Inflectional subtypes and continuation lexica:
+      # mamam+Err/Dummy:mamam NA ;
+      # papap+Err/Dummy:papap NA_POSS/IM ;
+      # pipip+Err/Dummy:pipip NA_POSS/IM2 ;
+      # tatat+Err/Dummy:tatat NA_DIM/IS ;
+      # titit+Err/Dummy:titit NA_DIM/ISIS ;
+      # nanan+Err/Dummy:nanan NA_POSS/IM_DIM/IS ;
+      # ninin+Err/Dummy:ninin NA_POSS/IM_DIM/ISIS ;
+      # kikik+Err/Dummy:kikik NA_POSS/IM2_DIM/IS ;
+      # kakak+Err/Dummy:kakak NA_POSS/IM2_DIM/ISIS ;
+      # wawâs+Err/Dummy:wawâs NA_DIM/DIM ;
+      # ! mam+Err/Dummy:mam NA_SG/A ;
+      # ! mim+Err/Dummy:mim NA_SG/I ;
+      # nan+Err/Dummy:nan NA_SG/A_POSS/IM ;
+      # nin+Err/Dummy:nin NA_SG/I_POSS/IM ;
+      # pap+Err/Dummy:pap NA_SG/A_POSS/IM_DIM/IS ;
+      # pip+Err/Dummy:pip NA_SG/A_POSS/IM_DIM/ISIS ;
+
+      # mamam - NA (no -im possessive theme, either -is or -isis diminutive)
+      mamam+Err/Dummy+N+A+Sg: mamam
+      mamam+Err/Dummy+N+A+Pl: mamamak
+      mamam+Err/Dummy+N+A+Der/Dim+N+A+Sg: [mamamis, mamamisîs]
+      mamam+Err/Dummy+N+A+Px1Sg+Sg: nimamam
+      mamam+Err/Dummy+N+A+Px1Sg+Obv: nimamama
+      mamam+Err/Dummy+N+A+Px1Sg+Pl: nimamamak
+      mamam+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: nimamamim
+      mamam+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: nimamamima
+      mamam+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: nimamamimak
+      mamam+Err/Dummy+N+A+Px3Sg+Obv: omamama
+      omamamim+?: omamamim
+      mamam+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: omamamima
+      mamam+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: [nimamamis, nimamamisîs]
+      mamam+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nimamamimis, nimamamimisîs, nimamamisim, nimamamisîsim]
+      mamam+Err/Dummy+N+A+Px1Pl+Sg: nimamaminân
+      mamam+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: nimamamiminân
+      mamam+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: nimamamisinân
+      mamam+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [nimamamisiminân, nimamamimisinân]
+
+      # papap - NA_POSS/IM (-im between stem and diminutuve, either -is or -isîs diminutive)
+      papap+Err/Dummy+N+A+Sg: papap
+      papap+Err/Dummy+N+A+Pl: papapak
+      papap+Err/Dummy+N+A+Der/Dim+N+A+Sg: [papapis, papapisîs]
+      papap+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: nipapap
+      papap+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: nipapapa
+      papap+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: nipapapak
+      papap+Err/Dummy+N+A+Px1Sg+Sg: nipapapim
+      papap+Err/Dummy+N+A+Px1Sg+Obv: nipapapima
+      papap+Err/Dummy+N+A+Px1Sg+Pl: nipapapimak
+      papap+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: opapapa
+      opapapim+?: opapapim
+      papap+Err/Dummy+N+A+Px3Sg+Obv: opapapima
+      papap+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nipapapis, nipapapisîs, nipapapisim, nipapapisîsim]
+      papap+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: [nipapapimis, nipapapimisîs]
+      papap+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: nipapapinân
+      papap+Err/Dummy+N+A+Px1Pl+Sg: nipapapiminân
+      papap+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [nipapapisinân, nipapapisiminân]
+      papap+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: nipapapimisinân
+
+      # pipip - NA_POSS/IM2 (-im after diminutive, either -is or -isîs diminutive)
+      pipip+Err/Dummy+N+A+Sg: pipip
+      pipip+Err/Dummy+N+A+Pl: pipipak
+      pipip+Err/Dummy+N+A+Der/Dim+N+A+Sg: [pipipis, pipipisîs]
+      pipip+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: nipipip
+      pipip+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: nipipipa
+      pipip+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: nipipipak
+      pipip+Err/Dummy+N+A+Px1Sg+Sg: nipipipim
+      pipip+Err/Dummy+N+A+Px1Sg+Obv: nipipipima
+      pipip+Err/Dummy+N+A+Px1Sg+Pl: nipipipimak
+      pipip+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: opipipa
+      opipipim+?: opipipim
+      pipip+Err/Dummy+N+A+Px3Sg+Obv: opipipima
+      pipip+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nipipipis, nipipipisîs, nipipipimis, nipipipimisîs]
+      pipip+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: [nipipipisim, nipipipisîsim]
+      pipip+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: nipipipinân
+      pipip+Err/Dummy+N+A+Px1Pl+Sg: nipipipiminân
+      pipip+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [nipipipisinân, nipipipimisinân]
+      pipip+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: nipipipisiminân
+
+      # tatat - NA_DIM/IS (no -im, only -is diminutive)
+      tatat+Err/Dummy+N+A+Sg: tatat
+      tatat+Err/Dummy+N+A+Pl: tatatak
+      tatat+Err/Dummy+N+A+Der/Dim+N+A+Sg: cacacis
+      tatat+Err/Dummy+N+A+Der/Dim+N+A+Sg+Err/Dim: cacacisîs
+      tatat+Err/Dummy+N+A+Px1Sg+Sg: nitatat
+      tatat+Err/Dummy+N+A+Px1Sg+Obv: nitatata
+      tatat+Err/Dummy+N+A+Px1Sg+Pl: nitatatak
+      tatat+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: nitatatim
+      tatat+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: nitatatima
+      tatat+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: nitatatimak
+      tatat+Err/Dummy+N+A+Px3Sg+Obv: otatata
+      otatatim+?: otatatim
+      tatat+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: otatatima
+      tatat+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: nicacacis
+      tatat+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Dim: nicacacisîs
+      tatat+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nicacacisim, nicacacimis]
+      tatat+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm+Err/Dim: [nicacacisîsim, nicacacimisîs]
+      tatat+Err/Dummy+N+A+Px1Pl+Sg: nitatatinân
+      tatat+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: nitatatiminân
+      tatat+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: nicacacisinân
+      tatat+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [nicacacimisinân, nicacacisiminân]
+      
+      # titit - NA_DIM/ISIS (no -im, only -isîs diminutive)
+      titit+Err/Dummy+N+A+Sg: titit
+      titit+Err/Dummy+N+A+Pl: tititak
+      titit+Err/Dummy+N+A+Der/Dim+N+A+Sg+Err/Dim: cicicis
+      titit+Err/Dummy+N+A+Der/Dim+N+A+Sg: cicicisîs
+      titit+Err/Dummy+N+A+Px1Sg+Sg: nititit
+      titit+Err/Dummy+N+A+Px1Sg+Obv: nititita
+      titit+Err/Dummy+N+A+Px1Sg+Pl: nitititak
+      titit+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: nitititim
+      titit+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: nitititima
+      titit+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: nitititimak
+      titit+Err/Dummy+N+A+Px3Sg+Obv: otitita
+      otititim+?: otititim
+      titit+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: otititima
+      titit+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Dim: nicicicis
+      titit+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: nicicicisîs
+      titit+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm+Err/Dim: [nicicicisim, nicicicimis]
+      titit+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nicicicisîsim, nicicicimisîs]
+      titit+Err/Dummy+N+A+Px1Pl+Sg: nitititinân
+      titit+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: nitititiminân
+      titit+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Dim: nicicicisinân
+      titit+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm+Err/Dim: [nicicicimisinân, nicicicisiminân]
+      
+      # nanan - NA_POSS/IM_DIM/IS (-im between stem and diminutive, only -is diminutive) 
+      nanan+Err/Dummy+N+A+Sg: nanan
+      nanan+Err/Dummy+N+A+Pl: nananak
+      nanan+Err/Dummy+N+A+Der/Dim+N+A+Sg: nananis
+      nanan+Err/Dummy+N+A+Der/Dim+N+A+Sg+Err/Dim: nananisîs
+      nanan+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: ninanan
+      nanan+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: ninanana
+      nanan+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: ninananak
+      nanan+Err/Dummy+N+A+Px1Sg+Sg: ninananim
+      nanan+Err/Dummy+N+A+Px1Sg+Obv: ninananima
+      nanan+Err/Dummy+N+A+Px1Sg+Pl: ninananimak
+      nanan+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: onanana
+      onananim+?: onananim
+      nanan+Err/Dummy+N+A+Px3Sg+Obv: onananima
+      nanan+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [ninananis, ninananisim]
+      nanan+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm+Err/Dim: [ninananisîs, ninananisîsim]
+      nanan+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: ninananimis
+      nanan+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Dim: ninananimisîs
+      nanan+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: ninananinân
+      nanan+Err/Dummy+N+A+Px1Pl+Sg: ninananiminân
+      nanan+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [ninananisinân, ninananisiminân]
+      nanan+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: ninananimisinân
+      
+      # ninin - NA_POSS/IM_DIM/ISIS (-im between stem and diminutive, only -isîs diminutive) 
+      ninin+Err/Dummy+N+A+Sg: ninin
+      ninin+Err/Dummy+N+A+Pl: nininak
+      ninin+Err/Dummy+N+A+Der/Dim+N+A+Sg: nininisîs
+      ninin+Err/Dummy+N+A+Der/Dim+N+A+Sg+Err/Dim: nininis
+      ninin+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: nininin
+      ninin+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: nininina
+      ninin+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: ninininak
+      ninin+Err/Dummy+N+A+Px1Sg+Sg: ninininim
+      ninin+Err/Dummy+N+A+Px1Sg+Obv: ninininima
+      ninin+Err/Dummy+N+A+Px1Sg+Pl: ninininimak
+      ninin+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: oninina
+      onininim+?: onininim
+      ninin+Err/Dummy+N+A+Px3Sg+Obv: onininima
+      ninin+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: ninininimisîs
+      ninin+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Dim: ninininimis
+      ninin+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [ninininisîs, ninininisîsim]
+      ninin+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm+Err/Dim: [ninininis, ninininisim]
+      ninin+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: nininininân
+      ninin+Err/Dummy+N+A+Px1Pl+Sg: ninininiminân
+      ninin+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [ninininisîsinân, ninininisîsiminân]
+      ninin+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: ninininimisîsinân
+      
+      # kikik - NA_POSS/IM2_DIM/IS (-im after diminutive, only -is diminutive)
+      kikik+Err/Dummy+N+A+Sg: kikik
+      kikik+Err/Dummy+N+A+Pl: kikikak
+      kikik+Err/Dummy+N+A+Der/Dim+N+A+Sg: kikikis
+      kikik+Err/Dummy+N+A+Der/Dim+N+A+Sg+Err/Dim: kikikisîs
+      kikik+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: nikikik
+      kikik+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: nikikika
+      kikik+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: nikikikak
+      kikik+Err/Dummy+N+A+Px1Sg+Sg: nikikikim
+      kikik+Err/Dummy+N+A+Px1Sg+Obv: nikikikima
+      kikik+Err/Dummy+N+A+Px1Sg+Pl: nikikikimak
+      kikik+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: okikika
+      okikikim+?: okikikim
+      kikik+Err/Dummy+N+A+Px3Sg+Obv: okikikima
+      kikik+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nikikikis, nikikikimis]
+      kikik+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm+Err/Dim: [nikikikisîs, nikikikimisîs]
+      kikik+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: nikikikisim
+      kikik+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Dim: nikikikisîsim
+      kikik+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: nikikikinân
+      kikik+Err/Dummy+N+A+Px1Pl+Sg: nikikikiminân
+      kikik+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [nikikikisinân, nikikikimisinân]
+      kikik+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: nikikikisiminân
+
+      # kakak - NA_POSS/IM2_DIM/ISIS (-im after diminutive, only -isîs diminutive)
+      kakak+Err/Dummy+N+A+Sg: kakak
+      kakak+Err/Dummy+N+A+Pl: kakakak
+      kakak+Err/Dummy+N+A+Der/Dim+N+A+Sg+Err/Dim: kakakis
+      kakak+Err/Dummy+N+A+Der/Dim+N+A+Sg: kakakisîs
+      kakak+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: nikakak
+      kakak+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: nikakaka
+      kakak+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: nikakakak
+      kakak+Err/Dummy+N+A+Px1Sg+Sg: nikakakim
+      kakak+Err/Dummy+N+A+Px1Sg+Obv: nikakakima
+      kakak+Err/Dummy+N+A+Px1Sg+Pl: nikakakimak
+      kakak+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: okakaka
+      okakakim+?: okakakim
+      kakak+Err/Dummy+N+A+Px3Sg+Obv: okakakima
+      kakak+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm+Err/Dim: [nikakakis, nikakakimis]
+      kakak+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nikakakisîs, nikakakimisîs]
+      kakak+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Dim: nikakakisim
+      kakak+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: nikakakisîsim
+      kakak+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: nikakakinân
+      kakak+Err/Dummy+N+A+Px1Pl+Sg: nikakakiminân
+      kakak+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm+Err/Dim: [nikakakisinân, nikakakimisinân]
+      kakak+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Dim: nikakakisiminân
+      
+      # wawâs (no -im, lexicalized dimunitive -> neither -is nor -isîs)
+      wawâs+Err/Dummy+N+A+Sg: wawâs
+      wawâs+Err/Dummy+N+A+Pl: wawâsak
+      wawâs+Err/Dummy+N+A+Der/Dim+N+A+Sg+Err/Dim: [wawâsis, wawâsisîs]
+      wawâs+Err/Dummy+N+A+Px1Sg+Sg: niwawâs
+      wawâs+Err/Dummy+N+A+Px1Sg+Obv: niwawâsa
+      wawâs+Err/Dummy+N+A+Px1Sg+Pl: niwawâsak
+      wawâs+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: niwawâsim
+      wawâs+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: niwawâsima
+      wawâs+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: niwawâsimak
+      wawâs+Err/Dummy+N+A+Px3Sg+Obv: owawâsa
+      owawâsim+?: owawâsim
+      wawâs+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: owawâsima
+      wawâs+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Dim: [niwawâsis, niwawâsisîs]
+      wawâs+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm+Err/Dim: [niwawâsisim, niwawâsisîsim, niwawâsimis, niwawâsimisîs]
+      wawâs+Err/Dummy+N+A+Px1Pl+Sg: niwawâsinân
+      wawâs+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: niwawâsiminân
+      wawâs+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Dim: niwawâsisinân
+      wawâs+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm+Err/Dim: [niwawâsimisinân, niwawâsisiminân]
+
+      # nan - NA_SG/A_POSS/IM (singular -a, -im between stem and diminutuve, either -is or -isîs)
+      nan+Err/Dummy+N+A+Sg: nana
+      nan+Err/Dummy+N+A+Pl: nanak
+      nan+Err/Dummy+N+A+Obv: nana
+      nan+Err/Dummy+N+A+Der/Dim+N+A+Sg: [nanis, nanisîs]
+      nan+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: ninana
+      nan+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: ninana
+      nan+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: ninanak
+      nan+Err/Dummy+N+A+Px1Sg+Sg: ninanim
+      nan+Err/Dummy+N+A+Px1Sg+Obv: ninanima
+      nan+Err/Dummy+N+A+Px1Sg+Pl: ninanimak
+      nan+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: onana
+      onanim+?: onanim
+      nan+Err/Dummy+N+A+Px3Sg+Obv: onanima
+      nan+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [ninanis, ninanisîs, ninanisim, ninanisîsim]
+      nan+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: [ninanimis, ninanimisîs]
+      nan+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: ninaninân
+      nan+Err/Dummy+N+A+Px1Pl+Sg: ninaniminân
+      nan+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [ninanisinân, ninanisiminân]
+      nan+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: ninanimisinân
+
+      # nin - NA_SG/I_POSS/IM (singular -i, -im between stem and diminutuve, either -is or -isîs)
+      nin+Err/Dummy+N+A+Sg: nini
+      nin+Err/Dummy+N+A+Pl: ninak
+      nin+Err/Dummy+N+A+Obv: nina
+      nin+Err/Dummy+N+A+Der/Dim+N+A+Sg: [ninis, ninisîs]
+      nin+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: ninini
+      nin+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: ninina
+      nin+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: nininak
+      nin+Err/Dummy+N+A+Px1Sg+Sg: nininim
+      nin+Err/Dummy+N+A+Px1Sg+Obv: nininima
+      nin+Err/Dummy+N+A+Px1Sg+Pl: nininimak
+      nin+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: onina
+      oninim+?: oninim
+      nin+Err/Dummy+N+A+Px3Sg+Obv: oninima
+      nin+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nininis, nininisîs, nininisim, nininisîsim]
+      nin+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: [nininimis, nininimisîs]
+      nin+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: ninininân
+      nin+Err/Dummy+N+A+Px1Pl+Sg: nininiminân
+      nin+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [nininisinân, nininisiminân]
+      nin+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: nininimisinân
+
+      # pap - NA_SG/A_POSS/IM_DIM/IS (singular -a, -im between stem and diminutuve, only -is diminutive)
+      pap+Err/Dummy+N+A+Sg: papa
+      pap+Err/Dummy+N+A+Pl: papak
+      pap+Err/Dummy+N+A+Obv: papa
+      pap+Err/Dummy+N+A+Der/Dim+N+A+Sg: papis
+      pap+Err/Dummy+N+A+Der/Dim+N+A+Sg+Err/Dim: papisîs
+      pap+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: nipapa
+      pap+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: nipapa
+      pap+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: nipapak
+      pap+Err/Dummy+N+A+Px1Sg+Sg: nipapim
+      pap+Err/Dummy+N+A+Px1Sg+Obv: nipapima
+      pap+Err/Dummy+N+A+Px1Sg+Pl: nipapimak
+      pap+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: opapa
+      opapim+?: opapim
+      pap+Err/Dummy+N+A+Px3Sg+Obv: opapima
+      pap+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nipapis, nipapisim]
+      pap+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm+Err/Dim: [nipapisîs, nipapisîsim]
+      pap+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: nipapimis
+      pap+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Dim: nipapimisîs
+      pap+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: nipapinân
+      pap+Err/Dummy+N+A+Px1Pl+Sg: nipapiminân
+      pap+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [nipapisinân, nipapisiminân]
+      pap+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Dim: [nipapimisîsinân, nipapimisîsinân]
+      pap+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm+Err/Dim: [nipapisîsinân, nipapisîsiminân]
+      pap+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: nipapimisinân
+
+      # pip - NA_SG/A_POSS/IM_DIM/ISIS (singular -a, -im between stem and diminutuve, only -isîs diminutive)
+      pip+Err/Dummy+N+A+Sg: pipa
+      pip+Err/Dummy+N+A+Pl: pipak
+      pip+Err/Dummy+N+A+Obv: pipa
+      pip+Err/Dummy+N+A+Der/Dim+N+A+Sg: pipisîs
+      pip+Err/Dummy+N+A+Der/Dim+N+A+Sg+Err/Dim: pipis
+      pip+Err/Dummy+N+A+Px1Sg+Sg+Err/Thm: nipipa
+      pip+Err/Dummy+N+A+Px1Sg+Obv+Err/Thm: nipipa
+      pip+Err/Dummy+N+A+Px1Sg+Pl+Err/Thm: nipipak
+      pip+Err/Dummy+N+A+Px1Sg+Sg: nipipim
+      pip+Err/Dummy+N+A+Px1Sg+Obv: nipipima
+      pip+Err/Dummy+N+A+Px1Sg+Pl: nipipimak
+      pip+Err/Dummy+N+A+Px3Sg+Obv+Err/Thm: opipa
+      opipim+?: opipim
+      pip+Err/Dummy+N+A+Px3Sg+Obv: opipima
+      pip+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm: [nipipisîs, nipipisîsim]
+      pip+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Thm+Err/Dim: [nipipis, nipipisim]
+      pip+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg: nipipimisîs
+      pip+Err/Dummy+N+A+Der/Dim+N+A+Px1Sg+Sg+Err/Dim: nipipimis
+      pip+Err/Dummy+N+A+Px1Pl+Sg+Err/Thm: nipipinân
+      pip+Err/Dummy+N+A+Px1Pl+Sg: nipipiminân
+      pip+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm: [nipipisîsinân, nipipisîsiminân]
+      pip+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Dim: [nipipimisinân, nipipimisinân]
+      pip+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg+Err/Thm+Err/Dim: [nipipisinân, nipipisiminân]
+      pip+Err/Dummy+N+A+Der/Dim+N+A+Px1Pl+Sg: nipipimisîsinân
