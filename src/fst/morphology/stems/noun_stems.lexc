@@ -101,11 +101,26 @@ LEXICON NOUN_INDEP_STEMS
 ! NI-3 -> NI + -w (stem)
 ! NI-4, NI-4w -> NI_SG/I_POSS/IM, with w2, y4 for the immutable final glides
 !
-! Animate Noun stems
-tapan NA_DIM/IS ; ! Test case for -is only diminutive
-tapin NA_DIM/ISIS ; ! Test case for -isis only dimunitive
-pitan NA_POSS/IM2 ; ! Test case for -im after diminutive 
-nacinis NA_DIM/DIM ; ! Test case for -im after diminutive 
+!! Test case wug stems
+!! (marked with +Err/Dummy so that they may be eventually removed)
+mamam+Err/Dummy:mamam NA ;
+papap+Err/Dummy:papap NA_POSS/IM ;
+pipip+Err/Dummy:pipip NA_POSS/IM2 ;
+tatat+Err/Dummy:tatat NA_DIM/IS ;
+titit+Err/Dummy:titit NA_DIM/ISIS ;
+nanan+Err/Dummy:nanan NA_POSS/IM_DIM/IS ;
+ninin+Err/Dummy:ninin NA_POSS/IM_DIM/ISIS ;
+kikik+Err/Dummy:kikik NA_POSS/IM2_DIM/IS ;
+kakak+Err/Dummy:kakak NA_POSS/IM2_DIM/ISIS ;
+wawâs+Err/Dummy:wawâs NA_DIM/DIM ;
+! mam+Err/Dummy:mam NA_SG/A ;
+! mim+Err/Dummy:mim NA_SG/I ;
+nan+Err/Dummy:nan NA_SG/A_POSS/IM ;
+nin+Err/Dummy:nin NA_SG/I_POSS/IM ;
+pap+Err/Dummy:pap NA_SG/A_POSS/IM_DIM/IS ;
+pip+Err/Dummy:pip NA_SG/A_POSS/IM_DIM/ISIS ;
+
+!! Animate Noun stems
 pahkwîsikan NA_POSS/IM "bannock" ; ! AEW NA-1 (Consonant-Initial Regular NA Stem)
 asikan NA "sock" ; ! AEW NA-1 (Vowel-Initial Regular NA Stem)
 kihc-ôkiniy NA "tomato" ; ! AEW NA-2 (Consonant-Initial Vowel-Glide NA Stem)
@@ -123,8 +138,6 @@ ihkwa:ihkw NA_SG/A_POSS/IM "louse" ; ! AEW NA-4w (Vowel-Initial Single-Syllable-
 ! maskwa:maskw NA_SG/A_POSS/IM "bear" ;
 ! sîsîp NA_POSS/IM "duck" ;
 ! Inanimate Noun stems
-patan NI_DIM/IS ; ! Test case for -is only diminutive
-patin NI_DIM/ISIS ; ! Test case for -isis only dimunitive
 askiy NI "land" ;
 cîmân NI "canoe" ; ! AEW NI-1 (Consonant-Initial Regular NI Stem)
 astotin NI "hat" ; ! AEW NI-1 (Vowel-Initial Regular NI Stem)
