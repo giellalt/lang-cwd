@@ -494,6 +494,7 @@ d2  !!=* @CODE@  Reduplication consonant marker
 +Err/Morph !!= * @CODE@ tag for nonstandard morphology
 +Err/Thm !!= * @CODE@ tag for nonstandard possessive theme (0 vs. -im) morphology
 +Err/Dim !!= * @CODE@ tag for nonstandard diminutive morphology (-is vs. -isis)
++Err/Dummy !!= * @CODE@ tag for dummy lexemes used for testing purposes
 +Dial !!= * @CODE@ tag for dialectical forms that can't be called errors
 +Dial/East !!= * @CODE@ tag for dialectical forms that can't be called errors
 +Dial/West !!= * @CODE@ tag for dialectical forms that can't be called errors
