@@ -162,50 +162,132 @@ LEXICON NAD_SG/I_POSS/IM_DIM/ISIS
 ! NI
 
 LEXICON NI_POSS/IM
-@P.im.IM@ NI ;
+@P.theme.IM@ NI ;
+
+LEXICON NI_POSS/IM2
+@P.theme.IM2@ NI ;
 
 LEXICON NI_DIM/IS
-@P.is.IS@ NI ;
+@P.dim.IS@ NI ;
 
 LEXICON NI_DIM/ISIS
-@P.isis.ISIS@ NI ;
+@P.dim.ISIS@ NI ;
+
+LEXICON NI_DIM/DIM
+@P.dim.DIM@ NI ;
 
 LEXICON NI_POSS/IM_DIM/IS
-@P.im.IM@@P.is.IS@ NI ;
+@P.theme.IM@ NI_DIM/IS ;
 
 LEXICON NI_POSS/IM_DIM/ISIS
-@P.im.IM@@P.isis.ISIS@ NI ;
+@P.theme.IM@ NI_DIM/ISIS ;
+
+LEXICON NI_POSS/IM2_DIM/IS
+@P.theme.IM2@ NI_DIM/IS ;
+
+LEXICON NI_POSS/IM2_DIM/ISIS
+@P.theme.IM2@ NI_DIM/ISIS ;
 
 LEXICON NI_SG/I_POSS/IM
-@U.sg.I@ NI_POSS/IM ;
+@P.sg.I@ NI_POSS/IM ;
 
 LEXICON NI_SG/I_POSS/IM_DIM/IS
-@U.sg.I@ NI_POSS/IM_DIM/IS ;
+@P.sg.I@ NI_POSS/IM_DIM/IS ;
+
+LEXICON NI_SG/I_POSS/IM_DIM/ISIS
+@P.sg.I@ NI_POSS/IM_DIM/ISIS ;
 
 ! NID
 
 LEXICON NID_POSS/IM
-@P.im.IM@ NID ;
+@P.theme.IM@ NID ;
+
+LEXICON NID_POSS/IM2
+@P.theme.IM2@ NID ;
 
 LEXICON NID_DIM/IS
-@P.is.IS@ NID ;
+@P.dim.IS@ NID ;
 
 LEXICON NID_DIM/ISIS
-@P.isis.ISIS@ NID ;
+@P.dim.ISIS@ NID ;
+
+LEXICON NID_DIM/DIM
+@P.dim.DIM@ NID ;
 
 LEXICON NID_POSS/IM_DIM/IS
-@P.im.IM@@P.is.IS@ NID ;
+@P.theme.IM@ NID_DIM/IS ;
 
 LEXICON NID_POSS/IM_DIM/ISIS
-@P.im.IM@@P.isis.ISIS@ NID ;
+@P.theme.IM@ NID_DIM/ISIS ;
+
+LEXICON NID_POSS/IM2_DIM/IS
+@P.theme.IM2@ NID_DIM/IS ;
+
+LEXICON NID_POSS/IM2_DIM/ISIS
+@P.theme.IM2@ NID_DIM/ISIS ;
 
 LEXICON NID_SG/I
-@U.sg.I@ NID ;
+@P.sg.I@ NID ;
 
-LEXICON NID_SG/I_DIM/IS
-@U.sg.I@ NID_DIM/IS ;
+LEXICON NID_SG/I_POSS/IM
+@P.sg.I@ NID_POSS/IM ;
 
-! Starting with the general morphosyntactic features in a standardized order
+LEXICON NID_SG/A_POSS/IM_DIM/ISIS
+@P.sg.A@ NID_POSS/IM_DIM/ISIS ;
+
+LEXICON NID_SG/I_POSS/IM_DIM/IS
+@P.sg.I@ NID_POSS/IM_DIM/IS ;
+
+LEXICON NID_SG/I_POSS/IM_DIM/ISIS
+@P.sg.I@ NID_POSS/IM_DIM/ISIS ;
+
+! #####
+
+! LEXICON NI_POSS/IM
+! @P.im.IM@ NI ;
+! 
+! LEXICON NI_DIM/IS
+! @P.is.IS@ NI ;
+! 
+! LEXICON NI_DIM/ISIS
+! @P.isis.ISIS@ NI ;
+! 
+! LEXICON NI_POSS/IM_DIM/IS
+! @P.im.IM@@P.is.IS@ NI ;
+! 
+! LEXICON NI_POSS/IM_DIM/ISIS
+! @P.im.IM@@P.isis.ISIS@ NI ;
+! 
+! LEXICON NI_SG/I_POSS/IM
+! @U.sg.I@ NI_POSS/IM ;
+!
+! LEXICON NI_SG/I_POSS/IM_DIM/IS
+! @U.sg.I@ NI_POSS/IM_DIM/IS ;
+!
+! NID
+!
+! LEXICON NID_POSS/IM
+! @P.im.IM@ NID ;
+!
+! LEXICON NID_DIM/IS
+! @P.is.IS@ NID ;
+!
+! LEXICON NID_DIM/ISIS
+! @P.isis.ISIS@ NID ;
+!
+! LEXICON NID_POSS/IM_DIM/IS
+! @P.im.IM@@P.is.IS@ NID ;
+! 
+! LEXICON NID_POSS/IM_DIM/ISIS
+! @P.im.IM@@P.isis.ISIS@ NID ;
+!
+! LEXICON NID_SG/I
+! @U.sg.I@ NID ;
+! 
+! LEXICON NID_SG/I_DIM/IS
+! @U.sg.I@ NID_DIM/IS ;
+
+!! Starting with the general morphosyntactic features in a standardized order
 
 LEXICON NA
 +N+A:0 NA_POSS_GATE1 ;
@@ -214,10 +296,16 @@ LEXICON NAD
 @P.dep.DEP@+N+A+D:@P.dep.DEP@0 NA_POSS_GATE1 ;
 
 LEXICON NI
-+N+I:0 NI_POSS_IM_0_SUFFIX ;
++N+I:0 NI_POSS_GATE1 ;
 
 LEXICON NID
-@P.dep.DEP@+N+I+D:@P.dep.DEP@0 NI_POSS_IM_0_SUFFIX ;
+@P.dep.DEP@+N+I+D:@P.dep.DEP@0 NI_POSS_GATE1 ;
+
+! LEXICON NI
+! +N+I:0 NI_POSS_IM_0_SUFFIX ;
+! 
+! LEXICON NID
+! @P.dep.DEP@+N+I+D:@P.dep.DEP@0 NI_POSS_IM_0_SUFFIX ;
 
 !! Suffixation for animate nouns
 
@@ -229,9 +317,11 @@ LEXICON NA_THEME_SUFFIX1
 ! Standard forms
 @D.theme.IM@0                                                    NA_DIM_GATE ;
 @R.theme.IM@@C.sg@:@R.theme.IM@@C.sg@%>i2m                       NA_DIM_GATE ;
+@R.theme.IM2@@C.sg@:@R.theme.IM2@@C.sg@%>i2m                     NA_POSS_SUFFIXES ;
 ! Non-standard forms
 @D.theme.IM@@P.err.Thm@@C.sg@:@D.theme.IM@@P.err.Thm@@C.sg@%>i2m NA_DIM_GATE ;
 @R.theme.IM@@P.err.Thm@0                                         NA_DIM_GATE ;
+@R.theme.IM2@@P.err.Thm@0                                        NA_POSS_SUFFIXES ;
 
 LEXICON NA_DIM_GATE
 @P.dim.NULL@                          NA_POSS_GATE2 ;
@@ -367,25 +457,68 @@ LEXICON NA_NUMBER_SUFFIXES_SG
 
 !! Suffixation for inanimate nouns
 
-LEXICON NI_POSS_IM_0_SUFFIX
-@D.person.NULL@@R.im.IM@@C.sg@:@D.person.NULL@@R.im.IM@@C.sg@%>i2m                       NI_DIM_SUFFIXES ;
-@D.person.NULL@@R.im.IM@@P.err.Thm@:@D.person.NULL@@R.im.IM@@P.err.Thm@0                 NI_DIM_SUFFIXES ; ! Incorrectly using 0-poss rather than im-poss
-@D.person.NULL@@D.im.IM@                                                                 NI_DIM_SUFFIXES ;
-@D.person.NULL@@D.im.IM@@C.sg@@P.err.Thm@:@D.person.NULL@@D.im.IM@@C.sg@@P.err.Thm@%>i2m NI_DIM_SUFFIXES ; ! Incorrectly using im-poss rather than 0-poss
-@R.person.NULL@                                                              NI_DIM_SUFFIXES ;
+LEXICON NI_POSS_GATE1
+@D.person.NULL@ NI_THEME_SUFFIX1 ;
+@R.person.NULL@ NI_DIM_GATE ;
 
-LEXICON NI_DIM_SUFFIXES
-NI_POSS_SUFFIXES ;
+LEXICON NI_THEME_SUFFIX1
+! Standard forms
+@D.theme.IM@0                                                    NI_DIM_GATE ;
+@R.theme.IM@@C.sg@:@R.theme.IM@@C.sg@%>i2m                       NI_DIM_GATE ;
+@R.theme.IM2@@C.sg@:@R.theme.IM2@@C.sg@%>i2m                     NI_POSS_SUFFIXES ;
+! Non-standard forms
+@D.theme.IM@@P.err.Thm@@C.sg@:@D.theme.IM@@P.err.Thm@@C.sg@%>i2m NI_DIM_GATE ;
+@R.theme.IM@@P.err.Thm@0                                         NI_DIM_GATE ;
+@R.theme.IM2@@P.err.Thm@0                                        NI_POSS_SUFFIXES ;
+
+LEXICON NI_DIM_GATE
+@P.dim.NULL@                          NI_POSS_GATE2 ;
+@D.dep@+Der/Dim+N+I:@D.dep@           NI_DIM_SUFFIX ;
+@R.dep.DEP@+Der/Dim+N+I+D:@R.dep.DEP@ NI_DIM_SUFFIX ;
+
+LEXICON NI_DIM_SUFFIX
+! Standard forms
+@R.dim.IS@@C.sg@:@R.dim.IS@@C.sg@%>i2^DIMs                               NI_POSS_GATE2 ;
+@R.dim.ISIS@@C.sg@:@R.dim.ISIS@@C.sg@%>i2^DIMsîs                         NI_POSS_GATE2 ;
+@D.dim@@C.sg@:@D.dim@@C.sg@%>i2^DIMs                                     NI_POSS_GATE2 ;
+@D.dim@@C.sg@:@D.dim@@C.sg@%>i2^DIMsîs                                   NI_POSS_GATE2 ;
+! Non-standard forms
+@R.dim.DIM@@P.err2.Dim@@C.sg@:@R.dim.DIM@@P.err2.Dim@@C.sg@%>i2^DIMs     NI_POSS_GATE2 ;
+@R.dim.DIM@@P.err2.Dim@@C.sg@:@R.dim.DIM@@P.err2.Dim@@C.sg@%>i2^DIMsîs   NI_POSS_GATE2 ;
+@R.dim.ISIS@@P.err2.Dim@@C.sg@:@R.dim.ISIS@@P.err2.Dim@@C.sg@%>i2^DIMs   NI_POSS_GATE2 ;
+@R.dim.IS@@P.err2.Dim@@C.sg@:@R.dim.IS@@P.err2.Dim@@C.sg@%>i2^DIMsîs     NI_POSS_GATE2 ;
+
+LEXICON NI_POSS_GATE2
+@D.person.NULL@ NI_THEME_SUFFIX2 ;
+@R.person.NULL@ NI_NUMBER_LOC_SUFFIXES ;
+
+LEXICON NI_THEME_SUFFIX2
+! Standard forms
+@D.theme.IM2@0                                                                             NI_POSS_SUFFIXES ;
+@D.dim.NULL@@R.theme.IM2@@C.sg@:@D.dim.NULL@@R.theme.IM2@@C.sg@%>i2m                       NI_POSS_SUFFIXES ;
+! Non-standard forms
+@D.dim.NULL@@R.theme.IM2@@P.err.Thm@0                                                      NI_POSS_SUFFIXES ;
+@D.dim.NULL@@D.theme.IM2@@P.err.Thm@@C.sg@:@D.dim.NULL@@D.theme.IM2@@P.err.Thm@@C.sg@%>i2m NI_POSS_SUFFIXES ;
+
+! LEXICON NI_POSS_IM_0_SUFFIX
+! @D.person.NULL@@R.im.IM@@C.sg@:@D.person.NULL@@R.im.IM@@C.sg@%>i2m                       NI_DIM_SUFFIXES ;
+! @D.person.NULL@@R.im.IM@@P.err.Thm@:@D.person.NULL@@R.im.IM@@P.err.Thm@0                 NI_DIM_SUFFIXES ; ! Incorrectly using 0-poss rather than im-poss
+! @D.person.NULL@@D.im.IM@                                                                 NI_DIM_SUFFIXES ;
+! @D.person.NULL@@D.im.IM@@C.sg@@P.err.Thm@:@D.person.NULL@@D.im.IM@@C.sg@@P.err.Thm@%>i2m NI_DIM_SUFFIXES ; ! Incorrectly using im-poss rather than 0-poss
+! @R.person.NULL@                                                              NI_DIM_SUFFIXES ;
+! 
+! LEXICON NI_DIM_SUFFIXES
+! NI_POSS_SUFFIXES ;
 ! Independent NIs
-@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs                         NI_POSS_SUFFIXES ;
-@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsîs                               NI_POSS_SUFFIXES ;
-@D.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@%>i2%^DIMs NI_POSS_SUFFIXES ;
-@D.dep.DEP@@D.dim@@R.is.IS@@P.err2.Dim@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@R.is.IS@@P.err2.Dim@@C.sg@%>i2%^DIMsîs       NI_POSS_SUFFIXES ;
+! @D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs                         NI_POSS_SUFFIXES ;
+! @D.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsîs                               NI_POSS_SUFFIXES ;
+! @D.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@%>i2%^DIMs NI_POSS_SUFFIXES ;
+! @D.dep.DEP@@D.dim@@R.is.IS@@P.err2.Dim@@C.sg@+Der/Dim+N+I:@D.dep.DEP@@D.dim@@R.is.IS@@P.err2.Dim@@C.sg@%>i2%^DIMsîs       NI_POSS_SUFFIXES ;
 ! Dependent NIs
-@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs                         NI_POSS_SUFFIXES ;
-@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsîs                               NI_POSS_SUFFIXES ;
-@R.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@%>i2%^DIMs NI_POSS_SUFFIXES ;
-@R.dep.DEP@@D.dim@@R.is.IS@@@P.err2.Dim@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@R.is.IS@@P.err2.Dim@@C.sg@%>i2%^DIMsîs       NI_POSS_SUFFIXES ;
+! @R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@D.isis.ISIS@@C.sg@%>i2%^DIMs                         NI_POSS_SUFFIXES ;
+! @R.dep.DEP@@D.dim@@D.is.IS@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@D.is.IS@@C.sg@%>i2%^DIMsîs                               NI_POSS_SUFFIXES ;
+! @R.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@R.isis.ISIS@@P.err2.Dim@@C.sg@%>i2%^DIMs NI_POSS_SUFFIXES ;
+! @R.dep.DEP@@D.dim@@R.is.IS@@@P.err2.Dim@C.sg@+Der/Dim+N+I+D:@R.dep.DEP@@D.dim@@R.is.IS@@P.err2.Dim@@C.sg@%>i2%^DIMsîs       NI_POSS_SUFFIXES ;
 
 LEXICON NI_POSS_SUFFIXES
 ! Singular possessors
@@ -478,7 +611,6 @@ LEXICON NOUN_IRREGULARS
 ôsi+N+I+Px3Pl+Loc:otôtiwâh # ;
 ôsi+N+I+Px4Sg/Pl+Loc:otôtithihk # ;
 ôsi+N+I+Px4Sg/Pl+Loc:otôtithih # ;
-
 
 LEXICON OSI_SUFFIXES
 +Sg:0 # ;
