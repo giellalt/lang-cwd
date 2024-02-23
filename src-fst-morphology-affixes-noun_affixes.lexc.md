@@ -1,5 +1,7 @@
 
 
+Starting with the general morphosyntactic features in a standardized order
+
 Suffixation for animate nouns
 
 Potentially obsolete code

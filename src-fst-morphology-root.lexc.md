@@ -178,6 +178,7 @@ normative and descriptive analysers, and generators for different purposes.
 * +Err/Morph  tag for nonstandard morphology
 * +Err/Thm  tag for nonstandard possessive theme (0 vs. -im) morphology
 * +Err/Dim  tag for nonstandard diminutive morphology (-is vs. -isis)
+* +Err/Dummy  tag for dummy lexemes used for testing purposes
 * +Dial  tag for dialectical forms that can't be called errors
 * +Dial/East  tag for dialectical forms that can't be called errors
 * +Dial/West  tag for dialectical forms that can't be called errors

@@ -88,6 +88,8 @@ The leftovers are tagged @X
 * * *
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-cwd/blob/main/src/cg3/functions.cg3)</small>
 
+Starting with the general morphosyntactic features in a standardized order
+
 Suffixation for animate nouns
 
 Potentially obsolete code
@@ -1074,6 +1076,7 @@ normative and descriptive analysers, and generators for different purposes.
 * +Err/Morph  tag for nonstandard morphology
 * +Err/Thm  tag for nonstandard possessive theme (0 vs. -im) morphology
 * +Err/Dim  tag for nonstandard diminutive morphology (-is vs. -isis)
+* +Err/Dummy  tag for dummy lexemes used for testing purposes
 * +Dial  tag for dialectical forms that can't be called errors
 * +Dial/East  tag for dialectical forms that can't be called errors
 * +Dial/West  tag for dialectical forms that can't be called errors
@@ -1137,6 +1140,10 @@ End of new and all Multichar_Symbols
 
 Test lemma/stem set for nouns according the new crk FST
 
+Test case wug stems
+(marked with +Err/Dummy so that they may be eventually removed)
+
+Animate Noun stems
 Regular/Irregular ôsi- both a regularly inflecting stem, and a number of irregular forms enumerated separately
 
 Complete extraction of lemma:stem info from LLR dictionary 2022, according to
