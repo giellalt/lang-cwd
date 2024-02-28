@@ -11,12 +11,16 @@ Tests:
 
       # Prs+Ind
       pimisin+V+AI+Ind+1Sg: nipimisinin   # I lie, I lie down, I lie extended
+      pimisin+V+AI+Ind+1Sg+Var/East: nipimisin   # I lie, I lie down, I lie extended
       pimisin+V+AI+Ind+2Sg: kipimisinin   # you lie, you lie down, you lie extended
+      pimisin+V+AI+Ind+2Sg+Var/East: kipimisin   # you lie, you lie down, you lie extended
       pimisin+V+AI+Ind+3Sg: pimisin   # he/she lies, he/she lies down, he/she lies extended
 
       # Prs+Cnj
       PV/î+pimisin+V+AI+Cnj+1Sg: î-pimisiniyân   # as I lie, as I lie down, as I lie extended
+      PV/î+pimisin+V+AI+Cnj+1Sg+Var/East: î-pimisinân   # as I lie, as I lie down, as I lie extended
       PV/î+pimisin+V+AI+Cnj+2Sg: [î-pimisiniyan, î-pimisiniyin]   # as you lie, as you lie down, as you lie extended
+      PV/î+pimisin+V+AI+Cnj+2Sg+Var/East: î-pimisinan   # as I lie, as I lie down, as I lie extended
       PV/î+pimisin+V+AI+Cnj+3Sg: î-pimisihk   # as he/she lies, as he/she lies down, as he/she lies extended
 
       # Imp
@@ -25,7 +29,9 @@ Tests:
 
       # Prs # Ind
       pimisin+V+AI+Ind+1Sg: nipimisinin   # I lie, I lie down, I lie extended
+      pimisin+V+AI+Ind+1Sg+Var/East: nipimisin   # I lie, I lie down, I lie extended
       pimisin+V+AI+Ind+2Sg: kipimisinin   # you lie, you lie down, you lie extended
+      pimisin+V+AI+Ind+2Sg+Var/East: kipimisin   # you lie, you lie down, you lie extended
       pimisin+V+AI+Ind+3Sg: pimisin   # he/she lies, he/she lies down, he/she lies extended
       pimisin+V+AI+Ind+1Pl: nipimisininân   # we lie, we lie down, we lie extended
       pimisin+V+AI+Ind+12Pl: [kipimisinânaw, kipimisinaw]   # we and you lie, we and you lie down, we and you lie extended
@@ -37,11 +43,16 @@ Tests:
 
       # Prs # Cnj
       PV/î+pimisin+V+AI+Cnj+1Sg: î-pimisiniyân   # as I lie, as I lie down, as I lie extended
+      PV/î+pimisin+V+AI+Cnj+1Sg+Var/East: î-pimisinân   # as I lie, as I lie down, as I lie extended
       PV/î+pimisin+V+AI+Cnj+2Sg: [î-pimisiniyan, î-pimisiniyin]   # as you lie, as you lie down, as you lie extended
+      PV/î+pimisin+V+AI+Cnj+2Sg+Var/East: î-pimisinan   # as I lie, as I lie down, as I lie extended
       PV/î+pimisin+V+AI+Cnj+3Sg: î-pimisihk   # as he/she lies, as he/she lies down, as he/she lies extended
       PV/î+pimisin+V+AI+Cnj+1Pl: î-pimisiniyâhk   # as we lie, as we lie down, as we lie extended
+      PV/î+pimisin+V+AI+Cnj+1Pl+Var/East: î-pimisinâhk   # as we lie, as we lie down, as we lie extended
       PV/î+pimisin+V+AI+Cnj+12Pl: î-pimisiniyahk   # as we and you lie, as we and you lie down, as we and you lie extended
+      PV/î+pimisin+V+AI+Cnj+12Pl+Var/East: î-pimisinahk   # as we and you lie, as we and you lie down, as we and you lie extended
       PV/î+pimisin+V+AI+Cnj+2Pl: î-pimisiniyîk   # as you all lie, as you all lie down, as you all lie extended
+      PV/î+pimisin+V+AI+Cnj+2Pl+Var/East: î-pimisinîk   # as you all lie, as you all lie down, as you all lie extended
       PV/î+pimisin+V+AI+Cnj+3Pl: î-pimisihkwâw   # as they lie, as they lie down, as they lie extended
       PV/î+pimisin+V+AI+Cnj+4Sg/Pl: î-pimisinithit   # as another/others lie, as another/others lie down, as another/others lie extended
       PV/î+pimisin+V+AI+Cnj+X: [î-pimisininâniwik, î-pimisininâniwahk, î-pimisinihk]   # as someone lies, as someone lies down, as someone lies extended
@@ -49,7 +60,9 @@ Tests:
 
       # Prt # Ind
       PV/ki+pimisin+V+AI+Ind+1Sg: nikî-pimisinin   # I lay, I lay down, I lay extended
+      PV/ki+pimisin+V+AI+Ind+1Sg+Var/East: nikî-pimisin   # I lay, I lay down, I lay extended
       PV/ki+pimisin+V+AI+Ind+2Sg: kikî-pimisinin   # you lay, you lay down, you lay extended
+      PV/ki+pimisin+V+AI+Ind+2Sg+Var/East: kikî-pimisin   # you lay, you lay down, you lay extended
       PV/ki+pimisin+V+AI+Ind+3Sg: kî-pimisin   # he/she lay, he/she lay down, he/she lay extended
       PV/ki+pimisin+V+AI+Ind+1Pl: nikî-pimisininân   # we lay, we lay down, we lay extended
       PV/ki+pimisin+V+AI+Ind+12Pl: [kikî-pimisinânaw, kikî-pimisinaw]   # we and you lay, we and you lay down, we and you lay extended
@@ -61,11 +74,16 @@ Tests:
 
       # Prt # Cnj
       PV/î+PV/ki+pimisin+V+AI+Cnj+1Sg: î-kî-pimisiniyân   # as I lay, as I lay down, as I lay extended
+      PV/î+PV/ki+pimisin+V+AI+Cnj+1Sg+Var/East: î-kî-pimisinân   # as I lay, as I lay down, as I lay extended
       PV/î+PV/ki+pimisin+V+AI+Cnj+2Sg: [î-kî-pimisiniyan, î-kî-pimisiniyin]   # as you lay, as you lay down, as you lay extended
+      PV/î+PV/ki+pimisin+V+AI+Cnj+2Sg+Var/East: î-kî-pimisinan   # as I lay, as I lay down, as I lay extended
       PV/î+PV/ki+pimisin+V+AI+Cnj+3Sg: î-kî-pimisihk   # as he/she lay, as he/she lay down, as he/she lay extended
       PV/î+PV/ki+pimisin+V+AI+Cnj+1Pl: î-kî-pimisiniyâhk   # as we lay, as we lay down, as we lay extended
+      PV/î+PV/ki+pimisin+V+AI+Cnj+1Pl+Var/East: î-kî-pimisinâhk   # as we lay, as we lay down, as we lay extended
       PV/î+PV/ki+pimisin+V+AI+Cnj+12Pl: î-kî-pimisiniyahk   # as we and you lay, as we and you lay down, as we and you lay extended
+      PV/î+PV/ki+pimisin+V+AI+Cnj+12Pl+Var/East: î-kî-pimisinahk   # as we and you lay, as we and you lay down, as we and you lay extended
       PV/î+PV/ki+pimisin+V+AI+Cnj+2Pl: î-kî-pimisiniyîk   # as you all lay, as you all lay down, as you all lay extended
+      PV/î+PV/ki+pimisin+V+AI+Cnj+2Pl+Var/East: î-kî-pimisinîk   # as you all lay, as you all lay down, as you all lay extended
       PV/î+PV/ki+pimisin+V+AI+Cnj+3Pl: î-kî-pimisihkwâw   # as they lay, as they lay down, as they lay extended
       PV/î+PV/ki+pimisin+V+AI+Cnj+4Sg/Pl: î-kî-pimisinithit   # as another/others lay, as another/others lay down, as another/others lay extended
       PV/î+PV/ki+pimisin+V+AI+Cnj+X: [î-kî-pimisininâniwik, î-kî-pimisininâniwahk, î-kî-pimisinihk]   # as someone lay, as someone lay down, as someone lay extended
@@ -73,7 +91,9 @@ Tests:
 
       # Fut+Int # Ind
       PV/wi+pimisin+V+AI+Ind+1Sg: niwî-pimisinin   # I am going to lie, I am going to lie down, I am going to lie extended
+      PV/wi+pimisin+V+AI+Ind+1Sg+Var/East: niwî-pimisin   # I am going to lie, I am going to lie down, I am going to lie extended
       PV/wi+pimisin+V+AI+Ind+2Sg: kiwî-pimisinin   # you are going to lie, you are going to lie down, you are going to lie extended
+      PV/wi+pimisin+V+AI+Ind+2Sg+Var/East: kiwî-pimisin   # you are going to lie, you are going to lie down, you are going to lie extended
       PV/wi+pimisin+V+AI+Ind+3Sg: wî-pimisin   # he/she is going to lie, he/she is going to lie down, he/she is going to lie extended
       PV/wi+pimisin+V+AI+Ind+1Pl: niwî-pimisininân   # we are going to lie, we are going to lie down, we are going to lie extended
       PV/wi+pimisin+V+AI+Ind+12Pl: [kiwî-pimisinânaw, kiwî-pimisinaw]   # we and you are going to lie, we and you are going to lie down, we and you are going to lie extended
@@ -85,11 +105,16 @@ Tests:
 
       # Fut+Int # Cnj
       PV/î+PV/wi+pimisin+V+AI+Cnj+1Sg: î-wî-pimisiniyân   # as I am going to lie, as I am going to lie down, as I am going to lie extended
+      PV/î+PV/wi+pimisin+V+AI+Cnj+1Sg+Var/East: î-wî-pimisinân   # as I am going to lie, as I am going to lie down, as I am going to lie extended
       PV/î+PV/wi+pimisin+V+AI+Cnj+2Sg: [î-wî-pimisiniyan, î-wî-pimisiniyin]   # as you are going to lie, as you are going to lie down, as you are going to lie extended
+      PV/î+PV/wi+pimisin+V+AI+Cnj+2Sg+Var/East: î-wî-pimisinan   # as I am going to lie, as I am going to lie down, as I am going to lie extended
       PV/î+PV/wi+pimisin+V+AI+Cnj+3Sg: î-wî-pimisihk   # as he/she is going to lie, as he/she is going to lie down, as he/she is going to lie extended
       PV/î+PV/wi+pimisin+V+AI+Cnj+1Pl: î-wî-pimisiniyâhk   # as we are going to lie, as we are going to lie down, as we are going to lie extended
+      PV/î+PV/wi+pimisin+V+AI+Cnj+1Pl+Var/East: î-wî-pimisinâhk   # as we are going to lie, as we are going to lie down, as we are going to lie extended
       PV/î+PV/wi+pimisin+V+AI+Cnj+12Pl: î-wî-pimisiniyahk   # as we and you are going to lie, as we and you are going to lie down, as we and you are going to lie extended
+      PV/î+PV/wi+pimisin+V+AI+Cnj+12Pl+Var/East: î-wî-pimisinahk   # as we and you are going to lie, as we and you are going to lie down, as we and you are going to lie extended
       PV/î+PV/wi+pimisin+V+AI+Cnj+2Pl: î-wî-pimisiniyîk   # as you all are going to lie, as you all are going to lie down, as you all are going to lie extended
+      PV/î+PV/wi+pimisin+V+AI+Cnj+2Pl+Var/East: î-wî-pimisinîk   # as you all are going to lie, as you all are going to lie down, as you all are going to lie extended
       PV/î+PV/wi+pimisin+V+AI+Cnj+3Pl: î-wî-pimisihkwâw   # as they are going to lie, as they are going to lie down, as they are going to lie extended
       PV/î+PV/wi+pimisin+V+AI+Cnj+4Sg/Pl: î-wî-pimisinithit   # as another/others are going to lie, as another/others are going to lie down, as another/others are going to lie extended
       PV/î+PV/wi+pimisin+V+AI+Cnj+X: [î-wî-pimisininâniwik, î-wî-pimisininâniwahk, î-wî-pimisinihk]   # as someone is going to lie, as someone is going to lie down, as someone is going to lie extended
@@ -97,7 +122,9 @@ Tests:
 
       # Fut+Def # Ind
       PV/ka+pimisin+V+AI+Ind+1Sg: nika-pimisinin   # I will lie, I will lie down, I will lie extended
+      PV/ka+pimisin+V+AI+Ind+1Sg+Var/East: nika-pimisin   # I will lie, I will lie down, I will lie extended
       PV/ka+pimisin+V+AI+Ind+2Sg: kika-pimisinin   # you will lie, you will lie down, you will lie extended
+      PV/ka+pimisin+V+AI+Ind+2Sg+Var/East: kika-pimisin   # you will lie, you will lie down, you will lie extended
       PV/ka+pimisin+V+AI+Ind+3Sg: ka-pimisin   # he/she will lie, he/she will lie down, he/she will lie extended
       PV/ka+pimisin+V+AI+Ind+1Pl: nika-pimisininân   # we will lie, we will lie down, we will lie extended
       PV/ka+pimisin+V+AI+Ind+12Pl: [kika-pimisinânaw, kika-pimisinaw]   # we and you will lie, we and you will lie down, we and you will lie extended
@@ -109,11 +136,16 @@ Tests:
 
       # Inf # PV/ka
       PV/ka+pimisin+V+AI+Cnj+1Sg: ka-pimisiniyân   # I will lie, I will lie down, I will lie extended
+      PV/ka+pimisin+V+AI+Cnj+1Sg+Var/East: ka-pimisinân   # I will lie, I will lie down, I will lie extended
       PV/ka+pimisin+V+AI+Cnj+2Sg: [ka-pimisiniyan, ka-pimisiniyin]   # you will lie, you will lie down, you will lie extended
+      PV/ka+pimisin+V+AI+Cnj+2Sg+Var/East: ka-pimisinan   # I will lie, I will lie down, I will lie extended
       PV/ka+pimisin+V+AI+Cnj+3Sg: ka-pimisihk   # he/she will lie, he/she will lie down, he/she will lie extended
       PV/ka+pimisin+V+AI+Cnj+1Pl: ka-pimisiniyâhk   # we will lie, we will lie down, we will lie extended
+      PV/ka+pimisin+V+AI+Cnj+1Pl+Var/East: ka-pimisinâhk   # we will lie, we will lie down, we will lie extended
       PV/ka+pimisin+V+AI+Cnj+12Pl: ka-pimisiniyahk   # we and you will lie, we and you will lie down, we and you will lie extended
+      PV/ka+pimisin+V+AI+Cnj+12Pl+Var/East: ka-pimisinahk   # we and you will lie, we and you will lie down, we and you will lie extended
       PV/ka+pimisin+V+AI+Cnj+2Pl: ka-pimisiniyîk   # you all will lie, you all will lie down, you all will lie extended
+      PV/ka+pimisin+V+AI+Cnj+2Pl+Var/East: ka-pimisinîk   # you all will lie, you all will lie down, you all will lie extended
       PV/ka+pimisin+V+AI+Cnj+3Pl: ka-pimisihkwâw   # they will lie, they will lie down, they will lie extended
       PV/ka+pimisin+V+AI+Cnj+4Sg/Pl: ka-pimisinithit   # another/others will lie, another/others will lie down, another/others will lie extended
       PV/ka+pimisin+V+AI+Cnj+X: [ka-pimisininâniwik, ka-pimisininâniwahk, ka-pimisinihk]   # someone will lie, someone will lie down, someone will lie extended
@@ -121,11 +153,16 @@ Tests:
 
       # Inf # PV/ta
       PV/ta+pimisin+V+AI+Cnj+1Sg: ta-pimisiniyân   # I lie, I lie down, I lie extended
+      PV/ta+pimisin+V+AI+Cnj+1Sg+Var/East: ta-pimisinân   # I lie, I lie down, I lie extended
       PV/ta+pimisin+V+AI+Cnj+2Sg: [ta-pimisiniyan, ta-pimisiniyin]   # you lie, you lie down, you lie extended
+      PV/ta+pimisin+V+AI+Cnj+2Sg+Var/East: ta-pimisinan   # I lie, I lie down, I lie extended
       PV/ta+pimisin+V+AI+Cnj+3Sg: ta-pimisihk   # he/she lies, he/she lies down, he/she lies extended
       PV/ta+pimisin+V+AI+Cnj+1Pl: ta-pimisiniyâhk   # we lie, we lie down, we lie extended
+      PV/ta+pimisin+V+AI+Cnj+1Pl+Var/East: ta-pimisinâhk   # we lie, we lie down, we lie extended
       PV/ta+pimisin+V+AI+Cnj+12Pl: ta-pimisiniyahk   # we and you lie, we and you lie down, we and you lie extended
+      PV/ta+pimisin+V+AI+Cnj+12Pl+Var/East: ta-pimisinahk   # we and you lie, we and you lie down, we and you lie extended
       PV/ta+pimisin+V+AI+Cnj+2Pl: ta-pimisiniyîk   # you all lie, you all lie down, you all lie extended
+      PV/ta+pimisin+V+AI+Cnj+2Pl+Var/East: ta-pimisinîk   # you all lie, you all lie down, you all lie extended
       PV/ta+pimisin+V+AI+Cnj+3Pl: ta-pimisihkwâw   # they lie, they lie down, they lie extended
       PV/ta+pimisin+V+AI+Cnj+4Sg/Pl: ta-pimisinithit   # another/others lie, another/others lie down, another/others lie extended
       PV/ta+pimisin+V+AI+Cnj+X: [ta-pimisininâniwik, ta-pimisininâniwahk, ta-pimisinihk]   # someone lies, someone lies down, someone lies extended
@@ -133,11 +170,16 @@ Tests:
 
       # Fut # Cond
       pimisin+V+AI+Fut+Cond+1Sg: pimisiniyâni   # when I lie, when I lie down, when I lie extended
+      pimisin+V+AI+Fut+Cond+1Sg+Var/East: pimisinâni   # when I lie, when I lie down, when I lie extended
       pimisin+V+AI+Fut+Cond+2Sg: [pimisiniyani, pimisiniyini]   # when you lie, when you lie down, when you lie extended
+      pimisin+V+AI+Fut+Cond+2Sg+Var/East: pimisinani   # when I lie, when I lie down, when I lie extended
       pimisin+V+AI+Fut+Cond+3Sg: [pimisinici, pimisihki]   # when he/she lies, when he/she lies down, when he/she lies extended
       pimisin+V+AI+Fut+Cond+1Pl: pimisiniyâhki   # when we lie, when we lie down, when we lie extended
+      pimisin+V+AI+Fut+Cond+1Pl+Var/East: pimisinâhki   # when we lie, when we lie down, when we lie extended
       pimisin+V+AI+Fut+Cond+12Pl: pimisiniyahki   # when we and you lie, when we and you lie down, when we and you lie extended
+      pimisin+V+AI+Fut+Cond+12Pl+Var/East: pimisinahki   # when we and you lie, when we and you lie down, when we and you lie extended
       pimisin+V+AI+Fut+Cond+2Pl: pimisiniyîko   # when you all lie, when you all lie down, when you all lie extended
+      pimisin+V+AI+Fut+Cond+2Pl+Var/East: pimisinîko   # when you all lie, when you all lie down, when you all lie extended
       pimisin+V+AI+Fut+Cond+3Pl: [pimisinitwâwi, pimisihkwâwi]   # when they lie, when they lie down, when they lie extended
       pimisin+V+AI+Fut+Cond+4Sg/Pl: pimisinithici   # when another/others lie, when another/others lie down, when another/others lie extended
       pimisin+V+AI+Fut+Cond+X: [pimisihki, pimisihkwâwi]   # when someone lies, when someone lies down, when someone lies extended

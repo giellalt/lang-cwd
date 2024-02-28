@@ -27,7 +27,9 @@ Tests:
       PV/î+pimamon+V+II+Cnj+3Sg: î-pimamok   # as it runs along, as it passes along a road or rail
       PV/î+pimamon+V+II+Cnj+4Sg: î-pimamonithik   # as it over there runs along, as it over there passes along a road or rail
       PV/î+pimamon+V+II+Cnj+3Pl: î-pimamoki   # as they run along, as they pass along a road or rail
+      PV/î+pimamon+V+II+Cnj+3Pl+Var/East: [î-pimamokwâ, î-pimamokiht]   # as they run along, as they pass along a road or rail
       PV/î+pimamon+V+II+Cnj+4Pl: î-pimamonithiki   # as they over there run along, as they over there pass along a road or rail
+      PV/î+pimamon+V+II+Cnj+4Pl+Var/East: î-pimamonithikwâ   # as they over there run along, as they over there pass along a road or rail
       
 
       # Prt # Ind
@@ -41,7 +43,9 @@ Tests:
       PV/î+PV/ki+pimamon+V+II+Cnj+3Sg: î-kî-pimamok   # as it ran along, as it passed along a road or rail
       PV/î+PV/ki+pimamon+V+II+Cnj+4Sg: î-kî-pimamonithik   # as it over there ran along, as it over there passed along a road or rail
       PV/î+PV/ki+pimamon+V+II+Cnj+3Pl: î-kî-pimamoki   # as they ran along, as they passed along a road or rail
+      PV/î+PV/ki+pimamon+V+II+Cnj+3Pl+Var/East: [î-kî-pimamokwâ, î-kî-pimamokiht]   # as they ran along, as they passed along a road or rail
       PV/î+PV/ki+pimamon+V+II+Cnj+4Pl: î-kî-pimamonithiki   # as they over there ran along, as they over there passed along a road or rail
+      PV/î+PV/ki+pimamon+V+II+Cnj+4Pl+Var/East: î-kî-pimamonithikwâ   # as they over there ran along, as they over there passed along a road or rail
       
 
       # Fut+Int # Ind
@@ -55,7 +59,9 @@ Tests:
       PV/î+PV/wi+pimamon+V+II+Cnj+3Sg: î-wî-pimamok   # as it is going to run along, as it is going to pass along a road or rail
       PV/î+PV/wi+pimamon+V+II+Cnj+4Sg: î-wî-pimamonithik   # as it over there is going to run along, as it over there is going to pass along a road or rail
       PV/î+PV/wi+pimamon+V+II+Cnj+3Pl: î-wî-pimamoki   # as they are going to run along, as they are going to pass along a road or rail
+      PV/î+PV/wi+pimamon+V+II+Cnj+3Pl+Var/East: [î-wî-pimamokwâ, î-wî-pimamokiht]   # as they are going to run along, as they are going to pass along a road or rail
       PV/î+PV/wi+pimamon+V+II+Cnj+4Pl: î-wî-pimamonithiki   # as they over there are going to run along, as they over there are going to pass along a road or rail
+      PV/î+PV/wi+pimamon+V+II+Cnj+4Pl+Var/East: î-wî-pimamonithikwâ   # as they over there are going to run along, as they over there are going to pass along a road or rail
       
 
       # Fut+Def # Ind
@@ -69,14 +75,18 @@ Tests:
       PV/ka+pimamon+V+II+Cnj+3Sg: ka-pimamok   # it will run along, it will pass along a road or rail
       PV/ka+pimamon+V+II+Cnj+4Sg: ka-pimamonithik   # it over there will run along, it over there will pass along a road or rail
       PV/ka+pimamon+V+II+Cnj+3Pl: ka-pimamoki   # they will run along, they will pass along a road or rail
+      PV/ka+pimamon+V+II+Cnj+3Pl+Var/East: [ka-pimamokwâ, ka-pimamokiht]   # they will run along, they will pass along a road or rail
       PV/ka+pimamon+V+II+Cnj+4Pl: ka-pimamonithiki   # they over there will run along, they over there will pass along a road or rail
+      PV/ka+pimamon+V+II+Cnj+4Pl+Var/East: ka-pimamonithikwâ   # they over there will run along, they over there will pass along a road or rail
       
 
       # Inf # PV/ta
       PV/ta+pimamon+V+II+Cnj+3Sg: ta-pimamok   # it runs along, it passes along a road or rail
       PV/ta+pimamon+V+II+Cnj+4Sg: ta-pimamonithik   # it over there runs along, it over there passes along a road or rail
       PV/ta+pimamon+V+II+Cnj+3Pl: ta-pimamoki   # they run along, they pass along a road or rail
+      PV/ta+pimamon+V+II+Cnj+3Pl+Var/East: [ta-pimamokwâ, ta-pimamokiht]   # they run along, they pass along a road or rail
       PV/ta+pimamon+V+II+Cnj+4Pl: ta-pimamonithiki   # they over there run along, they over there pass along a road or rail
+      PV/ta+pimamon+V+II+Cnj+4Pl+Var/East: ta-pimamonithikwâ   # they over there run along, they over there pass along a road or rail
       
 
       # Fut # Cond
