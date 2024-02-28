@@ -981,7 +981,10 @@ LEXICON VIIn_SG_CNJ_SUFFIX   !!= @CODE@ singular
 
 LEXICON VIIn_PL_CNJ_SUFFIX  !!= @CODE@ plural
 +3Pl:%>ki VERB_ENDLEX ;
++3Pl+Var/East:%>kwâ VERB_ENDLEX ;
++3Pl+Var/East:%>kiht VERB_ENDLEX ;
 +4Pl:%>ithiki VERB_ENDLEX ;
++4Pl+Var/East:%>ithikwâ VERB_ENDLEX ;
 
 ! ===========================================================
 ! ===========================================================
@@ -999,7 +1002,11 @@ LEXICON VIIw_SG_CNJ_SUFFIX   !!= @CODE@ w final singular
 
 LEXICON VIIw_PL_CNJ_SUFFIX   !!= @CODE@ w final plural
 +3Pl:%>ki VERB_ENDLEX ;
++3Pl+Var/East:%>hki VERB_ENDLEX ;
++3Pl+Var/East:%>kwâ VERB_ENDLEX ;
++3Pl+Var/East:%>kiht VERB_ENDLEX ;
 +4Pl:%>thiki VERB_ENDLEX ;
++4Pl+Var/East:%>thikwâ VERB_ENDLEX ;
 
 ! ****************************
 !!!! FUTURE CONDITIONAL !!!!
@@ -1441,6 +1448,7 @@ VAIn_IND_NI_PL_SUFFIX ;
 
 LEXICON VAIn_IND_NI_SG_SUFFIX   !!= @CODE@ 
 +1Sg:%>in VERB_ENDLEX ;
++1Sg+Var/East:0 VERB_ENDLEX ;
 
 LEXICON VAIn_IND_NI_PL_SUFFIX   !!= @CODE@ 
 +1Pl:%>inân VERB_ENDLEX ;
@@ -1451,6 +1459,7 @@ VAIn_IND_KI_PL_SUFFIX ;
 
 LEXICON VAIn_IND_KI_SG_SUFFIX   !!= @CODE@ 
 +2Sg:%>in VERB_ENDLEX ;
++2Sg+Var/East:0 VERB_ENDLEX ;
 
 LEXICON VAIn_IND_KI_PL_SUFFIX   !!= @CODE@ 
 +12Pl:%>aw VERB_ENDLEX ;
@@ -1565,8 +1574,10 @@ VAIn_CNJ_NULL_PL_SUFFIX ;
 LEXICON VAIn_CNJ_NULL_SG_SUFFIX   !!= @CODE@ 
 
 +1Sg:%>iyân VERB_ENDLEX ;
++1Sg+Var/East:%>ân VERB_ENDLEX ;
 +2Sg:%>iyan VERB_ENDLEX ;
 +2Sg:%>iyin VERB_ENDLEX ;
++2Sg+Var/East:%>an VERB_ENDLEX ;
 +3Sg:%>k VERB_ENDLEX ;
 +3Sg+Dial:%>it VERB_ENDLEX ;
 +X+Dial/West:%>ihk VERB_ENDLEX ;
@@ -1577,8 +1588,11 @@ LEXICON VAIn_CNJ_NULL_SG_SUFFIX   !!= @CODE@
 LEXICON VAIn_CNJ_NULL_PL_SUFFIX   !!= @CODE@ 
 
 +1Pl:%>iyâhk VERB_ENDLEX ;
++1Pl+Var/East:%>âhk VERB_ENDLEX ;
 +12Pl:%>iyahk VERB_ENDLEX ;
++12Pl+Var/East:%>ahk VERB_ENDLEX ;
 +2Pl:%>iyîk VERB_ENDLEX ;
++2Pl+Var/East:%>îk VERB_ENDLEX ;
 +3Pl:%>kwâw VERB_ENDLEX ;
 ! +3Pl:%>icik VERB_ENDLEX ;
 ! +3Pl:%>itwâw VERB_ENDLEX ;
@@ -1704,8 +1718,10 @@ VAIn_FUT_CON_NULL_PL_SUFFIX ;
 LEXICON VAIn_FUT_CON_NULL_SG_SUFFIX   !!= @CODE@ 
 
 +1Sg:%>iyâni VERB_ENDLEX ;
++1Sg+Var/East:%>âni VERB_ENDLEX ;
 +2Sg:%>iyani VERB_ENDLEX ;
 +2Sg:%>iyini VERB_ENDLEX ;
++2Sg+Var/East:%>ani VERB_ENDLEX ;
 +3Sg:%>ici VERB_ENDLEX ;
 +3Sg:%>ki VERB_ENDLEX ;
 
@@ -1719,8 +1735,11 @@ LEXICON VAIn_FUT_CON_NULL_SG_SUFFIX   !!= @CODE@
 LEXICON VAIn_FUT_CON_NULL_PL_SUFFIX   !!= @CODE@ 
 
 +1Pl:%>iyâhki VERB_ENDLEX ;
++1Pl+Var/East:%>âhki VERB_ENDLEX ;
 +12Pl:%>iyahki VERB_ENDLEX ;
++12Pl+Var/East:%>ahki VERB_ENDLEX ;
 +2Pl:%>iyîko VERB_ENDLEX ;
++2Pl+Var/East:%>îko VERB_ENDLEX ;
 +3Pl:%>itwâwi VERB_ENDLEX ;
 +3Pl:%>kwâwi VERB_ENDLEX ;
 +4Sg/Pl:%>ithici VERB_ENDLEX ;
