@@ -1,0 +1,98 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - mîthwâsin : 
+
+      # Core 
+
+      # Prs+Ind
+      mîthwâsin+V+II+Ind+3Sg: mîthwâsin
+
+      # Prs+Cnj
+      PV/î+mîthwâsin+V+II+Cnj+3Sg: î-mîthwâsik
+      
+
+      # Prs # Ind
+      mîthwâsin+V+II+Ind+3Sg: mîthwâsin
+      mîthwâsin+V+II+Ind+4Sg: mîthwâsinithiw
+      mîthwâsin+V+II+Ind+3Pl: mîthwâsinwa
+      mîthwâsin+V+II+Ind+4Pl: mîthwâsinithiwa
+      
+
+      # Prs # Cnj
+      PV/î+mîthwâsin+V+II+Cnj+3Sg: î-mîthwâsik
+      PV/î+mîthwâsin+V+II+Cnj+4Sg: î-mîthwâsinithik
+      PV/î+mîthwâsin+V+II+Cnj+3Pl: î-mîthwâsiki
+      PV/î+mîthwâsin+V+II+Cnj+3Pl+Var/East: [î-mîthwâsikwâ, î-mîthwâsikiht]
+      PV/î+mîthwâsin+V+II+Cnj+4Pl: î-mîthwâsinithiki
+      PV/î+mîthwâsin+V+II+Cnj+4Pl+Var/East: î-mîthwâsinithikwâ
+      
+
+      # Prt # Ind
+      PV/ki+mîthwâsin+V+II+Ind+3Sg: kî-mîthwâsin
+      PV/ki+mîthwâsin+V+II+Ind+4Sg: kî-mîthwâsinithiw
+      PV/ki+mîthwâsin+V+II+Ind+3Pl: kî-mîthwâsinwa
+      PV/ki+mîthwâsin+V+II+Ind+4Pl: kî-mîthwâsinithiwa
+      
+
+      # Prt # Cnj
+      PV/î+PV/ki+mîthwâsin+V+II+Cnj+3Sg: î-kî-mîthwâsik
+      PV/î+PV/ki+mîthwâsin+V+II+Cnj+4Sg: î-kî-mîthwâsinithik
+      PV/î+PV/ki+mîthwâsin+V+II+Cnj+3Pl: î-kî-mîthwâsiki
+      PV/î+PV/ki+mîthwâsin+V+II+Cnj+3Pl+Var/East: [î-kî-mîthwâsikwâ, î-kî-mîthwâsikiht]
+      PV/î+PV/ki+mîthwâsin+V+II+Cnj+4Pl: î-kî-mîthwâsinithiki
+      PV/î+PV/ki+mîthwâsin+V+II+Cnj+4Pl+Var/East: î-kî-mîthwâsinithikwâ
+      
+
+      # Fut+Int # Ind
+      PV/wi+mîthwâsin+V+II+Ind+3Sg: wî-mîthwâsin
+      PV/wi+mîthwâsin+V+II+Ind+4Sg: wî-mîthwâsinithiw
+      PV/wi+mîthwâsin+V+II+Ind+3Pl: wî-mîthwâsinwa
+      PV/wi+mîthwâsin+V+II+Ind+4Pl: wî-mîthwâsinithiwa
+      
+
+      # Fut+Int # Cnj
+      PV/î+PV/wi+mîthwâsin+V+II+Cnj+3Sg: î-wî-mîthwâsik
+      PV/î+PV/wi+mîthwâsin+V+II+Cnj+4Sg: î-wî-mîthwâsinithik
+      PV/î+PV/wi+mîthwâsin+V+II+Cnj+3Pl: î-wî-mîthwâsiki
+      PV/î+PV/wi+mîthwâsin+V+II+Cnj+3Pl+Var/East: [î-wî-mîthwâsikwâ, î-wî-mîthwâsikiht]
+      PV/î+PV/wi+mîthwâsin+V+II+Cnj+4Pl: î-wî-mîthwâsinithiki
+      PV/î+PV/wi+mîthwâsin+V+II+Cnj+4Pl+Var/East: î-wî-mîthwâsinithikwâ
+
+      
+
+      # Fut+Def # Ind
+      PV/ka+mîthwâsin+V+II+Ind+3Sg: ka-mîthwâsin
+      PV/ka+mîthwâsin+V+II+Ind+4Sg: ka-mîthwâsinithiw
+      PV/ka+mîthwâsin+V+II+Ind+3Pl: ka-mîthwâsinwa
+      PV/ka+mîthwâsin+V+II+Ind+4Pl: ka-mîthwâsinithiwa
+      
+
+      # Inf # PV/ka
+      PV/ka+mîthwâsin+V+II+Cnj+3Sg: ka-mîthwâsik
+      PV/ka+mîthwâsin+V+II+Cnj+4Sg: ka-mîthwâsinithik
+      PV/ka+mîthwâsin+V+II+Cnj+3Pl: ka-mîthwâsiki
+      PV/ka+mîthwâsin+V+II+Cnj+3Pl+Var/East: [ka-mîthwâsikwâ, ka-mîthwâsikiht]
+      PV/ka+mîthwâsin+V+II+Cnj+4Pl: ka-mîthwâsinithiki
+      PV/ka+mîthwâsin+V+II+Cnj+4Pl+Var/East: ka-mîthwâsinithikwâ
+      
+
+      # Inf # PV/ta
+      PV/ta+mîthwâsin+V+II+Cnj+3Sg: ta-mîthwâsik
+      PV/ta+mîthwâsin+V+II+Cnj+4Sg: ta-mîthwâsinithik
+      PV/ta+mîthwâsin+V+II+Cnj+3Pl: ta-mîthwâsiki
+      PV/ta+mîthwâsin+V+II+Cnj+3Pl+Var/East: [ta-mîthwâsikwâ, ta-mîthwâsikiht]
+      PV/ta+mîthwâsin+V+II+Cnj+4Pl: ta-mîthwâsinithiki
+      PV/ta+mîthwâsin+V+II+Cnj+4Pl+Var/East: ta-mîthwâsinithikwâ
+      
+
+      # Fut # Cond
+      mîthwâsin+V+II+Fut+Cond+3Sg: mîthwâsiki
+      mîthwâsin+V+II+Fut+Cond+4Sg: mîthwâsinithiki
+      mîthwâsin+V+II+Fut+Cond+3Pl: mîthwâsikwâwi
+      mîthwâsin+V+II+Fut+Cond+4Pl: mîthwâsinithikwâwi
+
