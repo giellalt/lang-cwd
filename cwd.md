@@ -113,6 +113,17 @@ End of noun affixes LEXC code
 
 Plains Cree verb morphology                  
 
+Preverbs
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/preverbs.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/affixes/preverbs.lexc)</small>
+
+---
+
+
+Plains Cree verb morphology                  
+
 The Plains Cree verbs are divided in four groups:
 
 1. AI: Animate intransitive 
@@ -145,6 +156,8 @@ LEXICON IMPERATIVE    gives flag for imperative (no prefixes)
 Preverbs
 
 LEXICON VERBPREFIXES   just adds the prefix boundary
+
+Here we will take care of lexical preverbs (in preverbs.lexc)
 
 Now, LEXC directs us to the ../stems/verbs_stems.lexc file,
 where we find all the verbal stems. The suffixes are then

@@ -34,6 +34,8 @@ Preverbs
 
 LEXICON VERBPREFIXES   just adds the prefix boundary
 
+Here we will take care of lexical preverbs (in preverbs.lexc)
+
 Now, LEXC directs us to the ../stems/verbs_stems.lexc file,
 where we find all the verbal stems. The suffixes are then
 found in the section "Suffixes" right underneath.
