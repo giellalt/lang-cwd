@@ -182,6 +182,9 @@ normative and descriptive analysers, and generators for different purposes.
 * +Dial  tag for dialectical forms that can't be called errors
 * +Dial/East  tag for dialectical forms that can't be called errors
 * +Dial/West  tag for dialectical forms that can't be called errors
+* +Var  tag for dialectical forms that can't be called errors
+* +Var/East  tag for dialectical forms that can't be called errors
+* +Var/West  tag for dialectical forms that can't be called errors
 * +Use/NG   not-generate, for ped generation isme-ped.fst
 * +Eng indicates that this is an English form
 
@@ -221,7 +224,7 @@ End of new and all Multichar_Symbols
  LEXICON Root          is where it all starts
 * NOUN_PREFIXES   ;    
 * NOUN_IRREGULARS ;    
-* NOUN_VOCATIVES  ;    
+* Vocative_Nouns  ;    
 * VerbPrefixes    ;    
 * Pronoun         ;    
 * Propernouns     ;    
