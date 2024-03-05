@@ -33,6 +33,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/noun_affixes.lexc       \
 			 affixes/verb_affixes.lexc       \
 			 stems/noun_stems.lexc         \
+			 stems/vocative_nouns.lexc         \
 			 stems/verb_stems.lexc         \
 			 stems/pronouns.lexc      \
 			 stems/particles.lexc

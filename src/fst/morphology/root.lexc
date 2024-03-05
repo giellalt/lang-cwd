@@ -498,6 +498,9 @@ d2  !!=* @CODE@  Reduplication consonant marker
 +Dial !!= * @CODE@ tag for dialectical forms that can't be called errors
 +Dial/East !!= * @CODE@ tag for dialectical forms that can't be called errors
 +Dial/West !!= * @CODE@ tag for dialectical forms that can't be called errors
++Var !!= * @CODE@ tag for dialectical forms that can't be called errors
++Var/East !!= * @CODE@ tag for dialectical forms that can't be called errors
++Var/West !!= * @CODE@ tag for dialectical forms that can't be called errors
 +Use/NG  !!= * @CODE@ not-generate, for ped generation isme-ped.fst
 +Eng !!≈ * @CODE@ indicates that this is an English form
 
@@ -885,7 +888,7 @@ DRV-FST
 LEXICON Root         !!=  @CODE@ is where it all starts
 NOUN_PREFIXES   ;    !!= * @CODE@
 NOUN_IRREGULARS ;    !!= * @CODE@
-NOUN_VOCATIVES  ;    !!= * @CODE@
+Vocative_Nouns  ;    !!= * @CODE@
 VerbPrefixes    ;    !!= * @CODE@
 Pronoun         ;    !!= * @CODE@
 Propernouns     ;    !!= * @CODE@
