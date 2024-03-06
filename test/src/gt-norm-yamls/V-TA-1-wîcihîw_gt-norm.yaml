@@ -1,0 +1,950 @@
+Config:
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+   Lemma - wîcihîw
+
+      # Core 
+
+      # Prs+Ind
+      wîcihîw+V+TA+Ind+1Sg+2SgO: kiwîcihitin	# I help you
+      wîcihîw+V+TA+Ind+1Sg+3SgO: niwîcihâw	# I help him/her
+      wîcihîw+V+TA+Ind+2Sg+1SgO: kiwîcihin	# you help me
+      wîcihîw+V+TA+Ind+2Sg+3SgO: kiwîcihâw	# you help him/her
+      wîcihîw+V+TA+Ind+3Sg+4Sg/PlO: wîcihîw	# he/she helps another/others
+      wîcihîw+V+TA+Ind+4Sg/Pl+3SgO: [wîcihikow, wîcihik]	# another/others help him/her
+
+      # Prs+Cnj
+      PV/e+wîcihîw+V+TA+Cnj+1Sg+2SgO: î-wîcihitân	# as I help you
+      PV/e+wîcihîw+V+TA+Cnj+1Sg+3SgO: î-wîcihak	# as I help him/her
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+1SgO: î-wîcihithan	# as you help me
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+3SgO: î-wîcihat	# as you help him/her
+      PV/e+wîcihîw+V+TA+Cnj+3Sg+4Sg/PlO: î-wîcihât	# as he/she helps another/others
+      PV/e+wîcihîw+V+TA+Cnj+4Sg/Pl+3SgO: î-wîcihikot	# as another/others help him/her
+
+      # Imp
+      wîcihîw+V+TA+Imp+Imm+2Sg+1SgO: wîcihin	# (you) help me now
+      wîcihîw+V+TA+Imp+Imm+2Sg+3SgO: wîcih	# (you) help him/her now
+      
+
+      # Prs # Ind
+
+      # 1Sg
+      wîcihîw+V+TA+Ind+1Sg+2SgO: kiwîcihitin	# I help you
+      wîcihîw+V+TA+Ind+1Sg+3SgO: niwîcihâw	# I help him/her
+      wîcihîw+V+TA+Ind+1Sg+2PlO: kiwîcihitinâwâw	# I help you all
+      wîcihîw+V+TA+Ind+1Sg+3PlO: niwîcihâwak	# I help them
+      wîcihîw+V+TA+Ind+1Sg+4Sg/PlO: niwîcihimâwa	# I help another/others
+
+      # 2Sg
+      wîcihîw+V+TA+Ind+2Sg+1SgO: kiwîcihin	# you help me
+      wîcihîw+V+TA+Ind+2Sg+3SgO: kiwîcihâw	# you help him/her
+      wîcihîw+V+TA+Ind+2Sg+1PlO: kiwîcihinân	# you help us
+      wîcihîw+V+TA+Ind+2Sg+3PlO: kiwîcihâwak	# you help them
+      wîcihîw+V+TA+Ind+2Sg+4Sg/PlO: kiwîcihimâwa	# you help another/others
+
+      # 3Sg
+      wîcihîw+V+TA+Ind+2Sg+1SgO: kiwîcihin	# you help me
+      wîcihîw+V+TA+Ind+3Sg+2SgO: kiwîcihik	# he/she helps you
+      wîcihîw+V+TA+Ind+2Sg+1PlO: kiwîcihinân	# you help us
+      wîcihîw+V+TA+Ind+3Sg+12PlO: kiwîcihikonaw	# he/she helps you and us
+      wîcihîw+V+TA+Ind+3Sg+2PlO: kiwîcihikowâw	# he/she helps you all
+      wîcihîw+V+TA+Ind+2Sg+3PlO: kiwîcihâwak	# you help them
+      wîcihîw+V+TA+Ind+2Sg+4Sg/PlO: kiwîcihimâwa	# you help another/others
+      wîcihîw+V+TA+Ind+3Sg+5Sg/PlO: wîcihimîw	# he/she helps yet another/others
+
+      # 1Pl
+      wîcihîw+V+TA+Ind+1Pl+2SgO: kiwîcihitinân	# we help you
+      wîcihîw+V+TA+Ind+1Pl+3SgO: niwîcihânân	# we help him/her
+      wîcihîw+V+TA+Ind+1Pl+2PlO: kiwîcihitinân	# we help you all
+      wîcihîw+V+TA+Ind+1Pl+3PlO: niwîcihânânak	# we help them
+      wîcihîw+V+TA+Ind+1Pl+4Sg/PlO: niwîcihimânâna	# we help another/others
+
+      # 12Pl
+      wîcihîw+V+TA+Ind+12Pl+3SgO: kiwîcihânaw	# we and you help him/her
+      wîcihîw+V+TA+Ind+12Pl+3PlO: kiwîcihânawak	# we and you help them
+      wîcihîw+V+TA+Ind+12Pl+4Sg/PlO: kiwîcihimânawa	# we and you help another/others
+
+      # 2Pl
+      wîcihîw+V+TA+Ind+2Pl+1SgO: kiwîcihinâwâw	# you all help me
+      wîcihîw+V+TA+Ind+2Pl+3SgO: kiwîcihâwâw	# you all help him/her
+      wîcihîw+V+TA+Ind+2Pl+1PlO: kiwîcihinân	# you all help us
+      wîcihîw+V+TA+Ind+2Pl+3PlO: kiwîcihâwâwak	# you all help them
+      wîcihîw+V+TA+Ind+2Pl+4Sg/PlO: kiwîcihimâwâwa	# you all help another/others
+
+      # 3Pl
+      wîcihîw+V+TA+Ind+3Pl+1SgO: [niwîcihikowak, niwîcihikwak]	# they help me
+      wîcihîw+V+TA+Ind+3Pl+2SgO: [kiwîcihikowak, kiwîcihikwak]	# they help you
+      wîcihîw+V+TA+Ind+3Pl+1PlO: niwîcihikonânak	# they help us
+      wîcihîw+V+TA+Ind+3Pl+12PlO: kiwîcihikonawak	# they help you and us
+      wîcihîw+V+TA+Ind+3Pl+2PlO: kiwîcihikowâwak	# they help you all
+      wîcihîw+V+TA+Ind+3Pl+4Sg/PlO: wîcihîwak	# they help another/others
+      wîcihîw+V+TA+Ind+3Pl+5Sg/PlO: wîcihimîwak	# they help yet another/others
+
+      # 4Sg/Pl
+      wîcihîw+V+TA+Ind+4Sg/Pl+1SgO: niwîcihikothiwa	# another/others help me
+      wîcihîw+V+TA+Ind+4Sg/Pl+2SgO: kiwîcihikothiwa	# another/others help you
+      wîcihîw+V+TA+Ind+4Sg/Pl+3SgO: [wîcihikow, wîcihik]	# another/others help him/her
+      wîcihîw+V+TA+Ind+4Sg/Pl+1PlO: niwîcihikonâna	# another/others help us
+      wîcihîw+V+TA+Ind+4Sg/Pl+12PlO: kiwîcihikonawa	# another/others help you and us
+      wîcihîw+V+TA+Ind+4Sg/Pl+2PlO: kiwîcihikowâwa	# another/others help you all
+      wîcihîw+V+TA+Ind+4Sg/Pl+3PlO: [wîcihikowak, wîcihikwak]	# another/others help them
+      wîcihîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: wîcihîthiwa	# another/others help yet another/others
+
+      # 5Sg/Pl
+      wîcihîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: wîcihikothiwa	# yet another/others help another/others
+
+      # X
+      wîcihîw+V+TA+Ind+X+1SgO: niwîcihikawin	# someone helps me
+      wîcihîw+V+TA+Ind+X+2SgO: kiwîcihikawin	# someone helps you
+      wîcihîw+V+TA+Ind+X+3SgO: wîcihâw	# someone helps him/her
+      wîcihîw+V+TA+Ind+X+1PlO: niwîcihikawinân	# someone helps us
+      wîcihîw+V+TA+Ind+X+12PlO: [kiwîcihikawinaw, kiwîcihikawinânaw]	# someone helps you and us
+      wîcihîw+V+TA+Ind+X+2PlO: kiwîcihikawinâwâw	# someone helps you all
+      wîcihîw+V+TA+Ind+X+3PlO: wîcihâwak	# someone helps them
+      wîcihîw+V+TA+Ind+X+4Sg/PlO: wîcihâthiwa	# someone helps another/others
+
+      # 0Sg/Pl
+      wîcihîw+V+TA+Ind+0Sg/Pl+1SgO: wîcihîw+V+TA+Ind+0Sg/Pl+1SgO
+      wîcihîw+V+TA+Ind+0Sg/Pl+2SgO: wîcihîw+V+TA+Ind+0Sg/Pl+2SgO
+      wîcihîw+V+TA+Ind+0Sg/Pl+3SgO: wîcihîw+V+TA+Ind+0Sg/Pl+3SgO
+      wîcihîw+V+TA+Ind+0Sg/Pl+1PlO: wîcihîw+V+TA+Ind+0Sg/Pl+1PlO
+      wîcihîw+V+TA+Ind+0Sg/Pl+12PlO: wîcihîw+V+TA+Ind+0Sg/Pl+12PlO
+      wîcihîw+V+TA+Ind+0Sg/Pl+2PlO: wîcihîw+V+TA+Ind+0Sg/Pl+2PlO
+      wîcihîw+V+TA+Ind+0Sg/Pl+3PlO: wîcihîw+V+TA+Ind+0Sg/Pl+3PlO
+      wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      
+
+      # Prs # Cnj
+
+      # 1Sg
+      PV/e+wîcihîw+V+TA+Cnj+1Sg+2SgO: î-wîcihitân	# as I help you
+      PV/e+wîcihîw+V+TA+Cnj+1Sg+3SgO: î-wîcihak	# as I help him/her
+      PV/e+wîcihîw+V+TA+Cnj+1Sg+2PlO: î-wîcihitakok	# as I help you all
+      PV/e+wîcihîw+V+TA+Cnj+1Sg+3PlO: î-wîcihakik	# as I help them
+      PV/e+wîcihîw+V+TA+Cnj+1Sg+4Sg/PlO: î-wîcihimak	# as I help another/others
+
+      # 2Sg
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+1SgO: î-wîcihithan	# as you help me
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+3SgO: î-wîcihat	# as you help him/her
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+1PlO: î-wîcihithâhk	# as you help us
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+3PlO: î-wîcihacik	# as you help them
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wîcihimat	# as you help another/others
+
+      # 3Sg
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+1SgO: î-wîcihithan	# as you help me
+      PV/e+wîcihîw+V+TA+Cnj+3Sg+2SgO: î-wîcihisk	# as he/she helps you
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+1PlO: î-wîcihithâhk	# as you help us
+      PV/e+wîcihîw+V+TA+Cnj+3Sg+12PlO: î-wîcihikothahk	# as he/she helps you and us
+      PV/e+wîcihîw+V+TA+Cnj+3Sg+2PlO: î-wîcihikothîk	# as he/she helps you all
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+3PlO: î-wîcihacik	# as you help them
+      PV/e+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wîcihimat	# as you help another/others
+      PV/e+wîcihîw+V+TA+Cnj+3Sg+5Sg/PlO: î-wîcihimât	# as he/she helps yet another/others
+
+      # 1Pl
+      PV/e+wîcihîw+V+TA+Cnj+1Pl+2SgO: î-wîcihitâhk	# as we help you
+      PV/e+wîcihîw+V+TA+Cnj+1Pl+3SgO: î-wîcihâthâhk	# as we help him/her
+      PV/e+wîcihîw+V+TA+Cnj+1Pl+2PlO: î-wîcihitâhk	# as we help you all
+      PV/e+wîcihîw+V+TA+Cnj+1Pl+3PlO: î-wîcihâthâhkik	# as we help them
+      PV/e+wîcihîw+V+TA+Cnj+1Pl+4Sg/PlO: î-wîcihimâthâhk	# as we help another/others
+
+      # 12Pl
+      PV/e+wîcihîw+V+TA+Cnj+12Pl+3SgO: î-wîcihâthahk	# as we and you help him/her
+      PV/e+wîcihîw+V+TA+Cnj+12Pl+3PlO: î-wîcihâthahkok	# as we and you help them
+      PV/e+wîcihîw+V+TA+Cnj+12Pl+4Sg/PlO: î-wîcihimâthahk	# as we and you help another/others
+
+      # 2Pl
+      PV/e+wîcihîw+V+TA+Cnj+2Pl+1SgO: î-wîcihithîk	# as you all help me
+      PV/e+wîcihîw+V+TA+Cnj+2Pl+3SgO: î-wîcihâthîk	# as you all help him/her
+      PV/e+wîcihîw+V+TA+Cnj+2Pl+1PlO: î-wîcihithâhk	# as you all help us
+      PV/e+wîcihîw+V+TA+Cnj+2Pl+3PlO: î-wîcihâthîkok	# as you all help them
+      PV/e+wîcihîw+V+TA+Cnj+2Pl+4Sg/PlO: î-wîcihimâthîk	# as you all help another/others
+
+      # 3Pl
+      PV/e+wîcihîw+V+TA+Cnj+3Pl+1SgO: î-wîcihicik	# as they help me
+      PV/e+wîcihîw+V+TA+Cnj+3Pl+2SgO: î-wîcihiskik	# as they help you
+      PV/e+wîcihîw+V+TA+Cnj+3Pl+1PlO: î-wîcihikothâhkik	# as they help us
+      PV/e+wîcihîw+V+TA+Cnj+3Pl+12PlO: î-wîcihikothahkok	# as they help you and us
+      PV/e+wîcihîw+V+TA+Cnj+3Pl+2PlO: î-wîcihikothîkok	# as they help you all
+      PV/e+wîcihîw+V+TA+Cnj+3Pl+4Sg/PlO: î-wîcihâcik	# as they help another/others
+      PV/e+wîcihîw+V+TA+Cnj+3Pl+5Sg/PlO: î-wîcihimâcik	# as they help yet another/others
+
+      # 4Sg/Pl
+      PV/e+wîcihîw+V+TA+Cnj+4Sg/Pl+1SgO: î-wîcihimit	# as another/others help me
+      PV/e+wîcihîw+V+TA+Cnj+4Sg/Pl+2SgO: î-wîcihimisk	# as another/others help you
+      PV/e+wîcihîw+V+TA+Cnj+4Sg/Pl+3SgO: î-wîcihikot	# as another/others help him/her
+      PV/e+wîcihîw+V+TA+Cnj+4Sg/Pl+1PlO: î-wîcihikothâhk	# as another/others help us
+      PV/e+wîcihîw+V+TA+Cnj+4Sg/Pl+12PlO: î-wîcihikothahk	# as another/others help you and us
+      PV/e+wîcihîw+V+TA+Cnj+4Sg/Pl+2PlO: î-wîcihikothîk	# as another/others help you all
+      PV/e+wîcihîw+V+TA+Cnj+4Sg/Pl+3PlO: î-wîcihikocik	# as another/others help them
+      PV/e+wîcihîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-wîcihâthit	# as another/others help yet another/others
+
+      # 5Sg/Pl
+      PV/e+wîcihîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-wîcihikothit	# as yet another/others help another/others
+
+      # X
+      PV/e+wîcihîw+V+TA+Cnj+X+1SgO: î-wîcihikawithân	# as someone helps me
+      PV/e+wîcihîw+V+TA+Cnj+X+2SgO: î-wîcihikawithan	# as someone helps you
+      PV/e+wîcihîw+V+TA+Cnj+X+3SgO: î-wîcihiht	# as someone helps him/her
+      PV/e+wîcihîw+V+TA+Cnj+X+1PlO: î-wîcihikawithâhk	# as someone helps us
+      PV/e+wîcihîw+V+TA+Cnj+X+12PlO: î-wîcihikawithahk	# as someone helps you and us
+      PV/e+wîcihîw+V+TA+Cnj+X+2PlO: î-wîcihikawithîk	# as someone helps you all
+      PV/e+wîcihîw+V+TA+Cnj+X+3PlO: î-wîcihihcik	# as someone helps them
+      PV/e+wîcihîw+V+TA+Cnj+X+4Sg/PlO: î-wîcihimiht	# as someone helps another/others
+
+      # 0Sg/Pl
+      PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+1SgO
+      PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+2SgO
+      PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+3SgO
+      PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+1PlO
+      PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+12PlO
+      PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+2PlO
+      PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+3PlO
+      PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/e+wîcihîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      
+
+      # Prt # Ind
+
+      # 1Sg
+      PV/ki+wîcihîw+V+TA+Ind+1Sg+2SgO: kikî-wîcihitin	# I helped you
+      PV/ki+wîcihîw+V+TA+Ind+1Sg+3SgO: nikî-wîcihâw	# I helped him/her
+      PV/ki+wîcihîw+V+TA+Ind+1Sg+2PlO: kikî-wîcihitinâwâw	# I helped you all
+      PV/ki+wîcihîw+V+TA+Ind+1Sg+3PlO: nikî-wîcihâwak	# I helped them
+      PV/ki+wîcihîw+V+TA+Ind+1Sg+4Sg/PlO: nikî-wîcihimâwa	# I helped another/others
+
+      # 2Sg
+      PV/ki+wîcihîw+V+TA+Ind+2Sg+1SgO: kikî-wîcihin	# you helped me
+      PV/ki+wîcihîw+V+TA+Ind+2Sg+3SgO: kikî-wîcihâw	# you helped him/her
+      PV/ki+wîcihîw+V+TA+Ind+2Sg+1PlO: kikî-wîcihinân	# you helped us
+      PV/ki+wîcihîw+V+TA+Ind+2Sg+3PlO: kikî-wîcihâwak	# you helped them
+      PV/ki+wîcihîw+V+TA+Ind+2Sg+4Sg/PlO: kikî-wîcihimâwa	# you helped another/others
+
+      # 3Sg
+      PV/ki+wîcihîw+V+TA+Ind+2Sg+1SgO: kikî-wîcihin	# you helped me
+      PV/ki+wîcihîw+V+TA+Ind+3Sg+2SgO: kikî-wîcihik	# he/she helped you
+      PV/ki+wîcihîw+V+TA+Ind+2Sg+1PlO: kikî-wîcihinân	# you helped us
+      PV/ki+wîcihîw+V+TA+Ind+3Sg+12PlO: kikî-wîcihikonaw	# he/she helped you and us
+      PV/ki+wîcihîw+V+TA+Ind+3Sg+2PlO: kikî-wîcihikowâw	# he/she helped you all
+      PV/ki+wîcihîw+V+TA+Ind+2Sg+3PlO: kikî-wîcihâwak	# you helped them
+      PV/ki+wîcihîw+V+TA+Ind+2Sg+4Sg/PlO: kikî-wîcihimâwa	# you helped another/others
+      PV/ki+wîcihîw+V+TA+Ind+3Sg+5Sg/PlO: kî-wîcihimîw	# he/she helped yet another/others
+
+      # 1Pl
+      PV/ki+wîcihîw+V+TA+Ind+1Pl+2SgO: kikî-wîcihitinân	# we helped you
+      PV/ki+wîcihîw+V+TA+Ind+1Pl+3SgO: nikî-wîcihânân	# we helped him/her
+      PV/ki+wîcihîw+V+TA+Ind+1Pl+2PlO: kikî-wîcihitinân	# we helped you all
+      PV/ki+wîcihîw+V+TA+Ind+1Pl+3PlO: nikî-wîcihânânak	# we helped them
+      PV/ki+wîcihîw+V+TA+Ind+1Pl+4Sg/PlO: nikî-wîcihimânâna	# we helped another/others
+
+      # 12Pl
+      PV/ki+wîcihîw+V+TA+Ind+12Pl+3SgO: kikî-wîcihânaw	# we and you helped him/her
+      PV/ki+wîcihîw+V+TA+Ind+12Pl+3PlO: kikî-wîcihânawak	# we and you helped them
+      PV/ki+wîcihîw+V+TA+Ind+12Pl+4Sg/PlO: kikî-wîcihimânawa	# we and you helped another/others
+
+      # 2Pl
+      PV/ki+wîcihîw+V+TA+Ind+2Pl+1SgO: kikî-wîcihinâwâw	# you all helped me
+      PV/ki+wîcihîw+V+TA+Ind+2Pl+3SgO: kikî-wîcihâwâw	# you all helped him/her
+      PV/ki+wîcihîw+V+TA+Ind+2Pl+1PlO: kikî-wîcihinân	# you all helped us
+      PV/ki+wîcihîw+V+TA+Ind+2Pl+3PlO: kikî-wîcihâwâwak	# you all helped them
+      PV/ki+wîcihîw+V+TA+Ind+2Pl+4Sg/PlO: kikî-wîcihimâwâwa	# you all helped another/others
+
+      # 3Pl
+      PV/ki+wîcihîw+V+TA+Ind+3Pl+1SgO: [nikî-wîcihikowak, nikî-wîcihikwak]	# they helped me
+      PV/ki+wîcihîw+V+TA+Ind+3Pl+2SgO: [kikî-wîcihikowak, kikî-wîcihikwak]	# they helped you
+      PV/ki+wîcihîw+V+TA+Ind+3Pl+1PlO: nikî-wîcihikonânak	# they helped us
+      PV/ki+wîcihîw+V+TA+Ind+3Pl+12PlO: kikî-wîcihikonawak	# they helped you and us
+      PV/ki+wîcihîw+V+TA+Ind+3Pl+2PlO: kikî-wîcihikowâwak	# they helped you all
+      PV/ki+wîcihîw+V+TA+Ind+3Pl+4Sg/PlO: kî-wîcihîwak	# they helped another/others
+      PV/ki+wîcihîw+V+TA+Ind+3Pl+5Sg/PlO: kî-wîcihimîwak	# they helped yet another/others
+
+      # 4Sg/Pl
+      PV/ki+wîcihîw+V+TA+Ind+4Sg/Pl+1SgO: nikî-wîcihikothiwa	# another/others helped me
+      PV/ki+wîcihîw+V+TA+Ind+4Sg/Pl+2SgO: kikî-wîcihikothiwa	# another/others helped you
+      PV/ki+wîcihîw+V+TA+Ind+4Sg/Pl+3SgO: [kî-wîcihikow, kî-wîcihik]	# another/others helped him/her
+      PV/ki+wîcihîw+V+TA+Ind+4Sg/Pl+1PlO: nikî-wîcihikonâna	# another/others helped us
+      PV/ki+wîcihîw+V+TA+Ind+4Sg/Pl+12PlO: kikî-wîcihikonawa	# another/others helped you and us
+      PV/ki+wîcihîw+V+TA+Ind+4Sg/Pl+2PlO: kikî-wîcihikowâwa	# another/others helped you all
+      PV/ki+wîcihîw+V+TA+Ind+4Sg/Pl+3PlO: [kî-wîcihikowak, kî-wîcihikwak]	# another/others helped them
+      PV/ki+wîcihîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: kî-wîcihîthiwa	# another/others helped yet another/others
+
+      # 5Sg/Pl
+      PV/ki+wîcihîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: kî-wîcihikothiwa	# yet another/others helped another/others
+
+      # X
+      PV/ki+wîcihîw+V+TA+Ind+X+1SgO: nikî-wîcihikawin	# someone helped me
+      PV/ki+wîcihîw+V+TA+Ind+X+2SgO: kikî-wîcihikawin	# someone helped you
+      PV/ki+wîcihîw+V+TA+Ind+X+3SgO: kî-wîcihâw	# someone helped him/her
+      PV/ki+wîcihîw+V+TA+Ind+X+1PlO: nikî-wîcihikawinân	# someone helped us
+      PV/ki+wîcihîw+V+TA+Ind+X+12PlO: [kikî-wîcihikawinaw, kikî-wîcihikawinânaw]	# someone helped you and us
+      PV/ki+wîcihîw+V+TA+Ind+X+2PlO: kikî-wîcihikawinâwâw	# someone helped you all
+      PV/ki+wîcihîw+V+TA+Ind+X+3PlO: kî-wîcihâwak	# someone helped them
+      PV/ki+wîcihîw+V+TA+Ind+X+4Sg/PlO: kî-wîcihâthiwa	# someone helped another/others
+
+      # 0Sg/Pl
+      PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+1SgO: PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+1SgO
+      PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+2SgO: PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+2SgO
+      PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+3SgO: PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+3SgO
+      PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+1PlO: PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+1PlO
+      PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+12PlO: PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+12PlO
+      PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+2PlO: PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+2PlO
+      PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+3PlO: PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+3PlO
+      PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: PV/ki+wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      
+
+      # Prt # Cnj
+
+      # 1Sg
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+1Sg+2SgO: î-kî-wîcihitân	# as I helped you
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+1Sg+3SgO: î-kî-wîcihak	# as I helped him/her
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+1Sg+2PlO: î-kî-wîcihitakok	# as I helped you all
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+1Sg+3PlO: î-kî-wîcihakik	# as I helped them
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+1Sg+4Sg/PlO: î-kî-wîcihimak	# as I helped another/others
+
+      # 2Sg
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Sg+1SgO: î-kî-wîcihithan	# as you helped me
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Sg+3SgO: î-kî-wîcihat	# as you helped him/her
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Sg+1PlO: î-kî-wîcihithâhk	# as you helped us
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Sg+3PlO: î-kî-wîcihacik	# as you helped them
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-wîcihimat	# as you helped another/others
+
+      # 3Sg
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Sg+1SgO: î-kî-wîcihithan	# as you helped me
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Sg+2SgO: î-kî-wîcihisk	# as he/she helped you
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Sg+1PlO: î-kî-wîcihithâhk	# as you helped us
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Sg+12PlO: î-kî-wîcihikothahk	# as he/she helped you and us
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Sg+2PlO: î-kî-wîcihikothîk	# as he/she helped you all
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Sg+3PlO: î-kî-wîcihacik	# as you helped them
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-wîcihimat	# as you helped another/others
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Sg+5Sg/PlO: î-kî-wîcihimât	# as he/she helped yet another/others
+
+      # 1Pl
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+1Pl+2SgO: î-kî-wîcihitâhk	# as we helped you
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+1Pl+3SgO: î-kî-wîcihâthâhk	# as we helped him/her
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+1Pl+2PlO: î-kî-wîcihitâhk	# as we helped you all
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+1Pl+3PlO: î-kî-wîcihâthâhkik	# as we helped them
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+1Pl+4Sg/PlO: î-kî-wîcihimâthâhk	# as we helped another/others
+
+      # 12Pl
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+12Pl+3SgO: î-kî-wîcihâthahk	# as we and you helped him/her
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+12Pl+3PlO: î-kî-wîcihâthahkok	# as we and you helped them
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+12Pl+4Sg/PlO: î-kî-wîcihimâthahk	# as we and you helped another/others
+
+      # 2Pl
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Pl+1SgO: î-kî-wîcihithîk	# as you all helped me
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Pl+3SgO: î-kî-wîcihâthîk	# as you all helped him/her
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Pl+1PlO: î-kî-wîcihithâhk	# as you all helped us
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Pl+3PlO: î-kî-wîcihâthîkok	# as you all helped them
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+2Pl+4Sg/PlO: î-kî-wîcihimâthîk	# as you all helped another/others
+
+      # 3Pl
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Pl+1SgO: î-kî-wîcihicik	# as they helped me
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Pl+2SgO: î-kî-wîcihiskik	# as they helped you
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Pl+1PlO: î-kî-wîcihikothâhkik	# as they helped us
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Pl+12PlO: î-kî-wîcihikothahkok	# as they helped you and us
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Pl+2PlO: î-kî-wîcihikothîkok	# as they helped you all
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Pl+4Sg/PlO: î-kî-wîcihâcik	# as they helped another/others
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+3Pl+5Sg/PlO: î-kî-wîcihimâcik	# as they helped yet another/others
+
+      # 4Sg/Pl
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+4Sg/Pl+1SgO: î-kî-wîcihimit	# as another/others helped me
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+4Sg/Pl+2SgO: î-kî-wîcihimisk	# as another/others helped you
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+4Sg/Pl+3SgO: î-kî-wîcihikot	# as another/others helped him/her
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+4Sg/Pl+1PlO: î-kî-wîcihikothâhk	# as another/others helped us
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+4Sg/Pl+12PlO: î-kî-wîcihikothahk	# as another/others helped you and us
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+4Sg/Pl+2PlO: î-kî-wîcihikothîk	# as another/others helped you all
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+4Sg/Pl+3PlO: î-kî-wîcihikocik	# as another/others helped them
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-kî-wîcihâthit	# as another/others helped yet another/others
+
+      # 5Sg/Pl
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-kî-wîcihikothit	# as yet another/others helped another/others
+
+      # X
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+X+1SgO: î-kî-wîcihikawithân	# as someone helped me
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+X+2SgO: î-kî-wîcihikawithan	# as someone helped you
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+X+3SgO: î-kî-wîcihiht	# as someone helped him/her
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+X+1PlO: î-kî-wîcihikawithâhk	# as someone helped us
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+X+12PlO: î-kî-wîcihikawithahk	# as someone helped you and us
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+X+2PlO: î-kî-wîcihikawithîk	# as someone helped you all
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+X+3PlO: î-kî-wîcihihcik	# as someone helped them
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+X+4Sg/PlO: î-kî-wîcihimiht	# as someone helped another/others
+
+      # 0Sg/Pl
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+1SgO
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+2SgO
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+3SgO
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+1PlO
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+12PlO
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+2PlO
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+3PlO
+      PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/e+PV/ki+wîcihîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      
+
+      # Fut+Int # Ind
+
+      # 1Sg
+      PV/wi+wîcihîw+V+TA+Ind+1Sg+2SgO: kiwî-wîcihitin	# I am going to help you
+      PV/wi+wîcihîw+V+TA+Ind+1Sg+3SgO: niwî-wîcihâw	# I am going to help him/her
+      PV/wi+wîcihîw+V+TA+Ind+1Sg+2PlO: kiwî-wîcihitinâwâw	# I am going to help you all
+      PV/wi+wîcihîw+V+TA+Ind+1Sg+3PlO: niwî-wîcihâwak	# I am going to help them
+      PV/wi+wîcihîw+V+TA+Ind+1Sg+4Sg/PlO: niwî-wîcihimâwa	# I am going to help another/others
+
+      # 2Sg
+      PV/wi+wîcihîw+V+TA+Ind+2Sg+1SgO: kiwî-wîcihin	# you are going to help me
+      PV/wi+wîcihîw+V+TA+Ind+2Sg+3SgO: kiwî-wîcihâw	# you are going to help him/her
+      PV/wi+wîcihîw+V+TA+Ind+2Sg+1PlO: kiwî-wîcihinân	# you are going to help us
+      PV/wi+wîcihîw+V+TA+Ind+2Sg+3PlO: kiwî-wîcihâwak	# you are going to help them
+      PV/wi+wîcihîw+V+TA+Ind+2Sg+4Sg/PlO: kiwî-wîcihimâwa	# you are going to help another/others
+
+      # 3Sg
+      PV/wi+wîcihîw+V+TA+Ind+2Sg+1SgO: kiwî-wîcihin	# you are going to help me
+      PV/wi+wîcihîw+V+TA+Ind+3Sg+2SgO: kiwî-wîcihik	# he/she is going to help you
+      PV/wi+wîcihîw+V+TA+Ind+2Sg+1PlO: kiwî-wîcihinân	# you are going to help us
+      PV/wi+wîcihîw+V+TA+Ind+3Sg+12PlO: kiwî-wîcihikonaw	# he/she is going to help you and us
+      PV/wi+wîcihîw+V+TA+Ind+3Sg+2PlO: kiwî-wîcihikowâw	# he/she is going to help you all
+      PV/wi+wîcihîw+V+TA+Ind+2Sg+3PlO: kiwî-wîcihâwak	# you are going to help them
+      PV/wi+wîcihîw+V+TA+Ind+2Sg+4Sg/PlO: kiwî-wîcihimâwa	# you are going to help another/others
+      PV/wi+wîcihîw+V+TA+Ind+3Sg+5Sg/PlO: wî-wîcihimîw	# he/she is going to help yet another/others
+
+      # 1Pl
+      PV/wi+wîcihîw+V+TA+Ind+1Pl+2SgO: kiwî-wîcihitinân	# we are going to help you
+      PV/wi+wîcihîw+V+TA+Ind+1Pl+3SgO: niwî-wîcihânân	# we are going to help him/her
+      PV/wi+wîcihîw+V+TA+Ind+1Pl+2PlO: kiwî-wîcihitinân	# we are going to help you all
+      PV/wi+wîcihîw+V+TA+Ind+1Pl+3PlO: niwî-wîcihânânak	# we are going to help them
+      PV/wi+wîcihîw+V+TA+Ind+1Pl+4Sg/PlO: niwî-wîcihimânâna	# we are going to help another/others
+
+      # 12Pl
+      PV/wi+wîcihîw+V+TA+Ind+12Pl+3SgO: kiwî-wîcihânaw	# we and you are going to help him/her
+      PV/wi+wîcihîw+V+TA+Ind+12Pl+3PlO: kiwî-wîcihânawak	# we and you are going to help them
+      PV/wi+wîcihîw+V+TA+Ind+12Pl+4Sg/PlO: kiwî-wîcihimânawa	# we and you are going to help another/others
+
+      # 2Pl
+      PV/wi+wîcihîw+V+TA+Ind+2Pl+1SgO: kiwî-wîcihinâwâw	# you all are going to help me
+      PV/wi+wîcihîw+V+TA+Ind+2Pl+3SgO: kiwî-wîcihâwâw	# you all are going to help him/her
+      PV/wi+wîcihîw+V+TA+Ind+2Pl+1PlO: kiwî-wîcihinân	# you all are going to help us
+      PV/wi+wîcihîw+V+TA+Ind+2Pl+3PlO: kiwî-wîcihâwâwak	# you all are going to help them
+      PV/wi+wîcihîw+V+TA+Ind+2Pl+4Sg/PlO: kiwî-wîcihimâwâwa	# you all are going to help another/others
+
+      # 3Pl
+      PV/wi+wîcihîw+V+TA+Ind+3Pl+1SgO: [niwî-wîcihikowak, niwî-wîcihikwak]	# they are going to help me
+      PV/wi+wîcihîw+V+TA+Ind+3Pl+2SgO: [kiwî-wîcihikowak, kiwî-wîcihikwak]	# they are going to help you
+      PV/wi+wîcihîw+V+TA+Ind+3Pl+1PlO: niwî-wîcihikonânak	# they are going to help us
+      PV/wi+wîcihîw+V+TA+Ind+3Pl+12PlO: kiwî-wîcihikonawak	# they are going to help you and us
+      PV/wi+wîcihîw+V+TA+Ind+3Pl+2PlO: kiwî-wîcihikowâwak	# they are going to help you all
+      PV/wi+wîcihîw+V+TA+Ind+3Pl+4Sg/PlO: wî-wîcihîwak	# they are going to help another/others
+      PV/wi+wîcihîw+V+TA+Ind+3Pl+5Sg/PlO: wî-wîcihimîwak	# they are going to help yet another/others
+
+      # 4Sg/Pl
+      PV/wi+wîcihîw+V+TA+Ind+4Sg/Pl+1SgO: niwî-wîcihikothiwa	# another/others are going to help me
+      PV/wi+wîcihîw+V+TA+Ind+4Sg/Pl+2SgO: kiwî-wîcihikothiwa	# another/others are going to help you
+      PV/wi+wîcihîw+V+TA+Ind+4Sg/Pl+3SgO: [wî-wîcihikow, wî-wîcihik]	# another/others are going to help him/her
+      PV/wi+wîcihîw+V+TA+Ind+4Sg/Pl+1PlO: niwî-wîcihikonâna	# another/others are going to help us
+      PV/wi+wîcihîw+V+TA+Ind+4Sg/Pl+12PlO: kiwî-wîcihikonawa	# another/others are going to help you and us
+      PV/wi+wîcihîw+V+TA+Ind+4Sg/Pl+2PlO: kiwî-wîcihikowâwa	# another/others are going to help you all
+      PV/wi+wîcihîw+V+TA+Ind+4Sg/Pl+3PlO: [wî-wîcihikowak, wî-wîcihikwak]	# another/others are going to help them
+      PV/wi+wîcihîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: wî-wîcihîthiwa	# another/others are going to help yet another/others
+
+      # 5Sg/Pl
+      PV/wi+wîcihîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: wî-wîcihikothiwa	# yet another/others are going to help another/others
+
+      # X
+      PV/wi+wîcihîw+V+TA+Ind+X+1SgO: niwî-wîcihikawin	# someone is going to help me
+      PV/wi+wîcihîw+V+TA+Ind+X+2SgO: kiwî-wîcihikawin	# someone is going to help you
+      PV/wi+wîcihîw+V+TA+Ind+X+3SgO: wî-wîcihâw	# someone is going to help him/her
+      PV/wi+wîcihîw+V+TA+Ind+X+1PlO: niwî-wîcihikawinân	# someone is going to help us
+      PV/wi+wîcihîw+V+TA+Ind+X+12PlO: [kiwî-wîcihikawinaw, kiwî-wîcihikawinânaw]	# someone is going to help you and us
+      PV/wi+wîcihîw+V+TA+Ind+X+2PlO: kiwî-wîcihikawinâwâw	# someone is going to help you all
+      PV/wi+wîcihîw+V+TA+Ind+X+3PlO: wî-wîcihâwak	# someone is going to help them
+      PV/wi+wîcihîw+V+TA+Ind+X+4Sg/PlO: wî-wîcihâthiwa	# someone is going to help another/others
+
+      # 0Sg/Pl
+      PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+1SgO: PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+1SgO
+      PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+2SgO: PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+2SgO
+      PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+3SgO: PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+3SgO
+      PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+1PlO: PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+1PlO
+      PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+12PlO: PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+12PlO
+      PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+2PlO: PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+2PlO
+      PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+3PlO: PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+3PlO
+      PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: PV/wi+wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      
+
+      # Fut+Int # Cnj
+
+      # 1Sg
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+1Sg+2SgO: î-wî-wîcihitân	# as I am going to help you
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+1Sg+3SgO: î-wî-wîcihak	# as I am going to help him/her
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+1Sg+2PlO: î-wî-wîcihitakok	# as I am going to help you all
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+1Sg+3PlO: î-wî-wîcihakik	# as I am going to help them
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+1Sg+4Sg/PlO: î-wî-wîcihimak	# as I am going to help another/others
+
+      # 2Sg
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Sg+1SgO: î-wî-wîcihithan	# as you are going to help me
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Sg+3SgO: î-wî-wîcihat	# as you are going to help him/her
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Sg+1PlO: î-wî-wîcihithâhk	# as you are going to help us
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Sg+3PlO: î-wî-wîcihacik	# as you are going to help them
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-wîcihimat	# as you are going to help another/others
+
+      # 3Sg
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Sg+1SgO: î-wî-wîcihithan	# as you are going to help me
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Sg+2SgO: î-wî-wîcihisk	# as he/she is going to help you
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Sg+1PlO: î-wî-wîcihithâhk	# as you are going to help us
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Sg+12PlO: î-wî-wîcihikothahk	# as he/she is going to help you and us
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Sg+2PlO: î-wî-wîcihikothîk	# as he/she is going to help you all
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Sg+3PlO: î-wî-wîcihacik	# as you are going to help them
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-wîcihimat	# as you are going to help another/others
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Sg+5Sg/PlO: î-wî-wîcihimât	# as he/she is going to help yet another/others
+
+      # 1Pl
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+1Pl+2SgO: î-wî-wîcihitâhk	# as we are going to help you
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+1Pl+3SgO: î-wî-wîcihâthâhk	# as we are going to help him/her
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+1Pl+2PlO: î-wî-wîcihitâhk	# as we are going to help you all
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+1Pl+3PlO: î-wî-wîcihâthâhkik	# as we are going to help them
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+1Pl+4Sg/PlO: î-wî-wîcihimâthâhk	# as we are going to help another/others
+
+      # 12Pl
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+12Pl+3SgO: î-wî-wîcihâthahk	# as we and you are going to help him/her
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+12Pl+3PlO: î-wî-wîcihâthahkok	# as we and you are going to help them
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+12Pl+4Sg/PlO: î-wî-wîcihimâthahk	# as we and you are going to help another/others
+
+      # 2Pl
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Pl+1SgO: î-wî-wîcihithîk	# as you all are going to help me
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Pl+3SgO: î-wî-wîcihâthîk	# as you all are going to help him/her
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Pl+1PlO: î-wî-wîcihithâhk	# as you all are going to help us
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Pl+3PlO: î-wî-wîcihâthîkok	# as you all are going to help them
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+2Pl+4Sg/PlO: î-wî-wîcihimâthîk	# as you all are going to help another/others
+
+      # 3Pl
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Pl+1SgO: î-wî-wîcihicik	# as they are going to help me
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Pl+2SgO: î-wî-wîcihiskik	# as they are going to help you
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Pl+1PlO: î-wî-wîcihikothâhkik	# as they are going to help us
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Pl+12PlO: î-wî-wîcihikothahkok	# as they are going to help you and us
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Pl+2PlO: î-wî-wîcihikothîkok	# as they are going to help you all
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Pl+4Sg/PlO: î-wî-wîcihâcik	# as they are going to help another/others
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+3Pl+5Sg/PlO: î-wî-wîcihimâcik	# as they are going to help yet another/others
+
+      # 4Sg/Pl
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+4Sg/Pl+1SgO: î-wî-wîcihimit	# as another/others are going to help me
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+4Sg/Pl+2SgO: î-wî-wîcihimisk	# as another/others are going to help you
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+4Sg/Pl+3SgO: î-wî-wîcihikot	# as another/others are going to help him/her
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+4Sg/Pl+1PlO: î-wî-wîcihikothâhk	# as another/others are going to help us
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+4Sg/Pl+12PlO: î-wî-wîcihikothahk	# as another/others are going to help you and us
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+4Sg/Pl+2PlO: î-wî-wîcihikothîk	# as another/others are going to help you all
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+4Sg/Pl+3PlO: î-wî-wîcihikocik	# as another/others are going to help them
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-wî-wîcihâthit	# as another/others are going to help yet another/others
+
+      # 5Sg/Pl
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-wî-wîcihikothit	# as yet another/others are going to help another/others
+
+      # X
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+X+1SgO: î-wî-wîcihikawithân	# as someone is going to help me
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+X+2SgO: î-wî-wîcihikawithan	# as someone is going to help you
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+X+3SgO: î-wî-wîcihiht	# as someone is going to help him/her
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+X+1PlO: î-wî-wîcihikawithâhk	# as someone is going to help us
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+X+12PlO: î-wî-wîcihikawithahk	# as someone is going to help you and us
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+X+2PlO: î-wî-wîcihikawithîk	# as someone is going to help you all
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+X+3PlO: î-wî-wîcihihcik	# as someone is going to help them
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+X+4Sg/PlO: î-wî-wîcihimiht	# as someone is going to help another/others
+
+      # 0Sg/Pl
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+1SgO
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+2SgO
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+3SgO
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+1PlO
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+12PlO
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+2PlO
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+3PlO
+      PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/e+PV/wi+wîcihîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      
+
+      # Fut+Def # Ind
+
+      # 1Sg
+      PV/ka+wîcihîw+V+TA+Ind+1Sg+2SgO: kika-wîcihitin	# I will help you
+      PV/ka+wîcihîw+V+TA+Ind+1Sg+3SgO: nika-wîcihâw	# I will help him/her
+      PV/ka+wîcihîw+V+TA+Ind+1Sg+2PlO: kika-wîcihitinâwâw	# I will help you all
+      PV/ka+wîcihîw+V+TA+Ind+1Sg+3PlO: nika-wîcihâwak	# I will help them
+      PV/ka+wîcihîw+V+TA+Ind+1Sg+4Sg/PlO: nika-wîcihimâwa	# I will help another/others
+
+      # 2Sg
+      PV/ka+wîcihîw+V+TA+Ind+2Sg+1SgO: kika-wîcihin	# you will help me
+      PV/ka+wîcihîw+V+TA+Ind+2Sg+3SgO: kika-wîcihâw	# you will help him/her
+      PV/ka+wîcihîw+V+TA+Ind+2Sg+1PlO: kika-wîcihinân	# you will help us
+      PV/ka+wîcihîw+V+TA+Ind+2Sg+3PlO: kika-wîcihâwak	# you will help them
+      PV/ka+wîcihîw+V+TA+Ind+2Sg+4Sg/PlO: kika-wîcihimâwa	# you will help another/others
+
+      # 3Sg
+      PV/ka+wîcihîw+V+TA+Ind+2Sg+1SgO: kika-wîcihin	# you will help me
+      PV/ka+wîcihîw+V+TA+Ind+3Sg+2SgO: kika-wîcihik	# he/she will help you
+      PV/ka+wîcihîw+V+TA+Ind+2Sg+1PlO: kika-wîcihinân	# you will help us
+      PV/ka+wîcihîw+V+TA+Ind+3Sg+12PlO: kika-wîcihikonaw	# he/she will help you and us
+      PV/ka+wîcihîw+V+TA+Ind+3Sg+2PlO: kika-wîcihikowâw	# he/she will help you all
+      PV/ka+wîcihîw+V+TA+Ind+2Sg+3PlO: kika-wîcihâwak	# you will help them
+      PV/ka+wîcihîw+V+TA+Ind+2Sg+4Sg/PlO: kika-wîcihimâwa	# you will help another/others
+      PV/ka+wîcihîw+V+TA+Ind+3Sg+5Sg/PlO: ka-wîcihimîw	# he/she will help yet another/others
+
+      # 1Pl
+      PV/ka+wîcihîw+V+TA+Ind+1Pl+2SgO: kika-wîcihitinân	# we will help you
+      PV/ka+wîcihîw+V+TA+Ind+1Pl+3SgO: nika-wîcihânân	# we will help him/her
+      PV/ka+wîcihîw+V+TA+Ind+1Pl+2PlO: kika-wîcihitinân	# we will help you all
+      PV/ka+wîcihîw+V+TA+Ind+1Pl+3PlO: nika-wîcihânânak	# we will help them
+      PV/ka+wîcihîw+V+TA+Ind+1Pl+4Sg/PlO: nika-wîcihimânâna	# we will help another/others
+
+      # 12Pl
+      PV/ka+wîcihîw+V+TA+Ind+12Pl+3SgO: kika-wîcihânaw	# we and you will help him/her
+      PV/ka+wîcihîw+V+TA+Ind+12Pl+3PlO: kika-wîcihânawak	# we and you will help them
+      PV/ka+wîcihîw+V+TA+Ind+12Pl+4Sg/PlO: kika-wîcihimânawa	# we and you will help another/others
+
+      # 2Pl
+      PV/ka+wîcihîw+V+TA+Ind+2Pl+1SgO: kika-wîcihinâwâw	# you all will help me
+      PV/ka+wîcihîw+V+TA+Ind+2Pl+3SgO: kika-wîcihâwâw	# you all will help him/her
+      PV/ka+wîcihîw+V+TA+Ind+2Pl+1PlO: kika-wîcihinân	# you all will help us
+      PV/ka+wîcihîw+V+TA+Ind+2Pl+3PlO: kika-wîcihâwâwak	# you all will help them
+      PV/ka+wîcihîw+V+TA+Ind+2Pl+4Sg/PlO: kika-wîcihimâwâwa	# you all will help another/others
+
+      # 3Pl
+      PV/ka+wîcihîw+V+TA+Ind+3Pl+1SgO: [nika-wîcihikowak, nika-wîcihikwak]	# they will help me
+      PV/ka+wîcihîw+V+TA+Ind+3Pl+2SgO: [kika-wîcihikowak, kika-wîcihikwak]	# they will help you
+      PV/ka+wîcihîw+V+TA+Ind+3Pl+1PlO: nika-wîcihikonânak	# they will help us
+      PV/ka+wîcihîw+V+TA+Ind+3Pl+12PlO: kika-wîcihikonawak	# they will help you and us
+      PV/ka+wîcihîw+V+TA+Ind+3Pl+2PlO: kika-wîcihikowâwak	# they will help you all
+      PV/ka+wîcihîw+V+TA+Ind+3Pl+4Sg/PlO: ka-wîcihîwak	# they will help another/others
+      PV/ka+wîcihîw+V+TA+Ind+3Pl+5Sg/PlO: ka-wîcihimîwak	# they will help yet another/others
+
+      # 4Sg/Pl
+      PV/ka+wîcihîw+V+TA+Ind+4Sg/Pl+1SgO: nika-wîcihikothiwa	# another/others will help me
+      PV/ka+wîcihîw+V+TA+Ind+4Sg/Pl+2SgO: kika-wîcihikothiwa	# another/others will help you
+      PV/ka+wîcihîw+V+TA+Ind+4Sg/Pl+3SgO: [ka-wîcihikow, ka-wîcihik]	# another/others will help him/her
+      PV/ka+wîcihîw+V+TA+Ind+4Sg/Pl+1PlO: nika-wîcihikonâna	# another/others will help us
+      PV/ka+wîcihîw+V+TA+Ind+4Sg/Pl+12PlO: kika-wîcihikonawa	# another/others will help you and us
+      PV/ka+wîcihîw+V+TA+Ind+4Sg/Pl+2PlO: kika-wîcihikowâwa	# another/others will help you all
+      PV/ka+wîcihîw+V+TA+Ind+4Sg/Pl+3PlO: [ka-wîcihikowak, ka-wîcihikwak]	# another/others will help them
+      PV/ka+wîcihîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: ka-wîcihîthiwa	# another/others will help yet another/others
+
+      # 5Sg/Pl
+      PV/ka+wîcihîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: ka-wîcihikothiwa	# yet another/others will help another/others
+
+      # X
+      PV/ka+wîcihîw+V+TA+Ind+X+1SgO: nika-wîcihikawin	# someone will help me
+      PV/ka+wîcihîw+V+TA+Ind+X+2SgO: kika-wîcihikawin	# someone will help you
+      PV/ka+wîcihîw+V+TA+Ind+X+3SgO: ka-wîcihâw	# someone will help him/her
+      PV/ka+wîcihîw+V+TA+Ind+X+1PlO: nika-wîcihikawinân	# someone will help us
+      PV/ka+wîcihîw+V+TA+Ind+X+12PlO: [kika-wîcihikawinaw, kika-wîcihikawinânaw]	# someone will help you and us
+      PV/ka+wîcihîw+V+TA+Ind+X+2PlO: kika-wîcihikawinâwâw	# someone will help you all
+      PV/ka+wîcihîw+V+TA+Ind+X+3PlO: ka-wîcihâwak	# someone will help them
+      PV/ka+wîcihîw+V+TA+Ind+X+4Sg/PlO: ka-wîcihâthiwa	# someone will help another/others
+
+      # 0Sg/Pl
+      PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+1SgO: PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+1SgO
+      PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+2SgO: PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+2SgO
+      PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+3SgO: PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+3SgO
+      PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+1PlO: PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+1PlO
+      PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+12PlO: PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+12PlO
+      PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+2PlO: PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+2PlO
+      PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+3PlO: PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+3PlO
+      PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: PV/ka+wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      
+
+      # Inf # PV/ka
+
+      # 1Sg
+      PV/ka+wîcihîw+V+TA+Cnj+1Sg+2SgO: ka-wîcihitân	# I will help you
+      PV/ka+wîcihîw+V+TA+Cnj+1Sg+3SgO: ka-wîcihak	# I will help him/her
+      PV/ka+wîcihîw+V+TA+Cnj+1Sg+2PlO: ka-wîcihitakok	# I will help you all
+      PV/ka+wîcihîw+V+TA+Cnj+1Sg+3PlO: ka-wîcihakik	# I will help them
+      PV/ka+wîcihîw+V+TA+Cnj+1Sg+4Sg/PlO: ka-wîcihimak	# I will help another/others
+
+      # 2Sg
+      PV/ka+wîcihîw+V+TA+Cnj+2Sg+1SgO: ka-wîcihithan	# you will help me
+      PV/ka+wîcihîw+V+TA+Cnj+2Sg+3SgO: ka-wîcihat	# you will help him/her
+      PV/ka+wîcihîw+V+TA+Cnj+2Sg+1PlO: ka-wîcihithâhk	# you will help us
+      PV/ka+wîcihîw+V+TA+Cnj+2Sg+3PlO: ka-wîcihacik	# you will help them
+      PV/ka+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-wîcihimat	# you will help another/others
+
+      # 3Sg
+      PV/ka+wîcihîw+V+TA+Cnj+2Sg+1SgO: ka-wîcihithan	# you will help me
+      PV/ka+wîcihîw+V+TA+Cnj+3Sg+2SgO: ka-wîcihisk	# he/she will help you
+      PV/ka+wîcihîw+V+TA+Cnj+2Sg+1PlO: ka-wîcihithâhk	# you will help us
+      PV/ka+wîcihîw+V+TA+Cnj+3Sg+12PlO: ka-wîcihikothahk	# he/she will help you and us
+      PV/ka+wîcihîw+V+TA+Cnj+3Sg+2PlO: ka-wîcihikothîk	# he/she will help you all
+      PV/ka+wîcihîw+V+TA+Cnj+2Sg+3PlO: ka-wîcihacik	# you will help them
+      PV/ka+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-wîcihimat	# you will help another/others
+      PV/ka+wîcihîw+V+TA+Cnj+3Sg+5Sg/PlO: ka-wîcihimât	# he/she will help yet another/others
+
+      # 1Pl
+      PV/ka+wîcihîw+V+TA+Cnj+1Pl+2SgO: ka-wîcihitâhk	# we will help you
+      PV/ka+wîcihîw+V+TA+Cnj+1Pl+3SgO: ka-wîcihâthâhk	# we will help him/her
+      PV/ka+wîcihîw+V+TA+Cnj+1Pl+2PlO: ka-wîcihitâhk	# we will help you all
+      PV/ka+wîcihîw+V+TA+Cnj+1Pl+3PlO: ka-wîcihâthâhkik	# we will help them
+      PV/ka+wîcihîw+V+TA+Cnj+1Pl+4Sg/PlO: ka-wîcihimâthâhk	# we will help another/others
+
+      # 12Pl
+      PV/ka+wîcihîw+V+TA+Cnj+12Pl+3SgO: ka-wîcihâthahk	# we and you will help him/her
+      PV/ka+wîcihîw+V+TA+Cnj+12Pl+3PlO: ka-wîcihâthahkok	# we and you will help them
+      PV/ka+wîcihîw+V+TA+Cnj+12Pl+4Sg/PlO: ka-wîcihimâthahk	# we and you will help another/others
+
+      # 2Pl
+      PV/ka+wîcihîw+V+TA+Cnj+2Pl+1SgO: ka-wîcihithîk	# you all will help me
+      PV/ka+wîcihîw+V+TA+Cnj+2Pl+3SgO: ka-wîcihâthîk	# you all will help him/her
+      PV/ka+wîcihîw+V+TA+Cnj+2Pl+1PlO: ka-wîcihithâhk	# you all will help us
+      PV/ka+wîcihîw+V+TA+Cnj+2Pl+3PlO: ka-wîcihâthîkok	# you all will help them
+      PV/ka+wîcihîw+V+TA+Cnj+2Pl+4Sg/PlO: ka-wîcihimâthîk	# you all will help another/others
+
+      # 3Pl
+      PV/ka+wîcihîw+V+TA+Cnj+3Pl+1SgO: ka-wîcihicik	# they will help me
+      PV/ka+wîcihîw+V+TA+Cnj+3Pl+2SgO: ka-wîcihiskik	# they will help you
+      PV/ka+wîcihîw+V+TA+Cnj+3Pl+1PlO: ka-wîcihikothâhkik	# they will help us
+      PV/ka+wîcihîw+V+TA+Cnj+3Pl+12PlO: ka-wîcihikothahkok	# they will help you and us
+      PV/ka+wîcihîw+V+TA+Cnj+3Pl+2PlO: ka-wîcihikothîkok	# they will help you all
+      PV/ka+wîcihîw+V+TA+Cnj+3Pl+4Sg/PlO: ka-wîcihâcik	# they will help another/others
+      PV/ka+wîcihîw+V+TA+Cnj+3Pl+5Sg/PlO: ka-wîcihimâcik	# they will help yet another/others
+
+      # 4Sg/Pl
+      PV/ka+wîcihîw+V+TA+Cnj+4Sg/Pl+1SgO: ka-wîcihimit	# another/others will help me
+      PV/ka+wîcihîw+V+TA+Cnj+4Sg/Pl+2SgO: ka-wîcihimisk	# another/others will help you
+      PV/ka+wîcihîw+V+TA+Cnj+4Sg/Pl+3SgO: ka-wîcihikot	# another/others will help him/her
+      PV/ka+wîcihîw+V+TA+Cnj+4Sg/Pl+1PlO: ka-wîcihikothâhk	# another/others will help us
+      PV/ka+wîcihîw+V+TA+Cnj+4Sg/Pl+12PlO: ka-wîcihikothahk	# another/others will help you and us
+      PV/ka+wîcihîw+V+TA+Cnj+4Sg/Pl+2PlO: ka-wîcihikothîk	# another/others will help you all
+      PV/ka+wîcihîw+V+TA+Cnj+4Sg/Pl+3PlO: ka-wîcihikocik	# another/others will help them
+      PV/ka+wîcihîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: ka-wîcihâthit	# another/others will help yet another/others
+
+      # 5Sg/Pl
+      PV/ka+wîcihîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: ka-wîcihikothit	# yet another/others will help another/others
+
+      # X
+      PV/ka+wîcihîw+V+TA+Cnj+X+1SgO: ka-wîcihikawithân	# someone will help me
+      PV/ka+wîcihîw+V+TA+Cnj+X+2SgO: ka-wîcihikawithan	# someone will help you
+      PV/ka+wîcihîw+V+TA+Cnj+X+3SgO: ka-wîcihiht	# someone will help him/her
+      PV/ka+wîcihîw+V+TA+Cnj+X+1PlO: ka-wîcihikawithâhk	# someone will help us
+      PV/ka+wîcihîw+V+TA+Cnj+X+12PlO: ka-wîcihikawithahk	# someone will help you and us
+      PV/ka+wîcihîw+V+TA+Cnj+X+2PlO: ka-wîcihikawithîk	# someone will help you all
+      PV/ka+wîcihîw+V+TA+Cnj+X+3PlO: ka-wîcihihcik	# someone will help them
+      PV/ka+wîcihîw+V+TA+Cnj+X+4Sg/PlO: ka-wîcihimiht	# someone will help another/others
+
+      # 0Sg/Pl
+      PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+1SgO
+      PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+2SgO
+      PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+3SgO
+      PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+1PlO
+      PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+12PlO
+      PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+2PlO
+      PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+3PlO
+      PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/ka+wîcihîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      
+
+      # Inf # PV/ta
+
+      # 1Sg
+      PV/ta+wîcihîw+V+TA+Cnj+1Sg+2SgO: ta-wîcihitân	# I help you
+      PV/ta+wîcihîw+V+TA+Cnj+1Sg+3SgO: ta-wîcihak	# I help him/her
+      PV/ta+wîcihîw+V+TA+Cnj+1Sg+2PlO: ta-wîcihitakok	# I help you all
+      PV/ta+wîcihîw+V+TA+Cnj+1Sg+3PlO: ta-wîcihakik	# I help them
+      PV/ta+wîcihîw+V+TA+Cnj+1Sg+4Sg/PlO: ta-wîcihimak	# I help another/others
+
+      # 2Sg
+      PV/ta+wîcihîw+V+TA+Cnj+2Sg+1SgO: ta-wîcihithan	# you help me
+      PV/ta+wîcihîw+V+TA+Cnj+2Sg+3SgO: ta-wîcihat	# you help him/her
+      PV/ta+wîcihîw+V+TA+Cnj+2Sg+1PlO: ta-wîcihithâhk	# you help us
+      PV/ta+wîcihîw+V+TA+Cnj+2Sg+3PlO: ta-wîcihacik	# you help them
+      PV/ta+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-wîcihimat	# you help another/others
+
+      # 3Sg
+      PV/ta+wîcihîw+V+TA+Cnj+2Sg+1SgO: ta-wîcihithan	# you help me
+      PV/ta+wîcihîw+V+TA+Cnj+3Sg+2SgO: ta-wîcihisk	# he/she helps you
+      PV/ta+wîcihîw+V+TA+Cnj+2Sg+1PlO: ta-wîcihithâhk	# you help us
+      PV/ta+wîcihîw+V+TA+Cnj+3Sg+12PlO: ta-wîcihikothahk	# he/she helps you and us
+      PV/ta+wîcihîw+V+TA+Cnj+3Sg+2PlO: ta-wîcihikothîk	# he/she helps you all
+      PV/ta+wîcihîw+V+TA+Cnj+2Sg+3PlO: ta-wîcihacik	# you help them
+      PV/ta+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-wîcihimat	# you help another/others
+      PV/ta+wîcihîw+V+TA+Cnj+3Sg+5Sg/PlO: ta-wîcihimât	# he/she helps yet another/others
+
+      # 1Pl
+      PV/ta+wîcihîw+V+TA+Cnj+1Pl+2SgO: ta-wîcihitâhk	# we help you
+      PV/ta+wîcihîw+V+TA+Cnj+1Pl+3SgO: ta-wîcihâthâhk	# we help him/her
+      PV/ta+wîcihîw+V+TA+Cnj+1Pl+2PlO: ta-wîcihitâhk	# we help you all
+      PV/ta+wîcihîw+V+TA+Cnj+1Pl+3PlO: ta-wîcihâthâhkik	# we help them
+      PV/ta+wîcihîw+V+TA+Cnj+1Pl+4Sg/PlO: ta-wîcihimâthâhk	# we help another/others
+
+      # 12Pl
+      PV/ta+wîcihîw+V+TA+Cnj+12Pl+3SgO: ta-wîcihâthahk	# we and you help him/her
+      PV/ta+wîcihîw+V+TA+Cnj+12Pl+3PlO: ta-wîcihâthahkok	# we and you help them
+      PV/ta+wîcihîw+V+TA+Cnj+12Pl+4Sg/PlO: ta-wîcihimâthahk	# we and you help another/others
+
+      # 2Pl
+      PV/ta+wîcihîw+V+TA+Cnj+2Pl+1SgO: ta-wîcihithîk	# you all help me
+      PV/ta+wîcihîw+V+TA+Cnj+2Pl+3SgO: ta-wîcihâthîk	# you all help him/her
+      PV/ta+wîcihîw+V+TA+Cnj+2Pl+1PlO: ta-wîcihithâhk	# you all help us
+      PV/ta+wîcihîw+V+TA+Cnj+2Pl+3PlO: ta-wîcihâthîkok	# you all help them
+      PV/ta+wîcihîw+V+TA+Cnj+2Pl+4Sg/PlO: ta-wîcihimâthîk	# you all help another/others
+
+      # 3Pl
+      PV/ta+wîcihîw+V+TA+Cnj+3Pl+1SgO: ta-wîcihicik	# they help me
+      PV/ta+wîcihîw+V+TA+Cnj+3Pl+2SgO: ta-wîcihiskik	# they help you
+      PV/ta+wîcihîw+V+TA+Cnj+3Pl+1PlO: ta-wîcihikothâhkik	# they help us
+      PV/ta+wîcihîw+V+TA+Cnj+3Pl+12PlO: ta-wîcihikothahkok	# they help you and us
+      PV/ta+wîcihîw+V+TA+Cnj+3Pl+2PlO: ta-wîcihikothîkok	# they help you all
+      PV/ta+wîcihîw+V+TA+Cnj+3Pl+4Sg/PlO: ta-wîcihâcik	# they help another/others
+      PV/ta+wîcihîw+V+TA+Cnj+3Pl+5Sg/PlO: ta-wîcihimâcik	# they help yet another/others
+
+      # 4Sg/Pl
+      PV/ta+wîcihîw+V+TA+Cnj+4Sg/Pl+1SgO: ta-wîcihimit	# another/others help me
+      PV/ta+wîcihîw+V+TA+Cnj+4Sg/Pl+2SgO: ta-wîcihimisk	# another/others help you
+      PV/ta+wîcihîw+V+TA+Cnj+4Sg/Pl+3SgO: ta-wîcihikot	# another/others help him/her
+      PV/ta+wîcihîw+V+TA+Cnj+4Sg/Pl+1PlO: ta-wîcihikothâhk	# another/others help us
+      PV/ta+wîcihîw+V+TA+Cnj+4Sg/Pl+12PlO: ta-wîcihikothahk	# another/others help you and us
+      PV/ta+wîcihîw+V+TA+Cnj+4Sg/Pl+2PlO: ta-wîcihikothîk	# another/others help you all
+      PV/ta+wîcihîw+V+TA+Cnj+4Sg/Pl+3PlO: ta-wîcihikocik	# another/others help them
+      PV/ta+wîcihîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: ta-wîcihâthit	# another/others help yet another/others
+
+      # 5Sg/Pl
+      PV/ta+wîcihîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: ta-wîcihikothit	# yet another/others help another/others
+
+      # X
+      PV/ta+wîcihîw+V+TA+Cnj+X+1SgO: ta-wîcihikawithân	# someone helps me
+      PV/ta+wîcihîw+V+TA+Cnj+X+2SgO: ta-wîcihikawithan	# someone helps you
+      PV/ta+wîcihîw+V+TA+Cnj+X+3SgO: ta-wîcihiht	# someone helps him/her
+      PV/ta+wîcihîw+V+TA+Cnj+X+1PlO: ta-wîcihikawithâhk	# someone helps us
+      PV/ta+wîcihîw+V+TA+Cnj+X+12PlO: ta-wîcihikawithahk	# someone helps you and us
+      PV/ta+wîcihîw+V+TA+Cnj+X+2PlO: ta-wîcihikawithîk	# someone helps you all
+      PV/ta+wîcihîw+V+TA+Cnj+X+3PlO: ta-wîcihihcik	# someone helps them
+      PV/ta+wîcihîw+V+TA+Cnj+X+4Sg/PlO: ta-wîcihimiht	# someone helps another/others
+
+      # 0Sg/Pl
+      PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+1SgO
+      PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+2SgO
+      PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+3SgO
+      PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+1PlO
+      PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+12PlO
+      PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+2PlO
+      PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+3PlO
+      PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/ta+wîcihîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      
+
+      # Fut # Cond
+
+      # 1Sg
+      wîcihîw+V+TA+Fut+Cond+1Sg+2SgO: wîcihitâni	# when I help you
+      wîcihîw+V+TA+Fut+Cond+1Sg+3SgO: wîcihaki	# when I help him/her
+      wîcihîw+V+TA+Fut+Cond+1Sg+2PlO: wîcihitako	# when I help you all
+      wîcihîw+V+TA+Fut+Cond+1Sg+3PlO: wîcihakwâwi	# when I help them
+      wîcihîw+V+TA+Fut+Cond+1Sg+4Sg/PlO: wîcihimaki	# when I help another/others
+
+      # 2Sg
+      wîcihîw+V+TA+Fut+Cond+2Sg+1SgO: wîcihithani	# when you help me
+      wîcihîw+V+TA+Fut+Cond+2Sg+3SgO: wîcihaci	# when you help him/her
+      wîcihîw+V+TA+Fut+Cond+2Sg+1PlO: wîcihithâhki	# when you help us
+      wîcihîw+V+TA+Fut+Cond+2Sg+3PlO: wîcihatwâwi	# when you help them
+      wîcihîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: wîcihimaci	# when you help another/others
+
+      # 3Sg
+      wîcihîw+V+TA+Fut+Cond+2Sg+1SgO: wîcihithani	# when you help me
+      wîcihîw+V+TA+Fut+Cond+2Sg+2SgO: wîcihîw+V+TA+Fut+Cond+2Sg+2SgO	# when you help you
+      wîcihîw+V+TA+Fut+Cond+2Sg+1PlO: wîcihithâhki	# when you help us
+      wîcihîw+V+TA+Fut+Cond+3Sg+12PlO: [wîcihikothahki, wîcihikothahko]	# when he/she helps you and us
+      wîcihîw+V+TA+Fut+Cond+3Sg+2PlO: wîcihikothîko	# when he/she helps you all
+      wîcihîw+V+TA+Fut+Cond+2Sg+3PlO: wîcihatwâwi	# when you help them
+      wîcihîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: wîcihimaci	# when you help another/others
+      wîcihîw+V+TA+Fut+Cond+3Sg+5Sg/PlO: wîcihimâci	# when he/she helps yet another/others
+
+      # 1Pl
+      wîcihîw+V+TA+Fut+Cond+1Pl+2SgO: wîcihitâhki	# when we help you
+      wîcihîw+V+TA+Fut+Cond+1Pl+3SgO: wîcihâthâhki	# when we help him/her
+      wîcihîw+V+TA+Fut+Cond+1Pl+2PlO: wîcihitâhki	# when we help you all
+      wîcihîw+V+TA+Fut+Cond+1Pl+3PlO: wîcihâthâhkwâwi	# when we help them
+      wîcihîw+V+TA+Fut+Cond+1Pl+4Sg/PlO: wîcihimâthâhki	# when we help another/others
+
+      # 12Pl
+      wîcihîw+V+TA+Fut+Cond+12Pl+3SgO: [wîcihâthahki, wîcihâthahko]	# when we and you help him/her
+      wîcihîw+V+TA+Fut+Cond+12Pl+3PlO: wîcihâthahkwâwi	# when we and you help them
+      wîcihîw+V+TA+Fut+Cond+12Pl+4Sg/PlO: [wîcihimâthahki, wîcihimâthahko]	# when we and you help another/others
+
+      # 2Pl
+      wîcihîw+V+TA+Fut+Cond+2Pl+1SgO: wîcihithîko	# when you all help me
+      wîcihîw+V+TA+Fut+Cond+2Pl+3SgO: wîcihâthîko	# when you all help him/her
+      wîcihîw+V+TA+Fut+Cond+2Pl+1PlO: wîcihithâhki	# when you all help us
+      wîcihîw+V+TA+Fut+Cond+2Pl+3PlO: wîcihâthîkwâwi	# when you all help them
+      wîcihîw+V+TA+Fut+Cond+2Pl+4Sg/PlO: wîcihimâthîko	# when you all help another/others
+
+      # 3Pl
+      wîcihîw+V+TA+Fut+Cond+3Pl+1SgO: wîcihitwâwi	# when they help me
+      wîcihîw+V+TA+Fut+Cond+3Pl+2SgO: wîcihiskwâwi	# when they help you
+      wîcihîw+V+TA+Fut+Cond+3Pl+1PlO: wîcihikothâhkwâwi	# when they help us
+      wîcihîw+V+TA+Fut+Cond+3Pl+12PlO: wîcihikothahkwâwi	# when they help you and us
+      wîcihîw+V+TA+Fut+Cond+3Pl+2PlO: wîcihikothîkwâwi	# when they help you all
+      wîcihîw+V+TA+Fut+Cond+3Pl+4Sg/PlO: wîcihâtwâwi	# when they help another/others
+      wîcihîw+V+TA+Fut+Cond+3Pl+5Sg/PlO: wîcihimâtwâwi	# when they help yet another/others
+
+      # 4Sg/Pl
+      wîcihîw+V+TA+Fut+Cond+4Sg/Pl+1SgO: wîcihimici	# when another/others help me
+      wîcihîw+V+TA+Fut+Cond+4Sg/Pl+2SgO: wîcihimiski	# when another/others help you
+      wîcihîw+V+TA+Fut+Cond+4Sg/Pl+3SgO: wîcihikoci	# when another/others help him/her
+      wîcihîw+V+TA+Fut+Cond+4Sg/Pl+1PlO: wîcihikothâhki	# when another/others help us
+      wîcihîw+V+TA+Fut+Cond+4Sg/Pl+12PlO: [wîcihikothahki, wîcihikothahko]	# when another/others help you and us
+      wîcihîw+V+TA+Fut+Cond+4Sg/Pl+2PlO: wîcihikothîko	# when another/others help you all
+      wîcihîw+V+TA+Fut+Cond+4Sg/Pl+3PlO: wîcihikotwâwi	# when another/others help them
+      wîcihîw+V+TA+Fut+Cond+4Sg/Pl+5Sg/PlO: wîcihâthici	# when another/others help yet another/others
+
+      # 5Sg/Pl
+      wîcihîw+V+TA+Fut+Cond+5Sg/Pl+4Sg/PlO: wîcihikothici	# when yet another/others help another/others
+
+      # X
+      wîcihîw+V+TA+Fut+Cond+X+1SgO: wîcihikawithâni	# when someone helps me
+      wîcihîw+V+TA+Fut+Cond+X+2SgO: wîcihikawithani	# when someone helps you
+      wîcihîw+V+TA+Fut+Cond+X+3SgO: wîcihihci	# when someone helps him/her
+      wîcihîw+V+TA+Fut+Cond+X+1PlO: wîcihikawithâhki	# when someone helps us
+      wîcihîw+V+TA+Fut+Cond+X+12PlO: wîcihikawithahki	# when someone helps you and us
+      wîcihîw+V+TA+Fut+Cond+X+2PlO: wîcihikawithîko	# when someone helps you all
+      wîcihîw+V+TA+Fut+Cond+X+3PlO: wîcihihtwâwi	# when someone helps them
+      wîcihîw+V+TA+Fut+Cond+X+4Sg/PlO: wîcihimihci	# when someone helps another/others
+
+      # 0Sg/Pl
+      wîcihîw+V+TA+Fut+Cond+0Sg/Pl+1SgO: wîcihîw+V+TA+Fut+Cond+0Sg/Pl+1SgO
+      wîcihîw+V+TA+Fut+Cond+0Sg/Pl+2SgO: wîcihîw+V+TA+Fut+Cond+0Sg/Pl+2SgO
+      wîcihîw+V+TA+Fut+Cond+0Sg/Pl+3SgO: wîcihîw+V+TA+Fut+Cond+0Sg/Pl+3SgO
+      wîcihîw+V+TA+Fut+Cond+0Sg/Pl+1PlO: wîcihîw+V+TA+Fut+Cond+0Sg/Pl+1PlO
+      wîcihîw+V+TA+Fut+Cond+0Sg/Pl+12PlO: wîcihîw+V+TA+Fut+Cond+0Sg/Pl+12PlO
+      wîcihîw+V+TA+Fut+Cond+0Sg/Pl+2PlO: wîcihîw+V+TA+Fut+Cond+0Sg/Pl+2PlO
+      wîcihîw+V+TA+Fut+Cond+0Sg/Pl+3PlO: wîcihîw+V+TA+Fut+Cond+0Sg/Pl+3PlO
+      wîcihîw+V+TA+Fut+Cond+0Sg/Pl+4Sg/PlO: wîcihîw+V+TA+Fut+Cond+0Sg/Pl+4Sg/PlO
+      
+
+      # Imp # Imm
+
+      # 2Sg
+      wîcihîw+V+TA+Imp+Imm+2Sg+1SgO: wîcihin	# (you) help me now
+      wîcihîw+V+TA+Imp+Imm+2Sg+1PlO: wîcihinân	# (you) help us now
+      wîcihîw+V+TA+Imp+Imm+2Sg+3SgO: wîcih	# (you) help him/her now
+      wîcihîw+V+TA+Imp+Imm+2Sg+3PlO: wîcihik	# (you) help them now
+
+      # 12Pl
+      wîcihîw+V+TA+Imp+Imm+12Pl+3SgO: wîcihâtân	# let you and us help him/her now
+      wîcihîw+V+TA+Imp+Imm+12Pl+3PlO: wîcihâtânik	# let you and us help them now
+
+      # 2Pl
+      wîcihîw+V+TA+Imp+Imm+2Pl+1SgO: wîcihik	# (you all) help me now
+      wîcihîw+V+TA+Imp+Imm+2Pl+1PlO: wîcihinân	# (you all) help us now
+      wîcihîw+V+TA+Imp+Imm+2Pl+3SgO: wîcihihk	# (you all) help him/her now
+      wîcihîw+V+TA+Imp+Imm+2Pl+3PlO: wîcihihkok	# (you all) help them now
+      
+
+      # Imp # Del
+
+      # 2Sg
+      wîcihîw+V+TA+Imp+Del+2Sg+1SgO: wîcihîhkan	# (you) help me later
+      wîcihîw+V+TA+Imp+Del+2Sg+1PlO: wîcihîhkâhk	# (you) help us later
+      wîcihîw+V+TA+Imp+Del+2Sg+3SgO: wîcihâhkan	# (you) help him/her later
+      wîcihîw+V+TA+Imp+Del+2Sg+3PlO: wîcihâhkanik	# (you) help them later
+
+      # 12Pl
+      wîcihîw+V+TA+Imp+Del+12Pl+3SgO: wîcihâhkahk	# let you and us help him/her later
+      wîcihîw+V+TA+Imp+Del+12Pl+3PlO: wîcihâhkahkok	# let you and us help them later
+
+      # 2Pl
+      wîcihîw+V+TA+Imp+Del+2Pl+1SgO: wîcihîhkîk	# (you all) help me later
+      wîcihîw+V+TA+Imp+Del+2Pl+1PlO: wîcihîhkâhk	# (you all) help us later
+      wîcihîw+V+TA+Imp+Del+2Pl+3SgO: wîcihâhkîk	# (you all) help him/her later
+      wîcihîw+V+TA+Imp+Del+2Pl+3PlO: wîcihâhkîkok	# (you all) help them later
+      
+
