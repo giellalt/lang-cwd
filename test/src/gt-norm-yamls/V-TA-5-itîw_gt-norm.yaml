@@ -849,3 +849,102 @@ Tests:
       itîw+V+TA+Fut+Cond+3Sg+5Sg/PlO: itimâci	# when he/she says thus to yet another/others, when he/she says thus about yet another/others
 
       # 1Pl
+      itîw+V+TA+Fut+Cond+1Pl+2SgO: ititâhki	# when we say thus to you, when we say thus about you
+      itîw+V+TA+Fut+Cond+1Pl+3SgO: itâthâhki	# when we say thus to him/her, when we say thus about him/her
+      itîw+V+TA+Fut+Cond+1Pl+2PlO: ititâhki	# when we say thus to you all, when we say thus about you all
+      itîw+V+TA+Fut+Cond+1Pl+3PlO: itâthâhkwâwi	# when we say thus to them, when we say thus about them
+      itîw+V+TA+Fut+Cond+1Pl+4Sg/PlO: itimâthâhki	# when we say thus to another/others, when we say thus about another/others
+
+      # 12Pl
+      itîw+V+TA+Fut+Cond+12Pl+3SgO: [itâthahki, itâthahko]	# when we and you say thus to him/her, when we and you say thus about him/her
+      itîw+V+TA+Fut+Cond+12Pl+3PlO: itâthahkwâwi	# when we and you say thus to them, when we and you say thus about them
+      itîw+V+TA+Fut+Cond+12Pl+4Sg/PlO: [itimâthahki, itimâthahko]	# when we and you say thus to another/others, when we and you say thus about another/others
+
+      # 2Pl
+      itîw+V+TA+Fut+Cond+2Pl+1SgO: isithîko	# when you all say thus to me, when you all say thus about me
+      itîw+V+TA+Fut+Cond+2Pl+3SgO: itâthîko	# when you all say thus to him/her, when you all say thus about him/her
+      itîw+V+TA+Fut+Cond+2Pl+1PlO: isithâhki	# when you all say thus to us, when you all say thus about us
+      itîw+V+TA+Fut+Cond+2Pl+3PlO: itâthîkwâwi	# when you all say thus to them, when you all say thus about them
+      itîw+V+TA+Fut+Cond+2Pl+4Sg/PlO: itimâthîko	# when you all say thus to another/others, when you all say thus about another/others
+
+      # 3Pl
+      itîw+V+TA+Fut+Cond+3Pl+1SgO: isitwâwi	# when they say thus to me, when they say thus about me
+      itîw+V+TA+Fut+Cond+3Pl+2SgO: itiskwâwi	# when they say thus to you, when they say thus about you
+      itîw+V+TA+Fut+Cond+3Pl+1PlO: itikothâhkwâwi	# when they say thus to us, when they say thus about us
+      itîw+V+TA+Fut+Cond+3Pl+12PlO: itikothahkwâwi	# when they say thus to you and us, when they say thus about you and us
+      itîw+V+TA+Fut+Cond+3Pl+2PlO: itikothîkwâwi	# when they say thus to you all, when they say thus about you all
+      itîw+V+TA+Fut+Cond+3Pl+4Sg/PlO: itâtwâwi	# when they say thus to another/others, when they say thus about another/others
+      itîw+V+TA+Fut+Cond+3Pl+5Sg/PlO: itimâtwâwi	# when they say thus to yet another/others, when they say thus about yet another/others
+
+      # 4Sg/Pl
+      itîw+V+TA+Fut+Cond+4Sg/Pl+1SgO: itimici	# when another/others say thus to me, when another/others say thus about me
+      itîw+V+TA+Fut+Cond+4Sg/Pl+2SgO: itimiski	# when another/others say thus to you, when another/others say thus about you
+      itîw+V+TA+Fut+Cond+4Sg/Pl+3SgO: itikoci	# when another/others say thus to him/her, when another/others say thus about him/her
+      itîw+V+TA+Fut+Cond+4Sg/Pl+1PlO: itikothâhki	# when another/others say thus to us, when another/others say thus about us
+      itîw+V+TA+Fut+Cond+4Sg/Pl+12PlO: [itikothahki, itikothahko]	# when another/others say thus to you and us, when another/others say thus about you and us
+      itîw+V+TA+Fut+Cond+4Sg/Pl+2PlO: itikothîko	# when another/others say thus to you all, when another/others say thus about you all
+      itîw+V+TA+Fut+Cond+4Sg/Pl+3PlO: itikotwâwi	# when another/others say thus to them, when another/others say thus about them
+      itîw+V+TA+Fut+Cond+4Sg/Pl+5Sg/PlO: itâthici	# when another/others say thus to yet another/others, when another/others say thus about yet another/others
+
+      # 5Sg/Pl
+      itîw+V+TA+Fut+Cond+5Sg/Pl+4Sg/PlO: itikothici	# when yet another/others say thus to another/others, when yet another/others say thus about another/others
+
+      # X
+      itîw+V+TA+Fut+Cond+X+1SgO: itikawithâni	# when someone says thus to me, when someone says thus about me
+      itîw+V+TA+Fut+Cond+X+2SgO: itikawithani	# when someone says thus to you, when someone says thus about you
+      itîw+V+TA+Fut+Cond+X+3SgO: itihci	# when someone says thus to him/her, when someone says thus about him/her
+      itîw+V+TA+Fut+Cond+X+1PlO: itikawithâhki	# when someone says thus to us, when someone says thus about us
+      itîw+V+TA+Fut+Cond+X+12PlO: itikawithahki	# when someone says thus to you and us, when someone says thus about you and us
+      itîw+V+TA+Fut+Cond+X+2PlO: itikawithîko	# when someone says thus to you all, when someone says thus about you all
+      itîw+V+TA+Fut+Cond+X+3PlO: itihtwâwi	# when someone says thus to them, when someone says thus about them
+      itîw+V+TA+Fut+Cond+X+4Sg/PlO: itimihci	# when someone says thus to another/others, when someone says thus about another/others
+
+      # 0Sg/Pl
+      itîw+V+TA+Fut+Cond+0Sg/Pl+1SgO: itîw+V+TA+Fut+Cond+0Sg/Pl+1SgO
+      itîw+V+TA+Fut+Cond+0Sg/Pl+2SgO: itîw+V+TA+Fut+Cond+0Sg/Pl+2SgO
+      itîw+V+TA+Fut+Cond+0Sg/Pl+3SgO: itîw+V+TA+Fut+Cond+0Sg/Pl+3SgO
+      itîw+V+TA+Fut+Cond+0Sg/Pl+1PlO: itîw+V+TA+Fut+Cond+0Sg/Pl+1PlO
+      itîw+V+TA+Fut+Cond+0Sg/Pl+12PlO: itîw+V+TA+Fut+Cond+0Sg/Pl+12PlO
+      itîw+V+TA+Fut+Cond+0Sg/Pl+2PlO: itîw+V+TA+Fut+Cond+0Sg/Pl+2PlO
+      itîw+V+TA+Fut+Cond+0Sg/Pl+3PlO: itîw+V+TA+Fut+Cond+0Sg/Pl+3PlO
+      itîw+V+TA+Fut+Cond+0Sg/Pl+4Sg/PlO: itîw+V+TA+Fut+Cond+0Sg/Pl+4Sg/PlO
+      
+
+      # Imp # Imm
+
+      # 2Sg
+      itîw+V+TA+Imp+Imm+2Sg+1SgO: isin	# (you) say thus to me now, (you) say thus about me now
+      itîw+V+TA+Imp+Imm+2Sg+1PlO: isinân	# (you) say thus to us now, (you) say thus about us now
+      itîw+V+TA+Imp+Imm+2Sg+3SgO: isi	# (you) say thus to him/her now, (you) say thus about him/her now
+      itîw+V+TA+Imp+Imm+2Sg+3PlO: isik	# (you) say thus to them now, (you) say thus about them now
+
+      # 12Pl
+      itîw+V+TA+Imp+Imm+12Pl+3SgO: itâtân	# let you and us say thus to him/her now, let you and us say thus about him/her now
+      itîw+V+TA+Imp+Imm+12Pl+3PlO: itâtânik	# let you and us say thus to them now, let you and us say thus about them now
+
+      # 2Pl
+      itîw+V+TA+Imp+Imm+2Pl+1SgO: isik	# (you all) say thus to me now, (you all) say thus about me now
+      itîw+V+TA+Imp+Imm+2Pl+1PlO: isinân	# (you all) say thus to us now, (you all) say thus about us now
+      itîw+V+TA+Imp+Imm+2Pl+3SgO: itihk	# (you all) say thus to him/her now, (you all) say thus about him/her now
+      itîw+V+TA+Imp+Imm+2Pl+3PlO: itihkok	# (you all) say thus to them now, (you all) say thus about them now
+      
+
+      # Imp # Del
+
+      # 2Sg
+      itîw+V+TA+Imp+Del+2Sg+1SgO: isîhkan	# (you) say thus to me later, (you) say thus about me later
+      itîw+V+TA+Imp+Del+2Sg+1PlO: isîhkâhk	# (you) say thus to us later, (you) say thus about us later
+      itîw+V+TA+Imp+Del+2Sg+3SgO: itâhkan	# (you) say thus to him/her later, (you) say thus about him/her later
+      itîw+V+TA+Imp+Del+2Sg+3PlO: itâhkanik	# (you) say thus to them later, (you) say thus about them later
+
+      # 12Pl
+      itîw+V+TA+Imp+Del+12Pl+3SgO: itâhkahk	# let you and us say thus to him/her later, let you and us say thus about him/her later
+      itîw+V+TA+Imp+Del+12Pl+3PlO: itâhkahkok	# let you and us say thus to them later, let you and us say thus about them later
+
+      # 2Pl
+      itîw+V+TA+Imp+Del+2Pl+1SgO: isîhkîk	# (you all) say thus to me later, (you all) say thus about me later
+      itîw+V+TA+Imp+Del+2Pl+1PlO: isîhkâhk	# (you all) say thus to us later, (you all) say thus about us later
+      itîw+V+TA+Imp+Del+2Pl+3SgO: itâhkîk	# (you all) say thus to him/her later, (you all) say thus about him/her later
+      itîw+V+TA+Imp+Del+2Pl+3PlO: itâhkîkok	# (you all) say thus to them later, (you all) say thus about them later
+      
+
