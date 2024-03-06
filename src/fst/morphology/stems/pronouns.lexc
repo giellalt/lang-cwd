@@ -87,23 +87,54 @@ tânîhâ+Pron+Interr+Dem+Loc+I+Pl:tânîhâ # "where" ;
 
 ! Additional Oblique Interrogative Proforms ! <- Wolvengrey
 ! Listed currently already under particles
-! tânispî+Ipc+Interr:tânispî # "when" ;
-! tânispîhk+Ipc+Interr:tânispîhk # "when" ;
-! tânita+Ipc+Interr:tânita # "how" ;
-! tânîhki+Ipc+Interr:tânêhki # "why" ;
-! tânithikohk+Ipc+Interr:tânithikohk # "how much" ;
-! tânimathikohk+Ipc+Interr:tânimathikohk # "how much" ;
-! tânitahto+Ipc+Interr:tânitahto # "how many" ;
-! tânimatahto+Ipc+Interr:tânimatahto # "how many"
-! tânitahtwâw+Ipc+Interr:tânitahtwâw # "how many times" ;
-! tânimatahtwâw+Ipc+Interr:tânimatahtwâw # "how many times" ;
-! tânitowahk+Ipc+Interr:tânitowahk # "what kind" ;
-! tânitowihk+Ipc+Interr:tânitowihk # "(in) what kind of place" ;
-! tânitahtwayak+Ipc+Interr:tânitahtwayak # "how many ways/directions" ;
+tânispî+Ipc+Interr:tânispî # "when" ;
+tânispîhk+Ipc+Interr:tânispîhk # "when" ;
+tânita+Ipc+Interr:tânita # "how" ;
+tânîhki+Ipc+Interr:tânêhki # "why" ;
+tânithikohk+Ipc+Interr:tânithikohk # "how much" ;
+tânimathikohk+Ipc+Interr:tânimathikohk # "how much" ;
+tânitahto+Ipc+Interr:tânitahto # "how many" ;
+tânimatahto+Ipc+Interr:tânimatahto # "how many" ;
+tânitahtwâw+Ipc+Interr:tânitahtwâw # "how many times" ;
+tânimatahtwâw+Ipc+Interr:tânimatahtwâw # "how many times" ;
+tânitowahk+Ipc+Interr:tânitowahk # "what kind" ;
+tânitowihk+Ipc+Interr:tânitowihk # "(in) what kind of place" ;
+tânitahtwayak+Ipc+Interr:tânitahtwayak # "how many ways/directions" ;
 
-LEXICON Indefinite !!= @CODE@ \\
+LEXICON Indefinite !!= @CODE@
 awiyak+Pron+Indef+A+Sg:awiyak # "someone" ; !!= @CODE@
 awiyak+Pron+Indef+A+Pl:awiyakak # "some people" ;!!= @CODE@
+
+kotak+Pron+Indef+A+Sg:kotak # "other" ;
+kotakak+Pron+Indef+A+Pl:kotakak # "others" ;
+kotaka+Pron+Indef+A+Obv:kotaka # "other(s)" ;
+kotak+Pron+Indef+I+Sg:kotak # "other" ;
+kotaka+Pron+Indef+I+Pl:kotaka # "others" ;
+kotakîthiw+Pron+Indef+I+Obv:kotakîthiw # "other(s)" ;
+kotakihk+Pron+Indef+I+Loc:kotakihk # "on the other" ;
+
+ayahâw+Pron+Indef+A+Sg:ayahâw # "some one" ;
+ayahâwak+Pron+Indef+A+Pl:ayahâwak # "some ones" ;
+ayahâwa+Pron+Indef+A+Obv:ayahâwa # "some one(s)" ;
+
+ayihîw+Pron+Indef+I+Sg:ayihîw # "some one" ;
+ayihîwa+Pron+Indef+I+Pl:ayihîwa # "some ones" ;
+ayihîthiw+Pron+Indef+I+Obv:ayihîthiw # "some one(s)" ;
+ayihîhk+Pron+Indef+I+Loc:ayihîhk # "on some one" ;
+
+
+LEXICON Definite !!= @CODE@ \\
+iyako+Pron+Def+A+Sg:iyako # "that same one" ;
+iyakoni+Pron+Def+A+Sg:iyakoni # "that same one" ;
+iwako+Pron+Def+A+Sg:iwako # "that same one" ;
+iyakonik+Pron+Def+A+Pl:iyakonik # "those same ones" ;
+iyakwanik+Pron+Def+A+Pl:iyakwanik # "those same ones" ;
+iyakoni+Pron+Def+A+Obv:iyakoni # "that/those same one(s)" ;
+iyakwîthiw+Pron+Def+A+Obv:iyakwîthiw # "that/those same one(s)" ;
+
+iyako+Pron+Def+I+Sg:iyako # "that same one" ;
+iyakoni+Pron+Def+I+Sg:iyakoni # "that same one" ;
+iyakwîthiw+Pron+Def+I+Sg:iyakwîthiw # "that same one" ;
 
 LEXICON Demonstrative !!= @CODE@   \\
 !! ANIMATE \\
