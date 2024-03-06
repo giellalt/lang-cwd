@@ -2322,17 +2322,25 @@ LEXICON VTA_CNJ_NULL_PL_SUFFIX
 !!!!!!! Mixed !!!!!!!
 
 +1Sg+3PlO:%>akwâw	   VERB_ENDLEX ;
++1Sg+3PlO+Var/East:%>aki	   VERB_ENDLEX ;
 
 +2Sg+3PlO:%>acik	   VERB_ENDLEX ;
 
 +1Pl+3SgO:%>âyâhk	   VERB_ENDLEX ;
++1Pl+3SgO+Var/East:%>âkiht	   VERB_ENDLEX ;
 +1Pl+3PlO:%>âyâhkwâw	   VERB_ENDLEX ;
++1Pl+3PlO+Var/East:%>akihcik	   VERB_ENDLEX ;
+
 
 +12Pl+3SgO:%>âyahk	   VERB_ENDLEX ;
++12Pl+3SgO+Var/East:%>ahk	   VERB_ENDLEX ;
 +12Pl+3PlO:%>âyahkwâw   VERB_ENDLEX ;
++12Pl+3PlO+Var/East:%>ahkwâw   VERB_ENDLEX ;
+
 
 +2Pl+3SgO:%>âyîk	   VERB_ENDLEX ;
 +2Pl+3PlO:%>âyîkwâw	   VERB_ENDLEX ;
++2Pl+3PlO+Var/East:%>âyîkok	   VERB_ENDLEX ;
 
 +1Pl+4Sg/PlO:%>i2mâyâhk	   VERB_ENDLEX ; ! From NS 152
 +12Pl+4Sg/PlO:%>i2mâyahk   VERB_ENDLEX ; ! From NS 152
@@ -2364,13 +2372,21 @@ LEXICON VTA_CNJ_NULL_PL_SUFFIX
 +3Pl+2SgO:%>i2skwâw	   VERB_ENDLEX ;
 
 +3Sg+1PlO:%>i2koyâhk	   VERB_ENDLEX ;
++3Sg+1PlO+Var/East:%>i2yamiht	   VERB_ENDLEX ;
 +3Pl+1PlO:%>i2koyâhkwâw  VERB_ENDLEX ;
++3Pl+1PlO+Var/East:%>i2yamihcik  VERB_ENDLEX ;
 
 +3Sg+12PlO:%>i2koyahk   VERB_ENDLEX ;
++3Sg+12PlO+Var/East:%>i2tahk   VERB_ENDLEX ;
 +3Pl+12PlO:%>i2koyahkwâw VERB_ENDLEX ;
++3Pl+12PlO+Var/East:%>i2tahkwâw VERB_ENDLEX ;
+
 
 +3Sg+2PlO:%>i2koyîk	   VERB_ENDLEX ;
++3Sg+2PlO+Var/East:%>i2tîk	   VERB_ENDLEX ;
 +3Pl+2PlO:%>i2koyîkwâw   VERB_ENDLEX ;
++3Pl+2PlO+Var/East:%>i2tîkwâw   VERB_ENDLEX ;
+
 
 +4Sg/Pl+1PlO:%>i2koyâhk	   VERB_ENDLEX ; ! FROM NS 152
 +4Sg/Pl+12PlO:%>i2koyahk	   VERB_ENDLEX ;
@@ -2463,14 +2479,18 @@ LEXICON VTA_IMP_NULL_PL_SUFFIX
 
 +Imm+2Pl+3SgO:%>ihk VERB_ENDLEX ;
 +Imm+2Pl+3PlO:%>ihkwâw VERB_ENDLEX ;
++Imm+2Pl+3PlO+Var/East:%>ik VERB_ENDLEX ;
 
 +Del+2Sg+3PlO:%>âhkanik VERB_ENDLEX ;
 
 +Del+12Pl+3SgO:%>âhkahk VERB_ENDLEX ;
 +Del+12Pl+3PlO:%>âhkahkik VERB_ENDLEX ;
++Del+12Pl+3PlO+Var/East:%>âhkanik VERB_ENDLEX ;
  
 +Del+2Pl+3SgO:%>âhkîk VERB_ENDLEX ;
 +Del+2Pl+3PlO:%>âhkîkwâw VERB_ENDLEX ;
++Del+2Pl+3PlO+Var/East:%>âhkik VERB_ENDLEX ;
+
 
 ! =================================
 ! =================================
@@ -2714,13 +2734,18 @@ LEXICON VTA_FUT_CON_NULL_PL_SUFFIX
 +2Sg+3PlO:%>atwâwi	   VERB_ENDLEX ;
 
 +1Pl+3SgO:%>âyâhki	   VERB_ENDLEX ;
++1Pl+3SgO+Var/East:%>akihci	   VERB_ENDLEX ;
 +1Pl+3PlO:%>âyâhkwâwi	   VERB_ENDLEX ;
++1Pl+3PlO+Var/East:%>akihci	   VERB_ENDLEX ;
 
-+12Pl+3SgO:%>âyahki	   VERB_ENDLEX ; ! Variant in Alberta
++12Pl+3SgO:%>âyahki	   VERB_ENDLEX ;
++12Pl+3SgO+Var/East:%>ahki	   VERB_ENDLEX ;
 +12Pl+3PlO:%>âyahkwâwi   VERB_ENDLEX ;
++12Pl+3PlO+Var/East:%>ahkwayak   VERB_ENDLEX ;
 
 +2Pl+3SgO:%>âyîko	   VERB_ENDLEX ;
 +2Pl+3PlO:%>âyîkwâwi	   VERB_ENDLEX ;
++2Pl+3PlO+Var/East:%>ayîko	   VERB_ENDLEX ;
 
 +1Pl+4Sg/PlO:%>i2mâyâhki	   VERB_ENDLEX ;
 +12Pl+4Sg/PlO:%>i2mâyahki	   VERB_ENDLEX ;
@@ -2763,14 +2788,21 @@ LEXICON VTA_FUT_CON_NULL_PL_SUFFIX
 +3Pl+2SgO:%>i2skwâwi		   VERB_ENDLEX ;
 
 +3Sg+1PlO:%>i2koyâhki		   VERB_ENDLEX ;
++3Sg+1PlO+Var/East:%>i2tahkwâwi		   VERB_ENDLEX ;
 +3Sg+12PlO:%>i2koyahki		   VERB_ENDLEX ;
++3Sg+12PlO+Var/East:%>i2yamihci		   VERB_ENDLEX ;
 +3Pl+1PlO:%>i2koyâhkwâwi		   VERB_ENDLEX ;
++3Pl+1PlO+Var/East:%>i2tahkwâwi		   VERB_ENDLEX ;
 
 +3Sg+12PlO:%>i2koyahki 		   VERB_ENDLEX ;
 +3Pl+12PlO:%>i2koyahkwâwi		   VERB_ENDLEX ;
++3Pl+12PlO+Var/East:%>i2tahkwâwi		   VERB_ENDLEX ;
 
 +3Sg+2PlO:%>i2koyîko		   VERB_ENDLEX ; 
++3Sg+2PlO+Var/East:%>i2tîko		   VERB_ENDLEX ; 
 +3Pl+2PlO:%>i2koyîkwâwi		   VERB_ENDLEX ;
++3Pl+2PlO+Var/East:%>i2tîko		   VERB_ENDLEX ;
+
 
 +4Sg/Pl+1PlO:%>i2koyâhki	   VERB_ENDLEX ;
 +4Sg/Pl+12PlO:%>i2koyahki	   VERB_ENDLEX ;
