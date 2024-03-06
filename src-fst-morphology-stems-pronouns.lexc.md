@@ -20,9 +20,11 @@ awîna+Pron+Interr+A+Obv:awîna # "who,whose" ;
 awînithiwa+Pron+Interr+A+Obv+Var/East:awînithiwa # "who" ; 
 awînaka+Pron+Interr+A+Obv+Var/East:awînaka # "who" ; 
 
-LEXICON Indefinite  \\
+LEXICON Indefinite 
 awiyak+Pron+Indef+A+Sg:awiyak # "someone" ; 
 awiyak+Pron+Indef+A+Pl:awiyakak # "some people" ;
+
+LEXICON Definite  \\
 
 LEXICON Demonstrative    \\
 ANIMATE \\
