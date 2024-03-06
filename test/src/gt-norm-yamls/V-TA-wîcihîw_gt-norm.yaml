@@ -123,6 +123,8 @@ Tests:
       PV/î+wîcihîw+V+TA+Cnj+1Sg+3SgO: î-wîcihak
       PV/î+wîcihîw+V+TA+Cnj+1Sg+2PlO: î-wîcihitakwâw
       PV/î+wîcihîw+V+TA+Cnj+1Sg+3PlO: î-wîcihakwâw
+      PV/î+wîcihîw+V+TA+Cnj+1Sg+3PlO: î-wîcihakwâw
+      PV/î+wîcihîw+V+TA+Cnj+1Sg+3PlO+Var/East: î-wîcihaki
       PV/î+wîcihîw+V+TA+Cnj+1Sg+4Sg/PlO: î-wîcihimak
       # PV/î+wîcihîw+V+TA+Cnj+1Sg+XO: PV/î+wîcihîw+V+TA+Cnj+1Sg+XO
 
@@ -138,8 +140,12 @@ Tests:
       PV/î+wîcihîw+V+TA+Cnj+2Sg+1SgO: î-wîcihiyan
       PV/î+wîcihîw+V+TA+Cnj+3Sg+2SgO: î-wîcihisk
       PV/î+wîcihîw+V+TA+Cnj+2Sg+1PlO: î-wîcihiyâhk
+      PV/î+wîcihîw+V+TA+Cnj+3Sg+1PlO: î-wîcihikoyâhk
+      PV/î+wîcihîw+V+TA+Cnj+3Sg+1PlO+Var/East: î-wîcihiyamiht
       PV/î+wîcihîw+V+TA+Cnj+3Sg+12PlO: î-wîcihikoyahk
+      PV/î+wîcihîw+V+TA+Cnj+3Sg+12PlO+Var/East: î-wîcihitahk
       PV/î+wîcihîw+V+TA+Cnj+3Sg+2PlO: î-wîcihikoyîk
+      PV/î+wîcihîw+V+TA+Cnj+3Sg+2PlO+Var/East: î-wîcihitîk
       PV/î+wîcihîw+V+TA+Cnj+2Sg+3PlO: î-wîcihacik
       PV/î+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wîcihimat
       PV/î+wîcihîw+V+TA+Cnj+3Sg+5Sg/PlO: î-wîcihimât
@@ -148,14 +154,18 @@ Tests:
       # 1Pl
       PV/î+wîcihîw+V+TA+Cnj+1Pl+2SgO: î-wîcihitâhk
       PV/î+wîcihîw+V+TA+Cnj+1Pl+3SgO: î-wîcihâyâhk
+      PV/î+wîcihîw+V+TA+Cnj+1Pl+3SgO+Var/East: î-wîcihâkiht
       PV/î+wîcihîw+V+TA+Cnj+1Pl+2PlO: î-wîcihitâhk
       PV/î+wîcihîw+V+TA+Cnj+1Pl+3PlO: î-wîcihâyâhkwâw
+      PV/î+wîcihîw+V+TA+Cnj+1Pl+3PlO+Var/East: î-wîcihakihcik
       PV/î+wîcihîw+V+TA+Cnj+1Pl+4Sg/PlO: î-wîcihimâyâhk
       # PV/î+wîcihîw+V+TA+Cnj+1Pl+XO: PV/î+wîcihîw+V+TA+Cnj+1Pl+XO
 
       # 12Pl
       PV/î+wîcihîw+V+TA+Cnj+12Pl+3SgO: î-wîcihâyahk
+      PV/î+wîcihîw+V+TA+Cnj+12Pl+3SgO+Var/East: î-wîcihahk
       PV/î+wîcihîw+V+TA+Cnj+12Pl+3PlO: î-wîcihâyahkwâw
+      PV/î+wîcihîw+V+TA+Cnj+12Pl+3PlO+Var/East: î-wîcihahkwâw
       PV/î+wîcihîw+V+TA+Cnj+12Pl+4Sg/PlO: î-wîcihimâyahk
       # PV/î+wîcihîw+V+TA+Cnj+12Pl+XO: PV/î+wîcihîw+V+TA+Cnj+12Pl+XO
 
@@ -164,6 +174,7 @@ Tests:
       PV/î+wîcihîw+V+TA+Cnj+2Pl+3SgO: î-wîcihâyîk
       PV/î+wîcihîw+V+TA+Cnj+2Pl+1PlO: î-wîcihiyâhk
       PV/î+wîcihîw+V+TA+Cnj+2Pl+3PlO: î-wîcihâyîkwâw
+      PV/î+wîcihîw+V+TA+Cnj+2Pl+3PlO+Var/East: î-wîcihâyîkok
       PV/î+wîcihîw+V+TA+Cnj+2Pl+4Sg/PlO: î-wîcihimâyîk
       # PV/î+wîcihîw+V+TA+Cnj+2Pl+XO: PV/î+wîcihîw+V+TA+Cnj+2Pl+XO
 
@@ -171,8 +182,11 @@ Tests:
       PV/î+wîcihîw+V+TA+Cnj+3Pl+1SgO: [î-wîcihitwâw, î-wîcihicik]
       PV/î+wîcihîw+V+TA+Cnj+3Pl+2SgO: î-wîcihiskwâw
       PV/î+wîcihîw+V+TA+Cnj+3Pl+1PlO: î-wîcihikoyâhkwâw
+      PV/î+wîcihîw+V+TA+Cnj+3Pl+1PlO+Var/East: î-wîcihiyamihcik
       PV/î+wîcihîw+V+TA+Cnj+3Pl+12PlO: î-wîcihikoyahkwâw
+      PV/î+wîcihîw+V+TA+Cnj+3Pl+12PlO+Var/East: î-wîcihitahkwâw
       PV/î+wîcihîw+V+TA+Cnj+3Pl+2PlO: î-wîcihikoyîkwâw
+      PV/î+wîcihîw+V+TA+Cnj+3Pl+2PlO+Var/East: î-wîcihitîkwâw
       PV/î+wîcihîw+V+TA+Cnj+3Pl+4Sg/PlO: î-wîcihâcik
       PV/î+wîcihîw+V+TA+Cnj+3Pl+5Sg/PlO: î-wîcihimâcik
       # PV/î+wîcihîw+V+TA+Cnj+3Pl+XO: PV/î+wîcihîw+V+TA+Cnj+3Pl+XO
@@ -295,6 +309,7 @@ Tests:
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Sg+3SgO: î-kî-wîcihak
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Sg+2PlO: î-kî-wîcihitakwâw
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Sg+3PlO: î-kî-wîcihakwâw
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Sg+3PlO+Var/East: î-kî-wîcihaki
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Sg+4Sg/PlO: î-kî-wîcihimak
       # PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Sg+XO: PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Sg+XO
 
@@ -310,8 +325,12 @@ Tests:
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Sg+1SgO: î-kî-wîcihiyan
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Sg+2SgO: î-kî-wîcihisk
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Sg+1PlO: î-kî-wîcihiyâhk
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Sg+1PlO: î-kî-wîcihikoyâhk
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Sg+1PlO+Var/East: î-kî-wîcihiyamiht
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Sg+12PlO: î-kî-wîcihikoyahk
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Sg+12PlO+Var/East: î-kî-wîcihitahk
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Sg+2PlO: î-kî-wîcihikoyîk
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Sg+2PlO+Var/East: î-kî-wîcihitîk
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Sg+3PlO: î-kî-wîcihacik
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-wîcihimat
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Sg+5Sg/PlO: î-kî-wîcihimât
@@ -320,14 +339,18 @@ Tests:
       # 1Pl
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Pl+2SgO: î-kî-wîcihitâhk
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Pl+3SgO: î-kî-wîcihâyâhk
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Pl+3SgO+Var/East: î-kî-wîcihâkiht
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Pl+2PlO: î-kî-wîcihitâhk
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Pl+3PlO: î-kî-wîcihâyâhkwâw
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Pl+3PlO+Var/East: î-kî-wîcihakihcik
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Pl+4Sg/PlO: î-kî-wîcihimâyâhk
       # PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Pl+XO: PV/î+PV/ki+wîcihîw+V+TA+Cnj+1Pl+XO
 
       # 12Pl
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+12Pl+3SgO: î-kî-wîcihâyahk
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+12Pl+3SgO+Var/East: î-kî-wîcihahk
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+12Pl+3PlO: î-kî-wîcihâyahkwâw
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+12Pl+3PlO+Var/East: î-kî-wîcihahkwâw
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+12Pl+4Sg/PlO: î-kî-wîcihimâyahk
       # PV/î+PV/ki+wîcihîw+V+TA+Cnj+12Pl+XO: PV/î+PV/ki+wîcihîw+V+TA+Cnj+12Pl+XO
 
@@ -336,6 +359,7 @@ Tests:
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Pl+3SgO: î-kî-wîcihâyîk
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Pl+1PlO: î-kî-wîcihiyâhk
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Pl+3PlO: î-kî-wîcihâyîkwâw
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Pl+3PlO+Var/East: î-kî-wîcihâyîkok
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Pl+4Sg/PlO: î-kî-wîcihimâyîk
       # PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Pl+XO: PV/î+PV/ki+wîcihîw+V+TA+Cnj+2Pl+XO
 
@@ -343,8 +367,11 @@ Tests:
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+1SgO: [î-kî-wîcihitwâw, î-kî-wîcihicik]
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+2SgO: î-kî-wîcihiskwâw
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+1PlO: î-kî-wîcihikoyâhkwâw
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+1PlO+Var/East: î-kî-wîcihiyamihcik
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+12PlO: î-kî-wîcihikoyahkwâw
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+12PlO+Var/East: î-kî-wîcihitahkwâw
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+2PlO: î-kî-wîcihikoyîkwâw
+      PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+2PlO+Var/East: î-kî-wîcihitîkwâw
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+4Sg/PlO: î-kî-wîcihâcik
       PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+5Sg/PlO: î-kî-wîcihimâcik
       # PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+XO: PV/î+PV/ki+wîcihîw+V+TA+Cnj+3Pl+XO
@@ -467,6 +494,7 @@ Tests:
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Sg+3SgO: î-wî-wîcihak
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Sg+2PlO: î-wî-wîcihitakwâw
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Sg+3PlO: î-wî-wîcihakwâw
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Sg+3PlO+Var/East: î-wî-wîcihaki
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Sg+4Sg/PlO: î-wî-wîcihimak
       # PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Sg+XO: PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Sg+XO
 
@@ -482,8 +510,12 @@ Tests:
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Sg+1SgO: î-wî-wîcihiyan
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Sg+2SgO: î-wî-wîcihisk
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Sg+1PlO: î-wî-wîcihiyâhk
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Sg+1PlO: î-wî-wîcihikoyâhk
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Sg+1PlO+Var/East: î-wî-wîcihiyamiht
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Sg+12PlO: î-wî-wîcihikoyahk
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Sg+12PlO+Var/East: î-wî-wîcihitahk
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Sg+2PlO: î-wî-wîcihikoyîk
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Sg+2PlO+Var/East: î-wî-wîcihitîk
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Sg+3PlO: î-wî-wîcihacik
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-wîcihimat
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Sg+5Sg/PlO: î-wî-wîcihimât
@@ -492,14 +524,18 @@ Tests:
       # 1Pl
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Pl+2SgO: î-wî-wîcihitâhk
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Pl+3SgO: î-wî-wîcihâyâhk
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Pl+3SgO+Var/East: î-wî-wîcihâkiht
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Pl+2PlO: î-wî-wîcihitâhk
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Pl+3PlO: î-wî-wîcihâyâhkwâw
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Pl+3PlO+Var/East: î-wî-wîcihakihcik
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Pl+4Sg/PlO: î-wî-wîcihimâyâhk
       # PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Pl+XO: PV/î+PV/wi+wîcihîw+V+TA+Cnj+1Pl+XO
 
       # 12Pl
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+12Pl+3SgO: î-wî-wîcihâyahk
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+12Pl+3SgO+Var/East: î-wî-wîcihahk
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+12Pl+3PlO: î-wî-wîcihâyahkwâw
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+12Pl+3PlO+Var/East: î-wî-wîcihahkwâw
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+12Pl+4Sg/PlO: î-wî-wîcihimâyahk
       # PV/î+PV/wi+wîcihîw+V+TA+Cnj+12Pl+XO: PV/î+PV/wi+wîcihîw+V+TA+Cnj+12Pl+XO
 
@@ -508,6 +544,7 @@ Tests:
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Pl+3SgO: î-wî-wîcihâyîk
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Pl+1PlO: î-wî-wîcihiyâhk
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Pl+3PlO: î-wî-wîcihâyîkwâw
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Pl+3PlO+Var/East: î-wî-wîcihâyîkok
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Pl+4Sg/PlO: î-wî-wîcihimâyîk
       # PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Pl+XO: PV/î+PV/wi+wîcihîw+V+TA+Cnj+2Pl+XO
 
@@ -515,8 +552,11 @@ Tests:
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+1SgO: [î-wî-wîcihitwâw, î-wî-wîcihicik]
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+2SgO: î-wî-wîcihiskwâw
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+1PlO: î-wî-wîcihikoyâhkwâw
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+1PlO+Var/East: î-wî-wîcihiyamihcik
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+12PlO: î-wî-wîcihikoyahkwâw
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+12PlO+Var/East: î-wî-wîcihitahkwâw
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+2PlO: î-wî-wîcihikoyîkwâw
+      PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+2PlO+Var/East: î-wî-wîcihitîkwâw
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+4Sg/PlO: î-wî-wîcihâcik
       PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+5Sg/PlO: î-wî-wîcihimâcik
       # PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+XO: PV/î+PV/wi+wîcihîw+V+TA+Cnj+3Pl+XO
@@ -639,6 +679,7 @@ Tests:
       PV/ka+wîcihîw+V+TA+Cnj+1Sg+3SgO: ka-wîcihak
       PV/ka+wîcihîw+V+TA+Cnj+1Sg+2PlO: ka-wîcihitakwâw
       PV/ka+wîcihîw+V+TA+Cnj+1Sg+3PlO: ka-wîcihakwâw
+      PV/ka+wîcihîw+V+TA+Cnj+1Sg+3PlO+Var/East: ka-wîcihaki
       PV/ka+wîcihîw+V+TA+Cnj+1Sg+4Sg/PlO: ka-wîcihimak
       # PV/ka+wîcihîw+V+TA+Cnj+1Sg+XO: PV/ka+wîcihîw+V+TA+Cnj+1Sg+XO
 
@@ -654,8 +695,12 @@ Tests:
       PV/ka+wîcihîw+V+TA+Cnj+2Sg+1SgO: ka-wîcihiyan
       PV/ka+wîcihîw+V+TA+Cnj+3Sg+2SgO: ka-wîcihisk
       PV/ka+wîcihîw+V+TA+Cnj+2Sg+1PlO: ka-wîcihiyâhk
+      PV/ka+wîcihîw+V+TA+Cnj+3Sg+1PlO: ka-wîcihikoyâhk
+      PV/ka+wîcihîw+V+TA+Cnj+3Sg+1PlO+Var/East: ka-wîcihiyamiht
       PV/ka+wîcihîw+V+TA+Cnj+3Sg+12PlO: ka-wîcihikoyahk
+      PV/ka+wîcihîw+V+TA+Cnj+3Sg+12PlO+Var/East: ka-wîcihitahk
       PV/ka+wîcihîw+V+TA+Cnj+3Sg+2PlO: ka-wîcihikoyîk
+      PV/ka+wîcihîw+V+TA+Cnj+3Sg+2PlO+Var/East: ka-wîcihitîk
       PV/ka+wîcihîw+V+TA+Cnj+2Sg+3PlO: ka-wîcihacik
       PV/ka+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-wîcihimat
       PV/ka+wîcihîw+V+TA+Cnj+3Sg+5Sg/PlO: ka-wîcihimât
@@ -664,14 +709,18 @@ Tests:
       # 1Pl
       PV/ka+wîcihîw+V+TA+Cnj+1Pl+2SgO: ka-wîcihitâhk
       PV/ka+wîcihîw+V+TA+Cnj+1Pl+3SgO: ka-wîcihâyâhk
+      PV/ka+wîcihîw+V+TA+Cnj+1Pl+3SgO+Var/East: ka-wîcihâkiht
       PV/ka+wîcihîw+V+TA+Cnj+1Pl+2PlO: ka-wîcihitâhk
       PV/ka+wîcihîw+V+TA+Cnj+1Pl+3PlO: ka-wîcihâyâhkwâw
+      PV/ka+wîcihîw+V+TA+Cnj+1Pl+3PlO+Var/East: ka-wîcihakihcik
       PV/ka+wîcihîw+V+TA+Cnj+1Pl+4Sg/PlO: ka-wîcihimâyâhk
       # PV/ka+wîcihîw+V+TA+Cnj+1Pl+XO: PV/ka+wîcihîw+V+TA+Cnj+1Pl+XO
 
       # 12Pl
       PV/ka+wîcihîw+V+TA+Cnj+12Pl+3SgO: ka-wîcihâyahk
+      PV/ka+wîcihîw+V+TA+Cnj+12Pl+3SgO+Var/East: ka-wîcihahk
       PV/ka+wîcihîw+V+TA+Cnj+12Pl+3PlO: ka-wîcihâyahkwâw
+      PV/ka+wîcihîw+V+TA+Cnj+12Pl+3PlO+Var/East: ka-wîcihahkwâw
       PV/ka+wîcihîw+V+TA+Cnj+12Pl+4Sg/PlO: ka-wîcihimâyahk
       # PV/ka+wîcihîw+V+TA+Cnj+12Pl+XO: PV/ka+wîcihîw+V+TA+Cnj+12Pl+XO
 
@@ -680,6 +729,7 @@ Tests:
       PV/ka+wîcihîw+V+TA+Cnj+2Pl+3SgO: ka-wîcihâyîk
       PV/ka+wîcihîw+V+TA+Cnj+2Pl+1PlO: ka-wîcihiyâhk
       PV/ka+wîcihîw+V+TA+Cnj+2Pl+3PlO: ka-wîcihâyîkwâw
+      PV/ka+wîcihîw+V+TA+Cnj+2Pl+3PlO+Var/East: ka-wîcihâyîkok
       PV/ka+wîcihîw+V+TA+Cnj+2Pl+4Sg/PlO: ka-wîcihimâyîk
       # PV/ka+wîcihîw+V+TA+Cnj+2Pl+XO: PV/ka+wîcihîw+V+TA+Cnj+2Pl+XO
 
@@ -687,8 +737,11 @@ Tests:
       PV/ka+wîcihîw+V+TA+Cnj+3Pl+1SgO: [ka-wîcihitwâw, ka-wîcihicik]
       PV/ka+wîcihîw+V+TA+Cnj+3Pl+2SgO: ka-wîcihiskwâw
       PV/ka+wîcihîw+V+TA+Cnj+3Pl+1PlO: ka-wîcihikoyâhkwâw
+      PV/ka+wîcihîw+V+TA+Cnj+3Pl+1PlO+Var/East: ka-wîcihiyamihcik
       PV/ka+wîcihîw+V+TA+Cnj+3Pl+12PlO: ka-wîcihikoyahkwâw
+      PV/ka+wîcihîw+V+TA+Cnj+3Pl+12PlO+Var/East: ka-wîcihitahkwâw
       PV/ka+wîcihîw+V+TA+Cnj+3Pl+2PlO: ka-wîcihikoyîkwâw
+      PV/ka+wîcihîw+V+TA+Cnj+3Pl+2PlO+Var/East: ka-wîcihitîkwâw
       PV/ka+wîcihîw+V+TA+Cnj+3Pl+4Sg/PlO: ka-wîcihâcik
       PV/ka+wîcihîw+V+TA+Cnj+3Pl+5Sg/PlO: ka-wîcihimâcik
       # PV/ka+wîcihîw+V+TA+Cnj+3Pl+XO: PV/ka+wîcihîw+V+TA+Cnj+3Pl+XO
@@ -725,6 +778,7 @@ Tests:
       PV/ta+wîcihîw+V+TA+Cnj+1Sg+3SgO: ta-wîcihak
       PV/ta+wîcihîw+V+TA+Cnj+1Sg+2PlO: ta-wîcihitakwâw
       PV/ta+wîcihîw+V+TA+Cnj+1Sg+3PlO: ta-wîcihakwâw
+      PV/ta+wîcihîw+V+TA+Cnj+1Sg+3PlO+Var/East: ta-wîcihaki
       PV/ta+wîcihîw+V+TA+Cnj+1Sg+4Sg/PlO: ta-wîcihimak
       # PV/ta+wîcihîw+V+TA+Cnj+1Sg+XO: PV/ta+wîcihîw+V+TA+Cnj+1Sg+XO
 
@@ -740,8 +794,12 @@ Tests:
       PV/ta+wîcihîw+V+TA+Cnj+2Sg+1SgO: ta-wîcihiyan
       PV/ta+wîcihîw+V+TA+Cnj+3Sg+2SgO: ta-wîcihisk
       PV/ta+wîcihîw+V+TA+Cnj+2Sg+1PlO: ta-wîcihiyâhk
+      PV/ta+wîcihîw+V+TA+Cnj+3Sg+1PlO: ta-wîcihikoyâhk
+      PV/ta+wîcihîw+V+TA+Cnj+3Sg+1PlO+Var/East: ta-wîcihiyamiht
       PV/ta+wîcihîw+V+TA+Cnj+3Sg+12PlO: ta-wîcihikoyahk
+      PV/ta+wîcihîw+V+TA+Cnj+3Sg+12PlO+Var/East: ta-wîcihitahk
       PV/ta+wîcihîw+V+TA+Cnj+3Sg+2PlO: ta-wîcihikoyîk
+      PV/ta+wîcihîw+V+TA+Cnj+3Sg+2PlO+Var/East: ta-wîcihitîk
       PV/ta+wîcihîw+V+TA+Cnj+2Sg+3PlO: ta-wîcihacik
       PV/ta+wîcihîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-wîcihimat
       PV/ta+wîcihîw+V+TA+Cnj+3Sg+5Sg/PlO: ta-wîcihimât
@@ -750,14 +808,18 @@ Tests:
       # 1Pl
       PV/ta+wîcihîw+V+TA+Cnj+1Pl+2SgO: ta-wîcihitâhk
       PV/ta+wîcihîw+V+TA+Cnj+1Pl+3SgO: ta-wîcihâyâhk
+      PV/ta+wîcihîw+V+TA+Cnj+1Pl+3SgO+Var/East: ta-wîcihâkiht
       PV/ta+wîcihîw+V+TA+Cnj+1Pl+2PlO: ta-wîcihitâhk
       PV/ta+wîcihîw+V+TA+Cnj+1Pl+3PlO: ta-wîcihâyâhkwâw
+      PV/ta+wîcihîw+V+TA+Cnj+1Pl+3PlO+Var/East: ta-wîcihakihcik
       PV/ta+wîcihîw+V+TA+Cnj+1Pl+4Sg/PlO: ta-wîcihimâyâhk
       # PV/ta+wîcihîw+V+TA+Cnj+1Pl+XO: PV/ta+wîcihîw+V+TA+Cnj+1Pl+XO
 
       # 12Pl
       PV/ta+wîcihîw+V+TA+Cnj+12Pl+3SgO: ta-wîcihâyahk
+      PV/ta+wîcihîw+V+TA+Cnj+12Pl+3SgO+Var/East: ta-wîcihahk
       PV/ta+wîcihîw+V+TA+Cnj+12Pl+3PlO: ta-wîcihâyahkwâw
+      PV/ta+wîcihîw+V+TA+Cnj+12Pl+3PlO+Var/East: ta-wîcihahkwâw
       PV/ta+wîcihîw+V+TA+Cnj+12Pl+4Sg/PlO: ta-wîcihimâyahk
       # PV/ta+wîcihîw+V+TA+Cnj+12Pl+XO: PV/ta+wîcihîw+V+TA+Cnj+12Pl+XO
 
@@ -766,6 +828,7 @@ Tests:
       PV/ta+wîcihîw+V+TA+Cnj+2Pl+3SgO: ta-wîcihâyîk
       PV/ta+wîcihîw+V+TA+Cnj+2Pl+1PlO: ta-wîcihiyâhk
       PV/ta+wîcihîw+V+TA+Cnj+2Pl+3PlO: ta-wîcihâyîkwâw
+      PV/ta+wîcihîw+V+TA+Cnj+2Pl+3PlO+Var/East: ta-wîcihâyîkok
       PV/ta+wîcihîw+V+TA+Cnj+2Pl+4Sg/PlO: ta-wîcihimâyîk
       # PV/ta+wîcihîw+V+TA+Cnj+2Pl+XO: PV/ta+wîcihîw+V+TA+Cnj+2Pl+XO
 
@@ -773,8 +836,11 @@ Tests:
       PV/ta+wîcihîw+V+TA+Cnj+3Pl+1SgO: [ta-wîcihitwâw, ta-wîcihicik]
       PV/ta+wîcihîw+V+TA+Cnj+3Pl+2SgO: ta-wîcihiskwâw
       PV/ta+wîcihîw+V+TA+Cnj+3Pl+1PlO: ta-wîcihikoyâhkwâw
+      PV/ta+wîcihîw+V+TA+Cnj+3Pl+1PlO+Var/East: ta-wîcihiyamihcik
       PV/ta+wîcihîw+V+TA+Cnj+3Pl+12PlO: ta-wîcihikoyahkwâw
+      PV/ta+wîcihîw+V+TA+Cnj+3Pl+12PlO+Var/East: ta-wîcihitahkwâw
       PV/ta+wîcihîw+V+TA+Cnj+3Pl+2PlO: ta-wîcihikoyîkwâw
+      PV/ta+wîcihîw+V+TA+Cnj+3Pl+2PlO+Var/East: ta-wîcihitîkwâw
       PV/ta+wîcihîw+V+TA+Cnj+3Pl+4Sg/PlO: ta-wîcihâcik
       PV/ta+wîcihîw+V+TA+Cnj+3Pl+5Sg/PlO: ta-wîcihimâcik
       # PV/ta+wîcihîw+V+TA+Cnj+3Pl+XO: PV/ta+wîcihîw+V+TA+Cnj+3Pl+XO
@@ -825,8 +891,12 @@ Tests:
       # 3Sg
       wîcihîw+V+TA+Fut+Cond+2Sg+1SgO: wîcihiyani
       wîcihîw+V+TA+Fut+Cond+2Sg+1PlO: wîcihiyâhki
+      wîcihîw+V+TA+Fut+Cond+3Sg+1PlO: wîcihikoyâhki
+      wîcihîw+V+TA+Fut+Cond+3Sg+1PlO+Var/East: wîcihitahkwâwi
       wîcihîw+V+TA+Fut+Cond+3Sg+12PlO: wîcihikoyahki
+      wîcihîw+V+TA+Fut+Cond+3Sg+12PlO+Var/East: wîcihiyamihci
       wîcihîw+V+TA+Fut+Cond+3Sg+2PlO: wîcihikoyîko
+      wîcihîw+V+TA+Fut+Cond+3Sg+2PlO+Var/East: wîcihitîko
       wîcihîw+V+TA+Fut+Cond+2Sg+3PlO: wîcihatwâwi
       wîcihîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: wîcihimaci
       wîcihîw+V+TA+Fut+Cond+3Sg+5Sg/PlO: wîcihimâci
@@ -835,14 +905,18 @@ Tests:
       # 1Pl
       wîcihîw+V+TA+Fut+Cond+1Pl+2SgO: wîcihitâhki
       wîcihîw+V+TA+Fut+Cond+1Pl+3SgO: wîcihâyâhki
+      wîcihîw+V+TA+Fut+Cond+1Pl+3SgO+Var/East: wîcihakihci
       wîcihîw+V+TA+Fut+Cond+1Pl+2PlO: wîcihitâhki
       wîcihîw+V+TA+Fut+Cond+1Pl+3PlO: wîcihâyâhkwâwi
+      wîcihîw+V+TA+Fut+Cond+1Pl+3PlO+Var/East: wîcihakihci
       wîcihîw+V+TA+Fut+Cond+1Pl+4Sg/PlO: wîcihimâyâhki
       # wîcihîw+V+TA+Fut+Cond+1Pl+XO: wîcihîw+V+TA+Fut+Cond+1Pl+XO
 
       # 12Pl
       wîcihîw+V+TA+Fut+Cond+12Pl+3SgO: wîcihâyahki
+      wîcihîw+V+TA+Fut+Cond+12Pl+3SgO+Var/East: wîcihahki
       wîcihîw+V+TA+Fut+Cond+12Pl+3PlO: wîcihâyahkwâwi
+      wîcihîw+V+TA+Fut+Cond+12Pl+3PlO+Var/East: wîcihahkwayak
       wîcihîw+V+TA+Fut+Cond+12Pl+4Sg/PlO: wîcihimâyahki
       # wîcihîw+V+TA+Fut+Cond+12Pl+XO: wîcihîw+V+TA+Fut+Cond+12Pl+XO
 
@@ -851,6 +925,7 @@ Tests:
       wîcihîw+V+TA+Fut+Cond+2Pl+3SgO: wîcihâyîko
       wîcihîw+V+TA+Fut+Cond+2Pl+1PlO: wîcihiyâhki
       wîcihîw+V+TA+Fut+Cond+2Pl+3PlO: wîcihâyîkwâwi
+      wîcihîw+V+TA+Fut+Cond+2Pl+3PlO+Var/East: wîcihayîko
       wîcihîw+V+TA+Fut+Cond+2Pl+4Sg/PlO: wîcihimâyîko
       # wîcihîw+V+TA+Fut+Cond+2Pl+XO: wîcihîw+V+TA+Fut+Cond+2Pl+XO
 
@@ -858,8 +933,11 @@ Tests:
       wîcihîw+V+TA+Fut+Cond+3Pl+1SgO: wîcihitwâwi
       wîcihîw+V+TA+Fut+Cond+3Pl+2SgO: wîcihiskwâwi
       wîcihîw+V+TA+Fut+Cond+3Pl+1PlO: wîcihikoyâhkwâwi
+      wîcihîw+V+TA+Fut+Cond+3Pl+1PlO+Var/East: wîcihitahkwâwi
       wîcihîw+V+TA+Fut+Cond+3Pl+12PlO: wîcihikoyahkwâwi
+      wîcihîw+V+TA+Fut+Cond+3Pl+12PlO+Var/East: wîcihitahkwâwi
       wîcihîw+V+TA+Fut+Cond+3Pl+2PlO: wîcihikoyîkwâwi
+      wîcihîw+V+TA+Fut+Cond+3Pl+2PlO+Var/East: wîcihitîko
       wîcihîw+V+TA+Fut+Cond+3Pl+4Sg/PlO: wîcihâtwâwi
       wîcihîw+V+TA+Fut+Cond+3Pl+5Sg/PlO: wîcihimâtwâwi
       # wîcihîw+V+TA+Fut+Cond+3Pl+XO: wîcihîw+V+TA+Fut+Cond+3Pl+XO
@@ -906,6 +984,7 @@ Tests:
       wîcihîw+V+TA+Imp+Imm+2Pl+1PlO: wîcihinân
       wîcihîw+V+TA+Imp+Imm+2Pl+3SgO: wîcihihk
       wîcihîw+V+TA+Imp+Imm+2Pl+3PlO: wîcihihkwâw
+      wîcihîw+V+TA+Imp+Imm+2Pl+3PlO+Var/East: wîcihik
       
 
       # Imp # Del
@@ -919,6 +998,7 @@ Tests:
       # 12Pl
       wîcihîw+V+TA+Imp+Del+12Pl+3SgO: wîcihâhkahk
       wîcihîw+V+TA+Imp+Del+12Pl+3PlO: wîcihâhkahkik
+      wîcihîw+V+TA+Imp+Del+12Pl+3PlO+Var/East: wîcihâhkanik
 
       # 2Pl
       wîcihîw+V+TA+Imp+Del+2Pl+1SgO: wîcihîhkîk
