@@ -1190,14 +1190,19 @@ There are more pronoums to be added here.
 LEXICON Pronoun 
 
 LEXICON Personal  \\
-niýa+Pron+Pers+1Sg:niýa # ; 
-kiýa+Pron+Pers+2Sg:kiýa # ; 
+nîtha+Pron+Pers+1Sg:nîtha # ; 
+kîtha+Pron+Pers+2Sg:kîtha # ; 
 
 LEXICON Interrogative   \\
 awîna+Pron+Interr+A+Sg:awîna # "who,whose" ; 
-awîniki+Pron+Interr+A+Pl:awîniki # "who" ; 
-awînihi+Pron+Interr+A+Obv:awînihi # "who" ; 
-awîniwâ+Pron+Interr+A+Obv:awîniwâ # "who" ; 
+awînak+Pron+Interr+A+Sg:awînak # "who,whose" ; 
+awîna+Pron+Interr+A+Pl:awîna # "who,whose" ; 
+awînak+Pron+Interr+A+Pl:awînak # "who,whose" ; 
+awîniki+Pron+Interr+A+Pl+Var/East:awîniki # "who" ; 
+awînikik+Pron+Interr+A+Pl+Var/East:awînikik # "who" ; 
+awîna+Pron+Interr+A+Obv:awîna # "who,whose" ; 
+awînithiwa+Pron+Interr+A+Obv+Var/East:awînithiwa # "who" ; 
+awînaka+Pron+Interr+A+Obv+Var/East:awînaka # "who" ; 
 
 LEXICON Indefinite  \\
 awiyak+Pron+Indef+A+Sg:awiyak # "someone" ; 
@@ -1206,16 +1211,18 @@ awiyak+Pron+Indef+A+Pl:awiyakak # "some people" ;
 LEXICON Demonstrative    \\
 ANIMATE \\
 awa+Pron+Dem+Prox+A+Sg:awa # "this" ; 
-ôki+Pron+Dem+Prox+A+Pl:ôki # "these" ; 
-ôhi+Pron+Dem+Prox+A+Obv:ôhi # "this/these" ; 
+ôko+Pron+Dem+Prox+A+Pl:ôko # "these" ; 
+ôho+Pron+Dem+Prox+A+Obv:ôho # "this/these" ; 
 
 INANIMATE \\
 
 ôma+Pron+Dem+Prox+I+Sg:ôma # "this" ; 
-ôhi+Pron+Dem+Prox+I+Pl:ôhi # "these" ; 
+ôho+Pron+Dem+Prox+I+Pl:ôho # "these" ; 
+ômîthiw+Pron+Dem+Prox+I+Obv:ômîthiw # "this/these" ; 
 
 ôma+Pron+Def+Prox+I+Sg:ôma # "this one" ; 
-ôhi+Pron+Def+Prox+I+Pl:ôhi # "these one" ; 
+ôho+Pron+Def+Prox+I+Pl:ôho # "these one" ; 
+ômîthiw+Pron+Def+Prox+I+Obv:ômîthiw # "this/these one(s)" ; 
 
 * * *
 
