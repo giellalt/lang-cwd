@@ -1997,6 +1997,12 @@ LEXICON VTA_IND_NI_SG_SUFFIX   !!= @CODE@
 
 +X+1SgO:%>i2kawin   VERB_ENDLEX ;
 
+!           ********
+! **** Inanimate Actor ****
+!           ********  NOTE: always mixed
+
++0Sg/Pl+1SgO:%>i2kon   VERB_ENDLEX ;
+
 
 ! ~~~~~~~~~~~~~~~~~~~~
 !!!!!! PLURAL !!!!!! 
@@ -2033,6 +2039,12 @@ LEXICON VTA_IND_NI_PL_SUFFIX   !!= @CODE@
 !           ********  NOTE: always mixed
 
 +X+1PlO:%>i2kawinân   VERB_ENDLEX ;
+
+!           ********
+! **** Inanimate Actor ****
+!           ********  NOTE: always mixed
+
++0Sg/Pl+1PlO:%>i2konân	   VERB_ENDLEX ;
 
 
 !!!!!! KI- PREFIXING FORMS !!!!!!
@@ -2081,6 +2093,13 @@ LEXICON VTA_IND_KI_SG_SUFFIX   !!= @CODE@
 !           ********  NOTE: always mixed
 
 +X+2SgO:%>i2kawin   VERB_ENDLEX ;
+
+!           ********
+! **** Inanimate Actor ****
+!           ********  NOTE: always mixed
+
++0Sg/Pl+2SgO:%>i2kon	   VERB_ENDLEX ;
+
 
 ! ~~~~~~~~~~~~~~~~~~~~
 !!!!!! PLURAL !!!!!! 
@@ -2144,6 +2163,13 @@ LEXICON VTA_IND_KI_PL_SUFFIX   !!= @CODE@
 +X+12PlO:%>i2kawinaw	   VERB_ENDLEX ;
 +X+2PlO:%>i2kawinâwâw	   VERB_ENDLEX ;
 
+!           ********
+! **** Inanimate Actor ****
+!           ********  NOTE: always mixed
+
++0Sg/Pl+12PlO:%>i2konaw	   VERB_ENDLEX ;
++0Sg/Pl+2PlO:%>i2kowâw	   VERB_ENDLEX ;
+
 
 !!!!!! NULL PREFIXING FORMS !!!!!!
 ! ==================================
@@ -2187,6 +2213,13 @@ LEXICON VTA_IND_NULL_SG_SUFFIX   !!= @CODE@
 +X+3SgO:%>âw   VERB_ENDLEX ;
 +X+4Sg/PlO:%>âthiwa   VERB_ENDLEX ;
 
+!           ********
+! **** Inanimate Actor ****
+!           ********  NOTE: always mixed
+
++0Sg/Pl+3SgO:%>i2kow	   VERB_ENDLEX ;
++0Sg/Pl+4Sg/PlO:%>i2kothiwa	   VERB_ENDLEX ;
+
 
 ! ~~~~~~~~~~~~~~~~~~~~
 !!!!!! PLURAL !!!!!! 
@@ -2218,6 +2251,12 @@ LEXICON VTA_IND_NULL_PL_SUFFIX   !!= @CODE@
 !           ********  NOTE: always mixed
 
 +X+3PlO:%>âwak   VERB_ENDLEX ;
+
+!           ********
+! **** Inanimate Actor ****
+!           ********  NOTE: always mixed
+
++0Sg/Pl+3PlO:%>i2kowak	   VERB_ENDLEX ;
 
 
 ! ===================================================================================================================
@@ -2327,7 +2366,7 @@ LEXICON VTA_CNJ_NULL_PL_SUFFIX
 +2Sg+3PlO:%>acik	   VERB_ENDLEX ;
 
 +1Pl+3SgO:%>âyâhk	   VERB_ENDLEX ;
-+1Pl+3SgO+Var/East:%>âkiht	   VERB_ENDLEX ;
++1Pl+3SgO+Var/East:%>akiht	   VERB_ENDLEX ;
 +1Pl+3PlO:%>âyâhkwâw	   VERB_ENDLEX ;
 +1Pl+3PlO+Var/East:%>akihcik	   VERB_ENDLEX ;
 
@@ -2372,9 +2411,9 @@ LEXICON VTA_CNJ_NULL_PL_SUFFIX
 +3Pl+2SgO:%>i2skwâw	   VERB_ENDLEX ;
 
 +3Sg+1PlO:%>i2koyâhk	   VERB_ENDLEX ;
-+3Sg+1PlO+Var/East:%>i2yamiht	   VERB_ENDLEX ;
++3Sg+1PlO+Var/East:%>iyamiht	   VERB_ENDLEX ;
 +3Pl+1PlO:%>i2koyâhkwâw  VERB_ENDLEX ;
-+3Pl+1PlO+Var/East:%>i2yamihcik  VERB_ENDLEX ;
++3Pl+1PlO+Var/East:%>iyamihcik  VERB_ENDLEX ;
 
 +3Sg+12PlO:%>i2koyahk   VERB_ENDLEX ;
 +3Sg+12PlO+Var/East:%>i2tahk   VERB_ENDLEX ;
@@ -2405,6 +2444,19 @@ LEXICON VTA_CNJ_NULL_PL_SUFFIX
 +X+2PlO:%>i2kawiyîk	   VERB_ENDLEX ;
 
 +X+3PlO:%>i2hcik	   VERB_ENDLEX ;
+
+!           ********
+! **** Inanimate Actor ****
+!           ********  NOTE: always mixed
+
++0Sg/Pl+1SgO:%>i2koyân	   VERB_ENDLEX ;
++0Sg/Pl+2SgO:%>i2koyan	   VERB_ENDLEX ;
++0Sg/Pl+3SgO:%>i2kot	   VERB_ENDLEX ;
++0Sg/Pl+1PlO:%>i2koyâhk	   VERB_ENDLEX ;
++0Sg/Pl+12PlO:%>i2koyahk	   VERB_ENDLEX ;
++0Sg/Pl+2PlO:%>i2koyîk	   VERB_ENDLEX ;
++0Sg/Pl+3PlO:%>i2kocik	   VERB_ENDLEX ;
++0Sg/Pl+4Sg/PlO:%>i2kothit	   VERB_ENDLEX ;
 
 
 ! ===================================================================================================================
@@ -2790,7 +2842,7 @@ LEXICON VTA_FUT_CON_NULL_PL_SUFFIX
 +3Sg+1PlO:%>i2koyâhki		   VERB_ENDLEX ;
 +3Sg+1PlO+Var/East:%>i2tahkwâwi		   VERB_ENDLEX ;
 +3Sg+12PlO:%>i2koyahki		   VERB_ENDLEX ;
-+3Sg+12PlO+Var/East:%>i2yamihci		   VERB_ENDLEX ;
++3Sg+12PlO+Var/East:%>iyamihci		   VERB_ENDLEX ;
 +3Pl+1PlO:%>i2koyâhkwâwi		   VERB_ENDLEX ;
 +3Pl+1PlO+Var/East:%>i2tahkwâwi		   VERB_ENDLEX ;
 

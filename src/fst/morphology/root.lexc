@@ -109,6 +109,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +4Pl    !!= * @CODE@ Fourth Person inanimate plural (used only in the VII paradigms)
 +4Sg/Pl    !!= * @CODE@
 +5Sg/Pl    !!= * @CODE@
++0Sg/Pl    !!= * @CODE@
+
 
 +1SgO   !!= * @CODE@ objective conjugation
 +2SgO   !!= * @CODE@

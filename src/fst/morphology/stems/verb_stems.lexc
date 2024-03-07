@@ -79,6 +79,7 @@ wâpahtam:wâpaht4a VTIm ; ! Check status of -a
 nâtam:nâta VTIm ;
 
 kîskiswîw:kîskisw VTA;  ! w:0 for collapsing cases
+nitonawîw:nitonaw VTA ;
 atoskahîw:atoskah VTA ;
 miskawêw:miskaw VTA ;
 mowîw:mow2 VTA ;        ! w2:w for non-collapsing cases
