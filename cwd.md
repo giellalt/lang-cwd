@@ -992,6 +992,7 @@ Verbal MSP
 * +4Pl     Fourth Person inanimate plural (used only in the VII paradigms)
 * +4Sg/Pl    
 * +5Sg/Pl    
+* +0Sg/Pl    
 
 * +1SgO    objective conjugation
 * +2SgO   
