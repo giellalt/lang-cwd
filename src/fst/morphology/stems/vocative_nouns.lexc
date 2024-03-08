@@ -1,2 +1,28 @@
 LEXICON Vocative_Nouns
+! Vocative singular
 nimosôm+N+A+D+Px1Sg+Voc+Sg: nimosô #;
+nôhkom+N+A+D+Px1Sg+Voc+Sg: nôhkô #;
+kisîmanitow+N+A+Voc+Sg: kisîmanitô #;
+nikosis+N+A+D+Px1Sg+Voc+Sg: nikosî #;
+nôhtâwiy+N+A+D+Px1Sg+Voc+Sg: nôhtâ #;
+nikâwiy+N+A+D+Px1Sg+Voc+Sg: nikâ #;
+niciwâm+N+A+D+Px1Sg+Voc+Sg: niciwâ #;
+nimis+N+A+D+Px1Sg+Voc+Sg: nimisî #;
+nisis+N+A+D+Px1Sg+Voc+Sg: nisisî #;
+nisikos+N+A+D+Px1Sg+Voc+Sg: nisikosî #;
+nistîs+N+A+D+Px1Sg+Voc+Sg: nistîsî #;
+nisîmis+N+A+D+Px1Sg+Voc+Sg: nisîmisî #;
+nîstâw+N+A+D+Px1Sg+Voc+Sg: nîstâ #;
+nicahkos+N+A+D+Px1Sg+Voc+Sg: nicahkosî #;
+nitânis+N+A+D+Px1Sg+Voc+Sg: nitân #;
+nôsisim+N+A+D+Px1Sg+Voc+Sg: nôsisî #;
+nitôsim+N+A+D+Px1Sg+Voc+Sg: nikosim #;
+nitôsimiskwîm+N+A+D+Px1Sg+Voc+Sg: nitân #;
+nitihkwatim+N+A+D+Px1Sg+Voc+Sg: nitihkwâ #;
+
+
+!Vocative plural
+wâhkômâkan+N+A+Px1Sg+Voc+Pl: niwâhkômâkanitik #;
+nîcawâsim+N+A+D+Px1Sg+Voc+Pl: nîcawâsimitik #;
+nisîm+N+A+D+Px1Sg+Voc+Pl: nisîmitik #;
+nicânis+N+A+D+Px1Sg+Voc+Pl: nicânisitik #;
