@@ -5,946 +5,1014 @@ Config:
 
 Tests:
 
-   Lemma - nakatîw
+   Lemma - nakatîw :
 
       # Core 
 
       # Prs+Ind
-      nakatîw+V+TA+Ind+1Sg+2SgO: kinakatitin	# I leave you, I leave you behind
-      nakatîw+V+TA+Ind+1Sg+3SgO: ninakatâw	# I leave him/her, I leave him/her behind
-      nakatîw+V+TA+Ind+2Sg+1SgO: kinakasin	# you leave me, you leave me behind
-      nakatîw+V+TA+Ind+2Sg+3SgO: kinakatâw	# you leave him/her, you leave him/her behind
-      nakatîw+V+TA+Ind+3Sg+4Sg/PlO: nakatîw	# he/she leaves another/others, he/she leaves another/others behind
-      nakatîw+V+TA+Ind+4Sg/Pl+3SgO: [nakatikow, nakatik]	# another/others leave him/her, another/others leave him/her behind
+      nakatîw+V+TA+Ind+1Sg+2SgO: kinakatitin # I leave you, I leave you behind
+      nakatîw+V+TA+Ind+1Sg+3SgO: ninakatâw # I leave him/her, I leave him/her behind
+      nakatîw+V+TA+Ind+2Sg+1SgO: kinakasin # you leave me, you leave me behind
+      nakatîw+V+TA+Ind+2Sg+3SgO: kinakatâw # you leave him/her, you leave him/her behind
+      nakatîw+V+TA+Ind+3Sg+4Sg/PlO: nakatîw # he/she leaves another/others, he/she leaves another/others behind
+      nakatîw+V+TA+Ind+4Sg/Pl+3SgO: [nakatikow, nakatik] # another/others leave him/her, another/others leave him/her behind
 
       # Prs+Cnj
-      PV/e+nakatîw+V+TA+Cnj+1Sg+2SgO: î-nakatitân	# as I leave you, as I leave you behind
-      PV/e+nakatîw+V+TA+Cnj+1Sg+3SgO: î-nakatak	# as I leave him/her, as I leave him/her behind
-      PV/e+nakatîw+V+TA+Cnj+2Sg+1SgO: î-nakasithan	# as you leave me, as you leave me behind
-      PV/e+nakatîw+V+TA+Cnj+2Sg+3SgO: î-nakatat	# as you leave him/her, as you leave him/her behind
-      PV/e+nakatîw+V+TA+Cnj+3Sg+4Sg/PlO: î-nakatât	# as he/she leaves another/others, as he/she leaves another/others behind
-      PV/e+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: î-nakatikot	# as another/others leave him/her, as another/others leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+1Sg+2SgO: î-nakatitân # as I leave you, as I leave you behind
+      PV/î+nakatîw+V+TA+Cnj+1Sg+3SgO: î-nakatak # as I leave him/her, as I leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+1SgO: î-nakasiyan # as you leave me, as you leave me behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+3SgO: î-nakatat # as you leave him/her, as you leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+3Sg+4Sg/PlO: î-nakatât # as he/she leaves another/others, as he/she leaves another/others behind
+      PV/î+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: î-nakatikot # as another/others leave him/her, as another/others leave him/her behind
 
       # Imp
-      nakatîw+V+TA+Imp+Imm+2Sg+1SgO: nakasin	# (you) leave me now, (you) leave me behind now
-      nakatîw+V+TA+Imp+Imm+2Sg+3SgO: nakas	# (you) leave him/her now, (you) leave him/her behind now
+      nakatîw+V+TA+Imp+Imm+2Sg+1SgO: nakasin # (you) leave me now, (you) leave me behind now
+      nakatîw+V+TA+Imp+Imm+2Sg+3SgO: nakas # (you) leave him/her now, (you) leave him/her behind now
       
 
       # Prs # Ind
 
       # 1Sg
-      nakatîw+V+TA+Ind+1Sg+2SgO: kinakatitin	# I leave you, I leave you behind
-      nakatîw+V+TA+Ind+1Sg+3SgO: ninakatâw	# I leave him/her, I leave him/her behind
-      nakatîw+V+TA+Ind+1Sg+2PlO: kinakatitinâwâw	# I leave you all, I leave you all behind
-      nakatîw+V+TA+Ind+1Sg+3PlO: ninakatâwak	# I leave them, I leave them behind
-      nakatîw+V+TA+Ind+1Sg+4Sg/PlO: ninakatimâwa	# I leave another/others, I leave another/others behind
+      nakatîw+V+TA+Ind+1Sg+2SgO: kinakatitin # I leave you, I leave you behind
+      nakatîw+V+TA+Ind+1Sg+3SgO: ninakatâw # I leave him/her, I leave him/her behind
+      nakatîw+V+TA+Ind+1Sg+2PlO: kinakatitinâwâw # I leave you all, I leave you all behind
+      nakatîw+V+TA+Ind+1Sg+3PlO: ninakatâwak # I leave them, I leave them behind
+      nakatîw+V+TA+Ind+1Sg+4Sg/PlO: ninakatimâwa # I leave another/others, I leave another/others behind
 
       # 2Sg
-      nakatîw+V+TA+Ind+2Sg+1SgO: kinakasin	# you leave me, you leave me behind
-      nakatîw+V+TA+Ind+2Sg+3SgO: kinakatâw	# you leave him/her, you leave him/her behind
-      nakatîw+V+TA+Ind+2Sg+1PlO: kinakasinân	# you leave us, you leave us behind
-      nakatîw+V+TA+Ind+2Sg+3PlO: kinakatâwak	# you leave them, you leave them behind
-      nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kinakatimâwa	# you leave another/others, you leave another/others behind
+      nakatîw+V+TA+Ind+2Sg+1SgO: kinakasin # you leave me, you leave me behind
+      nakatîw+V+TA+Ind+2Sg+3SgO: kinakatâw # you leave him/her, you leave him/her behind
+      nakatîw+V+TA+Ind+2Sg+1PlO: kinakasinân # you leave us, you leave us behind
+      nakatîw+V+TA+Ind+2Sg+3PlO: kinakatâwak # you leave them, you leave them behind
+      nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kinakatimâwa # you leave another/others, you leave another/others behind
 
       # 3Sg
-      nakatîw+V+TA+Ind+2Sg+1SgO: kinakasin	# you leave me, you leave me behind
-      nakatîw+V+TA+Ind+3Sg+2SgO: kinakatik	# he/she leaves you, he/she leaves you behind
-      nakatîw+V+TA+Ind+2Sg+1PlO: kinakasinân	# you leave us, you leave us behind
-      nakatîw+V+TA+Ind+3Sg+12PlO: kinakatikonaw	# he/she leaves you and us, he/she leaves you and us behind
-      nakatîw+V+TA+Ind+3Sg+2PlO: kinakatikowâw	# he/she leaves you all, he/she leaves you all behind
-      nakatîw+V+TA+Ind+2Sg+3PlO: kinakatâwak	# you leave them, you leave them behind
-      nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kinakatimâwa	# you leave another/others, you leave another/others behind
-      nakatîw+V+TA+Ind+3Sg+5Sg/PlO: nakatimîw	# he/she leaves yet another/others, he/she leaves yet another/others behind
+      nakatîw+V+TA+Ind+2Sg+1SgO: kinakasin # you leave me, you leave me behind
+      nakatîw+V+TA+Ind+3Sg+2SgO: kinakatik # he/she leaves you, he/she leaves you behind
+      nakatîw+V+TA+Ind+2Sg+1PlO: kinakasinân # you leave us, you leave us behind
+      nakatîw+V+TA+Ind+3Sg+12PlO: kinakatikonaw # he/she leaves you and us, he/she leaves you and us behind
+      nakatîw+V+TA+Ind+3Sg+2PlO: kinakatikowâw # he/she leaves you all, he/she leaves you all behind
+      nakatîw+V+TA+Ind+2Sg+3PlO: kinakatâwak # you leave them, you leave them behind
+      nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kinakatimâwa # you leave another/others, you leave another/others behind
+      nakatîw+V+TA+Ind+3Sg+5Sg/PlO: nakatimîw # he/she leaves yet another/others, he/she leaves yet another/others behind
 
       # 1Pl
-      nakatîw+V+TA+Ind+1Pl+2SgO: kinakatitinân	# we leave you, we leave you behind
-      nakatîw+V+TA+Ind+1Pl+3SgO: ninakatânân	# we leave him/her, we leave him/her behind
-      nakatîw+V+TA+Ind+1Pl+2PlO: kinakatitinân	# we leave you all, we leave you all behind
-      nakatîw+V+TA+Ind+1Pl+3PlO: ninakatânânak	# we leave them, we leave them behind
-      nakatîw+V+TA+Ind+1Pl+4Sg/PlO: ninakatimânâna	# we leave another/others, we leave another/others behind
+      nakatîw+V+TA+Ind+1Pl+2SgO: kinakatitinân # we leave you, we leave you behind
+      nakatîw+V+TA+Ind+1Pl+3SgO: ninakatânân # we leave him/her, we leave him/her behind
+      nakatîw+V+TA+Ind+1Pl+2PlO: kinakatitinân # we leave you all, we leave you all behind
+      nakatîw+V+TA+Ind+1Pl+3PlO: ninakatânânak # we leave them, we leave them behind
+      nakatîw+V+TA+Ind+1Pl+4Sg/PlO: ninakatimânâna # we leave another/others, we leave another/others behind
 
       # 12Pl
-      nakatîw+V+TA+Ind+12Pl+3SgO: kinakatânaw	# we and you leave him/her, we and you leave him/her behind
-      nakatîw+V+TA+Ind+12Pl+3PlO: kinakatânawak	# we and you leave them, we and you leave them behind
-      nakatîw+V+TA+Ind+12Pl+4Sg/PlO: kinakatimânawa	# we and you leave another/others, we and you leave another/others behind
+      nakatîw+V+TA+Ind+12Pl+3SgO: kinakatânaw # we and you leave him/her, we and you leave him/her behind
+      nakatîw+V+TA+Ind+12Pl+3PlO: kinakatânawak # we and you leave them, we and you leave them behind
+      nakatîw+V+TA+Ind+12Pl+4Sg/PlO: kinakatimânawa # we and you leave another/others, we and you leave another/others behind
 
       # 2Pl
-      nakatîw+V+TA+Ind+2Pl+1SgO: kinakasinâwâw	# you all leave me, you all leave me behind
-      nakatîw+V+TA+Ind+2Pl+3SgO: kinakatâwâw	# you all leave him/her, you all leave him/her behind
-      nakatîw+V+TA+Ind+2Pl+1PlO: kinakasinân	# you all leave us, you all leave us behind
-      nakatîw+V+TA+Ind+2Pl+3PlO: kinakatâwâwak	# you all leave them, you all leave them behind
-      nakatîw+V+TA+Ind+2Pl+4Sg/PlO: kinakatimâwâwa	# you all leave another/others, you all leave another/others behind
+      nakatîw+V+TA+Ind+2Pl+1SgO: kinakasinâwâw # you all leave me, you all leave me behind
+      nakatîw+V+TA+Ind+2Pl+3SgO: kinakatâwâw # you all leave him/her, you all leave him/her behind
+      nakatîw+V+TA+Ind+2Pl+1PlO: kinakasinân # you all leave us, you all leave us behind
+      nakatîw+V+TA+Ind+2Pl+3PlO: kinakatâwâwak # you all leave them, you all leave them behind
+      nakatîw+V+TA+Ind+2Pl+4Sg/PlO: kinakatimâwâwa # you all leave another/others, you all leave another/others behind
 
       # 3Pl
-      nakatîw+V+TA+Ind+3Pl+1SgO: [ninakatikowak, ninakatikwak]	# they leave me, they leave me behind
-      nakatîw+V+TA+Ind+3Pl+2SgO: [kinakatikowak, kinakatikwak]	# they leave you, they leave you behind
-      nakatîw+V+TA+Ind+3Pl+1PlO: ninakatikonânak	# they leave us, they leave us behind
-      nakatîw+V+TA+Ind+3Pl+12PlO: kinakatikonawak	# they leave you and us, they leave you and us behind
-      nakatîw+V+TA+Ind+3Pl+2PlO: kinakatikowâwak	# they leave you all, they leave you all behind
-      nakatîw+V+TA+Ind+3Pl+4Sg/PlO: nakatîwak	# they leave another/others, they leave another/others behind
-      nakatîw+V+TA+Ind+3Pl+5Sg/PlO: nakatimîwak	# they leave yet another/others, they leave yet another/others behind
+      nakatîw+V+TA+Ind+3Pl+1SgO: ninakatikwak # they leave me, they leave me behind
+      nakatîw+V+TA+Ind+3Pl+2SgO: kinakatikwak # they leave you, they leave you behind
+      nakatîw+V+TA+Ind+3Pl+1PlO: ninakatikonânak # they leave us, they leave us behind
+      nakatîw+V+TA+Ind+3Pl+12PlO: kinakatikonawak # they leave you and us, they leave you and us behind
+      nakatîw+V+TA+Ind+3Pl+2PlO: kinakatikowâwak # they leave you all, they leave you all behind
+      nakatîw+V+TA+Ind+3Pl+4Sg/PlO: nakatîwak # they leave another/others, they leave another/others behind
+      nakatîw+V+TA+Ind+3Pl+5Sg/PlO: nakatimîwak # they leave yet another/others, they leave yet another/others behind
 
       # 4Sg/Pl
-      nakatîw+V+TA+Ind+4Sg/Pl+1SgO: ninakatikothiwa	# another/others leave me, another/others leave me behind
-      nakatîw+V+TA+Ind+4Sg/Pl+2SgO: kinakatikothiwa	# another/others leave you, another/others leave you behind
-      nakatîw+V+TA+Ind+4Sg/Pl+3SgO: [nakatikow, nakatik]	# another/others leave him/her, another/others leave him/her behind
-      nakatîw+V+TA+Ind+4Sg/Pl+1PlO: ninakatikonâna	# another/others leave us, another/others leave us behind
-      nakatîw+V+TA+Ind+4Sg/Pl+12PlO: kinakatikonawa	# another/others leave you and us, another/others leave you and us behind
-      nakatîw+V+TA+Ind+4Sg/Pl+2PlO: kinakatikowâwa	# another/others leave you all, another/others leave you all behind
-      nakatîw+V+TA+Ind+4Sg/Pl+3PlO: [nakatikowak, nakatikwak]	# another/others leave them, another/others leave them behind
-      nakatîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: nakatîthiwa	# another/others leave yet another/others, another/others leave yet another/others behind
+      nakatîw+V+TA+Ind+4Sg/Pl+1SgO: ninakatikothiwa # another/others leave me, another/others leave me behind
+      nakatîw+V+TA+Ind+4Sg/Pl+2SgO: kinakatikothiwa # another/others leave you, another/others leave you behind
+      nakatîw+V+TA+Ind+4Sg/Pl+3SgO: [nakatikow, nakatik] # another/others leave him/her, another/others leave him/her behind
+      nakatîw+V+TA+Ind+4Sg/Pl+1PlO: ninakatikonâna # another/others leave us, another/others leave us behind
+      nakatîw+V+TA+Ind+4Sg/Pl+12PlO: kinakatikonawa # another/others leave you and us, another/others leave you and us behind
+      nakatîw+V+TA+Ind+4Sg/Pl+2PlO: kinakatikowâwa # another/others leave you all, another/others leave you all behind
+      nakatîw+V+TA+Ind+4Sg/Pl+3PlO: [nakatikowak, nakatikwak] # another/others leave them, another/others leave them behind
+      nakatîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: nakatîthiwa # another/others leave yet another/others, another/others leave yet another/others behind
 
       # 5Sg/Pl
-      nakatîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: nakatikothiwa	# yet another/others leave another/others, yet another/others leave another/others behind
+      nakatîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: nakatikothiwa # yet another/others leave another/others, yet another/others leave another/others behind
 
       # X
-      nakatîw+V+TA+Ind+X+1SgO: ninakatikawin	# someone leaves me, someone leaves me behind
-      nakatîw+V+TA+Ind+X+2SgO: kinakatikawin	# someone leaves you, someone leaves you behind
-      nakatîw+V+TA+Ind+X+3SgO: nakatâw	# someone leaves him/her, someone leaves him/her behind
-      nakatîw+V+TA+Ind+X+1PlO: ninakatikawinân	# someone leaves us, someone leaves us behind
-      nakatîw+V+TA+Ind+X+12PlO: [kinakatikawinaw, kinakatikawinânaw]	# someone leaves you and us, someone leaves you and us behind
-      nakatîw+V+TA+Ind+X+2PlO: kinakatikawinâwâw	# someone leaves you all, someone leaves you all behind
-      nakatîw+V+TA+Ind+X+3PlO: nakatâwak	# someone leaves them, someone leaves them behind
-      nakatîw+V+TA+Ind+X+4Sg/PlO: nakatâthiwa	# someone leaves another/others, someone leaves another/others behind
+      nakatîw+V+TA+Ind+X+1SgO: ninakatikawin # someone leaves me, someone leaves me behind
+      nakatîw+V+TA+Ind+X+2SgO: kinakatikawin # someone leaves you, someone leaves you behind
+      nakatîw+V+TA+Ind+X+3SgO: nakatâw # someone leaves him/her, someone leaves him/her behind
+      nakatîw+V+TA+Ind+X+1PlO: ninakatikawinân # someone leaves us, someone leaves us behind
+      nakatîw+V+TA+Ind+X+12PlO: [kinakatikawinaw, kinakatikawinânaw] # someone leaves you and us, someone leaves you and us behind
+      nakatîw+V+TA+Ind+X+2PlO: kinakatikawinâwâw # someone leaves you all, someone leaves you all behind
+      nakatîw+V+TA+Ind+X+3PlO: nakatâwak # someone leaves them, someone leaves them behind
+      nakatîw+V+TA+Ind+X+4Sg/PlO: nakatâthiwa # someone leaves another/others, someone leaves another/others behind
 
       # 0Sg/Pl
-      nakatîw+V+TA+Ind+0Sg/Pl+1SgO: nakatîw+V+TA+Ind+0Sg/Pl+1SgO
-      nakatîw+V+TA+Ind+0Sg/Pl+2SgO: nakatîw+V+TA+Ind+0Sg/Pl+2SgO
-      nakatîw+V+TA+Ind+0Sg/Pl+3SgO: nakatîw+V+TA+Ind+0Sg/Pl+3SgO
-      nakatîw+V+TA+Ind+0Sg/Pl+1PlO: nakatîw+V+TA+Ind+0Sg/Pl+1PlO
-      nakatîw+V+TA+Ind+0Sg/Pl+12PlO: nakatîw+V+TA+Ind+0Sg/Pl+12PlO
-      nakatîw+V+TA+Ind+0Sg/Pl+2PlO: nakatîw+V+TA+Ind+0Sg/Pl+2PlO
-      nakatîw+V+TA+Ind+0Sg/Pl+3PlO: nakatîw+V+TA+Ind+0Sg/Pl+3PlO
-      nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      nakatîw+V+TA+Ind+0Sg/Pl+1SgO: ninakatikon
+      nakatîw+V+TA+Ind+0Sg/Pl+2SgO: kinakatikon
+      nakatîw+V+TA+Ind+0Sg/Pl+3SgO: nakatikow
+      nakatîw+V+TA+Ind+0Sg/Pl+1PlO: ninakatikonân
+      nakatîw+V+TA+Ind+0Sg/Pl+12PlO: kinakatikonaw
+      nakatîw+V+TA+Ind+0Sg/Pl+2PlO: kinakatikowâw
+      nakatîw+V+TA+Ind+0Sg/Pl+3PlO: nakatikowak
+      nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: nakatikothiwa
       
 
       # Prs # Cnj
 
       # 1Sg
-      PV/e+nakatîw+V+TA+Cnj+1Sg+2SgO: î-nakatitân	# as I leave you, as I leave you behind
-      PV/e+nakatîw+V+TA+Cnj+1Sg+3SgO: î-nakatak	# as I leave him/her, as I leave him/her behind
-      PV/e+nakatîw+V+TA+Cnj+1Sg+2PlO: î-nakatitakok	# as I leave you all, as I leave you all behind
-      PV/e+nakatîw+V+TA+Cnj+1Sg+3PlO: î-nakatakik	# as I leave them, as I leave them behind
-      PV/e+nakatîw+V+TA+Cnj+1Sg+4Sg/PlO: î-nakatimak	# as I leave another/others, as I leave another/others behind
+      PV/î+nakatîw+V+TA+Cnj+1Sg+2SgO: î-nakatitân # as I leave you, as I leave you behind
+      PV/î+nakatîw+V+TA+Cnj+1Sg+3SgO: î-nakatak # as I leave him/her, as I leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+1Sg+2PlO: î-nakatitakwâw # as I leave you all, as I leave you all behind
+      PV/î+nakatîw+V+TA+Cnj+1Sg+3PlO: î-nakatakwâw # as I leave them, as I leave them behind
+      PV/î+nakatîw+V+TA+Cnj+1Sg+3PlO+Var/East: î-nakataki # as I leave them, as I leave them behind
+      PV/î+nakatîw+V+TA+Cnj+1Sg+4Sg/PlO: î-nakatimak # as I leave another/others, as I leave another/others behind
 
       # 2Sg
-      PV/e+nakatîw+V+TA+Cnj+2Sg+1SgO: î-nakasithan	# as you leave me, as you leave me behind
-      PV/e+nakatîw+V+TA+Cnj+2Sg+3SgO: î-nakatat	# as you leave him/her, as you leave him/her behind
-      PV/e+nakatîw+V+TA+Cnj+2Sg+1PlO: î-nakasithâhk	# as you leave us, as you leave us behind
-      PV/e+nakatîw+V+TA+Cnj+2Sg+3PlO: î-nakatacik	# as you leave them, as you leave them behind
-      PV/e+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-nakatimat	# as you leave another/others, as you leave another/others behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+1SgO: î-nakasiyan # as you leave me, as you leave me behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+3SgO: î-nakatat # as you leave him/her, as you leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+1PlO: î-nakasiyâhk # as you leave us, as you leave us behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+3PlO: î-nakatacik # as you leave them, as you leave them behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-nakatimat # as you leave another/others, as you leave another/others behind
 
       # 3Sg
-      PV/e+nakatîw+V+TA+Cnj+2Sg+1SgO: î-nakasithan	# as you leave me, as you leave me behind
-      PV/e+nakatîw+V+TA+Cnj+3Sg+2SgO: î-nakatisk	# as he/she leaves you, as he/she leaves you behind
-      PV/e+nakatîw+V+TA+Cnj+2Sg+1PlO: î-nakasithâhk	# as you leave us, as you leave us behind
-      PV/e+nakatîw+V+TA+Cnj+3Sg+12PlO: î-nakatikothahk	# as he/she leaves you and us, as he/she leaves you and us behind
-      PV/e+nakatîw+V+TA+Cnj+3Sg+2PlO: î-nakatikothîk	# as he/she leaves you all, as he/she leaves you all behind
-      PV/e+nakatîw+V+TA+Cnj+2Sg+3PlO: î-nakatacik	# as you leave them, as you leave them behind
-      PV/e+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-nakatimat	# as you leave another/others, as you leave another/others behind
-      PV/e+nakatîw+V+TA+Cnj+3Sg+5Sg/PlO: î-nakatimât	# as he/she leaves yet another/others, as he/she leaves yet another/others behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+1SgO: î-nakasiyan # as you leave me, as you leave me behind
+      PV/î+nakatîw+V+TA+Cnj+3Sg+2SgO: î-nakatisk # as he/she leaves you, as he/she leaves you behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+1PlO: î-nakasiyâhk # as you leave us, as you leave us behind
+      PV/î+nakatîw+V+TA+Cnj+3Sg+1PlO: î-nakatikoyâhk # as you leave us, as you leave us behind
+      PV/î+nakatîw+V+TA+Cnj+3Sg+1PlO+Var/East: î-nakasiyamiht # as you leave us, as you leave us behind
+      PV/î+nakatîw+V+TA+Cnj+3Sg+12PlO: î-nakatikoyahk # as he/she leaves you and us, as he/she leaves you and us behind
+      PV/î+nakatîw+V+TA+Cnj+3Sg+12PlO+Var/East: î-nakatitahk # as he/she leaves you and us, as he/she leaves you and us behind
+      PV/î+nakatîw+V+TA+Cnj+3Sg+2PlO: î-nakatikoyîk # as he/she leaves you all, as he/she leaves you all behind
+      PV/î+nakatîw+V+TA+Cnj+3Sg+2PlO+Var/East: î-nakatitîk # as he/she leaves you all, as he/she leaves you all behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+3PlO: î-nakatacik # as you leave them, as you leave them behind
+      PV/î+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-nakatimat # as you leave another/others, as you leave another/others behind
+      PV/î+nakatîw+V+TA+Cnj+3Sg+5Sg/PlO: î-nakatimât # as he/she leaves yet another/others, as he/she leaves yet another/others behind
 
       # 1Pl
-      PV/e+nakatîw+V+TA+Cnj+1Pl+2SgO: î-nakatitâhk	# as we leave you, as we leave you behind
-      PV/e+nakatîw+V+TA+Cnj+1Pl+3SgO: î-nakatâthâhk	# as we leave him/her, as we leave him/her behind
-      PV/e+nakatîw+V+TA+Cnj+1Pl+2PlO: î-nakatitâhk	# as we leave you all, as we leave you all behind
-      PV/e+nakatîw+V+TA+Cnj+1Pl+3PlO: î-nakatâthâhkik	# as we leave them, as we leave them behind
-      PV/e+nakatîw+V+TA+Cnj+1Pl+4Sg/PlO: î-nakatimâthâhk	# as we leave another/others, as we leave another/others behind
+      PV/î+nakatîw+V+TA+Cnj+1Pl+2SgO: î-nakatitâhk # as we leave you, as we leave you behind
+      PV/î+nakatîw+V+TA+Cnj+1Pl+3SgO: î-nakatâyâhk # as we leave him/her, as we leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+1Pl+3SgO+Var/East: î-nakatakiht # as we leave him/her, as we leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+1Pl+2PlO: î-nakatitâhk # as we leave you all, as we leave you all behind
+      PV/î+nakatîw+V+TA+Cnj+1Pl+3PlO: î-nakatâyâhkwâw # as we leave them, as we leave them behind
+      PV/î+nakatîw+V+TA+Cnj+1Pl+3PlO+Var/East: î-nakatakihcik # as we leave them, as we leave them behind
+      PV/î+nakatîw+V+TA+Cnj+1Pl+4Sg/PlO: î-nakatimâyâhk # as we leave another/others, as we leave another/others behind
 
       # 12Pl
-      PV/e+nakatîw+V+TA+Cnj+12Pl+3SgO: î-nakatâthahk	# as we and you leave him/her, as we and you leave him/her behind
-      PV/e+nakatîw+V+TA+Cnj+12Pl+3PlO: î-nakatâthahkok	# as we and you leave them, as we and you leave them behind
-      PV/e+nakatîw+V+TA+Cnj+12Pl+4Sg/PlO: î-nakatimâthahk	# as we and you leave another/others, as we and you leave another/others behind
+      PV/î+nakatîw+V+TA+Cnj+12Pl+3SgO: î-nakatâyahk # as we and you leave him/her, as we and you leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+12Pl+3SgO+Var/East: î-nakatahk # as we and you leave him/her, as we and you leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+12Pl+3PlO: î-nakatâyahkwâw # as we and you leave them, as we and you leave them behind
+      PV/î+nakatîw+V+TA+Cnj+12Pl+3PlO+Var/East: î-nakatahkwâw # as we and you leave them, as we and you leave them behind
+      PV/î+nakatîw+V+TA+Cnj+12Pl+4Sg/PlO: î-nakatimâyahk # as we and you leave another/others, as we and you leave another/others behind
 
       # 2Pl
-      PV/e+nakatîw+V+TA+Cnj+2Pl+1SgO: î-nakasithîk	# as you all leave me, as you all leave me behind
-      PV/e+nakatîw+V+TA+Cnj+2Pl+3SgO: î-nakatâthîk	# as you all leave him/her, as you all leave him/her behind
-      PV/e+nakatîw+V+TA+Cnj+2Pl+1PlO: î-nakasithâhk	# as you all leave us, as you all leave us behind
-      PV/e+nakatîw+V+TA+Cnj+2Pl+3PlO: î-nakatâthîkok	# as you all leave them, as you all leave them behind
-      PV/e+nakatîw+V+TA+Cnj+2Pl+4Sg/PlO: î-nakatimâthîk	# as you all leave another/others, as you all leave another/others behind
+      PV/î+nakatîw+V+TA+Cnj+2Pl+1SgO: î-nakasiyîk # as you all leave me, as you all leave me behind
+      PV/î+nakatîw+V+TA+Cnj+2Pl+3SgO: î-nakatâyîk # as you all leave him/her, as you all leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+2Pl+1PlO: î-nakasiyâhk # as you all leave us, as you all leave us behind
+      PV/î+nakatîw+V+TA+Cnj+2Pl+3PlO: î-nakatâyîkwâw # as you all leave them, as you all leave them behind
+      PV/î+nakatîw+V+TA+Cnj+2Pl+3PlO+Var/East: î-nakatâyîkok # as you all leave them, as you all leave them behind
+      PV/î+nakatîw+V+TA+Cnj+2Pl+4Sg/PlO: î-nakatimâyîk # as you all leave another/others, as you all leave another/others behind
 
       # 3Pl
-      PV/e+nakatîw+V+TA+Cnj+3Pl+1SgO: î-nakasicik	# as they leave me, as they leave me behind
-      PV/e+nakatîw+V+TA+Cnj+3Pl+2SgO: î-nakatiskik	# as they leave you, as they leave you behind
-      PV/e+nakatîw+V+TA+Cnj+3Pl+1PlO: î-nakatikothâhkik	# as they leave us, as they leave us behind
-      PV/e+nakatîw+V+TA+Cnj+3Pl+12PlO: î-nakatikothahkok	# as they leave you and us, as they leave you and us behind
-      PV/e+nakatîw+V+TA+Cnj+3Pl+2PlO: î-nakatikothîkok	# as they leave you all, as they leave you all behind
-      PV/e+nakatîw+V+TA+Cnj+3Pl+4Sg/PlO: î-nakatâcik	# as they leave another/others, as they leave another/others behind
-      PV/e+nakatîw+V+TA+Cnj+3Pl+5Sg/PlO: î-nakatimâcik	# as they leave yet another/others, as they leave yet another/others behind
+      PV/î+nakatîw+V+TA+Cnj+3Pl+1SgO: [î-nakasitwâw, î-nakasicik] # as they leave me, as they leave me behind
+      PV/î+nakatîw+V+TA+Cnj+3Pl+2SgO: î-nakatiskwâw # as they leave you, as they leave you behind
+      PV/î+nakatîw+V+TA+Cnj+3Pl+1PlO: î-nakatikoyâhkwâw # as they leave us, as they leave us behind
+      PV/î+nakatîw+V+TA+Cnj+3Pl+1PlO+Var/East: î-nakasiyamihcik # as they leave us, as they leave us behind
+      PV/î+nakatîw+V+TA+Cnj+3Pl+12PlO: î-nakatikoyahkwâw # as they leave you and us, as they leave you and us behind
+      PV/î+nakatîw+V+TA+Cnj+3Pl+12PlO+Var/East: î-nakatitahkwâw # as they leave you and us, as they leave you and us behind
+      PV/î+nakatîw+V+TA+Cnj+3Pl+2PlO: î-nakatikoyîkwâw # as they leave you all, as they leave you all behind
+      PV/î+nakatîw+V+TA+Cnj+3Pl+2PlO+Var/East: î-nakatitîkwâw # as they leave you all, as they leave you all behind
+      PV/î+nakatîw+V+TA+Cnj+3Pl+4Sg/PlO: î-nakatâcik # as they leave another/others, as they leave another/others behind
+      PV/î+nakatîw+V+TA+Cnj+3Pl+5Sg/PlO: î-nakatimâcik # as they leave yet another/others, as they leave yet another/others behind
 
       # 4Sg/Pl
-      PV/e+nakatîw+V+TA+Cnj+4Sg/Pl+1SgO: î-nakatimit	# as another/others leave me, as another/others leave me behind
-      PV/e+nakatîw+V+TA+Cnj+4Sg/Pl+2SgO: î-nakatimisk	# as another/others leave you, as another/others leave you behind
-      PV/e+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: î-nakatikot	# as another/others leave him/her, as another/others leave him/her behind
-      PV/e+nakatîw+V+TA+Cnj+4Sg/Pl+1PlO: î-nakatikothâhk	# as another/others leave us, as another/others leave us behind
-      PV/e+nakatîw+V+TA+Cnj+4Sg/Pl+12PlO: î-nakatikothahk	# as another/others leave you and us, as another/others leave you and us behind
-      PV/e+nakatîw+V+TA+Cnj+4Sg/Pl+2PlO: î-nakatikothîk	# as another/others leave you all, as another/others leave you all behind
-      PV/e+nakatîw+V+TA+Cnj+4Sg/Pl+3PlO: î-nakatikocik	# as another/others leave them, as another/others leave them behind
-      PV/e+nakatîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-nakatâthit	# as another/others leave yet another/others, as another/others leave yet another/others behind
+      PV/î+nakatîw+V+TA+Cnj+4Sg/Pl+1SgO: î-nakatimit # as another/others leave me, as another/others leave me behind
+      PV/î+nakatîw+V+TA+Cnj+4Sg/Pl+2SgO: î-nakatimisk # as another/others leave you, as another/others leave you behind
+      PV/î+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: î-nakatikot # as another/others leave him/her, as another/others leave him/her behind
+      PV/î+nakatîw+V+TA+Cnj+4Sg/Pl+1PlO: î-nakatikoyâhk # as another/others leave us, as another/others leave us behind
+      PV/î+nakatîw+V+TA+Cnj+4Sg/Pl+12PlO: î-nakatikoyahk # as another/others leave you and us, as another/others leave you and us behind
+      PV/î+nakatîw+V+TA+Cnj+4Sg/Pl+2PlO: î-nakatikoyîk # as another/others leave you all, as another/others leave you all behind
+      PV/î+nakatîw+V+TA+Cnj+4Sg/Pl+3PlO: î-nakatikocik # as another/others leave them, as another/others leave them behind
+      PV/î+nakatîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-nakatâthit # as another/others leave yet another/others, as another/others leave yet another/others behind
 
       # 5Sg/Pl
-      PV/e+nakatîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-nakatikothit	# as yet another/others leave another/others, as yet another/others leave another/others behind
+      PV/î+nakatîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-nakatikothit # as yet another/others leave another/others, as yet another/others leave another/others behind
 
       # X
-      PV/e+nakatîw+V+TA+Cnj+X+1SgO: î-nakatikawithân	# as someone leaves me, as someone leaves me behind
-      PV/e+nakatîw+V+TA+Cnj+X+2SgO: î-nakatikawithan	# as someone leaves you, as someone leaves you behind
-      PV/e+nakatîw+V+TA+Cnj+X+3SgO: î-nakatiht	# as someone leaves him/her, as someone leaves him/her behind
-      PV/e+nakatîw+V+TA+Cnj+X+1PlO: î-nakatikawithâhk	# as someone leaves us, as someone leaves us behind
-      PV/e+nakatîw+V+TA+Cnj+X+12PlO: î-nakatikawithahk	# as someone leaves you and us, as someone leaves you and us behind
-      PV/e+nakatîw+V+TA+Cnj+X+2PlO: î-nakatikawithîk	# as someone leaves you all, as someone leaves you all behind
-      PV/e+nakatîw+V+TA+Cnj+X+3PlO: î-nakatihcik	# as someone leaves them, as someone leaves them behind
-      PV/e+nakatîw+V+TA+Cnj+X+4Sg/PlO: î-nakatimiht	# as someone leaves another/others, as someone leaves another/others behind
+      PV/î+nakatîw+V+TA+Cnj+X+1SgO: î-nakatikawiyân # as someone leaves me, as someone leaves me behind
+      PV/î+nakatîw+V+TA+Cnj+X+2SgO: î-nakatikawiyan # as someone leaves you, as someone leaves you behind
+      PV/î+nakatîw+V+TA+Cnj+X+3SgO: î-nakatiht # as someone leaves him/her, as someone leaves him/her behind
+      PV/î+nakatîw+V+TA+Cnj+X+1PlO: î-nakatikawiyâhk # as someone leaves us, as someone leaves us behind
+      PV/î+nakatîw+V+TA+Cnj+X+12PlO: î-nakatikawiyahk # as someone leaves you and us, as someone leaves you and us behind
+      PV/î+nakatîw+V+TA+Cnj+X+2PlO: î-nakatikawiyîk # as someone leaves you all, as someone leaves you all behind
+      PV/î+nakatîw+V+TA+Cnj+X+3PlO: î-nakatihcik # as someone leaves them, as someone leaves them behind
+      PV/î+nakatîw+V+TA+Cnj+X+4Sg/PlO: î-nakatimiht # as someone leaves another/others, as someone leaves another/others behind
 
       # 0Sg/Pl
-      PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO
-      PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO
-      PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO
-      PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO
-      PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO
-      PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO
-      PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO
-      PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/e+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      PV/î+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO: î-nakatikoyân
+      PV/î+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO: î-nakatikoyan
+      PV/î+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO: î-nakatikot
+      PV/î+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO: î-nakatikoyâhk
+      PV/î+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO: î-nakatikoyahk
+      PV/î+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO: î-nakatikoyîk
+      PV/î+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO: î-nakatikocik
+      PV/î+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: î-nakatikothit
       
 
       # Prt # Ind
 
       # 1Sg
-      PV/ki+nakatîw+V+TA+Ind+1Sg+2SgO: kikî-nakatitin	# I left you, I left you behind
-      PV/ki+nakatîw+V+TA+Ind+1Sg+3SgO: nikî-nakatâw	# I left him/her, I left him/her behind
-      PV/ki+nakatîw+V+TA+Ind+1Sg+2PlO: kikî-nakatitinâwâw	# I left you all, I left you all behind
-      PV/ki+nakatîw+V+TA+Ind+1Sg+3PlO: nikî-nakatâwak	# I left them, I left them behind
-      PV/ki+nakatîw+V+TA+Ind+1Sg+4Sg/PlO: nikî-nakatimâwa	# I left another/others, I left another/others behind
+      PV/ki+nakatîw+V+TA+Ind+1Sg+2SgO: kikî-nakatitin # I left you, I left you behind
+      PV/ki+nakatîw+V+TA+Ind+1Sg+3SgO: nikî-nakatâw # I left him/her, I left him/her behind
+      PV/ki+nakatîw+V+TA+Ind+1Sg+2PlO: kikî-nakatitinâwâw # I left you all, I left you all behind
+      PV/ki+nakatîw+V+TA+Ind+1Sg+3PlO: nikî-nakatâwak # I left them, I left them behind
+      PV/ki+nakatîw+V+TA+Ind+1Sg+4Sg/PlO: nikî-nakatimâwa # I left another/others, I left another/others behind
 
       # 2Sg
-      PV/ki+nakatîw+V+TA+Ind+2Sg+1SgO: kikî-nakasin	# you left me, you left me behind
-      PV/ki+nakatîw+V+TA+Ind+2Sg+3SgO: kikî-nakatâw	# you left him/her, you left him/her behind
-      PV/ki+nakatîw+V+TA+Ind+2Sg+1PlO: kikî-nakasinân	# you left us, you left us behind
-      PV/ki+nakatîw+V+TA+Ind+2Sg+3PlO: kikî-nakatâwak	# you left them, you left them behind
-      PV/ki+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kikî-nakatimâwa	# you left another/others, you left another/others behind
+      PV/ki+nakatîw+V+TA+Ind+2Sg+1SgO: kikî-nakasin # you left me, you left me behind
+      PV/ki+nakatîw+V+TA+Ind+2Sg+3SgO: kikî-nakatâw # you left him/her, you left him/her behind
+      PV/ki+nakatîw+V+TA+Ind+2Sg+1PlO: kikî-nakasinân # you left us, you left us behind
+      PV/ki+nakatîw+V+TA+Ind+2Sg+3PlO: kikî-nakatâwak # you left them, you left them behind
+      PV/ki+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kikî-nakatimâwa # you left another/others, you left another/others behind
 
       # 3Sg
-      PV/ki+nakatîw+V+TA+Ind+2Sg+1SgO: kikî-nakasin	# you left me, you left me behind
-      PV/ki+nakatîw+V+TA+Ind+3Sg+2SgO: kikî-nakatik	# he/she left you, he/she left you behind
-      PV/ki+nakatîw+V+TA+Ind+2Sg+1PlO: kikî-nakasinân	# you left us, you left us behind
-      PV/ki+nakatîw+V+TA+Ind+3Sg+12PlO: kikî-nakatikonaw	# he/she left you and us, he/she left you and us behind
-      PV/ki+nakatîw+V+TA+Ind+3Sg+2PlO: kikî-nakatikowâw	# he/she left you all, he/she left you all behind
-      PV/ki+nakatîw+V+TA+Ind+2Sg+3PlO: kikî-nakatâwak	# you left them, you left them behind
-      PV/ki+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kikî-nakatimâwa	# you left another/others, you left another/others behind
-      PV/ki+nakatîw+V+TA+Ind+3Sg+5Sg/PlO: kî-nakatimîw	# he/she left yet another/others, he/she left yet another/others behind
+      PV/ki+nakatîw+V+TA+Ind+2Sg+1SgO: kikî-nakasin # you left me, you left me behind
+      PV/ki+nakatîw+V+TA+Ind+3Sg+2SgO: kikî-nakatik # he/she left you, he/she left you behind
+      PV/ki+nakatîw+V+TA+Ind+2Sg+1PlO: kikî-nakasinân # you left us, you left us behind
+      PV/ki+nakatîw+V+TA+Ind+3Sg+12PlO: kikî-nakatikonaw # he/she left you and us, he/she left you and us behind
+      PV/ki+nakatîw+V+TA+Ind+3Sg+2PlO: kikî-nakatikowâw # he/she left you all, he/she left you all behind
+      PV/ki+nakatîw+V+TA+Ind+2Sg+3PlO: kikî-nakatâwak # you left them, you left them behind
+      PV/ki+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kikî-nakatimâwa # you left another/others, you left another/others behind
+      PV/ki+nakatîw+V+TA+Ind+3Sg+5Sg/PlO: kî-nakatimîw # he/she left yet another/others, he/she left yet another/others behind
 
       # 1Pl
-      PV/ki+nakatîw+V+TA+Ind+1Pl+2SgO: kikî-nakatitinân	# we left you, we left you behind
-      PV/ki+nakatîw+V+TA+Ind+1Pl+3SgO: nikî-nakatânân	# we left him/her, we left him/her behind
-      PV/ki+nakatîw+V+TA+Ind+1Pl+2PlO: kikî-nakatitinân	# we left you all, we left you all behind
-      PV/ki+nakatîw+V+TA+Ind+1Pl+3PlO: nikî-nakatânânak	# we left them, we left them behind
-      PV/ki+nakatîw+V+TA+Ind+1Pl+4Sg/PlO: nikî-nakatimânâna	# we left another/others, we left another/others behind
+      PV/ki+nakatîw+V+TA+Ind+1Pl+2SgO: kikî-nakatitinân # we left you, we left you behind
+      PV/ki+nakatîw+V+TA+Ind+1Pl+3SgO: nikî-nakatânân # we left him/her, we left him/her behind
+      PV/ki+nakatîw+V+TA+Ind+1Pl+2PlO: kikî-nakatitinân # we left you all, we left you all behind
+      PV/ki+nakatîw+V+TA+Ind+1Pl+3PlO: nikî-nakatânânak # we left them, we left them behind
+      PV/ki+nakatîw+V+TA+Ind+1Pl+4Sg/PlO: nikî-nakatimânâna # we left another/others, we left another/others behind
 
       # 12Pl
-      PV/ki+nakatîw+V+TA+Ind+12Pl+3SgO: kikî-nakatânaw	# we and you left him/her, we and you left him/her behind
-      PV/ki+nakatîw+V+TA+Ind+12Pl+3PlO: kikî-nakatânawak	# we and you left them, we and you left them behind
-      PV/ki+nakatîw+V+TA+Ind+12Pl+4Sg/PlO: kikî-nakatimânawa	# we and you left another/others, we and you left another/others behind
+      PV/ki+nakatîw+V+TA+Ind+12Pl+3SgO: kikî-nakatânaw # we and you left him/her, we and you left him/her behind
+      PV/ki+nakatîw+V+TA+Ind+12Pl+3PlO: kikî-nakatânawak # we and you left them, we and you left them behind
+      PV/ki+nakatîw+V+TA+Ind+12Pl+4Sg/PlO: kikî-nakatimânawa # we and you left another/others, we and you left another/others behind
 
       # 2Pl
-      PV/ki+nakatîw+V+TA+Ind+2Pl+1SgO: kikî-nakasinâwâw	# you all left me, you all left me behind
-      PV/ki+nakatîw+V+TA+Ind+2Pl+3SgO: kikî-nakatâwâw	# you all left him/her, you all left him/her behind
-      PV/ki+nakatîw+V+TA+Ind+2Pl+1PlO: kikî-nakasinân	# you all left us, you all left us behind
-      PV/ki+nakatîw+V+TA+Ind+2Pl+3PlO: kikî-nakatâwâwak	# you all left them, you all left them behind
-      PV/ki+nakatîw+V+TA+Ind+2Pl+4Sg/PlO: kikî-nakatimâwâwa	# you all left another/others, you all left another/others behind
+      PV/ki+nakatîw+V+TA+Ind+2Pl+1SgO: kikî-nakasinâwâw # you all left me, you all left me behind
+      PV/ki+nakatîw+V+TA+Ind+2Pl+3SgO: kikî-nakatâwâw # you all left him/her, you all left him/her behind
+      PV/ki+nakatîw+V+TA+Ind+2Pl+1PlO: kikî-nakasinân # you all left us, you all left us behind
+      PV/ki+nakatîw+V+TA+Ind+2Pl+3PlO: kikî-nakatâwâwak # you all left them, you all left them behind
+      PV/ki+nakatîw+V+TA+Ind+2Pl+4Sg/PlO: kikî-nakatimâwâwa # you all left another/others, you all left another/others behind
 
       # 3Pl
-      PV/ki+nakatîw+V+TA+Ind+3Pl+1SgO: [nikî-nakatikowak, nikî-nakatikwak]	# they left me, they left me behind
-      PV/ki+nakatîw+V+TA+Ind+3Pl+2SgO: [kikî-nakatikowak, kikî-nakatikwak]	# they left you, they left you behind
-      PV/ki+nakatîw+V+TA+Ind+3Pl+1PlO: nikî-nakatikonânak	# they left us, they left us behind
-      PV/ki+nakatîw+V+TA+Ind+3Pl+12PlO: kikî-nakatikonawak	# they left you and us, they left you and us behind
-      PV/ki+nakatîw+V+TA+Ind+3Pl+2PlO: kikî-nakatikowâwak	# they left you all, they left you all behind
-      PV/ki+nakatîw+V+TA+Ind+3Pl+4Sg/PlO: kî-nakatîwak	# they left another/others, they left another/others behind
-      PV/ki+nakatîw+V+TA+Ind+3Pl+5Sg/PlO: kî-nakatimîwak	# they left yet another/others, they left yet another/others behind
+      PV/ki+nakatîw+V+TA+Ind+3Pl+1SgO: nikî-nakatikwak # they left me, they left me behind
+      PV/ki+nakatîw+V+TA+Ind+3Pl+2SgO: kikî-nakatikwak # they left you, they left you behind
+      PV/ki+nakatîw+V+TA+Ind+3Pl+1PlO: nikî-nakatikonânak # they left us, they left us behind
+      PV/ki+nakatîw+V+TA+Ind+3Pl+12PlO: kikî-nakatikonawak # they left you and us, they left you and us behind
+      PV/ki+nakatîw+V+TA+Ind+3Pl+2PlO: kikî-nakatikowâwak # they left you all, they left you all behind
+      PV/ki+nakatîw+V+TA+Ind+3Pl+4Sg/PlO: kî-nakatîwak # they left another/others, they left another/others behind
+      PV/ki+nakatîw+V+TA+Ind+3Pl+5Sg/PlO: kî-nakatimîwak # they left yet another/others, they left yet another/others behind
 
       # 4Sg/Pl
-      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+1SgO: nikî-nakatikothiwa	# another/others left me, another/others left me behind
-      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+2SgO: kikî-nakatikothiwa	# another/others left you, another/others left you behind
-      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+3SgO: [kî-nakatikow, kî-nakatik]	# another/others left him/her, another/others left him/her behind
-      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+1PlO: nikî-nakatikonâna	# another/others left us, another/others left us behind
-      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+12PlO: kikî-nakatikonawa	# another/others left you and us, another/others left you and us behind
-      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+2PlO: kikî-nakatikowâwa	# another/others left you all, another/others left you all behind
-      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+3PlO: [kî-nakatikowak, kî-nakatikwak]	# another/others left them, another/others left them behind
-      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: kî-nakatîthiwa	# another/others left yet another/others, another/others left yet another/others behind
+      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+1SgO: nikî-nakatikothiwa # another/others left me, another/others left me behind
+      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+2SgO: kikî-nakatikothiwa # another/others left you, another/others left you behind
+      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+3SgO: [kî-nakatikow, kî-nakatik] # another/others left him/her, another/others left him/her behind
+      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+1PlO: nikî-nakatikonâna # another/others left us, another/others left us behind
+      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+12PlO: kikî-nakatikonawa # another/others left you and us, another/others left you and us behind
+      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+2PlO: kikî-nakatikowâwa # another/others left you all, another/others left you all behind
+      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+3PlO: [kî-nakatikowak, kî-nakatikwak] # another/others left them, another/others left them behind
+      PV/ki+nakatîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: kî-nakatîthiwa # another/others left yet another/others, another/others left yet another/others behind
 
       # 5Sg/Pl
-      PV/ki+nakatîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: kî-nakatikothiwa	# yet another/others left another/others, yet another/others left another/others behind
+      PV/ki+nakatîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: kî-nakatikothiwa # yet another/others left another/others, yet another/others left another/others behind
 
       # X
-      PV/ki+nakatîw+V+TA+Ind+X+1SgO: nikî-nakatikawin	# someone left me, someone left me behind
-      PV/ki+nakatîw+V+TA+Ind+X+2SgO: kikî-nakatikawin	# someone left you, someone left you behind
-      PV/ki+nakatîw+V+TA+Ind+X+3SgO: kî-nakatâw	# someone left him/her, someone left him/her behind
-      PV/ki+nakatîw+V+TA+Ind+X+1PlO: nikî-nakatikawinân	# someone left us, someone left us behind
-      PV/ki+nakatîw+V+TA+Ind+X+12PlO: [kikî-nakatikawinaw, kikî-nakatikawinânaw]	# someone left you and us, someone left you and us behind
-      PV/ki+nakatîw+V+TA+Ind+X+2PlO: kikî-nakatikawinâwâw	# someone left you all, someone left you all behind
-      PV/ki+nakatîw+V+TA+Ind+X+3PlO: kî-nakatâwak	# someone left them, someone left them behind
-      PV/ki+nakatîw+V+TA+Ind+X+4Sg/PlO: kî-nakatâthiwa	# someone left another/others, someone left another/others behind
+      PV/ki+nakatîw+V+TA+Ind+X+1SgO: nikî-nakatikawin # someone left me, someone left me behind
+      PV/ki+nakatîw+V+TA+Ind+X+2SgO: kikî-nakatikawin # someone left you, someone left you behind
+      PV/ki+nakatîw+V+TA+Ind+X+3SgO: kî-nakatâw # someone left him/her, someone left him/her behind
+      PV/ki+nakatîw+V+TA+Ind+X+1PlO: nikî-nakatikawinân # someone left us, someone left us behind
+      PV/ki+nakatîw+V+TA+Ind+X+12PlO: [kikî-nakatikawinaw, kikî-nakatikawinânaw] # someone left you and us, someone left you and us behind
+      PV/ki+nakatîw+V+TA+Ind+X+2PlO: kikî-nakatikawinâwâw # someone left you all, someone left you all behind
+      PV/ki+nakatîw+V+TA+Ind+X+3PlO: kî-nakatâwak # someone left them, someone left them behind
+      PV/ki+nakatîw+V+TA+Ind+X+4Sg/PlO: kî-nakatâthiwa # someone left another/others, someone left another/others behind
 
       # 0Sg/Pl
-      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+1SgO: PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+1SgO
-      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+2SgO: PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+2SgO
-      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+3SgO: PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+3SgO
-      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+1PlO: PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+1PlO
-      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+12PlO: PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+12PlO
-      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+2PlO: PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+2PlO
-      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+3PlO: PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+3PlO
-      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+1SgO: nikî-nakatikon
+      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+2SgO: kikî-nakatikon
+      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+3SgO: kî-nakatikow
+      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+1PlO: nikî-nakatikonân
+      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+12PlO: kikî-nakatikonaw
+      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+2PlO: kikî-nakatikowâw
+      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+3PlO: kî-nakatikowak
+      PV/ki+nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: kî-nakatikothiwa
       
 
       # Prt # Cnj
 
       # 1Sg
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+1Sg+2SgO: î-kî-nakatitân	# as I left you, as I left you behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+1Sg+3SgO: î-kî-nakatak	# as I left him/her, as I left him/her behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+1Sg+2PlO: î-kî-nakatitakok	# as I left you all, as I left you all behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+1Sg+3PlO: î-kî-nakatakik	# as I left them, as I left them behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+1Sg+4Sg/PlO: î-kî-nakatimak	# as I left another/others, as I left another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Sg+2SgO: î-kî-nakatitân # as I left you, as I left you behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Sg+3SgO: î-kî-nakatak # as I left him/her, as I left him/her behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Sg+2PlO: î-kî-nakatitakwâw # as I left you all, as I left you all behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Sg+3PlO: î-kî-nakatakwâw # as I left them, as I left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Sg+3PlO+Var/East: î-kî-nakataki # as I left them, as I left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Sg+4Sg/PlO: î-kî-nakatimak # as I left another/others, as I left another/others behind
 
       # 2Sg
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Sg+1SgO: î-kî-nakasithan	# as you left me, as you left me behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Sg+3SgO: î-kî-nakatat	# as you left him/her, as you left him/her behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Sg+1PlO: î-kî-nakasithâhk	# as you left us, as you left us behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Sg+3PlO: î-kî-nakatacik	# as you left them, as you left them behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-nakatimat	# as you left another/others, as you left another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Sg+1SgO: î-kî-nakasiyan # as you left me, as you left me behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Sg+3SgO: î-kî-nakatat # as you left him/her, as you left him/her behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Sg+1PlO: î-kî-nakasiyâhk # as you left us, as you left us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Sg+3PlO: î-kî-nakatacik # as you left them, as you left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-nakatimat # as you left another/others, as you left another/others behind
 
       # 3Sg
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Sg+1SgO: î-kî-nakasithan	# as you left me, as you left me behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Sg+2SgO: î-kî-nakatisk	# as he/she left you, as he/she left you behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Sg+1PlO: î-kî-nakasithâhk	# as you left us, as you left us behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Sg+12PlO: î-kî-nakatikothahk	# as he/she left you and us, as he/she left you and us behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Sg+2PlO: î-kî-nakatikothîk	# as he/she left you all, as he/she left you all behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Sg+3PlO: î-kî-nakatacik	# as you left them, as you left them behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-nakatimat	# as you left another/others, as you left another/others behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Sg+5Sg/PlO: î-kî-nakatimât	# as he/she left yet another/others, as he/she left yet another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Sg+1SgO: î-kî-nakasiyan # as you left me, as you left me behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Sg+2SgO: î-kî-nakatisk # as he/she left you, as he/she left you behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Sg+1PlO: î-kî-nakasiyâhk # as you left us, as you left us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Sg+1PlO: î-kî-nakatikoyâhk # as you left us, as you left us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Sg+1PlO+Var/East: î-kî-nakasiyamiht # as you left us, as you left us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Sg+12PlO: î-kî-nakatikoyahk # as he/she left you and us, as he/she left you and us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Sg+12PlO+Var/East: î-kî-nakatitahk # as he/she left you and us, as he/she left you and us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Sg+2PlO: î-kî-nakatikoyîk # as he/she left you all, as he/she left you all behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Sg+2PlO+Var/East: î-kî-nakatitîk # as he/she left you all, as he/she left you all behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Sg+3PlO: î-kî-nakatacik # as you left them, as you left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-nakatimat # as you left another/others, as you left another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Sg+5Sg/PlO: î-kî-nakatimât # as he/she left yet another/others, as he/she left yet another/others behind
 
       # 1Pl
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+1Pl+2SgO: î-kî-nakatitâhk	# as we left you, as we left you behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+1Pl+3SgO: î-kî-nakatâthâhk	# as we left him/her, as we left him/her behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+1Pl+2PlO: î-kî-nakatitâhk	# as we left you all, as we left you all behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+1Pl+3PlO: î-kî-nakatâthâhkik	# as we left them, as we left them behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+1Pl+4Sg/PlO: î-kî-nakatimâthâhk	# as we left another/others, as we left another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Pl+2SgO: î-kî-nakatitâhk # as we left you, as we left you behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Pl+3SgO: î-kî-nakatâyâhk # as we left him/her, as we left him/her behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Pl+3SgO+Var/East: î-kî-nakatakiht # as we left him/her, as we left him/her behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Pl+2PlO: î-kî-nakatitâhk # as we left you all, as we left you all behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Pl+3PlO: î-kî-nakatâyâhkwâw # as we left them, as we left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Pl+3PlO+Var/East: î-kî-nakatakihcik # as we left them, as we left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+1Pl+4Sg/PlO: î-kî-nakatimâyâhk # as we left another/others, as we left another/others behind
 
       # 12Pl
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+12Pl+3SgO: î-kî-nakatâthahk	# as we and you left him/her, as we and you left him/her behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+12Pl+3PlO: î-kî-nakatâthahkok	# as we and you left them, as we and you left them behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+12Pl+4Sg/PlO: î-kî-nakatimâthahk	# as we and you left another/others, as we and you left another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+12Pl+3SgO: î-kî-nakatâyahk # as we and you left him/her, as we and you left him/her behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+12Pl+3SgO+Var/East: î-kî-nakatahk # as we and you left him/her, as we and you left him/her behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+12Pl+3PlO: î-kî-nakatâyahkwâw # as we and you left them, as we and you left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+12Pl+3PlO+Var/East: î-kî-nakatahkwâw # as we and you left them, as we and you left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+12Pl+4Sg/PlO: î-kî-nakatimâyahk # as we and you left another/others, as we and you left another/others behind
 
       # 2Pl
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Pl+1SgO: î-kî-nakasithîk	# as you all left me, as you all left me behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Pl+3SgO: î-kî-nakatâthîk	# as you all left him/her, as you all left him/her behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Pl+1PlO: î-kî-nakasithâhk	# as you all left us, as you all left us behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Pl+3PlO: î-kî-nakatâthîkok	# as you all left them, as you all left them behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+2Pl+4Sg/PlO: î-kî-nakatimâthîk	# as you all left another/others, as you all left another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Pl+1SgO: î-kî-nakasiyîk # as you all left me, as you all left me behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Pl+3SgO: î-kî-nakatâyîk # as you all left him/her, as you all left him/her behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Pl+1PlO: î-kî-nakasiyâhk # as you all left us, as you all left us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Pl+3PlO: î-kî-nakatâyîkwâw # as you all left them, as you all left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Pl+3PlO+Var/East: î-kî-nakatâyîkok # as you all left them, as you all left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+2Pl+4Sg/PlO: î-kî-nakatimâyîk # as you all left another/others, as you all left another/others behind
 
       # 3Pl
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Pl+1SgO: î-kî-nakasicik	# as they left me, as they left me behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Pl+2SgO: î-kî-nakatiskik	# as they left you, as they left you behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Pl+1PlO: î-kî-nakatikothâhkik	# as they left us, as they left us behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Pl+12PlO: î-kî-nakatikothahkok	# as they left you and us, as they left you and us behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Pl+2PlO: î-kî-nakatikothîkok	# as they left you all, as they left you all behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Pl+4Sg/PlO: î-kî-nakatâcik	# as they left another/others, as they left another/others behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+3Pl+5Sg/PlO: î-kî-nakatimâcik	# as they left yet another/others, as they left yet another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Pl+1SgO: [î-kî-nakasitwâw, î-kî-nakasicik] # as they left me, as they left me behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Pl+2SgO: î-kî-nakatiskwâw # as they left you, as they left you behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Pl+1PlO: î-kî-nakatikoyâhkwâw # as they left us, as they left us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Pl+1PlO+Var/East: î-kî-nakasiyamihcik # as they left us, as they left us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Pl+12PlO: î-kî-nakatikoyahkwâw # as they left you and us, as they left you and us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Pl+12PlO+Var/East: î-kî-nakatitahkwâw # as they left you and us, as they left you and us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Pl+2PlO: î-kî-nakatikoyîkwâw # as they left you all, as they left you all behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Pl+2PlO+Var/East: î-kî-nakatitîkwâw # as they left you all, as they left you all behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Pl+4Sg/PlO: î-kî-nakatâcik # as they left another/others, as they left another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+3Pl+5Sg/PlO: î-kî-nakatimâcik # as they left yet another/others, as they left yet another/others behind
 
       # 4Sg/Pl
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+1SgO: î-kî-nakatimit	# as another/others left me, as another/others left me behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+2SgO: î-kî-nakatimisk	# as another/others left you, as another/others left you behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: î-kî-nakatikot	# as another/others left him/her, as another/others left him/her behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+1PlO: î-kî-nakatikothâhk	# as another/others left us, as another/others left us behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+12PlO: î-kî-nakatikothahk	# as another/others left you and us, as another/others left you and us behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+2PlO: î-kî-nakatikothîk	# as another/others left you all, as another/others left you all behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+3PlO: î-kî-nakatikocik	# as another/others left them, as another/others left them behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-kî-nakatâthit	# as another/others left yet another/others, as another/others left yet another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+1SgO: î-kî-nakatimit # as another/others left me, as another/others left me behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+2SgO: î-kî-nakatimisk # as another/others left you, as another/others left you behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: î-kî-nakatikot # as another/others left him/her, as another/others left him/her behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+1PlO: î-kî-nakatikoyâhk # as another/others left us, as another/others left us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+12PlO: î-kî-nakatikoyahk # as another/others left you and us, as another/others left you and us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+2PlO: î-kî-nakatikoyîk # as another/others left you all, as another/others left you all behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+3PlO: î-kî-nakatikocik # as another/others left them, as another/others left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-kî-nakatâthit # as another/others left yet another/others, as another/others left yet another/others behind
 
       # 5Sg/Pl
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-kî-nakatikothit	# as yet another/others left another/others, as yet another/others left another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-kî-nakatikothit # as yet another/others left another/others, as yet another/others left another/others behind
 
       # X
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+X+1SgO: î-kî-nakatikawithân	# as someone left me, as someone left me behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+X+2SgO: î-kî-nakatikawithan	# as someone left you, as someone left you behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+X+3SgO: î-kî-nakatiht	# as someone left him/her, as someone left him/her behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+X+1PlO: î-kî-nakatikawithâhk	# as someone left us, as someone left us behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+X+12PlO: î-kî-nakatikawithahk	# as someone left you and us, as someone left you and us behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+X+2PlO: î-kî-nakatikawithîk	# as someone left you all, as someone left you all behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+X+3PlO: î-kî-nakatihcik	# as someone left them, as someone left them behind
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+X+4Sg/PlO: î-kî-nakatimiht	# as someone left another/others, as someone left another/others behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+X+1SgO: î-kî-nakatikawiyân # as someone left me, as someone left me behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+X+2SgO: î-kî-nakatikawiyan # as someone left you, as someone left you behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+X+3SgO: î-kî-nakatiht # as someone left him/her, as someone left him/her behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+X+1PlO: î-kî-nakatikawiyâhk # as someone left us, as someone left us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+X+12PlO: î-kî-nakatikawiyahk # as someone left you and us, as someone left you and us behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+X+2PlO: î-kî-nakatikawiyîk # as someone left you all, as someone left you all behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+X+3PlO: î-kî-nakatihcik # as someone left them, as someone left them behind
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+X+4Sg/PlO: î-kî-nakatimiht # as someone left another/others, as someone left another/others behind
 
       # 0Sg/Pl
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO
-      PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/e+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO: î-kî-nakatikoyân
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO: î-kî-nakatikoyan
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO: î-kî-nakatikot
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO: î-kî-nakatikoyâhk
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO: î-kî-nakatikoyahk
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO: î-kî-nakatikoyîk
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO: î-kî-nakatikocik
+      PV/î+PV/ki+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: î-kî-nakatikothit
       
 
       # Fut+Int # Ind
 
       # 1Sg
-      PV/wi+nakatîw+V+TA+Ind+1Sg+2SgO: kiwî-nakatitin	# I am going to leave you, I am going to leave you behind
-      PV/wi+nakatîw+V+TA+Ind+1Sg+3SgO: niwî-nakatâw	# I am going to leave him/her, I am going to leave him/her behind
-      PV/wi+nakatîw+V+TA+Ind+1Sg+2PlO: kiwî-nakatitinâwâw	# I am going to leave you all, I am going to leave you all behind
-      PV/wi+nakatîw+V+TA+Ind+1Sg+3PlO: niwî-nakatâwak	# I am going to leave them, I am going to leave them behind
-      PV/wi+nakatîw+V+TA+Ind+1Sg+4Sg/PlO: niwî-nakatimâwa	# I am going to leave another/others, I am going to leave another/others behind
+      PV/wi+nakatîw+V+TA+Ind+1Sg+2SgO: kiwî-nakatitin # I am going to leave you, I am going to leave you behind
+      PV/wi+nakatîw+V+TA+Ind+1Sg+3SgO: niwî-nakatâw # I am going to leave him/her, I am going to leave him/her behind
+      PV/wi+nakatîw+V+TA+Ind+1Sg+2PlO: kiwî-nakatitinâwâw # I am going to leave you all, I am going to leave you all behind
+      PV/wi+nakatîw+V+TA+Ind+1Sg+3PlO: niwî-nakatâwak # I am going to leave them, I am going to leave them behind
+      PV/wi+nakatîw+V+TA+Ind+1Sg+4Sg/PlO: niwî-nakatimâwa # I am going to leave another/others, I am going to leave another/others behind
 
       # 2Sg
-      PV/wi+nakatîw+V+TA+Ind+2Sg+1SgO: kiwî-nakasin	# you are going to leave me, you are going to leave me behind
-      PV/wi+nakatîw+V+TA+Ind+2Sg+3SgO: kiwî-nakatâw	# you are going to leave him/her, you are going to leave him/her behind
-      PV/wi+nakatîw+V+TA+Ind+2Sg+1PlO: kiwî-nakasinân	# you are going to leave us, you are going to leave us behind
-      PV/wi+nakatîw+V+TA+Ind+2Sg+3PlO: kiwî-nakatâwak	# you are going to leave them, you are going to leave them behind
-      PV/wi+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kiwî-nakatimâwa	# you are going to leave another/others, you are going to leave another/others behind
+      PV/wi+nakatîw+V+TA+Ind+2Sg+1SgO: kiwî-nakasin # you are going to leave me, you are going to leave me behind
+      PV/wi+nakatîw+V+TA+Ind+2Sg+3SgO: kiwî-nakatâw # you are going to leave him/her, you are going to leave him/her behind
+      PV/wi+nakatîw+V+TA+Ind+2Sg+1PlO: kiwî-nakasinân # you are going to leave us, you are going to leave us behind
+      PV/wi+nakatîw+V+TA+Ind+2Sg+3PlO: kiwî-nakatâwak # you are going to leave them, you are going to leave them behind
+      PV/wi+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kiwî-nakatimâwa # you are going to leave another/others, you are going to leave another/others behind
 
       # 3Sg
-      PV/wi+nakatîw+V+TA+Ind+2Sg+1SgO: kiwî-nakasin	# you are going to leave me, you are going to leave me behind
-      PV/wi+nakatîw+V+TA+Ind+3Sg+2SgO: kiwî-nakatik	# he/she is going to leave you, he/she is going to leave you behind
-      PV/wi+nakatîw+V+TA+Ind+2Sg+1PlO: kiwî-nakasinân	# you are going to leave us, you are going to leave us behind
-      PV/wi+nakatîw+V+TA+Ind+3Sg+12PlO: kiwî-nakatikonaw	# he/she is going to leave you and us, he/she is going to leave you and us behind
-      PV/wi+nakatîw+V+TA+Ind+3Sg+2PlO: kiwî-nakatikowâw	# he/she is going to leave you all, he/she is going to leave you all behind
-      PV/wi+nakatîw+V+TA+Ind+2Sg+3PlO: kiwî-nakatâwak	# you are going to leave them, you are going to leave them behind
-      PV/wi+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kiwî-nakatimâwa	# you are going to leave another/others, you are going to leave another/others behind
-      PV/wi+nakatîw+V+TA+Ind+3Sg+5Sg/PlO: wî-nakatimîw	# he/she is going to leave yet another/others, he/she is going to leave yet another/others behind
+      PV/wi+nakatîw+V+TA+Ind+2Sg+1SgO: kiwî-nakasin # you are going to leave me, you are going to leave me behind
+      PV/wi+nakatîw+V+TA+Ind+3Sg+2SgO: kiwî-nakatik # he/she is going to leave you, he/she is going to leave you behind
+      PV/wi+nakatîw+V+TA+Ind+2Sg+1PlO: kiwî-nakasinân # you are going to leave us, you are going to leave us behind
+      PV/wi+nakatîw+V+TA+Ind+3Sg+12PlO: kiwî-nakatikonaw # he/she is going to leave you and us, he/she is going to leave you and us behind
+      PV/wi+nakatîw+V+TA+Ind+3Sg+2PlO: kiwî-nakatikowâw # he/she is going to leave you all, he/she is going to leave you all behind
+      PV/wi+nakatîw+V+TA+Ind+2Sg+3PlO: kiwî-nakatâwak # you are going to leave them, you are going to leave them behind
+      PV/wi+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kiwî-nakatimâwa # you are going to leave another/others, you are going to leave another/others behind
+      PV/wi+nakatîw+V+TA+Ind+3Sg+5Sg/PlO: wî-nakatimîw # he/she is going to leave yet another/others, he/she is going to leave yet another/others behind
 
       # 1Pl
-      PV/wi+nakatîw+V+TA+Ind+1Pl+2SgO: kiwî-nakatitinân	# we are going to leave you, we are going to leave you behind
-      PV/wi+nakatîw+V+TA+Ind+1Pl+3SgO: niwî-nakatânân	# we are going to leave him/her, we are going to leave him/her behind
-      PV/wi+nakatîw+V+TA+Ind+1Pl+2PlO: kiwî-nakatitinân	# we are going to leave you all, we are going to leave you all behind
-      PV/wi+nakatîw+V+TA+Ind+1Pl+3PlO: niwî-nakatânânak	# we are going to leave them, we are going to leave them behind
-      PV/wi+nakatîw+V+TA+Ind+1Pl+4Sg/PlO: niwî-nakatimânâna	# we are going to leave another/others, we are going to leave another/others behind
+      PV/wi+nakatîw+V+TA+Ind+1Pl+2SgO: kiwî-nakatitinân # we are going to leave you, we are going to leave you behind
+      PV/wi+nakatîw+V+TA+Ind+1Pl+3SgO: niwî-nakatânân # we are going to leave him/her, we are going to leave him/her behind
+      PV/wi+nakatîw+V+TA+Ind+1Pl+2PlO: kiwî-nakatitinân # we are going to leave you all, we are going to leave you all behind
+      PV/wi+nakatîw+V+TA+Ind+1Pl+3PlO: niwî-nakatânânak # we are going to leave them, we are going to leave them behind
+      PV/wi+nakatîw+V+TA+Ind+1Pl+4Sg/PlO: niwî-nakatimânâna # we are going to leave another/others, we are going to leave another/others behind
 
       # 12Pl
-      PV/wi+nakatîw+V+TA+Ind+12Pl+3SgO: kiwî-nakatânaw	# we and you are going to leave him/her, we and you are going to leave him/her behind
-      PV/wi+nakatîw+V+TA+Ind+12Pl+3PlO: kiwî-nakatânawak	# we and you are going to leave them, we and you are going to leave them behind
-      PV/wi+nakatîw+V+TA+Ind+12Pl+4Sg/PlO: kiwî-nakatimânawa	# we and you are going to leave another/others, we and you are going to leave another/others behind
+      PV/wi+nakatîw+V+TA+Ind+12Pl+3SgO: kiwî-nakatânaw # we and you are going to leave him/her, we and you are going to leave him/her behind
+      PV/wi+nakatîw+V+TA+Ind+12Pl+3PlO: kiwî-nakatânawak # we and you are going to leave them, we and you are going to leave them behind
+      PV/wi+nakatîw+V+TA+Ind+12Pl+4Sg/PlO: kiwî-nakatimânawa # we and you are going to leave another/others, we and you are going to leave another/others behind
 
       # 2Pl
-      PV/wi+nakatîw+V+TA+Ind+2Pl+1SgO: kiwî-nakasinâwâw	# you all are going to leave me, you all are going to leave me behind
-      PV/wi+nakatîw+V+TA+Ind+2Pl+3SgO: kiwî-nakatâwâw	# you all are going to leave him/her, you all are going to leave him/her behind
-      PV/wi+nakatîw+V+TA+Ind+2Pl+1PlO: kiwî-nakasinân	# you all are going to leave us, you all are going to leave us behind
-      PV/wi+nakatîw+V+TA+Ind+2Pl+3PlO: kiwî-nakatâwâwak	# you all are going to leave them, you all are going to leave them behind
-      PV/wi+nakatîw+V+TA+Ind+2Pl+4Sg/PlO: kiwî-nakatimâwâwa	# you all are going to leave another/others, you all are going to leave another/others behind
+      PV/wi+nakatîw+V+TA+Ind+2Pl+1SgO: kiwî-nakasinâwâw # you all are going to leave me, you all are going to leave me behind
+      PV/wi+nakatîw+V+TA+Ind+2Pl+3SgO: kiwî-nakatâwâw # you all are going to leave him/her, you all are going to leave him/her behind
+      PV/wi+nakatîw+V+TA+Ind+2Pl+1PlO: kiwî-nakasinân # you all are going to leave us, you all are going to leave us behind
+      PV/wi+nakatîw+V+TA+Ind+2Pl+3PlO: kiwî-nakatâwâwak # you all are going to leave them, you all are going to leave them behind
+      PV/wi+nakatîw+V+TA+Ind+2Pl+4Sg/PlO: kiwî-nakatimâwâwa # you all are going to leave another/others, you all are going to leave another/others behind
 
       # 3Pl
-      PV/wi+nakatîw+V+TA+Ind+3Pl+1SgO: [niwî-nakatikowak, niwî-nakatikwak]	# they are going to leave me, they are going to leave me behind
-      PV/wi+nakatîw+V+TA+Ind+3Pl+2SgO: [kiwî-nakatikowak, kiwî-nakatikwak]	# they are going to leave you, they are going to leave you behind
-      PV/wi+nakatîw+V+TA+Ind+3Pl+1PlO: niwî-nakatikonânak	# they are going to leave us, they are going to leave us behind
-      PV/wi+nakatîw+V+TA+Ind+3Pl+12PlO: kiwî-nakatikonawak	# they are going to leave you and us, they are going to leave you and us behind
-      PV/wi+nakatîw+V+TA+Ind+3Pl+2PlO: kiwî-nakatikowâwak	# they are going to leave you all, they are going to leave you all behind
-      PV/wi+nakatîw+V+TA+Ind+3Pl+4Sg/PlO: wî-nakatîwak	# they are going to leave another/others, they are going to leave another/others behind
-      PV/wi+nakatîw+V+TA+Ind+3Pl+5Sg/PlO: wî-nakatimîwak	# they are going to leave yet another/others, they are going to leave yet another/others behind
+      PV/wi+nakatîw+V+TA+Ind+3Pl+1SgO: niwî-nakatikwak # they are going to leave me, they are going to leave me behind
+      PV/wi+nakatîw+V+TA+Ind+3Pl+2SgO: kiwî-nakatikwak # they are going to leave you, they are going to leave you behind
+      PV/wi+nakatîw+V+TA+Ind+3Pl+1PlO: niwî-nakatikonânak # they are going to leave us, they are going to leave us behind
+      PV/wi+nakatîw+V+TA+Ind+3Pl+12PlO: kiwî-nakatikonawak # they are going to leave you and us, they are going to leave you and us behind
+      PV/wi+nakatîw+V+TA+Ind+3Pl+2PlO: kiwî-nakatikowâwak # they are going to leave you all, they are going to leave you all behind
+      PV/wi+nakatîw+V+TA+Ind+3Pl+4Sg/PlO: wî-nakatîwak # they are going to leave another/others, they are going to leave another/others behind
+      PV/wi+nakatîw+V+TA+Ind+3Pl+5Sg/PlO: wî-nakatimîwak # they are going to leave yet another/others, they are going to leave yet another/others behind
 
       # 4Sg/Pl
-      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+1SgO: niwî-nakatikothiwa	# another/others are going to leave me, another/others are going to leave me behind
-      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+2SgO: kiwî-nakatikothiwa	# another/others are going to leave you, another/others are going to leave you behind
-      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+3SgO: [wî-nakatikow, wî-nakatik]	# another/others are going to leave him/her, another/others are going to leave him/her behind
-      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+1PlO: niwî-nakatikonâna	# another/others are going to leave us, another/others are going to leave us behind
-      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+12PlO: kiwî-nakatikonawa	# another/others are going to leave you and us, another/others are going to leave you and us behind
-      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+2PlO: kiwî-nakatikowâwa	# another/others are going to leave you all, another/others are going to leave you all behind
-      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+3PlO: [wî-nakatikowak, wî-nakatikwak]	# another/others are going to leave them, another/others are going to leave them behind
-      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: wî-nakatîthiwa	# another/others are going to leave yet another/others, another/others are going to leave yet another/others behind
+      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+1SgO: niwî-nakatikothiwa # another/others are going to leave me, another/others are going to leave me behind
+      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+2SgO: kiwî-nakatikothiwa # another/others are going to leave you, another/others are going to leave you behind
+      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+3SgO: [wî-nakatikow, wî-nakatik] # another/others are going to leave him/her, another/others are going to leave him/her behind
+      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+1PlO: niwî-nakatikonâna # another/others are going to leave us, another/others are going to leave us behind
+      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+12PlO: kiwî-nakatikonawa # another/others are going to leave you and us, another/others are going to leave you and us behind
+      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+2PlO: kiwî-nakatikowâwa # another/others are going to leave you all, another/others are going to leave you all behind
+      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+3PlO: [wî-nakatikowak, wî-nakatikwak] # another/others are going to leave them, another/others are going to leave them behind
+      PV/wi+nakatîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: wî-nakatîthiwa # another/others are going to leave yet another/others, another/others are going to leave yet another/others behind
 
       # 5Sg/Pl
-      PV/wi+nakatîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: wî-nakatikothiwa	# yet another/others are going to leave another/others, yet another/others are going to leave another/others behind
+      PV/wi+nakatîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: wî-nakatikothiwa # yet another/others are going to leave another/others, yet another/others are going to leave another/others behind
 
       # X
-      PV/wi+nakatîw+V+TA+Ind+X+1SgO: niwî-nakatikawin	# someone is going to leave me, someone is going to leave me behind
-      PV/wi+nakatîw+V+TA+Ind+X+2SgO: kiwî-nakatikawin	# someone is going to leave you, someone is going to leave you behind
-      PV/wi+nakatîw+V+TA+Ind+X+3SgO: wî-nakatâw	# someone is going to leave him/her, someone is going to leave him/her behind
-      PV/wi+nakatîw+V+TA+Ind+X+1PlO: niwî-nakatikawinân	# someone is going to leave us, someone is going to leave us behind
-      PV/wi+nakatîw+V+TA+Ind+X+12PlO: [kiwî-nakatikawinaw, kiwî-nakatikawinânaw]	# someone is going to leave you and us, someone is going to leave you and us behind
-      PV/wi+nakatîw+V+TA+Ind+X+2PlO: kiwî-nakatikawinâwâw	# someone is going to leave you all, someone is going to leave you all behind
-      PV/wi+nakatîw+V+TA+Ind+X+3PlO: wî-nakatâwak	# someone is going to leave them, someone is going to leave them behind
-      PV/wi+nakatîw+V+TA+Ind+X+4Sg/PlO: wî-nakatâthiwa	# someone is going to leave another/others, someone is going to leave another/others behind
+      PV/wi+nakatîw+V+TA+Ind+X+1SgO: niwî-nakatikawin # someone is going to leave me, someone is going to leave me behind
+      PV/wi+nakatîw+V+TA+Ind+X+2SgO: kiwî-nakatikawin # someone is going to leave you, someone is going to leave you behind
+      PV/wi+nakatîw+V+TA+Ind+X+3SgO: wî-nakatâw # someone is going to leave him/her, someone is going to leave him/her behind
+      PV/wi+nakatîw+V+TA+Ind+X+1PlO: niwî-nakatikawinân # someone is going to leave us, someone is going to leave us behind
+      PV/wi+nakatîw+V+TA+Ind+X+12PlO: [kiwî-nakatikawinaw, kiwî-nakatikawinânaw] # someone is going to leave you and us, someone is going to leave you and us behind
+      PV/wi+nakatîw+V+TA+Ind+X+2PlO: kiwî-nakatikawinâwâw # someone is going to leave you all, someone is going to leave you all behind
+      PV/wi+nakatîw+V+TA+Ind+X+3PlO: wî-nakatâwak # someone is going to leave them, someone is going to leave them behind
+      PV/wi+nakatîw+V+TA+Ind+X+4Sg/PlO: wî-nakatâthiwa # someone is going to leave another/others, someone is going to leave another/others behind
 
       # 0Sg/Pl
-      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+1SgO: PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+1SgO
-      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+2SgO: PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+2SgO
-      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+3SgO: PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+3SgO
-      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+1PlO: PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+1PlO
-      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+12PlO: PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+12PlO
-      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+2PlO: PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+2PlO
-      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+3PlO: PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+3PlO
-      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+1SgO: niwî-nakatikon
+      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+2SgO: kiwî-nakatikon
+      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+3SgO: wî-nakatikow
+      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+1PlO: niwî-nakatikonân
+      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+12PlO: kiwî-nakatikonaw
+      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+2PlO: kiwî-nakatikowâw
+      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+3PlO: wî-nakatikowak
+      PV/wi+nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: wî-nakatikothiwa
       
 
       # Fut+Int # Cnj
 
       # 1Sg
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+1Sg+2SgO: î-wî-nakatitân	# as I am going to leave you, as I am going to leave you behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+1Sg+3SgO: î-wî-nakatak	# as I am going to leave him/her, as I am going to leave him/her behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+1Sg+2PlO: î-wî-nakatitakok	# as I am going to leave you all, as I am going to leave you all behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+1Sg+3PlO: î-wî-nakatakik	# as I am going to leave them, as I am going to leave them behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+1Sg+4Sg/PlO: î-wî-nakatimak	# as I am going to leave another/others, as I am going to leave another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Sg+2SgO: î-wî-nakatitân # as I am going to leave you, as I am going to leave you behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Sg+3SgO: î-wî-nakatak # as I am going to leave him/her, as I am going to leave him/her behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Sg+2PlO: î-wî-nakatitakwâw # as I am going to leave you all, as I am going to leave you all behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Sg+3PlO: î-wî-nakatakwâw # as I am going to leave them, as I am going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Sg+3PlO+Var/East: î-wî-nakataki # as I am going to leave them, as I am going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Sg+4Sg/PlO: î-wî-nakatimak # as I am going to leave another/others, as I am going to leave another/others behind
 
       # 2Sg
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Sg+1SgO: î-wî-nakasithan	# as you are going to leave me, as you are going to leave me behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Sg+3SgO: î-wî-nakatat	# as you are going to leave him/her, as you are going to leave him/her behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Sg+1PlO: î-wî-nakasithâhk	# as you are going to leave us, as you are going to leave us behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Sg+3PlO: î-wî-nakatacik	# as you are going to leave them, as you are going to leave them behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-nakatimat	# as you are going to leave another/others, as you are going to leave another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Sg+1SgO: î-wî-nakasiyan # as you are going to leave me, as you are going to leave me behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Sg+3SgO: î-wî-nakatat # as you are going to leave him/her, as you are going to leave him/her behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Sg+1PlO: î-wî-nakasiyâhk # as you are going to leave us, as you are going to leave us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Sg+3PlO: î-wî-nakatacik # as you are going to leave them, as you are going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-nakatimat # as you are going to leave another/others, as you are going to leave another/others behind
 
       # 3Sg
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Sg+1SgO: î-wî-nakasithan	# as you are going to leave me, as you are going to leave me behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Sg+2SgO: î-wî-nakatisk	# as he/she is going to leave you, as he/she is going to leave you behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Sg+1PlO: î-wî-nakasithâhk	# as you are going to leave us, as you are going to leave us behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Sg+12PlO: î-wî-nakatikothahk	# as he/she is going to leave you and us, as he/she is going to leave you and us behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Sg+2PlO: î-wî-nakatikothîk	# as he/she is going to leave you all, as he/she is going to leave you all behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Sg+3PlO: î-wî-nakatacik	# as you are going to leave them, as you are going to leave them behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-nakatimat	# as you are going to leave another/others, as you are going to leave another/others behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Sg+5Sg/PlO: î-wî-nakatimât	# as he/she is going to leave yet another/others, as he/she is going to leave yet another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Sg+1SgO: î-wî-nakasiyan # as you are going to leave me, as you are going to leave me behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Sg+2SgO: î-wî-nakatisk # as he/she is going to leave you, as he/she is going to leave you behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Sg+1PlO: î-wî-nakasiyâhk # as you are going to leave us, as you are going to leave us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Sg+1PlO: î-wî-nakatikoyâhk # as you are going to leave us, as you are going to leave us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Sg+1PlO+Var/East: î-wî-nakasiyamiht # as you are going to leave us, as you are going to leave us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Sg+12PlO: î-wî-nakatikoyahk # as he/she is going to leave you and us, as he/she is going to leave you and us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Sg+12PlO+Var/East: î-wî-nakatitahk # as he/she is going to leave you and us, as he/she is going to leave you and us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Sg+2PlO: î-wî-nakatikoyîk # as he/she is going to leave you all, as he/she is going to leave you all behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Sg+2PlO+Var/East: î-wî-nakatitîk # as he/she is going to leave you all, as he/she is going to leave you all behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Sg+3PlO: î-wî-nakatacik # as you are going to leave them, as you are going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-nakatimat # as you are going to leave another/others, as you are going to leave another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Sg+5Sg/PlO: î-wî-nakatimât # as he/she is going to leave yet another/others, as he/she is going to leave yet another/others behind
 
       # 1Pl
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+1Pl+2SgO: î-wî-nakatitâhk	# as we are going to leave you, as we are going to leave you behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+1Pl+3SgO: î-wî-nakatâthâhk	# as we are going to leave him/her, as we are going to leave him/her behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+1Pl+2PlO: î-wî-nakatitâhk	# as we are going to leave you all, as we are going to leave you all behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+1Pl+3PlO: î-wî-nakatâthâhkik	# as we are going to leave them, as we are going to leave them behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+1Pl+4Sg/PlO: î-wî-nakatimâthâhk	# as we are going to leave another/others, as we are going to leave another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Pl+2SgO: î-wî-nakatitâhk # as we are going to leave you, as we are going to leave you behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Pl+3SgO: î-wî-nakatâyâhk # as we are going to leave him/her, as we are going to leave him/her behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Pl+3SgO+Var/East: î-wî-nakatakiht # as we are going to leave him/her, as we are going to leave him/her behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Pl+2PlO: î-wî-nakatitâhk # as we are going to leave you all, as we are going to leave you all behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Pl+3PlO: î-wî-nakatâyâhkwâw # as we are going to leave them, as we are going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Pl+3PlO+Var/East: î-wî-nakatakihcik # as we are going to leave them, as we are going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+1Pl+4Sg/PlO: î-wî-nakatimâyâhk # as we are going to leave another/others, as we are going to leave another/others behind
 
       # 12Pl
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+12Pl+3SgO: î-wî-nakatâthahk	# as we and you are going to leave him/her, as we and you are going to leave him/her behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+12Pl+3PlO: î-wî-nakatâthahkok	# as we and you are going to leave them, as we and you are going to leave them behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+12Pl+4Sg/PlO: î-wî-nakatimâthahk	# as we and you are going to leave another/others, as we and you are going to leave another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+12Pl+3SgO: î-wî-nakatâyahk # as we and you are going to leave him/her, as we and you are going to leave him/her behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+12Pl+3SgO+Var/East: î-wî-nakatahk # as we and you are going to leave him/her, as we and you are going to leave him/her behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+12Pl+3PlO: î-wî-nakatâyahkwâw # as we and you are going to leave them, as we and you are going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+12Pl+3PlO+Var/East: î-wî-nakatahkwâw # as we and you are going to leave them, as we and you are going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+12Pl+4Sg/PlO: î-wî-nakatimâyahk # as we and you are going to leave another/others, as we and you are going to leave another/others behind
 
       # 2Pl
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Pl+1SgO: î-wî-nakasithîk	# as you all are going to leave me, as you all are going to leave me behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Pl+3SgO: î-wî-nakatâthîk	# as you all are going to leave him/her, as you all are going to leave him/her behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Pl+1PlO: î-wî-nakasithâhk	# as you all are going to leave us, as you all are going to leave us behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Pl+3PlO: î-wî-nakatâthîkok	# as you all are going to leave them, as you all are going to leave them behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+2Pl+4Sg/PlO: î-wî-nakatimâthîk	# as you all are going to leave another/others, as you all are going to leave another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Pl+1SgO: î-wî-nakasiyîk # as you all are going to leave me, as you all are going to leave me behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Pl+3SgO: î-wî-nakatâyîk # as you all are going to leave him/her, as you all are going to leave him/her behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Pl+1PlO: î-wî-nakasiyâhk # as you all are going to leave us, as you all are going to leave us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Pl+3PlO: î-wî-nakatâyîkwâw # as you all are going to leave them, as you all are going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Pl+3PlO+Var/East: î-wî-nakatâyîkok # as you all are going to leave them, as you all are going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+2Pl+4Sg/PlO: î-wî-nakatimâyîk # as you all are going to leave another/others, as you all are going to leave another/others behind
 
       # 3Pl
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Pl+1SgO: î-wî-nakasicik	# as they are going to leave me, as they are going to leave me behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Pl+2SgO: î-wî-nakatiskik	# as they are going to leave you, as they are going to leave you behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Pl+1PlO: î-wî-nakatikothâhkik	# as they are going to leave us, as they are going to leave us behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Pl+12PlO: î-wî-nakatikothahkok	# as they are going to leave you and us, as they are going to leave you and us behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Pl+2PlO: î-wî-nakatikothîkok	# as they are going to leave you all, as they are going to leave you all behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Pl+4Sg/PlO: î-wî-nakatâcik	# as they are going to leave another/others, as they are going to leave another/others behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+3Pl+5Sg/PlO: î-wî-nakatimâcik	# as they are going to leave yet another/others, as they are going to leave yet another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Pl+1SgO: [î-wî-nakasitwâw, î-wî-nakasicik] # as they are going to leave me, as they are going to leave me behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Pl+2SgO: î-wî-nakatiskwâw # as they are going to leave you, as they are going to leave you behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Pl+1PlO: î-wî-nakatikoyâhkwâw # as they are going to leave us, as they are going to leave us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Pl+1PlO+Var/East: î-wî-nakasiyamihcik # as they are going to leave us, as they are going to leave us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Pl+12PlO: î-wî-nakatikoyahkwâw # as they are going to leave you and us, as they are going to leave you and us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Pl+12PlO+Var/East: î-wî-nakatitahkwâw # as they are going to leave you and us, as they are going to leave you and us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Pl+2PlO: î-wî-nakatikoyîkwâw # as they are going to leave you all, as they are going to leave you all behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Pl+2PlO+Var/East: î-wî-nakatitîkwâw # as they are going to leave you all, as they are going to leave you all behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Pl+4Sg/PlO: î-wî-nakatâcik # as they are going to leave another/others, as they are going to leave another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+3Pl+5Sg/PlO: î-wî-nakatimâcik # as they are going to leave yet another/others, as they are going to leave yet another/others behind
 
       # 4Sg/Pl
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+1SgO: î-wî-nakatimit	# as another/others are going to leave me, as another/others are going to leave me behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+2SgO: î-wî-nakatimisk	# as another/others are going to leave you, as another/others are going to leave you behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: î-wî-nakatikot	# as another/others are going to leave him/her, as another/others are going to leave him/her behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+1PlO: î-wî-nakatikothâhk	# as another/others are going to leave us, as another/others are going to leave us behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+12PlO: î-wî-nakatikothahk	# as another/others are going to leave you and us, as another/others are going to leave you and us behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+2PlO: î-wî-nakatikothîk	# as another/others are going to leave you all, as another/others are going to leave you all behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+3PlO: î-wî-nakatikocik	# as another/others are going to leave them, as another/others are going to leave them behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-wî-nakatâthit	# as another/others are going to leave yet another/others, as another/others are going to leave yet another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+1SgO: î-wî-nakatimit # as another/others are going to leave me, as another/others are going to leave me behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+2SgO: î-wî-nakatimisk # as another/others are going to leave you, as another/others are going to leave you behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: î-wî-nakatikot # as another/others are going to leave him/her, as another/others are going to leave him/her behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+1PlO: î-wî-nakatikoyâhk # as another/others are going to leave us, as another/others are going to leave us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+12PlO: î-wî-nakatikoyahk # as another/others are going to leave you and us, as another/others are going to leave you and us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+2PlO: î-wî-nakatikoyîk # as another/others are going to leave you all, as another/others are going to leave you all behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+3PlO: î-wî-nakatikocik # as another/others are going to leave them, as another/others are going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-wî-nakatâthit # as another/others are going to leave yet another/others, as another/others are going to leave yet another/others behind
 
       # 5Sg/Pl
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-wî-nakatikothit	# as yet another/others are going to leave another/others, as yet another/others are going to leave another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-wî-nakatikothit # as yet another/others are going to leave another/others, as yet another/others are going to leave another/others behind
 
       # X
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+X+1SgO: î-wî-nakatikawithân	# as someone is going to leave me, as someone is going to leave me behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+X+2SgO: î-wî-nakatikawithan	# as someone is going to leave you, as someone is going to leave you behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+X+3SgO: î-wî-nakatiht	# as someone is going to leave him/her, as someone is going to leave him/her behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+X+1PlO: î-wî-nakatikawithâhk	# as someone is going to leave us, as someone is going to leave us behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+X+12PlO: î-wî-nakatikawithahk	# as someone is going to leave you and us, as someone is going to leave you and us behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+X+2PlO: î-wî-nakatikawithîk	# as someone is going to leave you all, as someone is going to leave you all behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+X+3PlO: î-wî-nakatihcik	# as someone is going to leave them, as someone is going to leave them behind
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+X+4Sg/PlO: î-wî-nakatimiht	# as someone is going to leave another/others, as someone is going to leave another/others behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+X+1SgO: î-wî-nakatikawiyân # as someone is going to leave me, as someone is going to leave me behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+X+2SgO: î-wî-nakatikawiyan # as someone is going to leave you, as someone is going to leave you behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+X+3SgO: î-wî-nakatiht # as someone is going to leave him/her, as someone is going to leave him/her behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+X+1PlO: î-wî-nakatikawiyâhk # as someone is going to leave us, as someone is going to leave us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+X+12PlO: î-wî-nakatikawiyahk # as someone is going to leave you and us, as someone is going to leave you and us behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+X+2PlO: î-wî-nakatikawiyîk # as someone is going to leave you all, as someone is going to leave you all behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+X+3PlO: î-wî-nakatihcik # as someone is going to leave them, as someone is going to leave them behind
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+X+4Sg/PlO: î-wî-nakatimiht # as someone is going to leave another/others, as someone is going to leave another/others behind
 
       # 0Sg/Pl
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO
-      PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/e+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO: î-wî-nakatikoyân
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO: î-wî-nakatikoyan
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO: î-wî-nakatikot
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO: î-wî-nakatikoyâhk
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO: î-wî-nakatikoyahk
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO: î-wî-nakatikoyîk
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO: î-wî-nakatikocik
+      PV/î+PV/wi+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: î-wî-nakatikothit
       
 
       # Fut+Def # Ind
 
       # 1Sg
-      PV/ka+nakatîw+V+TA+Ind+1Sg+2SgO: kika-nakatitin	# I will leave you, I will leave you behind
-      PV/ka+nakatîw+V+TA+Ind+1Sg+3SgO: nika-nakatâw	# I will leave him/her, I will leave him/her behind
-      PV/ka+nakatîw+V+TA+Ind+1Sg+2PlO: kika-nakatitinâwâw	# I will leave you all, I will leave you all behind
-      PV/ka+nakatîw+V+TA+Ind+1Sg+3PlO: nika-nakatâwak	# I will leave them, I will leave them behind
-      PV/ka+nakatîw+V+TA+Ind+1Sg+4Sg/PlO: nika-nakatimâwa	# I will leave another/others, I will leave another/others behind
+      PV/ka+nakatîw+V+TA+Ind+1Sg+2SgO: kika-nakatitin # I will leave you, I will leave you behind
+      PV/ka+nakatîw+V+TA+Ind+1Sg+3SgO: nika-nakatâw # I will leave him/her, I will leave him/her behind
+      PV/ka+nakatîw+V+TA+Ind+1Sg+2PlO: kika-nakatitinâwâw # I will leave you all, I will leave you all behind
+      PV/ka+nakatîw+V+TA+Ind+1Sg+3PlO: nika-nakatâwak # I will leave them, I will leave them behind
+      PV/ka+nakatîw+V+TA+Ind+1Sg+4Sg/PlO: nika-nakatimâwa # I will leave another/others, I will leave another/others behind
 
       # 2Sg
-      PV/ka+nakatîw+V+TA+Ind+2Sg+1SgO: kika-nakasin	# you will leave me, you will leave me behind
-      PV/ka+nakatîw+V+TA+Ind+2Sg+3SgO: kika-nakatâw	# you will leave him/her, you will leave him/her behind
-      PV/ka+nakatîw+V+TA+Ind+2Sg+1PlO: kika-nakasinân	# you will leave us, you will leave us behind
-      PV/ka+nakatîw+V+TA+Ind+2Sg+3PlO: kika-nakatâwak	# you will leave them, you will leave them behind
-      PV/ka+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kika-nakatimâwa	# you will leave another/others, you will leave another/others behind
+      PV/ka+nakatîw+V+TA+Ind+2Sg+1SgO: kika-nakasin # you will leave me, you will leave me behind
+      PV/ka+nakatîw+V+TA+Ind+2Sg+3SgO: kika-nakatâw # you will leave him/her, you will leave him/her behind
+      PV/ka+nakatîw+V+TA+Ind+2Sg+1PlO: kika-nakasinân # you will leave us, you will leave us behind
+      PV/ka+nakatîw+V+TA+Ind+2Sg+3PlO: kika-nakatâwak # you will leave them, you will leave them behind
+      PV/ka+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kika-nakatimâwa # you will leave another/others, you will leave another/others behind
 
       # 3Sg
-      PV/ka+nakatîw+V+TA+Ind+2Sg+1SgO: kika-nakasin	# you will leave me, you will leave me behind
-      PV/ka+nakatîw+V+TA+Ind+3Sg+2SgO: kika-nakatik	# he/she will leave you, he/she will leave you behind
-      PV/ka+nakatîw+V+TA+Ind+2Sg+1PlO: kika-nakasinân	# you will leave us, you will leave us behind
-      PV/ka+nakatîw+V+TA+Ind+3Sg+12PlO: kika-nakatikonaw	# he/she will leave you and us, he/she will leave you and us behind
-      PV/ka+nakatîw+V+TA+Ind+3Sg+2PlO: kika-nakatikowâw	# he/she will leave you all, he/she will leave you all behind
-      PV/ka+nakatîw+V+TA+Ind+2Sg+3PlO: kika-nakatâwak	# you will leave them, you will leave them behind
-      PV/ka+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kika-nakatimâwa	# you will leave another/others, you will leave another/others behind
-      PV/ka+nakatîw+V+TA+Ind+3Sg+5Sg/PlO: ka-nakatimîw	# he/she will leave yet another/others, he/she will leave yet another/others behind
+      PV/ka+nakatîw+V+TA+Ind+2Sg+1SgO: kika-nakasin # you will leave me, you will leave me behind
+      PV/ka+nakatîw+V+TA+Ind+3Sg+2SgO: kika-nakatik # he/she will leave you, he/she will leave you behind
+      PV/ka+nakatîw+V+TA+Ind+2Sg+1PlO: kika-nakasinân # you will leave us, you will leave us behind
+      PV/ka+nakatîw+V+TA+Ind+3Sg+12PlO: kika-nakatikonaw # he/she will leave you and us, he/she will leave you and us behind
+      PV/ka+nakatîw+V+TA+Ind+3Sg+2PlO: kika-nakatikowâw # he/she will leave you all, he/she will leave you all behind
+      PV/ka+nakatîw+V+TA+Ind+2Sg+3PlO: kika-nakatâwak # you will leave them, you will leave them behind
+      PV/ka+nakatîw+V+TA+Ind+2Sg+4Sg/PlO: kika-nakatimâwa # you will leave another/others, you will leave another/others behind
+      PV/ka+nakatîw+V+TA+Ind+3Sg+5Sg/PlO: ka-nakatimîw # he/she will leave yet another/others, he/she will leave yet another/others behind
 
       # 1Pl
-      PV/ka+nakatîw+V+TA+Ind+1Pl+2SgO: kika-nakatitinân	# we will leave you, we will leave you behind
-      PV/ka+nakatîw+V+TA+Ind+1Pl+3SgO: nika-nakatânân	# we will leave him/her, we will leave him/her behind
-      PV/ka+nakatîw+V+TA+Ind+1Pl+2PlO: kika-nakatitinân	# we will leave you all, we will leave you all behind
-      PV/ka+nakatîw+V+TA+Ind+1Pl+3PlO: nika-nakatânânak	# we will leave them, we will leave them behind
-      PV/ka+nakatîw+V+TA+Ind+1Pl+4Sg/PlO: nika-nakatimânâna	# we will leave another/others, we will leave another/others behind
+      PV/ka+nakatîw+V+TA+Ind+1Pl+2SgO: kika-nakatitinân # we will leave you, we will leave you behind
+      PV/ka+nakatîw+V+TA+Ind+1Pl+3SgO: nika-nakatânân # we will leave him/her, we will leave him/her behind
+      PV/ka+nakatîw+V+TA+Ind+1Pl+2PlO: kika-nakatitinân # we will leave you all, we will leave you all behind
+      PV/ka+nakatîw+V+TA+Ind+1Pl+3PlO: nika-nakatânânak # we will leave them, we will leave them behind
+      PV/ka+nakatîw+V+TA+Ind+1Pl+4Sg/PlO: nika-nakatimânâna # we will leave another/others, we will leave another/others behind
 
       # 12Pl
-      PV/ka+nakatîw+V+TA+Ind+12Pl+3SgO: kika-nakatânaw	# we and you will leave him/her, we and you will leave him/her behind
-      PV/ka+nakatîw+V+TA+Ind+12Pl+3PlO: kika-nakatânawak	# we and you will leave them, we and you will leave them behind
-      PV/ka+nakatîw+V+TA+Ind+12Pl+4Sg/PlO: kika-nakatimânawa	# we and you will leave another/others, we and you will leave another/others behind
+      PV/ka+nakatîw+V+TA+Ind+12Pl+3SgO: kika-nakatânaw # we and you will leave him/her, we and you will leave him/her behind
+      PV/ka+nakatîw+V+TA+Ind+12Pl+3PlO: kika-nakatânawak # we and you will leave them, we and you will leave them behind
+      PV/ka+nakatîw+V+TA+Ind+12Pl+4Sg/PlO: kika-nakatimânawa # we and you will leave another/others, we and you will leave another/others behind
 
       # 2Pl
-      PV/ka+nakatîw+V+TA+Ind+2Pl+1SgO: kika-nakasinâwâw	# you all will leave me, you all will leave me behind
-      PV/ka+nakatîw+V+TA+Ind+2Pl+3SgO: kika-nakatâwâw	# you all will leave him/her, you all will leave him/her behind
-      PV/ka+nakatîw+V+TA+Ind+2Pl+1PlO: kika-nakasinân	# you all will leave us, you all will leave us behind
-      PV/ka+nakatîw+V+TA+Ind+2Pl+3PlO: kika-nakatâwâwak	# you all will leave them, you all will leave them behind
-      PV/ka+nakatîw+V+TA+Ind+2Pl+4Sg/PlO: kika-nakatimâwâwa	# you all will leave another/others, you all will leave another/others behind
+      PV/ka+nakatîw+V+TA+Ind+2Pl+1SgO: kika-nakasinâwâw # you all will leave me, you all will leave me behind
+      PV/ka+nakatîw+V+TA+Ind+2Pl+3SgO: kika-nakatâwâw # you all will leave him/her, you all will leave him/her behind
+      PV/ka+nakatîw+V+TA+Ind+2Pl+1PlO: kika-nakasinân # you all will leave us, you all will leave us behind
+      PV/ka+nakatîw+V+TA+Ind+2Pl+3PlO: kika-nakatâwâwak # you all will leave them, you all will leave them behind
+      PV/ka+nakatîw+V+TA+Ind+2Pl+4Sg/PlO: kika-nakatimâwâwa # you all will leave another/others, you all will leave another/others behind
 
       # 3Pl
-      PV/ka+nakatîw+V+TA+Ind+3Pl+1SgO: [nika-nakatikowak, nika-nakatikwak]	# they will leave me, they will leave me behind
-      PV/ka+nakatîw+V+TA+Ind+3Pl+2SgO: [kika-nakatikowak, kika-nakatikwak]	# they will leave you, they will leave you behind
-      PV/ka+nakatîw+V+TA+Ind+3Pl+1PlO: nika-nakatikonânak	# they will leave us, they will leave us behind
-      PV/ka+nakatîw+V+TA+Ind+3Pl+12PlO: kika-nakatikonawak	# they will leave you and us, they will leave you and us behind
-      PV/ka+nakatîw+V+TA+Ind+3Pl+2PlO: kika-nakatikowâwak	# they will leave you all, they will leave you all behind
-      PV/ka+nakatîw+V+TA+Ind+3Pl+4Sg/PlO: ka-nakatîwak	# they will leave another/others, they will leave another/others behind
-      PV/ka+nakatîw+V+TA+Ind+3Pl+5Sg/PlO: ka-nakatimîwak	# they will leave yet another/others, they will leave yet another/others behind
+      PV/ka+nakatîw+V+TA+Ind+3Pl+1SgO: nika-nakatikwak # they will leave me, they will leave me behind
+      PV/ka+nakatîw+V+TA+Ind+3Pl+2SgO: kika-nakatikwak # they will leave you, they will leave you behind
+      PV/ka+nakatîw+V+TA+Ind+3Pl+1PlO: nika-nakatikonânak # they will leave us, they will leave us behind
+      PV/ka+nakatîw+V+TA+Ind+3Pl+12PlO: kika-nakatikonawak # they will leave you and us, they will leave you and us behind
+      PV/ka+nakatîw+V+TA+Ind+3Pl+2PlO: kika-nakatikowâwak # they will leave you all, they will leave you all behind
+      PV/ka+nakatîw+V+TA+Ind+3Pl+4Sg/PlO: ka-nakatîwak # they will leave another/others, they will leave another/others behind
+      PV/ka+nakatîw+V+TA+Ind+3Pl+5Sg/PlO: ka-nakatimîwak # they will leave yet another/others, they will leave yet another/others behind
 
       # 4Sg/Pl
-      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+1SgO: nika-nakatikothiwa	# another/others will leave me, another/others will leave me behind
-      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+2SgO: kika-nakatikothiwa	# another/others will leave you, another/others will leave you behind
-      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+3SgO: [ka-nakatikow, ka-nakatik]	# another/others will leave him/her, another/others will leave him/her behind
-      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+1PlO: nika-nakatikonâna	# another/others will leave us, another/others will leave us behind
-      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+12PlO: kika-nakatikonawa	# another/others will leave you and us, another/others will leave you and us behind
-      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+2PlO: kika-nakatikowâwa	# another/others will leave you all, another/others will leave you all behind
-      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+3PlO: [ka-nakatikowak, ka-nakatikwak]	# another/others will leave them, another/others will leave them behind
-      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: ka-nakatîthiwa	# another/others will leave yet another/others, another/others will leave yet another/others behind
+      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+1SgO: nika-nakatikothiwa # another/others will leave me, another/others will leave me behind
+      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+2SgO: kika-nakatikothiwa # another/others will leave you, another/others will leave you behind
+      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+3SgO: [ka-nakatikow, ka-nakatik] # another/others will leave him/her, another/others will leave him/her behind
+      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+1PlO: nika-nakatikonâna # another/others will leave us, another/others will leave us behind
+      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+12PlO: kika-nakatikonawa # another/others will leave you and us, another/others will leave you and us behind
+      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+2PlO: kika-nakatikowâwa # another/others will leave you all, another/others will leave you all behind
+      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+3PlO: [ka-nakatikowak, ka-nakatikwak] # another/others will leave them, another/others will leave them behind
+      PV/ka+nakatîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: ka-nakatîthiwa # another/others will leave yet another/others, another/others will leave yet another/others behind
 
       # 5Sg/Pl
-      PV/ka+nakatîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: ka-nakatikothiwa	# yet another/others will leave another/others, yet another/others will leave another/others behind
+      PV/ka+nakatîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: ka-nakatikothiwa # yet another/others will leave another/others, yet another/others will leave another/others behind
 
       # X
-      PV/ka+nakatîw+V+TA+Ind+X+1SgO: nika-nakatikawin	# someone will leave me, someone will leave me behind
-      PV/ka+nakatîw+V+TA+Ind+X+2SgO: kika-nakatikawin	# someone will leave you, someone will leave you behind
-      PV/ka+nakatîw+V+TA+Ind+X+3SgO: ka-nakatâw	# someone will leave him/her, someone will leave him/her behind
-      PV/ka+nakatîw+V+TA+Ind+X+1PlO: nika-nakatikawinân	# someone will leave us, someone will leave us behind
-      PV/ka+nakatîw+V+TA+Ind+X+12PlO: [kika-nakatikawinaw, kika-nakatikawinânaw]	# someone will leave you and us, someone will leave you and us behind
-      PV/ka+nakatîw+V+TA+Ind+X+2PlO: kika-nakatikawinâwâw	# someone will leave you all, someone will leave you all behind
-      PV/ka+nakatîw+V+TA+Ind+X+3PlO: ka-nakatâwak	# someone will leave them, someone will leave them behind
-      PV/ka+nakatîw+V+TA+Ind+X+4Sg/PlO: ka-nakatâthiwa	# someone will leave another/others, someone will leave another/others behind
+      PV/ka+nakatîw+V+TA+Ind+X+1SgO: nika-nakatikawin # someone will leave me, someone will leave me behind
+      PV/ka+nakatîw+V+TA+Ind+X+2SgO: kika-nakatikawin # someone will leave you, someone will leave you behind
+      PV/ka+nakatîw+V+TA+Ind+X+3SgO: ka-nakatâw # someone will leave him/her, someone will leave him/her behind
+      PV/ka+nakatîw+V+TA+Ind+X+1PlO: nika-nakatikawinân # someone will leave us, someone will leave us behind
+      PV/ka+nakatîw+V+TA+Ind+X+12PlO: [kika-nakatikawinaw, kika-nakatikawinânaw] # someone will leave you and us, someone will leave you and us behind
+      PV/ka+nakatîw+V+TA+Ind+X+2PlO: kika-nakatikawinâwâw # someone will leave you all, someone will leave you all behind
+      PV/ka+nakatîw+V+TA+Ind+X+3PlO: ka-nakatâwak # someone will leave them, someone will leave them behind
+      PV/ka+nakatîw+V+TA+Ind+X+4Sg/PlO: ka-nakatâthiwa # someone will leave another/others, someone will leave another/others behind
 
       # 0Sg/Pl
-      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+1SgO: PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+1SgO
-      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+2SgO: PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+2SgO
-      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+3SgO: PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+3SgO
-      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+1PlO: PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+1PlO
-      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+12PlO: PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+12PlO
-      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+2PlO: PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+2PlO
-      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+3PlO: PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+3PlO
-      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+1SgO: nika-nakatikon
+      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+2SgO: kika-nakatikon
+      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+3SgO: ka-nakatikow
+      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+1PlO: nika-nakatikonân
+      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+12PlO: kika-nakatikonaw
+      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+2PlO: kika-nakatikowâw
+      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+3PlO: ka-nakatikowak
+      PV/ka+nakatîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: ka-nakatikothiwa
       
 
       # Inf # PV/ka
 
       # 1Sg
-      PV/ka+nakatîw+V+TA+Cnj+1Sg+2SgO: ka-nakatitân	# I will leave you, I will leave you behind
-      PV/ka+nakatîw+V+TA+Cnj+1Sg+3SgO: ka-nakatak	# I will leave him/her, I will leave him/her behind
-      PV/ka+nakatîw+V+TA+Cnj+1Sg+2PlO: ka-nakatitakok	# I will leave you all, I will leave you all behind
-      PV/ka+nakatîw+V+TA+Cnj+1Sg+3PlO: ka-nakatakik	# I will leave them, I will leave them behind
-      PV/ka+nakatîw+V+TA+Cnj+1Sg+4Sg/PlO: ka-nakatimak	# I will leave another/others, I will leave another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+1Sg+2SgO: ka-nakatitân # I will leave you, I will leave you behind
+      PV/ka+nakatîw+V+TA+Cnj+1Sg+3SgO: ka-nakatak # I will leave him/her, I will leave him/her behind
+      PV/ka+nakatîw+V+TA+Cnj+1Sg+2PlO: ka-nakatitakwâw # I will leave you all, I will leave you all behind
+      PV/ka+nakatîw+V+TA+Cnj+1Sg+3PlO: ka-nakatakwâw # I will leave them, I will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+1Sg+3PlO+Var/East: ka-nakataki # I will leave them, I will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+1Sg+4Sg/PlO: ka-nakatimak # I will leave another/others, I will leave another/others behind
 
       # 2Sg
-      PV/ka+nakatîw+V+TA+Cnj+2Sg+1SgO: ka-nakasithan	# you will leave me, you will leave me behind
-      PV/ka+nakatîw+V+TA+Cnj+2Sg+3SgO: ka-nakatat	# you will leave him/her, you will leave him/her behind
-      PV/ka+nakatîw+V+TA+Cnj+2Sg+1PlO: ka-nakasithâhk	# you will leave us, you will leave us behind
-      PV/ka+nakatîw+V+TA+Cnj+2Sg+3PlO: ka-nakatacik	# you will leave them, you will leave them behind
-      PV/ka+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-nakatimat	# you will leave another/others, you will leave another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+2Sg+1SgO: ka-nakasiyan # you will leave me, you will leave me behind
+      PV/ka+nakatîw+V+TA+Cnj+2Sg+3SgO: ka-nakatat # you will leave him/her, you will leave him/her behind
+      PV/ka+nakatîw+V+TA+Cnj+2Sg+1PlO: ka-nakasiyâhk # you will leave us, you will leave us behind
+      PV/ka+nakatîw+V+TA+Cnj+2Sg+3PlO: ka-nakatacik # you will leave them, you will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-nakatimat # you will leave another/others, you will leave another/others behind
 
       # 3Sg
-      PV/ka+nakatîw+V+TA+Cnj+2Sg+1SgO: ka-nakasithan	# you will leave me, you will leave me behind
-      PV/ka+nakatîw+V+TA+Cnj+3Sg+2SgO: ka-nakatisk	# he/she will leave you, he/she will leave you behind
-      PV/ka+nakatîw+V+TA+Cnj+2Sg+1PlO: ka-nakasithâhk	# you will leave us, you will leave us behind
-      PV/ka+nakatîw+V+TA+Cnj+3Sg+12PlO: ka-nakatikothahk	# he/she will leave you and us, he/she will leave you and us behind
-      PV/ka+nakatîw+V+TA+Cnj+3Sg+2PlO: ka-nakatikothîk	# he/she will leave you all, he/she will leave you all behind
-      PV/ka+nakatîw+V+TA+Cnj+2Sg+3PlO: ka-nakatacik	# you will leave them, you will leave them behind
-      PV/ka+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-nakatimat	# you will leave another/others, you will leave another/others behind
-      PV/ka+nakatîw+V+TA+Cnj+3Sg+5Sg/PlO: ka-nakatimât	# he/she will leave yet another/others, he/she will leave yet another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+2Sg+1SgO: ka-nakasiyan # you will leave me, you will leave me behind
+      PV/ka+nakatîw+V+TA+Cnj+3Sg+2SgO: ka-nakatisk # he/she will leave you, he/she will leave you behind
+      PV/ka+nakatîw+V+TA+Cnj+2Sg+1PlO: ka-nakasiyâhk # you will leave us, you will leave us behind
+      PV/ka+nakatîw+V+TA+Cnj+3Sg+1PlO: ka-nakatikoyâhk # you will leave us, you will leave us behind
+      PV/ka+nakatîw+V+TA+Cnj+3Sg+1PlO+Var/East: ka-nakasiyamiht # you will leave us, you will leave us behind
+      PV/ka+nakatîw+V+TA+Cnj+3Sg+12PlO: ka-nakatikoyahk # he/she will leave you and us, he/she will leave you and us behind
+      PV/ka+nakatîw+V+TA+Cnj+3Sg+12PlO+Var/East: ka-nakatitahk # he/she will leave you and us, he/she will leave you and us behind
+      PV/ka+nakatîw+V+TA+Cnj+3Sg+2PlO: ka-nakatikoyîk # he/she will leave you all, he/she will leave you all behind
+      PV/ka+nakatîw+V+TA+Cnj+3Sg+2PlO+Var/East: ka-nakatitîk # he/she will leave you all, he/she will leave you all behind
+      PV/ka+nakatîw+V+TA+Cnj+2Sg+3PlO: ka-nakatacik # you will leave them, you will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-nakatimat # you will leave another/others, you will leave another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+3Sg+5Sg/PlO: ka-nakatimât # he/she will leave yet another/others, he/she will leave yet another/others behind
 
       # 1Pl
-      PV/ka+nakatîw+V+TA+Cnj+1Pl+2SgO: ka-nakatitâhk	# we will leave you, we will leave you behind
-      PV/ka+nakatîw+V+TA+Cnj+1Pl+3SgO: ka-nakatâthâhk	# we will leave him/her, we will leave him/her behind
-      PV/ka+nakatîw+V+TA+Cnj+1Pl+2PlO: ka-nakatitâhk	# we will leave you all, we will leave you all behind
-      PV/ka+nakatîw+V+TA+Cnj+1Pl+3PlO: ka-nakatâthâhkik	# we will leave them, we will leave them behind
-      PV/ka+nakatîw+V+TA+Cnj+1Pl+4Sg/PlO: ka-nakatimâthâhk	# we will leave another/others, we will leave another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+1Pl+2SgO: ka-nakatitâhk # we will leave you, we will leave you behind
+      PV/ka+nakatîw+V+TA+Cnj+1Pl+3SgO: ka-nakatâyâhk # we will leave him/her, we will leave him/her behind
+      PV/ka+nakatîw+V+TA+Cnj+1Pl+3SgO+Var/East: ka-nakatakiht # we will leave him/her, we will leave him/her behind
+      PV/ka+nakatîw+V+TA+Cnj+1Pl+2PlO: ka-nakatitâhk # we will leave you all, we will leave you all behind
+      PV/ka+nakatîw+V+TA+Cnj+1Pl+3PlO: ka-nakatâyâhkwâw # we will leave them, we will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+1Pl+3PlO+Var/East: ka-nakatakihcik # we will leave them, we will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+1Pl+4Sg/PlO: ka-nakatimâyâhk # we will leave another/others, we will leave another/others behind
 
       # 12Pl
-      PV/ka+nakatîw+V+TA+Cnj+12Pl+3SgO: ka-nakatâthahk	# we and you will leave him/her, we and you will leave him/her behind
-      PV/ka+nakatîw+V+TA+Cnj+12Pl+3PlO: ka-nakatâthahkok	# we and you will leave them, we and you will leave them behind
-      PV/ka+nakatîw+V+TA+Cnj+12Pl+4Sg/PlO: ka-nakatimâthahk	# we and you will leave another/others, we and you will leave another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+12Pl+3SgO: ka-nakatâyahk # we and you will leave him/her, we and you will leave him/her behind
+      PV/ka+nakatîw+V+TA+Cnj+12Pl+3SgO+Var/East: ka-nakatahk # we and you will leave him/her, we and you will leave him/her behind
+      PV/ka+nakatîw+V+TA+Cnj+12Pl+3PlO: ka-nakatâyahkwâw # we and you will leave them, we and you will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+12Pl+3PlO+Var/East: ka-nakatahkwâw # we and you will leave them, we and you will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+12Pl+4Sg/PlO: ka-nakatimâyahk # we and you will leave another/others, we and you will leave another/others behind
 
       # 2Pl
-      PV/ka+nakatîw+V+TA+Cnj+2Pl+1SgO: ka-nakasithîk	# you all will leave me, you all will leave me behind
-      PV/ka+nakatîw+V+TA+Cnj+2Pl+3SgO: ka-nakatâthîk	# you all will leave him/her, you all will leave him/her behind
-      PV/ka+nakatîw+V+TA+Cnj+2Pl+1PlO: ka-nakasithâhk	# you all will leave us, you all will leave us behind
-      PV/ka+nakatîw+V+TA+Cnj+2Pl+3PlO: ka-nakatâthîkok	# you all will leave them, you all will leave them behind
-      PV/ka+nakatîw+V+TA+Cnj+2Pl+4Sg/PlO: ka-nakatimâthîk	# you all will leave another/others, you all will leave another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+2Pl+1SgO: ka-nakasiyîk # you all will leave me, you all will leave me behind
+      PV/ka+nakatîw+V+TA+Cnj+2Pl+3SgO: ka-nakatâyîk # you all will leave him/her, you all will leave him/her behind
+      PV/ka+nakatîw+V+TA+Cnj+2Pl+1PlO: ka-nakasiyâhk # you all will leave us, you all will leave us behind
+      PV/ka+nakatîw+V+TA+Cnj+2Pl+3PlO: ka-nakatâyîkwâw # you all will leave them, you all will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+2Pl+3PlO+Var/East: ka-nakatâyîkok # you all will leave them, you all will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+2Pl+4Sg/PlO: ka-nakatimâyîk # you all will leave another/others, you all will leave another/others behind
 
       # 3Pl
-      PV/ka+nakatîw+V+TA+Cnj+3Pl+1SgO: ka-nakasicik	# they will leave me, they will leave me behind
-      PV/ka+nakatîw+V+TA+Cnj+3Pl+2SgO: ka-nakatiskik	# they will leave you, they will leave you behind
-      PV/ka+nakatîw+V+TA+Cnj+3Pl+1PlO: ka-nakatikothâhkik	# they will leave us, they will leave us behind
-      PV/ka+nakatîw+V+TA+Cnj+3Pl+12PlO: ka-nakatikothahkok	# they will leave you and us, they will leave you and us behind
-      PV/ka+nakatîw+V+TA+Cnj+3Pl+2PlO: ka-nakatikothîkok	# they will leave you all, they will leave you all behind
-      PV/ka+nakatîw+V+TA+Cnj+3Pl+4Sg/PlO: ka-nakatâcik	# they will leave another/others, they will leave another/others behind
-      PV/ka+nakatîw+V+TA+Cnj+3Pl+5Sg/PlO: ka-nakatimâcik	# they will leave yet another/others, they will leave yet another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+3Pl+1SgO: [ka-nakasitwâw, ka-nakasicik] # they will leave me, they will leave me behind
+      PV/ka+nakatîw+V+TA+Cnj+3Pl+2SgO: ka-nakatiskwâw # they will leave you, they will leave you behind
+      PV/ka+nakatîw+V+TA+Cnj+3Pl+1PlO: ka-nakatikoyâhkwâw # they will leave us, they will leave us behind
+      PV/ka+nakatîw+V+TA+Cnj+3Pl+1PlO+Var/East: ka-nakasiyamihcik # they will leave us, they will leave us behind
+      PV/ka+nakatîw+V+TA+Cnj+3Pl+12PlO: ka-nakatikoyahkwâw # they will leave you and us, they will leave you and us behind
+      PV/ka+nakatîw+V+TA+Cnj+3Pl+12PlO+Var/East: ka-nakatitahkwâw # they will leave you and us, they will leave you and us behind
+      PV/ka+nakatîw+V+TA+Cnj+3Pl+2PlO: ka-nakatikoyîkwâw # they will leave you all, they will leave you all behind
+      PV/ka+nakatîw+V+TA+Cnj+3Pl+2PlO+Var/East: ka-nakatitîkwâw # they will leave you all, they will leave you all behind
+      PV/ka+nakatîw+V+TA+Cnj+3Pl+4Sg/PlO: ka-nakatâcik # they will leave another/others, they will leave another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+3Pl+5Sg/PlO: ka-nakatimâcik # they will leave yet another/others, they will leave yet another/others behind
 
       # 4Sg/Pl
-      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+1SgO: ka-nakatimit	# another/others will leave me, another/others will leave me behind
-      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+2SgO: ka-nakatimisk	# another/others will leave you, another/others will leave you behind
-      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: ka-nakatikot	# another/others will leave him/her, another/others will leave him/her behind
-      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+1PlO: ka-nakatikothâhk	# another/others will leave us, another/others will leave us behind
-      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+12PlO: ka-nakatikothahk	# another/others will leave you and us, another/others will leave you and us behind
-      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+2PlO: ka-nakatikothîk	# another/others will leave you all, another/others will leave you all behind
-      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+3PlO: ka-nakatikocik	# another/others will leave them, another/others will leave them behind
-      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: ka-nakatâthit	# another/others will leave yet another/others, another/others will leave yet another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+1SgO: ka-nakatimit # another/others will leave me, another/others will leave me behind
+      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+2SgO: ka-nakatimisk # another/others will leave you, another/others will leave you behind
+      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: ka-nakatikot # another/others will leave him/her, another/others will leave him/her behind
+      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+1PlO: ka-nakatikoyâhk # another/others will leave us, another/others will leave us behind
+      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+12PlO: ka-nakatikoyahk # another/others will leave you and us, another/others will leave you and us behind
+      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+2PlO: ka-nakatikoyîk # another/others will leave you all, another/others will leave you all behind
+      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+3PlO: ka-nakatikocik # another/others will leave them, another/others will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: ka-nakatâthit # another/others will leave yet another/others, another/others will leave yet another/others behind
 
       # 5Sg/Pl
-      PV/ka+nakatîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: ka-nakatikothit	# yet another/others will leave another/others, yet another/others will leave another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: ka-nakatikothit # yet another/others will leave another/others, yet another/others will leave another/others behind
 
       # X
-      PV/ka+nakatîw+V+TA+Cnj+X+1SgO: ka-nakatikawithân	# someone will leave me, someone will leave me behind
-      PV/ka+nakatîw+V+TA+Cnj+X+2SgO: ka-nakatikawithan	# someone will leave you, someone will leave you behind
-      PV/ka+nakatîw+V+TA+Cnj+X+3SgO: ka-nakatiht	# someone will leave him/her, someone will leave him/her behind
-      PV/ka+nakatîw+V+TA+Cnj+X+1PlO: ka-nakatikawithâhk	# someone will leave us, someone will leave us behind
-      PV/ka+nakatîw+V+TA+Cnj+X+12PlO: ka-nakatikawithahk	# someone will leave you and us, someone will leave you and us behind
-      PV/ka+nakatîw+V+TA+Cnj+X+2PlO: ka-nakatikawithîk	# someone will leave you all, someone will leave you all behind
-      PV/ka+nakatîw+V+TA+Cnj+X+3PlO: ka-nakatihcik	# someone will leave them, someone will leave them behind
-      PV/ka+nakatîw+V+TA+Cnj+X+4Sg/PlO: ka-nakatimiht	# someone will leave another/others, someone will leave another/others behind
+      PV/ka+nakatîw+V+TA+Cnj+X+1SgO: ka-nakatikawiyân # someone will leave me, someone will leave me behind
+      PV/ka+nakatîw+V+TA+Cnj+X+2SgO: ka-nakatikawiyan # someone will leave you, someone will leave you behind
+      PV/ka+nakatîw+V+TA+Cnj+X+3SgO: ka-nakatiht # someone will leave him/her, someone will leave him/her behind
+      PV/ka+nakatîw+V+TA+Cnj+X+1PlO: ka-nakatikawiyâhk # someone will leave us, someone will leave us behind
+      PV/ka+nakatîw+V+TA+Cnj+X+12PlO: ka-nakatikawiyahk # someone will leave you and us, someone will leave you and us behind
+      PV/ka+nakatîw+V+TA+Cnj+X+2PlO: ka-nakatikawiyîk # someone will leave you all, someone will leave you all behind
+      PV/ka+nakatîw+V+TA+Cnj+X+3PlO: ka-nakatihcik # someone will leave them, someone will leave them behind
+      PV/ka+nakatîw+V+TA+Cnj+X+4Sg/PlO: ka-nakatimiht # someone will leave another/others, someone will leave another/others behind
 
       # 0Sg/Pl
-      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO
-      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO
-      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO
-      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO
-      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO
-      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO
-      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO
-      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO: ka-nakatikoyân
+      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO: ka-nakatikoyan
+      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO: ka-nakatikot
+      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO: ka-nakatikoyâhk
+      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO: ka-nakatikoyahk
+      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO: ka-nakatikoyîk
+      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO: ka-nakatikocik
+      PV/ka+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: ka-nakatikothit
       
 
       # Inf # PV/ta
 
       # 1Sg
-      PV/ta+nakatîw+V+TA+Cnj+1Sg+2SgO: ta-nakatitân	# I leave you, I leave you behind
-      PV/ta+nakatîw+V+TA+Cnj+1Sg+3SgO: ta-nakatak	# I leave him/her, I leave him/her behind
-      PV/ta+nakatîw+V+TA+Cnj+1Sg+2PlO: ta-nakatitakok	# I leave you all, I leave you all behind
-      PV/ta+nakatîw+V+TA+Cnj+1Sg+3PlO: ta-nakatakik	# I leave them, I leave them behind
-      PV/ta+nakatîw+V+TA+Cnj+1Sg+4Sg/PlO: ta-nakatimak	# I leave another/others, I leave another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+1Sg+2SgO: ta-nakatitân # I leave you, I leave you behind
+      PV/ta+nakatîw+V+TA+Cnj+1Sg+3SgO: ta-nakatak # I leave him/her, I leave him/her behind
+      PV/ta+nakatîw+V+TA+Cnj+1Sg+2PlO: ta-nakatitakwâw # I leave you all, I leave you all behind
+      PV/ta+nakatîw+V+TA+Cnj+1Sg+3PlO: ta-nakatakwâw # I leave them, I leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+1Sg+3PlO+Var/East: ta-nakataki # I leave them, I leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+1Sg+4Sg/PlO: ta-nakatimak # I leave another/others, I leave another/others behind
 
       # 2Sg
-      PV/ta+nakatîw+V+TA+Cnj+2Sg+1SgO: ta-nakasithan	# you leave me, you leave me behind
-      PV/ta+nakatîw+V+TA+Cnj+2Sg+3SgO: ta-nakatat	# you leave him/her, you leave him/her behind
-      PV/ta+nakatîw+V+TA+Cnj+2Sg+1PlO: ta-nakasithâhk	# you leave us, you leave us behind
-      PV/ta+nakatîw+V+TA+Cnj+2Sg+3PlO: ta-nakatacik	# you leave them, you leave them behind
-      PV/ta+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-nakatimat	# you leave another/others, you leave another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+2Sg+1SgO: ta-nakasiyan # you leave me, you leave me behind
+      PV/ta+nakatîw+V+TA+Cnj+2Sg+3SgO: ta-nakatat # you leave him/her, you leave him/her behind
+      PV/ta+nakatîw+V+TA+Cnj+2Sg+1PlO: ta-nakasiyâhk # you leave us, you leave us behind
+      PV/ta+nakatîw+V+TA+Cnj+2Sg+3PlO: ta-nakatacik # you leave them, you leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-nakatimat # you leave another/others, you leave another/others behind
 
       # 3Sg
-      PV/ta+nakatîw+V+TA+Cnj+2Sg+1SgO: ta-nakasithan	# you leave me, you leave me behind
-      PV/ta+nakatîw+V+TA+Cnj+3Sg+2SgO: ta-nakatisk	# he/she leaves you, he/she leaves you behind
-      PV/ta+nakatîw+V+TA+Cnj+2Sg+1PlO: ta-nakasithâhk	# you leave us, you leave us behind
-      PV/ta+nakatîw+V+TA+Cnj+3Sg+12PlO: ta-nakatikothahk	# he/she leaves you and us, he/she leaves you and us behind
-      PV/ta+nakatîw+V+TA+Cnj+3Sg+2PlO: ta-nakatikothîk	# he/she leaves you all, he/she leaves you all behind
-      PV/ta+nakatîw+V+TA+Cnj+2Sg+3PlO: ta-nakatacik	# you leave them, you leave them behind
-      PV/ta+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-nakatimat	# you leave another/others, you leave another/others behind
-      PV/ta+nakatîw+V+TA+Cnj+3Sg+5Sg/PlO: ta-nakatimât	# he/she leaves yet another/others, he/she leaves yet another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+2Sg+1SgO: ta-nakasiyan # you leave me, you leave me behind
+      PV/ta+nakatîw+V+TA+Cnj+3Sg+2SgO: ta-nakatisk # he/she leaves you, he/she leaves you behind
+      PV/ta+nakatîw+V+TA+Cnj+2Sg+1PlO: ta-nakasiyâhk # you leave us, you leave us behind
+      PV/ta+nakatîw+V+TA+Cnj+3Sg+1PlO: ta-nakatikoyâhk # you leave us, you leave us behind
+      PV/ta+nakatîw+V+TA+Cnj+3Sg+1PlO+Var/East: ta-nakasiyamiht # you leave us, you leave us behind
+      PV/ta+nakatîw+V+TA+Cnj+3Sg+12PlO: ta-nakatikoyahk # he/she leaves you and us, he/she leaves you and us behind
+      PV/ta+nakatîw+V+TA+Cnj+3Sg+12PlO+Var/East: ta-nakatitahk # he/she leaves you and us, he/she leaves you and us behind
+      PV/ta+nakatîw+V+TA+Cnj+3Sg+2PlO: ta-nakatikoyîk # he/she leaves you all, he/she leaves you all behind
+      PV/ta+nakatîw+V+TA+Cnj+3Sg+2PlO+Var/East: ta-nakatitîk # he/she leaves you all, he/she leaves you all behind
+      PV/ta+nakatîw+V+TA+Cnj+2Sg+3PlO: ta-nakatacik # you leave them, you leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-nakatimat # you leave another/others, you leave another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+3Sg+5Sg/PlO: ta-nakatimât # he/she leaves yet another/others, he/she leaves yet another/others behind
 
       # 1Pl
-      PV/ta+nakatîw+V+TA+Cnj+1Pl+2SgO: ta-nakatitâhk	# we leave you, we leave you behind
-      PV/ta+nakatîw+V+TA+Cnj+1Pl+3SgO: ta-nakatâthâhk	# we leave him/her, we leave him/her behind
-      PV/ta+nakatîw+V+TA+Cnj+1Pl+2PlO: ta-nakatitâhk	# we leave you all, we leave you all behind
-      PV/ta+nakatîw+V+TA+Cnj+1Pl+3PlO: ta-nakatâthâhkik	# we leave them, we leave them behind
-      PV/ta+nakatîw+V+TA+Cnj+1Pl+4Sg/PlO: ta-nakatimâthâhk	# we leave another/others, we leave another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+1Pl+2SgO: ta-nakatitâhk # we leave you, we leave you behind
+      PV/ta+nakatîw+V+TA+Cnj+1Pl+3SgO: ta-nakatâyâhk # we leave him/her, we leave him/her behind
+      PV/ta+nakatîw+V+TA+Cnj+1Pl+3SgO+Var/East: ta-nakatakiht # we leave him/her, we leave him/her behind
+      PV/ta+nakatîw+V+TA+Cnj+1Pl+2PlO: ta-nakatitâhk # we leave you all, we leave you all behind
+      PV/ta+nakatîw+V+TA+Cnj+1Pl+3PlO: ta-nakatâyâhkwâw # we leave them, we leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+1Pl+3PlO+Var/East: ta-nakatakihcik # we leave them, we leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+1Pl+4Sg/PlO: ta-nakatimâyâhk # we leave another/others, we leave another/others behind
 
       # 12Pl
-      PV/ta+nakatîw+V+TA+Cnj+12Pl+3SgO: ta-nakatâthahk	# we and you leave him/her, we and you leave him/her behind
-      PV/ta+nakatîw+V+TA+Cnj+12Pl+3PlO: ta-nakatâthahkok	# we and you leave them, we and you leave them behind
-      PV/ta+nakatîw+V+TA+Cnj+12Pl+4Sg/PlO: ta-nakatimâthahk	# we and you leave another/others, we and you leave another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+12Pl+3SgO: ta-nakatâyahk # we and you leave him/her, we and you leave him/her behind
+      PV/ta+nakatîw+V+TA+Cnj+12Pl+3SgO+Var/East: ta-nakatahk # we and you leave him/her, we and you leave him/her behind
+      PV/ta+nakatîw+V+TA+Cnj+12Pl+3PlO: ta-nakatâyahkwâw # we and you leave them, we and you leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+12Pl+3PlO+Var/East: ta-nakatahkwâw # we and you leave them, we and you leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+12Pl+4Sg/PlO: ta-nakatimâyahk # we and you leave another/others, we and you leave another/others behind
 
       # 2Pl
-      PV/ta+nakatîw+V+TA+Cnj+2Pl+1SgO: ta-nakasithîk	# you all leave me, you all leave me behind
-      PV/ta+nakatîw+V+TA+Cnj+2Pl+3SgO: ta-nakatâthîk	# you all leave him/her, you all leave him/her behind
-      PV/ta+nakatîw+V+TA+Cnj+2Pl+1PlO: ta-nakasithâhk	# you all leave us, you all leave us behind
-      PV/ta+nakatîw+V+TA+Cnj+2Pl+3PlO: ta-nakatâthîkok	# you all leave them, you all leave them behind
-      PV/ta+nakatîw+V+TA+Cnj+2Pl+4Sg/PlO: ta-nakatimâthîk	# you all leave another/others, you all leave another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+2Pl+1SgO: ta-nakasiyîk # you all leave me, you all leave me behind
+      PV/ta+nakatîw+V+TA+Cnj+2Pl+3SgO: ta-nakatâyîk # you all leave him/her, you all leave him/her behind
+      PV/ta+nakatîw+V+TA+Cnj+2Pl+1PlO: ta-nakasiyâhk # you all leave us, you all leave us behind
+      PV/ta+nakatîw+V+TA+Cnj+2Pl+3PlO: ta-nakatâyîkwâw # you all leave them, you all leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+2Pl+3PlO+Var/East: ta-nakatâyîkok # you all leave them, you all leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+2Pl+4Sg/PlO: ta-nakatimâyîk # you all leave another/others, you all leave another/others behind
 
       # 3Pl
-      PV/ta+nakatîw+V+TA+Cnj+3Pl+1SgO: ta-nakasicik	# they leave me, they leave me behind
-      PV/ta+nakatîw+V+TA+Cnj+3Pl+2SgO: ta-nakatiskik	# they leave you, they leave you behind
-      PV/ta+nakatîw+V+TA+Cnj+3Pl+1PlO: ta-nakatikothâhkik	# they leave us, they leave us behind
-      PV/ta+nakatîw+V+TA+Cnj+3Pl+12PlO: ta-nakatikothahkok	# they leave you and us, they leave you and us behind
-      PV/ta+nakatîw+V+TA+Cnj+3Pl+2PlO: ta-nakatikothîkok	# they leave you all, they leave you all behind
-      PV/ta+nakatîw+V+TA+Cnj+3Pl+4Sg/PlO: ta-nakatâcik	# they leave another/others, they leave another/others behind
-      PV/ta+nakatîw+V+TA+Cnj+3Pl+5Sg/PlO: ta-nakatimâcik	# they leave yet another/others, they leave yet another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+3Pl+1SgO: [ta-nakasitwâw, ta-nakasicik] # they leave me, they leave me behind
+      PV/ta+nakatîw+V+TA+Cnj+3Pl+2SgO: ta-nakatiskwâw # they leave you, they leave you behind
+      PV/ta+nakatîw+V+TA+Cnj+3Pl+1PlO: ta-nakatikoyâhkwâw # they leave us, they leave us behind
+      PV/ta+nakatîw+V+TA+Cnj+3Pl+1PlO+Var/East: ta-nakasiyamihcik # they leave us, they leave us behind
+      PV/ta+nakatîw+V+TA+Cnj+3Pl+12PlO: ta-nakatikoyahkwâw # they leave you and us, they leave you and us behind
+      PV/ta+nakatîw+V+TA+Cnj+3Pl+12PlO+Var/East: ta-nakatitahkwâw # they leave you and us, they leave you and us behind
+      PV/ta+nakatîw+V+TA+Cnj+3Pl+2PlO: ta-nakatikoyîkwâw # they leave you all, they leave you all behind
+      PV/ta+nakatîw+V+TA+Cnj+3Pl+2PlO+Var/East: ta-nakatitîkwâw # they leave you all, they leave you all behind
+      PV/ta+nakatîw+V+TA+Cnj+3Pl+4Sg/PlO: ta-nakatâcik # they leave another/others, they leave another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+3Pl+5Sg/PlO: ta-nakatimâcik # they leave yet another/others, they leave yet another/others behind
 
       # 4Sg/Pl
-      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+1SgO: ta-nakatimit	# another/others leave me, another/others leave me behind
-      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+2SgO: ta-nakatimisk	# another/others leave you, another/others leave you behind
-      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: ta-nakatikot	# another/others leave him/her, another/others leave him/her behind
-      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+1PlO: ta-nakatikothâhk	# another/others leave us, another/others leave us behind
-      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+12PlO: ta-nakatikothahk	# another/others leave you and us, another/others leave you and us behind
-      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+2PlO: ta-nakatikothîk	# another/others leave you all, another/others leave you all behind
-      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+3PlO: ta-nakatikocik	# another/others leave them, another/others leave them behind
-      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: ta-nakatâthit	# another/others leave yet another/others, another/others leave yet another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+1SgO: ta-nakatimit # another/others leave me, another/others leave me behind
+      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+2SgO: ta-nakatimisk # another/others leave you, another/others leave you behind
+      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+3SgO: ta-nakatikot # another/others leave him/her, another/others leave him/her behind
+      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+1PlO: ta-nakatikoyâhk # another/others leave us, another/others leave us behind
+      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+12PlO: ta-nakatikoyahk # another/others leave you and us, another/others leave you and us behind
+      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+2PlO: ta-nakatikoyîk # another/others leave you all, another/others leave you all behind
+      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+3PlO: ta-nakatikocik # another/others leave them, another/others leave them behind
+      PV/ta+nakatîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: ta-nakatâthit # another/others leave yet another/others, another/others leave yet another/others behind
 
       # 5Sg/Pl
-      PV/ta+nakatîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: ta-nakatikothit	# yet another/others leave another/others, yet another/others leave another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: ta-nakatikothit # yet another/others leave another/others, yet another/others leave another/others behind
 
       # X
-      PV/ta+nakatîw+V+TA+Cnj+X+1SgO: ta-nakatikawithân	# someone leaves me, someone leaves me behind
-      PV/ta+nakatîw+V+TA+Cnj+X+2SgO: ta-nakatikawithan	# someone leaves you, someone leaves you behind
-      PV/ta+nakatîw+V+TA+Cnj+X+3SgO: ta-nakatiht	# someone leaves him/her, someone leaves him/her behind
-      PV/ta+nakatîw+V+TA+Cnj+X+1PlO: ta-nakatikawithâhk	# someone leaves us, someone leaves us behind
-      PV/ta+nakatîw+V+TA+Cnj+X+12PlO: ta-nakatikawithahk	# someone leaves you and us, someone leaves you and us behind
-      PV/ta+nakatîw+V+TA+Cnj+X+2PlO: ta-nakatikawithîk	# someone leaves you all, someone leaves you all behind
-      PV/ta+nakatîw+V+TA+Cnj+X+3PlO: ta-nakatihcik	# someone leaves them, someone leaves them behind
-      PV/ta+nakatîw+V+TA+Cnj+X+4Sg/PlO: ta-nakatimiht	# someone leaves another/others, someone leaves another/others behind
+      PV/ta+nakatîw+V+TA+Cnj+X+1SgO: ta-nakatikawiyân # someone leaves me, someone leaves me behind
+      PV/ta+nakatîw+V+TA+Cnj+X+2SgO: ta-nakatikawiyan # someone leaves you, someone leaves you behind
+      PV/ta+nakatîw+V+TA+Cnj+X+3SgO: ta-nakatiht # someone leaves him/her, someone leaves him/her behind
+      PV/ta+nakatîw+V+TA+Cnj+X+1PlO: ta-nakatikawiyâhk # someone leaves us, someone leaves us behind
+      PV/ta+nakatîw+V+TA+Cnj+X+12PlO: ta-nakatikawiyahk # someone leaves you and us, someone leaves you and us behind
+      PV/ta+nakatîw+V+TA+Cnj+X+2PlO: ta-nakatikawiyîk # someone leaves you all, someone leaves you all behind
+      PV/ta+nakatîw+V+TA+Cnj+X+3PlO: ta-nakatihcik # someone leaves them, someone leaves them behind
+      PV/ta+nakatîw+V+TA+Cnj+X+4Sg/PlO: ta-nakatimiht # someone leaves another/others, someone leaves another/others behind
 
       # 0Sg/Pl
-      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO
-      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO
-      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO
-      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO
-      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO
-      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO
-      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO
-      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+1SgO: ta-nakatikoyân
+      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+2SgO: ta-nakatikoyan
+      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+3SgO: ta-nakatikot
+      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+1PlO: ta-nakatikoyâhk
+      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+12PlO: ta-nakatikoyahk
+      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+2PlO: ta-nakatikoyîk
+      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+3PlO: ta-nakatikocik
+      PV/ta+nakatîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: ta-nakatikothit
       
 
       # Fut # Cond
 
       # 1Sg
-      nakatîw+V+TA+Fut+Cond+1Sg+2SgO: nakatitâni	# when I leave you, when I leave you behind
-      nakatîw+V+TA+Fut+Cond+1Sg+3SgO: nakataki	# when I leave him/her, when I leave him/her behind
-      nakatîw+V+TA+Fut+Cond+1Sg+2PlO: nakatitako	# when I leave you all, when I leave you all behind
-      nakatîw+V+TA+Fut+Cond+1Sg+3PlO: nakatakwâwi	# when I leave them, when I leave them behind
-      nakatîw+V+TA+Fut+Cond+1Sg+4Sg/PlO: nakatimaki	# when I leave another/others, when I leave another/others behind
+      nakatîw+V+TA+Fut+Cond+1Sg+2SgO: nakatitâni # when I leave you, when I leave you behind
+      nakatîw+V+TA+Fut+Cond+1Sg+3SgO: nakataki # when I leave him/her, when I leave him/her behind
+      nakatîw+V+TA+Fut+Cond+1Sg+2PlO: nakatitahkwâwi # when I leave you all, when I leave you all behind
+      nakatîw+V+TA+Fut+Cond+1Sg+3PlO: nakatakwâwi # when I leave them, when I leave them behind
+      nakatîw+V+TA+Fut+Cond+1Sg+4Sg/PlO: nakatimaki # when I leave another/others, when I leave another/others behind
 
       # 2Sg
-      nakatîw+V+TA+Fut+Cond+2Sg+1SgO: nakasithani	# when you leave me, when you leave me behind
-      nakatîw+V+TA+Fut+Cond+2Sg+3SgO: nakataci	# when you leave him/her, when you leave him/her behind
-      nakatîw+V+TA+Fut+Cond+2Sg+1PlO: nakasithâhki	# when you leave us, when you leave us behind
-      nakatîw+V+TA+Fut+Cond+2Sg+3PlO: nakatatwâwi	# when you leave them, when you leave them behind
-      nakatîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: nakatimaci	# when you leave another/others, when you leave another/others behind
+      nakatîw+V+TA+Fut+Cond+2Sg+1SgO: nakasiyani # when you leave me, when you leave me behind
+      nakatîw+V+TA+Fut+Cond+2Sg+3SgO: nakataci # when you leave him/her, when you leave him/her behind
+      nakatîw+V+TA+Fut+Cond+2Sg+1PlO: nakasiyâhki # when you leave us, when you leave us behind
+      nakatîw+V+TA+Fut+Cond+2Sg+3PlO: nakatatwâwi # when you leave them, when you leave them behind
+      nakatîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: nakatimaci # when you leave another/others, when you leave another/others behind
 
       # 3Sg
-      nakatîw+V+TA+Fut+Cond+2Sg+1SgO: nakasithani	# when you leave me, when you leave me behind
-      nakatîw+V+TA+Fut+Cond+2Sg+2SgO: nakatîw+V+TA+Fut+Cond+2Sg+2SgO	# when you leave you, when you leave you behind
-      nakatîw+V+TA+Fut+Cond+2Sg+1PlO: nakasithâhki	# when you leave us, when you leave us behind
-      nakatîw+V+TA+Fut+Cond+3Sg+12PlO: [nakatikothahki, nakatikothahko]	# when he/she leaves you and us, when he/she leaves you and us behind
-      nakatîw+V+TA+Fut+Cond+3Sg+2PlO: nakatikothîko	# when he/she leaves you all, when he/she leaves you all behind
-      nakatîw+V+TA+Fut+Cond+2Sg+3PlO: nakatatwâwi	# when you leave them, when you leave them behind
-      nakatîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: nakatimaci	# when you leave another/others, when you leave another/others behind
-      nakatîw+V+TA+Fut+Cond+3Sg+5Sg/PlO: nakatimâci	# when he/she leaves yet another/others, when he/she leaves yet another/others behind
+      nakatîw+V+TA+Fut+Cond+2Sg+1SgO: nakasiyani # when you leave me, when you leave me behind
+      nakatîw+V+TA+Fut+Cond+2Sg+1PlO: nakasiyâhki # when you leave us, when you leave us behind
+      nakatîw+V+TA+Fut+Cond+3Sg+1PlO: nakatikoyâhki # when you leave us, when you leave us behind
+      nakatîw+V+TA+Fut+Cond+3Sg+1PlO+Var/East: nakatitahkwâwi # when you leave us, when you leave us behind
+      nakatîw+V+TA+Fut+Cond+3Sg+12PlO: nakatikoyahki # when he/she leaves you and us, when he/she leaves you and us behind
+      nakatîw+V+TA+Fut+Cond+3Sg+12PlO+Var/East: nakasiyamihci # when he/she leaves you and us, when he/she leaves you and us behind
+      nakatîw+V+TA+Fut+Cond+3Sg+2PlO: nakatikoyîko # when he/she leaves you all, when he/she leaves you all behind
+      nakatîw+V+TA+Fut+Cond+3Sg+2PlO+Var/East: nakatitîko # when he/she leaves you all, when he/she leaves you all behind
+      nakatîw+V+TA+Fut+Cond+2Sg+3PlO: nakatatwâwi # when you leave them, when you leave them behind
+      nakatîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: nakatimaci # when you leave another/others, when you leave another/others behind
+      nakatîw+V+TA+Fut+Cond+3Sg+5Sg/PlO: nakatimâci # when he/she leaves yet another/others, when he/she leaves yet another/others behind
 
       # 1Pl
-      nakatîw+V+TA+Fut+Cond+1Pl+2SgO: nakatitâhki	# when we leave you, when we leave you behind
-      nakatîw+V+TA+Fut+Cond+1Pl+3SgO: nakatâthâhki	# when we leave him/her, when we leave him/her behind
-      nakatîw+V+TA+Fut+Cond+1Pl+2PlO: nakatitâhki	# when we leave you all, when we leave you all behind
-      nakatîw+V+TA+Fut+Cond+1Pl+3PlO: nakatâthâhkwâwi	# when we leave them, when we leave them behind
-      nakatîw+V+TA+Fut+Cond+1Pl+4Sg/PlO: nakatimâthâhki	# when we leave another/others, when we leave another/others behind
+      nakatîw+V+TA+Fut+Cond+1Pl+2SgO: nakatitâhki # when we leave you, when we leave you behind
+      nakatîw+V+TA+Fut+Cond+1Pl+3SgO: nakatâyâhki # when we leave him/her, when we leave him/her behind
+      nakatîw+V+TA+Fut+Cond+1Pl+3SgO+Var/East: nakatakihci # when we leave him/her, when we leave him/her behind
+      nakatîw+V+TA+Fut+Cond+1Pl+2PlO: nakatitahkwâwi # when we leave you all, when we leave you all behind
+      nakatîw+V+TA+Fut+Cond+1Pl+3PlO: nakatâyâhkwâwi # when we leave them, when we leave them behind
+      nakatîw+V+TA+Fut+Cond+1Pl+3PlO+Var/East: nakatakihci # when we leave them, when we leave them behind
+      nakatîw+V+TA+Fut+Cond+1Pl+4Sg/PlO: nakatimâyâhki # when we leave another/others, when we leave another/others behind
 
       # 12Pl
-      nakatîw+V+TA+Fut+Cond+12Pl+3SgO: [nakatâthahki, nakatâthahko]	# when we and you leave him/her, when we and you leave him/her behind
-      nakatîw+V+TA+Fut+Cond+12Pl+3PlO: nakatâthahkwâwi	# when we and you leave them, when we and you leave them behind
-      nakatîw+V+TA+Fut+Cond+12Pl+4Sg/PlO: [nakatimâthahki, nakatimâthahko]	# when we and you leave another/others, when we and you leave another/others behind
+      nakatîw+V+TA+Fut+Cond+12Pl+3SgO: nakatâyahki # when we and you leave him/her, when we and you leave him/her behind
+      nakatîw+V+TA+Fut+Cond+12Pl+3SgO+Var/East: nakatahki # when we and you leave him/her, when we and you leave him/her behind
+      nakatîw+V+TA+Fut+Cond+12Pl+3PlO: nakatâyahkwâwi # when we and you leave them, when we and you leave them behind
+      nakatîw+V+TA+Fut+Cond+12Pl+3PlO+Var/East: nakatahkwayak # when we and you leave them, when we and you leave them behind
+      nakatîw+V+TA+Fut+Cond+12Pl+4Sg/PlO: nakatimâyahki # when we and you leave another/others, when we and you leave another/others behind
 
       # 2Pl
-      nakatîw+V+TA+Fut+Cond+2Pl+1SgO: nakasithîko	# when you all leave me, when you all leave me behind
-      nakatîw+V+TA+Fut+Cond+2Pl+3SgO: nakatâthîko	# when you all leave him/her, when you all leave him/her behind
-      nakatîw+V+TA+Fut+Cond+2Pl+1PlO: nakasithâhki	# when you all leave us, when you all leave us behind
-      nakatîw+V+TA+Fut+Cond+2Pl+3PlO: nakatâthîkwâwi	# when you all leave them, when you all leave them behind
-      nakatîw+V+TA+Fut+Cond+2Pl+4Sg/PlO: nakatimâthîko	# when you all leave another/others, when you all leave another/others behind
+      nakatîw+V+TA+Fut+Cond+2Pl+1SgO: nakasiyîko # when you all leave me, when you all leave me behind
+      nakatîw+V+TA+Fut+Cond+2Pl+3SgO: nakatâyîko # when you all leave him/her, when you all leave him/her behind
+      nakatîw+V+TA+Fut+Cond+2Pl+1PlO: nakasiyîko # when you all leave us, when you all leave us behind
+      nakatîw+V+TA+Fut+Cond+2Pl+3PlO: nakatâyîkwâwi # when you all leave them, when you all leave them behind
+      nakatîw+V+TA+Fut+Cond+2Pl+3PlO+Var/East: nakatayîko # when you all leave them, when you all leave them behind
+      nakatîw+V+TA+Fut+Cond+2Pl+4Sg/PlO: nakatimâyîko # when you all leave another/others, when you all leave another/others behind
 
       # 3Pl
-      nakatîw+V+TA+Fut+Cond+3Pl+1SgO: nakasitwâwi	# when they leave me, when they leave me behind
-      nakatîw+V+TA+Fut+Cond+3Pl+2SgO: nakatiskwâwi	# when they leave you, when they leave you behind
-      nakatîw+V+TA+Fut+Cond+3Pl+1PlO: nakatikothâhkwâwi	# when they leave us, when they leave us behind
-      nakatîw+V+TA+Fut+Cond+3Pl+12PlO: nakatikothahkwâwi	# when they leave you and us, when they leave you and us behind
-      nakatîw+V+TA+Fut+Cond+3Pl+2PlO: nakatikothîkwâwi	# when they leave you all, when they leave you all behind
-      nakatîw+V+TA+Fut+Cond+3Pl+4Sg/PlO: nakatâtwâwi	# when they leave another/others, when they leave another/others behind
-      nakatîw+V+TA+Fut+Cond+3Pl+5Sg/PlO: nakatimâtwâwi	# when they leave yet another/others, when they leave yet another/others behind
+      nakatîw+V+TA+Fut+Cond+3Pl+1SgO: nakasitwâwi # when they leave me, when they leave me behind
+      nakatîw+V+TA+Fut+Cond+3Pl+2SgO: nakatiskwâwi # when they leave you, when they leave you behind
+      nakatîw+V+TA+Fut+Cond+3Pl+1PlO: nakatikoyâhkwâwi # when they leave us, when they leave us behind
+      nakatîw+V+TA+Fut+Cond+3Pl+1PlO+Var/East: nakatitahkwâwi # when they leave us, when they leave us behind
+      nakatîw+V+TA+Fut+Cond+3Pl+12PlO: nakatikoyahkwâwi # when they leave you and us, when they leave you and us behind
+      nakatîw+V+TA+Fut+Cond+3Pl+12PlO+Var/East: nakatitahkwâwi # when they leave you and us, when they leave you and us behind
+      nakatîw+V+TA+Fut+Cond+3Pl+2PlO: nakatikoyîkwâwi # when they leave you all, when they leave you all behind
+      nakatîw+V+TA+Fut+Cond+3Pl+2PlO+Var/East: nakatitîko # when they leave you all, when they leave you all behind
+      nakatîw+V+TA+Fut+Cond+3Pl+4Sg/PlO: nakatâtwâwi # when they leave another/others, when they leave another/others behind
+      nakatîw+V+TA+Fut+Cond+3Pl+5Sg/PlO: nakatimâtwâwi # when they leave yet another/others, when they leave yet another/others behind
 
       # 4Sg/Pl
-      nakatîw+V+TA+Fut+Cond+4Sg/Pl+1SgO: nakatimici	# when another/others leave me, when another/others leave me behind
-      nakatîw+V+TA+Fut+Cond+4Sg/Pl+2SgO: nakatimiski	# when another/others leave you, when another/others leave you behind
-      nakatîw+V+TA+Fut+Cond+4Sg/Pl+3SgO: nakatikoci	# when another/others leave him/her, when another/others leave him/her behind
-      nakatîw+V+TA+Fut+Cond+4Sg/Pl+1PlO: nakatikothâhki	# when another/others leave us, when another/others leave us behind
-      nakatîw+V+TA+Fut+Cond+4Sg/Pl+12PlO: [nakatikothahki, nakatikothahko]	# when another/others leave you and us, when another/others leave you and us behind
-      nakatîw+V+TA+Fut+Cond+4Sg/Pl+2PlO: nakatikothîko	# when another/others leave you all, when another/others leave you all behind
-      nakatîw+V+TA+Fut+Cond+4Sg/Pl+3PlO: nakatikotwâwi	# when another/others leave them, when another/others leave them behind
-      nakatîw+V+TA+Fut+Cond+4Sg/Pl+5Sg/PlO: nakatâthici	# when another/others leave yet another/others, when another/others leave yet another/others behind
+      nakatîw+V+TA+Fut+Cond+4Sg/Pl+1SgO: nakatimici # when another/others leave me, when another/others leave me behind
+      nakatîw+V+TA+Fut+Cond+4Sg/Pl+2SgO: nakatimiski # when another/others leave you, when another/others leave you behind
+      nakatîw+V+TA+Fut+Cond+4Sg/Pl+3SgO: nakatikoci # when another/others leave him/her, when another/others leave him/her behind
+      nakatîw+V+TA+Fut+Cond+4Sg/Pl+1PlO: nakatikoyâhki # when another/others leave us, when another/others leave us behind
+      nakatîw+V+TA+Fut+Cond+4Sg/Pl+12PlO: nakatikoyahki # when another/others leave you and us, when another/others leave you and us behind
+      nakatîw+V+TA+Fut+Cond+4Sg/Pl+2PlO: nakatikoyîko # when another/others leave you all, when another/others leave you all behind
+      nakatîw+V+TA+Fut+Cond+4Sg/Pl+3PlO: nakatikotwâwi # when another/others leave them, when another/others leave them behind
+      nakatîw+V+TA+Fut+Cond+4Sg/Pl+5Sg/PlO: nakatâthici # when another/others leave yet another/others, when another/others leave yet another/others behind
 
       # 5Sg/Pl
-      nakatîw+V+TA+Fut+Cond+5Sg/Pl+4Sg/PlO: nakatikothici	# when yet another/others leave another/others, when yet another/others leave another/others behind
+      nakatîw+V+TA+Fut+Cond+5Sg/Pl+4Sg/PlO: nakatikothici # when yet another/others leave another/others, when yet another/others leave another/others behind
 
       # X
-      nakatîw+V+TA+Fut+Cond+X+1SgO: nakatikawithâni	# when someone leaves me, when someone leaves me behind
-      nakatîw+V+TA+Fut+Cond+X+2SgO: nakatikawithani	# when someone leaves you, when someone leaves you behind
-      nakatîw+V+TA+Fut+Cond+X+3SgO: nakatihci	# when someone leaves him/her, when someone leaves him/her behind
-      nakatîw+V+TA+Fut+Cond+X+1PlO: nakatikawithâhki	# when someone leaves us, when someone leaves us behind
-      nakatîw+V+TA+Fut+Cond+X+12PlO: nakatikawithahki	# when someone leaves you and us, when someone leaves you and us behind
-      nakatîw+V+TA+Fut+Cond+X+2PlO: nakatikawithîko	# when someone leaves you all, when someone leaves you all behind
-      nakatîw+V+TA+Fut+Cond+X+3PlO: nakatihtwâwi	# when someone leaves them, when someone leaves them behind
-      nakatîw+V+TA+Fut+Cond+X+4Sg/PlO: nakatimihci	# when someone leaves another/others, when someone leaves another/others behind
-
-      # 0Sg/Pl
-      nakatîw+V+TA+Fut+Cond+0Sg/Pl+1SgO: nakatîw+V+TA+Fut+Cond+0Sg/Pl+1SgO
-      nakatîw+V+TA+Fut+Cond+0Sg/Pl+2SgO: nakatîw+V+TA+Fut+Cond+0Sg/Pl+2SgO
-      nakatîw+V+TA+Fut+Cond+0Sg/Pl+3SgO: nakatîw+V+TA+Fut+Cond+0Sg/Pl+3SgO
-      nakatîw+V+TA+Fut+Cond+0Sg/Pl+1PlO: nakatîw+V+TA+Fut+Cond+0Sg/Pl+1PlO
-      nakatîw+V+TA+Fut+Cond+0Sg/Pl+12PlO: nakatîw+V+TA+Fut+Cond+0Sg/Pl+12PlO
-      nakatîw+V+TA+Fut+Cond+0Sg/Pl+2PlO: nakatîw+V+TA+Fut+Cond+0Sg/Pl+2PlO
-      nakatîw+V+TA+Fut+Cond+0Sg/Pl+3PlO: nakatîw+V+TA+Fut+Cond+0Sg/Pl+3PlO
-      nakatîw+V+TA+Fut+Cond+0Sg/Pl+4Sg/PlO: nakatîw+V+TA+Fut+Cond+0Sg/Pl+4Sg/PlO
+      nakatîw+V+TA+Fut+Cond+X+1SgO: nakatikawiyâni # when someone leaves me, when someone leaves me behind
+      nakatîw+V+TA+Fut+Cond+X+2SgO: nakatikawiyani # when someone leaves you, when someone leaves you behind
+      nakatîw+V+TA+Fut+Cond+X+3SgO: nakatihci # when someone leaves him/her, when someone leaves him/her behind
+      nakatîw+V+TA+Fut+Cond+X+1PlO: nakatikawiyâhki # when someone leaves us, when someone leaves us behind
+      nakatîw+V+TA+Fut+Cond+X+12PlO: nakatikawiyahki # when someone leaves you and us, when someone leaves you and us behind
+      nakatîw+V+TA+Fut+Cond+X+2PlO: nakatikawiyîko # when someone leaves you all, when someone leaves you all behind
+      nakatîw+V+TA+Fut+Cond+X+3PlO: nakatihtwâwi # when someone leaves them, when someone leaves them behind
+      nakatîw+V+TA+Fut+Cond+X+4Sg/PlO: nakatimihci # when someone leaves another/others, when someone leaves another/others behind
       
 
       # Imp # Imm
 
       # 2Sg
-      nakatîw+V+TA+Imp+Imm+2Sg+1SgO: nakasin	# (you) leave me now, (you) leave me behind now
-      nakatîw+V+TA+Imp+Imm+2Sg+1PlO: nakasinân	# (you) leave us now, (you) leave us behind now
-      nakatîw+V+TA+Imp+Imm+2Sg+3SgO: nakas	# (you) leave him/her now, (you) leave him/her behind now
-      nakatîw+V+TA+Imp+Imm+2Sg+3PlO: nakasik	# (you) leave them now, (you) leave them behind now
+      nakatîw+V+TA+Imp+Imm+2Sg+1SgO: nakasin # (you) leave me now, (you) leave me behind now
+      nakatîw+V+TA+Imp+Imm+2Sg+1PlO: nakasinân # (you) leave us now, (you) leave us behind now
+      nakatîw+V+TA+Imp+Imm+2Sg+3SgO: nakas # (you) leave him/her now, (you) leave him/her behind now
+      nakatîw+V+TA+Imp+Imm+2Sg+3PlO: nakasik # (you) leave them now, (you) leave them behind now
 
       # 12Pl
-      nakatîw+V+TA+Imp+Imm+12Pl+3SgO: nakatâtân	# let you and us leave him/her now, let you and us leave him/her behind now
-      nakatîw+V+TA+Imp+Imm+12Pl+3PlO: nakatâtânik	# let you and us leave them now, let you and us leave them behind now
+      nakatîw+V+TA+Imp+Imm+12Pl+3SgO: nakatâtân # let you and us leave him/her now, let you and us leave him/her behind now
+      nakatîw+V+TA+Imp+Imm+12Pl+3PlO: nakatâtânik # let you and us leave them now, let you and us leave them behind now
 
       # 2Pl
-      nakatîw+V+TA+Imp+Imm+2Pl+1SgO: nakasik	# (you all) leave me now, (you all) leave me behind now
-      nakatîw+V+TA+Imp+Imm+2Pl+1PlO: nakasinân	# (you all) leave us now, (you all) leave us behind now
-      nakatîw+V+TA+Imp+Imm+2Pl+3SgO: nakatihk	# (you all) leave him/her now, (you all) leave him/her behind now
-      nakatîw+V+TA+Imp+Imm+2Pl+3PlO: nakatihkok	# (you all) leave them now, (you all) leave them behind now
+      nakatîw+V+TA+Imp+Imm+2Pl+1SgO: nakasik # (you all) leave me now, (you all) leave me behind now
+      nakatîw+V+TA+Imp+Imm+2Pl+1PlO: nakasinân # (you all) leave us now, (you all) leave us behind now
+      nakatîw+V+TA+Imp+Imm+2Pl+3SgO: nakatihk # (you all) leave him/her now, (you all) leave him/her behind now
+      nakatîw+V+TA+Imp+Imm+2Pl+3PlO: nakatihkwâw # (you all) leave them now, (you all) leave them behind now
+      nakatîw+V+TA+Imp+Imm+2Pl+3PlO+Var/East: nakasik # (you all) leave them now, (you all) leave them behind now
       
 
       # Imp # Del
 
       # 2Sg
-      nakatîw+V+TA+Imp+Del+2Sg+1SgO: nakasîhkan	# (you) leave me later, (you) leave me behind later
-      nakatîw+V+TA+Imp+Del+2Sg+1PlO: nakasîhkâhk	# (you) leave us later, (you) leave us behind later
-      nakatîw+V+TA+Imp+Del+2Sg+3SgO: nakatâhkan	# (you) leave him/her later, (you) leave him/her behind later
-      nakatîw+V+TA+Imp+Del+2Sg+3PlO: nakatâhkanik	# (you) leave them later, (you) leave them behind later
+      nakatîw+V+TA+Imp+Del+2Sg+1SgO: nakasîhkan # (you) leave me later, (you) leave me behind later
+      nakatîw+V+TA+Imp+Del+2Sg+1PlO: nakasîhkâhk # (you) leave us later, (you) leave us behind later
+      nakatîw+V+TA+Imp+Del+2Sg+3SgO: nakatâhkan # (you) leave him/her later, (you) leave him/her behind later
+      nakatîw+V+TA+Imp+Del+2Sg+3PlO: nakatâhkanik # (you) leave them later, (you) leave them behind later
 
       # 12Pl
-      nakatîw+V+TA+Imp+Del+12Pl+3SgO: nakatâhkahk	# let you and us leave him/her later, let you and us leave him/her behind later
-      nakatîw+V+TA+Imp+Del+12Pl+3PlO: nakatâhkahkok	# let you and us leave them later, let you and us leave them behind later
+      nakatîw+V+TA+Imp+Del+12Pl+3SgO: nakatâhkahk # let you and us leave him/her later, let you and us leave him/her behind later
+      nakatîw+V+TA+Imp+Del+12Pl+3PlO: nakatâhkahkik # let you and us leave them later, let you and us leave them behind later
+      nakatîw+V+TA+Imp+Del+12Pl+3PlO+Var/East: nakatâhkanik # let you and us leave them later, let you and us leave them behind later
 
       # 2Pl
-      nakatîw+V+TA+Imp+Del+2Pl+1SgO: nakasîhkîk	# (you all) leave me later, (you all) leave me behind later
-      nakatîw+V+TA+Imp+Del+2Pl+1PlO: nakasîhkâhk	# (you all) leave us later, (you all) leave us behind later
-      nakatîw+V+TA+Imp+Del+2Pl+3SgO: nakatâhkîk	# (you all) leave him/her later, (you all) leave him/her behind later
-      nakatîw+V+TA+Imp+Del+2Pl+3PlO: nakatâhkîkok	# (you all) leave them later, (you all) leave them behind later
+      nakatîw+V+TA+Imp+Del+2Pl+1SgO: nakasîhkîk # (you all) leave me later, (you all) leave me behind later
+      nakatîw+V+TA+Imp+Del+2Pl+1PlO: nakasîhkâhk # (you all) leave us later, (you all) leave us behind later
+      nakatîw+V+TA+Imp+Del+2Pl+3SgO: nakatâhkîk # (you all) leave him/her later, (you all) leave him/her behind later
+      nakatîw+V+TA+Imp+Del+2Pl+3PlO: nakatâhkîkwâw # (you all) leave them later, (you all) leave them behind later
       
 
