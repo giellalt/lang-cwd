@@ -108,14 +108,14 @@ Tests:
       wîcihîw+V+TA+Ind+X+4Sg/PlO: wîcihâthiwa	# someone helps another/others
 
       # 0Sg/Pl
-      wîcihîw+V+TA+Ind+0Sg/Pl+1SgO: wîcihîw+V+TA+Ind+0Sg/Pl+1SgO
-      wîcihîw+V+TA+Ind+0Sg/Pl+2SgO: wîcihîw+V+TA+Ind+0Sg/Pl+2SgO
-      wîcihîw+V+TA+Ind+0Sg/Pl+3SgO: wîcihîw+V+TA+Ind+0Sg/Pl+3SgO
-      wîcihîw+V+TA+Ind+0Sg/Pl+1PlO: wîcihîw+V+TA+Ind+0Sg/Pl+1PlO
-      wîcihîw+V+TA+Ind+0Sg/Pl+12PlO: wîcihîw+V+TA+Ind+0Sg/Pl+12PlO
-      wîcihîw+V+TA+Ind+0Sg/Pl+2PlO: wîcihîw+V+TA+Ind+0Sg/Pl+2PlO
-      wîcihîw+V+TA+Ind+0Sg/Pl+3PlO: wîcihîw+V+TA+Ind+0Sg/Pl+3PlO
-      wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      wîcihîw+V+TA+Ind+0Sg/Pl+1SgO: niwîcihikon
+      wîcihîw+V+TA+Ind+0Sg/Pl+2SgO: kiwîcihikon
+      wîcihîw+V+TA+Ind+0Sg/Pl+3SgO: wîcihikow
+      wîcihîw+V+TA+Ind+0Sg/Pl+1PlO: niwîcihikonân
+      wîcihîw+V+TA+Ind+0Sg/Pl+12PlO: kiwîcihikonaw
+      wîcihîw+V+TA+Ind+0Sg/Pl+2PlO: kiwîcihikowâw
+      wîcihîw+V+TA+Ind+0Sg/Pl+3PlO: wîcihikowak
+      wîcihîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: wîcihikothiwa
       
 
       # Prs # Cnj

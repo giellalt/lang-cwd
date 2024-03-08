@@ -20,7 +20,7 @@ Tests:
       # Prs+Cnj
       PV/î+nitonawîw+V+TA+Cnj+1Sg+2SgO: î-nitonâtân # as I seek you, as I look for you, as I search for you
       PV/î+nitonawîw+V+TA+Cnj+1Sg+3SgO: î-nitonawak # as I seek him/her, as I look for him/her, as I search for him/her
-      PV/î+nitonawîw+V+TA+Cnj+2Sg+1SgO: î-nitonawithan # as you seek me, as you look for me, as you search for me
+      PV/î+nitonawîw+V+TA+Cnj+2Sg+1SgO: î-nitonawiyan # as you seek me, as you look for me, as you search for me
       PV/î+nitonawîw+V+TA+Cnj+2Sg+3SgO: î-nitonawat # as you seek him/her, as you look for him/her, as you search for him/her
       PV/î+nitonawîw+V+TA+Cnj+3Sg+4Sg/PlO: î-nitonawât # as he/she seeks another/others, as he/she looks for another/others, as he/she searches for another/others
       PV/î+nitonawîw+V+TA+Cnj+4Sg/Pl+3SgO: î-nitonâkot # as another/others seek him/her, as another/others look for him/her, as another/others search for him/her
@@ -918,7 +918,7 @@ Tests:
       nitonawîw+V+TA+Fut+Cond+1Pl+2SgO: nitonâtâhki # when we seek you, when we look for you, when we search for you
       nitonawîw+V+TA+Fut+Cond+1Pl+3SgO: nitonawâyâhki # when we seek him/her, when we look for him/her, when we search for him/her
       nitonawîw+V+TA+Fut+Cond+1Pl+3SgO+Var/East: nitonawakihci # when we seek him/her, when we look for him/her, when we search for him/her
-      nitonawîw+V+TA+Fut+Cond+1Pl+2PlO: nitonâtâhki # when we seek you all, when we look for you all, when we search for you all
+      nitonawîw+V+TA+Fut+Cond+1Pl+2PlO: nitonâtahkwâwi # when we seek you all, when we look for you all, when we search for you all
       nitonawîw+V+TA+Fut+Cond+1Pl+3PlO: nitonawâyâhkwâwi # when we seek them, when we look for them, when we search for them
       nitonawîw+V+TA+Fut+Cond+1Pl+3PlO+Var/East: nitonawakihci # when we seek them, when we look for them, when we search for them
       nitonawîw+V+TA+Fut+Cond+1Pl+4Sg/PlO: nitonâmâyâhki # when we seek another/others, when we look for another/others, when we search for another/others
@@ -933,7 +933,7 @@ Tests:
       # 2Pl
       nitonawîw+V+TA+Fut+Cond+2Pl+1SgO: nitonawiyîko # when you all seek me, when you all look for me, when you all search for me
       nitonawîw+V+TA+Fut+Cond+2Pl+3SgO: nitonawâyîko # when you all seek him/her, when you all look for him/her, when you all search for him/her
-      nitonawîw+V+TA+Fut+Cond+2Pl+1PlO: nitonawiyâhki # when you all seek us, when you all look for us, when you all search for us
+      nitonawîw+V+TA+Fut+Cond+2Pl+1PlO: nitonawiyîko # when you all seek us, when you all look for us, when you all search for us
       nitonawîw+V+TA+Fut+Cond+2Pl+3PlO: nitonawâyîkwâwi # when you all seek them, when you all look for them, when you all search for them
       nitonawîw+V+TA+Fut+Cond+2Pl+3PlO+Var/East: nitonawayîko # when you all seek them, when you all look for them, when you all search for them
       nitonawîw+V+TA+Fut+Cond+2Pl+4Sg/PlO: nitonâmâyîko # when you all seek another/others, when you all look for another/others, when you all search for another/others
