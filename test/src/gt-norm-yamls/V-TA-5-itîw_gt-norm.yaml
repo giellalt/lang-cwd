@@ -5,946 +5,1013 @@ Config:
 
 Tests:
 
-   Lemma - itîw
+   Lemma - itîw :
 
       # Core 
 
       # Prs+Ind
-      itîw+V+TA+Ind+1Sg+2SgO: kitititin	# I say thus to you, I say thus about you
-      itîw+V+TA+Ind+1Sg+3SgO: nititâw	# I say thus to him/her, I say thus about him/her
-      itîw+V+TA+Ind+2Sg+1SgO: kitisin	# you say thus to me, you say thus about me
-      itîw+V+TA+Ind+2Sg+3SgO: kititâw	# you say thus to him/her, you say thus about him/her
-      itîw+V+TA+Ind+3Sg+4Sg/PlO: itîw	# he/she says thus to another/others, he/she says thus about another/others
-      itîw+V+TA+Ind+4Sg/Pl+3SgO: [itikow, itik]	# another/others say thus to him/her, another/others say thus about him/her
+      itîw+V+TA+Ind+1Sg+2SgO: kitititin # I say thus to you, I say thus about you
+      itîw+V+TA+Ind+1Sg+3SgO: nititâw # I say thus to him/her, I say thus about him/her
+      itîw+V+TA+Ind+2Sg+1SgO: kitisin # you say thus to me, you say thus about me
+      itîw+V+TA+Ind+2Sg+3SgO: kititâw # you say thus to him/her, you say thus about him/her
+      itîw+V+TA+Ind+3Sg+4Sg/PlO: itîw # he/she says thus to another/others, he/she says thus about another/others
+      itîw+V+TA+Ind+4Sg/Pl+3SgO: [itikow, itik] # another/others say thus to him/her, another/others say thus about him/her
 
       # Prs+Cnj
-      PV/e+itîw+V+TA+Cnj+1Sg+2SgO: î-ititân	# as I say thus to you, as I say thus about you
-      PV/e+itîw+V+TA+Cnj+1Sg+3SgO: î-itak	# as I say thus to him/her, as I say thus about him/her
-      PV/e+itîw+V+TA+Cnj+2Sg+1SgO: î-isithan	# as you say thus to me, as you say thus about me
-      PV/e+itîw+V+TA+Cnj+2Sg+3SgO: î-itat	# as you say thus to him/her, as you say thus about him/her
-      PV/e+itîw+V+TA+Cnj+3Sg+4Sg/PlO: î-itât	# as he/she says thus to another/others, as he/she says thus about another/others
-      PV/e+itîw+V+TA+Cnj+4Sg/Pl+3SgO: î-itikot	# as another/others say thus to him/her, as another/others say thus about him/her
+      PV/î+itîw+V+TA+Cnj+1Sg+2SgO: î-ititân # as I say thus to you, as I say thus about you
+      PV/î+itîw+V+TA+Cnj+1Sg+3SgO: î-itak # as I say thus to him/her, as I say thus about him/her
+      PV/î+itîw+V+TA+Cnj+2Sg+1SgO: î-isiyan # as you say thus to me, as you say thus about me
+      PV/î+itîw+V+TA+Cnj+2Sg+3SgO: î-itat # as you say thus to him/her, as you say thus about him/her
+      PV/î+itîw+V+TA+Cnj+3Sg+4Sg/PlO: î-itât # as he/she says thus to another/others, as he/she says thus about another/others
+      PV/î+itîw+V+TA+Cnj+4Sg/Pl+3SgO: î-itikot # as another/others say thus to him/her, as another/others say thus about him/her
 
       # Imp
-      itîw+V+TA+Imp+Imm+2Sg+1SgO: isin	# (you) say thus to me now, (you) say thus about me now
-      itîw+V+TA+Imp+Imm+2Sg+3SgO: isi	# (you) say thus to him/her now, (you) say thus about him/her now
+      itîw+V+TA+Imp+Imm+2Sg+1SgO: isin # (you) say thus to me now, (you) say thus about me now
+      itîw+V+TA+Imp+Imm+2Sg+3SgO: isi # (you) say thus to him/her now, (you) say thus about him/her now
       
 
       # Prs # Ind
 
       # 1Sg
-      itîw+V+TA+Ind+1Sg+2SgO: kitititin	# I say thus to you, I say thus about you
-      itîw+V+TA+Ind+1Sg+3SgO: nititâw	# I say thus to him/her, I say thus about him/her
-      itîw+V+TA+Ind+1Sg+2PlO: kitititinâwâw	# I say thus to you all, I say thus about you all
-      itîw+V+TA+Ind+1Sg+3PlO: nititâwak	# I say thus to them, I say thus about them
-      itîw+V+TA+Ind+1Sg+4Sg/PlO: nititimâwa	# I say thus to another/others, I say thus about another/others
+      itîw+V+TA+Ind+1Sg+2SgO: kitititin # I say thus to you, I say thus about you
+      itîw+V+TA+Ind+1Sg+3SgO: nititâw # I say thus to him/her, I say thus about him/her
+      itîw+V+TA+Ind+1Sg+2PlO: kitititinâwâw # I say thus to you all, I say thus about you all
+      itîw+V+TA+Ind+1Sg+3PlO: nititâwak # I say thus to them, I say thus about them
+      itîw+V+TA+Ind+1Sg+4Sg/PlO: nititimâwa # I say thus to another/others, I say thus about another/others
 
       # 2Sg
-      itîw+V+TA+Ind+2Sg+1SgO: kitisin	# you say thus to me, you say thus about me
-      itîw+V+TA+Ind+2Sg+3SgO: kititâw	# you say thus to him/her, you say thus about him/her
-      itîw+V+TA+Ind+2Sg+1PlO: kitisinân	# you say thus to us, you say thus about us
-      itîw+V+TA+Ind+2Sg+3PlO: kititâwak	# you say thus to them, you say thus about them
-      itîw+V+TA+Ind+2Sg+4Sg/PlO: kititimâwa	# you say thus to another/others, you say thus about another/others
+      itîw+V+TA+Ind+2Sg+1SgO: kitisin # you say thus to me, you say thus about me
+      itîw+V+TA+Ind+2Sg+3SgO: kititâw # you say thus to him/her, you say thus about him/her
+      itîw+V+TA+Ind+2Sg+1PlO: kitisinân # you say thus to us, you say thus about us
+      itîw+V+TA+Ind+2Sg+3PlO: kititâwak # you say thus to them, you say thus about them
+      itîw+V+TA+Ind+2Sg+4Sg/PlO: kititimâwa # you say thus to another/others, you say thus about another/others
 
       # 3Sg
-      itîw+V+TA+Ind+2Sg+1SgO: kitisin	# you say thus to me, you say thus about me
-      itîw+V+TA+Ind+3Sg+2SgO: kititik	# he/she says thus to you, he/she says thus about you
-      itîw+V+TA+Ind+2Sg+1PlO: kitisinân	# you say thus to us, you say thus about us
-      itîw+V+TA+Ind+3Sg+12PlO: kititikonaw	# he/she says thus to you and us, he/she says thus about you and us
-      itîw+V+TA+Ind+3Sg+2PlO: kititikowâw	# he/she says thus to you all, he/she says thus about you all
-      itîw+V+TA+Ind+2Sg+3PlO: kititâwak	# you say thus to them, you say thus about them
-      itîw+V+TA+Ind+2Sg+4Sg/PlO: kititimâwa	# you say thus to another/others, you say thus about another/others
-      itîw+V+TA+Ind+3Sg+5Sg/PlO: itimîw	# he/she says thus to yet another/others, he/she says thus about yet another/others
+      itîw+V+TA+Ind+2Sg+1SgO: kitisin # you say thus to me, you say thus about me
+      itîw+V+TA+Ind+3Sg+2SgO: kititik # he/she says thus to you, he/she says thus about you
+      itîw+V+TA+Ind+2Sg+1PlO: kitisinân # you say thus to us, you say thus about us
+      itîw+V+TA+Ind+3Sg+12PlO: kititikonaw # he/she says thus to you and us, he/she says thus about you and us
+      itîw+V+TA+Ind+3Sg+2PlO: kititikowâw # he/she says thus to you all, he/she says thus about you all
+      itîw+V+TA+Ind+2Sg+3PlO: kititâwak # you say thus to them, you say thus about them
+      itîw+V+TA+Ind+2Sg+4Sg/PlO: kititimâwa # you say thus to another/others, you say thus about another/others
+      itîw+V+TA+Ind+3Sg+5Sg/PlO: itimîw # he/she says thus to yet another/others, he/she says thus about yet another/others
 
       # 1Pl
-      itîw+V+TA+Ind+1Pl+2SgO: kitititinân	# we say thus to you, we say thus about you
-      itîw+V+TA+Ind+1Pl+3SgO: nititânân	# we say thus to him/her, we say thus about him/her
-      itîw+V+TA+Ind+1Pl+2PlO: kitititinân	# we say thus to you all, we say thus about you all
-      itîw+V+TA+Ind+1Pl+3PlO: nititânânak	# we say thus to them, we say thus about them
-      itîw+V+TA+Ind+1Pl+4Sg/PlO: nititimânâna	# we say thus to another/others, we say thus about another/others
+      itîw+V+TA+Ind+1Pl+2SgO: kitititinân # we say thus to you, we say thus about you
+      itîw+V+TA+Ind+1Pl+3SgO: nititânân # we say thus to him/her, we say thus about him/her
+      itîw+V+TA+Ind+1Pl+2PlO: kitititinân # we say thus to you all, we say thus about you all
+      itîw+V+TA+Ind+1Pl+3PlO: nititânânak # we say thus to them, we say thus about them
+      itîw+V+TA+Ind+1Pl+4Sg/PlO: nititimânâna # we say thus to another/others, we say thus about another/others
 
       # 12Pl
-      itîw+V+TA+Ind+12Pl+3SgO: kititânaw	# we and you say thus to him/her, we and you say thus about him/her
-      itîw+V+TA+Ind+12Pl+3PlO: kititânawak	# we and you say thus to them, we and you say thus about them
-      itîw+V+TA+Ind+12Pl+4Sg/PlO: kititimânawa	# we and you say thus to another/others, we and you say thus about another/others
+      itîw+V+TA+Ind+12Pl+3SgO: kititânaw # we and you say thus to him/her, we and you say thus about him/her
+      itîw+V+TA+Ind+12Pl+3PlO: kititânawak # we and you say thus to them, we and you say thus about them
+      itîw+V+TA+Ind+12Pl+4Sg/PlO: kititimânawa # we and you say thus to another/others, we and you say thus about another/others
 
       # 2Pl
-      itîw+V+TA+Ind+2Pl+1SgO: kitisinâwâw	# you all say thus to me, you all say thus about me
-      itîw+V+TA+Ind+2Pl+3SgO: kititâwâw	# you all say thus to him/her, you all say thus about him/her
-      itîw+V+TA+Ind+2Pl+1PlO: kitisinân	# you all say thus to us, you all say thus about us
-      itîw+V+TA+Ind+2Pl+3PlO: kititâwâwak	# you all say thus to them, you all say thus about them
-      itîw+V+TA+Ind+2Pl+4Sg/PlO: kititimâwâwa	# you all say thus to another/others, you all say thus about another/others
+      itîw+V+TA+Ind+2Pl+1SgO: kitisinâwâw # you all say thus to me, you all say thus about me
+      itîw+V+TA+Ind+2Pl+3SgO: kititâwâw # you all say thus to him/her, you all say thus about him/her
+      itîw+V+TA+Ind+2Pl+1PlO: kitisinân # you all say thus to us, you all say thus about us
+      itîw+V+TA+Ind+2Pl+3PlO: kititâwâwak # you all say thus to them, you all say thus about them
+      itîw+V+TA+Ind+2Pl+4Sg/PlO: kititimâwâwa # you all say thus to another/others, you all say thus about another/others
 
       # 3Pl
-      itîw+V+TA+Ind+3Pl+1SgO: [nititikowak, nititikwak]	# they say thus to me, they say thus about me
-      itîw+V+TA+Ind+3Pl+2SgO: [kititikowak, kititikwak]	# they say thus to you, they say thus about you
-      itîw+V+TA+Ind+3Pl+1PlO: nititikonânak	# they say thus to us, they say thus about us
-      itîw+V+TA+Ind+3Pl+12PlO: kititikonawak	# they say thus to you and us, they say thus about you and us
-      itîw+V+TA+Ind+3Pl+2PlO: kititikowâwak	# they say thus to you all, they say thus about you all
-      itîw+V+TA+Ind+3Pl+4Sg/PlO: itîwak	# they say thus to another/others, they say thus about another/others
-      itîw+V+TA+Ind+3Pl+5Sg/PlO: itimîwak	# they say thus to yet another/others, they say thus about yet another/others
+      itîw+V+TA+Ind+3Pl+1SgO: nititikwak # they say thus to me, they say thus about me
+      itîw+V+TA+Ind+3Pl+2SgO: kititikwak # they say thus to you, they say thus about you
+      itîw+V+TA+Ind+3Pl+1PlO: nititikonânak # they say thus to us, they say thus about us
+      itîw+V+TA+Ind+3Pl+12PlO: kititikonawak # they say thus to you and us, they say thus about you and us
+      itîw+V+TA+Ind+3Pl+2PlO: kititikowâwak # they say thus to you all, they say thus about you all
+      itîw+V+TA+Ind+3Pl+4Sg/PlO: itîwak # they say thus to another/others, they say thus about another/others
+      itîw+V+TA+Ind+3Pl+5Sg/PlO: itimîwak # they say thus to yet another/others, they say thus about yet another/others
 
       # 4Sg/Pl
-      itîw+V+TA+Ind+4Sg/Pl+1SgO: nititikothiwa	# another/others say thus to me, another/others say thus about me
-      itîw+V+TA+Ind+4Sg/Pl+2SgO: kititikothiwa	# another/others say thus to you, another/others say thus about you
-      itîw+V+TA+Ind+4Sg/Pl+3SgO: [itikow, itik]	# another/others say thus to him/her, another/others say thus about him/her
-      itîw+V+TA+Ind+4Sg/Pl+1PlO: nititikonâna	# another/others say thus to us, another/others say thus about us
-      itîw+V+TA+Ind+4Sg/Pl+12PlO: kititikonawa	# another/others say thus to you and us, another/others say thus about you and us
-      itîw+V+TA+Ind+4Sg/Pl+2PlO: kititikowâwa	# another/others say thus to you all, another/others say thus about you all
-      itîw+V+TA+Ind+4Sg/Pl+3PlO: [itikowak, itikwak]	# another/others say thus to them, another/others say thus about them
-      itîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: itîthiwa	# another/others say thus to yet another/others, another/others say thus about yet another/others
+      itîw+V+TA+Ind+4Sg/Pl+1SgO: nititikothiwa # another/others say thus to me, another/others say thus about me
+      itîw+V+TA+Ind+4Sg/Pl+2SgO: kititikothiwa # another/others say thus to you, another/others say thus about you
+      itîw+V+TA+Ind+4Sg/Pl+3SgO: [itikow, itik] # another/others say thus to him/her, another/others say thus about him/her
+      itîw+V+TA+Ind+4Sg/Pl+1PlO: nititikonâna # another/others say thus to us, another/others say thus about us
+      itîw+V+TA+Ind+4Sg/Pl+12PlO: kititikonawa # another/others say thus to you and us, another/others say thus about you and us
+      itîw+V+TA+Ind+4Sg/Pl+2PlO: kititikowâwa # another/others say thus to you all, another/others say thus about you all
+      itîw+V+TA+Ind+4Sg/Pl+3PlO: [itikowak, itikwak] # another/others say thus to them, another/others say thus about them
+      itîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: itîthiwa # another/others say thus to yet another/others, another/others say thus about yet another/others
 
       # 5Sg/Pl
-      itîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: itikothiwa	# yet another/others say thus to another/others, yet another/others say thus about another/others
+      itîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: itikothiwa # yet another/others say thus to another/others, yet another/others say thus about another/others
 
       # X
-      itîw+V+TA+Ind+X+1SgO: nititikawin	# someone says thus to me, someone says thus about me
-      itîw+V+TA+Ind+X+2SgO: kititikawin	# someone says thus to you, someone says thus about you
-      itîw+V+TA+Ind+X+3SgO: itâw	# someone says thus to him/her, someone says thus about him/her
-      itîw+V+TA+Ind+X+1PlO: nititikawinân	# someone says thus to us, someone says thus about us
-      itîw+V+TA+Ind+X+12PlO: [kititikawinaw, kititikawinânaw]	# someone says thus to you and us, someone says thus about you and us
-      itîw+V+TA+Ind+X+2PlO: kititikawinâwâw	# someone says thus to you all, someone says thus about you all
-      itîw+V+TA+Ind+X+3PlO: itâwak	# someone says thus to them, someone says thus about them
-      itîw+V+TA+Ind+X+4Sg/PlO: itâthiwa	# someone says thus to another/others, someone says thus about another/others
+      itîw+V+TA+Ind+X+1SgO: nititikawin # someone says thus to me, someone says thus about me
+      itîw+V+TA+Ind+X+2SgO: kititikawin # someone says thus to you, someone says thus about you
+      itîw+V+TA+Ind+X+3SgO: itâw # someone says thus to him/her, someone says thus about him/her
+      itîw+V+TA+Ind+X+1PlO: nititikawinân # someone says thus to us, someone says thus about us
+      itîw+V+TA+Ind+X+12PlO: [kititikawinaw, kititikawinânaw] # someone says thus to you and us, someone says thus about you and us
+      itîw+V+TA+Ind+X+2PlO: kititikawinâwâw # someone says thus to you all, someone says thus about you all
+      itîw+V+TA+Ind+X+3PlO: itâwak # someone says thus to them, someone says thus about them
+      itîw+V+TA+Ind+X+4Sg/PlO: itâthiwa # someone says thus to another/others, someone says thus about another/others
 
       # 0Sg/Pl
-      itîw+V+TA+Ind+0Sg/Pl+1SgO: itîw+V+TA+Ind+0Sg/Pl+1SgO
-      itîw+V+TA+Ind+0Sg/Pl+2SgO: itîw+V+TA+Ind+0Sg/Pl+2SgO
-      itîw+V+TA+Ind+0Sg/Pl+3SgO: itîw+V+TA+Ind+0Sg/Pl+3SgO
-      itîw+V+TA+Ind+0Sg/Pl+1PlO: itîw+V+TA+Ind+0Sg/Pl+1PlO
-      itîw+V+TA+Ind+0Sg/Pl+12PlO: itîw+V+TA+Ind+0Sg/Pl+12PlO
-      itîw+V+TA+Ind+0Sg/Pl+2PlO: itîw+V+TA+Ind+0Sg/Pl+2PlO
-      itîw+V+TA+Ind+0Sg/Pl+3PlO: itîw+V+TA+Ind+0Sg/Pl+3PlO
-      itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      itîw+V+TA+Ind+0Sg/Pl+1SgO: nititikon
+      itîw+V+TA+Ind+0Sg/Pl+2SgO: kititikon
+      itîw+V+TA+Ind+0Sg/Pl+3SgO: itikow
+      itîw+V+TA+Ind+0Sg/Pl+1PlO: nititikonân
+      itîw+V+TA+Ind+0Sg/Pl+12PlO: kititikonaw
+      itîw+V+TA+Ind+0Sg/Pl+2PlO: kititikowâw
+      itîw+V+TA+Ind+0Sg/Pl+3PlO: itikowak
+      itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: itikothiwa
       
 
       # Prs # Cnj
 
       # 1Sg
-      PV/e+itîw+V+TA+Cnj+1Sg+2SgO: î-ititân	# as I say thus to you, as I say thus about you
-      PV/e+itîw+V+TA+Cnj+1Sg+3SgO: î-itak	# as I say thus to him/her, as I say thus about him/her
-      PV/e+itîw+V+TA+Cnj+1Sg+2PlO: î-ititakok	# as I say thus to you all, as I say thus about you all
-      PV/e+itîw+V+TA+Cnj+1Sg+3PlO: î-itakik	# as I say thus to them, as I say thus about them
-      PV/e+itîw+V+TA+Cnj+1Sg+4Sg/PlO: î-itimak	# as I say thus to another/others, as I say thus about another/others
+      PV/î+itîw+V+TA+Cnj+1Sg+2SgO: î-ititân # as I say thus to you, as I say thus about you
+      PV/î+itîw+V+TA+Cnj+1Sg+3SgO: î-itak # as I say thus to him/her, as I say thus about him/her
+      PV/î+itîw+V+TA+Cnj+1Sg+2PlO: î-ititakwâw # as I say thus to you all, as I say thus about you all
+      PV/î+itîw+V+TA+Cnj+1Sg+3PlO: î-itakwâw # as I say thus to them, as I say thus about them
+      PV/î+itîw+V+TA+Cnj+1Sg+3PlO+Var/East: î-itaki # as I say thus to them, as I say thus about them
+      PV/î+itîw+V+TA+Cnj+1Sg+4Sg/PlO: î-itimak # as I say thus to another/others, as I say thus about another/others
 
       # 2Sg
-      PV/e+itîw+V+TA+Cnj+2Sg+1SgO: î-isithan	# as you say thus to me, as you say thus about me
-      PV/e+itîw+V+TA+Cnj+2Sg+3SgO: î-itat	# as you say thus to him/her, as you say thus about him/her
-      PV/e+itîw+V+TA+Cnj+2Sg+1PlO: î-isithâhk	# as you say thus to us, as you say thus about us
-      PV/e+itîw+V+TA+Cnj+2Sg+3PlO: î-itacik	# as you say thus to them, as you say thus about them
-      PV/e+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-itimat	# as you say thus to another/others, as you say thus about another/others
+      PV/î+itîw+V+TA+Cnj+2Sg+1SgO: î-isiyan # as you say thus to me, as you say thus about me
+      PV/î+itîw+V+TA+Cnj+2Sg+3SgO: î-itat # as you say thus to him/her, as you say thus about him/her
+      PV/î+itîw+V+TA+Cnj+2Sg+1PlO: î-isiyâhk # as you say thus to us, as you say thus about us
+      PV/î+itîw+V+TA+Cnj+2Sg+3PlO: î-itacik # as you say thus to them, as you say thus about them
+      PV/î+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-itimat # as you say thus to another/others, as you say thus about another/others
 
       # 3Sg
-      PV/e+itîw+V+TA+Cnj+2Sg+1SgO: î-isithan	# as you say thus to me, as you say thus about me
-      PV/e+itîw+V+TA+Cnj+3Sg+2SgO: î-itisk	# as he/she says thus to you, as he/she says thus about you
-      PV/e+itîw+V+TA+Cnj+2Sg+1PlO: î-isithâhk	# as you say thus to us, as you say thus about us
-      PV/e+itîw+V+TA+Cnj+3Sg+12PlO: î-itikothahk	# as he/she says thus to you and us, as he/she says thus about you and us
-      PV/e+itîw+V+TA+Cnj+3Sg+2PlO: î-itikothîk	# as he/she says thus to you all, as he/she says thus about you all
-      PV/e+itîw+V+TA+Cnj+2Sg+3PlO: î-itacik	# as you say thus to them, as you say thus about them
-      PV/e+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-itimat	# as you say thus to another/others, as you say thus about another/others
-      PV/e+itîw+V+TA+Cnj+3Sg+5Sg/PlO: î-itimât	# as he/she says thus to yet another/others, as he/she says thus about yet another/others
+      PV/î+itîw+V+TA+Cnj+2Sg+1SgO: î-isiyan # as you say thus to me, as you say thus about me
+      PV/î+itîw+V+TA+Cnj+3Sg+2SgO: î-itisk # as he/she says thus to you, as he/she says thus about you
+      PV/î+itîw+V+TA+Cnj+2Sg+1PlO: î-isiyâhk # as you say thus to us, as you say thus about us
+      PV/î+itîw+V+TA+Cnj+3Sg+1PlO: î-itikoyâhk # as you say thus to us, as you say thus about us
+      PV/î+itîw+V+TA+Cnj+3Sg+1PlO+Var/East: î-isiyamiht # as you say thus to us, as you say thus about us
+      PV/î+itîw+V+TA+Cnj+3Sg+12PlO: î-itikoyahk # as he/she says thus to you and us, as he/she says thus about you and us
+      PV/î+itîw+V+TA+Cnj+3Sg+12PlO+Var/East: î-ititahk # as he/she says thus to you and us, as he/she says thus about you and us
+      PV/î+itîw+V+TA+Cnj+3Sg+2PlO: î-itikoyîk # as he/she says thus to you all, as he/she says thus about you all
+      PV/î+itîw+V+TA+Cnj+3Sg+2PlO+Var/East: î-ititîk # as he/she says thus to you all, as he/she says thus about you all
+      PV/î+itîw+V+TA+Cnj+2Sg+3PlO: î-itacik # as you say thus to them, as you say thus about them
+      PV/î+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-itimat # as you say thus to another/others, as you say thus about another/others
+      PV/î+itîw+V+TA+Cnj+3Sg+5Sg/PlO: î-itimât # as he/she says thus to yet another/others, as he/she says thus about yet another/others
 
       # 1Pl
-      PV/e+itîw+V+TA+Cnj+1Pl+2SgO: î-ititâhk	# as we say thus to you, as we say thus about you
-      PV/e+itîw+V+TA+Cnj+1Pl+3SgO: î-itâthâhk	# as we say thus to him/her, as we say thus about him/her
-      PV/e+itîw+V+TA+Cnj+1Pl+2PlO: î-ititâhk	# as we say thus to you all, as we say thus about you all
-      PV/e+itîw+V+TA+Cnj+1Pl+3PlO: î-itâthâhkik	# as we say thus to them, as we say thus about them
-      PV/e+itîw+V+TA+Cnj+1Pl+4Sg/PlO: î-itimâthâhk	# as we say thus to another/others, as we say thus about another/others
+      PV/î+itîw+V+TA+Cnj+1Pl+2SgO: î-ititâhk # as we say thus to you, as we say thus about you
+      PV/î+itîw+V+TA+Cnj+1Pl+3SgO: î-itâyâhk # as we say thus to him/her, as we say thus about him/her
+      PV/î+itîw+V+TA+Cnj+1Pl+3SgO+Var/East: î-itakiht # as we say thus to him/her, as we say thus about him/her
+      PV/î+itîw+V+TA+Cnj+1Pl+2PlO: î-ititâhk # as we say thus to you all, as we say thus about you all
+      PV/î+itîw+V+TA+Cnj+1Pl+3PlO: î-itâyâhkwâw # as we say thus to them, as we say thus about them
+      PV/î+itîw+V+TA+Cnj+1Pl+3PlO+Var/East: î-itakihcik # as we say thus to them, as we say thus about them
+      PV/î+itîw+V+TA+Cnj+1Pl+4Sg/PlO: î-itimâyâhk # as we say thus to another/others, as we say thus about another/others
 
       # 12Pl
-      PV/e+itîw+V+TA+Cnj+12Pl+3SgO: î-itâthahk	# as we and you say thus to him/her, as we and you say thus about him/her
-      PV/e+itîw+V+TA+Cnj+12Pl+3PlO: î-itâthahkok	# as we and you say thus to them, as we and you say thus about them
-      PV/e+itîw+V+TA+Cnj+12Pl+4Sg/PlO: î-itimâthahk	# as we and you say thus to another/others, as we and you say thus about another/others
+      PV/î+itîw+V+TA+Cnj+12Pl+3SgO: î-itâyahk # as we and you say thus to him/her, as we and you say thus about him/her
+      PV/î+itîw+V+TA+Cnj+12Pl+3SgO+Var/East: î-itahk # as we and you say thus to him/her, as we and you say thus about him/her
+      PV/î+itîw+V+TA+Cnj+12Pl+3PlO: î-itâyahkwâw # as we and you say thus to them, as we and you say thus about them
+      PV/î+itîw+V+TA+Cnj+12Pl+3PlO+Var/East: î-itahkwâw # as we and you say thus to them, as we and you say thus about them
+      PV/î+itîw+V+TA+Cnj+12Pl+4Sg/PlO: î-itimâyahk # as we and you say thus to another/others, as we and you say thus about another/others
 
       # 2Pl
-      PV/e+itîw+V+TA+Cnj+2Pl+1SgO: î-isithîk	# as you all say thus to me, as you all say thus about me
-      PV/e+itîw+V+TA+Cnj+2Pl+3SgO: î-itâthîk	# as you all say thus to him/her, as you all say thus about him/her
-      PV/e+itîw+V+TA+Cnj+2Pl+1PlO: î-isithâhk	# as you all say thus to us, as you all say thus about us
-      PV/e+itîw+V+TA+Cnj+2Pl+3PlO: î-itâthîkok	# as you all say thus to them, as you all say thus about them
-      PV/e+itîw+V+TA+Cnj+2Pl+4Sg/PlO: î-itimâthîk	# as you all say thus to another/others, as you all say thus about another/others
+      PV/î+itîw+V+TA+Cnj+2Pl+1SgO: î-isiyîk # as you all say thus to me, as you all say thus about me
+      PV/î+itîw+V+TA+Cnj+2Pl+3SgO: î-itâyîk # as you all say thus to him/her, as you all say thus about him/her
+      PV/î+itîw+V+TA+Cnj+2Pl+1PlO: î-isiyâhk # as you all say thus to us, as you all say thus about us
+      PV/î+itîw+V+TA+Cnj+2Pl+3PlO: î-itâyîkwâw # as you all say thus to them, as you all say thus about them
+      PV/î+itîw+V+TA+Cnj+2Pl+3PlO+Var/East: î-itâyîkok # as you all say thus to them, as you all say thus about them
+      PV/î+itîw+V+TA+Cnj+2Pl+4Sg/PlO: î-itimâyîk # as you all say thus to another/others, as you all say thus about another/others
 
       # 3Pl
-      PV/e+itîw+V+TA+Cnj+3Pl+1SgO: î-isicik	# as they say thus to me, as they say thus about me
-      PV/e+itîw+V+TA+Cnj+3Pl+2SgO: î-itiskik	# as they say thus to you, as they say thus about you
-      PV/e+itîw+V+TA+Cnj+3Pl+1PlO: î-itikothâhkik	# as they say thus to us, as they say thus about us
-      PV/e+itîw+V+TA+Cnj+3Pl+12PlO: î-itikothahkok	# as they say thus to you and us, as they say thus about you and us
-      PV/e+itîw+V+TA+Cnj+3Pl+2PlO: î-itikothîkok	# as they say thus to you all, as they say thus about you all
-      PV/e+itîw+V+TA+Cnj+3Pl+4Sg/PlO: î-itâcik	# as they say thus to another/others, as they say thus about another/others
-      PV/e+itîw+V+TA+Cnj+3Pl+5Sg/PlO: î-itimâcik	# as they say thus to yet another/others, as they say thus about yet another/others
+      PV/î+itîw+V+TA+Cnj+3Pl+1SgO: [î-isitwâw, î-isicik] # as they say thus to me, as they say thus about me
+      PV/î+itîw+V+TA+Cnj+3Pl+2SgO: î-itiskwâw # as they say thus to you, as they say thus about you
+      PV/î+itîw+V+TA+Cnj+3Pl+1PlO: î-itikoyâhkwâw # as they say thus to us, as they say thus about us
+      PV/î+itîw+V+TA+Cnj+3Pl+1PlO+Var/East: î-isiyamihcik # as they say thus to us, as they say thus about us
+      PV/î+itîw+V+TA+Cnj+3Pl+12PlO: î-itikoyahkwâw # as they say thus to you and us, as they say thus about you and us
+      PV/î+itîw+V+TA+Cnj+3Pl+12PlO+Var/East: î-ititahkwâw # as they say thus to you and us, as they say thus about you and us
+      PV/î+itîw+V+TA+Cnj+3Pl+2PlO: î-itikoyîkwâw # as they say thus to you all, as they say thus about you all
+      PV/î+itîw+V+TA+Cnj+3Pl+2PlO+Var/East: î-ititîkwâw # as they say thus to you all, as they say thus about you all
+      PV/î+itîw+V+TA+Cnj+3Pl+4Sg/PlO: î-itâcik # as they say thus to another/others, as they say thus about another/others
+      PV/î+itîw+V+TA+Cnj+3Pl+5Sg/PlO: î-itimâcik # as they say thus to yet another/others, as they say thus about yet another/others
 
       # 4Sg/Pl
-      PV/e+itîw+V+TA+Cnj+4Sg/Pl+1SgO: î-itimit	# as another/others say thus to me, as another/others say thus about me
-      PV/e+itîw+V+TA+Cnj+4Sg/Pl+2SgO: î-itimisk	# as another/others say thus to you, as another/others say thus about you
-      PV/e+itîw+V+TA+Cnj+4Sg/Pl+3SgO: î-itikot	# as another/others say thus to him/her, as another/others say thus about him/her
-      PV/e+itîw+V+TA+Cnj+4Sg/Pl+1PlO: î-itikothâhk	# as another/others say thus to us, as another/others say thus about us
-      PV/e+itîw+V+TA+Cnj+4Sg/Pl+12PlO: î-itikothahk	# as another/others say thus to you and us, as another/others say thus about you and us
-      PV/e+itîw+V+TA+Cnj+4Sg/Pl+2PlO: î-itikothîk	# as another/others say thus to you all, as another/others say thus about you all
-      PV/e+itîw+V+TA+Cnj+4Sg/Pl+3PlO: î-itikocik	# as another/others say thus to them, as another/others say thus about them
-      PV/e+itîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-itâthit	# as another/others say thus to yet another/others, as another/others say thus about yet another/others
+      PV/î+itîw+V+TA+Cnj+4Sg/Pl+1SgO: î-itimit # as another/others say thus to me, as another/others say thus about me
+      PV/î+itîw+V+TA+Cnj+4Sg/Pl+2SgO: î-itimisk # as another/others say thus to you, as another/others say thus about you
+      PV/î+itîw+V+TA+Cnj+4Sg/Pl+3SgO: î-itikot # as another/others say thus to him/her, as another/others say thus about him/her
+      PV/î+itîw+V+TA+Cnj+4Sg/Pl+1PlO: î-itikoyâhk # as another/others say thus to us, as another/others say thus about us
+      PV/î+itîw+V+TA+Cnj+4Sg/Pl+12PlO: î-itikoyahk # as another/others say thus to you and us, as another/others say thus about you and us
+      PV/î+itîw+V+TA+Cnj+4Sg/Pl+2PlO: î-itikoyîk # as another/others say thus to you all, as another/others say thus about you all
+      PV/î+itîw+V+TA+Cnj+4Sg/Pl+3PlO: î-itikocik # as another/others say thus to them, as another/others say thus about them
+      PV/î+itîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-itâthit # as another/others say thus to yet another/others, as another/others say thus about yet another/others
 
       # 5Sg/Pl
-      PV/e+itîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-itikothit	# as yet another/others say thus to another/others, as yet another/others say thus about another/others
+      PV/î+itîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-itikothit # as yet another/others say thus to another/others, as yet another/others say thus about another/others
 
       # X
-      PV/e+itîw+V+TA+Cnj+X+1SgO: î-itikawithân	# as someone says thus to me, as someone says thus about me
-      PV/e+itîw+V+TA+Cnj+X+2SgO: î-itikawithan	# as someone says thus to you, as someone says thus about you
-      PV/e+itîw+V+TA+Cnj+X+3SgO: î-itiht	# as someone says thus to him/her, as someone says thus about him/her
-      PV/e+itîw+V+TA+Cnj+X+1PlO: î-itikawithâhk	# as someone says thus to us, as someone says thus about us
-      PV/e+itîw+V+TA+Cnj+X+12PlO: î-itikawithahk	# as someone says thus to you and us, as someone says thus about you and us
-      PV/e+itîw+V+TA+Cnj+X+2PlO: î-itikawithîk	# as someone says thus to you all, as someone says thus about you all
-      PV/e+itîw+V+TA+Cnj+X+3PlO: î-itihcik	# as someone says thus to them, as someone says thus about them
-      PV/e+itîw+V+TA+Cnj+X+4Sg/PlO: î-itimiht	# as someone says thus to another/others, as someone says thus about another/others
+      PV/î+itîw+V+TA+Cnj+X+1SgO: î-itikawiyân # as someone says thus to me, as someone says thus about me
+      PV/î+itîw+V+TA+Cnj+X+2SgO: î-itikawiyan # as someone says thus to you, as someone says thus about you
+      PV/î+itîw+V+TA+Cnj+X+3SgO: î-itiht # as someone says thus to him/her, as someone says thus about him/her
+      PV/î+itîw+V+TA+Cnj+X+1PlO: î-itikawiyâhk # as someone says thus to us, as someone says thus about us
+      PV/î+itîw+V+TA+Cnj+X+12PlO: î-itikawiyahk # as someone says thus to you and us, as someone says thus about you and us
+      PV/î+itîw+V+TA+Cnj+X+2PlO: î-itikawiyîk # as someone says thus to you all, as someone says thus about you all
+      PV/î+itîw+V+TA+Cnj+X+3PlO: î-itihcik # as someone says thus to them, as someone says thus about them
+      PV/î+itîw+V+TA+Cnj+X+4Sg/PlO: î-itimiht # as someone says thus to another/others, as someone says thus about another/others
 
       # 0Sg/Pl
-      PV/e+itîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/e+itîw+V+TA+Cnj+0Sg/Pl+1SgO
-      PV/e+itîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/e+itîw+V+TA+Cnj+0Sg/Pl+2SgO
-      PV/e+itîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/e+itîw+V+TA+Cnj+0Sg/Pl+3SgO
-      PV/e+itîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/e+itîw+V+TA+Cnj+0Sg/Pl+1PlO
-      PV/e+itîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/e+itîw+V+TA+Cnj+0Sg/Pl+12PlO
-      PV/e+itîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/e+itîw+V+TA+Cnj+0Sg/Pl+2PlO
-      PV/e+itîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/e+itîw+V+TA+Cnj+0Sg/Pl+3PlO
-      PV/e+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/e+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      PV/î+itîw+V+TA+Cnj+0Sg/Pl+1SgO: î-itikoyân
+      PV/î+itîw+V+TA+Cnj+0Sg/Pl+2SgO: î-itikoyan
+      PV/î+itîw+V+TA+Cnj+0Sg/Pl+3SgO: î-itikot
+      PV/î+itîw+V+TA+Cnj+0Sg/Pl+1PlO: î-itikoyâhk
+      PV/î+itîw+V+TA+Cnj+0Sg/Pl+12PlO: î-itikoyahk
+      PV/î+itîw+V+TA+Cnj+0Sg/Pl+2PlO: î-itikoyîk
+      PV/î+itîw+V+TA+Cnj+0Sg/Pl+3PlO: î-itikocik
+      PV/î+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: î-itikothit
       
 
       # Prt # Ind
 
       # 1Sg
-      PV/ki+itîw+V+TA+Ind+1Sg+2SgO: kikî-ititin	# I said thus to you, I said thus about you
-      PV/ki+itîw+V+TA+Ind+1Sg+3SgO: nikî-itâw	# I said thus to him/her, I said thus about him/her
-      PV/ki+itîw+V+TA+Ind+1Sg+2PlO: kikî-ititinâwâw	# I said thus to you all, I said thus about you all
-      PV/ki+itîw+V+TA+Ind+1Sg+3PlO: nikî-itâwak	# I said thus to them, I said thus about them
-      PV/ki+itîw+V+TA+Ind+1Sg+4Sg/PlO: nikî-itimâwa	# I said thus to another/others, I said thus about another/others
+      PV/ki+itîw+V+TA+Ind+1Sg+2SgO: kikî-ititin # I said thus to you, I said thus about you
+      PV/ki+itîw+V+TA+Ind+1Sg+3SgO: nikî-itâw # I said thus to him/her, I said thus about him/her
+      PV/ki+itîw+V+TA+Ind+1Sg+2PlO: kikî-ititinâwâw # I said thus to you all, I said thus about you all
+      PV/ki+itîw+V+TA+Ind+1Sg+3PlO: nikî-itâwak # I said thus to them, I said thus about them
+      PV/ki+itîw+V+TA+Ind+1Sg+4Sg/PlO: nikî-itimâwa # I said thus to another/others, I said thus about another/others
 
       # 2Sg
-      PV/ki+itîw+V+TA+Ind+2Sg+1SgO: kikî-isin	# you said thus to me, you said thus about me
-      PV/ki+itîw+V+TA+Ind+2Sg+3SgO: kikî-itâw	# you said thus to him/her, you said thus about him/her
-      PV/ki+itîw+V+TA+Ind+2Sg+1PlO: kikî-isinân	# you said thus to us, you said thus about us
-      PV/ki+itîw+V+TA+Ind+2Sg+3PlO: kikî-itâwak	# you said thus to them, you said thus about them
-      PV/ki+itîw+V+TA+Ind+2Sg+4Sg/PlO: kikî-itimâwa	# you said thus to another/others, you said thus about another/others
+      PV/ki+itîw+V+TA+Ind+2Sg+1SgO: kikî-isin # you said thus to me, you said thus about me
+      PV/ki+itîw+V+TA+Ind+2Sg+3SgO: kikî-itâw # you said thus to him/her, you said thus about him/her
+      PV/ki+itîw+V+TA+Ind+2Sg+1PlO: kikî-isinân # you said thus to us, you said thus about us
+      PV/ki+itîw+V+TA+Ind+2Sg+3PlO: kikî-itâwak # you said thus to them, you said thus about them
+      PV/ki+itîw+V+TA+Ind+2Sg+4Sg/PlO: kikî-itimâwa # you said thus to another/others, you said thus about another/others
 
       # 3Sg
-      PV/ki+itîw+V+TA+Ind+2Sg+1SgO: kikî-isin	# you said thus to me, you said thus about me
-      PV/ki+itîw+V+TA+Ind+3Sg+2SgO: kikî-itik	# he/she said thus to you, he/she said thus about you
-      PV/ki+itîw+V+TA+Ind+2Sg+1PlO: kikî-isinân	# you said thus to us, you said thus about us
-      PV/ki+itîw+V+TA+Ind+3Sg+12PlO: kikî-itikonaw	# he/she said thus to you and us, he/she said thus about you and us
-      PV/ki+itîw+V+TA+Ind+3Sg+2PlO: kikî-itikowâw	# he/she said thus to you all, he/she said thus about you all
-      PV/ki+itîw+V+TA+Ind+2Sg+3PlO: kikî-itâwak	# you said thus to them, you said thus about them
-      PV/ki+itîw+V+TA+Ind+2Sg+4Sg/PlO: kikî-itimâwa	# you said thus to another/others, you said thus about another/others
-      PV/ki+itîw+V+TA+Ind+3Sg+5Sg/PlO: kî-itimîw	# he/she said thus to yet another/others, he/she said thus about yet another/others
+      PV/ki+itîw+V+TA+Ind+2Sg+1SgO: kikî-isin # you said thus to me, you said thus about me
+      PV/ki+itîw+V+TA+Ind+3Sg+2SgO: kikî-itik # he/she said thus to you, he/she said thus about you
+      PV/ki+itîw+V+TA+Ind+2Sg+1PlO: kikî-isinân # you said thus to us, you said thus about us
+      PV/ki+itîw+V+TA+Ind+3Sg+12PlO: kikî-itikonaw # he/she said thus to you and us, he/she said thus about you and us
+      PV/ki+itîw+V+TA+Ind+3Sg+2PlO: kikî-itikowâw # he/she said thus to you all, he/she said thus about you all
+      PV/ki+itîw+V+TA+Ind+2Sg+3PlO: kikî-itâwak # you said thus to them, you said thus about them
+      PV/ki+itîw+V+TA+Ind+2Sg+4Sg/PlO: kikî-itimâwa # you said thus to another/others, you said thus about another/others
+      PV/ki+itîw+V+TA+Ind+3Sg+5Sg/PlO: kî-itimîw # he/she said thus to yet another/others, he/she said thus about yet another/others
 
       # 1Pl
-      PV/ki+itîw+V+TA+Ind+1Pl+2SgO: kikî-ititinân	# we said thus to you, we said thus about you
-      PV/ki+itîw+V+TA+Ind+1Pl+3SgO: nikî-itânân	# we said thus to him/her, we said thus about him/her
-      PV/ki+itîw+V+TA+Ind+1Pl+2PlO: kikî-ititinân	# we said thus to you all, we said thus about you all
-      PV/ki+itîw+V+TA+Ind+1Pl+3PlO: nikî-itânânak	# we said thus to them, we said thus about them
-      PV/ki+itîw+V+TA+Ind+1Pl+4Sg/PlO: nikî-itimânâna	# we said thus to another/others, we said thus about another/others
+      PV/ki+itîw+V+TA+Ind+1Pl+2SgO: kikî-ititinân # we said thus to you, we said thus about you
+      PV/ki+itîw+V+TA+Ind+1Pl+3SgO: nikî-itânân # we said thus to him/her, we said thus about him/her
+      PV/ki+itîw+V+TA+Ind+1Pl+2PlO: kikî-ititinân # we said thus to you all, we said thus about you all
+      PV/ki+itîw+V+TA+Ind+1Pl+3PlO: nikî-itânânak # we said thus to them, we said thus about them
+      PV/ki+itîw+V+TA+Ind+1Pl+4Sg/PlO: nikî-itimânâna # we said thus to another/others, we said thus about another/others
 
       # 12Pl
-      PV/ki+itîw+V+TA+Ind+12Pl+3SgO: kikî-itânaw	# we and you said thus to him/her, we and you said thus about him/her
-      PV/ki+itîw+V+TA+Ind+12Pl+3PlO: kikî-itânawak	# we and you said thus to them, we and you said thus about them
-      PV/ki+itîw+V+TA+Ind+12Pl+4Sg/PlO: kikî-itimânawa	# we and you said thus to another/others, we and you said thus about another/others
+      PV/ki+itîw+V+TA+Ind+12Pl+3SgO: kikî-itânaw # we and you said thus to him/her, we and you said thus about him/her
+      PV/ki+itîw+V+TA+Ind+12Pl+3PlO: kikî-itânawak # we and you said thus to them, we and you said thus about them
+      PV/ki+itîw+V+TA+Ind+12Pl+4Sg/PlO: kikî-itimânawa # we and you said thus to another/others, we and you said thus about another/others
 
       # 2Pl
-      PV/ki+itîw+V+TA+Ind+2Pl+1SgO: kikî-isinâwâw	# you all said thus to me, you all said thus about me
-      PV/ki+itîw+V+TA+Ind+2Pl+3SgO: kikî-itâwâw	# you all said thus to him/her, you all said thus about him/her
-      PV/ki+itîw+V+TA+Ind+2Pl+1PlO: kikî-isinân	# you all said thus to us, you all said thus about us
-      PV/ki+itîw+V+TA+Ind+2Pl+3PlO: kikî-itâwâwak	# you all said thus to them, you all said thus about them
-      PV/ki+itîw+V+TA+Ind+2Pl+4Sg/PlO: kikî-itimâwâwa	# you all said thus to another/others, you all said thus about another/others
+      PV/ki+itîw+V+TA+Ind+2Pl+1SgO: kikî-isinâwâw # you all said thus to me, you all said thus about me
+      PV/ki+itîw+V+TA+Ind+2Pl+3SgO: kikî-itâwâw # you all said thus to him/her, you all said thus about him/her
+      PV/ki+itîw+V+TA+Ind+2Pl+1PlO: kikî-isinân # you all said thus to us, you all said thus about us
+      PV/ki+itîw+V+TA+Ind+2Pl+3PlO: kikî-itâwâwak # you all said thus to them, you all said thus about them
+      PV/ki+itîw+V+TA+Ind+2Pl+4Sg/PlO: kikî-itimâwâwa # you all said thus to another/others, you all said thus about another/others
 
       # 3Pl
-      PV/ki+itîw+V+TA+Ind+3Pl+1SgO: [nikî-itikowak, nikî-itikwak]	# they said thus to me, they said thus about me
-      PV/ki+itîw+V+TA+Ind+3Pl+2SgO: [kikî-itikowak, kikî-itikwak]	# they said thus to you, they said thus about you
-      PV/ki+itîw+V+TA+Ind+3Pl+1PlO: nikî-itikonânak	# they said thus to us, they said thus about us
-      PV/ki+itîw+V+TA+Ind+3Pl+12PlO: kikî-itikonawak	# they said thus to you and us, they said thus about you and us
-      PV/ki+itîw+V+TA+Ind+3Pl+2PlO: kikî-itikowâwak	# they said thus to you all, they said thus about you all
-      PV/ki+itîw+V+TA+Ind+3Pl+4Sg/PlO: kî-itîwak	# they said thus to another/others, they said thus about another/others
-      PV/ki+itîw+V+TA+Ind+3Pl+5Sg/PlO: kî-itimîwak	# they said thus to yet another/others, they said thus about yet another/others
+      PV/ki+itîw+V+TA+Ind+3Pl+1SgO: nikî-itikwak # they said thus to me, they said thus about me
+      PV/ki+itîw+V+TA+Ind+3Pl+2SgO: kikî-itikwak # they said thus to you, they said thus about you
+      PV/ki+itîw+V+TA+Ind+3Pl+1PlO: nikî-itikonânak # they said thus to us, they said thus about us
+      PV/ki+itîw+V+TA+Ind+3Pl+12PlO: kikî-itikonawak # they said thus to you and us, they said thus about you and us
+      PV/ki+itîw+V+TA+Ind+3Pl+2PlO: kikî-itikowâwak # they said thus to you all, they said thus about you all
+      PV/ki+itîw+V+TA+Ind+3Pl+4Sg/PlO: kî-itîwak # they said thus to another/others, they said thus about another/others
+      PV/ki+itîw+V+TA+Ind+3Pl+5Sg/PlO: kî-itimîwak # they said thus to yet another/others, they said thus about yet another/others
 
       # 4Sg/Pl
-      PV/ki+itîw+V+TA+Ind+4Sg/Pl+1SgO: nikî-itikothiwa	# another/others said thus to me, another/others said thus about me
-      PV/ki+itîw+V+TA+Ind+4Sg/Pl+2SgO: kikî-itikothiwa	# another/others said thus to you, another/others said thus about you
-      PV/ki+itîw+V+TA+Ind+4Sg/Pl+3SgO: [kî-itikow, kî-itik]	# another/others said thus to him/her, another/others said thus about him/her
-      PV/ki+itîw+V+TA+Ind+4Sg/Pl+1PlO: nikî-itikonâna	# another/others said thus to us, another/others said thus about us
-      PV/ki+itîw+V+TA+Ind+4Sg/Pl+12PlO: kikî-itikonawa	# another/others said thus to you and us, another/others said thus about you and us
-      PV/ki+itîw+V+TA+Ind+4Sg/Pl+2PlO: kikî-itikowâwa	# another/others said thus to you all, another/others said thus about you all
-      PV/ki+itîw+V+TA+Ind+4Sg/Pl+3PlO: [kî-itikowak, kî-itikwak]	# another/others said thus to them, another/others said thus about them
-      PV/ki+itîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: kî-itîthiwa	# another/others said thus to yet another/others, another/others said thus about yet another/others
+      PV/ki+itîw+V+TA+Ind+4Sg/Pl+1SgO: nikî-itikothiwa # another/others said thus to me, another/others said thus about me
+      PV/ki+itîw+V+TA+Ind+4Sg/Pl+2SgO: kikî-itikothiwa # another/others said thus to you, another/others said thus about you
+      PV/ki+itîw+V+TA+Ind+4Sg/Pl+3SgO: [kî-itikow, kî-itik] # another/others said thus to him/her, another/others said thus about him/her
+      PV/ki+itîw+V+TA+Ind+4Sg/Pl+1PlO: nikî-itikonâna # another/others said thus to us, another/others said thus about us
+      PV/ki+itîw+V+TA+Ind+4Sg/Pl+12PlO: kikî-itikonawa # another/others said thus to you and us, another/others said thus about you and us
+      PV/ki+itîw+V+TA+Ind+4Sg/Pl+2PlO: kikî-itikowâwa # another/others said thus to you all, another/others said thus about you all
+      PV/ki+itîw+V+TA+Ind+4Sg/Pl+3PlO: [kî-itikowak, kî-itikwak] # another/others said thus to them, another/others said thus about them
+      PV/ki+itîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: kî-itîthiwa # another/others said thus to yet another/others, another/others said thus about yet another/others
 
       # 5Sg/Pl
-      PV/ki+itîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: kî-itikothiwa	# yet another/others said thus to another/others, yet another/others said thus about another/others
+      PV/ki+itîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: kî-itikothiwa # yet another/others said thus to another/others, yet another/others said thus about another/others
 
       # X
-      PV/ki+itîw+V+TA+Ind+X+1SgO: nikî-itikawin	# someone said thus to me, someone said thus about me
-      PV/ki+itîw+V+TA+Ind+X+2SgO: kikî-itikawin	# someone said thus to you, someone said thus about you
-      PV/ki+itîw+V+TA+Ind+X+3SgO: kî-itâw	# someone said thus to him/her, someone said thus about him/her
-      PV/ki+itîw+V+TA+Ind+X+1PlO: nikî-itikawinân	# someone said thus to us, someone said thus about us
-      PV/ki+itîw+V+TA+Ind+X+12PlO: [kikî-itikawinaw, kikî-itikawinânaw]	# someone said thus to you and us, someone said thus about you and us
-      PV/ki+itîw+V+TA+Ind+X+2PlO: kikî-itikawinâwâw	# someone said thus to you all, someone said thus about you all
-      PV/ki+itîw+V+TA+Ind+X+3PlO: kî-itâwak	# someone said thus to them, someone said thus about them
-      PV/ki+itîw+V+TA+Ind+X+4Sg/PlO: kî-itâthiwa	# someone said thus to another/others, someone said thus about another/others
+      PV/ki+itîw+V+TA+Ind+X+1SgO: nikî-itikawin # someone said thus to me, someone said thus about me
+      PV/ki+itîw+V+TA+Ind+X+2SgO: kikî-itikawin # someone said thus to you, someone said thus about you
+      PV/ki+itîw+V+TA+Ind+X+3SgO: kî-itâw # someone said thus to him/her, someone said thus about him/her
+      PV/ki+itîw+V+TA+Ind+X+1PlO: nikî-itikawinân # someone said thus to us, someone said thus about us
+      PV/ki+itîw+V+TA+Ind+X+12PlO: [kikî-itikawinaw, kikî-itikawinânaw] # someone said thus to you and us, someone said thus about you and us
+      PV/ki+itîw+V+TA+Ind+X+2PlO: kikî-itikawinâwâw # someone said thus to you all, someone said thus about you all
+      PV/ki+itîw+V+TA+Ind+X+3PlO: kî-itâwak # someone said thus to them, someone said thus about them
+      PV/ki+itîw+V+TA+Ind+X+4Sg/PlO: kî-itâthiwa # someone said thus to another/others, someone said thus about another/others
 
       # 0Sg/Pl
-      PV/ki+itîw+V+TA+Ind+0Sg/Pl+1SgO: PV/ki+itîw+V+TA+Ind+0Sg/Pl+1SgO
-      PV/ki+itîw+V+TA+Ind+0Sg/Pl+2SgO: PV/ki+itîw+V+TA+Ind+0Sg/Pl+2SgO
-      PV/ki+itîw+V+TA+Ind+0Sg/Pl+3SgO: PV/ki+itîw+V+TA+Ind+0Sg/Pl+3SgO
-      PV/ki+itîw+V+TA+Ind+0Sg/Pl+1PlO: PV/ki+itîw+V+TA+Ind+0Sg/Pl+1PlO
-      PV/ki+itîw+V+TA+Ind+0Sg/Pl+12PlO: PV/ki+itîw+V+TA+Ind+0Sg/Pl+12PlO
-      PV/ki+itîw+V+TA+Ind+0Sg/Pl+2PlO: PV/ki+itîw+V+TA+Ind+0Sg/Pl+2PlO
-      PV/ki+itîw+V+TA+Ind+0Sg/Pl+3PlO: PV/ki+itîw+V+TA+Ind+0Sg/Pl+3PlO
-      PV/ki+itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: PV/ki+itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      PV/ki+itîw+V+TA+Ind+0Sg/Pl+1SgO: nikî-itikon
+      PV/ki+itîw+V+TA+Ind+0Sg/Pl+2SgO: kikî-itikon
+      PV/ki+itîw+V+TA+Ind+0Sg/Pl+3SgO: kî-itikow
+      PV/ki+itîw+V+TA+Ind+0Sg/Pl+1PlO: nikî-itikonân
+      PV/ki+itîw+V+TA+Ind+0Sg/Pl+12PlO: kikî-itikonaw
+      PV/ki+itîw+V+TA+Ind+0Sg/Pl+2PlO: kikî-itikowâw
+      PV/ki+itîw+V+TA+Ind+0Sg/Pl+3PlO: kî-itikowak
+      PV/ki+itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: kî-itikothiwa
       
 
       # Prt # Cnj
 
       # 1Sg
-      PV/e+PV/ki+itîw+V+TA+Cnj+1Sg+2SgO: î-kî-ititân	# as I said thus to you, as I said thus about you
-      PV/e+PV/ki+itîw+V+TA+Cnj+1Sg+3SgO: î-kî-itak	# as I said thus to him/her, as I said thus about him/her
-      PV/e+PV/ki+itîw+V+TA+Cnj+1Sg+2PlO: î-kî-ititakok	# as I said thus to you all, as I said thus about you all
-      PV/e+PV/ki+itîw+V+TA+Cnj+1Sg+3PlO: î-kî-itakik	# as I said thus to them, as I said thus about them
-      PV/e+PV/ki+itîw+V+TA+Cnj+1Sg+4Sg/PlO: î-kî-itimak	# as I said thus to another/others, as I said thus about another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Sg+2SgO: î-kî-ititân # as I said thus to you, as I said thus about you
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Sg+3SgO: î-kî-itak # as I said thus to him/her, as I said thus about him/her
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Sg+2PlO: î-kî-ititakwâw # as I said thus to you all, as I said thus about you all
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Sg+3PlO: î-kî-itakwâw # as I said thus to them, as I said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Sg+3PlO+Var/East: î-kî-itaki # as I said thus to them, as I said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Sg+4Sg/PlO: î-kî-itimak # as I said thus to another/others, as I said thus about another/others
 
       # 2Sg
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Sg+1SgO: î-kî-isithan	# as you said thus to me, as you said thus about me
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Sg+3SgO: î-kî-itat	# as you said thus to him/her, as you said thus about him/her
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Sg+1PlO: î-kî-isithâhk	# as you said thus to us, as you said thus about us
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Sg+3PlO: î-kî-itacik	# as you said thus to them, as you said thus about them
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-itimat	# as you said thus to another/others, as you said thus about another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Sg+1SgO: î-kî-isiyan # as you said thus to me, as you said thus about me
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Sg+3SgO: î-kî-itat # as you said thus to him/her, as you said thus about him/her
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Sg+1PlO: î-kî-isiyâhk # as you said thus to us, as you said thus about us
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Sg+3PlO: î-kî-itacik # as you said thus to them, as you said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-itimat # as you said thus to another/others, as you said thus about another/others
 
       # 3Sg
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Sg+1SgO: î-kî-isithan	# as you said thus to me, as you said thus about me
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Sg+2SgO: î-kî-itisk	# as he/she said thus to you, as he/she said thus about you
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Sg+1PlO: î-kî-isithâhk	# as you said thus to us, as you said thus about us
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Sg+12PlO: î-kî-itikothahk	# as he/she said thus to you and us, as he/she said thus about you and us
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Sg+2PlO: î-kî-itikothîk	# as he/she said thus to you all, as he/she said thus about you all
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Sg+3PlO: î-kî-itacik	# as you said thus to them, as you said thus about them
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-itimat	# as you said thus to another/others, as you said thus about another/others
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Sg+5Sg/PlO: î-kî-itimât	# as he/she said thus to yet another/others, as he/she said thus about yet another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Sg+1SgO: î-kî-isiyan # as you said thus to me, as you said thus about me
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Sg+2SgO: î-kî-itisk # as he/she said thus to you, as he/she said thus about you
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Sg+1PlO: î-kî-isiyâhk # as you said thus to us, as you said thus about us
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Sg+1PlO: î-kî-itikoyâhk # as you said thus to us, as you said thus about us
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Sg+1PlO+Var/East: î-kî-isiyamiht # as you said thus to us, as you said thus about us
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Sg+12PlO: î-kî-itikoyahk # as he/she said thus to you and us, as he/she said thus about you and us
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Sg+12PlO+Var/East: î-kî-ititahk # as he/she said thus to you and us, as he/she said thus about you and us
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Sg+2PlO: î-kî-itikoyîk # as he/she said thus to you all, as he/she said thus about you all
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Sg+2PlO+Var/East: î-kî-ititîk # as he/she said thus to you all, as he/she said thus about you all
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Sg+3PlO: î-kî-itacik # as you said thus to them, as you said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-kî-itimat # as you said thus to another/others, as you said thus about another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Sg+5Sg/PlO: î-kî-itimât # as he/she said thus to yet another/others, as he/she said thus about yet another/others
 
       # 1Pl
-      PV/e+PV/ki+itîw+V+TA+Cnj+1Pl+2SgO: î-kî-ititâhk	# as we said thus to you, as we said thus about you
-      PV/e+PV/ki+itîw+V+TA+Cnj+1Pl+3SgO: î-kî-itâthâhk	# as we said thus to him/her, as we said thus about him/her
-      PV/e+PV/ki+itîw+V+TA+Cnj+1Pl+2PlO: î-kî-ititâhk	# as we said thus to you all, as we said thus about you all
-      PV/e+PV/ki+itîw+V+TA+Cnj+1Pl+3PlO: î-kî-itâthâhkik	# as we said thus to them, as we said thus about them
-      PV/e+PV/ki+itîw+V+TA+Cnj+1Pl+4Sg/PlO: î-kî-itimâthâhk	# as we said thus to another/others, as we said thus about another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Pl+2SgO: î-kî-ititâhk # as we said thus to you, as we said thus about you
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Pl+3SgO: î-kî-itâyâhk # as we said thus to him/her, as we said thus about him/her
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Pl+3SgO+Var/East: î-kî-itakiht # as we said thus to him/her, as we said thus about him/her
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Pl+2PlO: î-kî-ititâhk # as we said thus to you all, as we said thus about you all
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Pl+3PlO: î-kî-itâyâhkwâw # as we said thus to them, as we said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Pl+3PlO+Var/East: î-kî-itakihcik # as we said thus to them, as we said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+1Pl+4Sg/PlO: î-kî-itimâyâhk # as we said thus to another/others, as we said thus about another/others
 
       # 12Pl
-      PV/e+PV/ki+itîw+V+TA+Cnj+12Pl+3SgO: î-kî-itâthahk	# as we and you said thus to him/her, as we and you said thus about him/her
-      PV/e+PV/ki+itîw+V+TA+Cnj+12Pl+3PlO: î-kî-itâthahkok	# as we and you said thus to them, as we and you said thus about them
-      PV/e+PV/ki+itîw+V+TA+Cnj+12Pl+4Sg/PlO: î-kî-itimâthahk	# as we and you said thus to another/others, as we and you said thus about another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+12Pl+3SgO: î-kî-itâyahk # as we and you said thus to him/her, as we and you said thus about him/her
+      PV/î+PV/ki+itîw+V+TA+Cnj+12Pl+3SgO+Var/East: î-kî-itahk # as we and you said thus to him/her, as we and you said thus about him/her
+      PV/î+PV/ki+itîw+V+TA+Cnj+12Pl+3PlO: î-kî-itâyahkwâw # as we and you said thus to them, as we and you said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+12Pl+3PlO+Var/East: î-kî-itahkwâw # as we and you said thus to them, as we and you said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+12Pl+4Sg/PlO: î-kî-itimâyahk # as we and you said thus to another/others, as we and you said thus about another/others
 
       # 2Pl
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Pl+1SgO: î-kî-isithîk	# as you all said thus to me, as you all said thus about me
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Pl+3SgO: î-kî-itâthîk	# as you all said thus to him/her, as you all said thus about him/her
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Pl+1PlO: î-kî-isithâhk	# as you all said thus to us, as you all said thus about us
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Pl+3PlO: î-kî-itâthîkok	# as you all said thus to them, as you all said thus about them
-      PV/e+PV/ki+itîw+V+TA+Cnj+2Pl+4Sg/PlO: î-kî-itimâthîk	# as you all said thus to another/others, as you all said thus about another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Pl+1SgO: î-kî-isiyîk # as you all said thus to me, as you all said thus about me
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Pl+3SgO: î-kî-itâyîk # as you all said thus to him/her, as you all said thus about him/her
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Pl+1PlO: î-kî-isiyâhk # as you all said thus to us, as you all said thus about us
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Pl+3PlO: î-kî-itâyîkwâw # as you all said thus to them, as you all said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Pl+3PlO+Var/East: î-kî-itâyîkok # as you all said thus to them, as you all said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+2Pl+4Sg/PlO: î-kî-itimâyîk # as you all said thus to another/others, as you all said thus about another/others
 
       # 3Pl
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Pl+1SgO: î-kî-isicik	# as they said thus to me, as they said thus about me
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Pl+2SgO: î-kî-itiskik	# as they said thus to you, as they said thus about you
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Pl+1PlO: î-kî-itikothâhkik	# as they said thus to us, as they said thus about us
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Pl+12PlO: î-kî-itikothahkok	# as they said thus to you and us, as they said thus about you and us
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Pl+2PlO: î-kî-itikothîkok	# as they said thus to you all, as they said thus about you all
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Pl+4Sg/PlO: î-kî-itâcik	# as they said thus to another/others, as they said thus about another/others
-      PV/e+PV/ki+itîw+V+TA+Cnj+3Pl+5Sg/PlO: î-kî-itimâcik	# as they said thus to yet another/others, as they said thus about yet another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Pl+1SgO: [î-kî-isitwâw, î-kî-isicik] # as they said thus to me, as they said thus about me
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Pl+2SgO: î-kî-itiskwâw # as they said thus to you, as they said thus about you
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Pl+1PlO: î-kî-itikoyâhkwâw # as they said thus to us, as they said thus about us
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Pl+1PlO+Var/East: î-kî-isiyamihcik # as they said thus to us, as they said thus about us
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Pl+12PlO: î-kî-itikoyahkwâw # as they said thus to you and us, as they said thus about you and us
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Pl+12PlO+Var/East: î-kî-ititahkwâw # as they said thus to you and us, as they said thus about you and us
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Pl+2PlO: î-kî-itikoyîkwâw # as they said thus to you all, as they said thus about you all
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Pl+2PlO+Var/East: î-kî-ititîkwâw # as they said thus to you all, as they said thus about you all
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Pl+4Sg/PlO: î-kî-itâcik # as they said thus to another/others, as they said thus about another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+3Pl+5Sg/PlO: î-kî-itimâcik # as they said thus to yet another/others, as they said thus about yet another/others
 
       # 4Sg/Pl
-      PV/e+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+1SgO: î-kî-itimit	# as another/others said thus to me, as another/others said thus about me
-      PV/e+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+2SgO: î-kî-itimisk	# as another/others said thus to you, as another/others said thus about you
-      PV/e+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+3SgO: î-kî-itikot	# as another/others said thus to him/her, as another/others said thus about him/her
-      PV/e+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+1PlO: î-kî-itikothâhk	# as another/others said thus to us, as another/others said thus about us
-      PV/e+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+12PlO: î-kî-itikothahk	# as another/others said thus to you and us, as another/others said thus about you and us
-      PV/e+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+2PlO: î-kî-itikothîk	# as another/others said thus to you all, as another/others said thus about you all
-      PV/e+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+3PlO: î-kî-itikocik	# as another/others said thus to them, as another/others said thus about them
-      PV/e+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-kî-itâthit	# as another/others said thus to yet another/others, as another/others said thus about yet another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+1SgO: î-kî-itimit # as another/others said thus to me, as another/others said thus about me
+      PV/î+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+2SgO: î-kî-itimisk # as another/others said thus to you, as another/others said thus about you
+      PV/î+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+3SgO: î-kî-itikot # as another/others said thus to him/her, as another/others said thus about him/her
+      PV/î+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+1PlO: î-kî-itikoyâhk # as another/others said thus to us, as another/others said thus about us
+      PV/î+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+12PlO: î-kî-itikoyahk # as another/others said thus to you and us, as another/others said thus about you and us
+      PV/î+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+2PlO: î-kî-itikoyîk # as another/others said thus to you all, as another/others said thus about you all
+      PV/î+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+3PlO: î-kî-itikocik # as another/others said thus to them, as another/others said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-kî-itâthit # as another/others said thus to yet another/others, as another/others said thus about yet another/others
 
       # 5Sg/Pl
-      PV/e+PV/ki+itîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-kî-itikothit	# as yet another/others said thus to another/others, as yet another/others said thus about another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-kî-itikothit # as yet another/others said thus to another/others, as yet another/others said thus about another/others
 
       # X
-      PV/e+PV/ki+itîw+V+TA+Cnj+X+1SgO: î-kî-itikawithân	# as someone said thus to me, as someone said thus about me
-      PV/e+PV/ki+itîw+V+TA+Cnj+X+2SgO: î-kî-itikawithan	# as someone said thus to you, as someone said thus about you
-      PV/e+PV/ki+itîw+V+TA+Cnj+X+3SgO: î-kî-itiht	# as someone said thus to him/her, as someone said thus about him/her
-      PV/e+PV/ki+itîw+V+TA+Cnj+X+1PlO: î-kî-itikawithâhk	# as someone said thus to us, as someone said thus about us
-      PV/e+PV/ki+itîw+V+TA+Cnj+X+12PlO: î-kî-itikawithahk	# as someone said thus to you and us, as someone said thus about you and us
-      PV/e+PV/ki+itîw+V+TA+Cnj+X+2PlO: î-kî-itikawithîk	# as someone said thus to you all, as someone said thus about you all
-      PV/e+PV/ki+itîw+V+TA+Cnj+X+3PlO: î-kî-itihcik	# as someone said thus to them, as someone said thus about them
-      PV/e+PV/ki+itîw+V+TA+Cnj+X+4Sg/PlO: î-kî-itimiht	# as someone said thus to another/others, as someone said thus about another/others
+      PV/î+PV/ki+itîw+V+TA+Cnj+X+1SgO: î-kî-itikawiyân # as someone said thus to me, as someone said thus about me
+      PV/î+PV/ki+itîw+V+TA+Cnj+X+2SgO: î-kî-itikawiyan # as someone said thus to you, as someone said thus about you
+      PV/î+PV/ki+itîw+V+TA+Cnj+X+3SgO: î-kî-itiht # as someone said thus to him/her, as someone said thus about him/her
+      PV/î+PV/ki+itîw+V+TA+Cnj+X+1PlO: î-kî-itikawiyâhk # as someone said thus to us, as someone said thus about us
+      PV/î+PV/ki+itîw+V+TA+Cnj+X+12PlO: î-kî-itikawiyahk # as someone said thus to you and us, as someone said thus about you and us
+      PV/î+PV/ki+itîw+V+TA+Cnj+X+2PlO: î-kî-itikawiyîk # as someone said thus to you all, as someone said thus about you all
+      PV/î+PV/ki+itîw+V+TA+Cnj+X+3PlO: î-kî-itihcik # as someone said thus to them, as someone said thus about them
+      PV/î+PV/ki+itîw+V+TA+Cnj+X+4Sg/PlO: î-kî-itimiht # as someone said thus to another/others, as someone said thus about another/others
 
       # 0Sg/Pl
-      PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+1SgO
-      PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+2SgO
-      PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+3SgO
-      PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+1PlO
-      PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+12PlO
-      PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+2PlO
-      PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+3PlO
-      PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/e+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      PV/î+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+1SgO: î-kî-itikoyân
+      PV/î+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+2SgO: î-kî-itikoyan
+      PV/î+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+3SgO: î-kî-itikot
+      PV/î+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+1PlO: î-kî-itikoyâhk
+      PV/î+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+12PlO: î-kî-itikoyahk
+      PV/î+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+2PlO: î-kî-itikoyîk
+      PV/î+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+3PlO: î-kî-itikocik
+      PV/î+PV/ki+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: î-kî-itikothit
       
 
       # Fut+Int # Ind
 
       # 1Sg
-      PV/wi+itîw+V+TA+Ind+1Sg+2SgO: kiwî-ititin	# I am going to say thus to you, I am going to say thus about you
-      PV/wi+itîw+V+TA+Ind+1Sg+3SgO: niwî-itâw	# I am going to say thus to him/her, I am going to say thus about him/her
-      PV/wi+itîw+V+TA+Ind+1Sg+2PlO: kiwî-ititinâwâw	# I am going to say thus to you all, I am going to say thus about you all
-      PV/wi+itîw+V+TA+Ind+1Sg+3PlO: niwî-itâwak	# I am going to say thus to them, I am going to say thus about them
-      PV/wi+itîw+V+TA+Ind+1Sg+4Sg/PlO: niwî-itimâwa	# I am going to say thus to another/others, I am going to say thus about another/others
+      PV/wi+itîw+V+TA+Ind+1Sg+2SgO: kiwî-ititin # I am going to say thus to you, I am going to say thus about you
+      PV/wi+itîw+V+TA+Ind+1Sg+3SgO: niwî-itâw # I am going to say thus to him/her, I am going to say thus about him/her
+      PV/wi+itîw+V+TA+Ind+1Sg+2PlO: kiwî-ititinâwâw # I am going to say thus to you all, I am going to say thus about you all
+      PV/wi+itîw+V+TA+Ind+1Sg+3PlO: niwî-itâwak # I am going to say thus to them, I am going to say thus about them
+      PV/wi+itîw+V+TA+Ind+1Sg+4Sg/PlO: niwî-itimâwa # I am going to say thus to another/others, I am going to say thus about another/others
 
       # 2Sg
-      PV/wi+itîw+V+TA+Ind+2Sg+1SgO: kiwî-isin	# you are going to say thus to me, you are going to say thus about me
-      PV/wi+itîw+V+TA+Ind+2Sg+3SgO: kiwî-itâw	# you are going to say thus to him/her, you are going to say thus about him/her
-      PV/wi+itîw+V+TA+Ind+2Sg+1PlO: kiwî-isinân	# you are going to say thus to us, you are going to say thus about us
-      PV/wi+itîw+V+TA+Ind+2Sg+3PlO: kiwî-itâwak	# you are going to say thus to them, you are going to say thus about them
-      PV/wi+itîw+V+TA+Ind+2Sg+4Sg/PlO: kiwî-itimâwa	# you are going to say thus to another/others, you are going to say thus about another/others
+      PV/wi+itîw+V+TA+Ind+2Sg+1SgO: kiwî-isin # you are going to say thus to me, you are going to say thus about me
+      PV/wi+itîw+V+TA+Ind+2Sg+3SgO: kiwî-itâw # you are going to say thus to him/her, you are going to say thus about him/her
+      PV/wi+itîw+V+TA+Ind+2Sg+1PlO: kiwî-isinân # you are going to say thus to us, you are going to say thus about us
+      PV/wi+itîw+V+TA+Ind+2Sg+3PlO: kiwî-itâwak # you are going to say thus to them, you are going to say thus about them
+      PV/wi+itîw+V+TA+Ind+2Sg+4Sg/PlO: kiwî-itimâwa # you are going to say thus to another/others, you are going to say thus about another/others
 
       # 3Sg
-      PV/wi+itîw+V+TA+Ind+2Sg+1SgO: kiwî-isin	# you are going to say thus to me, you are going to say thus about me
-      PV/wi+itîw+V+TA+Ind+3Sg+2SgO: kiwî-itik	# he/she is going to say thus to you, he/she is going to say thus about you
-      PV/wi+itîw+V+TA+Ind+2Sg+1PlO: kiwî-isinân	# you are going to say thus to us, you are going to say thus about us
-      PV/wi+itîw+V+TA+Ind+3Sg+12PlO: kiwî-itikonaw	# he/she is going to say thus to you and us, he/she is going to say thus about you and us
-      PV/wi+itîw+V+TA+Ind+3Sg+2PlO: kiwî-itikowâw	# he/she is going to say thus to you all, he/she is going to say thus about you all
-      PV/wi+itîw+V+TA+Ind+2Sg+3PlO: kiwî-itâwak	# you are going to say thus to them, you are going to say thus about them
-      PV/wi+itîw+V+TA+Ind+2Sg+4Sg/PlO: kiwî-itimâwa	# you are going to say thus to another/others, you are going to say thus about another/others
-      PV/wi+itîw+V+TA+Ind+3Sg+5Sg/PlO: wî-itimîw	# he/she is going to say thus to yet another/others, he/she is going to say thus about yet another/others
+      PV/wi+itîw+V+TA+Ind+2Sg+1SgO: kiwî-isin # you are going to say thus to me, you are going to say thus about me
+      PV/wi+itîw+V+TA+Ind+3Sg+2SgO: kiwî-itik # he/she is going to say thus to you, he/she is going to say thus about you
+      PV/wi+itîw+V+TA+Ind+2Sg+1PlO: kiwî-isinân # you are going to say thus to us, you are going to say thus about us
+      PV/wi+itîw+V+TA+Ind+3Sg+12PlO: kiwî-itikonaw # he/she is going to say thus to you and us, he/she is going to say thus about you and us
+      PV/wi+itîw+V+TA+Ind+3Sg+2PlO: kiwî-itikowâw # he/she is going to say thus to you all, he/she is going to say thus about you all
+      PV/wi+itîw+V+TA+Ind+2Sg+3PlO: kiwî-itâwak # you are going to say thus to them, you are going to say thus about them
+      PV/wi+itîw+V+TA+Ind+2Sg+4Sg/PlO: kiwî-itimâwa # you are going to say thus to another/others, you are going to say thus about another/others
+      PV/wi+itîw+V+TA+Ind+3Sg+5Sg/PlO: wî-itimîw # he/she is going to say thus to yet another/others, he/she is going to say thus about yet another/others
 
       # 1Pl
-      PV/wi+itîw+V+TA+Ind+1Pl+2SgO: kiwî-ititinân	# we are going to say thus to you, we are going to say thus about you
-      PV/wi+itîw+V+TA+Ind+1Pl+3SgO: niwî-itânân	# we are going to say thus to him/her, we are going to say thus about him/her
-      PV/wi+itîw+V+TA+Ind+1Pl+2PlO: kiwî-ititinân	# we are going to say thus to you all, we are going to say thus about you all
-      PV/wi+itîw+V+TA+Ind+1Pl+3PlO: niwî-itânânak	# we are going to say thus to them, we are going to say thus about them
-      PV/wi+itîw+V+TA+Ind+1Pl+4Sg/PlO: niwî-itimânâna	# we are going to say thus to another/others, we are going to say thus about another/others
+      PV/wi+itîw+V+TA+Ind+1Pl+2SgO: kiwî-ititinân # we are going to say thus to you, we are going to say thus about you
+      PV/wi+itîw+V+TA+Ind+1Pl+3SgO: niwî-itânân # we are going to say thus to him/her, we are going to say thus about him/her
+      PV/wi+itîw+V+TA+Ind+1Pl+2PlO: kiwî-ititinân # we are going to say thus to you all, we are going to say thus about you all
+      PV/wi+itîw+V+TA+Ind+1Pl+3PlO: niwî-itânânak # we are going to say thus to them, we are going to say thus about them
+      PV/wi+itîw+V+TA+Ind+1Pl+4Sg/PlO: niwî-itimânâna # we are going to say thus to another/others, we are going to say thus about another/others
 
       # 12Pl
-      PV/wi+itîw+V+TA+Ind+12Pl+3SgO: kiwî-itânaw	# we and you are going to say thus to him/her, we and you are going to say thus about him/her
-      PV/wi+itîw+V+TA+Ind+12Pl+3PlO: kiwî-itânawak	# we and you are going to say thus to them, we and you are going to say thus about them
-      PV/wi+itîw+V+TA+Ind+12Pl+4Sg/PlO: kiwî-itimânawa	# we and you are going to say thus to another/others, we and you are going to say thus about another/others
+      PV/wi+itîw+V+TA+Ind+12Pl+3SgO: kiwî-itânaw # we and you are going to say thus to him/her, we and you are going to say thus about him/her
+      PV/wi+itîw+V+TA+Ind+12Pl+3PlO: kiwî-itânawak # we and you are going to say thus to them, we and you are going to say thus about them
+      PV/wi+itîw+V+TA+Ind+12Pl+4Sg/PlO: kiwî-itimânawa # we and you are going to say thus to another/others, we and you are going to say thus about another/others
 
       # 2Pl
-      PV/wi+itîw+V+TA+Ind+2Pl+1SgO: kiwî-isinâwâw	# you all are going to say thus to me, you all are going to say thus about me
-      PV/wi+itîw+V+TA+Ind+2Pl+3SgO: kiwî-itâwâw	# you all are going to say thus to him/her, you all are going to say thus about him/her
-      PV/wi+itîw+V+TA+Ind+2Pl+1PlO: kiwî-isinân	# you all are going to say thus to us, you all are going to say thus about us
-      PV/wi+itîw+V+TA+Ind+2Pl+3PlO: kiwî-itâwâwak	# you all are going to say thus to them, you all are going to say thus about them
-      PV/wi+itîw+V+TA+Ind+2Pl+4Sg/PlO: kiwî-itimâwâwa	# you all are going to say thus to another/others, you all are going to say thus about another/others
+      PV/wi+itîw+V+TA+Ind+2Pl+1SgO: kiwî-isinâwâw # you all are going to say thus to me, you all are going to say thus about me
+      PV/wi+itîw+V+TA+Ind+2Pl+3SgO: kiwî-itâwâw # you all are going to say thus to him/her, you all are going to say thus about him/her
+      PV/wi+itîw+V+TA+Ind+2Pl+1PlO: kiwî-isinân # you all are going to say thus to us, you all are going to say thus about us
+      PV/wi+itîw+V+TA+Ind+2Pl+3PlO: kiwî-itâwâwak # you all are going to say thus to them, you all are going to say thus about them
+      PV/wi+itîw+V+TA+Ind+2Pl+4Sg/PlO: kiwî-itimâwâwa # you all are going to say thus to another/others, you all are going to say thus about another/others
 
       # 3Pl
-      PV/wi+itîw+V+TA+Ind+3Pl+1SgO: [niwî-itikowak, niwî-itikwak]	# they are going to say thus to me, they are going to say thus about me
-      PV/wi+itîw+V+TA+Ind+3Pl+2SgO: [kiwî-itikowak, kiwî-itikwak]	# they are going to say thus to you, they are going to say thus about you
-      PV/wi+itîw+V+TA+Ind+3Pl+1PlO: niwî-itikonânak	# they are going to say thus to us, they are going to say thus about us
-      PV/wi+itîw+V+TA+Ind+3Pl+12PlO: kiwî-itikonawak	# they are going to say thus to you and us, they are going to say thus about you and us
-      PV/wi+itîw+V+TA+Ind+3Pl+2PlO: kiwî-itikowâwak	# they are going to say thus to you all, they are going to say thus about you all
-      PV/wi+itîw+V+TA+Ind+3Pl+4Sg/PlO: wî-itîwak	# they are going to say thus to another/others, they are going to say thus about another/others
-      PV/wi+itîw+V+TA+Ind+3Pl+5Sg/PlO: wî-itimîwak	# they are going to say thus to yet another/others, they are going to say thus about yet another/others
+      PV/wi+itîw+V+TA+Ind+3Pl+1SgO: niwî-itikwak # they are going to say thus to me, they are going to say thus about me
+      PV/wi+itîw+V+TA+Ind+3Pl+2SgO: kiwî-itikwak # they are going to say thus to you, they are going to say thus about you
+      PV/wi+itîw+V+TA+Ind+3Pl+1PlO: niwî-itikonânak # they are going to say thus to us, they are going to say thus about us
+      PV/wi+itîw+V+TA+Ind+3Pl+12PlO: kiwî-itikonawak # they are going to say thus to you and us, they are going to say thus about you and us
+      PV/wi+itîw+V+TA+Ind+3Pl+2PlO: kiwî-itikowâwak # they are going to say thus to you all, they are going to say thus about you all
+      PV/wi+itîw+V+TA+Ind+3Pl+4Sg/PlO: wî-itîwak # they are going to say thus to another/others, they are going to say thus about another/others
+      PV/wi+itîw+V+TA+Ind+3Pl+5Sg/PlO: wî-itimîwak # they are going to say thus to yet another/others, they are going to say thus about yet another/others
 
       # 4Sg/Pl
-      PV/wi+itîw+V+TA+Ind+4Sg/Pl+1SgO: niwî-itikothiwa	# another/others are going to say thus to me, another/others are going to say thus about me
-      PV/wi+itîw+V+TA+Ind+4Sg/Pl+2SgO: kiwî-itikothiwa	# another/others are going to say thus to you, another/others are going to say thus about you
-      PV/wi+itîw+V+TA+Ind+4Sg/Pl+3SgO: [wî-itikow, wî-itik]	# another/others are going to say thus to him/her, another/others are going to say thus about him/her
-      PV/wi+itîw+V+TA+Ind+4Sg/Pl+1PlO: niwî-itikonâna	# another/others are going to say thus to us, another/others are going to say thus about us
-      PV/wi+itîw+V+TA+Ind+4Sg/Pl+12PlO: kiwî-itikonawa	# another/others are going to say thus to you and us, another/others are going to say thus about you and us
-      PV/wi+itîw+V+TA+Ind+4Sg/Pl+2PlO: kiwî-itikowâwa	# another/others are going to say thus to you all, another/others are going to say thus about you all
-      PV/wi+itîw+V+TA+Ind+4Sg/Pl+3PlO: [wî-itikowak, wî-itikwak]	# another/others are going to say thus to them, another/others are going to say thus about them
-      PV/wi+itîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: wî-itîthiwa	# another/others are going to say thus to yet another/others, another/others are going to say thus about yet another/others
+      PV/wi+itîw+V+TA+Ind+4Sg/Pl+1SgO: niwî-itikothiwa # another/others are going to say thus to me, another/others are going to say thus about me
+      PV/wi+itîw+V+TA+Ind+4Sg/Pl+2SgO: kiwî-itikothiwa # another/others are going to say thus to you, another/others are going to say thus about you
+      PV/wi+itîw+V+TA+Ind+4Sg/Pl+3SgO: [wî-itikow, wî-itik] # another/others are going to say thus to him/her, another/others are going to say thus about him/her
+      PV/wi+itîw+V+TA+Ind+4Sg/Pl+1PlO: niwî-itikonâna # another/others are going to say thus to us, another/others are going to say thus about us
+      PV/wi+itîw+V+TA+Ind+4Sg/Pl+12PlO: kiwî-itikonawa # another/others are going to say thus to you and us, another/others are going to say thus about you and us
+      PV/wi+itîw+V+TA+Ind+4Sg/Pl+2PlO: kiwî-itikowâwa # another/others are going to say thus to you all, another/others are going to say thus about you all
+      PV/wi+itîw+V+TA+Ind+4Sg/Pl+3PlO: [wî-itikowak, wî-itikwak] # another/others are going to say thus to them, another/others are going to say thus about them
+      PV/wi+itîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: wî-itîthiwa # another/others are going to say thus to yet another/others, another/others are going to say thus about yet another/others
 
       # 5Sg/Pl
-      PV/wi+itîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: wî-itikothiwa	# yet another/others are going to say thus to another/others, yet another/others are going to say thus about another/others
+      PV/wi+itîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: wî-itikothiwa # yet another/others are going to say thus to another/others, yet another/others are going to say thus about another/others
 
       # X
-      PV/wi+itîw+V+TA+Ind+X+1SgO: niwî-itikawin	# someone is going to say thus to me, someone is going to say thus about me
-      PV/wi+itîw+V+TA+Ind+X+2SgO: kiwî-itikawin	# someone is going to say thus to you, someone is going to say thus about you
-      PV/wi+itîw+V+TA+Ind+X+3SgO: wî-itâw	# someone is going to say thus to him/her, someone is going to say thus about him/her
-      PV/wi+itîw+V+TA+Ind+X+1PlO: niwî-itikawinân	# someone is going to say thus to us, someone is going to say thus about us
-      PV/wi+itîw+V+TA+Ind+X+12PlO: [kiwî-itikawinaw, kiwî-itikawinânaw]	# someone is going to say thus to you and us, someone is going to say thus about you and us
-      PV/wi+itîw+V+TA+Ind+X+2PlO: kiwî-itikawinâwâw	# someone is going to say thus to you all, someone is going to say thus about you all
-      PV/wi+itîw+V+TA+Ind+X+3PlO: wî-itâwak	# someone is going to say thus to them, someone is going to say thus about them
-      PV/wi+itîw+V+TA+Ind+X+4Sg/PlO: wî-itâthiwa	# someone is going to say thus to another/others, someone is going to say thus about another/others
+      PV/wi+itîw+V+TA+Ind+X+1SgO: niwî-itikawin # someone is going to say thus to me, someone is going to say thus about me
+      PV/wi+itîw+V+TA+Ind+X+2SgO: kiwî-itikawin # someone is going to say thus to you, someone is going to say thus about you
+      PV/wi+itîw+V+TA+Ind+X+3SgO: wî-itâw # someone is going to say thus to him/her, someone is going to say thus about him/her
+      PV/wi+itîw+V+TA+Ind+X+1PlO: niwî-itikawinân # someone is going to say thus to us, someone is going to say thus about us
+      PV/wi+itîw+V+TA+Ind+X+12PlO: [kiwî-itikawinaw, kiwî-itikawinânaw] # someone is going to say thus to you and us, someone is going to say thus about you and us
+      PV/wi+itîw+V+TA+Ind+X+2PlO: kiwî-itikawinâwâw # someone is going to say thus to you all, someone is going to say thus about you all
+      PV/wi+itîw+V+TA+Ind+X+3PlO: wî-itâwak # someone is going to say thus to them, someone is going to say thus about them
+      PV/wi+itîw+V+TA+Ind+X+4Sg/PlO: wî-itâthiwa # someone is going to say thus to another/others, someone is going to say thus about another/others
 
       # 0Sg/Pl
-      PV/wi+itîw+V+TA+Ind+0Sg/Pl+1SgO: PV/wi+itîw+V+TA+Ind+0Sg/Pl+1SgO
-      PV/wi+itîw+V+TA+Ind+0Sg/Pl+2SgO: PV/wi+itîw+V+TA+Ind+0Sg/Pl+2SgO
-      PV/wi+itîw+V+TA+Ind+0Sg/Pl+3SgO: PV/wi+itîw+V+TA+Ind+0Sg/Pl+3SgO
-      PV/wi+itîw+V+TA+Ind+0Sg/Pl+1PlO: PV/wi+itîw+V+TA+Ind+0Sg/Pl+1PlO
-      PV/wi+itîw+V+TA+Ind+0Sg/Pl+12PlO: PV/wi+itîw+V+TA+Ind+0Sg/Pl+12PlO
-      PV/wi+itîw+V+TA+Ind+0Sg/Pl+2PlO: PV/wi+itîw+V+TA+Ind+0Sg/Pl+2PlO
-      PV/wi+itîw+V+TA+Ind+0Sg/Pl+3PlO: PV/wi+itîw+V+TA+Ind+0Sg/Pl+3PlO
-      PV/wi+itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: PV/wi+itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      PV/wi+itîw+V+TA+Ind+0Sg/Pl+1SgO: niwî-itikon
+      PV/wi+itîw+V+TA+Ind+0Sg/Pl+2SgO: kiwî-itikon
+      PV/wi+itîw+V+TA+Ind+0Sg/Pl+3SgO: wî-itikow
+      PV/wi+itîw+V+TA+Ind+0Sg/Pl+1PlO: niwî-itikonân
+      PV/wi+itîw+V+TA+Ind+0Sg/Pl+12PlO: kiwî-itikonaw
+      PV/wi+itîw+V+TA+Ind+0Sg/Pl+2PlO: kiwî-itikowâw
+      PV/wi+itîw+V+TA+Ind+0Sg/Pl+3PlO: wî-itikowak
+      PV/wi+itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: wî-itikothiwa
       
 
       # Fut+Int # Cnj
 
       # 1Sg
-      PV/e+PV/wi+itîw+V+TA+Cnj+1Sg+2SgO: î-wî-ititân	# as I am going to say thus to you, as I am going to say thus about you
-      PV/e+PV/wi+itîw+V+TA+Cnj+1Sg+3SgO: î-wî-itak	# as I am going to say thus to him/her, as I am going to say thus about him/her
-      PV/e+PV/wi+itîw+V+TA+Cnj+1Sg+2PlO: î-wî-ititakok	# as I am going to say thus to you all, as I am going to say thus about you all
-      PV/e+PV/wi+itîw+V+TA+Cnj+1Sg+3PlO: î-wî-itakik	# as I am going to say thus to them, as I am going to say thus about them
-      PV/e+PV/wi+itîw+V+TA+Cnj+1Sg+4Sg/PlO: î-wî-itimak	# as I am going to say thus to another/others, as I am going to say thus about another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Sg+2SgO: î-wî-ititân # as I am going to say thus to you, as I am going to say thus about you
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Sg+3SgO: î-wî-itak # as I am going to say thus to him/her, as I am going to say thus about him/her
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Sg+2PlO: î-wî-ititakwâw # as I am going to say thus to you all, as I am going to say thus about you all
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Sg+3PlO: î-wî-itakwâw # as I am going to say thus to them, as I am going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Sg+3PlO+Var/East: î-wî-itaki # as I am going to say thus to them, as I am going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Sg+4Sg/PlO: î-wî-itimak # as I am going to say thus to another/others, as I am going to say thus about another/others
 
       # 2Sg
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Sg+1SgO: î-wî-isithan	# as you are going to say thus to me, as you are going to say thus about me
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Sg+3SgO: î-wî-itat	# as you are going to say thus to him/her, as you are going to say thus about him/her
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Sg+1PlO: î-wî-isithâhk	# as you are going to say thus to us, as you are going to say thus about us
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Sg+3PlO: î-wî-itacik	# as you are going to say thus to them, as you are going to say thus about them
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-itimat	# as you are going to say thus to another/others, as you are going to say thus about another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Sg+1SgO: î-wî-isiyan # as you are going to say thus to me, as you are going to say thus about me
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Sg+3SgO: î-wî-itat # as you are going to say thus to him/her, as you are going to say thus about him/her
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Sg+1PlO: î-wî-isiyâhk # as you are going to say thus to us, as you are going to say thus about us
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Sg+3PlO: î-wî-itacik # as you are going to say thus to them, as you are going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-itimat # as you are going to say thus to another/others, as you are going to say thus about another/others
 
       # 3Sg
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Sg+1SgO: î-wî-isithan	# as you are going to say thus to me, as you are going to say thus about me
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Sg+2SgO: î-wî-itisk	# as he/she is going to say thus to you, as he/she is going to say thus about you
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Sg+1PlO: î-wî-isithâhk	# as you are going to say thus to us, as you are going to say thus about us
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Sg+12PlO: î-wî-itikothahk	# as he/she is going to say thus to you and us, as he/she is going to say thus about you and us
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Sg+2PlO: î-wî-itikothîk	# as he/she is going to say thus to you all, as he/she is going to say thus about you all
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Sg+3PlO: î-wî-itacik	# as you are going to say thus to them, as you are going to say thus about them
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-itimat	# as you are going to say thus to another/others, as you are going to say thus about another/others
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Sg+5Sg/PlO: î-wî-itimât	# as he/she is going to say thus to yet another/others, as he/she is going to say thus about yet another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Sg+1SgO: î-wî-isiyan # as you are going to say thus to me, as you are going to say thus about me
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Sg+2SgO: î-wî-itisk # as he/she is going to say thus to you, as he/she is going to say thus about you
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Sg+1PlO: î-wî-isiyâhk # as you are going to say thus to us, as you are going to say thus about us
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Sg+1PlO: î-wî-itikoyâhk # as you are going to say thus to us, as you are going to say thus about us
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Sg+1PlO+Var/East: î-wî-isiyamiht # as you are going to say thus to us, as you are going to say thus about us
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Sg+12PlO: î-wî-itikoyahk # as he/she is going to say thus to you and us, as he/she is going to say thus about you and us
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Sg+12PlO+Var/East: î-wî-ititahk # as he/she is going to say thus to you and us, as he/she is going to say thus about you and us
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Sg+2PlO: î-wî-itikoyîk # as he/she is going to say thus to you all, as he/she is going to say thus about you all
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Sg+2PlO+Var/East: î-wî-ititîk # as he/she is going to say thus to you all, as he/she is going to say thus about you all
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Sg+3PlO: î-wî-itacik # as you are going to say thus to them, as you are going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Sg+4Sg/PlO: î-wî-itimat # as you are going to say thus to another/others, as you are going to say thus about another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Sg+5Sg/PlO: î-wî-itimât # as he/she is going to say thus to yet another/others, as he/she is going to say thus about yet another/others
 
       # 1Pl
-      PV/e+PV/wi+itîw+V+TA+Cnj+1Pl+2SgO: î-wî-ititâhk	# as we are going to say thus to you, as we are going to say thus about you
-      PV/e+PV/wi+itîw+V+TA+Cnj+1Pl+3SgO: î-wî-itâthâhk	# as we are going to say thus to him/her, as we are going to say thus about him/her
-      PV/e+PV/wi+itîw+V+TA+Cnj+1Pl+2PlO: î-wî-ititâhk	# as we are going to say thus to you all, as we are going to say thus about you all
-      PV/e+PV/wi+itîw+V+TA+Cnj+1Pl+3PlO: î-wî-itâthâhkik	# as we are going to say thus to them, as we are going to say thus about them
-      PV/e+PV/wi+itîw+V+TA+Cnj+1Pl+4Sg/PlO: î-wî-itimâthâhk	# as we are going to say thus to another/others, as we are going to say thus about another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Pl+2SgO: î-wî-ititâhk # as we are going to say thus to you, as we are going to say thus about you
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Pl+3SgO: î-wî-itâyâhk # as we are going to say thus to him/her, as we are going to say thus about him/her
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Pl+3SgO+Var/East: î-wî-itakiht # as we are going to say thus to him/her, as we are going to say thus about him/her
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Pl+2PlO: î-wî-ititâhk # as we are going to say thus to you all, as we are going to say thus about you all
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Pl+3PlO: î-wî-itâyâhkwâw # as we are going to say thus to them, as we are going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Pl+3PlO+Var/East: î-wî-itakihcik # as we are going to say thus to them, as we are going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+1Pl+4Sg/PlO: î-wî-itimâyâhk # as we are going to say thus to another/others, as we are going to say thus about another/others
 
       # 12Pl
-      PV/e+PV/wi+itîw+V+TA+Cnj+12Pl+3SgO: î-wî-itâthahk	# as we and you are going to say thus to him/her, as we and you are going to say thus about him/her
-      PV/e+PV/wi+itîw+V+TA+Cnj+12Pl+3PlO: î-wî-itâthahkok	# as we and you are going to say thus to them, as we and you are going to say thus about them
-      PV/e+PV/wi+itîw+V+TA+Cnj+12Pl+4Sg/PlO: î-wî-itimâthahk	# as we and you are going to say thus to another/others, as we and you are going to say thus about another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+12Pl+3SgO: î-wî-itâyahk # as we and you are going to say thus to him/her, as we and you are going to say thus about him/her
+      PV/î+PV/wi+itîw+V+TA+Cnj+12Pl+3SgO+Var/East: î-wî-itahk # as we and you are going to say thus to him/her, as we and you are going to say thus about him/her
+      PV/î+PV/wi+itîw+V+TA+Cnj+12Pl+3PlO: î-wî-itâyahkwâw # as we and you are going to say thus to them, as we and you are going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+12Pl+3PlO+Var/East: î-wî-itahkwâw # as we and you are going to say thus to them, as we and you are going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+12Pl+4Sg/PlO: î-wî-itimâyahk # as we and you are going to say thus to another/others, as we and you are going to say thus about another/others
 
       # 2Pl
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Pl+1SgO: î-wî-isithîk	# as you all are going to say thus to me, as you all are going to say thus about me
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Pl+3SgO: î-wî-itâthîk	# as you all are going to say thus to him/her, as you all are going to say thus about him/her
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Pl+1PlO: î-wî-isithâhk	# as you all are going to say thus to us, as you all are going to say thus about us
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Pl+3PlO: î-wî-itâthîkok	# as you all are going to say thus to them, as you all are going to say thus about them
-      PV/e+PV/wi+itîw+V+TA+Cnj+2Pl+4Sg/PlO: î-wî-itimâthîk	# as you all are going to say thus to another/others, as you all are going to say thus about another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Pl+1SgO: î-wî-isiyîk # as you all are going to say thus to me, as you all are going to say thus about me
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Pl+3SgO: î-wî-itâyîk # as you all are going to say thus to him/her, as you all are going to say thus about him/her
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Pl+1PlO: î-wî-isiyâhk # as you all are going to say thus to us, as you all are going to say thus about us
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Pl+3PlO: î-wî-itâyîkwâw # as you all are going to say thus to them, as you all are going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Pl+3PlO+Var/East: î-wî-itâyîkok # as you all are going to say thus to them, as you all are going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+2Pl+4Sg/PlO: î-wî-itimâyîk # as you all are going to say thus to another/others, as you all are going to say thus about another/others
 
       # 3Pl
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Pl+1SgO: î-wî-isicik	# as they are going to say thus to me, as they are going to say thus about me
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Pl+2SgO: î-wî-itiskik	# as they are going to say thus to you, as they are going to say thus about you
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Pl+1PlO: î-wî-itikothâhkik	# as they are going to say thus to us, as they are going to say thus about us
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Pl+12PlO: î-wî-itikothahkok	# as they are going to say thus to you and us, as they are going to say thus about you and us
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Pl+2PlO: î-wî-itikothîkok	# as they are going to say thus to you all, as they are going to say thus about you all
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Pl+4Sg/PlO: î-wî-itâcik	# as they are going to say thus to another/others, as they are going to say thus about another/others
-      PV/e+PV/wi+itîw+V+TA+Cnj+3Pl+5Sg/PlO: î-wî-itimâcik	# as they are going to say thus to yet another/others, as they are going to say thus about yet another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Pl+1SgO: [î-wî-isitwâw, î-wî-isicik] # as they are going to say thus to me, as they are going to say thus about me
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Pl+2SgO: î-wî-itiskwâw # as they are going to say thus to you, as they are going to say thus about you
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Pl+1PlO: î-wî-itikoyâhkwâw # as they are going to say thus to us, as they are going to say thus about us
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Pl+1PlO+Var/East: î-wî-isiyamihcik # as they are going to say thus to us, as they are going to say thus about us
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Pl+12PlO: î-wî-itikoyahkwâw # as they are going to say thus to you and us, as they are going to say thus about you and us
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Pl+12PlO+Var/East: î-wî-ititahkwâw # as they are going to say thus to you and us, as they are going to say thus about you and us
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Pl+2PlO: î-wî-itikoyîkwâw # as they are going to say thus to you all, as they are going to say thus about you all
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Pl+2PlO+Var/East: î-wî-ititîkwâw # as they are going to say thus to you all, as they are going to say thus about you all
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Pl+4Sg/PlO: î-wî-itâcik # as they are going to say thus to another/others, as they are going to say thus about another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+3Pl+5Sg/PlO: î-wî-itimâcik # as they are going to say thus to yet another/others, as they are going to say thus about yet another/others
 
       # 4Sg/Pl
-      PV/e+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+1SgO: î-wî-itimit	# as another/others are going to say thus to me, as another/others are going to say thus about me
-      PV/e+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+2SgO: î-wî-itimisk	# as another/others are going to say thus to you, as another/others are going to say thus about you
-      PV/e+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+3SgO: î-wî-itikot	# as another/others are going to say thus to him/her, as another/others are going to say thus about him/her
-      PV/e+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+1PlO: î-wî-itikothâhk	# as another/others are going to say thus to us, as another/others are going to say thus about us
-      PV/e+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+12PlO: î-wî-itikothahk	# as another/others are going to say thus to you and us, as another/others are going to say thus about you and us
-      PV/e+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+2PlO: î-wî-itikothîk	# as another/others are going to say thus to you all, as another/others are going to say thus about you all
-      PV/e+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+3PlO: î-wî-itikocik	# as another/others are going to say thus to them, as another/others are going to say thus about them
-      PV/e+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-wî-itâthit	# as another/others are going to say thus to yet another/others, as another/others are going to say thus about yet another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+1SgO: î-wî-itimit # as another/others are going to say thus to me, as another/others are going to say thus about me
+      PV/î+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+2SgO: î-wî-itimisk # as another/others are going to say thus to you, as another/others are going to say thus about you
+      PV/î+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+3SgO: î-wî-itikot # as another/others are going to say thus to him/her, as another/others are going to say thus about him/her
+      PV/î+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+1PlO: î-wî-itikoyâhk # as another/others are going to say thus to us, as another/others are going to say thus about us
+      PV/î+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+12PlO: î-wî-itikoyahk # as another/others are going to say thus to you and us, as another/others are going to say thus about you and us
+      PV/î+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+2PlO: î-wî-itikoyîk # as another/others are going to say thus to you all, as another/others are going to say thus about you all
+      PV/î+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+3PlO: î-wî-itikocik # as another/others are going to say thus to them, as another/others are going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: î-wî-itâthit # as another/others are going to say thus to yet another/others, as another/others are going to say thus about yet another/others
 
       # 5Sg/Pl
-      PV/e+PV/wi+itîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-wî-itikothit	# as yet another/others are going to say thus to another/others, as yet another/others are going to say thus about another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: î-wî-itikothit # as yet another/others are going to say thus to another/others, as yet another/others are going to say thus about another/others
 
       # X
-      PV/e+PV/wi+itîw+V+TA+Cnj+X+1SgO: î-wî-itikawithân	# as someone is going to say thus to me, as someone is going to say thus about me
-      PV/e+PV/wi+itîw+V+TA+Cnj+X+2SgO: î-wî-itikawithan	# as someone is going to say thus to you, as someone is going to say thus about you
-      PV/e+PV/wi+itîw+V+TA+Cnj+X+3SgO: î-wî-itiht	# as someone is going to say thus to him/her, as someone is going to say thus about him/her
-      PV/e+PV/wi+itîw+V+TA+Cnj+X+1PlO: î-wî-itikawithâhk	# as someone is going to say thus to us, as someone is going to say thus about us
-      PV/e+PV/wi+itîw+V+TA+Cnj+X+12PlO: î-wî-itikawithahk	# as someone is going to say thus to you and us, as someone is going to say thus about you and us
-      PV/e+PV/wi+itîw+V+TA+Cnj+X+2PlO: î-wî-itikawithîk	# as someone is going to say thus to you all, as someone is going to say thus about you all
-      PV/e+PV/wi+itîw+V+TA+Cnj+X+3PlO: î-wî-itihcik	# as someone is going to say thus to them, as someone is going to say thus about them
-      PV/e+PV/wi+itîw+V+TA+Cnj+X+4Sg/PlO: î-wî-itimiht	# as someone is going to say thus to another/others, as someone is going to say thus about another/others
+      PV/î+PV/wi+itîw+V+TA+Cnj+X+1SgO: î-wî-itikawiyân # as someone is going to say thus to me, as someone is going to say thus about me
+      PV/î+PV/wi+itîw+V+TA+Cnj+X+2SgO: î-wî-itikawiyan # as someone is going to say thus to you, as someone is going to say thus about you
+      PV/î+PV/wi+itîw+V+TA+Cnj+X+3SgO: î-wî-itiht # as someone is going to say thus to him/her, as someone is going to say thus about him/her
+      PV/î+PV/wi+itîw+V+TA+Cnj+X+1PlO: î-wî-itikawiyâhk # as someone is going to say thus to us, as someone is going to say thus about us
+      PV/î+PV/wi+itîw+V+TA+Cnj+X+12PlO: î-wî-itikawiyahk # as someone is going to say thus to you and us, as someone is going to say thus about you and us
+      PV/î+PV/wi+itîw+V+TA+Cnj+X+2PlO: î-wî-itikawiyîk # as someone is going to say thus to you all, as someone is going to say thus about you all
+      PV/î+PV/wi+itîw+V+TA+Cnj+X+3PlO: î-wî-itihcik # as someone is going to say thus to them, as someone is going to say thus about them
+      PV/î+PV/wi+itîw+V+TA+Cnj+X+4Sg/PlO: î-wî-itimiht # as someone is going to say thus to another/others, as someone is going to say thus about another/others
 
       # 0Sg/Pl
-      PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+1SgO
-      PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+2SgO
-      PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+3SgO
-      PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+1PlO
-      PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+12PlO
-      PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+2PlO
-      PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+3PlO
-      PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/e+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      PV/î+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+1SgO: î-wî-itikoyân
+      PV/î+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+2SgO: î-wî-itikoyan
+      PV/î+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+3SgO: î-wî-itikot
+      PV/î+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+1PlO: î-wî-itikoyâhk
+      PV/î+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+12PlO: î-wî-itikoyahk
+      PV/î+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+2PlO: î-wî-itikoyîk
+      PV/î+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+3PlO: î-wî-itikocik
+      PV/î+PV/wi+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: î-wî-itikothit
       
 
       # Fut+Def # Ind
 
       # 1Sg
-      PV/ka+itîw+V+TA+Ind+1Sg+2SgO: kika-ititin	# I will say thus to you, I will say thus about you
-      PV/ka+itîw+V+TA+Ind+1Sg+3SgO: nika-itâw	# I will say thus to him/her, I will say thus about him/her
-      PV/ka+itîw+V+TA+Ind+1Sg+2PlO: kika-ititinâwâw	# I will say thus to you all, I will say thus about you all
-      PV/ka+itîw+V+TA+Ind+1Sg+3PlO: nika-itâwak	# I will say thus to them, I will say thus about them
-      PV/ka+itîw+V+TA+Ind+1Sg+4Sg/PlO: nika-itimâwa	# I will say thus to another/others, I will say thus about another/others
+      PV/ka+itîw+V+TA+Ind+1Sg+2SgO: kika-ititin # I will say thus to you, I will say thus about you
+      PV/ka+itîw+V+TA+Ind+1Sg+3SgO: nika-itâw # I will say thus to him/her, I will say thus about him/her
+      PV/ka+itîw+V+TA+Ind+1Sg+2PlO: kika-ititinâwâw # I will say thus to you all, I will say thus about you all
+      PV/ka+itîw+V+TA+Ind+1Sg+3PlO: nika-itâwak # I will say thus to them, I will say thus about them
+      PV/ka+itîw+V+TA+Ind+1Sg+4Sg/PlO: nika-itimâwa # I will say thus to another/others, I will say thus about another/others
 
       # 2Sg
-      PV/ka+itîw+V+TA+Ind+2Sg+1SgO: kika-isin	# you will say thus to me, you will say thus about me
-      PV/ka+itîw+V+TA+Ind+2Sg+3SgO: kika-itâw	# you will say thus to him/her, you will say thus about him/her
-      PV/ka+itîw+V+TA+Ind+2Sg+1PlO: kika-isinân	# you will say thus to us, you will say thus about us
-      PV/ka+itîw+V+TA+Ind+2Sg+3PlO: kika-itâwak	# you will say thus to them, you will say thus about them
-      PV/ka+itîw+V+TA+Ind+2Sg+4Sg/PlO: kika-itimâwa	# you will say thus to another/others, you will say thus about another/others
+      PV/ka+itîw+V+TA+Ind+2Sg+1SgO: kika-isin # you will say thus to me, you will say thus about me
+      PV/ka+itîw+V+TA+Ind+2Sg+3SgO: kika-itâw # you will say thus to him/her, you will say thus about him/her
+      PV/ka+itîw+V+TA+Ind+2Sg+1PlO: kika-isinân # you will say thus to us, you will say thus about us
+      PV/ka+itîw+V+TA+Ind+2Sg+3PlO: kika-itâwak # you will say thus to them, you will say thus about them
+      PV/ka+itîw+V+TA+Ind+2Sg+4Sg/PlO: kika-itimâwa # you will say thus to another/others, you will say thus about another/others
 
       # 3Sg
-      PV/ka+itîw+V+TA+Ind+2Sg+1SgO: kika-isin	# you will say thus to me, you will say thus about me
-      PV/ka+itîw+V+TA+Ind+3Sg+2SgO: kika-itik	# he/she will say thus to you, he/she will say thus about you
-      PV/ka+itîw+V+TA+Ind+2Sg+1PlO: kika-isinân	# you will say thus to us, you will say thus about us
-      PV/ka+itîw+V+TA+Ind+3Sg+12PlO: kika-itikonaw	# he/she will say thus to you and us, he/she will say thus about you and us
-      PV/ka+itîw+V+TA+Ind+3Sg+2PlO: kika-itikowâw	# he/she will say thus to you all, he/she will say thus about you all
-      PV/ka+itîw+V+TA+Ind+2Sg+3PlO: kika-itâwak	# you will say thus to them, you will say thus about them
-      PV/ka+itîw+V+TA+Ind+2Sg+4Sg/PlO: kika-itimâwa	# you will say thus to another/others, you will say thus about another/others
-      PV/ka+itîw+V+TA+Ind+3Sg+5Sg/PlO: ka-itimîw	# he/she will say thus to yet another/others, he/she will say thus about yet another/others
+      PV/ka+itîw+V+TA+Ind+2Sg+1SgO: kika-isin # you will say thus to me, you will say thus about me
+      PV/ka+itîw+V+TA+Ind+3Sg+2SgO: kika-itik # he/she will say thus to you, he/she will say thus about you
+      PV/ka+itîw+V+TA+Ind+2Sg+1PlO: kika-isinân # you will say thus to us, you will say thus about us
+      PV/ka+itîw+V+TA+Ind+3Sg+12PlO: kika-itikonaw # he/she will say thus to you and us, he/she will say thus about you and us
+      PV/ka+itîw+V+TA+Ind+3Sg+2PlO: kika-itikowâw # he/she will say thus to you all, he/she will say thus about you all
+      PV/ka+itîw+V+TA+Ind+2Sg+3PlO: kika-itâwak # you will say thus to them, you will say thus about them
+      PV/ka+itîw+V+TA+Ind+2Sg+4Sg/PlO: kika-itimâwa # you will say thus to another/others, you will say thus about another/others
+      PV/ka+itîw+V+TA+Ind+3Sg+5Sg/PlO: ka-itimîw # he/she will say thus to yet another/others, he/she will say thus about yet another/others
 
       # 1Pl
-      PV/ka+itîw+V+TA+Ind+1Pl+2SgO: kika-ititinân	# we will say thus to you, we will say thus about you
-      PV/ka+itîw+V+TA+Ind+1Pl+3SgO: nika-itânân	# we will say thus to him/her, we will say thus about him/her
-      PV/ka+itîw+V+TA+Ind+1Pl+2PlO: kika-ititinân	# we will say thus to you all, we will say thus about you all
-      PV/ka+itîw+V+TA+Ind+1Pl+3PlO: nika-itânânak	# we will say thus to them, we will say thus about them
-      PV/ka+itîw+V+TA+Ind+1Pl+4Sg/PlO: nika-itimânâna	# we will say thus to another/others, we will say thus about another/others
+      PV/ka+itîw+V+TA+Ind+1Pl+2SgO: kika-ititinân # we will say thus to you, we will say thus about you
+      PV/ka+itîw+V+TA+Ind+1Pl+3SgO: nika-itânân # we will say thus to him/her, we will say thus about him/her
+      PV/ka+itîw+V+TA+Ind+1Pl+2PlO: kika-ititinân # we will say thus to you all, we will say thus about you all
+      PV/ka+itîw+V+TA+Ind+1Pl+3PlO: nika-itânânak # we will say thus to them, we will say thus about them
+      PV/ka+itîw+V+TA+Ind+1Pl+4Sg/PlO: nika-itimânâna # we will say thus to another/others, we will say thus about another/others
 
       # 12Pl
-      PV/ka+itîw+V+TA+Ind+12Pl+3SgO: kika-itânaw	# we and you will say thus to him/her, we and you will say thus about him/her
-      PV/ka+itîw+V+TA+Ind+12Pl+3PlO: kika-itânawak	# we and you will say thus to them, we and you will say thus about them
-      PV/ka+itîw+V+TA+Ind+12Pl+4Sg/PlO: kika-itimânawa	# we and you will say thus to another/others, we and you will say thus about another/others
+      PV/ka+itîw+V+TA+Ind+12Pl+3SgO: kika-itânaw # we and you will say thus to him/her, we and you will say thus about him/her
+      PV/ka+itîw+V+TA+Ind+12Pl+3PlO: kika-itânawak # we and you will say thus to them, we and you will say thus about them
+      PV/ka+itîw+V+TA+Ind+12Pl+4Sg/PlO: kika-itimânawa # we and you will say thus to another/others, we and you will say thus about another/others
 
       # 2Pl
-      PV/ka+itîw+V+TA+Ind+2Pl+1SgO: kika-isinâwâw	# you all will say thus to me, you all will say thus about me
-      PV/ka+itîw+V+TA+Ind+2Pl+3SgO: kika-itâwâw	# you all will say thus to him/her, you all will say thus about him/her
-      PV/ka+itîw+V+TA+Ind+2Pl+1PlO: kika-isinân	# you all will say thus to us, you all will say thus about us
-      PV/ka+itîw+V+TA+Ind+2Pl+3PlO: kika-itâwâwak	# you all will say thus to them, you all will say thus about them
-      PV/ka+itîw+V+TA+Ind+2Pl+4Sg/PlO: kika-itimâwâwa	# you all will say thus to another/others, you all will say thus about another/others
+      PV/ka+itîw+V+TA+Ind+2Pl+1SgO: kika-isinâwâw # you all will say thus to me, you all will say thus about me
+      PV/ka+itîw+V+TA+Ind+2Pl+3SgO: kika-itâwâw # you all will say thus to him/her, you all will say thus about him/her
+      PV/ka+itîw+V+TA+Ind+2Pl+1PlO: kika-isinân # you all will say thus to us, you all will say thus about us
+      PV/ka+itîw+V+TA+Ind+2Pl+3PlO: kika-itâwâwak # you all will say thus to them, you all will say thus about them
+      PV/ka+itîw+V+TA+Ind+2Pl+4Sg/PlO: kika-itimâwâwa # you all will say thus to another/others, you all will say thus about another/others
 
       # 3Pl
-      PV/ka+itîw+V+TA+Ind+3Pl+1SgO: [nika-itikowak, nika-itikwak]	# they will say thus to me, they will say thus about me
-      PV/ka+itîw+V+TA+Ind+3Pl+2SgO: [kika-itikowak, kika-itikwak]	# they will say thus to you, they will say thus about you
-      PV/ka+itîw+V+TA+Ind+3Pl+1PlO: nika-itikonânak	# they will say thus to us, they will say thus about us
-      PV/ka+itîw+V+TA+Ind+3Pl+12PlO: kika-itikonawak	# they will say thus to you and us, they will say thus about you and us
-      PV/ka+itîw+V+TA+Ind+3Pl+2PlO: kika-itikowâwak	# they will say thus to you all, they will say thus about you all
-      PV/ka+itîw+V+TA+Ind+3Pl+4Sg/PlO: ka-itîwak	# they will say thus to another/others, they will say thus about another/others
-      PV/ka+itîw+V+TA+Ind+3Pl+5Sg/PlO: ka-itimîwak	# they will say thus to yet another/others, they will say thus about yet another/others
+      PV/ka+itîw+V+TA+Ind+3Pl+1SgO: nika-itikwak # they will say thus to me, they will say thus about me
+      PV/ka+itîw+V+TA+Ind+3Pl+2SgO: kika-itikwak # they will say thus to you, they will say thus about you
+      PV/ka+itîw+V+TA+Ind+3Pl+1PlO: nika-itikonânak # they will say thus to us, they will say thus about us
+      PV/ka+itîw+V+TA+Ind+3Pl+12PlO: kika-itikonawak # they will say thus to you and us, they will say thus about you and us
+      PV/ka+itîw+V+TA+Ind+3Pl+2PlO: kika-itikowâwak # they will say thus to you all, they will say thus about you all
+      PV/ka+itîw+V+TA+Ind+3Pl+4Sg/PlO: ka-itîwak # they will say thus to another/others, they will say thus about another/others
+      PV/ka+itîw+V+TA+Ind+3Pl+5Sg/PlO: ka-itimîwak # they will say thus to yet another/others, they will say thus about yet another/others
 
       # 4Sg/Pl
-      PV/ka+itîw+V+TA+Ind+4Sg/Pl+1SgO: nika-itikothiwa	# another/others will say thus to me, another/others will say thus about me
-      PV/ka+itîw+V+TA+Ind+4Sg/Pl+2SgO: kika-itikothiwa	# another/others will say thus to you, another/others will say thus about you
-      PV/ka+itîw+V+TA+Ind+4Sg/Pl+3SgO: [ka-itikow, ka-itik]	# another/others will say thus to him/her, another/others will say thus about him/her
-      PV/ka+itîw+V+TA+Ind+4Sg/Pl+1PlO: nika-itikonâna	# another/others will say thus to us, another/others will say thus about us
-      PV/ka+itîw+V+TA+Ind+4Sg/Pl+12PlO: kika-itikonawa	# another/others will say thus to you and us, another/others will say thus about you and us
-      PV/ka+itîw+V+TA+Ind+4Sg/Pl+2PlO: kika-itikowâwa	# another/others will say thus to you all, another/others will say thus about you all
-      PV/ka+itîw+V+TA+Ind+4Sg/Pl+3PlO: [ka-itikowak, ka-itikwak]	# another/others will say thus to them, another/others will say thus about them
-      PV/ka+itîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: ka-itîthiwa	# another/others will say thus to yet another/others, another/others will say thus about yet another/others
+      PV/ka+itîw+V+TA+Ind+4Sg/Pl+1SgO: nika-itikothiwa # another/others will say thus to me, another/others will say thus about me
+      PV/ka+itîw+V+TA+Ind+4Sg/Pl+2SgO: kika-itikothiwa # another/others will say thus to you, another/others will say thus about you
+      PV/ka+itîw+V+TA+Ind+4Sg/Pl+3SgO: [ka-itikow, ka-itik] # another/others will say thus to him/her, another/others will say thus about him/her
+      PV/ka+itîw+V+TA+Ind+4Sg/Pl+1PlO: nika-itikonâna # another/others will say thus to us, another/others will say thus about us
+      PV/ka+itîw+V+TA+Ind+4Sg/Pl+12PlO: kika-itikonawa # another/others will say thus to you and us, another/others will say thus about you and us
+      PV/ka+itîw+V+TA+Ind+4Sg/Pl+2PlO: kika-itikowâwa # another/others will say thus to you all, another/others will say thus about you all
+      PV/ka+itîw+V+TA+Ind+4Sg/Pl+3PlO: [ka-itikowak, ka-itikwak] # another/others will say thus to them, another/others will say thus about them
+      PV/ka+itîw+V+TA+Ind+4Sg/Pl+5Sg/PlO: ka-itîthiwa # another/others will say thus to yet another/others, another/others will say thus about yet another/others
 
       # 5Sg/Pl
-      PV/ka+itîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: ka-itikothiwa	# yet another/others will say thus to another/others, yet another/others will say thus about another/others
+      PV/ka+itîw+V+TA+Ind+5Sg/Pl+4Sg/PlO: ka-itikothiwa # yet another/others will say thus to another/others, yet another/others will say thus about another/others
 
       # X
-      PV/ka+itîw+V+TA+Ind+X+1SgO: nika-itikawin	# someone will say thus to me, someone will say thus about me
-      PV/ka+itîw+V+TA+Ind+X+2SgO: kika-itikawin	# someone will say thus to you, someone will say thus about you
-      PV/ka+itîw+V+TA+Ind+X+3SgO: ka-itâw	# someone will say thus to him/her, someone will say thus about him/her
-      PV/ka+itîw+V+TA+Ind+X+1PlO: nika-itikawinân	# someone will say thus to us, someone will say thus about us
-      PV/ka+itîw+V+TA+Ind+X+12PlO: [kika-itikawinaw, kika-itikawinânaw]	# someone will say thus to you and us, someone will say thus about you and us
-      PV/ka+itîw+V+TA+Ind+X+2PlO: kika-itikawinâwâw	# someone will say thus to you all, someone will say thus about you all
-      PV/ka+itîw+V+TA+Ind+X+3PlO: ka-itâwak	# someone will say thus to them, someone will say thus about them
-      PV/ka+itîw+V+TA+Ind+X+4Sg/PlO: ka-itâthiwa	# someone will say thus to another/others, someone will say thus about another/others
+      PV/ka+itîw+V+TA+Ind+X+1SgO: nika-itikawin # someone will say thus to me, someone will say thus about me
+      PV/ka+itîw+V+TA+Ind+X+2SgO: kika-itikawin # someone will say thus to you, someone will say thus about you
+      PV/ka+itîw+V+TA+Ind+X+3SgO: ka-itâw # someone will say thus to him/her, someone will say thus about him/her
+      PV/ka+itîw+V+TA+Ind+X+1PlO: nika-itikawinân # someone will say thus to us, someone will say thus about us
+      PV/ka+itîw+V+TA+Ind+X+12PlO: [kika-itikawinaw, kika-itikawinânaw] # someone will say thus to you and us, someone will say thus about you and us
+      PV/ka+itîw+V+TA+Ind+X+2PlO: kika-itikawinâwâw # someone will say thus to you all, someone will say thus about you all
+      PV/ka+itîw+V+TA+Ind+X+3PlO: ka-itâwak # someone will say thus to them, someone will say thus about them
+      PV/ka+itîw+V+TA+Ind+X+4Sg/PlO: ka-itâthiwa # someone will say thus to another/others, someone will say thus about another/others
 
       # 0Sg/Pl
-      PV/ka+itîw+V+TA+Ind+0Sg/Pl+1SgO: PV/ka+itîw+V+TA+Ind+0Sg/Pl+1SgO
-      PV/ka+itîw+V+TA+Ind+0Sg/Pl+2SgO: PV/ka+itîw+V+TA+Ind+0Sg/Pl+2SgO
-      PV/ka+itîw+V+TA+Ind+0Sg/Pl+3SgO: PV/ka+itîw+V+TA+Ind+0Sg/Pl+3SgO
-      PV/ka+itîw+V+TA+Ind+0Sg/Pl+1PlO: PV/ka+itîw+V+TA+Ind+0Sg/Pl+1PlO
-      PV/ka+itîw+V+TA+Ind+0Sg/Pl+12PlO: PV/ka+itîw+V+TA+Ind+0Sg/Pl+12PlO
-      PV/ka+itîw+V+TA+Ind+0Sg/Pl+2PlO: PV/ka+itîw+V+TA+Ind+0Sg/Pl+2PlO
-      PV/ka+itîw+V+TA+Ind+0Sg/Pl+3PlO: PV/ka+itîw+V+TA+Ind+0Sg/Pl+3PlO
-      PV/ka+itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: PV/ka+itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO
+      PV/ka+itîw+V+TA+Ind+0Sg/Pl+1SgO: nika-itikon
+      PV/ka+itîw+V+TA+Ind+0Sg/Pl+2SgO: kika-itikon
+      PV/ka+itîw+V+TA+Ind+0Sg/Pl+3SgO: ka-itikow
+      PV/ka+itîw+V+TA+Ind+0Sg/Pl+1PlO: nika-itikonân
+      PV/ka+itîw+V+TA+Ind+0Sg/Pl+12PlO: kika-itikonaw
+      PV/ka+itîw+V+TA+Ind+0Sg/Pl+2PlO: kika-itikowâw
+      PV/ka+itîw+V+TA+Ind+0Sg/Pl+3PlO: ka-itikowak
+      PV/ka+itîw+V+TA+Ind+0Sg/Pl+4Sg/PlO: ka-itikothiwa
       
 
       # Inf # PV/ka
 
       # 1Sg
-      PV/ka+itîw+V+TA+Cnj+1Sg+2SgO: ka-ititân	# I will say thus to you, I will say thus about you
-      PV/ka+itîw+V+TA+Cnj+1Sg+3SgO: ka-itak	# I will say thus to him/her, I will say thus about him/her
-      PV/ka+itîw+V+TA+Cnj+1Sg+2PlO: ka-ititakok	# I will say thus to you all, I will say thus about you all
-      PV/ka+itîw+V+TA+Cnj+1Sg+3PlO: ka-itakik	# I will say thus to them, I will say thus about them
-      PV/ka+itîw+V+TA+Cnj+1Sg+4Sg/PlO: ka-itimak	# I will say thus to another/others, I will say thus about another/others
+      PV/ka+itîw+V+TA+Cnj+1Sg+2SgO: ka-ititân # I will say thus to you, I will say thus about you
+      PV/ka+itîw+V+TA+Cnj+1Sg+3SgO: ka-itak # I will say thus to him/her, I will say thus about him/her
+      PV/ka+itîw+V+TA+Cnj+1Sg+2PlO: ka-ititakwâw # I will say thus to you all, I will say thus about you all
+      PV/ka+itîw+V+TA+Cnj+1Sg+3PlO: ka-itakwâw # I will say thus to them, I will say thus about them
+      PV/ka+itîw+V+TA+Cnj+1Sg+3PlO+Var/East: ka-itaki # I will say thus to them, I will say thus about them
+      PV/ka+itîw+V+TA+Cnj+1Sg+4Sg/PlO: ka-itimak # I will say thus to another/others, I will say thus about another/others
 
       # 2Sg
-      PV/ka+itîw+V+TA+Cnj+2Sg+1SgO: ka-isithan	# you will say thus to me, you will say thus about me
-      PV/ka+itîw+V+TA+Cnj+2Sg+3SgO: ka-itat	# you will say thus to him/her, you will say thus about him/her
-      PV/ka+itîw+V+TA+Cnj+2Sg+1PlO: ka-isithâhk	# you will say thus to us, you will say thus about us
-      PV/ka+itîw+V+TA+Cnj+2Sg+3PlO: ka-itacik	# you will say thus to them, you will say thus about them
-      PV/ka+itîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-itimat	# you will say thus to another/others, you will say thus about another/others
+      PV/ka+itîw+V+TA+Cnj+2Sg+1SgO: ka-isiyan # you will say thus to me, you will say thus about me
+      PV/ka+itîw+V+TA+Cnj+2Sg+3SgO: ka-itat # you will say thus to him/her, you will say thus about him/her
+      PV/ka+itîw+V+TA+Cnj+2Sg+1PlO: ka-isiyâhk # you will say thus to us, you will say thus about us
+      PV/ka+itîw+V+TA+Cnj+2Sg+3PlO: ka-itacik # you will say thus to them, you will say thus about them
+      PV/ka+itîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-itimat # you will say thus to another/others, you will say thus about another/others
 
       # 3Sg
-      PV/ka+itîw+V+TA+Cnj+2Sg+1SgO: ka-isithan	# you will say thus to me, you will say thus about me
-      PV/ka+itîw+V+TA+Cnj+3Sg+2SgO: ka-itisk	# he/she will say thus to you, he/she will say thus about you
-      PV/ka+itîw+V+TA+Cnj+2Sg+1PlO: ka-isithâhk	# you will say thus to us, you will say thus about us
-      PV/ka+itîw+V+TA+Cnj+3Sg+12PlO: ka-itikothahk	# he/she will say thus to you and us, he/she will say thus about you and us
-      PV/ka+itîw+V+TA+Cnj+3Sg+2PlO: ka-itikothîk	# he/she will say thus to you all, he/she will say thus about you all
-      PV/ka+itîw+V+TA+Cnj+2Sg+3PlO: ka-itacik	# you will say thus to them, you will say thus about them
-      PV/ka+itîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-itimat	# you will say thus to another/others, you will say thus about another/others
-      PV/ka+itîw+V+TA+Cnj+3Sg+5Sg/PlO: ka-itimât	# he/she will say thus to yet another/others, he/she will say thus about yet another/others
+      PV/ka+itîw+V+TA+Cnj+2Sg+1SgO: ka-isiyan # you will say thus to me, you will say thus about me
+      PV/ka+itîw+V+TA+Cnj+3Sg+2SgO: ka-itisk # he/she will say thus to you, he/she will say thus about you
+      PV/ka+itîw+V+TA+Cnj+2Sg+1PlO: ka-isiyâhk # you will say thus to us, you will say thus about us
+      PV/ka+itîw+V+TA+Cnj+3Sg+1PlO: ka-itikoyâhk # you will say thus to us, you will say thus about us
+      PV/ka+itîw+V+TA+Cnj+3Sg+1PlO+Var/East: ka-isiyamiht # you will say thus to us, you will say thus about us
+      PV/ka+itîw+V+TA+Cnj+3Sg+12PlO: ka-itikoyahk # he/she will say thus to you and us, he/she will say thus about you and us
+      PV/ka+itîw+V+TA+Cnj+3Sg+12PlO+Var/East: ka-ititahk # he/she will say thus to you and us, he/she will say thus about you and us
+      PV/ka+itîw+V+TA+Cnj+3Sg+2PlO: ka-itikoyîk # he/she will say thus to you all, he/she will say thus about you all
+      PV/ka+itîw+V+TA+Cnj+3Sg+2PlO+Var/East: ka-ititîk # he/she will say thus to you all, he/she will say thus about you all
+      PV/ka+itîw+V+TA+Cnj+2Sg+3PlO: ka-itacik # you will say thus to them, you will say thus about them
+      PV/ka+itîw+V+TA+Cnj+2Sg+4Sg/PlO: ka-itimat # you will say thus to another/others, you will say thus about another/others
+      PV/ka+itîw+V+TA+Cnj+3Sg+5Sg/PlO: ka-itimât # he/she will say thus to yet another/others, he/she will say thus about yet another/others
 
       # 1Pl
-      PV/ka+itîw+V+TA+Cnj+1Pl+2SgO: ka-ititâhk	# we will say thus to you, we will say thus about you
-      PV/ka+itîw+V+TA+Cnj+1Pl+3SgO: ka-itâthâhk	# we will say thus to him/her, we will say thus about him/her
-      PV/ka+itîw+V+TA+Cnj+1Pl+2PlO: ka-ititâhk	# we will say thus to you all, we will say thus about you all
-      PV/ka+itîw+V+TA+Cnj+1Pl+3PlO: ka-itâthâhkik	# we will say thus to them, we will say thus about them
-      PV/ka+itîw+V+TA+Cnj+1Pl+4Sg/PlO: ka-itimâthâhk	# we will say thus to another/others, we will say thus about another/others
+      PV/ka+itîw+V+TA+Cnj+1Pl+2SgO: ka-ititâhk # we will say thus to you, we will say thus about you
+      PV/ka+itîw+V+TA+Cnj+1Pl+3SgO: ka-itâyâhk # we will say thus to him/her, we will say thus about him/her
+      PV/ka+itîw+V+TA+Cnj+1Pl+3SgO+Var/East: ka-itakiht # we will say thus to him/her, we will say thus about him/her
+      PV/ka+itîw+V+TA+Cnj+1Pl+2PlO: ka-ititâhk # we will say thus to you all, we will say thus about you all
+      PV/ka+itîw+V+TA+Cnj+1Pl+3PlO: ka-itâyâhkwâw # we will say thus to them, we will say thus about them
+      PV/ka+itîw+V+TA+Cnj+1Pl+3PlO+Var/East: ka-itakihcik # we will say thus to them, we will say thus about them
+      PV/ka+itîw+V+TA+Cnj+1Pl+4Sg/PlO: ka-itimâyâhk # we will say thus to another/others, we will say thus about another/others
 
       # 12Pl
-      PV/ka+itîw+V+TA+Cnj+12Pl+3SgO: ka-itâthahk	# we and you will say thus to him/her, we and you will say thus about him/her
-      PV/ka+itîw+V+TA+Cnj+12Pl+3PlO: ka-itâthahkok	# we and you will say thus to them, we and you will say thus about them
-      PV/ka+itîw+V+TA+Cnj+12Pl+4Sg/PlO: ka-itimâthahk	# we and you will say thus to another/others, we and you will say thus about another/others
+      PV/ka+itîw+V+TA+Cnj+12Pl+3SgO: ka-itâyahk # we and you will say thus to him/her, we and you will say thus about him/her
+      PV/ka+itîw+V+TA+Cnj+12Pl+3SgO+Var/East: ka-itahk # we and you will say thus to him/her, we and you will say thus about him/her
+      PV/ka+itîw+V+TA+Cnj+12Pl+3PlO: ka-itâyahkwâw # we and you will say thus to them, we and you will say thus about them
+      PV/ka+itîw+V+TA+Cnj+12Pl+3PlO+Var/East: ka-itahkwâw # we and you will say thus to them, we and you will say thus about them
+      PV/ka+itîw+V+TA+Cnj+12Pl+4Sg/PlO: ka-itimâyahk # we and you will say thus to another/others, we and you will say thus about another/others
 
       # 2Pl
-      PV/ka+itîw+V+TA+Cnj+2Pl+1SgO: ka-isithîk	# you all will say thus to me, you all will say thus about me
-      PV/ka+itîw+V+TA+Cnj+2Pl+3SgO: ka-itâthîk	# you all will say thus to him/her, you all will say thus about him/her
-      PV/ka+itîw+V+TA+Cnj+2Pl+1PlO: ka-isithâhk	# you all will say thus to us, you all will say thus about us
-      PV/ka+itîw+V+TA+Cnj+2Pl+3PlO: ka-itâthîkok	# you all will say thus to them, you all will say thus about them
-      PV/ka+itîw+V+TA+Cnj+2Pl+4Sg/PlO: ka-itimâthîk	# you all will say thus to another/others, you all will say thus about another/others
+      PV/ka+itîw+V+TA+Cnj+2Pl+1SgO: ka-isiyîk # you all will say thus to me, you all will say thus about me
+      PV/ka+itîw+V+TA+Cnj+2Pl+3SgO: ka-itâyîk # you all will say thus to him/her, you all will say thus about him/her
+      PV/ka+itîw+V+TA+Cnj+2Pl+1PlO: ka-isiyâhk # you all will say thus to us, you all will say thus about us
+      PV/ka+itîw+V+TA+Cnj+2Pl+3PlO: ka-itâyîkwâw # you all will say thus to them, you all will say thus about them
+      PV/ka+itîw+V+TA+Cnj+2Pl+3PlO+Var/East: ka-itâyîkok # you all will say thus to them, you all will say thus about them
+      PV/ka+itîw+V+TA+Cnj+2Pl+4Sg/PlO: ka-itimâyîk # you all will say thus to another/others, you all will say thus about another/others
 
       # 3Pl
-      PV/ka+itîw+V+TA+Cnj+3Pl+1SgO: ka-isicik	# they will say thus to me, they will say thus about me
-      PV/ka+itîw+V+TA+Cnj+3Pl+2SgO: ka-itiskik	# they will say thus to you, they will say thus about you
-      PV/ka+itîw+V+TA+Cnj+3Pl+1PlO: ka-itikothâhkik	# they will say thus to us, they will say thus about us
-      PV/ka+itîw+V+TA+Cnj+3Pl+12PlO: ka-itikothahkok	# they will say thus to you and us, they will say thus about you and us
-      PV/ka+itîw+V+TA+Cnj+3Pl+2PlO: ka-itikothîkok	# they will say thus to you all, they will say thus about you all
-      PV/ka+itîw+V+TA+Cnj+3Pl+4Sg/PlO: ka-itâcik	# they will say thus to another/others, they will say thus about another/others
-      PV/ka+itîw+V+TA+Cnj+3Pl+5Sg/PlO: ka-itimâcik	# they will say thus to yet another/others, they will say thus about yet another/others
+      PV/ka+itîw+V+TA+Cnj+3Pl+1SgO: [ka-isitwâw, ka-isicik] # they will say thus to me, they will say thus about me
+      PV/ka+itîw+V+TA+Cnj+3Pl+2SgO: ka-itiskwâw # they will say thus to you, they will say thus about you
+      PV/ka+itîw+V+TA+Cnj+3Pl+1PlO: ka-itikoyâhkwâw # they will say thus to us, they will say thus about us
+      PV/ka+itîw+V+TA+Cnj+3Pl+1PlO+Var/East: ka-isiyamihcik # they will say thus to us, they will say thus about us
+      PV/ka+itîw+V+TA+Cnj+3Pl+12PlO: ka-itikoyahkwâw # they will say thus to you and us, they will say thus about you and us
+      PV/ka+itîw+V+TA+Cnj+3Pl+12PlO+Var/East: ka-ititahkwâw # they will say thus to you and us, they will say thus about you and us
+      PV/ka+itîw+V+TA+Cnj+3Pl+2PlO: ka-itikoyîkwâw # they will say thus to you all, they will say thus about you all
+      PV/ka+itîw+V+TA+Cnj+3Pl+2PlO+Var/East: ka-ititîkwâw # they will say thus to you all, they will say thus about you all
+      PV/ka+itîw+V+TA+Cnj+3Pl+4Sg/PlO: ka-itâcik # they will say thus to another/others, they will say thus about another/others
+      PV/ka+itîw+V+TA+Cnj+3Pl+5Sg/PlO: ka-itimâcik # they will say thus to yet another/others, they will say thus about yet another/others
 
       # 4Sg/Pl
-      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+1SgO: ka-itimit	# another/others will say thus to me, another/others will say thus about me
-      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+2SgO: ka-itimisk	# another/others will say thus to you, another/others will say thus about you
-      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+3SgO: ka-itikot	# another/others will say thus to him/her, another/others will say thus about him/her
-      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+1PlO: ka-itikothâhk	# another/others will say thus to us, another/others will say thus about us
-      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+12PlO: ka-itikothahk	# another/others will say thus to you and us, another/others will say thus about you and us
-      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+2PlO: ka-itikothîk	# another/others will say thus to you all, another/others will say thus about you all
-      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+3PlO: ka-itikocik	# another/others will say thus to them, another/others will say thus about them
-      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: ka-itâthit	# another/others will say thus to yet another/others, another/others will say thus about yet another/others
+      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+1SgO: ka-itimit # another/others will say thus to me, another/others will say thus about me
+      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+2SgO: ka-itimisk # another/others will say thus to you, another/others will say thus about you
+      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+3SgO: ka-itikot # another/others will say thus to him/her, another/others will say thus about him/her
+      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+1PlO: ka-itikoyâhk # another/others will say thus to us, another/others will say thus about us
+      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+12PlO: ka-itikoyahk # another/others will say thus to you and us, another/others will say thus about you and us
+      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+2PlO: ka-itikoyîk # another/others will say thus to you all, another/others will say thus about you all
+      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+3PlO: ka-itikocik # another/others will say thus to them, another/others will say thus about them
+      PV/ka+itîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: ka-itâthit # another/others will say thus to yet another/others, another/others will say thus about yet another/others
 
       # 5Sg/Pl
-      PV/ka+itîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: ka-itikothit	# yet another/others will say thus to another/others, yet another/others will say thus about another/others
+      PV/ka+itîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: ka-itikothit # yet another/others will say thus to another/others, yet another/others will say thus about another/others
 
       # X
-      PV/ka+itîw+V+TA+Cnj+X+1SgO: ka-itikawithân	# someone will say thus to me, someone will say thus about me
-      PV/ka+itîw+V+TA+Cnj+X+2SgO: ka-itikawithan	# someone will say thus to you, someone will say thus about you
-      PV/ka+itîw+V+TA+Cnj+X+3SgO: ka-itiht	# someone will say thus to him/her, someone will say thus about him/her
-      PV/ka+itîw+V+TA+Cnj+X+1PlO: ka-itikawithâhk	# someone will say thus to us, someone will say thus about us
-      PV/ka+itîw+V+TA+Cnj+X+12PlO: ka-itikawithahk	# someone will say thus to you and us, someone will say thus about you and us
-      PV/ka+itîw+V+TA+Cnj+X+2PlO: ka-itikawithîk	# someone will say thus to you all, someone will say thus about you all
-      PV/ka+itîw+V+TA+Cnj+X+3PlO: ka-itihcik	# someone will say thus to them, someone will say thus about them
-      PV/ka+itîw+V+TA+Cnj+X+4Sg/PlO: ka-itimiht	# someone will say thus to another/others, someone will say thus about another/others
+      PV/ka+itîw+V+TA+Cnj+X+1SgO: ka-itikawiyân # someone will say thus to me, someone will say thus about me
+      PV/ka+itîw+V+TA+Cnj+X+2SgO: ka-itikawiyan # someone will say thus to you, someone will say thus about you
+      PV/ka+itîw+V+TA+Cnj+X+3SgO: ka-itiht # someone will say thus to him/her, someone will say thus about him/her
+      PV/ka+itîw+V+TA+Cnj+X+1PlO: ka-itikawiyâhk # someone will say thus to us, someone will say thus about us
+      PV/ka+itîw+V+TA+Cnj+X+12PlO: ka-itikawiyahk # someone will say thus to you and us, someone will say thus about you and us
+      PV/ka+itîw+V+TA+Cnj+X+2PlO: ka-itikawiyîk # someone will say thus to you all, someone will say thus about you all
+      PV/ka+itîw+V+TA+Cnj+X+3PlO: ka-itihcik # someone will say thus to them, someone will say thus about them
+      PV/ka+itîw+V+TA+Cnj+X+4Sg/PlO: ka-itimiht # someone will say thus to another/others, someone will say thus about another/others
 
       # 0Sg/Pl
-      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/ka+itîw+V+TA+Cnj+0Sg/Pl+1SgO
-      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/ka+itîw+V+TA+Cnj+0Sg/Pl+2SgO
-      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/ka+itîw+V+TA+Cnj+0Sg/Pl+3SgO
-      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/ka+itîw+V+TA+Cnj+0Sg/Pl+1PlO
-      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/ka+itîw+V+TA+Cnj+0Sg/Pl+12PlO
-      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/ka+itîw+V+TA+Cnj+0Sg/Pl+2PlO
-      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/ka+itîw+V+TA+Cnj+0Sg/Pl+3PlO
-      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/ka+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+1SgO: ka-itikoyân
+      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+2SgO: ka-itikoyan
+      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+3SgO: ka-itikot
+      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+1PlO: ka-itikoyâhk
+      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+12PlO: ka-itikoyahk
+      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+2PlO: ka-itikoyîk
+      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+3PlO: ka-itikocik
+      PV/ka+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: ka-itikothit
       
 
       # Inf # PV/ta
 
       # 1Sg
-      PV/ta+itîw+V+TA+Cnj+1Sg+2SgO: ta-ititân	# I say thus to you, I say thus about you
-      PV/ta+itîw+V+TA+Cnj+1Sg+3SgO: ta-itak	# I say thus to him/her, I say thus about him/her
-      PV/ta+itîw+V+TA+Cnj+1Sg+2PlO: ta-ititakok	# I say thus to you all, I say thus about you all
-      PV/ta+itîw+V+TA+Cnj+1Sg+3PlO: ta-itakik	# I say thus to them, I say thus about them
-      PV/ta+itîw+V+TA+Cnj+1Sg+4Sg/PlO: ta-itimak	# I say thus to another/others, I say thus about another/others
+      PV/ta+itîw+V+TA+Cnj+1Sg+2SgO: ta-ititân # I say thus to you, I say thus about you
+      PV/ta+itîw+V+TA+Cnj+1Sg+3SgO: ta-itak # I say thus to him/her, I say thus about him/her
+      PV/ta+itîw+V+TA+Cnj+1Sg+2PlO: ta-ititakwâw # I say thus to you all, I say thus about you all
+      PV/ta+itîw+V+TA+Cnj+1Sg+3PlO: ta-itakwâw # I say thus to them, I say thus about them
+      PV/ta+itîw+V+TA+Cnj+1Sg+3PlO+Var/East: ta-itaki # I say thus to them, I say thus about them
+      PV/ta+itîw+V+TA+Cnj+1Sg+4Sg/PlO: ta-itimak # I say thus to another/others, I say thus about another/others
 
       # 2Sg
-      PV/ta+itîw+V+TA+Cnj+2Sg+1SgO: ta-isithan	# you say thus to me, you say thus about me
-      PV/ta+itîw+V+TA+Cnj+2Sg+3SgO: ta-itat	# you say thus to him/her, you say thus about him/her
-      PV/ta+itîw+V+TA+Cnj+2Sg+1PlO: ta-isithâhk	# you say thus to us, you say thus about us
-      PV/ta+itîw+V+TA+Cnj+2Sg+3PlO: ta-itacik	# you say thus to them, you say thus about them
-      PV/ta+itîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-itimat	# you say thus to another/others, you say thus about another/others
+      PV/ta+itîw+V+TA+Cnj+2Sg+1SgO: ta-isiyan # you say thus to me, you say thus about me
+      PV/ta+itîw+V+TA+Cnj+2Sg+3SgO: ta-itat # you say thus to him/her, you say thus about him/her
+      PV/ta+itîw+V+TA+Cnj+2Sg+1PlO: ta-isiyâhk # you say thus to us, you say thus about us
+      PV/ta+itîw+V+TA+Cnj+2Sg+3PlO: ta-itacik # you say thus to them, you say thus about them
+      PV/ta+itîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-itimat # you say thus to another/others, you say thus about another/others
 
       # 3Sg
-      PV/ta+itîw+V+TA+Cnj+2Sg+1SgO: ta-isithan	# you say thus to me, you say thus about me
-      PV/ta+itîw+V+TA+Cnj+3Sg+2SgO: ta-itisk	# he/she says thus to you, he/she says thus about you
-      PV/ta+itîw+V+TA+Cnj+2Sg+1PlO: ta-isithâhk	# you say thus to us, you say thus about us
-      PV/ta+itîw+V+TA+Cnj+3Sg+12PlO: ta-itikothahk	# he/she says thus to you and us, he/she says thus about you and us
-      PV/ta+itîw+V+TA+Cnj+3Sg+2PlO: ta-itikothîk	# he/she says thus to you all, he/she says thus about you all
-      PV/ta+itîw+V+TA+Cnj+2Sg+3PlO: ta-itacik	# you say thus to them, you say thus about them
-      PV/ta+itîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-itimat	# you say thus to another/others, you say thus about another/others
-      PV/ta+itîw+V+TA+Cnj+3Sg+5Sg/PlO: ta-itimât	# he/she says thus to yet another/others, he/she says thus about yet another/others
+      PV/ta+itîw+V+TA+Cnj+2Sg+1SgO: ta-isiyan # you say thus to me, you say thus about me
+      PV/ta+itîw+V+TA+Cnj+3Sg+2SgO: ta-itisk # he/she says thus to you, he/she says thus about you
+      PV/ta+itîw+V+TA+Cnj+2Sg+1PlO: ta-isiyâhk # you say thus to us, you say thus about us
+      PV/ta+itîw+V+TA+Cnj+3Sg+1PlO: ta-itikoyâhk # you say thus to us, you say thus about us
+      PV/ta+itîw+V+TA+Cnj+3Sg+1PlO+Var/East: ta-isiyamiht # you say thus to us, you say thus about us
+      PV/ta+itîw+V+TA+Cnj+3Sg+12PlO: ta-itikoyahk # he/she says thus to you and us, he/she says thus about you and us
+      PV/ta+itîw+V+TA+Cnj+3Sg+12PlO+Var/East: ta-ititahk # he/she says thus to you and us, he/she says thus about you and us
+      PV/ta+itîw+V+TA+Cnj+3Sg+2PlO: ta-itikoyîk # he/she says thus to you all, he/she says thus about you all
+      PV/ta+itîw+V+TA+Cnj+3Sg+2PlO+Var/East: ta-ititîk # he/she says thus to you all, he/she says thus about you all
+      PV/ta+itîw+V+TA+Cnj+2Sg+3PlO: ta-itacik # you say thus to them, you say thus about them
+      PV/ta+itîw+V+TA+Cnj+2Sg+4Sg/PlO: ta-itimat # you say thus to another/others, you say thus about another/others
+      PV/ta+itîw+V+TA+Cnj+3Sg+5Sg/PlO: ta-itimât # he/she says thus to yet another/others, he/she says thus about yet another/others
 
       # 1Pl
-      PV/ta+itîw+V+TA+Cnj+1Pl+2SgO: ta-ititâhk	# we say thus to you, we say thus about you
-      PV/ta+itîw+V+TA+Cnj+1Pl+3SgO: ta-itâthâhk	# we say thus to him/her, we say thus about him/her
-      PV/ta+itîw+V+TA+Cnj+1Pl+2PlO: ta-ititâhk	# we say thus to you all, we say thus about you all
-      PV/ta+itîw+V+TA+Cnj+1Pl+3PlO: ta-itâthâhkik	# we say thus to them, we say thus about them
-      PV/ta+itîw+V+TA+Cnj+1Pl+4Sg/PlO: ta-itimâthâhk	# we say thus to another/others, we say thus about another/others
+      PV/ta+itîw+V+TA+Cnj+1Pl+2SgO: ta-ititâhk # we say thus to you, we say thus about you
+      PV/ta+itîw+V+TA+Cnj+1Pl+3SgO: ta-itâyâhk # we say thus to him/her, we say thus about him/her
+      PV/ta+itîw+V+TA+Cnj+1Pl+3SgO+Var/East: ta-itakiht # we say thus to him/her, we say thus about him/her
+      PV/ta+itîw+V+TA+Cnj+1Pl+2PlO: ta-ititâhk # we say thus to you all, we say thus about you all
+      PV/ta+itîw+V+TA+Cnj+1Pl+3PlO: ta-itâyâhkwâw # we say thus to them, we say thus about them
+      PV/ta+itîw+V+TA+Cnj+1Pl+3PlO+Var/East: ta-itakihcik # we say thus to them, we say thus about them
+      PV/ta+itîw+V+TA+Cnj+1Pl+4Sg/PlO: ta-itimâyâhk # we say thus to another/others, we say thus about another/others
 
       # 12Pl
-      PV/ta+itîw+V+TA+Cnj+12Pl+3SgO: ta-itâthahk	# we and you say thus to him/her, we and you say thus about him/her
-      PV/ta+itîw+V+TA+Cnj+12Pl+3PlO: ta-itâthahkok	# we and you say thus to them, we and you say thus about them
-      PV/ta+itîw+V+TA+Cnj+12Pl+4Sg/PlO: ta-itimâthahk	# we and you say thus to another/others, we and you say thus about another/others
+      PV/ta+itîw+V+TA+Cnj+12Pl+3SgO: ta-itâyahk # we and you say thus to him/her, we and you say thus about him/her
+      PV/ta+itîw+V+TA+Cnj+12Pl+3SgO+Var/East: ta-itahk # we and you say thus to him/her, we and you say thus about him/her
+      PV/ta+itîw+V+TA+Cnj+12Pl+3PlO: ta-itâyahkwâw # we and you say thus to them, we and you say thus about them
+      PV/ta+itîw+V+TA+Cnj+12Pl+3PlO+Var/East: ta-itahkwâw # we and you say thus to them, we and you say thus about them
+      PV/ta+itîw+V+TA+Cnj+12Pl+4Sg/PlO: ta-itimâyahk # we and you say thus to another/others, we and you say thus about another/others
 
       # 2Pl
-      PV/ta+itîw+V+TA+Cnj+2Pl+1SgO: ta-isithîk	# you all say thus to me, you all say thus about me
-      PV/ta+itîw+V+TA+Cnj+2Pl+3SgO: ta-itâthîk	# you all say thus to him/her, you all say thus about him/her
-      PV/ta+itîw+V+TA+Cnj+2Pl+1PlO: ta-isithâhk	# you all say thus to us, you all say thus about us
-      PV/ta+itîw+V+TA+Cnj+2Pl+3PlO: ta-itâthîkok	# you all say thus to them, you all say thus about them
-      PV/ta+itîw+V+TA+Cnj+2Pl+4Sg/PlO: ta-itimâthîk	# you all say thus to another/others, you all say thus about another/others
+      PV/ta+itîw+V+TA+Cnj+2Pl+1SgO: ta-isiyîk # you all say thus to me, you all say thus about me
+      PV/ta+itîw+V+TA+Cnj+2Pl+3SgO: ta-itâyîk # you all say thus to him/her, you all say thus about him/her
+      PV/ta+itîw+V+TA+Cnj+2Pl+1PlO: ta-isiyâhk # you all say thus to us, you all say thus about us
+      PV/ta+itîw+V+TA+Cnj+2Pl+3PlO: ta-itâyîkwâw # you all say thus to them, you all say thus about them
+      PV/ta+itîw+V+TA+Cnj+2Pl+3PlO+Var/East: ta-itâyîkok # you all say thus to them, you all say thus about them
+      PV/ta+itîw+V+TA+Cnj+2Pl+4Sg/PlO: ta-itimâyîk # you all say thus to another/others, you all say thus about another/others
 
       # 3Pl
-      PV/ta+itîw+V+TA+Cnj+3Pl+1SgO: ta-isicik	# they say thus to me, they say thus about me
-      PV/ta+itîw+V+TA+Cnj+3Pl+2SgO: ta-itiskik	# they say thus to you, they say thus about you
-      PV/ta+itîw+V+TA+Cnj+3Pl+1PlO: ta-itikothâhkik	# they say thus to us, they say thus about us
-      PV/ta+itîw+V+TA+Cnj+3Pl+12PlO: ta-itikothahkok	# they say thus to you and us, they say thus about you and us
-      PV/ta+itîw+V+TA+Cnj+3Pl+2PlO: ta-itikothîkok	# they say thus to you all, they say thus about you all
-      PV/ta+itîw+V+TA+Cnj+3Pl+4Sg/PlO: ta-itâcik	# they say thus to another/others, they say thus about another/others
-      PV/ta+itîw+V+TA+Cnj+3Pl+5Sg/PlO: ta-itimâcik	# they say thus to yet another/others, they say thus about yet another/others
+      PV/ta+itîw+V+TA+Cnj+3Pl+1SgO: [ta-isitwâw, ta-isicik] # they say thus to me, they say thus about me
+      PV/ta+itîw+V+TA+Cnj+3Pl+2SgO: ta-itiskwâw # they say thus to you, they say thus about you
+      PV/ta+itîw+V+TA+Cnj+3Pl+1PlO: ta-itikoyâhkwâw # they say thus to us, they say thus about us
+      PV/ta+itîw+V+TA+Cnj+3Pl+1PlO+Var/East: ta-isiyamihcik # they say thus to us, they say thus about us
+      PV/ta+itîw+V+TA+Cnj+3Pl+12PlO: ta-itikoyahkwâw # they say thus to you and us, they say thus about you and us
+      PV/ta+itîw+V+TA+Cnj+3Pl+12PlO+Var/East: ta-ititahkwâw # they say thus to you and us, they say thus about you and us
+      PV/ta+itîw+V+TA+Cnj+3Pl+2PlO: ta-itikoyîkwâw # they say thus to you all, they say thus about you all
+      PV/ta+itîw+V+TA+Cnj+3Pl+2PlO+Var/East: ta-ititîkwâw # they say thus to you all, they say thus about you all
+      PV/ta+itîw+V+TA+Cnj+3Pl+4Sg/PlO: ta-itâcik # they say thus to another/others, they say thus about another/others
+      PV/ta+itîw+V+TA+Cnj+3Pl+5Sg/PlO: ta-itimâcik # they say thus to yet another/others, they say thus about yet another/others
 
       # 4Sg/Pl
-      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+1SgO: ta-itimit	# another/others say thus to me, another/others say thus about me
-      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+2SgO: ta-itimisk	# another/others say thus to you, another/others say thus about you
-      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+3SgO: ta-itikot	# another/others say thus to him/her, another/others say thus about him/her
-      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+1PlO: ta-itikothâhk	# another/others say thus to us, another/others say thus about us
-      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+12PlO: ta-itikothahk	# another/others say thus to you and us, another/others say thus about you and us
-      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+2PlO: ta-itikothîk	# another/others say thus to you all, another/others say thus about you all
-      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+3PlO: ta-itikocik	# another/others say thus to them, another/others say thus about them
-      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: ta-itâthit	# another/others say thus to yet another/others, another/others say thus about yet another/others
+      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+1SgO: ta-itimit # another/others say thus to me, another/others say thus about me
+      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+2SgO: ta-itimisk # another/others say thus to you, another/others say thus about you
+      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+3SgO: ta-itikot # another/others say thus to him/her, another/others say thus about him/her
+      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+1PlO: ta-itikoyâhk # another/others say thus to us, another/others say thus about us
+      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+12PlO: ta-itikoyahk # another/others say thus to you and us, another/others say thus about you and us
+      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+2PlO: ta-itikoyîk # another/others say thus to you all, another/others say thus about you all
+      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+3PlO: ta-itikocik # another/others say thus to them, another/others say thus about them
+      PV/ta+itîw+V+TA+Cnj+4Sg/Pl+5Sg/PlO: ta-itâthit # another/others say thus to yet another/others, another/others say thus about yet another/others
 
       # 5Sg/Pl
-      PV/ta+itîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: ta-itikothit	# yet another/others say thus to another/others, yet another/others say thus about another/others
+      PV/ta+itîw+V+TA+Cnj+5Sg/Pl+4Sg/PlO: ta-itikothit # yet another/others say thus to another/others, yet another/others say thus about another/others
 
       # X
-      PV/ta+itîw+V+TA+Cnj+X+1SgO: ta-itikawithân	# someone says thus to me, someone says thus about me
-      PV/ta+itîw+V+TA+Cnj+X+2SgO: ta-itikawithan	# someone says thus to you, someone says thus about you
-      PV/ta+itîw+V+TA+Cnj+X+3SgO: ta-itiht	# someone says thus to him/her, someone says thus about him/her
-      PV/ta+itîw+V+TA+Cnj+X+1PlO: ta-itikawithâhk	# someone says thus to us, someone says thus about us
-      PV/ta+itîw+V+TA+Cnj+X+12PlO: ta-itikawithahk	# someone says thus to you and us, someone says thus about you and us
-      PV/ta+itîw+V+TA+Cnj+X+2PlO: ta-itikawithîk	# someone says thus to you all, someone says thus about you all
-      PV/ta+itîw+V+TA+Cnj+X+3PlO: ta-itihcik	# someone says thus to them, someone says thus about them
-      PV/ta+itîw+V+TA+Cnj+X+4Sg/PlO: ta-itimiht	# someone says thus to another/others, someone says thus about another/others
+      PV/ta+itîw+V+TA+Cnj+X+1SgO: ta-itikawiyân # someone says thus to me, someone says thus about me
+      PV/ta+itîw+V+TA+Cnj+X+2SgO: ta-itikawiyan # someone says thus to you, someone says thus about you
+      PV/ta+itîw+V+TA+Cnj+X+3SgO: ta-itiht # someone says thus to him/her, someone says thus about him/her
+      PV/ta+itîw+V+TA+Cnj+X+1PlO: ta-itikawiyâhk # someone says thus to us, someone says thus about us
+      PV/ta+itîw+V+TA+Cnj+X+12PlO: ta-itikawiyahk # someone says thus to you and us, someone says thus about you and us
+      PV/ta+itîw+V+TA+Cnj+X+2PlO: ta-itikawiyîk # someone says thus to you all, someone says thus about you all
+      PV/ta+itîw+V+TA+Cnj+X+3PlO: ta-itihcik # someone says thus to them, someone says thus about them
+      PV/ta+itîw+V+TA+Cnj+X+4Sg/PlO: ta-itimiht # someone says thus to another/others, someone says thus about another/others
 
       # 0Sg/Pl
-      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+1SgO: PV/ta+itîw+V+TA+Cnj+0Sg/Pl+1SgO
-      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+2SgO: PV/ta+itîw+V+TA+Cnj+0Sg/Pl+2SgO
-      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+3SgO: PV/ta+itîw+V+TA+Cnj+0Sg/Pl+3SgO
-      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+1PlO: PV/ta+itîw+V+TA+Cnj+0Sg/Pl+1PlO
-      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+12PlO: PV/ta+itîw+V+TA+Cnj+0Sg/Pl+12PlO
-      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+2PlO: PV/ta+itîw+V+TA+Cnj+0Sg/Pl+2PlO
-      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+3PlO: PV/ta+itîw+V+TA+Cnj+0Sg/Pl+3PlO
-      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: PV/ta+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO
+      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+1SgO: ta-itikoyân
+      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+2SgO: ta-itikoyan
+      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+3SgO: ta-itikot
+      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+1PlO: ta-itikoyâhk
+      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+12PlO: ta-itikoyahk
+      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+2PlO: ta-itikoyîk
+      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+3PlO: ta-itikocik
+      PV/ta+itîw+V+TA+Cnj+0Sg/Pl+4Sg/PlO: ta-itikothit
       
 
       # Fut # Cond
 
       # 1Sg
-      itîw+V+TA+Fut+Cond+1Sg+2SgO: ititâni	# when I say thus to you, when I say thus about you
-      itîw+V+TA+Fut+Cond+1Sg+3SgO: itaki	# when I say thus to him/her, when I say thus about him/her
-      itîw+V+TA+Fut+Cond+1Sg+2PlO: ititako	# when I say thus to you all, when I say thus about you all
-      itîw+V+TA+Fut+Cond+1Sg+3PlO: itakwâwi	# when I say thus to them, when I say thus about them
-      itîw+V+TA+Fut+Cond+1Sg+4Sg/PlO: itimaki	# when I say thus to another/others, when I say thus about another/others
+      itîw+V+TA+Fut+Cond+1Sg+2SgO: ititâni # when I say thus to you, when I say thus about you
+      itîw+V+TA+Fut+Cond+1Sg+3SgO: itaki # when I say thus to him/her, when I say thus about him/her
+      itîw+V+TA+Fut+Cond+1Sg+2PlO: ititahkwâwi # when I say thus to you all, when I say thus about you all
+      itîw+V+TA+Fut+Cond+1Sg+3PlO: itakwâwi # when I say thus to them, when I say thus about them
+      itîw+V+TA+Fut+Cond+1Sg+4Sg/PlO: itimaki # when I say thus to another/others, when I say thus about another/others
 
       # 2Sg
-      itîw+V+TA+Fut+Cond+2Sg+1SgO: isithani	# when you say thus to me, when you say thus about me
-      itîw+V+TA+Fut+Cond+2Sg+3SgO: itaci	# when you say thus to him/her, when you say thus about him/her
-      itîw+V+TA+Fut+Cond+2Sg+1PlO: isithâhki	# when you say thus to us, when you say thus about us
-      itîw+V+TA+Fut+Cond+2Sg+3PlO: itatwâwi	# when you say thus to them, when you say thus about them
-      itîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: itimaci	# when you say thus to another/others, when you say thus about another/others
+      itîw+V+TA+Fut+Cond+2Sg+1SgO: isiyani # when you say thus to me, when you say thus about me
+      itîw+V+TA+Fut+Cond+2Sg+3SgO: itaci # when you say thus to him/her, when you say thus about him/her
+      itîw+V+TA+Fut+Cond+2Sg+1PlO: isiyâhki # when you say thus to us, when you say thus about us
+      itîw+V+TA+Fut+Cond+2Sg+3PlO: itatwâwi # when you say thus to them, when you say thus about them
+      itîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: itimaci # when you say thus to another/others, when you say thus about another/others
 
       # 3Sg
-      itîw+V+TA+Fut+Cond+2Sg+1SgO: isithani	# when you say thus to me, when you say thus about me
-      itîw+V+TA+Fut+Cond+2Sg+2SgO: itîw+V+TA+Fut+Cond+2Sg+2SgO	# when you say thus to you, when you say thus about you
-      itîw+V+TA+Fut+Cond+2Sg+1PlO: isithâhki	# when you say thus to us, when you say thus about us
-      itîw+V+TA+Fut+Cond+3Sg+12PlO: [itikothahki, itikothahko]	# when he/she says thus to you and us, when he/she says thus about you and us
-      itîw+V+TA+Fut+Cond+3Sg+2PlO: itikothîko	# when he/she says thus to you all, when he/she says thus about you all
-      itîw+V+TA+Fut+Cond+2Sg+3PlO: itatwâwi	# when you say thus to them, when you say thus about them
-      itîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: itimaci	# when you say thus to another/others, when you say thus about another/others
-      itîw+V+TA+Fut+Cond+3Sg+5Sg/PlO: itimâci	# when he/she says thus to yet another/others, when he/she says thus about yet another/others
+      itîw+V+TA+Fut+Cond+2Sg+1SgO: isiyani # when you say thus to me, when you say thus about me
+      itîw+V+TA+Fut+Cond+2Sg+1PlO: isiyâhki # when you say thus to us, when you say thus about us
+      itîw+V+TA+Fut+Cond+3Sg+1PlO: itikoyâhki # when you say thus to us, when you say thus about us
+      itîw+V+TA+Fut+Cond+3Sg+1PlO+Var/East: ititahkwâwi # when you say thus to us, when you say thus about us
+      itîw+V+TA+Fut+Cond+3Sg+12PlO: itikoyahki # when he/she says thus to you and us, when he/she says thus about you and us
+      itîw+V+TA+Fut+Cond+3Sg+12PlO+Var/East: isiyamihci # when he/she says thus to you and us, when he/she says thus about you and us
+      itîw+V+TA+Fut+Cond+3Sg+2PlO: itikoyîko # when he/she says thus to you all, when he/she says thus about you all
+      itîw+V+TA+Fut+Cond+3Sg+2PlO+Var/East: ititîko # when he/she says thus to you all, when he/she says thus about you all
+      itîw+V+TA+Fut+Cond+2Sg+3PlO: itatwâwi # when you say thus to them, when you say thus about them
+      itîw+V+TA+Fut+Cond+2Sg+4Sg/PlO: itimaci # when you say thus to another/others, when you say thus about another/others
+      itîw+V+TA+Fut+Cond+3Sg+5Sg/PlO: itimâci # when he/she says thus to yet another/others, when he/she says thus about yet another/others
 
       # 1Pl
-      itîw+V+TA+Fut+Cond+1Pl+2SgO: ititâhki	# when we say thus to you, when we say thus about you
-      itîw+V+TA+Fut+Cond+1Pl+3SgO: itâthâhki	# when we say thus to him/her, when we say thus about him/her
-      itîw+V+TA+Fut+Cond+1Pl+2PlO: ititâhki	# when we say thus to you all, when we say thus about you all
-      itîw+V+TA+Fut+Cond+1Pl+3PlO: itâthâhkwâwi	# when we say thus to them, when we say thus about them
-      itîw+V+TA+Fut+Cond+1Pl+4Sg/PlO: itimâthâhki	# when we say thus to another/others, when we say thus about another/others
+      itîw+V+TA+Fut+Cond+1Pl+2SgO: ititâhki # when we say thus to you, when we say thus about you
+      itîw+V+TA+Fut+Cond+1Pl+3SgO: itâyâhki # when we say thus to him/her, when we say thus about him/her
+      itîw+V+TA+Fut+Cond+1Pl+3SgO+Var/East: itakihci # when we say thus to him/her, when we say thus about him/her
+      itîw+V+TA+Fut+Cond+1Pl+2PlO: ititahkwâwi # when we say thus to you all, when we say thus about you all
+      itîw+V+TA+Fut+Cond+1Pl+3PlO: itâyâhkwâwi # when we say thus to them, when we say thus about them
+      itîw+V+TA+Fut+Cond+1Pl+3PlO+Var/East: itakihci # when we say thus to them, when we say thus about them
+      itîw+V+TA+Fut+Cond+1Pl+4Sg/PlO: itimâyâhki # when we say thus to another/others, when we say thus about another/others
 
       # 12Pl
-      itîw+V+TA+Fut+Cond+12Pl+3SgO: [itâthahki, itâthahko]	# when we and you say thus to him/her, when we and you say thus about him/her
-      itîw+V+TA+Fut+Cond+12Pl+3PlO: itâthahkwâwi	# when we and you say thus to them, when we and you say thus about them
-      itîw+V+TA+Fut+Cond+12Pl+4Sg/PlO: [itimâthahki, itimâthahko]	# when we and you say thus to another/others, when we and you say thus about another/others
+      itîw+V+TA+Fut+Cond+12Pl+3SgO: itâyahki # when we and you say thus to him/her, when we and you say thus about him/her
+      itîw+V+TA+Fut+Cond+12Pl+3SgO+Var/East: itahki # when we and you say thus to him/her, when we and you say thus about him/her
+      itîw+V+TA+Fut+Cond+12Pl+3PlO: itâyahkwâwi # when we and you say thus to them, when we and you say thus about them
+      itîw+V+TA+Fut+Cond+12Pl+3PlO+Var/East: itahkwayak # when we and you say thus to them, when we and you say thus about them
+      itîw+V+TA+Fut+Cond+12Pl+4Sg/PlO: itimâyahki # when we and you say thus to another/others, when we and you say thus about another/others
 
       # 2Pl
-      itîw+V+TA+Fut+Cond+2Pl+1SgO: isithîko	# when you all say thus to me, when you all say thus about me
-      itîw+V+TA+Fut+Cond+2Pl+3SgO: itâthîko	# when you all say thus to him/her, when you all say thus about him/her
-      itîw+V+TA+Fut+Cond+2Pl+1PlO: isithâhki	# when you all say thus to us, when you all say thus about us
-      itîw+V+TA+Fut+Cond+2Pl+3PlO: itâthîkwâwi	# when you all say thus to them, when you all say thus about them
-      itîw+V+TA+Fut+Cond+2Pl+4Sg/PlO: itimâthîko	# when you all say thus to another/others, when you all say thus about another/others
+      itîw+V+TA+Fut+Cond+2Pl+1SgO: isiyîko # when you all say thus to me, when you all say thus about me
+      itîw+V+TA+Fut+Cond+2Pl+3SgO: itâyîko # when you all say thus to him/her, when you all say thus about him/her
+      itîw+V+TA+Fut+Cond+2Pl+1PlO: isiyîko # when you all say thus to us, when you all say thus about us
+      itîw+V+TA+Fut+Cond+2Pl+3PlO: itâyîkwâwi # when you all say thus to them, when you all say thus about them
+      itîw+V+TA+Fut+Cond+2Pl+3PlO+Var/East: itayîko # when you all say thus to them, when you all say thus about them
+      itîw+V+TA+Fut+Cond+2Pl+4Sg/PlO: itimâyîko # when you all say thus to another/others, when you all say thus about another/others
 
       # 3Pl
-      itîw+V+TA+Fut+Cond+3Pl+1SgO: isitwâwi	# when they say thus to me, when they say thus about me
-      itîw+V+TA+Fut+Cond+3Pl+2SgO: itiskwâwi	# when they say thus to you, when they say thus about you
-      itîw+V+TA+Fut+Cond+3Pl+1PlO: itikothâhkwâwi	# when they say thus to us, when they say thus about us
-      itîw+V+TA+Fut+Cond+3Pl+12PlO: itikothahkwâwi	# when they say thus to you and us, when they say thus about you and us
-      itîw+V+TA+Fut+Cond+3Pl+2PlO: itikothîkwâwi	# when they say thus to you all, when they say thus about you all
-      itîw+V+TA+Fut+Cond+3Pl+4Sg/PlO: itâtwâwi	# when they say thus to another/others, when they say thus about another/others
-      itîw+V+TA+Fut+Cond+3Pl+5Sg/PlO: itimâtwâwi	# when they say thus to yet another/others, when they say thus about yet another/others
+      itîw+V+TA+Fut+Cond+3Pl+1SgO: isitwâwi # when they say thus to me, when they say thus about me
+      itîw+V+TA+Fut+Cond+3Pl+2SgO: itiskwâwi # when they say thus to you, when they say thus about you
+      itîw+V+TA+Fut+Cond+3Pl+1PlO: itikoyâhkwâwi # when they say thus to us, when they say thus about us
+      itîw+V+TA+Fut+Cond+3Pl+1PlO+Var/East: ititahkwâwi # when they say thus to us, when they say thus about us
+      itîw+V+TA+Fut+Cond+3Pl+12PlO: itikoyahkwâwi # when they say thus to you and us, when they say thus about you and us
+      itîw+V+TA+Fut+Cond+3Pl+12PlO+Var/East: ititahkwâwi # when they say thus to you and us, when they say thus about you and us
+      itîw+V+TA+Fut+Cond+3Pl+2PlO: itikoyîkwâwi # when they say thus to you all, when they say thus about you all
+      itîw+V+TA+Fut+Cond+3Pl+2PlO+Var/East: ititîko # when they say thus to you all, when they say thus about you all
+      itîw+V+TA+Fut+Cond+3Pl+4Sg/PlO: itâtwâwi # when they say thus to another/others, when they say thus about another/others
+      itîw+V+TA+Fut+Cond+3Pl+5Sg/PlO: itimâtwâwi # when they say thus to yet another/others, when they say thus about yet another/others
 
       # 4Sg/Pl
-      itîw+V+TA+Fut+Cond+4Sg/Pl+1SgO: itimici	# when another/others say thus to me, when another/others say thus about me
-      itîw+V+TA+Fut+Cond+4Sg/Pl+2SgO: itimiski	# when another/others say thus to you, when another/others say thus about you
-      itîw+V+TA+Fut+Cond+4Sg/Pl+3SgO: itikoci	# when another/others say thus to him/her, when another/others say thus about him/her
-      itîw+V+TA+Fut+Cond+4Sg/Pl+1PlO: itikothâhki	# when another/others say thus to us, when another/others say thus about us
-      itîw+V+TA+Fut+Cond+4Sg/Pl+12PlO: [itikothahki, itikothahko]	# when another/others say thus to you and us, when another/others say thus about you and us
-      itîw+V+TA+Fut+Cond+4Sg/Pl+2PlO: itikothîko	# when another/others say thus to you all, when another/others say thus about you all
-      itîw+V+TA+Fut+Cond+4Sg/Pl+3PlO: itikotwâwi	# when another/others say thus to them, when another/others say thus about them
-      itîw+V+TA+Fut+Cond+4Sg/Pl+5Sg/PlO: itâthici	# when another/others say thus to yet another/others, when another/others say thus about yet another/others
+      itîw+V+TA+Fut+Cond+4Sg/Pl+1SgO: itimici # when another/others say thus to me, when another/others say thus about me
+      itîw+V+TA+Fut+Cond+4Sg/Pl+2SgO: itimiski # when another/others say thus to you, when another/others say thus about you
+      itîw+V+TA+Fut+Cond+4Sg/Pl+3SgO: itikoci # when another/others say thus to him/her, when another/others say thus about him/her
+      itîw+V+TA+Fut+Cond+4Sg/Pl+1PlO: itikoyâhki # when another/others say thus to us, when another/others say thus about us
+      itîw+V+TA+Fut+Cond+4Sg/Pl+12PlO: itikoyahki # when another/others say thus to you and us, when another/others say thus about you and us
+      itîw+V+TA+Fut+Cond+4Sg/Pl+2PlO: itikoyîko # when another/others say thus to you all, when another/others say thus about you all
+      itîw+V+TA+Fut+Cond+4Sg/Pl+3PlO: itikotwâwi # when another/others say thus to them, when another/others say thus about them
+      itîw+V+TA+Fut+Cond+4Sg/Pl+5Sg/PlO: itâthici # when another/others say thus to yet another/others, when another/others say thus about yet another/others
 
       # 5Sg/Pl
-      itîw+V+TA+Fut+Cond+5Sg/Pl+4Sg/PlO: itikothici	# when yet another/others say thus to another/others, when yet another/others say thus about another/others
+      itîw+V+TA+Fut+Cond+5Sg/Pl+4Sg/PlO: itikothici # when yet another/others say thus to another/others, when yet another/others say thus about another/others
 
       # X
-      itîw+V+TA+Fut+Cond+X+1SgO: itikawithâni	# when someone says thus to me, when someone says thus about me
-      itîw+V+TA+Fut+Cond+X+2SgO: itikawithani	# when someone says thus to you, when someone says thus about you
-      itîw+V+TA+Fut+Cond+X+3SgO: itihci	# when someone says thus to him/her, when someone says thus about him/her
-      itîw+V+TA+Fut+Cond+X+1PlO: itikawithâhki	# when someone says thus to us, when someone says thus about us
-      itîw+V+TA+Fut+Cond+X+12PlO: itikawithahki	# when someone says thus to you and us, when someone says thus about you and us
-      itîw+V+TA+Fut+Cond+X+2PlO: itikawithîko	# when someone says thus to you all, when someone says thus about you all
-      itîw+V+TA+Fut+Cond+X+3PlO: itihtwâwi	# when someone says thus to them, when someone says thus about them
-      itîw+V+TA+Fut+Cond+X+4Sg/PlO: itimihci	# when someone says thus to another/others, when someone says thus about another/others
-
-      # 0Sg/Pl
-      itîw+V+TA+Fut+Cond+0Sg/Pl+1SgO: itîw+V+TA+Fut+Cond+0Sg/Pl+1SgO
-      itîw+V+TA+Fut+Cond+0Sg/Pl+2SgO: itîw+V+TA+Fut+Cond+0Sg/Pl+2SgO
-      itîw+V+TA+Fut+Cond+0Sg/Pl+3SgO: itîw+V+TA+Fut+Cond+0Sg/Pl+3SgO
-      itîw+V+TA+Fut+Cond+0Sg/Pl+1PlO: itîw+V+TA+Fut+Cond+0Sg/Pl+1PlO
-      itîw+V+TA+Fut+Cond+0Sg/Pl+12PlO: itîw+V+TA+Fut+Cond+0Sg/Pl+12PlO
-      itîw+V+TA+Fut+Cond+0Sg/Pl+2PlO: itîw+V+TA+Fut+Cond+0Sg/Pl+2PlO
-      itîw+V+TA+Fut+Cond+0Sg/Pl+3PlO: itîw+V+TA+Fut+Cond+0Sg/Pl+3PlO
-      itîw+V+TA+Fut+Cond+0Sg/Pl+4Sg/PlO: itîw+V+TA+Fut+Cond+0Sg/Pl+4Sg/PlO
+      itîw+V+TA+Fut+Cond+X+1SgO: itikawiyâni # when someone says thus to me, when someone says thus about me
+      itîw+V+TA+Fut+Cond+X+2SgO: itikawiyani # when someone says thus to you, when someone says thus about you
+      itîw+V+TA+Fut+Cond+X+3SgO: itihci # when someone says thus to him/her, when someone says thus about him/her
+      itîw+V+TA+Fut+Cond+X+1PlO: itikawiyâhki # when someone says thus to us, when someone says thus about us
+      itîw+V+TA+Fut+Cond+X+12PlO: itikawiyahki # when someone says thus to you and us, when someone says thus about you and us
+      itîw+V+TA+Fut+Cond+X+2PlO: itikawiyîko # when someone says thus to you all, when someone says thus about you all
+      itîw+V+TA+Fut+Cond+X+3PlO: itihtwâwi # when someone says thus to them, when someone says thus about them
+      itîw+V+TA+Fut+Cond+X+4Sg/PlO: itimihci # when someone says thus to another/others, when someone says thus about another/others
       
 
       # Imp # Imm
 
       # 2Sg
-      itîw+V+TA+Imp+Imm+2Sg+1SgO: isin	# (you) say thus to me now, (you) say thus about me now
-      itîw+V+TA+Imp+Imm+2Sg+1PlO: isinân	# (you) say thus to us now, (you) say thus about us now
-      itîw+V+TA+Imp+Imm+2Sg+3SgO: isi	# (you) say thus to him/her now, (you) say thus about him/her now
-      itîw+V+TA+Imp+Imm+2Sg+3PlO: isik	# (you) say thus to them now, (you) say thus about them now
+      itîw+V+TA+Imp+Imm+2Sg+1SgO: isin # (you) say thus to me now, (you) say thus about me now
+      itîw+V+TA+Imp+Imm+2Sg+1PlO: isinân # (you) say thus to us now, (you) say thus about us now
+      itîw+V+TA+Imp+Imm+2Sg+3SgO: isi # (you) say thus to him/her now, (you) say thus about him/her now
+      itîw+V+TA+Imp+Imm+2Sg+3PlO: isik # (you) say thus to them now, (you) say thus about them now
 
       # 12Pl
-      itîw+V+TA+Imp+Imm+12Pl+3SgO: itâtân	# let you and us say thus to him/her now, let you and us say thus about him/her now
-      itîw+V+TA+Imp+Imm+12Pl+3PlO: itâtânik	# let you and us say thus to them now, let you and us say thus about them now
+      itîw+V+TA+Imp+Imm+12Pl+3SgO: itâtân # let you and us say thus to him/her now, let you and us say thus about him/her now
+      itîw+V+TA+Imp+Imm+12Pl+3PlO: itâtânik # let you and us say thus to them now, let you and us say thus about them now
 
       # 2Pl
-      itîw+V+TA+Imp+Imm+2Pl+1SgO: isik	# (you all) say thus to me now, (you all) say thus about me now
-      itîw+V+TA+Imp+Imm+2Pl+1PlO: isinân	# (you all) say thus to us now, (you all) say thus about us now
-      itîw+V+TA+Imp+Imm+2Pl+3SgO: itihk	# (you all) say thus to him/her now, (you all) say thus about him/her now
-      itîw+V+TA+Imp+Imm+2Pl+3PlO: itihkok	# (you all) say thus to them now, (you all) say thus about them now
+      itîw+V+TA+Imp+Imm+2Pl+1SgO: isik # (you all) say thus to me now, (you all) say thus about me now
+      itîw+V+TA+Imp+Imm+2Pl+1PlO: isinân # (you all) say thus to us now, (you all) say thus about us now
+      itîw+V+TA+Imp+Imm+2Pl+3SgO: itihk # (you all) say thus to him/her now, (you all) say thus about him/her now
+      itîw+V+TA+Imp+Imm+2Pl+3PlO: itihkwâw # (you all) say thus to them now, (you all) say thus about them now
       
 
       # Imp # Del
 
       # 2Sg
-      itîw+V+TA+Imp+Del+2Sg+1SgO: isîhkan	# (you) say thus to me later, (you) say thus about me later
-      itîw+V+TA+Imp+Del+2Sg+1PlO: isîhkâhk	# (you) say thus to us later, (you) say thus about us later
-      itîw+V+TA+Imp+Del+2Sg+3SgO: itâhkan	# (you) say thus to him/her later, (you) say thus about him/her later
-      itîw+V+TA+Imp+Del+2Sg+3PlO: itâhkanik	# (you) say thus to them later, (you) say thus about them later
+      itîw+V+TA+Imp+Del+2Sg+1SgO: isîhkan # (you) say thus to me later, (you) say thus about me later
+      itîw+V+TA+Imp+Del+2Sg+1PlO: isîhkâhk # (you) say thus to us later, (you) say thus about us later
+      itîw+V+TA+Imp+Del+2Sg+3SgO: itâhkan # (you) say thus to him/her later, (you) say thus about him/her later
+      itîw+V+TA+Imp+Del+2Sg+3PlO: itâhkanik # (you) say thus to them later, (you) say thus about them later
 
       # 12Pl
-      itîw+V+TA+Imp+Del+12Pl+3SgO: itâhkahk	# let you and us say thus to him/her later, let you and us say thus about him/her later
-      itîw+V+TA+Imp+Del+12Pl+3PlO: itâhkahkok	# let you and us say thus to them later, let you and us say thus about them later
+      itîw+V+TA+Imp+Del+12Pl+3SgO: itâhkahk # let you and us say thus to him/her later, let you and us say thus about him/her later
+      itîw+V+TA+Imp+Del+12Pl+3PlO: itâhkahkik # let you and us say thus to them later, let you and us say thus about them later
+      itîw+V+TA+Imp+Del+12Pl+3PlO+Var/East: itâhkanik # let you and us say thus to them later, let you and us say thus about them later
 
       # 2Pl
-      itîw+V+TA+Imp+Del+2Pl+1SgO: isîhkîk	# (you all) say thus to me later, (you all) say thus about me later
-      itîw+V+TA+Imp+Del+2Pl+1PlO: isîhkâhk	# (you all) say thus to us later, (you all) say thus about us later
-      itîw+V+TA+Imp+Del+2Pl+3SgO: itâhkîk	# (you all) say thus to him/her later, (you all) say thus about him/her later
-      itîw+V+TA+Imp+Del+2Pl+3PlO: itâhkîkok	# (you all) say thus to them later, (you all) say thus about them later
+      itîw+V+TA+Imp+Del+2Pl+1SgO: isîhkîk # (you all) say thus to me later, (you all) say thus about me later
+      itîw+V+TA+Imp+Del+2Pl+1PlO: isîhkâhk # (you all) say thus to us later, (you all) say thus about us later
+      itîw+V+TA+Imp+Del+2Pl+3SgO: itâhkîk # (you all) say thus to him/her later, (you all) say thus about him/her later
+      itîw+V+TA+Imp+Del+2Pl+3PlO: itâhkîkwâw # (you all) say thus to them later, (you all) say thus about them later
       
 
