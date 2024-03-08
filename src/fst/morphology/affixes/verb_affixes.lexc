@@ -2776,7 +2776,7 @@ LEXICON VTA_FUT_CON_NULL_PL_SUFFIX
 
 +2Sg+1PlO:%>iyâhki       VERB_ENDLEX ;
 
-+2Pl+1PlO:%>iyâhki       VERB_ENDLEX ;
++2Pl+1PlO:%>iyîko       VERB_ENDLEX ;
 +2Pl+1SgO:%>iyîko       VERB_ENDLEX ;
 
 !!!!!!! Mixed !!!!!!!
@@ -2830,7 +2830,7 @@ LEXICON VTA_FUT_CON_NULL_PL_SUFFIX
 
 +1Pl+2SgO:%>i2tâhki VERB_ENDLEX ;
 
-+1Pl+2PlO:%>i2tâhki	   VERB_ENDLEX ;
++1Pl+2PlO:%>i2tahkwâwi	   VERB_ENDLEX ;
 +1Sg+2PlO:%>i2tahkwâwi	   VERB_ENDLEX ;
 
 !!!!!!! Mixed !!!!!!!
