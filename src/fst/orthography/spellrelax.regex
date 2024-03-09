@@ -66,14 +66,23 @@ c (->) j,   # English influence on spelling <c>
 # TODO: figure out what conditions this (probably /o/ or /i/)
 # These rules without context are EXCESSIVELY productive!
 # y (->) w,
-# w (->) y,
+# w (->) y,,
 
-{iw} (->) {ow},        # Misspelling based on assimilated pronunciation of underlying /i/ as /o/ before /w/
+w (->) y || [ a | â | i | î | o | ô ] _ [ i | î ] ,,
+
+[ {aw} | {iw} ] (->) {ow},        # Misspelling based on assimilated pronunciation of underlying /i/ as /o/ before /w/
 {ow} (->) {iw},
-{iyi} (->) [ î | i ],  # Mishearing of vowel-glide-vowel cluster
+{ow} (->) {aw},
+[ {iyi} | {iwi} ] (->) [ î | i ],  # Mishearing of vowel-glide-vowel cluster
 {nwa} (->) {no} ,,     # <nwa> is likely to be heard as <no>
 
+{iy} (->) î || _ .#. ,,
+
+# Special case
+{thiniw} (->) {tiniw} || [ i | î ] _ ,,
+
 [..] (->) h || _ .#. ,, # Excessive word-final pre-aspiration
+{hk} (->) 0 , {sk} (->) s || _ .#. ,, # Excessive word-final deletion of 'hk'
    h (->) 0 || [ a | i | o | â | î | ô ] _ [ c | k | p | t ] ,,  # Missing preaspiration before stops
 [..] (->) h || [ a | i | o | â | î | ô ] _ [ c | k | p | t ] ,,  # Excessive preaspiration before stops
 
@@ -99,7 +108,7 @@ c (->) {tch}, # English influence on spelling <c>
 c (->) {ts},, # Another English influence on spelling <c>
 
 # Plains/Proto-Cree to Woods Cree
-{th} (->) [ ý | y ] ,,
+{th} (->) [ ý | y | ð ] ,,
 [ î | i ] (->) [ ê | e ]
 
 ;
