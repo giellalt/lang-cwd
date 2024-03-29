@@ -88,6 +88,8 @@ The leftovers are tagged @X
 * * *
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-cwd/blob/main/src/cg3/functions.cg3)</small>
 
+Here we continue to lexical prenouns (in prenouns.lexc)
+
 Starting with the general morphosyntactic features in a standardized order
 
 Suffixation for animate nouns
@@ -111,7 +113,18 @@ End of noun affixes LEXC code
 ---
 
 
-Plains Cree verb morphology                  
+Woods Cree verb morphology                  
+
+Prenouns
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/prenouns.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/affixes/prenouns.lexc)</small>
+
+---
+
+
+Woods Cree verb morphology                  
 
 Preverbs
 

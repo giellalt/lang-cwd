@@ -4,9 +4,18 @@
     * `fst/`
         * `morphology/`
             * `affixes/`
+                * [noun_affixes.lexc](src-fst-morphology-affixes-noun_affixes.lexc.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/affixes/noun_affixes.lexc))
+                * [prenouns.lexc](src-fst-morphology-affixes-prenouns.lexc.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/affixes/prenouns.lexc))
+                * [preverbs.lexc](src-fst-morphology-affixes-preverbs.lexc.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/affixes/preverbs.lexc))
+                * [verb_affixes.lexc](src-fst-morphology-affixes-verb_affixes.lexc.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/affixes/verb_affixes.lexc))
             * [phonology.xfscript](src-fst-morphology-phonology.xfscript.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/phonology.xfscript))
             * [root.lexc](src-fst-morphology-root.lexc.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/root.lexc))
             * `stems/`
+                * [noun_stems.lexc](src-fst-morphology-stems-noun_stems.lexc.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/stems/noun_stems.lexc))
+                * [numerals.lexc](src-fst-morphology-stems-numerals.lexc.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/stems/numerals.lexc))
+                * [particles.lexc](src-fst-morphology-stems-particles.lexc.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/stems/particles.lexc))
+                * [pronouns.lexc](src-fst-morphology-stems-pronouns.lexc.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/stems/pronouns.lexc))
+                * [verb_stems.lexc](src-fst-morphology-stems-verb_stems.lexc.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/stems/verb_stems.lexc))
         * `phonetics/`
             * [txt2ipa.xfscript](src-fst-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-cwd/blob/main/src/fst/phonetics/txt2ipa.xfscript))
         * `transcriptions/`

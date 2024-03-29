@@ -1,5 +1,5 @@
 
-Plains Cree verb morphology                  
+Woods Cree verb morphology                  
 
 Preverbs
 
