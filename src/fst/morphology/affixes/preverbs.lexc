@@ -15,11 +15,10 @@
 ! along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 ! ========================================================================== !
-!! Plains Cree verb morphology                  
+!! Woods Cree verb morphology                  
 ! ========================================================================== !
 
 !! Preverbs
-!     ==========
 
 LEXICON PREVERBS
 PV/acici+:acici PREVERBS_BOUND "head down; upside down" ; ! Position
