@@ -444,6 +444,10 @@ PV/yikate+
 PV/yipe+
 PV/yoski+
 
+! Prenouns
+PN/
+! PN/prenoun+
+
 !! ## Auxiliary symbols
 
 !! These symbols either shape or govern the
@@ -524,6 +528,14 @@ d2  !!=* @CODE@  Reduplication consonant marker
 ! Reflexive
 @U.rflx.NULL@
 @U.rflx.rflx@
+
+! Noun classes
+@P.noun.Indep@
+@P.noun.DepKin@
+@P.noun.DepNonKin@
+@R.noun.Indep@
+@R.noun.DepKin@
+@R.noun.DepNonKin@
 
 ! Hyphen consistently used as joiner or not
 
