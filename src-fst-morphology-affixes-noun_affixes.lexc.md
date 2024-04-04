@@ -1,5 +1,7 @@
 
 
+Here we continue to lexical prenouns (in prenouns.lexc)
+
 Starting with the general morphosyntactic features in a standardized order
 
 Suffixation for animate nouns
