@@ -24,36 +24,64 @@
 ! Noun affixes
 
 LEXICON NOUN_PREFIXES
-NOUN_INDEP_PREFIXES ;
-NOUN_DEP_KINSHIP_PREFIXES ;
-NOUN_DEP_NONKINSHIP_PREFIXES ;
+@P.noun.Indep@     NOUN_INDEP_PREFIXES ;
+@P.noun.DepKin@    NOUN_DEP_KINSHIP_PREFIXES ;
+@P.noun.DepNonKin@ NOUN_DEP_NONKINSHIP_PREFIXES ;
 
 LEXICON NOUN_INDEP_PREFIXES
-@P.person.NI@:@P.person.NI@nit2%<  NOUN_INDEP_STEMS ;
-@P.person.KI@:@P.person.KI@kit2%<  NOUN_INDEP_STEMS ;
-@P.person.O@:@P.person.O@ot2%<     NOUN_INDEP_STEMS ;
-@P.person.NULL@                    NOUN_INDEP_STEMS ;
+@P.person.NI@:@P.person.NI@nit2%<  PRENOUNS_GATE ;
+@P.person.KI@:@P.person.KI@kit2%<  PRENOUNS_GATE ;
+@P.person.O@:@P.person.O@ot2%<     PRENOUNS_GATE ;
+@P.person.NULL@                    PRENOUNS_GATE ;
 
 LEXICON NOUN_DEP_KINSHIP_PREFIXES
-@P.person.NI@:@P.person.NI@ni4%<   NOUN_DEP_KINSHIP_STEMS ;
-@P.person.KI@:@P.person.KI@ki4%<   NOUN_DEP_KINSHIP_STEMS ;
-@P.person.O@:@P.person.O@w3%<      NOUN_DEP_KINSHIP_STEMS ;
+@P.person.NI@:@P.person.NI@ni4%<   PRENOUNS_GATE ;
+@P.person.KI@:@P.person.KI@ki4%<   PRENOUNS_GATE ;
+@P.person.O@:@P.person.O@w3%<      PRENOUNS_GATE ;
 
 LEXICON NOUN_DEP_NONKINSHIP_PREFIXES
-@P.person.NI@:@P.person.NI@ni4%<       NOUN_DEP_NONKINSHIP_STEMS ;
-@P.person.KI@:@P.person.KI@ki4%<       NOUN_DEP_NONKINSHIP_STEMS ;
-@P.person.O@:@P.person.O@w3%<          NOUN_DEP_NONKINSHIP_STEMS ;
-@P.person.MI@0:@P.person.MI@0mi4%< NOUN_DEP_NONKINSHIP_STEMS ;
+@P.person.NI@:@P.person.NI@ni4%<   PRENOUNS_GATE ;
+@P.person.KI@:@P.person.KI@ki4%<   PRENOUNS_GATE ;
+@P.person.O@:@P.person.O@w3%<      PRENOUNS_GATE ;
+@P.person.MI@0:@P.person.MI@0mi4%< PRENOUNS_GATE ;
+
+LEXICON PRENOUNS_GATE
+NOUNSTEMS_GATE ;
+PRENOUNS ;
+
+!! Here we continue to lexical prenouns (in prenouns.lexc)
+!
+! LEXICON PRENOUNS
+! PN/prenoun+:prenoun PRENOUNS_BOUND ;
+! ...
+! Here we return from prenouns
+
+LEXICON PRENOUNS_BOUND
+@U.joiner.NULL@@D.cnj.CC@:@U.joiner.NULL@@D.cnj.CC@%^EGLOT%< PRENOUNS_GATE ;
+@U.joiner.hyphen@@D.cnj.CC@:@U.joiner.hyphen@@D.cnj.CC@-%<   PRENOUNS_GATE ;
+! @D.cnj.CC@@P.frag.FRAG@ NOUN_FRAG ;
+
+@U.joiner.NULL@@R.cnj.CC@@C.cnj@:@U.joiner.NULL@@R.cnj.CC@@C.cnj@%^IC%^EGLOT%< PRENOUNS_GATE ;
+@U.joiner.hyphen@@R.cnj.CC@@C.cnj@:@U.joiner.hyphen@@R.cnj.CC@@C.cnj@%^IC-%<   PRENOUNS_GATE ;
+! @R.cnj.CC@@C.cnj@@P.frag.FRAG@:@R.cnj.CC@@C.cnj@@P.frag.FRAG@%^IC NOUN_FRAG ;
+
+LEXICON NOUNSTEMS_GATE
+@R.noun.Indep@     NOUN_INDEP_STEMS ;
+@R.noun.DepKin@    NOUN_DEP_KINSHIP_STEMS ;
+@R.noun.DepNonKin@ NOUN_DEP_NONKINSHIP_STEMS ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Looping through the NOUN stems in the following LEXICONs
-
+!
 ! LEXICON NOUN_INDEP_STEMS
-
+! asikan NA ;
+!
 ! LEXICON NOUN_DEP_KINSHIP_STEMS
-                                                         
+! nôhkom:ohkom NA ;
+!
 ! LEXICON NOUN_DEP_NONKINSHIP_STEMS
-
+! mitâs:tâs NA ;
+!
 ! End of place-holder noun stems
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -629,7 +657,16 @@ LEXICON NOUN_ENDLEX2
 @D.err.Thm@ NOUN_ENDLEX3 ;
 
 LEXICON NOUN_ENDLEX3
-@R.err2.Dim@+Err/Dim:@R.err2.Dim@0 # ;
-@D.err2.Dim@ # ;
+@R.err2.Dim@+Err/Dim:@R.err2.Dim@0 NOUN_ENDLEX4 ;
+@D.err2.Dim@ NOUN_ENDLEX4 ;
+
+LEXICON NOUN_ENDLEX4
+@D.frag.FRAG@@D.cnj.CC@@R.joiner.NULL@+Err/Orth:@D.frag.FRAG@@D.cnj.CC@@R.joiner.NULL@ # ;
+@D.frag.FRAG@@D.cnj.CC@@D.joiner.NULL@ # ;
+! Adding changed conjunct trigger: IC
+@D.frag.FRAG@@R.cnj.CC@@R.joiner.NULL@+Err/Orth:@D.frag.FRAG@@R.cnj.CC@@R.joiner.NULL@%^IC # ;
+@D.frag.FRAG@@R.cnj.CC@@D.joiner.NULL@:@D.frag.FRAG@@R.cnj.CC@@D.joiner.NULL@%^IC # ;
+! Stem-only fragments
+! @R.frag.FRAG@ VERB_FRAG_END ;
 
 !! End of noun affixes LEXC code
