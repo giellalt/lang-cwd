@@ -82,7 +82,8 @@ w (->) y || [ a | â | i | î | o | ô ] _ [ i | î ] ,,
 {thiniw} (->) {tiniw} || [ i | î ] _ ,,
 
 [..] (->) h || _ .#. ,, # Excessive word-final pre-aspiration
-{hk} (->) 0 , {sk} (->) s || _ .#. ,, # Excessive word-final deletion of 'hk'
+{ihk} (->) i , {îhk} (->) {î} , {ahk} (->) a, {âhk} (->) â , {ohk} (->) o , {ôhk} (->) ô ,
+{isk} (->) {is} , {îsk} (->) {îs} , {ask} (->) {as} , {âsk} (->) {âs} , {osk} (->) {os} , {ôsk} (->) {ôs} || _ .#. ,, # Excessive word-final deletion of 'hk'
    h (->) 0 || [ a | i | o | â | î | ô ] _ [ c | k | p | t ] ,,  # Missing preaspiration before stops
 [..] (->) h || [ a | i | o | â | î | ô ] _ [ c | k | p | t ] ,,  # Excessive preaspiration before stops
 
