@@ -14,6 +14,3 @@ LEXC structure in the new crk FST.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/noun_stems.lexc](https://github.com/giellalt/lang-cwd/blob/main/src/fst/morphology/stems/noun_stems.lexc)</small>
-
----
-
