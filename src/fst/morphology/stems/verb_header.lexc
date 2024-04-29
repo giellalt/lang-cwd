@@ -1,5 +1,5 @@
-! Copyright © 2015–2020 Alberta Language Technology Lab (ALTLab)
-! http://altlab.artsrn.ualberta.ca/
+! Copyright © 2020–2024 Alberta Language Technology Lab (ALTLab)
+! http://altlab.ualberta.ca/
 !
 ! This program is free software; you can redistribute and/or modify
 ! this file under the terms of the GNU Affero General Public License as published by
@@ -54,41 +54,41 @@
 
 !! Model verb lemmas and stems for new crk FST
 
-LEXICON VERBSTEMS
-! !!!HAVE YAMLS FOR THESE !!!
-osâwâw:osâwâ VIIw ;
-miskwâw:miskwâ VIIw ;
-nîpin:nîpin3 VIIn ;
-mispon VIIn_PL ; ! only occurs in plural
-pimamon VIIn ;
-mâthâtan:mâthâtan3 VIIn ;
-mîthwâsin VIIn ;
-
-apiw:api VAIw ;
-atoskîw:atoskî VAIw ;
-mâtow:mâto VAIio ;
-mîcisow:mîciso VAIio ;
-nîhithawîw:nîhithawî VAIw ;
-nipâw:nipâ VAIae ;
-pimisin:pimisin3 VAIn ;
-
-kâtâw:kâtâ VTIw ;
-kîsihtâw:kîsihtâ VTIw ;
-mîciw:mîci VTIw ;
-wâpahtam:wâpaht4a VTIm ; ! Check status of -a
-nâtam:nâta VTIm ;
-
-kîskiswîw:kîskisw VTA;  ! w:0 for collapsing cases
-nitonawîw:nitonaw VTA ;
-atoskahîw:atoskah VTA ;
-miskawêw:miskaw VTA ;
-mowîw:mow2 VTA ;        ! w2:w for non-collapsing cases
-nakatîw:nakat3 VTA ;        ! t3:s in some cases
-nâtîw:nât3 VTAt ;
-itîw:it3 VTAi ;
-wâpamîw:wâpam VTA ;
-wîcihîw:wîcih VTA ;
-mîstasîhkawîwak:mîstasîhkaw VTA_PL ; !'generally' plural according to AEW
+!! LEXICON VERBSTEMS
+!! ! !!!HAVE YAMLS FOR THESE !!!
+!! osâwâw:osâwâ VIIw ;
+!! miskwâw:miskwâ VIIw ;
+!! nîpin:nîpin3 VIIn ;
+!! mispon VIIn_PL ; ! only occurs in plural
+!! pimamon VIIn ;
+!! mâthâtan:mâthâtan3 VIIn ;
+!! mîthwâsin VIIn ;
+!! 
+!! apiw:api VAIw ;
+!! atoskîw:atoskî VAIw ;
+!! mâtow:mâto VAIio ;
+!! mîcisow:mîciso VAIio ;
+!! nîhithawîw:nîhithawî VAIw ;
+!! nipâw:nipâ VAIae ;
+!! pimisin:pimisin3 VAIn ;
+!! 
+!! kâtâw:kâtâ VTIw ;
+!! kîsihtâw:kîsihtâ VTIw ;
+!! mîciw:mîci VTIw ;
+!! wâpahtam:wâpaht4a VTIm ; ! Check status of -a
+!! nâtam:nâta VTIm ;
+!! 
+!! kîskiswîw:kîskisw VTA;  ! w:0 for collapsing cases
+!! nitonawîw:nitonaw VTA ;
+!! atoskahîw:atoskah VTA ;
+!! miskawêw:miskaw VTA ;
+!! mowîw:mow2 VTA ;        ! w2:w for non-collapsing cases
+!! nakatîw:nakat3 VTA ;        ! t3:s in some cases
+!! nâtîw:nât3 VTAt ;
+!! itîw:it3 VTAi ;
+!! wâpamîw:wâpam VTA ;
+!! wîcihîw:wîcih VTA ;
+!! mîstasîhkawîwak:mîstasîhkaw VTA_PL ; !'generally' plural according to LLR
 
 ! !!! NO YAML !!!
 ! 
@@ -106,4 +106,5 @@ mîstasîhkawîwak:mîstasîhkaw VTA_PL ; !'generally' plural according to AEW
 ! nitonawêw:nitonaw VTA;  ! w:0, V:VV for VG rules
 !
 
-!! Full incorporation of AEW 2020 verbs into new crk FST
+!! Full incorporation of LLR 2022 verbs into new cwd FST
+
