@@ -145,6 +145,9 @@ LEXICON CONJUNCT !!= @CODE@ gives flag for conjunct and combined tense preverbs
 ! î-, î(h)-
 @P.joiner.hyphen@PV/î+:@P.joiner.hyphen@î-%<         CNJ_TENSE ;
 @P.joiner.NULL@PV/î+:@P.joiner.NULL@î%^EGLOT%<       CNJ_TENSE ;
+! â-, â(h)-
+@P.joiner.hyphen@PV/â+:@P.joiner.hyphen@â-%<         CNJ_TENSE ;
+@P.joiner.NULL@PV/â+:@P.joiner.NULL@â%^EGLOT%<       CNJ_TENSE ;
 ! kâ-, kâ(h)-
 @P.joiner.hyphen@PV/kaa+:@P.joiner.hyphen@kâ-%<      CNJ_OHCI ;
 @P.joiner.NULL@PV/kaa+:@P.joiner.NULL@kâ%^EGLOT%<    CNJ_OHCI ;
@@ -173,7 +176,7 @@ LEXICON CONJUNCT !!= @CODE@ gives flag for conjunct and combined tense preverbs
 @P.joiner.hyphen@PV/ta-ki+:@P.joiner.hyphen@ta-kî-%<  VERBPREFIXES ;
 @P.joiner.NULL@PV/ta-ki+:@P.joiner.NULL@takî%^EGLOT%< VERBPREFIXES ;
 ! kiyê-
-@P.joiner.hyphen@PV/kiye+:@P.joiner.hyphen@kiyê-%<   VERBPREFIXES ;
+@P.joiner.hyphen@PV/kiye+:@P.joiner.hyphen@kiyî-%<   VERBPREFIXES ;
 @P.joiner.NULL@PV/kiye+:@P.joiner.NULL@kiyê%^EGLOT%< VERBPREFIXES ;
 ! kiyi-
 @P.joiner.hyphen@PV/kiyi+:@P.joiner.hyphen@kiyi-%<   VERBPREFIXES ;
@@ -192,7 +195,8 @@ LEXICON CONJUNCT !!= @CODE@ gives flag for conjunct and combined tense preverbs
 ! @P.joiner.NULL@:@P.joiner.NULL@^EGLOT%< VERBPREFIXES ;
 
 ! Conjunct preverbs as fragments
-@P.frag.FRAG@PV/e+:@P.frag.FRAG@ê         VERB_FRAG ;
+@P.frag.FRAG@PV/î+:@P.frag.FRAG@î         VERB_FRAG ;
+@P.frag.FRAG@PV/â+:@P.frag.FRAG@â         VERB_FRAG ;
 @P.frag.FRAG@PV/ka+:@P.frag.FRAG@ka       VERB_FRAG ;
 @P.frag.FRAG@PV/ta+:@P.frag.FRAG@ta       VERB_FRAG ;
 @P.frag.FRAG@PV/kaa+:@P.frag.FRAG@kâ      VERB_FRAG ;
