@@ -1,7 +1,7 @@
 
-# Plains Cree particles                           
+# Woods Cree particles                           
 
-The file contains the following lexicons, with content as described:
+Full extraction of particles from LLR source (2022):
 
 * * *
 
