@@ -726,8 +726,10 @@ d2  !!=* @CODE@  Reduplication consonant marker
 
 ! Marking singular-only or plural-only nouns
 @P.number.SG@
+@R.number.SG@
 @D.number.SG@
 @P.number.PL@
+@R.number.PL@
 @D.number.PL@
 
 ! Marking whether the -im suffix is required in possessed forms
@@ -783,9 +785,21 @@ d2  !!=* @CODE@  Reduplication consonant marker
 @D.dim.DIM@
 @D.dim@
 
-! Marking animate nouns that cannot take the locative suffix
+! Marking animate nouns that require, or cannot take the locative suffix
 @P.loc.NULL@
+@R.loc.NULL@
 @D.loc.NULL@
+@P.loc.LOC@
+@R.loc.LOC@
+@D.loc.LOC@
+
+! Marking animate nouns that require, or cannot take the distributive suffix
+@P.loc.DISTR@
+@R.loc.DISTR@
+@D.loc.DISTR@
+@P.loc.DISTR@
+@R.loc.DISTR@
+@D.loc.DISTR@
 
 ! Declination/Conjugation inflectional classes for derivational FST
 @P.infl.NA-1@
