@@ -1,4 +1,4 @@
-! Copyright © 2015–2024 Alberta Language Technology Lab (ALTLab)
+! Copyright © 2020–2024 Alberta Language Technology Lab (ALTLab)
 ! http://altlab.ualberta.ca/
 !
 ! This program is free software; you can redistribute and/or modify
@@ -54,123 +54,1610 @@
 ! ===============================================================================
 ! ===============================================================================
 
-!! Test lemma/stem set for nouns according the new crk FST
+!! Test lemma/stem set for nouns according the new cwd FST
 
-LEXICON NOUN_DEP_NONKINSHIP_STEMS
-! Animate Dependent Noun stems
-masakay:asakay NAD "skin" ;
-mitâs:tâs NAD "pair of pants" ; ! AEW NDA-1 (Consonant initial regular stem)
-mispan:span NAD "lung" ; ! AEW NDA-1 (Vowel initial regular stem) note that in 3rd person the w- does not surface
-mitihtihkosiy:tihtihkosiy NAD "kidney" ; ! AEW NDA-2 (Consonant initial regular VG stem) N.B. also occurs as the stems tihtikosiw and tihtikos (the latter is an NDI-1 declension)
-maskasiy:askasiy NAD "finger nail/claw" ; ! AEW NDA-2 (Vowel Initial VG stem) 
-! Inanimate Dependent Noun stems
-mihtawakay:htawakay NID "ear" ;
-mispiton:spiton NID "arm" ;
-miyaw:iyaw2 NID ;
-mitîh:tîh NID "heart" ; ! AEW NDI-1 (Consonant Initial Regular stem)
-mîpit:îpit NID "tooth" ; ! AEW NDI-1 (Vowel Initial Regular stem)
-miskotâkay:skotâkay NID "coat/dress" ; ! AEW NDI-2 (Consonant Initial VW stem)
-mîstakay:îstakay NID "hair" ; ! AEW NDI-1 (Vowel Initial VW stem)
-miskîsik:skîsikw NID "eye" ; ! AEW NDI-3 (Consonant Initial Cw stem)
-mathakask:athakaskw NID "palate" ; ! AEW NDI-3 (Vowel Initial Cw stem)
-@P.number.SG@mîni:@P.number.SG@în NID_SG/I "bone-marrow" ; ! AEW NDI-4 (Vowel Initial Single Syllable NDI-4 stem) N.B. might cause issue with <î>, also is a mass noun that is never plural.
-
-LEXICON NOUN_DEP_KINSHIP_STEMS
-nîwas:îwat3 NID "sacred bundle" ; ! AEW NID Irregular(?) VW single-syllable stem. N.B. T->s when word final. (can't be PxX)
-nôhkom:ohkom NAD "grand-mother" ;
-nôhtawiy:ôhtawiy NAD "father" ;
-nitânis:tânis NAD "daughter, brother, sister" ;
-ninîkihik:nîkihikw NAD "parent" ; ! AEW NDA-3 (Consonant initial Vw stem) Deal later: can also be the stem <wiyihkw> or <iyihkw>. <wiyihkw> and <iyihkw> can occur in locative. The <nîkihik> can not.
-nîtim:îtimw NAD "cross-cousin of opposite gender" ; ! AEW NDA-3 (Cowel initial Vw stem).
-nîwa:îw2 NAD_SG/A "wife" ; ! AEW NDA-4 (Vowel initial sing syllable NDA-4 stem). N.B. Only one of its type.
-@P.loc.NULL@nîskwa:@P.loc.NULL@îskw NAD_SG/A "fellow wife; husband's ex" ; ! AEW NDA-4w (Vowel initial single-syllable-/w/ stem). N.B. Only one of its type. Cannot take the locative (marked here with a flag-diacritic, which could be incorporated in a new set of NON-LOC contlexes).
-
-! Non-kinship dependent noun(s) which do not take PxX
-nîki:îk NID_SG/I "home" ; ! AEW NDI-4 (Vowel Initial Single Syllable NDI-4 stem) N.B. Doesn't usually work unpossessed or plural unless distributive.
-
-
-LEXICON NOUN_INDEP_STEMS
-!
-! Independent NA AEW to FST conversion
-! NA-1, NA-2 -> NA
-! NA-3 -> NA + stem-final -w
-! NA-4, NA-4w -> NA_SG/A_POSS/IM -w2, y4 (immutable)
-!
-! Independent NI AEW to FST conversion
-! NI-1, NI-2 -> NI
-! NI-3 -> NI + -w (stem)
-! NI-4, NI-4w -> NI_SG/I_POSS/IM, with w2, y4 for the immutable final glides
-!
-!! Test case wug stems
-!! (marked with +Err/Dummy so that they may be eventually removed)
-mamam+Err/Dummy:mamam NA ;
-papap+Err/Dummy:papap NA_POSS/IM ;
-pipip+Err/Dummy:pipip NA_POSS/IM2 ;
-tatat+Err/Dummy:tatat NA_DIM/IS ;
-titit+Err/Dummy:titit NA_DIM/ISIS ;
-nanan+Err/Dummy:nanan NA_POSS/IM_DIM/IS ;
-ninin+Err/Dummy:ninin NA_POSS/IM_DIM/ISIS ;
-kikik+Err/Dummy:kikik NA_POSS/IM2_DIM/IS ;
-kakak+Err/Dummy:kakak NA_POSS/IM2_DIM/ISIS ;
-wawâs+Err/Dummy:wawâs NA_DIM/DIM ;
-! mam+Err/Dummy:mam NA_SG/A ;
-! mim+Err/Dummy:mim NA_SG/I ;
-nan+Err/Dummy:nan NA_SG/A_POSS/IM ;
-nin+Err/Dummy:nin NA_SG/I_POSS/IM ;
-pap+Err/Dummy:pap NA_SG/A_POSS/IM_DIM/IS ;
-pip+Err/Dummy:pip NA_SG/A_POSS/IM_DIM/ISIS ;
-
-!! Animate Noun stems
-pahkwîsikan NA_POSS/IM "bannock" ; ! AEW NA-1 (Consonant-Initial Regular NA Stem)
-asikan NA "sock" ; ! AEW NA-1 (Vowel-Initial Regular NA Stem)
-kihc-ôkiniy NA "tomato" ; ! AEW NA-2 (Consonant-Initial Vowel-Glide NA Stem)
-athapiy NA "net" ; ! AEW NA-2 (Vowel-Initial Vowel-Glide NA Stem)
-kwâpahikan NA "ladle" ; ! AEW NA-1 (Consonant-Initial Regular NA Stem)
-masinahikanâhtik:masinahikanâhtikw NA "pencil" ; ! AEW NA-3 (Consonant-Initial Consonant-/w/ NA Stem)
-askihk:askihkw NA_POSS/IM "kettle, pail" ; ! AEW NA-3 (Vowel-Initial Consonant-/w/ NA Stem)
-niska:nisk NA_SG/A_POSS/IM "goose" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
-sihti:siht NA_SG/I_POSS/IM "spruce" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
-îsa:îs NA_SG/A_POSS/IM "clam; shell" ; ! AEW NA-4 (Vowel-Initial Single-Syllable NA Stem)
-wâhkwa:wâhkw NA_SG/A_POSS/IM "roe, fish eggs; lump of roe" ; ! AEW NA-4w (Consonant-Initial Single-Syllable-/w/ NA Stem)
-ihkwa:ihkw NA_SG/A_POSS/IM "louse" ; ! AEW NA-4w (Vowel-Initial Single-Syllable-/w/ NA Stem)
-! ! Non-AEW NA test cases
-! âmow NA_POSS/IM "bee" ;
-! maskwa:maskw NA_SG/A_POSS/IM "bear" ;
-! sîsîp NA_POSS/IM "duck" ;
-! Inanimate Noun stems
-askiy NI "land" ;
-cîmân NI "canoe" ; ! AEW NI-1 (Consonant-Initial Regular NI Stem)
-astotin NI "hat" ; ! AEW NI-1 (Vowel-Initial Regular NI Stem)
-maskihkiy NI "medicine" ; ! AEW NI-2 (Consonant-Initial VW NI Stem)
-mîkisasâkay NI "beaded coat, beaded dress" ; ! AEW NI-2 (Consonant-Initial VW NI Stem)
-oskasâkay NI "new coat, new dress" ; ! AEW NI-2 (Vowel-Initial VW NI Stem)
-! pahkîkin:pahkîkinw NI "leather, rawhide" ; ! AEW NI-3 (Consonant-Initial Cw NI Stem)
-kotawânâpisk:kotawânâpiskw NI ; ! AEW NI-3 (Consonant-Initial Cw NI Stem)
-nipîwikamik:nipîwikamikw NI ; ! AEW NI-3 (Consonant-Initial Cw NI Stem)
-! askîkin:askîkinw NI "fresh rawhide" ; ! AEW NI-3 (Vowel-Initial Cw NI Stem)
-wâwi:wâw2 NI_SG/I_POSS/IM "egg" ; ! AEW NI-4 (Consonant-Initial Single-Syllable NI Stem)
-osk-âyi:osk-ây4 NI_SG/I_POSS/IM "new item, new thing" ; ! AEW NI-4 (Vowel-Initial Single-Syllable NI Stem)
-@P.number.SG@misko:@P.number.SG@miskw NI_SG/I_POSS/IM "blood" ; ! AEW NI-4w (Consonant-Initial Single-Syllable-/w/ NI Stem)
-! Irregular stem cases
-! Suppletive atimw-/-têm-
-@R.person.NULL@atim:@R.person.NULL@atimw NA "dog, beast of burden" ; ! Regular stem of 'atim': 'atimw' (cannot be possessed)
-@D.person.NULL@atim:@D.person.NULL@tîm NA "dog, beast of burden" ;   ! Irregular suppletive stem of 'atim': '-tîm' (must be possessed)
-! !! Semi-suppletive kîhtî-aya/kîhcî-aya ! This is not part of the latest AEW noun paradigm sets, so probably should be excluded
-! @R.person.NULL@kîhtî-aya:@R.person.NULL@kîhtî-ay4 NA_SG/A_POSS/IM "elder" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
-! @D.person.NULL@kîhtî-aya:@D.person.NULL@kîhcî-ayim NA "elder" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
-kîhtî-aya:kîhtî-ay4 NA_SG/A_POSS/IM ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
-!! Regular/Irregular ôsi- both a regularly inflecting stem, and a number of irregular forms enumerated separately
-ôsi:ôs NI_SG/I_POSS/IM "canoe, boat" ; ! AEW NI-4 (Vowel-Initial Single-Syllable irregular NI Stem)
-! Subset of lexicalized Diminutive Animate Independent stems
-@P.dim.DIM@ NOUN_INDEP_DIM_STEMS ;
-
-! Sub-continuation lexicon for lexicalized diminutive stems
-LEXICON NOUN_INDEP_DIM_STEMS
-acimos NA "puppy" ; !
-ôcisis NI "small canoe" ; !
+!! LEXICON NOUN_DEP_NONKINSHIP_STEMS
+!! ! Animate Dependent Noun stems
+!! masakay:asakay NAD "skin" ;
+!! mitâs:tâs NAD "pair of pants" ; ! AEW NDA-1 (Consonant initial regular stem)
+!! mispan:span NAD "lung" ; ! AEW NDA-1 (Vowel initial regular stem) note that in 3rd person the w- does not surface
+!! mitihtihkosiy:tihtihkosiy NAD "kidney" ; ! AEW NDA-2 (Consonant initial regular VG stem) N.B. also occurs as the stems tihtikosiw and tihtikos (the latter is an NDI-1 declension)
+!! maskasiy:askasiy NAD "finger nail/claw" ; ! AEW NDA-2 (Vowel Initial VG stem) 
+!! ! Inanimate Dependent Noun stems
+!! mihtawakay:htawakay NID "ear" ;
+!! mispiton:spiton NID "arm" ;
+!! miyaw:iyaw2 NID ;
+!! mitîh:tîh NID "heart" ; ! AEW NDI-1 (Consonant Initial Regular stem)
+!! mîpit:îpit NID "tooth" ; ! AEW NDI-1 (Vowel Initial Regular stem)
+!! miskotâkay:skotâkay NID "coat/dress" ; ! AEW NDI-2 (Consonant Initial VW stem)
+!! mîstakay:îstakay NID "hair" ; ! AEW NDI-1 (Vowel Initial VW stem)
+!! miskîsik:skîsikw NID "eye" ; ! AEW NDI-3 (Consonant Initial Cw stem)
+!! mathakask:athakaskw NID "palate" ; ! AEW NDI-3 (Vowel Initial Cw stem)
+!! @P.number.SG@mîni:@P.number.SG@în NID_SG/I "bone-marrow" ; ! AEW NDI-4 (Vowel Initial Single Syllable NDI-4 stem) N.B. might cause issue with <î>, also is a mass noun that is never plural.
+!! 
+!! LEXICON NOUN_DEP_KINSHIP_STEMS
+!! nîwas:îwat3 NID "sacred bundle" ; ! AEW NID Irregular(?) VW single-syllable stem. N.B. T->s when word final. (can't be PxX)
+!! nôhkom:ohkom NAD "grand-mother" ;
+!! nôhtawiy:ôhtawiy NAD "father" ;
+!! nitânis:tânis NAD "daughter, brother, sister" ;
+!! ninîkihik:nîkihikw NAD "parent" ; ! AEW NDA-3 (Consonant initial Vw stem) Deal later: can also be the stem <wiyihkw> or <iyihkw>. <wiyihkw> and <iyihkw> can occur in locative. The <nîkihik> can not.
+!! nîtim:îtimw NAD "cross-cousin of opposite gender" ; ! AEW NDA-3 (Cowel initial Vw stem).
+!! nîwa:îw2 NAD_SG/A "wife" ; ! AEW NDA-4 (Vowel initial sing syllable NDA-4 stem). N.B. Only one of its type.
+!! @P.loc.NULL@nîskwa:@P.loc.NULL@îskw NAD_SG/A "fellow wife; husband's ex" ; ! AEW NDA-4w (Vowel initial single-syllable-/w/ stem). N.B. Only one of its type. Cannot take the locative (marked here with a flag-diacritic, which could be incorporated in a new set of NON-LOC contlexes).
+!! 
+!! ! Non-kinship dependent noun(s) which do not take PxX
+!! nîki:îk NID_SG/I "home" ; ! AEW NDI-4 (Vowel Initial Single Syllable NDI-4 stem) N.B. Doesn't usually work unpossessed or plural unless distributive.
+!! 
+!! 
+!! LEXICON NOUN_INDEP_STEMS
+!! !
+!! ! Independent NA AEW to FST conversion
+!! ! NA-1, NA-2 -> NA
+!! ! NA-3 -> NA + stem-final -w
+!! ! NA-4, NA-4w -> NA_SG/A_POSS/IM -w2, y4 (immutable)
+!! !
+!! ! Independent NI AEW to FST conversion
+!! ! NI-1, NI-2 -> NI
+!! ! NI-3 -> NI + -w (stem)
+!! ! NI-4, NI-4w -> NI_SG/I_POSS/IM, with w2, y4 for the immutable final glides
+!! !
+!! !! Test case wug stems
+!! !! (marked with +Err/Dummy so that they may be eventually removed)
+!! mamam+Err/Dummy:mamam NA ;
+!! papap+Err/Dummy:papap NA_POSS/IM ;
+!! pipip+Err/Dummy:pipip NA_POSS/IM2 ;
+!! tatat+Err/Dummy:tatat NA_DIM/IS ;
+!! titit+Err/Dummy:titit NA_DIM/ISIS ;
+!! nanan+Err/Dummy:nanan NA_POSS/IM_DIM/IS ;
+!! ninin+Err/Dummy:ninin NA_POSS/IM_DIM/ISIS ;
+!! kikik+Err/Dummy:kikik NA_POSS/IM2_DIM/IS ;
+!! kakak+Err/Dummy:kakak NA_POSS/IM2_DIM/ISIS ;
+!! wawâs+Err/Dummy:wawâs NA_DIM/DIM ;
+!! ! mam+Err/Dummy:mam NA_SG/A ;
+!! ! mim+Err/Dummy:mim NA_SG/I ;
+!! nan+Err/Dummy:nan NA_SG/A_POSS/IM ;
+!! nin+Err/Dummy:nin NA_SG/I_POSS/IM ;
+!! pap+Err/Dummy:pap NA_SG/A_POSS/IM_DIM/IS ;
+!! pip+Err/Dummy:pip NA_SG/A_POSS/IM_DIM/ISIS ;
+!! 
+!! !! Animate Noun stems
+!! pahkwîsikan NA_POSS/IM "bannock" ; ! AEW NA-1 (Consonant-Initial Regular NA Stem)
+!! asikan NA "sock" ; ! AEW NA-1 (Vowel-Initial Regular NA Stem)
+!! kihc-ôkiniy NA "tomato" ; ! AEW NA-2 (Consonant-Initial Vowel-Glide NA Stem)
+!! athapiy NA "net" ; ! AEW NA-2 (Vowel-Initial Vowel-Glide NA Stem)
+!! kwâpahikan NA "ladle" ; ! AEW NA-1 (Consonant-Initial Regular NA Stem)
+!! masinahikanâhtik:masinahikanâhtikw NA "pencil" ; ! AEW NA-3 (Consonant-Initial Consonant-/w/ NA Stem)
+!! askihk:askihkw NA_POSS/IM "kettle, pail" ; ! AEW NA-3 (Vowel-Initial Consonant-/w/ NA Stem)
+!! niska:nisk NA_SG/A_POSS/IM "goose" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
+!! sihti:siht NA_SG/I_POSS/IM "spruce" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
+!! îsa:îs NA_SG/A_POSS/IM "clam; shell" ; ! AEW NA-4 (Vowel-Initial Single-Syllable NA Stem)
+!! wâhkwa:wâhkw NA_SG/A_POSS/IM "roe, fish eggs; lump of roe" ; ! AEW NA-4w (Consonant-Initial Single-Syllable-/w/ NA Stem)
+!! ihkwa:ihkw NA_SG/A_POSS/IM "louse" ; ! AEW NA-4w (Vowel-Initial Single-Syllable-/w/ NA Stem)
+!! ! ! Non-AEW NA test cases
+!! ! âmow NA_POSS/IM "bee" ;
+!! ! maskwa:maskw NA_SG/A_POSS/IM "bear" ;
+!! ! sîsîp NA_POSS/IM "duck" ;
+!! ! Inanimate Noun stems
+!! askiy NI "land" ;
+!! cîmân NI "canoe" ; ! AEW NI-1 (Consonant-Initial Regular NI Stem)
+!! astotin NI "hat" ; ! AEW NI-1 (Vowel-Initial Regular NI Stem)
+!! maskihkiy NI "medicine" ; ! AEW NI-2 (Consonant-Initial VW NI Stem)
+!! mîkisasâkay NI "beaded coat, beaded dress" ; ! AEW NI-2 (Consonant-Initial VW NI Stem)
+!! oskasâkay NI "new coat, new dress" ; ! AEW NI-2 (Vowel-Initial VW NI Stem)
+!! ! pahkîkin:pahkîkinw NI "leather, rawhide" ; ! AEW NI-3 (Consonant-Initial Cw NI Stem)
+!! kotawânâpisk:kotawânâpiskw NI ; ! AEW NI-3 (Consonant-Initial Cw NI Stem)
+!! nipîwikamik:nipîwikamikw NI ; ! AEW NI-3 (Consonant-Initial Cw NI Stem)
+!! ! askîkin:askîkinw NI "fresh rawhide" ; ! AEW NI-3 (Vowel-Initial Cw NI Stem)
+!! wâwi:wâw2 NI_SG/I_POSS/IM "egg" ; ! AEW NI-4 (Consonant-Initial Single-Syllable NI Stem)
+!! osk-âyi:osk-ây4 NI_SG/I_POSS/IM "new item, new thing" ; ! AEW NI-4 (Vowel-Initial Single-Syllable NI Stem)
+!! @P.number.SG@misko:@P.number.SG@miskw NI_SG/I_POSS/IM "blood" ; ! AEW NI-4w (Consonant-Initial Single-Syllable-/w/ NI Stem)
+!! ! Irregular stem cases
+!! ! Suppletive atimw-/-têm-
+!! @R.person.NULL@atim:@R.person.NULL@atimw NA "dog, beast of burden" ; ! Regular stem of 'atim': 'atimw' (cannot be possessed)
+!! @D.person.NULL@atim:@D.person.NULL@tîm NA "dog, beast of burden" ;   ! Irregular suppletive stem of 'atim': '-tîm' (must be possessed)
+!! ! !! Semi-suppletive kîhtî-aya/kîhcî-aya ! This is not part of the latest AEW noun paradigm sets, so probably should be excluded
+!! ! @R.person.NULL@kîhtî-aya:@R.person.NULL@kîhtî-ay4 NA_SG/A_POSS/IM "elder" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
+!! ! @D.person.NULL@kîhtî-aya:@D.person.NULL@kîhcî-ayim NA "elder" ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
+!! kîhtî-aya:kîhtî-ay4 NA_SG/A_POSS/IM ; ! AEW NA-4 (Consonant-Initial Single-Syllable NA Stem)
+!! !! Regular/Irregular ôsi- both a regularly inflecting stem, and a number of irregular forms enumerated separately
+!! ôsi:ôs NI_SG/I_POSS/IM "canoe, boat" ; ! AEW NI-4 (Vowel-Initial Single-Syllable irregular NI Stem)
+!! ! Subset of lexicalized Diminutive Animate Independent stems
+!! @P.dim.DIM@ NOUN_INDEP_DIM_STEMS ;
+!! 
+!! ! Sub-continuation lexicon for lexicalized diminutive stems
+!! LEXICON NOUN_INDEP_DIM_STEMS
+!! acimos NA "puppy" ; !
+!! ôcisis NI "small canoe" ; !
 
 !! Complete extraction of lemma:stem info from LLR dictionary 2022, according to
-!! LEXC structure in the new crk FST.
+!! LEXC structure in the new cwd FST.
 
-! LEXICON NOUN_INDEP_STEMS
-! DERIVATION_NOUN_STEMS ;
+LEXICON NOUN_INDEP_STEMS
+âcimowin NI_DIM/IS ;
+@P.loc.LOC@âcathohkîwina:@P.loc.LOC@âcathohkîwin NI_DIM/IS ;
+âcathohkan NA_DIM/IS ;
+@P.loc.LOC@ahcâpiy NA_DIM/ISIS ;
+@P.loc.LOC@âhcanis NA_DIM/IS ;
+âhkosîwikamik:âhkosîwikamikw NI_DIM/IS ;
+âhkosiwin NI_DIM/IS ;
+âhkamîthimowin NI_DIM/IS ;
+âhkwacipimiy NI_DIM/ISIS ;
+âhkwaciwiyâs NI_DIM/IS ;
+âhkwatihcikan NI_DIM/IS ;
+@P.loc.LOC@ahpiht NA_DIM/IS ;
+âpiht NI_DIM/IS ;
+âhpîhtîhpison NI_DIM/IS ;
+ahpin NI_DIM/IS ;
+âhtâskwahikan NI_DIM/IS ;
+@P.loc.LOC@ahtay NA_DIM/ISIS ;
+âkathâsîmowin NI_DIM/IS ;
+âkathâsîw NA_DIM/ISIS ;
+âmow NA_DIM/ISIS ;
+âmôwi-pithîsîs NA_DIM/IS ;
+âmôwiwaciston-:âmôwiwaciston NI_DIM/IS ;
+âmacawîspimiwin NI_DIM/IS ;
+âniskîpathiwin NI_DIM/IS ;
+âniskotâpân NA_DIM/IS ;
+âniskotâpân NI_DIM/IS ;
+âniskawîthikos NA_DIM/IS ;
+âniskawikanân NI_DIM/IS ;
+âpîhcakahikanis NI_DIM/IS ;
+âpîhtâkisikanimîciwin NI_DIM/IS ;
+âpîhtakahikan NI_DIM/IS ;
+âpihtawikosisân NA_DIM/IS ;
+âpohtân NI_DIM/IS ;
+âpacihcikan NI_DIM/IS ;
+âpakosîs NA_DIM/IS ;
+âsokan NI_DIM/IS ;
+astâskamikwa:astâskamikw NI_DIM/IS ; ! CHECK!
+âstawîhikâkan NI_DIM/IS ;
+âstawîhikîwikamik:âstawîhikîwikamikw NI_DIM/IS ;
+âthkik:âthkikw NA_DIM/IS ;
+âyis NA_DIM/IS ;
+cahcahkâthôw NA_DIM/ISIS ;
+câh-câkatâmowin NI_DIM/IS ;
+cahcahkiw NA_DIM/ISIS ;
+cahkâpîs NI_DIM/IS ;
+câhkâsikan NI_DIM/IS ;
+@P.loc.LOC@cahkipîhikan NA_DIM/IS ;
+@P.loc.LOC@câhkisîhikan NA_DIM/IS ;
+câhkahipacikan NI_DIM/IS ;
+cahkatinaw NI_DIM/ISIS ;
+@P.loc.LOC@tâpiskâkanis NA_DIM/IS ;
+@P.loc.LOC@cîhcîkom NA_DIM/IS ;
+cîkinâhk:cîkinâhkw NA_DIM/IS ;
+cîkahikan NI_DIM/IS ;
+cîkahikanâhtik:cîkahikanâhtikw NI_DIM/IS ;
+cîkahikanis NI_DIM/IS ;
+@P.loc.LOC@cîkathîsân NA_DIM/IS ;
+cîkathîsânîhtak:cîkathîsânîhtakw NI_DIM/IS ;
+cîpatahikîwin NI_DIM/IS ;
+cîpatahikanâhtik:cîpatahikanâhtikw NI_DIM/IS ;
+cîpay NA_DIM/ISIS ;
+cîpwâhkwân NI_DIM/IS ;
+cîpwâhkwanis NI_DIM/IS ;
+cîpwasisiw NI_DIM/ISIS ;
+cîstahikan NI_DIM/IS ;
+cîstahokowin NI_DIM/IS ;
+cîstahâsîpon NI_DIM/IS ;
+cîstahaskosiwân NI_DIM/IS ;
+cikâhkwâkan NI_DIM/IS ;
+cikâstîpathîhcikan NI_DIM/IS ;
+cikâstîsiniwin NI_DIM/IS ;
+ciliwî:ciliwîy NA_DIM/ISIS ;
+cimacikan NI_DIM/IS ;
+@P.loc.LOC@cistîmâw NA_DIM/ISIS ;
+cistomâwasowin NI_DIM/ISIS ;
+cowîhikanâpisîs:cowîhkanâpisîs NA_DIM/IS ;
+cowîhikanâpisîs NA_DIM/IS ;
+@P.loc.LOC@cowîpicikanis NA_DIM/IS ;
+@P.loc.LOC@cacâkânis NA_DIM/IS ;
+cawicînamâwin NI_DIM/IS ;
+ihtâwin NI_DIM/IS ;
+@P.loc.LOC@îmihkwân NA_DIM/IS ;
+@P.loc.LOC@îmihkwânis NA_DIM/IS ;
+îsa:îs NA_SG/A_POSS/IM_DIM/IS ;
+îthikos NA_DIM/IS ;
+îthikowîsti:îthikowîst NI_SG/I_POSS/IM_DIM/IS ;
+@P.loc.LOC@îthinito-pâhkwîsikan NA_DIM/IS ;
+isîhcikîwin NI_DIM/IS ;
+isîhtwâwin NI_DIM/IS ;
+isinamowin NI_DIM/IS ;
+isithihkâsowin NI_DIM/IS ;
+iskocîs NI_DIM/IS ;
+iskonikanîwithiniw NA_DIM/ISIS ;
+iskonikan NI_DIM/IS ;
+iskotîw NI_DIM/ISIS ;
+iskotîwâpoy NI_DIM/ISIS ;
+iskotîwitâpânâsk:iskotîwitâpânâskw NI_DIM/IS ;
+@P.loc.LOC@iskotîwiyâpîwimistik:@P.loc.LOC@iskotîwiyâpîwimistikw NA_DIM/IS ;
+iskotîwiyâpiy NI_DIM/ISIS ;
+iskwâhcîmis NI_DIM/IS ;
+iskwâhtîm NI_DIM/IS ;
+iskwâhtîmi-pîwâpisk:iskwâhtîmi-pîwâpiskw NI_DIM/ISIS ;
+iskwâhtawâkana:iskwâhtawâkan NI_DIM/IS ;
+iskwîsis NA_DIM/IS ;
+iskwîsisâpoy NI_DIM/ISIS ;
+@P.loc.LOC@iskwîsisîhkân NA_DIM/IS ;
+iskwîw NA_DIM/ISIS ;
+ispatinaw NI_DIM/ISIS ;
+itâhkomowin NI_DIM/IS ;
+itâpahkân NI_DIM/IS ;
+@P.loc.LOC@ithinâhtik:@P.loc.LOC@ithinâhtikw NA_DIM/IS ;
+@P.loc.LOC@ithinîhkân NA_DIM/IS ;
+@P.loc.LOC@ithinîhkânis NA_DIM/IS ;
+ithinimina:ithinimin NI_DIM/IS ;
+ithinisip NA_DIM/IS ;
+@P.distr.DISTR@ithiniw NA_DIM/ISIS ;
+@P.loc.LOC@ithinacwâhkwîs NA_DIM/IS ;
+ithkacawâs NI_DIM/IS ;
+itwîstamâkîwin NI_DIM/IS ;
+itwîwin NI_DIM/IS ;
+itwahikan NI_DIM/IS ;
+iyâpîsis NA_DIM/IS ;
+iyâpîw NA_DIM/ISIS ;
+kâhkâkiw NA_DIM/ISIS ;
+@P.loc.LOC@kâkikîpak:@P.loc.LOC@kâkikîpakw NA_DIM/IS ;
+kâkwa:kâkw NA_SG/A_POSS/IM_DIM/IS ;
+kâkwayân NI_DIM/IS ;
+kâkwayiwat NI_DIM/IS ;
+kâsîhkwâkan NI_DIM/IS ;
+kâsîhkwîwikamik:kâsîhkwîwikamikw NI_DIM/IS ;
+kâsîhkwîwithâkan NI_DIM/IS ;
+kâthkîwak:kâthkîwakw NI_DIM/IS ;
+kâskîwak:kâskîwakw NI_DIM/IS ;
+kâskipâson NI_DIM/IS ;
+kâskiposonîhkomânis NI_DIM/IS ;
+kâskiskawân NI_DIM/IS ;
+kâsôstâtowin NI_DIM/IS ;
+kâsak NA_DIM/IS ;
+kâsakim NA_DIM/IS ;
+kâwiy NA_DIM/ISIS ;
+kâwiyahikîwin NI_DIM/IS ;
+kîhcîtwîwin NI_DIM/IS ;
+kihcikamiy NI_DIM/ISIS ;
+kihcikamîwaskwa:kihcikamîwaskw NI_DIM/IS ; ! CHECK!
+@P.distr.DISTR@kîhcimohkomân NA_DIM/IS ;
+kihci-masinahikan NI_DIM/IS ;
+kihcinisk NI_DIM/IS ;
+kîhci-okimâsis NA_DIM/IS ;
+kîhci-okimâskwîsis NA_DIM/IS ;
+kihci-okimâskwîw NA_DIM/ISIS ;
+kihci-okimâw NA_DIM/ISIS ;
+kîhcokimâskwîw NA_DIM/ISIS ;
+kîhcokimâw NA_DIM/ISIS ;
+kîhcokimâwikamik:kîhcokimâwikamikw NI_DIM/IS ;
+kîhcokimâwapiwin NI_DIM/IS ;
+kîhcokimâwastotin NI_DIM/IS ;
+kihci-kîsik:kihci-kîsikw NI_DIM/IS ;
+kîhkîhk:kîhkîhkw NA_DIM/IS ;
+kîhtîyaya:kîhtîyay4 NA_SG/A_POSS/IM_DIM/IS ;
+kihtimikan NA_DIM/IS ;
+kîkisîpâ-mîciwin NI_DIM/IS ;
+kîkway NI_DIM/ISIS ;
+kîmanîcâkan NA_DIM/IS ;
+kînikatos NA_DIM/IS ;
+kîsikâw NI_DIM/ISIS ;
+kîsikâwi-pîsim:kîsikâwi-pîsimw NA_DIM/IS ;
+kîskahcâw NI_DIM/ISIS ;
+kîskâpiskâw NI_DIM/ISIS ;
+kîskipocikan NI_DIM/IS ;
+kîskitâs NA_DIM/IS ;
+kîskasikanis NA_DIM/IS ;
+kîskaskisin NI_DIM/IS ;
+kîskatâwahkâw NI_DIM/ISIS ;
+kîskatahikan NI_DIM/IS ;
+kîskwîwin NI_DIM/IS ;
+kîsowahon NI_DIM/IS ;
+kîwâcawâsis NA_DIM/IS ;
+kîwâtis NA_DIM/IS ;
+kîwîtin:kîwîtinw NI_DIM/IS ;
+kicistâpitîhon NI_DIM/IS ;
+kimiwan NI_DIM/IS ;
+kimiwanâpoy NI_DIM/ISIS ;
+kinîpik:kinîpikw NA_DIM/IS ;
+kinokâtîwaskisin NI_DIM/IS ;
+kinosîsis NA_DIM/IS ;
+kinosîw NA_DIM/ISIS ;
+kinosîwikamik:kinosîwikamikw NI_DIM/IS ;
+kipahikan NI_DIM/IS ;
+kipahikanis NI_DIM/IS ;
+kipahotowikamik:kipahotowikamikw NI_DIM/IS ;
+kipahwâkan NA_DIM/IS ;
+kisâstîwâpoy NI_DIM/ISIS ;
+kiscikânis NI_DIM/IS ;
+@P.loc.LOC@kiscikânis NA_DIM/IS ;
+kisîwin:kisî NI_DIM/IS ;
+kisî-pithîw NA_DIM/ISIS ;
+kisîhthîw NA_DIM/ISIS ;
+kîsîmisk:kîsîmiskw NA_DIM/IS ;
+kisîmanito NA_DIM/ISIS ;
+@P.loc.LOC@kisîpîsim:@P.loc.LOC@kisîpîsimw NA_DIM/IS ;
+kisîthinîwatim:kisîthinîwatimw NA_DIM/IS ;
+kisîthiniw NA_DIM/ISIS ;
+kisisowin NI_DIM/IS ;
+kisiwâsiwin NI_DIM/IS ;
+kiskânakos NA_DIM/IS ;
+kiskîthihtamowin NI_DIM/IS ;
+kiskimowin NI_DIM/IS ;
+kiskiman NI_DIM/IS ;
+kiskinawâcihcikan NI_DIM/IS ;
+kiskinawâcihon NI_DIM/IS ;
+kiskinwahamâkîwin NI_DIM/IS ;
+kiskinwahamâtowikamik:kiskinwahamâtowikamikw NI_DIM/IS ;
+kiskinwahamowâkan NA_DIM/IS ;
+kiskiwîhon NI_DIM/IS ;
+@P.loc.LOC@kiskiwîhonâhtik:@P.loc.LOC@kiskiwîhonâhtikw NA_DIM/IS ;
+@P.loc.LOC@kistâpisk:@P.loc.LOC@kistâpiskw NA_DIM/IS ;
+@P.loc.LOC@kistikân NA_DIM/IS ;
+kistahâya:kistahây4 NA_SG/A_POSS/IM_DIM/IS ;
+kitimâkisiwin NI_DIM/IS ;
+kitohcikan NI_DIM/IS ;
+kitohcikan NA_DIM/IS ;
+kiyâsk:kiyâskw NA_DIM/IS ;
+kohkôs NA_DIM/IS ;
+@P.loc.LOC@kôna:@P.loc.LOC@kôn NA_SG/A_POSS/IM_DIM/IS ;
+kosisân NA_DIM/IS ;
+@P.loc.LOC@koskosk:@P.loc.LOC@koskoskw NA_DIM/IS ;
+@P.loc.LOC@kotawân NA_DIM/IS ;
+kotawânâpisk:kotawânâpiskw NI_DIM/IS ;
+kakîpâtis NA_DIM/IS ;
+kamâmak:kamâmakw NA_DIM/IS ;
+@P.loc.LOC@kamâmak NA_DIM/IS ; ! CHECK!
+kamâmakos NA_DIM/IS ;
+kanawîthihcikîwikamik:kanawîthihcikîwikamikw NI_DIM/IS ;
+kapâwin NI_DIM/IS ;
+kapîsîwikamik:kapîsîwikamikw NI_DIM/IS ;
+kapîsiwin NI_DIM/IS ;
+kaskâpahtîw NI_DIM/ISIS ;
+kaskâpiskahikan NI_DIM/IS ;
+@P.loc.LOC@kaskikwâsonâpisk:@P.loc.LOC@kaskikwâsonâpiskw NA_DIM/IS ;
+kaskikwâsowikamik:kaskikwâsowikamikw NI_DIM/IS ;
+kaskikwâswâkan NI_DIM/IS ;
+kaskitîmin NI_DIM/IS ;
+kaskitîwiwiyâs NA_DIM/IS ;
+@P.loc.LOC@kaskititîmin NA_DIM/IS ;
+kaskaskâhtowân NI_DIM/IS ;
+kaskaskisîhkân NI_DIM/IS ;
+kaskaskisiy NI_DIM/ISIS ;
+@P.loc.LOC@kaskatinowi-pîsim:@P.loc.LOC@kaskatinowi-pîsimw NA_DIM/IS ;
+@P.loc.LOC@kayâsasâm NA_DIM/IS ;
+kayâsaskisin NI_DIM/IS ;
+@P.loc.LOC@kwâpahikan NA_DIM/IS ;
+kwâskohcisîs NA_DIM/IS ;
+kwâskohcîsis NA_DIM/IS ;
+@P.loc.LOC@kwâskwînicowânis NA_DIM/IS ;
+@P.loc.LOC@kwâskwînitowân NA_DIM/IS ;
+kwâskwîpicikan NI_DIM/IS ;
+kwâskwîpicikanâhtik:kwâskwîpicikanâhtikw NI_DIM/IS ;
+kwîmîs NA_DIM/IS ;
+kwîtamâwin NI_DIM/IS ;
+mâcîs NI_DIM/IS ;
+mahkahk:mahkahkw NI_DIM/IS ;
+mahkahkos NI_DIM/IS ;
+mahkîsîs NA_DIM/IS ;
+mahkitôn NI_DIM/IS ;
+@P.loc.LOC@mahtâmin NA_DIM/IS ;
+mâkosîkîsikâw NI_DIM/ISIS ;
+mâmitonîthihcikan NI_DIM/IS ;
+mâmaskâtamowin NI_DIM/IS ;
+mâmawapiwin NI_DIM/IS ;
+manâwân NI_DIM/IS ;
+mânîhtowâsk:mânîhtowâskw NI_DIM/IS ;
+mâthâcimowin NI_DIM/IS ;
+mâthâtis NA_DIM/IS ;
+mâthacîhkosis NA_DIM/IS ;
+mâthatihk:mâthatihkw NA_DIM/IS ;
+mâthatihkokamik:mâthatihkokamikw NI_DIM/IS ;
+mâthatîko-wiyâs NI_DIM/IS ;
+mâtosk NA_DIM/IS ;
+mîcim NI_DIM/IS ;
+mîcimâpoy NI_DIM/ISIS ;
+mîcimîhâhcikan NI_DIM/IS ;
+mîcisowikamik:mîcisowikamikw NI_DIM/IS ;
+mîcisowinâhtik:mîcisowinâhtikw NI_DIM/IS ;
+mîcisowinâhtikwîkin:mîcisowinâhtikwîkinw NI_DIM/IS ;
+mîciwin NI_DIM/IS ;
+mîcawâkanis NI_DIM/IS ;
+mîcosis NI_DIM/IS ;
+mîhcâpihkan NI_DIM/IS ;
+mîhcikîw NI_DIM/ISIS ;
+mihti:miht NI_SG/I_POSS/IM_DIM/IS ;
+mîhtiwat NI_DIM/IS ;
+mîhtokiwâhp NI_DIM/IS ;
+mihtot NI_DIM/IS ;
+@P.loc.LOC@mîkis NA_DIM/IS ;
+mîkisistahikan NI_DIM/IS ;
+mîkisithâkan NI_DIM/IS ;
+mîkisiyâpiy NI_DIM/ISIS ;
+mîkisaskisin NI_DIM/IS ;
+mîkiwâhp NI_DIM/IS ;
+mîkiwin NI_DIM/IS ;
+@P.loc.LOC@mîkwan NA_DIM/IS ;
+mîkwasiwân NA_DIM/IS ;
+mînikan NI_DIM/IS ;
+mînikanâhtik:mînikanâhtikw NI_DIM/IS ;
+mînis NI_DIM/IS ;
+mînisâhtik:mînisâhtikw NI_DIM/IS ;
+mînisâpoy NI_DIM/ISIS ;
+mînwahikan NI_DIM/IS ;
+mîpitâpoy NI_DIM/ISIS ;
+mîpitîhkân NI_DIM/IS ;
+mîsâpowinân NI_DIM/IS ;
+mîscacâkanis NA_DIM/IS ;
+mîscaskosîs NA_DIM/IS ;
+mîsiyâpiskâw NI_DIM/ISIS ;
+mîskanâs NI_DIM/IS ;
+mîskanaw NI_DIM/ISIS ;
+mîstan NI_DIM/IS ;
+mîstani-pîwayân NI_DIM/IS ;
+mîthâmow NA_DIM/ISIS ;
+mîthâpâhkwan NI_DIM/IS ;
+@P.loc.LOC@mîthîcîmin NA_DIM/IS ;
+mîthistowân NI_DIM/IS ;
+mîthitowin NI_DIM/IS ;
+mîtosiskâw NI_DIM/ISIS ;
+@P.loc.LOC@mîtow NA_DIM/ISIS ;
+mîcisowinâhcikos NI_DIM/IS ;
+mîtawâkan NI_DIM/IS ;
+mîtawîwikamik:mîtawîwikamikw NI_DIM/IS ;
+mîtawîwin NI_DIM/IS ;
+mîthi:mîth NI_SG/I_POSS/IM_DIM/IS ;
+micimâskwahikan NI_DIM/IS ;
+miciminikan NI_DIM/IS ;
+mikisiw NA_DIM/ISIS ;
+@P.loc.LOC@mikisiwi-pîsim:@P.loc.LOC@mikisiwi-pîsimw NA_DIM/IS ;
+minihkwîwikamik:minihkwîwikamikw NI_DIM/IS ;
+minihkwîwin NI_DIM/IS ;
+miniscikos NI_DIM/IS ;
+ministik:ministikw NI_DIM/IS ;
+ministikwâpisk:ministikwâpiskw NI_DIM/IS ;
+@P.loc.LOC@minahik:@P.loc.LOC@minahikw NA_DIM/IS ;
+minahikoskâw NI_DIM/ISIS ;
+@P.loc.LOC@misâskwat:@P.loc.LOC@misâskwatw NA_DIM/IS ;
+misikinosîw NA_DIM/ISIS ;
+misi-pisiw NA_DIM/ISIS ;
+misi-pôsîs NA_DIM/IS ;
+misisâhk:misisâhkw NA_DIM/IS ;
+misisitân NI_DIM/IS ;
+miskîhkwan NI_DIM/IS ;
+miskinâhk:miskinâhkw NA_DIM/IS ;
+miskwamîwikamik:miskwamîwikamikw NI_DIM/IS ;
+@P.loc.LOC@miskwamiy NA_DIM/ISIS ;
+mistahkîsiw NA_DIM/ISIS ;
+mistâpîw NA_DIM/ISIS ;
+mistâpos:mistâposw NA_DIM/IS ;
+@P.loc.LOC@mistik:@P.loc.LOC@mistikw NA_DIM/IS ;
+mistikinosîw NA_DIM/ISIS ;
+mistiko-nâpîw NA_DIM/ISIS ;
+mistikôsi:mistikôs NI_SG/I_POSS/IM_DIM/IS ;
+mistikoskâw NI_DIM/ISIS ;
+mistiko-wanihikan NI_DIM/IS ;
+mistikowat NI_DIM/IS ;
+mistikamik:mistikamikw NI_DIM/IS ;
+mistikwâniyâpiy NI_DIM/ISIS ;
+@P.loc.LOC@mistikwîmihkwân NA_DIM/IS ;
+@P.loc.LOC@mistikwaskihk:@P.loc.LOC@mistikwaskihkw NA_DIM/IS ;
+mistikwaskisin NI_DIM/IS ;
+@P.loc.LOC@misti-tâpânâsk:@P.loc.LOC@misti-tâpânâskw NA_DIM/IS ;
+mistiyâpîw NA_DIM/ISIS ;
+mistikokamik:mistikokamikw NI_DIM/IS ;
+@P.loc.LOC@mistakask:@P.loc.LOC@mistakaskw NA_DIM/IS ;
+mistanikwacâs NA_DIM/IS ;
+mistanask:mistanaskw NA_DIM/IS ;
+@P.loc.LOC@mistasiniy NA_DIM/ISIS ;
+mistatim:mistatimw NA_DIM/IS ;
+mistatimokamik:mistatimokamikw NI_DIM/IS ;
+mistatimomîciwin NI_DIM/IS ;
+mistatay NI_DIM/ISIS ;
+miswâkan NA_DIM/IS ;
+mitîh:tîh NI_SG/I_POSS/IM_DIM/IS ; ! CHECK!
+mitîw NA_DIM/ISIS ;
+mithâkohon NI_DIM/IS ;
+mithâkowhowin NI_DIM/IS ;
+mithiwin NI_DIM/IS ;
+mithiy:mith NI_SG/I_POSS/IM_DIM/IS ; ! CHECK!
+mithkwâpîmak:mithkwâpîmakw NI_DIM/IS ;
+mihkwâpoy NI_DIM/ISIS ;
+mithkwîkin:mithkwîkinw NI_DIM/IS ;
+mithkwiyâpiy NI_DIM/ISIS ;
+mithkwasîwin NI_DIM/IS ;
+mithkwaskamik:mithkwaskamikw NI_DIM/IS ;
+mitho-iskwîsis NA_DIM/IS ;
+mitho-nâpîsis NA_DIM/IS ;
+mithotîhîwin NI_DIM/IS ;
+mithâcôs NA_DIM/IS ;
+mithay NA_DIM/ISIS ;
+mithwâpoy NI_DIM/ISIS ;
+mithwâsin NI_DIM/IS ;
+mithwasiskiy NI_DIM/ISIS ;
+môhkomân NI_DIM/IS ;
+môhkomânis NI_DIM/IS ;
+môhkotâkan NI_DIM/IS ;
+mohtîw NA_DIM/ISIS ;
+môcayâpiskos NI_DIM/IS ;
+môniyâw NA_DIM/ISIS ;
+mônahôpân NI_DIM/IS ;
+môsâhkinikîwin NI_DIM/IS ;
+môsâpîw NA_DIM/ISIS ;
+môskamiy NI_DIM/ISIS ;
+môsomin NI_DIM/IS ;
+môsosinîwâpisk:môsosinîwâpiskw NI_DIM/IS ;
+môsosiniy NI_DIM/ISIS ;
+môsoskiwan NI_DIM/IS ;
+môsowiyâs NI_DIM/IS ;
+môswîkin:môswîkinw NI_DIM/IS ;
+môswa:môsw NA_SG/A_POSS/IM_DIM/IS ;
+môthkahosiw NA_DIM/ISIS ;
+môtayâpisk:môtayâpiskw NI_DIM/IS ;
+mostos:mostosw NA_DIM/IS ;
+mac-âcimowin NI_DIM/IS ;
+macâpoy NI_DIM/ISIS ;
+macâspinîwin NI_DIM/IS ;
+macawâsis NA_DIM/IS ;
+macâyis NA_DIM/IS ;
+macâyiwiwin NI_DIM/IS ;
+macihtiwin NI_DIM/IS ;
+macîkin:macîkinw NI_DIM/IS ;
+macîskotîw NI_DIM/ISIS ;
+macîskwîw NA_DIM/ISIS ;
+macikwanâs NI_DIM/IS ;
+maci-manitow NA_DIM/ISIS ;
+maci-nâpîsis NA_DIM/IS ;
+maci-nâpîw NA_DIM/ISIS ;
+macinocokîsiw NA_DIM/ISIS ;
+macipak:macipakw NI_DIM/IS ;
+macipathiwin NI_DIM/IS ;
+@P.loc.LOC@maciskâtâsk:@P.loc.LOC@maciskâtâskw NA_DIM/IS ;
+maciskwîsis NA_DIM/IS ;
+askihk:askihkw NA_POSS/IM_DIM/IS ;
+macaskisin NI_DIM/IS ;
+macaskosîs NI_DIM/IS ;
+mahihkan NA_DIM/IS ;
+makosîkîsikâw NI_DIM/ISIS ;
+mamâhtâwâpacihcikan NI_DIM/IS ;
+mamâhtâwisiwin NI_DIM/IS ;
+manicôs NA_DIM/IS ;
+manisikan NI_DIM/IS ;
+@P.distr.DISTR@manitow NA_DIM/ISIS ;
+@P.loc.LOC@manitôhkân NA_DIM/IS ;
+manahikan NI_DIM/IS ;
+manakway NI_DIM/ISIS ;
+@P.loc.LOC@masân NA_DIM/IS ;
+masinikwâcikaniyâpiy NI_DIM/ISIS ;
+masinipîhcicikan NI_DIM/IS ;
+masinipîsinowin NI_DIM/IS ;
+masinistahikîwin NI_DIM/IS ;
+masinahikîwin NI_DIM/IS ;
+masinahikîwithinîs NI_DIM/IS ;
+masinahikîwinis NI_DIM/IS ;
+masinahikan NI_DIM/IS ;
+@P.loc.LOC@masinahikanâhcikos NA_DIM/IS ;
+masinahikanâpoy NI_DIM/ISIS ;
+@P.loc.LOC@masinahikanâhtik:@P.loc.LOC@masinahikanâhtikw NA_DIM/IS ;
+masinahikanîkin:masinahikanîkinw NI_DIM/IS ;
+masinahikanîkinos NI_DIM/IS ;
+masinahikaniwithiniw NA_DIM/ISIS ;
+masinahamâtowin NI_DIM/IS ;
+maskahtwîsk NA_DIM/IS ;
+maskahtwîwin NI_DIM/IS ;
+maskihkîwâpoy NI_DIM/ISIS ;
+maskihkîwikamik:maskihkîwikamikw NI_DIM/IS ;
+maskihkîwiskwîw NA_DIM/ISIS ;
+maskihkîwithiniw NA_DIM/ISIS ;
+maskihkiy NI_DIM/ISIS ;
+maskîk:maskîkw NI_DIM/IS ;
+maskîkopakwa:maskîkopakw NI_DIM/IS ; ! CHECK!
+maskimocis NI_DIM/IS ;
+maskimot NI_DIM/IS ;
+maskisin NI_DIM/IS ;
+maskisinîyâpiy NI_DIM/ISIS ;
+maskosîhkîwin NI_DIM/IS ;
+maskosîhkân NI_DIM/IS ;
+maskosîwastotin NI_DIM/IS ;
+maskosiy NI_DIM/ISIS ;
+maskawisîwin NI_DIM/IS ;
+maskwa:maskw NA_SG/A_POSS/IM_DIM/IS ;
+@P.loc.LOC@maskwasakiy NA_DIM/ISIS ;
+maskwayân NA_DIM/IS ;
+matotisân NI_DIM/IS ;
+mawimowin NI_DIM/IS ;
+mwâkwa:mwâkw NA_SG/A_POSS/IM_DIM/IS ;
+nahkawithiniw NA_DIM/ISIS ;
+nâpihkwân NI_DIM/IS ;
+nâpihkwânis NI_DIM/IS ;
+nâpîhthîw NA_DIM/ISIS ;
+nâpîmîk:nâpîmîkw NA_DIM/IS ;
+nâpîmisk:nâpîmiskw NA_DIM/IS ;
+nâpîpisiw NA_DIM/ISIS ;
+nâpîsip NA_DIM/IS ;
+nâpîsis NA_DIM/IS ;
+nâpîstim:nâpîstimw NA_DIM/IS ;
+nâpîw NA_DIM/ISIS ;
+nâtowîw NA_DIM/ISIS ;
+nîhithowîwin NI_DIM/IS ;
+nîhithaw NA_DIM/ISIS ;
+nihtâwikihcikan NI_DIM/IS ;
+nîkânikât NI_DIM/IS ;
+nîkihik:nîkihikw NA_DIM/IS ;
+nîmâwin NI_DIM/IS ;
+nîmâwiwat NI_DIM/IS ;
+nîmîkos NA_DIM/IS ;
+nîmihitowin NI_DIM/IS ;
+nîpîwisiwin NI_DIM/IS ;
+nîpinâya:nîpinây4 NA_SG/A_POSS/IM_DIM/IS ;
+nîpisiy NI_DIM/ISIS ;
+nîpiy NI_DIM/ISIS ;
+nîsôtîw NA_DIM/ISIS ;
+@P.loc.LOC@nîsosôniyâs NA_DIM/IS ;
+nikik:nikikw NA_DIM/IS ;
+nikamon NI_DIM/IS ;
+@P.loc.LOC@nimitahamowi-pîsim:@P.loc.LOC@nimitahamowi-pîsimw NA_DIM/IS ;
+nahâhkaniskwîw NA_DIM/ISIS ;
+nipahtâkîwin NI_DIM/IS ;
+nipâsk NA_DIM/IS ;
+nipâwikamik:nipâwikamikw NI_DIM/IS ;
+nipâwi-maskihkiy NI_DIM/ISIS ;
+nipîwin NI_DIM/IS ;
+nipiy NI_DIM/ISIS ;
+nipowâspinîwin NI_DIM/IS ;
+nipiwin NI_DIM/IS ;
+nipahisowin NI_DIM/IS ;
+@P.loc.LOC@niski-pîsim:@P.loc.LOC@niski-pîsimw NA_DIM/IS ;
+niska:nisk NA_SG/A_POSS/IM_DIM/IS ;
+niskasiniy NI_DIM/ISIS ;
+nistamôsân NA_DIM/IS ;
+nitîm:tîm NA_DIM/IS ; ! CHECK!
+nitocikîwin NI_DIM/IS ;
+nitocikîwasinahikan NI_DIM/IS ;
+nitohkîmowin NI_DIM/IS ;
+nitohtamwâkan NI_DIM/IS ;
+nitotamâwin NI_DIM/IS ;
+asiskitân NI_DIM/IS ;
+nitawîthihcikîwin NI_DIM/IS ;
+nitawîthihtamowin NI_DIM/IS ;
+nôcihcikîwin NI_DIM/IS ;
+nôhtî-mîcisowin NI_DIM/IS ;
+nôhtîs NA_DIM/IS ;
+nônâcikan NI_DIM/IS ;
+nônâcikanis NI_DIM/IS ;
+nôsî-kohkôs NA_DIM/IS ;
+nôsîmisk:nôsîmiskw NA_DIM/IS ;
+nôsîs NA_DIM/IS ;
+nôsîsip NA_DIM/IS ;
+nôtimâhtik:nôtimâhtikw NI_DIM/IS ;
+nôtinitowin NI_DIM/IS ;
+nôtinitowi-sîpiy NI_DIM/ISIS ;
+nôtokîsiw NA_DIM/ISIS ;
+nahâhkisîm NA_DIM/IS ;
+nahâkaniskwîm NA_DIM/IS ;
+nahîthihtamowin NI_DIM/IS ;
+nahinikîwin NI_DIM/IS ;
+nakwâkan NI_DIM/IS ;
+namîhtâwin NI_DIM/IS ;
+namîpith NA_DIM/ISIS ;
+namîskway NI_DIM/ISIS ;
+@P.loc.LOC@namîstîk:@P.loc.LOC@namîstîkw NA_DIM/IS ;
+namîw NA_DIM/ISIS ;
+@P.loc.LOC@namîwasapâp NA_DIM/IS ;
+nanîhcîwin NI_DIM/IS ;
+@P.loc.LOC@napakâsiht NA_DIM/IS ;
+napakihtak:napakihtakw NI_DIM/IS ;
+@P.loc.LOC@napakitâpânâsk NA_DIM/IS ; ! CHECK!
+napakaskisin NI_DIM/IS ;
+naskomowin NI_DIM/IS ;
+naskwîwasihtwâwin NI_DIM/IS ;
+nawacîwin NI_DIM/IS ;
+nayahcikan NI_DIM/IS ;
+ocâpân NA_DIM/IS ;
+ocîhcikan NI_DIM/IS ;
+@P.number.PL@ocikana:@P.number.PL@ocikan NI_DIM/IS ;
+ocîk:ocîkw NA_DIM/IS ;
+@P.loc.LOC@ocîk-atâhk:@P.loc.LOC@ocîk-atâhkw NA_DIM/IS ;
+ôcînâs NI_DIM/IS ;
+ocîpîhk NI_DIM/IS ;
+ocîsihiwîw NA_DIM/ISIS ;
+ocîsimiwîw NA_DIM/ISIS ;
+ocîsisiwin NI_DIM/IS ;
+ocîstatay NI_DIM/ISIS ;
+ocicâhk:ocicâhkw NA_DIM/IS ;
+ocikwâcikan NI_DIM/IS ;
+@P.loc.LOC@ocipâson NA_DIM/IS ;
+ocipwîw NA_DIM/ISIS ;
+ocapasîw NA_DIM/ISIS ;
+ocascînikanis NI_DIM/IS ;
+ocasiwasowin NI_DIM/IS ;
+ayânis NI_DIM/IS ;
+@P.loc.LOC@ohcinohkânis NA_DIM/IS ;
+@P.loc.LOC@ohcinôhkânis NA_DIM/IS ;
+@P.loc.LOC@ohcawakâs NA_DIM/IS ;
+ohpihcicikan NI_DIM/IS ;
+ohpihkasikan NI_DIM/IS ;
+@P.loc.LOC@ohpahowi-pîsim:@P.loc.LOC@ohpahowi-pîsimw NA_DIM/IS ;
+ohtahopân NI_DIM/IS ;
+okâhtaskway NI_DIM/ISIS ;
+okâkîcihiwîw NA_DIM/ISIS ;
+@P.loc.LOC@okâminakasîwâhtik:@P.loc.LOC@okâminakasîwâhtikw NA_DIM/IS ;
+@P.loc.LOC@okâminakasiy NA_DIM/ISIS ;
+okâw NA_DIM/ISIS ;
+okîhcithiniwân NA_DIM/IS ;
+okîmâpahkîw NA_DIM/ISIS ;
+@P.loc.LOC@okinânis NA_DIM/IS ;
+okîsikow NA_DIM/ISIS ;
+okîskimanasiw NA_DIM/ISIS ;
+okîskwîpîw NA_DIM/ISIS ;
+okîskwîyayâw NA_DIM/ISIS ;
+okicistinikîw NA_DIM/ISIS ;
+okimâhkân NA_DIM/IS ;
+okimâsis NA_DIM/IS ;
+okimâskwîsis NA_DIM/IS ;
+okimâskwîw NA_DIM/ISIS ;
+@P.distr.DISTR@okimâw NA_DIM/ISIS ;
+okimâwikamik:okimâwikamikw NI_DIM/IS ;
+okimâwiwin NI_DIM/IS ;
+okimâwastotin NI_DIM/IS ;
+okimotisk NA_DIM/IS ;
+@P.loc.LOC@okiniy NA_DIM/ISIS ;
+okiskinohtahiwîw NA_DIM/ISIS ;
+okiskinwahamâkîw NA_DIM/ISIS ;
+okiskiwîhikîw NA_DIM/ISIS ;
+okistikîw NA_DIM/ISIS ;
+okistapiw NA_DIM/ISIS ;
+okistatowân NA_DIM/IS ;
+okithâskîwâcimow NA_DIM/ISIS ;
+okitimâkisiw NA_DIM/ISIS ;
+okitohcikîw NA_DIM/ISIS ;
+okohtâkanask:okohtâkanaskw NI_DIM/IS ;
+okakwîcîhiwîw NA_DIM/ISIS ;
+okanawâpokîw NA_DIM/ISIS ;
+okanawîthihcikîw NA_DIM/ISIS ;
+okanawiskwâhtawîw NA_DIM/ISIS ;
+okayîsîhtâw NA_DIM/ISIS ;
+okwâskwîpicikîw NA_DIM/ISIS ;
+omâcîw NA_DIM/ISIS ;
+omânotîw NA_DIM/ISIS ;
+omâthîthîhcikîsk NA_DIM/IS ;
+omâw NI_DIM/ISIS ;
+omâwacihcikîw NA_DIM/ISIS ;
+omîmîw NA_DIM/ISIS ;
+omîkiw NA_DIM/ISIS ;
+omikîwin NI_DIM/IS ;
+omîmîsis NA_DIM/IS ;
+mîthikowin NI_DIM/IS ;
+omikiy NI_DIM/ISIS ;
+omisihkîmow NA_DIM/ISIS ;
+omisimâw NA_DIM/ISIS ;
+omithâhcîs NA_DIM/IS ;
+omacâtis NA_DIM/IS ;
+omacîhtisk NA_DIM/IS ;
+omanisikîw NA_DIM/ISIS ;
+omasinahikîsîs NA_DIM/IS ;
+omaskahtwîsk NA_DIM/IS ;
+omwâpakwîw NA_DIM/ISIS ;
+omwatay NA_DIM/ISIS ;
+onîcâniw NA_DIM/ISIS ;
+onîstâmohkîw NA_DIM/ISIS ;
+onikâtîw NA_DIM/ISIS ;
+onikamow NA_DIM/ISIS ;
+onipahtâkîw NA_DIM/ISIS ;
+onipiw NA_DIM/ISIS ;
+onisiwanâcîhcikîsk NA_DIM/IS ;
+onohtow NA_DIM/ISIS ;
+onôtinikîsk NA_DIM/IS ;
+onôtinikîw NA_DIM/ISIS ;
+onanâspicâkîs NA_DIM/IS ;
+onanâspitohtâkîw NA_DIM/ISIS ;
+ôcîs NA_DIM/IS ;
+@P.loc.LOC@ôcîsis NA_DIM/IS ;
+ôsi:ôs NI_SG/I_POSS/IM_DIM/IS ;
+opahkîkinohkîw NA_DIM/ISIS ;
+opahkwâcîs NA_DIM/IS ;
+opahkwîsikanihkîw NA_DIM/ISIS ;
+opîkiskwîstamâkîw NA_DIM/ISIS ;
+pîway NI_DIM/ISIS ;
+opiminawasow NA_DIM/ISIS ;
+opimithâw NA_DIM/ISIS ;
+opimotahkwîw NA_DIM/ISIS ;
+opimohtîhow NA_DIM/ISIS ;
+opiniyâwîwi-pîsim:opiniyâwîwi-pîsimw NA_DIM/IS ;
+opôtâcikîsîs NA_DIM/IS ;
+opothakâhtowîw NA_DIM/ISIS ;
+opakitahwâw NA_DIM/ISIS ;
+opakonîhikîw NA_DIM/ISIS ;
+opakosîhtwâw NA_DIM/ISIS ;
+@P.loc.LOC@opaskowi-pîsim:@P.loc.LOC@opaskowi-pîsimw NA_DIM/IS ;
+opaskwahamâkîw NA_DIM/ISIS ;
+opwâm NI_DIM/IS ;
+opwâmîhkâtîw NI_DIM/ISIS ;
+osâkahâti:osâkahât NI_SG/I_POSS/IM_DIM/IS ;
+osâmihowin NI_DIM/IS ;
+osâmitôn NA_DIM/IS ;
+osâwahkîsîs NA_DIM/IS ;
+osâwâmow NA_DIM/ISIS ;
+osâwîkin:osâwîkinw NI_DIM/IS ;
+@P.loc.LOC@osâwisôniyâw NA_DIM/ISIS ;
+osâwistikwân NA_DIM/IS ;
+osâwask:osâwaskw NA_DIM/IS ;
+osâwasko-pithîsîs NA_DIM/IS ;
+osâwaskwâpîs NA_DIM/IS ;
+osâwaskwathîkis NA_DIM/IS ;
+osâwatisâwiyân NI_DIM/IS ;
+@P.loc.LOC@oscikwânis NA_DIM/IS ;
+oscikwânisâponikanis NI_DIM/IS ;
+osîhcikîwin NI_DIM/IS ;
+osîmimâw NA_DIM/ISIS ;
+osikithâs NA_DIM/IS ;
+osikwanay NI_DIM/ISIS ;
+osimisk:osimiskw NI_DIM/IS ;
+oskâcik:oskâcikw NI_DIM/IS ;
+@P.loc.LOC@oskâhtak:@P.loc.LOC@oskâhtakw NA_DIM/IS ;
+@P.loc.LOC@oskâhtako-pithîw NA_DIM/ISIS ;
+@P.loc.LOC@oskâtâsk:@P.loc.LOC@oskâtâskw NA_DIM/IS ;
+@P.loc.LOC@oskâtâskohkân NA_DIM/IS ;
+@P.loc.LOC@oskâtâskwâhtik:@P.loc.LOC@oskâtâskwâhtikw NA_DIM/IS ;
+oskâyi:oskây4 NI_SG/I_POSS/IM_DIM/IS ;
+oskâyis NA_DIM/IS ;
+oskâyiwin NI_DIM/IS ;
+oskihtîpak:oskihtîpakw NI_DIM/IS ;
+@P.loc.LOC@oskîkwak:@P.loc.LOC@oskîk NA_DIM/IS ; ! CHECK!
+oskîsikomin NI_DIM/IS ;
+oskîskwîw NA_DIM/ISIS ;
+oskiciy NI_DIM/ISIS ;
+oskinâpîw NA_DIM/ISIS ;
+oskinîkîs NA_DIM/IS ;
+oskinîkisikwîsis NA_DIM/IS ;
+oskinîkiskwîw NA_DIM/ISIS ;
+oskinîkiw NA_DIM/ISIS ;
+@P.loc.LOC@oskipîsim:@P.loc.LOC@oskipîsimw NA_DIM/IS ;
+oskipakwahtîhon NI_DIM/IS ;
+oskiskwîwân NA_DIM/IS ;
+@P.loc.LOC@oskitâs NA_DIM/IS ;
+oskiwiyâs NI_DIM/IS ;
+oskan NI_DIM/IS ;
+oskanâmow NA_DIM/ISIS ;
+oskawâsis NA_DIM/IS ;
+oskwatim NI_DIM/IS ;
+@P.loc.LOC@osôpiy NA_DIM/ISIS ;
+osowask:osowaskw NI_DIM/IS ;
+@P.loc.LOC@ospwâkan NA_DIM/IS ;
+@P.loc.LOC@ospwâkanasiniy NA_DIM/ISIS ;
+ostîsimâw NA_DIM/ISIS ;
+ostostotamowask:ostostotamowaskw NI_DIM/IS ;
+ostotostotamowin NI_DIM/IS ;
+saskahon NI_DIM/IS ;
+otâcimow NA_DIM/ISIS ;
+otâhkosiw NA_DIM/ISIS ;
+otâkwani-mîcisowin NI_DIM/IS ;
+otâniyâpiya:otâniyâpiy NI_DIM/ISIS ;
+otâpânâsk:otâpânâskw NA_DIM/IS ;
+otâpânâskokamik:otâpânâskokamikw NI_DIM/IS ;
+otâpânîyâpiy NI_DIM/ISIS ;
+otâstawîhikîw NA_DIM/ISIS ;
+otâwask:otâwaskw NI_DIM/IS ;
+@P.loc.LOC@otâwatâsow NA_DIM/ISIS ;
+otîhimin NI_DIM/IS ;
+otîhipak:otîhipakw NI_DIM/IS ;
+@P.loc.LOC@otihtihkosiy NA_DIM/ISIS ;
+ôtînaw NI_DIM/ISIS ;
+@P.loc.LOC@îthik:@P.loc.LOC@îthikw NA_DIM/IS ;
+othâkan NI_DIM/IS ;
+othâkanis NI_DIM/IS ;
+othâpahcikan NI_DIM/IS ;
+@P.loc.LOC@othihk:@P.loc.LOC@othihkw NA_DIM/IS ;
+othasiwîw NA_DIM/ISIS ;
+othasiwîwin NI_DIM/IS ;
+otinikîwin NI_DIM/IS ;
+otipîthimisow NA_DIM/ISIS ;
+otipahaskîw NA_DIM/ISIS ;
+otisîhkân NI_DIM/IS ;
+otithiy NI_DIM/ISIS ;
+otitwîstamâkîw NA_DIM/ISIS ;
+aspiskwîsimon NI_DIM/IS ;
+otastisiwak:otastisiwakw NI_DIM/IS ;
+otasawâpiw NA_DIM/ISIS ;
+otatoskîw NA_DIM/ISIS ;
+awâsis NA_DIM/IS ;
+otayamihâw NA_DIM/ISIS ;
+owîcihiwîw NA_DIM/ISIS ;
+owîkihtow NA_DIM/ISIS ;
+owanihikîw NA_DIM/ISIS ;
+pahkîkin:pahkîkinw NI_DIM/IS ;
+pâhkisikan NI_DIM/IS ;
+pahkisimon NI_DIM/IS ;
+pahkahokowin NI_DIM/IS ;
+pâhkwahcâw NI_DIM/ISIS ;
+pâhkwahcitîw NI_DIM/ISIS ;
+pâhkwâyamihîwikimâw NA_DIM/ISIS ;
+@P.loc.LOC@pahkwîsikan NA_DIM/IS ;
+pâhkwîsikanithâkan NI_DIM/IS ;
+pâhpâkahâhpîhcîsîs NA_DIM/IS ;
+pâhpâstîwipasiw NA_DIM/ISIS ;
+pâhpisk NA_DIM/IS ;
+pâhpiwin NI_DIM/IS ;
+pâhkahkos NA_DIM/IS ;
+pâkâspinîwin NI_DIM/IS ;
+pâhkahâhkwân NA_DIM/IS ;
+pâsiciwîpinîkîwin NI_DIM/IS ;
+pâsikâkan NI_DIM/IS ;
+pâsikan NI_DIM/IS ;
+pâsiminâna:pâsiminân NI_DIM/IS ;
+pâskîkinikan NI_DIM/IS ;
+pâskisikan NI_DIM/IS ;
+pâskisikanâpisk:pâskisikanâpiskw NI_DIM/IS ;
+pâskisikaniwanîhikan NI_DIM/IS ;
+pâspâscîs NA_DIM/IS ;
+pâspâstîw NA_DIM/IS ;
+pâstâhowin NI_DIM/IS ;
+pâstîwâhtik:pâstîwâhtikw NI_DIM/IS ;
+pâstîwi-mîhti:pâstîwi-mîht NI_SG/I_POSS/IM_DIM/IS ;
+pâstîwi-wiyâs NI_DIM/IS ;
+@P.loc.LOC@pâwâhcakanasîs NA_DIM/IS ;
+pâwistik:pâwistikw NI_DIM/IS ;
+pîhcâsowinis NI_DIM/IS ;
+pîhcîhkomânân NI_DIM/IS ;
+@P.loc.LOC@pîhcipihkwân NA_DIM/IS ;
+pîhcipîkwâkan NI_DIM/IS ;
+pîhcipimâkanis NI_DIM/IS ;
+pihcipowin NI_DIM/IS ;
+pîhconîs NI_DIM/IS ;
+pîhkihowin NI_DIM/ISIS ;
+pihkos NA_DIM/IS ;
+pîhkotîw NI_DIM/ISIS ;
+@P.loc.LOC@pîhkowâsîw NA_DIM/ISIS ;
+@P.loc.LOC@pihkasikan NA_DIM/IS ;
+pîhowin NI_DIM/IS ;
+pihpihciw NA_DIM/ISIS ;
+pîhpîkisîs NA_DIM/IS ;
+pîhtâpîk:pîhtâpîkw NI_DIM/IS ;
+pîhtâsowin NI_DIM/IS ;
+pîhtasinân NI_DIM/IS ;
+pîhtawî-papakiwayânis NI_DIM/IS ;
+pîhtawîsâkan NI_DIM/IS ;
+@P.loc.LOC@pîhtawîtâs NA_DIM/IS ;
+pîhtwâwikamik:pîhtwâwikamikw NI_DIM/IS ;
+pîkopîwin NI_DIM/IS ;
+pîkopicikan NI_DIM/IS ;
+pîkwahâkimân NI_DIM/IS ;
+pîmâhtawîsakahikan NI_DIM/IS ;
+pîmihtakinikan NI_DIM/IS ;
+pîminahkwân NI_DIM/IS ;
+@P.loc.LOC@pîminikan NA_DIM/IS ;
+pîminikanis NI_DIM/IS ;
+pîsikiscikânis NI_DIM/IS ;
+@P.loc.LOC@pîsim:@P.loc.LOC@pîsimw NA_DIM/IS ;
+@P.loc.LOC@pîsimohkân NA_DIM/IS ;
+@P.loc.LOC@pîsimohkânis NA_DIM/IS ;
+pîsimwîyâpiy NI_DIM/ISIS ;
+pîsimwasinahikan NI_DIM/IS ;
+pîskowat NI_DIM/IS ;
+pîskwa:pîskw NA_SG/A_POSS/IM_DIM/IS ;
+pîstîw NI_DIM/ISIS ;
+pîstîwahonân NI_DIM/IS ;
+@P.loc.LOC@pîswîhkasikan NA_DIM/IS ;
+pîswîwayân NI_DIM/IS ;
+@P.loc.LOC@pîwâpisk:@P.loc.LOC@pîwâpiskw NA_DIM/IS ;
+@P.loc.LOC@pîwâpiskos NA_DIM/IS ;
+pîwâpisko-wanihikan NI_DIM/IS ;
+pîwâpiskwâhpîht NA_DIM/IS ;
+pîwâpiskwîyâpiy NI_DIM/ISIS ;
+pîwâpiskwastotin NI_DIM/IS ;
+pîwâpiskwastotin NA_DIM/IS ;
+pîwihkotâkan NI_DIM/IS ;
+pîwihtakahikan NI_DIM/IS ;
+pîwipocikan NI_DIM/IS ;
+pîwisikan NI_DIM/IS ;
+pîwiskahikan NI_DIM/IS ;
+pîwithiniw NA_DIM/ISIS ;
+pikîhkân NI_DIM/IS ;
+@P.loc.LOC@pikiw NA_DIM/ISIS ;
+pikwacâthisithiniw NA_DIM/ISIS ;
+pikwacâyis NA_DIM/IS ;
+pimâtisiwin NI_DIM/IS ;
+pimîhkân NI_DIM/IS ;
+pimihkwân NI_DIM/IS ;
+piminawasowikamik:piminawasowikamikw NI_DIM/IS ;
+piminawaswâkan NI_DIM/IS ;
+pimitâskwahikan NI_DIM/IS ;
+pimiy NI_DIM/ISIS ;
+pimowatân NI_DIM/IS ;
+pimipahtâwaskisin NI_DIM/IS ;
+pinipocikan NI_DIM/IS ;
+@P.loc.LOC@piniyâwîwi-pîsim:@P.loc.LOC@piniyâwîwi-pîsimw NA_DIM/IS ;
+pinahihkwân NI_DIM/IS ;
+pipikos NA_DIM/IS ;
+pipon NI_DIM/IS ;
+piponâskos NA_DIM/IS ;
+piponasiw NA_DIM/ISIS ;
+piponaskisin NI_DIM/IS ;
+pisikwâtis NA_DIM/IS ;
+pisimanîyâpiy NI_DIM/IS ;
+pisiskisîs NA_DIM/IS ;
+pisiskiw NA_DIM/ISIS ;
+pisiw NA_DIM/ISIS ;
+pisiwitâpakwân NI_DIM/IS ;
+pisiwayân NA_DIM/IS ;
+piskihcikamik:piskihcikamikw NI_DIM/IS ;
+piskîhcasinahikanis NI_DIM/IS ;
+piskîhkomânis NI_DIM/IS ;
+piskîhtasinahikan NI_DIM/IS ;
+piskokanân NI_DIM/IS ;
+pithîkomin NI_DIM/IS ;
+pithîsîs NA_DIM/IS ;
+pithîsîsikamik:pithîsîsikamikw NI_DIM/IS ;
+pithîsiw NA_DIM/ISIS ;
+pithîsiwiwaciy NI_DIM/ISIS ;
+pithîw NA_DIM/ISIS ;
+pithîwimwatay NI_DIM/ISIS ;
+pitahikîwâthkikos NA_DIM/IS ;
+piyakôskân NA_DIM/IS ;
+pôsihtâsowin NI_DIM/IS ;
+pôsîs NA_DIM/IS ;
+pôtâcikan NI_DIM/IS ;
+pôyawîsis NA_DIM/IS ;
+@P.loc.LOC@posâkan NA_DIM/IS ;
+powâkan NA_DIM/IS ;
+powâmiwin NI_DIM/IS ;
+pakân NA_DIM/IS ;
+@P.loc.LOC@pakânâhtik:@P.loc.LOC@pakânâhtikw NA_DIM/IS ;
+pakâsimowithâkan NI_DIM/IS ;
+pakitinâsowin NI_DIM/IS ;
+pakitatâmowin NI_DIM/IS ;
+pakitahwâwin NI_DIM/IS ;
+pakonîhikan NI_DIM/IS ;
+pakoyânikamik:pakoyânikamikw NI_DIM/IS ;
+pakamâkan NI_DIM/IS ;
+pakamâkanis NI_DIM/IS ;
+pakamahotowâkan NI_DIM/IS ;
+pakwâcikan NA_DIM/IS ;
+pakwahtîhon NI_DIM/IS ;
+pakwâhtîhonâpisk:pakwâhtîhonâpiskw NI_DIM/IS ;
+pakwâtitowin NI_DIM/IS ;
+pikonita-kîkway NI_DIM/ISIS ;
+pamihâkan NA_DIM/IS ;
+papikwan NI_DIM/IS ;
+papakiwayân NI_DIM/IS ;
+pascîpicikanis NI_DIM/IS ;
+pasihkân NI_DIM/IS ;
+paskîsowin NI_DIM/IS ;
+paskîskanaw NI_DIM/ISIS ;
+paskicîs NI_DIM/IS ;
+paskitîw NI_DIM/ISIS ;
+paskosikan NI_DIM/IS ;
+paskostikwân NA_DIM/IS ;
+@P.loc.LOC@paskowi-pîsim:@P.loc.LOC@paskowi-pîsimw NA_DIM/IS ;
+paskowisip NA_DIM/IS ;
+paskwaciy NI_DIM/ISIS ;
+paskwâw NI_DIM/ISIS ;
+paskwâwi-mostos NA_DIM/IS ;
+paskwâwithiniw NA_DIM/ISIS ;
+paskwâwaskiy NI_DIM/ISIS ;
+paskwahamâkan NI_DIM/IS ;
+paskwahamâtowin NI_DIM/IS ;
+pasosânânhtik:pasosânânhtikw NI_DIM/IS ;
+paspîwin NI_DIM/IS ;
+paspinîwin NI_DIM/IS ;
+paspaskiw NA_DIM/ISIS ;
+pastîpicikan NI_DIM/IS ;
+pasakwahikan NI_DIM/IS ;
+pasastîhikan NI_DIM/IS ;
+patimisk:patimiskw NA_DIM/IS ;
+pwâkomowin NI_DIM/IS ;
+@P.distr.DISTR@pwâta:@P.distr.DISTR@pwât NA_SG/A_POSS/IM_DIM/IS ;
+sâhkwatamow NA_DIM/ISIS ;
+sâkâstîw NI_DIM/ISIS ;
+sâkipicikan NI_DIM/IS ;
+sâkonipiy NI_DIM/ISIS ;
+sâkahikan NI_DIM/IS ;
+sâkahikanisis NI_DIM/IS ;
+sâkwîsiw NA_DIM/ISIS ;
+@P.loc.LOC@sâkwîsiwayân NA_DIM/IS ;
+sâponikan NI_DIM/IS ;
+sâposikan NI_DIM/IS ;
+sâposowin NI_DIM/IS ;
+sâpwâpahcikan NI_DIM/IS ;
+sâpwâscîs NI_DIM/IS ;
+sâsâkawâpiskos NA_DIM/IS ;
+@P.loc.LOC@sâsâpiskisikan NA_DIM/IS ;
+sâsâposowin NI_DIM/IS ;
+@P.loc.LOC@sâsîskihkwân NA_DIM/IS ;
+sîhkihp NI_DIM/IS ;
+sihkihp NA_DIM/IS ;
+sihkos NA_DIM/IS ;
+sihkowin NI_DIM/IS ;
+sikiwin NI_DIM/IS ;
+sîhpopicikan NI_DIM/IS ;
+sihta:siht NA_SG/A_POSS/IM_DIM/IS ;
+sîhtahikan NI_DIM/IS ;
+sîkâwinâpîw NA_DIM/ISIS ;
+sîkâwiskwîw NA_DIM/ISIS ;
+sîkinâkanis NI_DIM/IS ;
+sîkipatwân NI_DIM/IS ;
+sîkôthkinikan NI_DIM/IS ;
+@P.loc.LOC@sîkosâkanak:@P.loc.LOC@sîkosâkan NA_DIM/IS ;
+sîkahâhtâkîwin NI_DIM/IS ;
+sîkahon NI_DIM/IS ;
+sîkwan NI_DIM/IS ;
+sînikan NI_DIM/IS ;
+@P.loc.LOC@sînipân NA_DIM/IS ;
+sînipânîkin:sînipânîkinw NI_DIM/IS ;
+@P.loc.LOC@sînipânasapâp NA_DIM/IS ;
+sîpâwîpahikan NI_DIM/IS ;
+@P.loc.LOC@sîpîkinikan NA_DIM/IS ;
+sîpîsis NI_DIM/IS ;
+sîpîkinâkan NI_DIM/IS ;
+sîpiy NI_DIM/ISIS ;
+@P.loc.LOC@sîsîkwan NA_DIM/IS ;
+sîsîp NA_DIM/IS ;
+@P.loc.LOC@sîsîpaskihk:@P.loc.LOC@sîsîpaskihkw NA_DIM/IS ;
+@P.loc.LOC@sôkâw NA_DIM/ISIS ;
+sakimîs NA_DIM/IS ;
+@P.loc.LOC@sasâpomin NA_DIM/IS ;
+otihtipipathiw NI_DIM/IS ;
+tahkahcikan NI_DIM/IS ;
+tahkikamâpoy NI_DIM/ISIS ;
+tâhkipiy NI_DIM/ISIS ;
+tahkonâwason NA_DIM/IS ;
+tahkopisowin NI_DIM/IS ;
+tahkopicikan NI_DIM/IS ;
+tahkopitâwason NA_DIM/IS ;
+tahkoskîwin NI_DIM/IS ;
+tahkascikan NI_DIM/IS ;
+@P.loc.LOC@tâpihtîpison NA_DIM/IS ;
+tâpiskâkan NI_DIM/IS ;
+tâpiskâkanîmin NA_DIM/IS ;
+tâpitonîhpicikan NI_DIM/IS ;
+tâpakwânâhtik:tâpakwânâhtikw NI_DIM/IS ;
+tâpasinahikîwin NI_DIM/IS ;
+tâpwâkwân NI_DIM/IS ;
+tâpwîhtamowin NI_DIM/IS ;
+tâpwîwin NI_DIM/IS ;
+@P.loc.LOC@tâsihikanasinîs NA_DIM/IS ;
+@P.loc.LOC@tâsihikanasiniy NA_DIM/ISIS ;
+tâskihtakahikan NI_DIM/IS ;
+tâskipocikan NI_DIM/IS ;
+tâstakâtamowin NI_DIM/IS ;
+tiy:tiy4 NI_DIM/ISIS ;
+tihkinâkan NI_DIM/IS ;
+tihkisikanâpisk:tihkisikanâpiskw NI_DIM/IS ;
+@P.loc.LOC@tihtihkosiy NA_DIM/ISIS ;
+@P.loc.LOC@tihtipitâpânâsk:@P.loc.LOC@tihtipitâpânâskw NA_DIM/IS ;
+tîhtapiwin NI_DIM/IS ;
+tîmaskîk:tîmaskîkw NI_DIM/IS ;
+tîpakwa:tîpak NI_DIM/IS ; ! CHECK!
+@P.loc.LOC@tîwîmîhkwânis NA_DIM/IS ;
+@P.loc.LOC@tîwaskihk:@P.loc.LOC@tîwaskihkw NA_DIM/IS ;
+thahkâstimon NI_DIM/IS ;
+thahkîmowin NI_DIM/IS ;
+thâwîw NI_DIM/ISIS ;
+thîhthîkicîhcân NI_DIM/IS ;
+@P.loc.LOC@thîhthîkicîhciwastis NA_DIM/IS ;
+thîhthîwin NI_DIM/IS ;
+thîkicikâw NA_DIM/ISIS ;
+thîkaw NI_DIM/ISIS ;
+thîkawiskâw NI_DIM/ISIS ;
+thîkawatâwâhkâw NI_DIM/ISIS ;
+thithîkisitân NI_DIM/IS ;
+thîwahikan NA_DIM/IS ;
+thikwahaskân NI_DIM/IS ;
+thikwahaskânaskiy NI_DIM/ISIS ;
+@P.loc.LOC@thithikopîwi-pîsim:@P.loc.LOC@thithikopîwi-pîsimw NA_DIM/IS ;
+thithikopiy NI_DIM/ISIS ;
+@P.loc.LOC@thôskihtak:@P.loc.LOC@thôskihtakw NA_DIM/IS ;
+thôskaskisin NI_DIM/IS ;
+thôtin:thôtinw NI_DIM/IS ;
+thôskapiwin NI_DIM/IS ;
+thôtinask:thôtinaskw NI_DIM/IS ;
+tipâpîskocikan NI_DIM/IS ;
+tipinawâhokan NI_DIM/IS ;
+@P.loc.LOC@tipisikan NA_DIM/IS ;
+tipiskâw NI_DIM/ISIS ;
+@P.loc.LOC@tipiskâwi-pîsim:@P.loc.LOC@tipiskâwi-pîsimw NA_DIM/IS ;
+tipiskamowin NI_DIM/IS ;
+tipithawîwisîwin NI_DIM/IS ;
+tipahikisinwân NI_DIM/IS ;
+tipahikan NI_DIM/IS ;
+tipahikanâhtik:tipahikanâhtikw NI_DIM/IS ;
+tipahikaniyâpiy NI_DIM/ISIS ;
+tipahamâkowin NI_DIM/IS ;
+tipahamâtowin NI_DIM/IS ;
+tipahamowâkan NA_DIM/IS ;
+tipahaskân NI_DIM/IS ;
+titipanawîhkasamâkam NI_DIM/IS ;
+@P.loc.LOC@tiyamân NA_DIM/IS ;
+tohtôsâpoy NI_DIM/ISIS ;
+tohtôsâpoyipimiy NI_DIM/ISIS ;
+tômîhkwân NI_DIM/IS ;
+tôminitowin NI_DIM/IS ;
+tôstôkan NI_DIM/IS ; ! CHECK!
+tôtîm NA_DIM/IS ;
+toskwan NI_DIM/IS ;
+@P.loc.LOC@towîpicikan NA_DIM/IS ;
+takwahiminâna:takwahiminân NI_DIM/IS ;
+tamaskowin NI_DIM/IS ;
+tapahtîthimowin NI_DIM/IS ;
+tasinikam NI_DIM/IS ;
+tawatahikîwin NI_DIM/IS ;
+twâhipân NI_DIM/IS ;
+twîhômakam NI_DIM/IS ;
+twîhowin NI_DIM/IS ;
+@P.loc.LOC@acâhkos NA_DIM/IS ;
+acimosis NA_DIM/IS ;
+@P.loc.LOC@acitakocikan NA_DIM/IS ;
+akihtâson NI_DIM/IS ;
+@P.loc.LOC@akik:@P.loc.LOC@akikw NA_DIM/IS ;
+akocikan NI_DIM/IS ;
+akohp NI_DIM/IS ;
+@P.loc.LOC@akohpîkin:@P.loc.LOC@akohpîkinw NA_DIM/IS ;
+akohpis NI_DIM/IS ;
+akohpiwat NI_DIM/IS ;
+akohpamisk:akohpamiskw NI_DIM/IS ;
+akopison NI_DIM/IS ;
+akosîwin NI_DIM/IS ;
+akahamâtowin NI_DIM/IS ;
+@P.loc.LOC@akask:@P.loc.LOC@akaskw NA_DIM/IS ;
+akwâhonihtak:akwâhonihtakw NI_DIM/IS ;
+akwâkopiy NI_DIM/ISIS ;
+akwâwân NI_DIM/IS ;
+@P.loc.LOC@akwanâpowîhikan NA_DIM/IS ;
+akwanahikan NI_DIM/IS ;
+akwanahon NI_DIM/IS ;
+@P.loc.LOC@amâhk:@P.loc.LOC@amâhkw NA_DIM/IS ;
+@P.loc.LOC@amâhkos NA_DIM/IS ;
+amisk:amiskw NA_DIM/IS ;
+amiskopiy NA_DIM/ISIS ;
+amiskosîs NA_DIM/IS ;
+amiskosis NA_DIM/IS ;
+amiskowîsti:amiskowîst NI_SG/I_POSS/IM_DIM/IS ;
+@P.loc.LOC@amiskwayân NA_DIM/IS ;
+anâskân NI_DIM/IS ;
+anâskason NI_DIM/IS ;
+anikwacâs NA_DIM/IS ;
+apahkwân NI_DIM/IS ;
+apahkwânis NI_DIM/IS ;
+apihkân NI_DIM/IS ;
+apisâsin:apisâsinw NI_DIM/IS ;
+@P.loc.LOC@apiscîmîhkwânis NA_DIM/IS ;
+apiscîthimowin NI_DIM/IS ;
+apisci-kâhkâkîs NA_DIM/IS ;
+apisci-nâpîsis NA_DIM/IS ;
+apiscisipis NA_DIM/IS ;
+apiscithinîs NA_DIM/IS ;
+apiscacihkos NA_DIM/IS ;
+apiscawâsis NA_DIM/IS ;
+apisimôsos NA_DIM/IS ;
+apiwin NI_DIM/IS ;
+@P.loc.LOC@apoy NA_DIM/ISIS ;
+@P.loc.LOC@apiscasapâpis NA_DIM/IS ;
+apasoy NI_DIM/ISIS ;
+apwânâsk:apwânâskw NI_DIM/IS ;
+apwîsiwin NI_DIM/IS ;
+asâhwîsis NA_DIM/IS ;
+asâkîw NA_DIM/ISIS ;
+@P.loc.LOC@asâm NA_DIM/IS ;
+@P.loc.LOC@asâmâhtik:@P.loc.LOC@asâmâhtikw NA_DIM/IS ;
+ascâsonikamikos NI_DIM/IS ;
+ascisis NA_DIM/IS ;
+asîpoyîwin NI_DIM/IS ;
+@P.loc.LOC@asikan NA_DIM/IS ;
+asikanîkin:asikanîkinw NI_DIM/IS ;
+asikanamîw NA_DIM/ISIS ;
+asinâpiy NI_DIM/ISIS ;
+@P.loc.LOC@asînîhkan NA_DIM/IS ;
+@P.loc.LOC@asinîs NA_DIM/IS ;
+asinîwikamik:asinîwikamikw NI_DIM/IS ;
+asinîwimîskanaw NI_DIM/ISIS ;
+asinîwaciy NI_DIM/ISIS ;
+@P.loc.LOC@asiniy NA_DIM/ISIS ;
+asîpicikan NI_DIM/IS ;
+asisiy NI_DIM/ISIS ;
+asiskîhkân NI_DIM/IS ;
+asiskîkin:asiskîkinw NI_DIM/IS ;
+asiskîwikotawânâpisk:asiskîwikotawânâpiskw NI_DIM/IS ;
+@P.loc.LOC@asiskîwispwâkan NA_DIM/IS ;
+asiski-wiyâs NI_DIM/IS ;
+asiskiy NI_DIM/ISIS ;
+asisoy NI_DIM/ISIS ;
+asitinikam NI_DIM/IS ;
+asiwacikan NI_DIM/IS ;
+@P.loc.LOC@askâhtik:@P.loc.LOC@askâhtikw NA_DIM/IS ;
+@P.loc.LOC@askihkos NA_DIM/IS ;
+askimaniyâpiy NI_DIM/ISIS ;
+askipowipak:askipowipakw NI_DIM/IS ;
+askiy NI_DIM/ISIS ;
+@P.number.PL@askiya:@P.number.PL@askiy NI_DIM/ISIS ;
+asotamâkîwin NI_DIM/IS ;
+aspahcikam NI_DIM/IS ;
+aspahcikan NI_DIM/IS ;
+aspahpison NI_DIM/IS ;
+aspicîhkwîhikam NI_DIM/IS ;
+aspikahikîwin NI_DIM/IS ;
+aspisimon NI_DIM/IS ;
+aspisitîsimon NI_DIM/IS ;
+aspotakapiwin NI_DIM/IS ;
+aspakon NI_DIM/IS ;
+aspakowin NI_DIM/IS ;
+aspapiwin NI_DIM/IS ;
+aspaskwîsimon NI_DIM/IS ;
+aspastâkan NI_DIM/IS ;
+aspatôspowin NI_DIM/IS ;
+astahcikon NI_DIM/IS ;
+astâkanask:astâkanaskw NI_DIM/IS ;
+astâsowikamik:astâsowikamikw NI_DIM/IS ;
+astinwân NI_DIM/IS ;
+@P.loc.LOC@astis NA_DIM/IS ;
+@P.loc.LOC@astisîw NA_DIM/ISIS ;
+astisiy NI_DIM/ISIS ;
+astôpâkan NI_DIM/IS ;
+astotin NI_DIM/IS ;
+astwâhtowin NI_DIM/IS ;
+astwâwin NI_DIM/IS ;
+@P.loc.LOC@asapâp NA_DIM/IS ;
+asawâpiwin NI_DIM/IS ;
+aswahikîwin NI_DIM/IS ;
+atâwâkan NI_DIM/IS ;
+atâwi:atâw2 NI_SG/I_POSS/IM_DIM/IS ;
+atâwikimâw NA_DIM/ISIS ;
+atâwîkamik:atâwîkamikw NI_DIM/IS ;
+atihk:atihkw NA_DIM/IS ;
+atihkomîskanaw NI_DIM/ISIS ;
+atihkowiyâs NI_DIM/IS ;
+atihkamîk:atihkamîkw NA_DIM/IS ;
+@P.loc.LOC@atihkway NA_DIM/ISIS ;
+@P.loc.LOC@atihkwayân NA_DIM/IS ;
+atîwâkan NA_DIM/IS ;
+athâpîwisâponikan NI_DIM/IS ;
+@P.loc.LOC@athîki-pîsim:@P.loc.LOC@athîki-pîsimw NA_DIM/IS ;
+athîkis NA_DIM/IS ;
+@P.distr.DISTR@athisithiniw NA_DIM/ISIS ;
+athahikîwi-cîkahikanis NI_DIM/IS ;
+@P.loc.LOC@athapiy NA_DIM/ISIS ;
+athwîpîwikamik:athwîpîwikamikw NI_DIM/IS ;
+@R.person.NULL@atim:@R.person.NULL@atimw NA "dog, beast of burden" ; ! Regular stem of atim: atimw- (cannot be possessed)
+@D.person.NULL@atim:@D.person.NULL@têm NA "dog, beast of burden" ;   ! Irregular suppletive stem of atim: -têm- (must be possessed)
+âtiman NI_DIM/IS ;
+@P.loc.LOC@atipis NA_DIM/IS ;
+atisâwiyân NI_DIM/IS ;
+@P.loc.LOC@atôspiy NA_DIM/ISIS ;
+atoskîmosk NA_DIM/IS ;
+atoskîyâkan NA_DIM/IS ;
+atoskîwin NI_DIM/IS ;
+@P.loc.LOC@atoskîwitâs NA_DIM/IS ;
+atamiskâkîwin NI_DIM/IS ;
+awahkân NA_DIM/IS ;
+awîcisis NA_DIM/IS ;
+awihiwîwin NI_DIM/IS ;
+ayahcithiniw NA_DIM/ISIS ;
+ayiskîmîw NA_DIM/ISIS ;
+ayamâkan NI_DIM/IS ;
+ayamihâwin NI_DIM/IS ;
+ayamihîwikamik:ayamihîwikamikw NI_DIM/IS ;
+ayasâcisîhkîwin NI_DIM/IS ;
+wâcis NI_DIM/IS ;
+wacasko-wanihikanis NI_DIM/IS ;
+@P.loc.LOC@wâhkicân NA_DIM/IS ;
+wâhkômâkan NA_DIM/IS ;
+wâkîhkotâkan NI_DIM/IS ;
+wâkinâkan NI_DIM/IS ;
+wâkin:wâkinw NA_DIM/IS ;
+wâpâcîhpis NA_DIM/IS ;
+wâpahkîsîs NA_DIM/IS ;
+wâpâscicikan NI_DIM/IS ;
+wâpikwaniy NI_DIM/ISIS ;
+wâpamon NI_DIM/IS ;
+wâpamonâpisk:wâpamonâpiskw NI_DIM/IS ;
+wâpiscânis NA_DIM/IS ;
+wâpisiw NA_DIM/ISIS ;
+wâpiskîkin:wâpiskîkinw NI_DIM/IS ;
+wâpithîw NA_DIM/ISIS ;
+wâpos:wâposw NA_DIM/IS ;
+wâposo-tâpakwân NI_DIM/IS ;
+wâposwayânakohp NI_DIM/IS ;
+wâpahihkam NA_DIM/IS ;
+wâpan NI_DIM/IS ;
+wâpastim:wâpastimw NA_DIM/IS ;
+wâpatihk:wâpatihkw NA_DIM/IS ;
+@P.loc.LOC@wâpatanask NA_DIM/IS ;
+wâsâw NI_DIM/ISIS ;
+wâsîkahikîwin NI_DIM/IS ;
+wâsînamân NI_DIM/IS ;
+wâsînamânâhtik:wâsînamânâhtikw NI_DIM/IS ;
+wâsînamânâpisk:wâsînamânâpiskw NI_DIM/IS ;
+@P.loc.LOC@wâsîskwanos NA_DIM/IS ;
+wâsiskocînikanis NI_DIM/IS ;
+wâsiskotînikan NI_DIM/IS ;
+wâsikan NI_DIM/IS ;
+wâskahikan NI_DIM/IS ;
+wâskamisiwin NI_DIM/IS ;
+wâspicikaniyâpiy NI_DIM/ISIS ;
+@P.loc.LOC@wâspison NA_DIM/IS ;
+wâsitîw NI_DIM/ISIS ;
+@P.loc.LOC@wasakâs NA_DIM/IS ;
+wâtihkâkan NI_DIM/IS ;
+wâthicîhcân NI_DIM/IS ;
+wâthatinaw NI_DIM/ISIS ;
+wâti:wât NI_SG/I_POSS/IM_DIM/IS ;
+wâtihkân NI_DIM/IS ;
+wâwâhkokan NI_DIM/IS ;
+wâwâskîsiw NA_DIM/ISIS ;
+wâwi:wâw2 NI_SG/I_POSS/IM_DIM/IS ;
+wâwikan NI_DIM/IS ;
+wîcîhitowin NI_DIM/IS ;
+wîcîwâkan NA_DIM/IS ;
+wîhcîkaskosiy NI_DIM/ISIS ;
+wîhcîkatâmowin NI_DIM/IS ;
+wîcihiwîwin NI_DIM/IS ;
+wîkihtowin NI_DIM/IS ;
+wîhkîs NI_DIM/IS ;
+wîhkimâkohon NI_DIM/IS ;
+wîhkohkîwin NI_DIM/IS ;
+wîhkask:wîhkaskw NI_DIM/IS ;
+wîhthowin NI_DIM/IS ;
+wîhtikow NA_DIM/ISIS ;
+wîhtamowin NI_DIM/IS ;
+wîkimâkan NA_DIM/IS ;
+wîkopîwiwat NI_DIM/IS ;
+wîkopiy NI_DIM/ISIS ;
+wîni:wîn NI_SG/I_POSS/IM_DIM/IS ;
+wînipîkopithîsîs NA_DIM/IS ;
+wîpâscicikan NI_DIM/IS ;
+wîpâscicikanâhtik:wîpâscicikanâhtikw NI_DIM/IS ;
+wîpâthôs NA_DIM/IS ;
+wîpîhcwânisip NA_DIM/IS ;
+wîpinikîwin NI_DIM/IS ;
+wîpinikan NI_DIM/IS ;
+wîpinikan NA_DIM/IS ;
+wîpinitowin NI_DIM/IS ;
+@P.loc.LOC@wîpahâkonân NA_DIM/IS ;
+wîpahâskwân NI_DIM/IS ;
+wîpahikîwin NI_DIM/IS ;
+wîpahikan NI_DIM/IS ;
+@P.loc.LOC@wîpahiskomân NA_DIM/IS ;
+wîsahkîcâhk:wîsahkîcâhkw NA_DIM/IS ;
+wîskacânis NA_DIM/IS ;
+wîskway NI_DIM/ISIS ;
+wîskwayîkin:wîskwayîkinw NI_DIM/IS ;
+wîsopiy NI_DIM/ISIS ;
+wîstihkân NI_DIM/IS ;
+wîsti:wîst NI_SG/I_POSS/IM_DIM/IS ;
+wîsakimin NI_DIM/IS ;
+@P.number.PL@wiyâhcikana:@P.number.PL@wiyâhcikan NI_DIM/IS ;
+within:withinw NI_DIM/IS ;
+withinwâpisk:withinwâpiskw NI_DIM/IS ;
+wîthôtisiwin NI_DIM/IS ;
+wîtapimâkan NA_DIM/IS ;
+wîtaskîmâkan NA_DIM/IS ;
+wîwîpison NI_DIM/IS ;
+wiyahkwîwin NI_DIM/IS ;
+wiyahkwîsk NA_DIM/IS ;
+wiyâs NI_DIM/IS ;
+wiyâsâpoy NI_DIM/ISIS ;
+wacisconis NI_DIM/IS ;
+waciston NI_DIM/IS ;
+waciy NI_DIM/ISIS ;
+@P.loc.LOC@wacaskos NA_DIM/IS ;
+@P.loc.LOC@wacask:@P.loc.LOC@wacaskw NA_DIM/IS ;
+wacasko-wâti:wacasko-wât NI_SG/I_POSS/IM_DIM/IS ;
+wacasko-wîscis NI_DIM/IS ;
+wacasko-wîsti:wacasko-wîst NI_SG/I_POSS/IM_DIM/IS ;
+wanihikîskanaw NI_DIM/ISIS ;
+wanihikam NI_DIM/IS ;
+wanihikanâhtik:wanihikanâhtikw NI_DIM/IS ;
+wanakwiy NI_DIM/ISIS ;
+wanaskocihcân NI_DIM/IS ;
+wapâw NA_DIM/ISIS ;
+wapâw NI_DIM/ISIS ;
+waskitîskisin NI_DIM/IS ;
+waskitipîsimon NI_DIM/IS ;
+waskow NI_DIM/ISIS ;
+waskahtikway NI_DIM/ISIS ;
+waskatamow NI_DIM/ISIS ;
+@P.loc.LOC@waskway NA_DIM/ISIS ;
+waskwayihtak:waskwayihtakw NI_DIM/IS ;
+waskwayithâkan NI_DIM/IS ;
+masakay:asakay NA_DIM/ISIS ;
+@P.loc.LOC@wâsaskwîcôs NA_DIM/IS ;
+@P.loc.LOC@wâsaskwîtoy NA_DIM/ISIS ;
+watihkwan NI_DIM/IS ;
+@P.loc.LOC@wathakîsk:@P.loc.LOC@wathakîskw NA_DIM/IS ;
+@P.loc.LOC@watoy NA_DIM/ISIS ;
+@P.loc.LOC@watapiy NA_DIM/ISIS ;
+
+
+LEXICON NOUN_DEP_KINSHIP_STEMS
+nîstâw:îstâw NAD_DIM/ISIS ;
+nimôsom:môsom NAD_DIM/IS ;
+nîtimomâw:îtimomâw NID_DIM/ISIS ;
+niciwâmiskwîw:ciwâmiskwîw NAD_DIM/ISIS ;
+nikâwiy:kâwiy NAD_DIM/ISIS ;
+nistîs:stîs NAD_DIM/IS ;
+nitânis:tânis NAD_DIM/IS ;
+nitânisîhkâwin:tânisîhkâwin NAD_DIM/IS ;
+nitîhkwatim:tîhkwatim NAD_DIM/IS ;
+nitôsim:tôsim NAD_DIM/IS ;
+ninâpîm:nâpîm NAD_DIM/IS ;
+nîci-nâpîw NAD_DIM/ISIS ;
+nîcisân:îcisân NAD_DIM/IS ;
+nîki:îk NID_SG/I_DIM/IS ;
+nîscâs:îscâs NAD_DIM/IS ;
+nîtim:îtimw NAD_DIM/IS ;
+nîwa:îw2 NAD_SG/A_DIM/IS ;
+niciwâm:ciwâm NAD_DIM/IS ;
+nimis:mis NAD_DIM/IS ;
+nisîmis:sîmis NAD_DIM/IS ;
+nisikos:sikos NAD_DIM/IS ;
+nistim:stim NAD_DIM/IS ;
+nitîhkwatim:tîhkwatim NAD_DIM/IS ;
+nitôsis:tôsis NAD_DIM/IS ;
+nitôtîm:tôtîm NAD_DIM/IS ;
+nôhkom:ohkom NAD_DIM/IS ;
+nôsisim:ôsisim NAD_DIM/IS ;
+nicâhkos:câhkos NAD_DIM/IS ;
+ocâpiskâkaniwîsiw NAD_DIM/IS ;
+nôhkomis:ohkomis NAD_DIM/IS ;
+nikâwîs:kâwîs NAD_DIM/IS ;
+nîcimos:îcimos NAD_DIM/IS ;
+nîstâw:îstâw NAD_DIM/IS ;
+
+
+LEXICON NOUN_DEP_NONKINSHIP_STEMS
+mispiskwan:spiskwan NID_DIM/IS ;
+maskasiy:askasiy NAD_DIM/ISIS ;
+mahkwan:ahkwan NID_DIM/IS ;
+mâskikan NID_DIM/IS ;
+mihkwâkan:hkwâkan NID_DIM/IS ;
+mihtawakay:htawakay NID_DIM/ISIS ;
+mîpit:îpit NID_DIM/IS ;
+mîscakâs:îscakâs NID_DIM/IS ;
+mitîthaniy:tîthaniy NID_DIM/ISIS ;
+micihcîhkân:cihcîhkân NID_DIM/IS ;
+micihcin:cihcin NID_DIM/IS ;
+micihciy:cihciy NID_DIM/ISIS ;
+mikohtaskway:kohtaskway NID_DIM/ISIS ;
+mikohtaskwayipiy:kohtaskwayipiy NID_DIM/ISIS ;
+mikonîw:konîw NID_DIM/ISIS ;
+mikot:kot NID_DIM/IS ;
+mikwâskoniy:kwâskoniy NID_DIM/ISIS ;
+mikwayaw:kwayaw NID_DIM/ISIS ;
+mipwâm:pwâm NID_DIM/IS ;
+mipwâmikan:pwâmikan NID_DIM/IS ;
+miskât:skât NID_DIM/IS ;
+miskîsik:skîsikw NID_DIM/IS ;
+miskikay:skikay NID_DIM/ISIS ;
+miskon:skon NID_DIM/IS ;
+miskotâkay:skotâkay NID_DIM/ISIS ;
+miskan:skan NID_DIM/IS ;
+misôkan:sôkan NID_DIM/IS ;
+misoy:soy NID_DIM/ISIS ;
+mispiton:spiton NID_DIM/IS ;
+mistikwân:stikwân NID_DIM/IS ;
+mitâpiskan:tâpiskan NID_DIM/IS ;
+mitâs:tâs NAD_DIM/IS ;
+mitîhikan:tîhikan NID_DIM/IS ;
+mitihtiman:tihtiman NID_DIM/IS ;
+mitîthikom:tîthikom NID_DIM/IS ;
+mitithiy:tithiy NID_DIM/ISIS ;
+mitohtôsim:tohtôsim NAD_DIM/IS ;
+mitokan:tokan NID_DIM/IS ;
+mitôn:tôn NID_DIM/IS ;
+mitôskwan:tôskwan NID_DIM/IS ;
+miyaw:iyaw2 NID_DIM/IS ;
+manaway:anaway NID_DIM/ISIS ;
+masakay:asakay NAD_DIM/ISIS ;
+matay:atay NID_DIM/ISIS ;
+mâwikan:âwikan NID_DIM/IS ;
+mihcikwan:hcikwan NID_DIM/IS ;
+mihcawakâs:hcawakâs NID_DIM/IS ;
+miskâhtik:skâhtikw NID_DIM/IS ;
+miskâtikan:skâtikan NID_DIM/IS ;
+@P.number.PL@miskîsikohkâna:@P.number.PL@skîsikohkân NID_DIM/IS ;
+miskiwan:skiwan NID_DIM/IS ;
+mispan:span NID_DIM/IS ;
+mistikwânikan:stikwânikan NID_DIM/IS ;
+mitahtahkwan:tahtahkwan NID_DIM/IS ;
+mitîh:tîh NID_DIM/IS ;
+mitihtihkosiw:tihtihkosiw NAD_DIM/ISIS ;
+mitisiy:tisiy NID_DIM/ISIS ;
+mitakisiy:takisiy NID_DIM/ISIS ;
+mîstakay:îstakay NID_DIM/ISIS ;
+
+
