@@ -21,8 +21,8 @@
 !! ## The file for numerals
 
 LEXICON Numerals !!= * @CODE@
-pêyak% kihci% mitâtahtomtanaw THOUSAND ;
-pêyak% kihci% mitâtahtomitanaw THOUSAND ;
+pîyak% kihci% mitâtahtomtanaw THOUSAND ;
+pîyak% kihci% mitâtahtomitanaw THOUSAND ;
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
@@ -36,10 +36,10 @@ ISOLATED-NUMEXP ; ! for ½ etc.                      !
 
 
 LEXICON THOUSAND
-% ayiwâk%  UNDERTHOUSAND ;	   ! 1100-1999
-% ayiwâk%  TENS ;	   ! 1020-1099
-% ayiwâk%  TEENS ;	   ! 1010-1019
-% ayiwâk%  ONES ;	   ! 1001-1009
+% athiwâk%  UNDERTHOUSAND ;	   ! 1100-1999
+% athiwâk%  TENS ;	   ! 1020-1099
+% athiwâk%  TEENS ;	   ! 1010-1019
+% athiwâk%  ONES ;	   ! 1001-1009
  NUM ;	   ! 1000
 
 
@@ -55,21 +55,21 @@ mitâtahtomtanaw  HUNDRED ;
 LEXICON HUNDREDS !!= * @CODE@
 nîso%    CUODI ;
 nisto%     CUODI ;
-nêwo%  CUODI ;
+nîwo%  CUODI ;
 niyânano%    CUODI ;  !OBS
 nikotwâsiko%    CUODI ;
-têpakohpo%  CUODI ;
-ayinânêwo%  CUODI ;
-kêkâmitâtahto%    CUODI ;
+tîpakohpo%  CUODI ;
+ayinânîwo%  CUODI ;
+kîkâmitâtahto%    CUODI ;
 
 LEXICON CUODI !!= * @CODE@
 mitâtahtomitanaw    HUNDRED ;
 mitâtahtomtanaw   HUNDRED ;
  
 LEXICON HUNDRED !!= * @CODE@
-% ayiwâk%   TENS ;
-% ayiwâk%   TEENS ;
-% ayiwâk%    ONES ;
+% athiwâk%   TENS ;
+% athiwâk%   TEENS ;
+% athiwâk%    ONES ;
  NUM ;
 
 
@@ -80,113 +80,113 @@ nîs TEN ;
 nîsomi TEN;
 nîsi TEN ;
 nistomi TEN ;
-nêmi TEN ;
+nîmi TEN ;
 niyânanomi TEN ;
 nikotwâsomi TEN ;
-têpakohpimi TEN ;
-têpakohpomi TEN ;
-ayinânêwomi TEN ;
-kêkâ-mitâtahtomi TEN ;
-kêkâmitâtahtomi TEN ;
+tîpakohpimi TEN ;
+tîpakohpomi TEN ;
+ayinânîwomi TEN ;
+kîkâ-mitâtahtomi TEN ;
+kîkâmitâtahtomi TEN ;
 
 LEXICON TEN !!= * @CODE@
 tanaw%  ONESTONEXT ;
 tanaw  NUM ;
 
 LEXICON NEARLY
-kêkâc% nistom NEARLY-TEN ;
-kêkâc% nistomi NEARLY-TEN ;
-kêkâc% nêwom NEARLY-TEN ;
-kêkâc% nêmi NEARLY-TEN ;
-kêkâc% nêwomi NEARLY-TEN ;
-kêkâc% nîyânom NEARLY-TEN ;
-kêkâc% nîyânomi NEARLY-TEN ;
-kêkâc% nikotwâsom NEARLY-TEN ;
-kêkâc% têpakohpim NEARLY-TEN ;
-kêkâc% ayinânêwom NEARLY-TEN ;
-kêkâc% kêkâ% mitâtahtomi NEARLY-TEN ;
-kêkâc% kêkâ% mitâtahtom NEARLY-TEN ;
-kêkâ% mitâtahtom NEARLY-TEN ;
-kêkâ% mitâtahtomi NEARLY-TEN ;
-kêkâ% mitatahtomitanaw% ayiwâk% kêkâ% mitâtaht NUM ;
-kêkâc-nistomi NEARLY-TEN ;
-kêkâ-nistomi NEARLY-TEN ;
-kêkâc-nêmi NEARLY-TEN ;
-kêkâc-nêwomi NEARLY-TEN ;
-kêkâ-nêmi NEARLY-TEN ;
-kêkâc-niyânanomi NEARLY-TEN ;
-kêkâ-niyânanomi NEARLY-TEN ;
-kêkâc-nikotwâsomi NEARLY-TEN ;
-kêkâ-nikotwâsomi NEARLY-TEN ;
-kêkâc-têpakohpimi NEARLY-TEN ;
-kêkâc-têpakohpomi NEARLY-TEN ;
-kêkâ-têpakohpimi NEARLY-TEN ;
-kêkâ-têpakohpomi NEARLY-TEN ;
-kêkâc-ayinânêwomi NEARLY-TEN ;
-kêkâ-ayinânêwomi NEARLY-TEN ;
-kêkâc-kêkâ-mitâtahtomi NEARLY-TEN ;
-kêkâ-mitâtahtomi NEARLY-TEN ;
-kêkâ-mitâtahtomitanaw% kêkâ-mitâtaht NUM ;
+kîkâc% nistom NEARLY-TEN ;
+kîkâc% nistomi NEARLY-TEN ;
+kîkâc% nîwom NEARLY-TEN ;
+kîkâc% nîmi NEARLY-TEN ;
+kîkâc% nîwomi NEARLY-TEN ;
+kîkâc% nîyânom NEARLY-TEN ;
+kîkâc% nîyânomi NEARLY-TEN ;
+kîkâc% nikotwâsom NEARLY-TEN ;
+kîkâc% tîpakohpim NEARLY-TEN ;
+kîkâc% ayinânîwom NEARLY-TEN ;
+kîkâc% kîkâ% mitâtahtomi NEARLY-TEN ;
+kîkâc% kîkâ% mitâtahtom NEARLY-TEN ;
+kîkâ% mitâtahtom NEARLY-TEN ;
+kîkâ% mitâtahtomi NEARLY-TEN ;
+kîkâ% mitatahtomitanaw% athiwâk% kîkâ% mitâtaht NUM ;
+kîkâc-nistomi NEARLY-TEN ;
+kîkâ-nistomi NEARLY-TEN ;
+kîkâc-nîmi NEARLY-TEN ;
+kîkâc-nîwomi NEARLY-TEN ;
+kîkâ-nîmi NEARLY-TEN ;
+kîkâc-niyânanomi NEARLY-TEN ;
+kîkâ-niyânanomi NEARLY-TEN ;
+kîkâc-nikotwâsomi NEARLY-TEN ;
+kîkâ-nikotwâsomi NEARLY-TEN ;
+kîkâc-tîpakohpimi NEARLY-TEN ;
+kîkâc-tîpakohpomi NEARLY-TEN ;
+kîkâ-tîpakohpimi NEARLY-TEN ;
+kîkâ-tîpakohpomi NEARLY-TEN ;
+kîkâc-ayinânîwomi NEARLY-TEN ;
+kîkâ-ayinânîwomi NEARLY-TEN ;
+kîkâc-kîkâ-mitâtahtomi NEARLY-TEN ;
+kîkâ-mitâtahtomi NEARLY-TEN ;
+kîkâ-mitâtahtomitanaw% kîkâ-mitâtaht NUM ;
 
 LEXICON NEARLY-TEN
 tanaw NUM ;
 
 
 LEXICON ONESTONEXT !!= * @CODE@
-pêyakosâp NUM ;
+pîyakosâp NUM ;
 nîsosâp NUM ;
 nistosâp NUM ;
-nêwosâp NUM ;
+nîwosâp NUM ;
 niyânanosâp NUM ;
 nikotwâsosâp NUM ;
-têpakohposâp NUM ;
-ayinânêwosâp NUM ;
-kêkâ-mitâtahtosâp NUM ;
-kêkâmitâtahtosâp NUM ;
-pêyako-sâp NUM ;
+tîpakohposâp NUM ;
+ayinânîwosâp NUM ;
+kîkâ-mitâtahtosâp NUM ;
+kîkâmitâtahtosâp NUM ;
+pîyako-sâp NUM ;
 nîso-sâp NUM ;
 nisto-sâp NUM ;
-nêwo-sâp NUM ;
+nîwo-sâp NUM ;
 niyânano-sâp NUM ;
 nikotwâso-sâp NUM ;
-têpakohp-sâp NUM ;
-ayinânêwo-sâp NUM ;
-!kêkâc% nîsitanaw NUM ; ! only for 19 (almost 20)
-ayiwâk%  CARDINAL ;
+tîpakohp-sâp NUM ;
+ayinânîwo-sâp NUM ;
+!kîkâc% nîsitanaw NUM ; ! only for 19 (almost 20)
+athiwâk%  CARDINAL ;
 
 
 
 LEXICON TEENS !!= * @CODE@
-pêyakosâp NUM ;
+pîyakosâp NUM ;
 nîsosâp NUM ;
 nistosâp NUM ;
-nêwosâp NUM ;
+nîwosâp NUM ;
 niyânanosâp NUM ;
 nikotwâsosâp NUM ;
 nikotwâsikosâp NUM ;
-têpakohposâp NUM ;
-ayinânêwosâp NUM ;
-kêkâ-mitâtahtosâp NUM ;
-kêkâmitâtahtosâp NUM ;
-kêkâc% nîsitanaw NUM ;
-kêkâ-nîsitanaw NUM ;
+tîpakohposâp NUM ;
+ayinânîwosâp NUM ;
+kîkâ-mitâtahtosâp NUM ;
+kîkâmitâtahtosâp NUM ;
+kîkâc% nîsitanaw NUM ;
+kîkâ-nîsitanaw NUM ;
 
 LEXICON ONES !!= * @CODE@
 CARDINAL ;
 !ORDINAL ;
 
 LEXICON CARDINAL !!= * @CODE@
-pêyak NUM ;
+pîyak NUM ;
 nîso NUM ;
 nisto NUM ;
-nêwo NUM ;
+nîwo NUM ;
 niyânan NUM ;
 nikotwâsik NUM ;
-têpakohp NUM ;
-ayinânêw NUM ;
-kêkâ-mitâtaht NUM ;
-kêkâmitâtaht NUM ;
-kêkâ% mitâtaht NUM ;
+tîpakohp NUM ;
+ayinânîw NUM ;
+kîkâ-mitâtaht NUM ;
+kîkâmitâtaht NUM ;
+kîkâ% mitâtaht NUM ;
 
-LEXICON NUM !!= * @CODE@ adds +Num+Ipc
-+Num+Ipc: # ;
+LEXICON NUM !!= * @CODE@ adds Ipc+Num
++Ipc+Num: # ;
