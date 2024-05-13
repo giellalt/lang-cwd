@@ -1472,7 +1472,7 @@ LEXC structure in the new cwd FST.
 
 * LEXICON CARDINAL 
 
-* LEXICON NUM  adds +Num+Ipc
+* LEXICON NUM  adds Ipc+Num
 
 * * *
 
