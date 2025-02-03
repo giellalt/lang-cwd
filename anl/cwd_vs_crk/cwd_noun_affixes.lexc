@@ -1,0 +1,333 @@
+LEXICON NOUN_PREFIXES
+@P.noun.Indep@     NOUN_INDEP_PREFIXES ;
+@P.noun.DepKin@    NOUN_DEP_KINSHIP_PREFIXES ;
+@P.noun.DepNonKin@ NOUN_DEP_NONKINSHIP_PREFIXES ;
+LEXICON NOUN_INDEP_PREFIXES
+@P.person.NI@:@P.person.NI@nit2%<  PRENOUNS_GATE ;
+@P.person.KI@:@P.person.KI@kit2%<  PRENOUNS_GATE ;
+@P.person.O@:@P.person.O@ot2%<     PRENOUNS_GATE ;
+@P.person.NULL@                    PRENOUNS_GATE ;
+LEXICON NOUN_DEP_KINSHIP_PREFIXES
+@P.person.NI@:@P.person.NI@ni4%<   PRENOUNS_GATE ;
+@P.person.KI@:@P.person.KI@ki4%<   PRENOUNS_GATE ;
+@P.person.O@:@P.person.O@w3%<      PRENOUNS_GATE ;
+LEXICON NOUN_DEP_NONKINSHIP_PREFIXES
+@P.person.NI@:@P.person.NI@ni4%<   PRENOUNS_GATE ;
+@P.person.KI@:@P.person.KI@ki4%<   PRENOUNS_GATE ;
+@P.person.O@:@P.person.O@w3%<      PRENOUNS_GATE ;
+@P.person.MI@0:@P.person.MI@0mi4%< PRENOUNS_GATE ;
+LEXICON PRENOUNS_GATE
+NOUNSTEMS_GATE ;
+PRENOUNS ;
+LEXICON PRENOUNS_BOUND
+@U.joiner.NULL@@D.cnj.CC@:@U.joiner.NULL@@D.cnj.CC@%^EGLOT%< PRENOUNS_GATE ;
+@U.joiner.hyphen@@D.cnj.CC@:@U.joiner.hyphen@@D.cnj.CC@-%<   PRENOUNS_GATE ;
+@U.joiner.NULL@@R.cnj.CC@@C.cnj@:@U.joiner.NULL@@R.cnj.CC@@C.cnj@%^IC%^EGLOT%< PRENOUNS_GATE ;
+@U.joiner.hyphen@@R.cnj.CC@@C.cnj@:@U.joiner.hyphen@@R.cnj.CC@@C.cnj@%^IC-%<   PRENOUNS_GATE ;
+LEXICON NOUNSTEMS_GATE
+@R.noun.Indep@     NOUN_INDEP_STEMS ;
+@R.noun.DepKin@    NOUN_DEP_KINSHIP_STEMS ;
+@R.noun.DepNonKin@ NOUN_DEP_NONKINSHIP_STEMS ;
+LEXICON NA_POSS/IM
+@P.theme.IM@ NA ;
+LEXICON NA_POSS/IM2
+@P.theme.IM2@ NA ;
+LEXICON NA_DIM/IS
+@P.dim.IS@ NA ;
+LEXICON NA_DIM/ISIS
+@P.dim.ISIS@ NA ;
+LEXICON NA_DIM/DIM
+@P.dim.DIM@ NA ;
+LEXICON NA_POSS/IM_DIM/IS
+@P.theme.IM@ NA_DIM/IS ;
+LEXICON NA_POSS/IM_DIM/ISIS
+@P.theme.IM@ NA_DIM/ISIS ;
+LEXICON NA_POSS/IM2_DIM/IS
+@P.theme.IM2@ NA_DIM/IS ;
+LEXICON NA_POSS/IM2_DIM/ISIS
+@P.theme.IM2@ NA_DIM/ISIS ;
+LEXICON NA_SG/A_POSS/IM
+@P.sg.A@ NA_POSS/IM ;
+LEXICON NA_SG/I_POSS/IM
+@P.sg.I@ NA_POSS/IM ;
+LEXICON NA_SG/A_POSS/IM_DIM/IS
+@P.sg.A@ NA_POSS/IM_DIM/IS ;
+LEXICON NA_SG/A_POSS/IM_DIM/ISIS
+@P.sg.A@ NA_POSS/IM_DIM/ISIS ;
+LEXICON NA_SG/I_POSS/IM_DIM/IS
+@P.sg.I@ NA_POSS/IM_DIM/IS ;
+LEXICON NA_SG/I_POSS/IM_DIM/ISIS
+@P.sg.I@ NA_POSS/IM_DIM/ISIS ;
+LEXICON NAD_POSS/IM
+@P.theme.IM@ NAD ;
+LEXICON NAD_POSS/IM2
+@P.theme.IM2@ NAD ;
+LEXICON NAD_DIM/IS
+@P.dim.IS@ NAD ;
+LEXICON NAD_DIM/ISIS
+@P.dim.ISIS@ NAD ;
+LEXICON NAD_DIM/DIM
+@P.dim.DIM@ NAD ;
+LEXICON NAD_POSS/IM_DIM/IS
+@P.theme.IM@ NAD_DIM/IS ;
+LEXICON NAD_POSS/IM_DIM/ISIS
+@P.theme.IM@ NAD_DIM/ISIS ;
+LEXICON NAD_POSS/IM2_DIM/IS
+@P.theme.IM2@ NAD_DIM/IS ;
+LEXICON NAD_POSS/IM2_DIM/ISIS
+@P.theme.IM2@ NAD_DIM/ISIS ;
+LEXICON NAD_SG/A
+@P.sg.A@ NAD ;
+LEXICON NAD_SG/I
+@P.sg.I@ NAD ;
+LEXICON NAD_SG/A_POSS/IM
+@P.sg.A@ NAD_POSS/IM ;
+LEXICON NAD_SG/I_POSS/IM
+@P.sg.I@ NAD_POSS/IM ;
+LEXICON NAD_SG/A_POSS/IM_DIM/IS
+@P.sg.A@ NAD_POSS/IM_DIM/IS ;
+LEXICON NAD_SG/A_POSS/IM_DIM/ISIS
+@P.sg.A@ NAD_POSS/IM_DIM/ISIS ;
+LEXICON NAD_SG/I_POSS/IM_DIM/IS
+@P.sg.I@ NAD_POSS/IM_DIM/IS ;
+LEXICON NAD_SG/I_POSS/IM_DIM/ISIS
+@P.sg.I@ NAD_POSS/IM_DIM/ISIS ;
+LEXICON NI_POSS/IM
+@P.theme.IM@ NI ;
+LEXICON NI_POSS/IM2
+@P.theme.IM2@ NI ;
+LEXICON NI_DIM/IS
+@P.dim.IS@ NI ;
+LEXICON NI_DIM/ISIS
+@P.dim.ISIS@ NI ;
+LEXICON NI_DIM/DIM
+@P.dim.DIM@ NI ;
+LEXICON NI_POSS/IM_DIM/IS
+@P.theme.IM@ NI_DIM/IS ;
+LEXICON NI_POSS/IM_DIM/ISIS
+@P.theme.IM@ NI_DIM/ISIS ;
+LEXICON NI_POSS/IM2_DIM/IS
+@P.theme.IM2@ NI_DIM/IS ;
+LEXICON NI_POSS/IM2_DIM/ISIS
+@P.theme.IM2@ NI_DIM/ISIS ;
+LEXICON NI_SG/I_POSS/IM
+@P.sg.I@ NI_POSS/IM ;
+LEXICON NI_SG/I_POSS/IM_DIM/IS
+@P.sg.I@ NI_POSS/IM_DIM/IS ;
+LEXICON NI_SG/I_POSS/IM_DIM/ISIS
+@P.sg.I@ NI_POSS/IM_DIM/ISIS ;
+LEXICON NID_POSS/IM
+@P.theme.IM@ NID ;
+LEXICON NID_POSS/IM2
+@P.theme.IM2@ NID ;
+LEXICON NID_DIM/IS
+@P.dim.IS@ NID ;
+LEXICON NID_DIM/ISIS
+@P.dim.ISIS@ NID ;
+LEXICON NID_DIM/DIM
+@P.dim.DIM@ NID ;
+LEXICON NID_POSS/IM_DIM/IS
+@P.theme.IM@ NID_DIM/IS ;
+LEXICON NID_POSS/IM_DIM/ISIS
+@P.theme.IM@ NID_DIM/ISIS ;
+LEXICON NID_POSS/IM2_DIM/IS
+@P.theme.IM2@ NID_DIM/IS ;
+LEXICON NID_POSS/IM2_DIM/ISIS
+@P.theme.IM2@ NID_DIM/ISIS ;
+LEXICON NID_SG/I
+@P.sg.I@ NID ;
+LEXICON NID_SG/I_POSS/IM
+@P.sg.I@ NID_POSS/IM ;
+LEXICON NID_SG/A_POSS/IM_DIM/ISIS
+@P.sg.A@ NID_POSS/IM_DIM/ISIS ;
+LEXICON NID_SG/I_POSS/IM_DIM/IS
+@P.sg.I@ NID_POSS/IM_DIM/IS ;
+LEXICON NID_SG/I_POSS/IM_DIM/ISIS
+@P.sg.I@ NID_POSS/IM_DIM/ISIS ;
+LEXICON NA
++N+A:0 NA_POSS_GATE1 ;
+LEXICON NAD
+@P.dep.DEP@+N+A+D:@P.dep.DEP@0 NA_POSS_GATE1 ;
+LEXICON NI
++N+I:0 NI_POSS_GATE1 ;
+LEXICON NID
+@P.dep.DEP@+N+I+D:@P.dep.DEP@0 NI_POSS_GATE1 ;
+LEXICON NA_POSS_GATE1
+@D.person.NULL@ NA_THEME_SUFFIX1 ;
+@R.person.NULL@ NA_DIM_GATE ;
+LEXICON NA_THEME_SUFFIX1
+@D.theme.IM@0                                                    NA_DIM_GATE ;
+@R.theme.IM@@C.sg@:@R.theme.IM@@C.sg@%>i2m                       NA_DIM_GATE ;
+@R.theme.IM2@@C.sg@:@R.theme.IM2@@C.sg@%>i2m                     NA_POSS_SUFFIXES ;
+@D.theme.IM@@P.err.Thm@@C.sg@:@D.theme.IM@@P.err.Thm@@C.sg@%>i2m NA_DIM_GATE ;
+@R.theme.IM@@P.err.Thm@0                                         NA_DIM_GATE ;
+@R.theme.IM2@@P.err.Thm@0                                        NA_POSS_SUFFIXES ;
+LEXICON NA_DIM_GATE
+@P.dim.NULL@                          NA_POSS_GATE2 ;
+@D.dep@+Der/Dim+N+A:@D.dep@           NA_DIM_SUFFIX ;
+@R.dep.DEP@+Der/Dim+N+A+D:@R.dep.DEP@ NA_DIM_SUFFIX ;
+LEXICON NA_DIM_SUFFIX
+@R.dim.IS@@C.sg@:@R.dim.IS@@C.sg@%>i2^DIMs                               NA_POSS_GATE2 ;
+@R.dim.ISIS@@C.sg@:@R.dim.ISIS@@C.sg@%>i2^DIMsis                         NA_POSS_GATE2 ;
+@D.dim@@C.sg@:@D.dim@@C.sg@%>i2^DIMs                                     NA_POSS_GATE2 ;
+@D.dim@@C.sg@:@D.dim@@C.sg@%>i2^DIMsis                                   NA_POSS_GATE2 ;
+@R.dim.DIM@@P.err2.Dim@@C.sg@:@R.dim.DIM@@P.err2.Dim@@C.sg@%>i2^DIMs     NA_POSS_GATE2 ;
+@R.dim.DIM@@P.err2.Dim@@C.sg@:@R.dim.DIM@@P.err2.Dim@@C.sg@%>i2^DIMsis   NA_POSS_GATE2 ;
+@R.dim.ISIS@@P.err2.Dim@@C.sg@:@R.dim.ISIS@@P.err2.Dim@@C.sg@%>i2^DIMs   NA_POSS_GATE2 ;
+@R.dim.IS@@P.err2.Dim@@C.sg@:@R.dim.IS@@P.err2.Dim@@C.sg@%>i2^DIMsis     NA_POSS_GATE2 ;
+LEXICON NA_POSS_GATE2
+@D.person.NULL@ NA_THEME_SUFFIX2 ;
+@R.person.NULL@ NA_NUMBER_OBV_LOC_SUFFIXES ;
+LEXICON NA_THEME_SUFFIX2
+@D.theme.IM2@0                                                                             NA_POSS_SUFFIXES ;
+@D.dim.NULL@@R.theme.IM2@@C.sg@:@D.dim.NULL@@R.theme.IM2@@C.sg@%>i2m                       NA_POSS_SUFFIXES ;
+@D.dim.NULL@@R.theme.IM2@@P.err.Thm@0                                                      NA_POSS_SUFFIXES ;
+@D.dim.NULL@@D.theme.IM2@@P.err.Thm@@C.sg@:@D.dim.NULL@@D.theme.IM2@@P.err.Thm@@C.sg@%>i2m NA_POSS_SUFFIXES ;
+LEXICON NA_POSS_SUFFIXES
+@U.person.NI@+Px1Sg:@U.person.NI@0 NA_NUMBER_OBV_LOC_SUFFIXES ;
+@U.person.KI@+Px2Sg:@U.person.KI@0 NA_NUMBER_OBV_LOC_SUFFIXES ;
+@U.person.O@+Px3Sg:@U.person.O@0   NA_NUMBER_OBV_LOC_SUFFIXES ;
+@U.person.NULL@                    NA_NUMBER_OBV_LOC_SUFFIXES ;
+@U.person.NI@@C.sg@+Px1Pl:@U.person.NI@@C.sg@%>i2nân  NA_NUMBER_OBV_LOC_SUFFIXES ;
+@U.person.KI@@C.sg@+Px12Pl:@U.person.KI@@C.sg@%>i2naw NA_NUMBER_OBV_LOC_SUFFIXES ;
+@U.person.KI@@C.sg@+Px2Pl:@U.person.KI@@C.sg@%>i2wâw  NA_NUMBER_OBV_LOC_SUFFIXES ;
+@U.person.O@@C.sg@+Px3Pl:@U.person.O@@C.sg@0%>i2wâw   NA_NUMBER_OBV_LOC_SUFFIXES ;
+@U.person.O@@C.sg@+Px4Sg/Pl:@U.person.O@@C.sg@%>i2thiw NA_NUMBER_OBV_LOC_SUFFIXES ;
+@U.person.MI@+PxX:@U.person.MI@0        NA_NUMBER_OBV_LOC_SUFFIXES ;
+@D.loc.NULL@ NA_POSS_LOC_COMBO_SUFFIXES ;
+LEXICON NA_POSS_LOC_COMBO_SUFFIXES
+@U.person.NI@+Px1Sg+Loc:@U.person.NI@%>i2hk NOUN_ENDLEX ;
+@U.person.KI@+Px2Sg+Loc:@U.person.KI@%>i2hk NOUN_ENDLEX ;
+@U.person.O@+Px3Sg+Loc:@U.person.O@%>i2hk   NOUN_ENDLEX ;
+@U.person.NI@+Px1Pl+Loc:@U.person.NI@%>i2nâhk  NOUN_ENDLEX ;
+@U.person.KI@+Px12Pl+Loc:@U.person.KI@%>i2nâhk NOUN_ENDLEX ;
+@U.person.KI@+Px2Pl+Loc:@U.person.KI@%>i2wâhk  NOUN_ENDLEX ;
+@U.person.O@+Px3Pl+Loc:@U.person.O@0%>i2wâhk   NOUN_ENDLEX ;
+@U.person.O@+Px4Sg/Pl+Loc:@U.person.O@%>i2thihk NOUN_ENDLEX ;
+@U.person.MI@+PxX+Loc:@U.person.MI@%>i2hk          NOUN_ENDLEX ;
+@U.person.MI@+PxX+Distr:@U.person.MI@%>i2nâhk      NOUN_ENDLEX ;
+LEXICON NA_NUMBER_OBV_LOC_SUFFIXES
+@D.number.PL@@D.person.O@ NA_NUMBER_SUFFIXES_SG ;
+@R.person.NULL@+Obv:@R.person.NULL@%>a NOUN_ENDLEX ;
+@D.person.NULL@@D.person.O@@R.im.IM@+Obv:@D.person.NULL@@D.person.O@@R.im.IM@%>a NOUN_ENDLEX ;
+@D.person.NULL@@D.person.O@@D.im.IM@+Obv:@D.person.NULL@@D.person.O@@D.im.IM@%>a NOUN_ENDLEX ;
+@D.person.NULL@@R.person.O@+Obv:@D.person.NULL@@R.person.O@%>a NOUN_ENDLEX ;
+@D.number.SG@@D.person.O@+Pl:@D.number.SG@@D.person.O@%>ak NOUN_ENDLEX ;
+@D.loc.NULL@@R.person.NULL@+Loc:@D.loc.NULL@@R.person.NULL@%>i2hk NOUN_ENDLEX ;
+@R.person.NULL@+Distr:@R.person.NULL@%>i2nâhk NOUN_ENDLEX ;
+LEXICON NA_NUMBER_SUFFIXES_SG
+@D.sg@+Sg:@D.sg@0 NOUN_ENDLEX ;
+@R.sg.A@+Sg:@R.sg.A@%>a NOUN_ENDLEX ;
+@R.sg.I@+Sg:@R.sg.I@%>i NOUN_ENDLEX ;
+LEXICON NI_POSS_GATE1
+@D.person.NULL@ NI_THEME_SUFFIX1 ;
+@R.person.NULL@ NI_DIM_GATE ;
+LEXICON NI_THEME_SUFFIX1
+@D.theme.IM@0                                                    NI_DIM_GATE ;
+@R.theme.IM@@C.sg@:@R.theme.IM@@C.sg@%>i2m                       NI_DIM_GATE ;
+@R.theme.IM2@@C.sg@:@R.theme.IM2@@C.sg@%>i2m                     NI_POSS_SUFFIXES ;
+@D.theme.IM@@P.err.Thm@@C.sg@:@D.theme.IM@@P.err.Thm@@C.sg@%>i2m NI_DIM_GATE ;
+@R.theme.IM@@P.err.Thm@0                                         NI_DIM_GATE ;
+@R.theme.IM2@@P.err.Thm@0                                        NI_POSS_SUFFIXES ;
+LEXICON NI_DIM_GATE
+@P.dim.NULL@                          NI_POSS_GATE2 ;
+@D.dep@+Der/Dim+N+I:@D.dep@           NI_DIM_SUFFIX ;
+@R.dep.DEP@+Der/Dim+N+I+D:@R.dep.DEP@ NI_DIM_SUFFIX ;
+LEXICON NI_DIM_SUFFIX
+@R.dim.IS@@C.sg@:@R.dim.IS@@C.sg@%>i2^DIMs                               NI_POSS_GATE2 ;
+@R.dim.ISIS@@C.sg@:@R.dim.ISIS@@C.sg@%>i2^DIMsis                         NI_POSS_GATE2 ;
+@D.dim@@C.sg@:@D.dim@@C.sg@%>i2^DIMs                                     NI_POSS_GATE2 ;
+@D.dim@@C.sg@:@D.dim@@C.sg@%>i2^DIMsis                                   NI_POSS_GATE2 ;
+@R.dim.DIM@@P.err2.Dim@@C.sg@:@R.dim.DIM@@P.err2.Dim@@C.sg@%>i2^DIMs     NI_POSS_GATE2 ;
+@R.dim.DIM@@P.err2.Dim@@C.sg@:@R.dim.DIM@@P.err2.Dim@@C.sg@%>i2^DIMsis   NI_POSS_GATE2 ;
+@R.dim.ISIS@@P.err2.Dim@@C.sg@:@R.dim.ISIS@@P.err2.Dim@@C.sg@%>i2^DIMs   NI_POSS_GATE2 ;
+@R.dim.IS@@P.err2.Dim@@C.sg@:@R.dim.IS@@P.err2.Dim@@C.sg@%>i2^DIMsis     NI_POSS_GATE2 ;
+LEXICON NI_POSS_GATE2
+@D.person.NULL@ NI_THEME_SUFFIX2 ;
+@R.person.NULL@ NI_NUMBER_LOC_SUFFIXES ;
+LEXICON NI_THEME_SUFFIX2
+@D.theme.IM2@0                                                                             NI_POSS_SUFFIXES ;
+@D.dim.NULL@@R.theme.IM2@@C.sg@:@D.dim.NULL@@R.theme.IM2@@C.sg@%>i2m                       NI_POSS_SUFFIXES ;
+@D.dim.NULL@@R.theme.IM2@@P.err.Thm@0                                                      NI_POSS_SUFFIXES ;
+@D.dim.NULL@@D.theme.IM2@@P.err.Thm@@C.sg@:@D.dim.NULL@@D.theme.IM2@@P.err.Thm@@C.sg@%>i2m NI_POSS_SUFFIXES ;
+LEXICON NI_POSS_SUFFIXES
+@U.person.NI@+Px1Sg:@U.person.NI@0 NI_NUMBER_LOC_SUFFIXES ;
+@U.person.KI@+Px2Sg:@U.person.KI@0 NI_NUMBER_LOC_SUFFIXES ;
+@U.person.O@+Px3Sg:@U.person.O@0   NI_NUMBER_LOC_SUFFIXES ;
+@U.person.NULL@                    NI_NUMBER_LOC_SUFFIXES ;
+@U.person.NI@@C.sg@+Px1Pl:@U.person.NI@@C.sg@%>i2nân  NI_NUMBER_LOC_SUFFIXES ;
+@U.person.KI@@C.sg@+Px12Pl:@U.person.KI@@C.sg@%>i2naw NI_NUMBER_LOC_SUFFIXES ;
+@U.person.KI@@C.sg@+Px2Pl:@U.person.KI@@C.sg@%>i2wâw  NI_NUMBER_LOC_SUFFIXES ;
+@U.person.O@@C.sg@+Px3Pl:@U.person.O@@C.sg@0%>i2wâw   NI_NUMBER_LOC_SUFFIXES ;
+@U.person.O@@C.sg@@C.sg@+Px4Sg/Pl:@U.person.O@@C.sg@@C.sg@%>i2thiw NI_NUMBER_LOC_SUFFIXES ;
+@U.person.MI@+PxX:@U.person.MI@0        NI_NUMBER_LOC_SUFFIXES ;
+NI_POSS_LOC_COMBO_SUFFIXES ;
+LEXICON NI_POSS_LOC_COMBO_SUFFIXES
+@U.person.NI@+Px1Sg+Loc:@U.person.NI@%>i2hk  NOUN_ENDLEX ;
+@U.person.NI@+Px1Sg+Loc:@U.person.NI@%>i2h  NOUN_ENDLEX ;
+@U.person.KI@+Px2Sg+Loc:@U.person.KI@%>i2hk NOUN_ENDLEX ;
+@U.person.KI@+Px2Sg+Loc:@U.person.KI@%>i2h NOUN_ENDLEX ;
+@U.person.O@+Px3Sg+Loc:@U.person.O@%>i2hk   NOUN_ENDLEX ;
+@U.person.O@+Px3Sg+Loc:@U.person.O@%>i2h   NOUN_ENDLEX ;
+@U.person.NI@+Px1Pl+Loc:@U.person.NI@%>i2nâhk  NOUN_ENDLEX ;
+@U.person.NI@+Px1Pl+Loc:@U.person.NI@%>i2nâh  NOUN_ENDLEX ;
+@U.person.KI@+Px12Pl+Loc:@U.person.KI@%>i2nâhk NOUN_ENDLEX ;
+@U.person.KI@+Px12Pl+Loc:@U.person.KI@%>i2nâh NOUN_ENDLEX ;
+@U.person.KI@+Px2Pl+Loc:@U.person.KI@%>i2wâhk  NOUN_ENDLEX ;
+@U.person.KI@+Px2Pl+Loc:@U.person.KI@%>i2wâh  NOUN_ENDLEX ;
+@U.person.O@+Px3Pl+Loc:@U.person.O@0%>i2wâhk   NOUN_ENDLEX ;
+@U.person.O@+Px3Pl+Loc:@U.person.O@0%>i2wâh   NOUN_ENDLEX ;
+@U.person.O@+Px4Sg/Pl+Loc:@U.person.O@%>i2thihk NOUN_ENDLEX ;
+@U.person.O@+Px4Sg/Pl+Loc:@U.person.O@%>i2thih NOUN_ENDLEX ;
+@U.person.MI@+PxX+Loc:@U.person.MI@%>i2hk NOUN_ENDLEX ;
+@U.person.MI@+PxX+Loc:@U.person.MI@%>i2h NOUN_ENDLEX ;
+LEXICON NI_NUMBER_LOC_SUFFIXES
+@D.number.PL@ NI_NUMBER_SUFFIXES_SG ; 
+@D.number.SG@+Pl:@D.number.SG@%>a NOUN_ENDLEX ;
+@R.person.NULL@+Loc:@R.person.NULL@%>i2hk NOUN_ENDLEX ;
+@R.person.NULL@+Loc:@R.person.NULL@%>i2h NOUN_ENDLEX ;
+LEXICON NI_NUMBER_SUFFIXES_SG
+@D.sg@+Sg:@D.sg@0 NOUN_ENDLEX ;
+@R.sg.I@+Sg:@R.sg.I@%>i NOUN_ENDLEX ;
+LEXICON NOUN_IRREGULARS
+ôsi+N+I+Px1Sg:nitôt OSI_SUFFIXES ;
+ôsi+N+I+Px2Sg:kitôt OSI_SUFFIXES ;
+ôsi+N+I+Px3Sg:otôt OSI_SUFFIXES ;
+ôsi+N+I+Px1Pl:nitôtinân OSI_SUFFIXES ;
+ôsi+N+I+Px12Pl:kitôtinaw OSI_SUFFIXES ;
+ôsi+N+I+Px2Pl:kitôtiwâw OSI_SUFFIXES ;
+ôsi+N+I+Px3Pl:otôtiwâw OSI_SUFFIXES ;
+ôsi+N+I+Px4Sg/Pl:otôtithiw OSI_SUFFIXES ;
+ôsi+N+I+Px1Sg+Loc:nitôtihk # ;
+ôsi+N+I+Px1Sg+Loc:nitôtih # ;
+ôsi+N+I+Px2Sg+Loc:kitôtihk # ;
+ôsi+N+I+Px2Sg+Loc:kitôtih # ;
+ôsi+N+I+Px3Sg+Loc:otôtihk # ;
+ôsi+N+I+Px3Sg+Loc:otôtih # ;
+ôsi+N+I+Px1Pl+Loc:nitôtinâhk # ;
+ôsi+N+I+Px1Pl+Loc:nitôtinâh # ;
+ôsi+N+I+Px12Pl+Loc:kitôtinâhk # ;
+ôsi+N+I+Px12Pl+Loc:kitôtinâh # ;
+ôsi+N+I+Px2Pl+Loc:kitôtiwâhk # ;
+ôsi+N+I+Px2Pl+Loc:kitôtiwâh # ;
+ôsi+N+I+Px3Pl+Loc:otôtiwâhk # ;
+ôsi+N+I+Px3Pl+Loc:otôtiwâh # ;
+ôsi+N+I+Px4Sg/Pl+Loc:otôtithihk # ;
+ôsi+N+I+Px4Sg/Pl+Loc:otôtithih # ;
+LEXICON OSI_SUFFIXES
++Sg:0 # ;
++Pl:a # ;
+LEXICON NOUN_ENDLEX
+@R.dim.DIM@:@R.dim.DIM@%^DIM NOUN_ENDLEX2 ;
+@D.dim.DIM@ NOUN_ENDLEX2 ;
+LEXICON NOUN_ENDLEX2
+@R.err.Thm@+Err/Thm:@R.err.Thm@0 NOUN_ENDLEX3 ;
+@D.err.Thm@ NOUN_ENDLEX3 ;
+LEXICON NOUN_ENDLEX3
+@R.err2.Dim@+Err/Dim:@R.err2.Dim@0 NOUN_ENDLEX4 ;
+@D.err2.Dim@ NOUN_ENDLEX4 ;
+LEXICON NOUN_ENDLEX4
+@D.frag.FRAG@@D.cnj.CC@@R.joiner.NULL@+Err/Orth:@D.frag.FRAG@@D.cnj.CC@@R.joiner.NULL@ # ;
+@D.frag.FRAG@@D.cnj.CC@@D.joiner.NULL@ # ;
+@D.frag.FRAG@@R.cnj.CC@@R.joiner.NULL@+Err/Orth:@D.frag.FRAG@@R.cnj.CC@@R.joiner.NULL@%^IC # ;
+@D.frag.FRAG@@R.cnj.CC@@D.joiner.NULL@:@D.frag.FRAG@@R.cnj.CC@@D.joiner.NULL@%^IC # ;

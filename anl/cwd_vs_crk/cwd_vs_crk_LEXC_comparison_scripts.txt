@@ -1,0 +1,65 @@
+## Scripts for creating comparisons of CWD and CRK source (LEXC)
+
+# PHONOLOGY
+
+diff src/fst/morphology/phonology.xfscript ../lang-crk/src/fst/morphology/phonology.xfscript| grep -v '!!€' | egrep '^[<>]' | egrep -v '^[<>][ ]*!' | grep define > misc/cwd_vs_crk/cwk_vs_cwd_phonology.diff
+
+# SPELLRELAX
+
+cat src/fst/orthography/spellrelax.regex | egrep -v '^#' | gawk 'NF!=0 { sub("[ ]*#.*$",""); print; }' > Misc/cwd_vs_crk/cwd_spellrelax.txt
+
+cat ../lang-crk/src/fst/orthography/spellrelax.regex | egrep -v '^[#!]' | gawk 'NF!=0 { sub("[ ]*[!#].*$",""); print; }'  > Misc/cwd_vs_crk/crk_spellrelax.txt
+
+cat ../lang-crk/src/fst/orthography/spellrelax.regex | egrep -v '^[#!]' | gawk 'NF!=0 { sub("[ ]*[!#].*$",""); sub("[ ]+,[ ]*$", ","); sub("[ ]+,,[ ]*$",",,");  print; }' | sort > Misc/cwd_vs_crk/crk_spellrelax.txt2
+
+cat src/fst/orthography/spellrelax.regex | egrep -v '^[#!]' | gawk 'NF!=0 { sub("[ ]*[!#].*$",""); sub("[ ]+,[ ]*$", ","); sub("[ ]+,,[ ]*$",",,");  print; }' | sort > Misc/cwd_vs_crk/cwd_spellrelax.txt2
+
+cat Misc/cwd_vs_crk/cwd_spellrelax.txt2 | gawk 'BEGIN { while((getline line < "Misc/cwd_vs_crk/crk_spellrelax.txt2")!=0) { crk[line]=rule; ncrk++; } } { cwd[$0]=$0; ncwd++; } END { for(r in cwd) if(r in crk) cwdincrk++; for(r in crk) if(!(r in cwd)) crknotincwd++; print "CRK: ", ncrk, ncrk-crknotincwd, crknotincwd; print "CWD: " ncwd, cwdincrk, ncwd-cwdincrk; }' 
+
+# LEXC
+
+# Creating regularized LEXC content for verbs
+
+cat src/fst/morphology/affixes/verb_affixes.lexc | egrep -v '^!' | gawk 'NF!=0 { sub("[ \t]*!.*$",""); print; }' > Misc/cwd_vs_crk/cwd_verb_affixes.lexc
+
+cat ../lang-crk/src/fst/morphology/affixes/verb_affixes.lexc | egrep -v '^!' | gawk 'NF!=0 { sub("[ \t]*!.*$",""); print; }' > Misc/cwd_vs_crk/crk_verb_affixes.lexc
+
+# Creating regularized LEXC content for nouns
+
+cat src/fst/morphology/affixes/noun_affixes.lexc | egrep -v '^!' | gawk 'NF!=0 { sub("[ \t]*!.*$",""); print; }' > Misc/cwd_vs_crk/cwd_noun_affixes.lexc
+
+cat ../lang-crk/src/fst/morphology/affixes/noun_affixes.lexc | egrep -v '^!' | gawk 'NF!=0 { sub("[ \t]*!.*$",""); print; }' > Misc/cwd_vs_crk/cwd_vs_crk/crk_noun_affixes.lexc
+
+# Verb comparison, when preverbs are included
+
+diff -y Misc/cwd_vs_crk/cwd_verb_affixes.lexc Misc/cwd_vs_crk/crk_verb_affixes.lexc | gawk 'match($0,"[ \t][<]")!=0 { cwdnew++; } match($0,"[ \t][\\|]")!=0 { cwdmod++; } match($0,"[ \t][>]")!=0 { cwdexcl++; } match($0,"[ \t][<>\\|]")==0 { cwdcrk++; } END { printf "%7i - Aggregate lines\n", NR; printf "%7i - lines in 1\n", cwdnew+cwdmod+cwdcrk; printf "%7i - lines in 2\n", cwdcrk+cwdexcl+cwdmod; printf "%7i - New lines in 1\n", cwdnew; printf "%7i - Modified lines from 2 to 1\n", cwdmod; printf "%7i - Lines from 2 excluded in 1\n", cwdexcl; printf "%7i - Unmodified lines from 2 in 1\n", cwdcrk; }'
+gawk: cmd. line:1: (FILENAME=- FNR=243) warning: Invalid multibyte data detected. There may be a mismatch between your data and your locale.
+   1532 - Aggregate lines
+   1288 - lines in 1
+   1461 - lines in 2
+     71 - New lines in 1
+    103 - Modified lines from 2 to 1
+    244 - Lines from 2 excluded in 1
+   1114 - Unmodified lines from 2 in 1
+
+# Verb comparison, if lexical preverbs are excluded
+
+diff -y Misc/cwd_vs_crk/cwd_verb_affixes.lexc Misc/cwd_vs_crk/crk_verb_affixes.lexc| gawk 'match($0, "^[ \t]+[>].*PV/")==0' | gawk 'match($0,"[ \t][<]")!=0 { cwdnew++; } match($0,"[ \t][\\|]")!=0 { cwdmod++; } match($0,"[ \t][>]")!=0 { cwdexcl++; } match($0,"[ \t][<>\\|]")==0 { cwdcrk++; } END { printf "%7i - Aggregate lines\n", NR; printf "%7i - lines in 1\n", cwdnew+cwdmod+cwdcrk; printf "%7i - lines in 2\n", cwdcrk+cwdexcl+cwdmod; printf "%7i - New lines in 1\n", cwdnew; printf "%7i - Modified lines from 2 to 1\n", cwdmod; printf "%7i - Lines from 2 excluded in 1\n", cwdexcl; printf "%7i - Unmodified lines from 2 in 1\n", cwdcrk; }' | less
+   1296 - Aggregate lines
+   1288 - lines in 1
+   1225 - lines in 2
+     71 - New lines in 1
+    103 - Modified lines from 2 to 1
+      8 - Lines from 2 excluded in 1
+   1114 - Unmodified lines from 2 in 1
+
+# Noun comparison
+
+diff -y Misc/cwd_vs_crk/cwd_noun_affixes.lexc Misc/cwd_vs_crk/crk_noun_affixes.lexc | gawk 'match($0,"[ \t][<]")!=0 { cwdnew++; } match($0,"[ \t][\\|]")!=0 { cwdmod++; } match($0,"[ \t][>]")!=0 { cwdexcl++; } match($0,"[ \t][<>\\|]")==0 { cwdcrk++; } END { printf "%7i - Aggregate lines\n", NR; printf "%7i - lines in 1\n", cwdnew+cwdmod+cwdcrk; printf "%7i - lines in 2\n", cwdcrk+cwdexcl+cwdmod; printf "%7i - New lines in 1\n", cwdnew; printf "%7i - Modified lines from 2 to 1\n", cwdmod; printf "%7i - Lines from 2 excluded in 1\n", cwdexcl; printf "%7i - Unmodified lines from 2 in 1\n", cwdcrk; }'
+    392 - Aggregate lines
+    333 - lines in 1
+    195 - lines in 2
+    197 - New lines in 1
+     61 - Modified lines from 2 to 1
+     59 - Lines from 2 excluded in 1
+     75 - Unmodified lines from 2 in 1
