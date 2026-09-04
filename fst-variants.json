@@ -1,0 +1,12 @@
+{
+  "dialects": null,
+  "areas": null,
+  "orthographies": [
+    {
+      "code": "cmro",
+      "has_speller": true,
+      "has_grammar_checker": false
+    }
+  ],
+  "writing_systems": null
+}
